@@ -1,0 +1,33 @@
+# Local stack: the service and the Redis that holds throttle state.
+# `npm run setup` then `docker compose up` gives /health on 8080 and the KDS feed on /kds.
+services:
+  store-connect:
+    build: .
+    ports:
+      - '8080:8080'
+    env_file:
+      - .env
+    environment:
+      THROTTLE_STORE: redis
+      REDIS_URL: redis://redis:6379
+      HOST: 0.0.0.0
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ['CMD', 'wget', '-qO-', 'http://127.0.0.1:8080/ready']
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  redis:
+    image: redis:7-alpine
+    command: ['redis-server', '--save', '', '--appendonly', 'no']
+    ports:
+      - '6379:6379'
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 2s
+      retries: 10

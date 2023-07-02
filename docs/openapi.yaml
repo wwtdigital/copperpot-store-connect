@@ -1,0 +1,125 @@
+openapi: 3.0.3
+info:
+  title: store-connect HTTP routes
+  version: 0.9.0
+  description: >-
+    Health, readiness, metrics and the throttle operator routes. The kitchen
+    display feed is Socket.IO on /kds and is described in docs/architecture.md.
+servers:
+  - url: http://localhost:8080
+paths:
+  /health:
+    get:
+      summary: Process is up
+      responses:
+        '200':
+          description: Service name, version and uptime
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, enum: [ok] }
+                  service: { type: string }
+                  version: { type: string }
+                  uptimeSeconds: { type: integer }
+  /ready:
+    get:
+      summary: Service can take traffic
+      responses:
+        '200':
+          description: Every readiness check passed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Readiness'
+        '503':
+          description: At least one check failed; the checks array names it
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Readiness'
+  /metrics:
+    get:
+      summary: Prometheus exposition
+      responses:
+        '200':
+          description: Text exposition format
+          content:
+            text/plain: {}
+  /throttle:
+    get:
+      summary: Throttle store kind and the current overrides
+      responses:
+        '200':
+          description: Overrides keyed by store id
+  /throttle/{storeId}:
+    parameters:
+      - name: storeId
+        in: path
+        required: true
+        schema: { type: string, pattern: '^[0-9]{3,6}$' }
+    get:
+      summary: Limits in force for a store
+      responses:
+        '200':
+          description: Limits and whether an override applies
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StoreLimits'
+        '400':
+          description: storeId is not 3 to 6 digits
+    put:
+      summary: Set an override for a store
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Limits'
+      responses:
+        '200':
+          description: The override now in force
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StoreLimits'
+        '400':
+          description: Bad store id or limits out of range
+    delete:
+      summary: Clear the override and reset the bucket
+      responses:
+        '200':
+          description: Default limits restored
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StoreLimits'
+components:
+  schemas:
+    Limits:
+      type: object
+      required: [capacity, refillPerMinute]
+      properties:
+        capacity: { type: integer, minimum: 1, maximum: 500 }
+        refillPerMinute: { type: number, minimum: 0, maximum: 500 }
+    StoreLimits:
+      type: object
+      properties:
+        storeId: { type: string }
+        limits: { $ref: '#/components/schemas/Limits' }
+        override: { type: boolean }
+    Readiness:
+      type: object
+      properties:
+        status: { type: string, enum: [ready, not_ready] }
+        service: { type: string }
+        version: { type: string }
+        checks:
+          type: array
+          items:
+            type: object
+            properties:
+              name: { type: string }
+              ok: { type: boolean }
