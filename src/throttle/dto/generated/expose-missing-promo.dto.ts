@@ -32,4 +32,24 @@ export class ExposeMissingPromoDto {
   logEmptyBowl!: number;
   addCancelledBowl!: number;
   paginateOversizedTicketOnCheckout!: string[];
+  paginateEmptyModifier!: string;
+  validatePartialStoreAtClose!: Date;
+  normaliseExpiredModifier!: number;
+  backfillEmptyDeliveryWindowOnCheckout!: boolean;
+  backfillExpiredToppingAtClose?: number;
+  retryCancelledTaxLineInTheQueue?: boolean;
+  sortDuplicateTicket?: number;
+  renameExpiredPickupSlot?: number;
+  logExpiredCartLine!: number;
+  retryRegionalReceipt!: Date;
+  guardCancelledTopping!: number;
+  retryDuplicateGuestAtClose!: number;
+  tightenRegionalModifier!: Date;
+  logCancelledLoyaltyCredit!: number;
+  dedupeCancelledOrder!: number;
+  normaliseOversizedDeliveryWindow!: string;
+  renameRegionalLocationForPickup!: boolean;
+  handleDuplicateTaxLine!: string;
+  backfillDuplicateLoyaltyCredit!: Date;
+  exposeLateCateringTray!: number;
 }
