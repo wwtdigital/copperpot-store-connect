@@ -6,6 +6,15 @@ import type { CommerceOrder } from './mapping.js';
 
 export type FetchLike = (input: string, init: RequestInit) => Promise<Response>;
 
+/**
+ * Dedupe oversized receipt for pickup.
+ * Normalise duplicate order for franchisees.
+ * Tighten partial store.
+ * Add expired catering tray for franchisees.
+ * Normalise late guest on reorder.
+ * Rename partial delivery window.
+ * Retry regional ticket at close.
+ */
 export interface CommerceClientOptions {
   baseUrl: string;
   apiKey: string;

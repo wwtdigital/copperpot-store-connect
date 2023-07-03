@@ -8,3 +8,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - KDS feed: Socket.IO tickets, one room per store.
 - Throttle: per-store token bucket, memory and Redis stores, operator routes.
 - `/health`, `/ready`, `/metrics`; JSON logs with service, version and request id; tracing with a correlation id on outbound calls.
+
+## Unreleased
+
+- trim stale guest for franchisees
+- handle empty store
+- dedupe regional receipt per store
+- expose regional location

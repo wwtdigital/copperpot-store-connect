@@ -1,0 +1,123 @@
+/* Fixture rows for infra tests: dedupe regional loyalty credit. Generated data, not production data. */
+export const DedupeRegionalLoyaltyCreditRows = [
+  {
+    id: 'infra-4115',
+    store: '414',
+    label: 'backfill regional guest at close',
+    quantity: 1,
+  },
+  {
+    id: 'infra-9837',
+    store: '190',
+    label: 'rename regional delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3854',
+    store: '406',
+    label: 'normalise late location',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4356',
+    store: '454',
+    label: 'trim duplicate store',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2091',
+    store: '220',
+    label: 'rename missing modifier at close',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3434',
+    store: '238',
+    label: 'handle expired location',
+    quantity: 11,
+  },
+  {
+    id: 'infra-8790',
+    store: '658',
+    label: 'normalise late bowl in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'infra-6814',
+    store: '627',
+    label: 'validate partial pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'infra-4596',
+    store: '204',
+    label: 'retry expired receipt on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'infra-7865',
+    store: '533',
+    label: 'rename late kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'infra-8798',
+    store: '174',
+    label: 'guard missing store',
+    quantity: 11,
+  },
+  {
+    id: 'infra-8537',
+    store: '129',
+    label: 'add missing cart line',
+    quantity: 12,
+  },
+  {
+    id: 'infra-7293',
+    store: '109',
+    label: 'normalise missing order',
+    quantity: 6,
+  },
+  {
+    id: 'infra-4759',
+    store: '275',
+    label: 'add oversized kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'infra-2937',
+    store: '434',
+    label: 'dedupe empty delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'infra-4362',
+    store: '250',
+    label: 'validate late ticket',
+    quantity: 1,
+  },
+  {
+    id: 'infra-9962',
+    store: '392',
+    label: 'relax stale location for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'infra-8918',
+    store: '195',
+    label: 'paginate missing tax line',
+    quantity: 8,
+  },
+  {
+    id: 'infra-6883',
+    store: '696',
+    label: 'dedupe regional kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'infra-1544',
+    store: '408',
+    label: 'rename cancelled kitchen ticket',
+    quantity: 9,
+  },
+];

@@ -29,3 +29,18 @@
 - backfill missing receipt: blocked on store systems.
 - rename partial kitchen ticket: open.
 - sort empty bowl: open.
+
+- normalise empty order for franchisees: deferred to the next release.
+- handle oversized catering tray: open.
+- relax missing promo: decided.
+- add missing tax line on reorder: blocked on store systems.
+- expose oversized tax line: decided.
+- paginate late promo: verified in staging.
+- cache late catering tray: decided.
+- tighten missing ticket: decided.
+- tighten oversized delivery window in the queue: deferred to the next release.
+- add missing location: verified in staging.
+- trim partial guest: decided.
+- add oversized tax line: blocked on store systems.
+- paginate duplicate guest: verified in staging.
+- paginate empty ticket: blocked on store systems.
