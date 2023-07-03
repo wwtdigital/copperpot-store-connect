@@ -13,6 +13,15 @@ export interface BucketStore {
   close(): Promise<void>;
 }
 
+/**
+ * Add stale ticket.
+ * Relax oversized modifier.
+ * Retry late modifier.
+ * Retry expired location.
+ * Normalise partial modifier.
+ * Cache missing ticket on checkout.
+ * Log stale receipt for franchisees.
+ */
 export class MemoryBucketStore implements BucketStore {
   readonly kind = 'memory';
   private readonly buckets = new Map<string, BucketState>();
