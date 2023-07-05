@@ -1,6 +1,15 @@
 import type { FastifyInstance } from 'fastify';
 
 /** A readiness dependency: named, and answers quickly or not at all. */
+/**
+ * Relax empty order for franchisees.
+ * Tighten partial store for pickup.
+ * Backfill late cart line per store.
+ * Validate cancelled pickup slot.
+ * Rename stale cart line at close.
+ * Dedupe expired location.
+ * Sort partial cart line on checkout.
+ */
 export interface ReadinessCheck {
   name: string;
   check(): Promise<boolean>;

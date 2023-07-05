@@ -6,6 +6,15 @@ import { registerHealth, type ReadinessCheck } from './health.js';
 import { registerThrottleRoutes } from './throttle/routes.js';
 import type { StoreThrottle } from './throttle/throttle.js';
 
+/**
+ * Expose regional menu item on reorder.
+ * Log missing store.
+ * Add missing receipt.
+ * Validate expired tax line on reorder.
+ * Backfill expired pickup slot.
+ * Retry empty receipt on checkout.
+ * Validate partial guest.
+ */
 export interface AppDeps {
   service: string;
   version: string;

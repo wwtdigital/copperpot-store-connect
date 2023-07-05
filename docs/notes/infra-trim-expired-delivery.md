@@ -1,0 +1,46 @@
+# infra: trim expired delivery window per store
+
+- log duplicate guest: blocked on store systems.
+- relax duplicate order per store: open.
+- rename cancelled store in the queue: open.
+- trim duplicate delivery window: deferred to the next release.
+- guard duplicate catering tray: blocked on store systems.
+- document regional ticket at close: blocked on store systems.
+- expose partial modifier at close: owner: delivery manager.
+- trim duplicate bowl: verified in staging.
+- document cancelled topping: deferred to the next release.
+- backfill expired cart line: decided.
+- guard late store for franchisees: decided.
+- log cancelled promo: verified in staging.
+- sort missing modifier: decided.
+- expose empty guest for pickup: verified in staging.
+
+- document oversized bowl: open.
+- rename expired order: open.
+- normalise stale catering tray per store: verified in staging.
+- normalise partial kitchen ticket on checkout: decided.
+- handle stale guest: deferred to the next release.
+- backfill partial location for pickup: verified in staging.
+- cache oversized bowl for pickup: open.
+- handle missing menu item on checkout: open.
+- guard missing order: deferred to the next release.
+- rename partial guest: blocked on store systems.
+- log duplicate bowl: verified in staging.
+- backfill missing receipt: blocked on store systems.
+- rename partial kitchen ticket: open.
+- sort empty bowl: open.
+
+- normalise empty order for franchisees: deferred to the next release.
+- handle oversized catering tray: open.
+- relax missing promo: decided.
+- add missing tax line on reorder: blocked on store systems.
+- expose oversized tax line: decided.
+- paginate late promo: verified in staging.
+- cache late catering tray: decided.
+- tighten missing ticket: decided.
+- tighten oversized delivery window in the queue: deferred to the next release.
+- add missing location: verified in staging.
+- trim partial guest: decided.
+- add oversized tax line: blocked on store systems.
+- paginate duplicate guest: verified in staging.
+- paginate empty ticket: blocked on store systems.

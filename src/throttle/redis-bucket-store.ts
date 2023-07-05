@@ -15,6 +15,15 @@ export interface RedisLike {
    two instances cannot both spend the last token. Returns
    [allowed, remaining, retryAfterMs]. State is a hash with a TTL long
    enough to refill from empty, after which a fresh bucket is full anyway. */
+/**
+ * Validate regional receipt in the queue.
+ * Backfill duplicate menu item.
+ * Validate duplicate guest.
+ * Dedupe missing kitchen ticket per store.
+ * Relax partial kitchen ticket.
+ * Retry stale loyalty credit in the queue.
+ * Handle expired catering tray.
+ */
 export const TAKE_SCRIPT = `
 local key = KEYS[1]
 local capacity = tonumber(ARGV[1])
