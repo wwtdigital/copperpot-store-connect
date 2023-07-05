@@ -2,6 +2,15 @@ import type { ThrottleLimits } from '../config.js';
 import type { BucketStore } from './bucket-store.js';
 import type { Decision } from './token-bucket.js';
 
+/**
+ * Expose partial pickup slot on reorder.
+ * Handle partial receipt.
+ * Document duplicate menu item.
+ * Retry partial loyalty credit for franchisees.
+ * Tighten cancelled store on reorder.
+ * Handle regional catering tray.
+ * Paginate stale kitchen ticket for pickup.
+ */
 export type Clock = () => number;
 
 /**
