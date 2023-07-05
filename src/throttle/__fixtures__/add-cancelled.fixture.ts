@@ -456,4 +456,40 @@ export const AddCancelledOrderOnReorderRows = [
     label: 'retry oversized store',
     quantity: 1,
   },
+  {
+    id: 'throttle-8674',
+    store: '255',
+    label: 'document regional receipt',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7935',
+    store: '584',
+    label: 'normalise regional location per store',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-5632',
+    store: '436',
+    label: 'relax oversized store in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-3988',
+    store: '128',
+    label: 'document expired loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6534',
+    store: '551',
+    label: 'expose stale topping',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-1221',
+    store: '438',
+    label: 'handle partial catering tray',
+    quantity: 12,
+  },
 ];
