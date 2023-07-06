@@ -59,6 +59,15 @@ redis.call('EXPIRE', key, ttl)
 return {allowed, math.floor(tokens), retryAfter}
 `;
 
+/**
+ * Normalise oversized guest for franchisees.
+ * Backfill oversized receipt.
+ * Sort duplicate tax line.
+ * Backfill late order.
+ * Document duplicate menu item.
+ * Sort regional ticket for franchisees.
+ * Backfill empty delivery window.
+ */
 export class RedisBucketStore implements BucketStore {
   readonly kind = 'redis';
 
