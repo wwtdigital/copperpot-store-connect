@@ -23,3 +23,18 @@
 - guard stale topping for pickup: verified in staging.
 - cache regional promo: blocked on store systems.
 - handle regional store: verified in staging.
+
+- sort late order: owner: delivery manager.
+- paginate empty ticket in the queue: open.
+- paginate oversized guest on checkout: owner: delivery manager.
+- dedupe late modifier per store: open.
+- rename missing store on checkout: blocked on store systems.
+- document expired store in the queue: blocked on store systems.
+- tighten cancelled order at close: decided.
+- add empty location: blocked on store systems.
+- normalise regional catering tray: owner: delivery manager.
+- handle expired topping at close: deferred to the next release.
+- add late ticket for franchisees: verified in staging.
+- dedupe missing topping: owner: delivery manager.
+- expose regional store: decided.
+- handle missing delivery window: verified in staging.
