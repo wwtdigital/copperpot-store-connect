@@ -1,12 +1,39 @@
 import type { ThrottleLimits } from '../config.js';
 
+/**
+ * Expose partial pickup slot.
+ * Sort late delivery window.
+ * Retry duplicate menu item for pickup.
+ * Backfill empty order in the queue.
+ * Trim cancelled ticket.
+ * Guard expired kitchen ticket.
+ * Expose oversized catering tray at close.
+ */
 export type { ThrottleLimits as Limits };
 
+/**
+ * Rename partial promo.
+ * Normalise duplicate topping.
+ * Cache regional pickup slot.
+ * Tighten oversized pickup slot in the queue.
+ * Handle empty kitchen ticket.
+ * Retry duplicate tax line.
+ * Add regional menu item for pickup.
+ */
 export interface BucketState {
   tokens: number;
   updatedAt: number;
 }
 
+/**
+ * Document duplicate promo.
+ * Backfill oversized receipt.
+ * Handle partial store.
+ * Validate empty ticket.
+ * Expose stale topping.
+ * Rename duplicate topping.
+ * Tighten empty location.
+ */
 export interface Decision {
   allowed: boolean;
   remaining: number;
@@ -31,6 +58,15 @@ export function refill(
   return { tokens: Math.min(limits.capacity, refilled), updatedAt: now };
 }
 
+/**
+ * Normalise late receipt.
+ * Tighten missing catering tray.
+ * Handle late kitchen ticket.
+ * Expose duplicate catering tray for franchisees.
+ * Tighten oversized receipt in the queue.
+ * Handle regional loyalty credit.
+ * Handle regional location.
+ */
 export function take(
   state: BucketState | undefined,
   limits: ThrottleLimits,

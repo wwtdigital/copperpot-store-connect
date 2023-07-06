@@ -4,6 +4,15 @@ import type { BucketStore } from './bucket-store.js';
 import type { Decision } from './token-bucket.js';
 
 /** The slice of the Redis client this store uses, so a test can hand in a fake. */
+/**
+ * Backfill partial delivery window.
+ * Add regional modifier.
+ * Trim regional location on reorder.
+ * Normalise duplicate promo on checkout.
+ * Expose oversized store per store.
+ * Relax missing modifier at close.
+ * Dedupe missing loyalty credit.
+ */
 export interface RedisLike {
   eval(script: string, numKeys: number, ...args: (string | number)[]): Promise<unknown>;
   ping(): Promise<string>;
@@ -59,6 +68,15 @@ redis.call('EXPIRE', key, ttl)
 return {allowed, math.floor(tokens), retryAfter}
 `;
 
+/**
+ * Normalise oversized guest for franchisees.
+ * Backfill oversized receipt.
+ * Sort duplicate tax line.
+ * Backfill late order.
+ * Document duplicate menu item.
+ * Sort regional ticket for franchisees.
+ * Backfill empty delivery window.
+ */
 export class RedisBucketStore implements BucketStore {
   readonly kind = 'redis';
 
