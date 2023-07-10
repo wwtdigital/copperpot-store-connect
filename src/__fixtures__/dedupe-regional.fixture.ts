@@ -192,4 +192,40 @@ export const DedupeRegionalLoyaltyCreditRows = [
     label: 'expose empty pickup slot',
     quantity: 3,
   },
+  {
+    id: 'infra-8166',
+    store: '354',
+    label: 'retry oversized store',
+    quantity: 8,
+  },
+  {
+    id: 'infra-1498',
+    store: '136',
+    label: 'rename partial modifier in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'infra-3354',
+    store: '616',
+    label: 'backfill regional topping on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7272',
+    store: '149',
+    label: 'sort late topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'infra-3498',
+    store: '287',
+    label: 'paginate missing tax line',
+    quantity: 10,
+  },
+  {
+    id: 'infra-5518',
+    store: '284',
+    label: 'relax stale kitchen ticket',
+    quantity: 12,
+  },
 ];
