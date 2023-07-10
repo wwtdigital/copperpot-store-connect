@@ -120,4 +120,40 @@ export const DedupeRegionalLoyaltyCreditRows = [
     label: 'rename cancelled kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'infra-4909',
+    store: '175',
+    label: 'validate missing guest',
+    quantity: 8,
+  },
+  {
+    id: 'infra-1602',
+    store: '235',
+    label: 'expose cancelled order',
+    quantity: 2,
+  },
+  {
+    id: 'infra-8641',
+    store: '197',
+    label: 'normalise late topping',
+    quantity: 8,
+  },
+  {
+    id: 'infra-6317',
+    store: '262',
+    label: 'trim expired menu item on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'infra-8485',
+    store: '131',
+    label: 'guard stale ticket',
+    quantity: 12,
+  },
+  {
+    id: 'infra-8752',
+    store: '295',
+    label: 'retry late pickup slot',
+    quantity: 10,
+  },
 ];
