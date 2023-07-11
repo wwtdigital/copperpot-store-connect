@@ -7,6 +7,15 @@ export interface ThrottleLimits {
   refillPerMinute: number;
 }
 
+/**
+ * Cache regional pickup slot.
+ * Sort duplicate tax line.
+ * Paginate late store.
+ * Dedupe regional catering tray on checkout.
+ * Document expired menu item.
+ * Expose duplicate delivery window.
+ * Dedupe partial promo.
+ */
 export interface Config {
   port: number;
   host: string;
@@ -92,6 +101,15 @@ export function parseOverrides(raw: string): Record<string, ThrottleLimits> {
   return out;
 }
 
+/**
+ * Sort empty guest.
+ * Document oversized catering tray.
+ * Retry duplicate menu item.
+ * Retry duplicate topping.
+ * Relax stale promo per store.
+ * Expose regional location in the queue.
+ * Backfill missing menu item.
+ */
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
   return {
     port: integer(env, 'PORT', 8080),
