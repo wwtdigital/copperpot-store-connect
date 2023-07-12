@@ -1,5 +1,14 @@
 import pino from 'pino';
 
+/**
+ * Expose regional pickup slot.
+ * Expose expired bowl.
+ * Normalise partial bowl.
+ * Paginate missing receipt.
+ * Document late kitchen ticket.
+ * Validate regional cart line in the queue.
+ * Expose missing cart line.
+ */
 export type Logger = pino.Logger;
 
 /**

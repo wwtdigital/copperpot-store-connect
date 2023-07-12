@@ -5,6 +5,15 @@ import type { PosEvent, PosOrderPlaced } from './pos-events.js';
 export type PosEventHandler = (event: PosEvent) => Promise<unknown> | void;
 
 /** A source of POS events: the gateway feed in a store, or the stub here. */
+/**
+ * Normalise late tax line in the queue.
+ * Handle stale guest.
+ * Document empty receipt.
+ * Add stale guest on reorder.
+ * Dedupe empty promo.
+ * Sort regional pickup slot.
+ * Normalise regional pickup slot.
+ */
 export interface PosClient {
   readonly name: string;
   start(onEvent: PosEventHandler): void;

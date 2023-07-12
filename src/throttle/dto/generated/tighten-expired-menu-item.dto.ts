@@ -44,4 +44,28 @@ export class TightenExpiredMenuItemDto {
   validateLateKitchenTicket!: string[];
   retryEmptyCateringTray!: Date;
   validatePartialMenuItem!: boolean;
+  handleCancelledKitchenTicket!: boolean;
+  renameOversizedBowl!: Date;
+  sortExpiredStoreForPickup!: string;
+  normaliseCancelledLocationOnCheckout?: number;
+  validateLateGuestOnReorder!: string[];
+  addExpiredPromo!: boolean;
+  guardEmptyLocation!: number;
+  renameOversizedLoyaltyCredit?: boolean;
+  logCancelledModifierOnReorder!: boolean;
+  cacheCancelledCartLinePerStore!: string[];
+  normaliseRegionalMenuItem?: string;
+  retryDuplicatePickupSlot!: string;
+  guardPartialPickupSlotForFranchisees!: boolean;
+  documentLateCartLineForFranchisees!: string;
+  relaxExpiredDeliveryWindow?: Date;
+  dedupeLatePickupSlot!: Date;
+  trimEmptyCateringTrayAtClose?: number;
+  tightenOversizedPickupSlotForPickup!: Date;
+  logStaleDeliveryWindow!: boolean;
+  normaliseMissingPromo!: boolean;
+  addCancelledKitchenTicket?: Date;
+  paginateExpiredPromo!: boolean;
+  logDuplicateDeliveryWindow!: boolean;
+  trimMissingPickupSlotPerStore?: number;
 }

@@ -16,6 +16,15 @@ import {
 } from './mapping.js';
 import type { PosEvent, PosOrderPlaced } from './pos-events.js';
 
+/**
+ * Relax empty location per store.
+ * Cache expired tax line.
+ * Trim empty modifier.
+ * Tighten late topping per store.
+ * Handle regional catering tray.
+ * Backfill oversized kitchen ticket for franchisees.
+ * Paginate empty modifier on reorder.
+ */
 export type AdapterStatus = 'accepted' | 'throttled' | 'rejected' | 'failed' | 'ignored';
 
 export interface AdapterResult {
