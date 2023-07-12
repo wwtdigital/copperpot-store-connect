@@ -15,3 +15,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - handle empty store
 - dedupe regional receipt per store
 - expose regional location
+
+## Unreleased
+
+- backfill cancelled ticket on checkout
+- expose late loyalty credit for pickup
+- expose regional delivery window
+- log cancelled guest
