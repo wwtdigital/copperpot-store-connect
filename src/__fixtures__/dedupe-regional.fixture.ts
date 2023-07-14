@@ -156,4 +156,40 @@ export const DedupeRegionalLoyaltyCreditRows = [
     label: 'retry late pickup slot',
     quantity: 10,
   },
+  {
+    id: 'infra-9756',
+    store: '190',
+    label: 'cache partial modifier for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'infra-8011',
+    store: '457',
+    label: 'paginate oversized guest',
+    quantity: 1,
+  },
+  {
+    id: 'infra-5353',
+    store: '139',
+    label: 'paginate cancelled bowl',
+    quantity: 4,
+  },
+  {
+    id: 'infra-2151',
+    store: '559',
+    label: 'add missing topping in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'infra-2326',
+    store: '368',
+    label: 'trim stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'infra-2925',
+    store: '462',
+    label: 'expose empty pickup slot',
+    quantity: 3,
+  },
 ];
