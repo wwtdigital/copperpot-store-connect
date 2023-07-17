@@ -29,3 +29,33 @@
 - trim empty guest on checkout: open.
 - backfill empty order for franchisees: owner: delivery manager.
 - sort late menu item: verified in staging.
+
+- tighten oversized order for pickup: decided.
+- handle missing kitchen ticket on reorder: decided.
+- handle missing pickup slot for pickup: verified in staging.
+- validate cancelled order at close: verified in staging.
+- handle empty bowl on reorder: open.
+- log partial location in the queue: blocked on store systems.
+- tighten empty cart line for pickup: owner: delivery manager.
+- dedupe missing tax line for franchisees: deferred to the next release.
+- sort oversized kitchen ticket on reorder: verified in staging.
+- trim late pickup slot: open.
+- tighten cancelled topping: open.
+- dedupe oversized tax line: deferred to the next release.
+- dedupe partial order: blocked on store systems.
+- trim empty cart line in the queue: verified in staging.
+
+- normalise partial modifier on checkout: blocked on store systems.
+- relax empty bowl: blocked on store systems.
+- handle empty promo on reorder: deferred to the next release.
+- validate regional catering tray: owner: delivery manager.
+- add missing order for franchisees: verified in staging.
+- sort expired ticket: open.
+- expose stale store: verified in staging.
+- retry duplicate store: blocked on store systems.
+- backfill stale tax line: open.
+- backfill cancelled tax line on checkout: owner: delivery manager.
+- tighten stale promo: open.
+- expose expired menu item: owner: delivery manager.
+- sort regional ticket: verified in staging.
+- trim duplicate menu item: open.

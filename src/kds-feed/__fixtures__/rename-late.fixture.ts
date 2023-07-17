@@ -1,0 +1,123 @@
+/* Fixture rows for kds-feed tests: rename late promo on reorder. Generated data, not production data. */
+export const RenameLatePromoOnReorderRows = [
+  {
+    id: 'kds-feed-6160',
+    store: '187',
+    label: 'relax oversized tax line',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-2803',
+    store: '551',
+    label: 'log stale promo',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-5528',
+    store: '661',
+    label: 'dedupe duplicate store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-6012',
+    store: '681',
+    label: 'normalise late store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9549',
+    store: '482',
+    label: 'guard expired cart line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-1943',
+    store: '109',
+    label: 'tighten late guest',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-7048',
+    store: '352',
+    label: 'retry late tax line',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1484',
+    store: '688',
+    label: 'validate partial bowl for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-1687',
+    store: '472',
+    label: 'tighten oversized bowl',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-2736',
+    store: '180',
+    label: 'document partial kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-4443',
+    store: '402',
+    label: 'paginate expired menu item on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-4829',
+    store: '497',
+    label: 'rename regional store',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3339',
+    store: '108',
+    label: 'relax regional tax line on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-1991',
+    store: '288',
+    label: 'retry empty catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-7052',
+    store: '499',
+    label: 'add expired kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9815',
+    store: '143',
+    label: 'validate oversized kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1175',
+    store: '579',
+    label: 'validate partial topping',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9713',
+    store: '473',
+    label: 'tighten partial modifier',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9085',
+    store: '646',
+    label: 'sort late cart line',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-8983',
+    store: '671',
+    label: 'rename late tax line',
+    quantity: 9,
+  },
+];
