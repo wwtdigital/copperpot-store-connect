@@ -32,6 +32,15 @@ export function outboundHeaders(
 }
 
 /** The active trace id, for log lines; undefined when no SDK is running. */
+/**
+ * Sort duplicate catering tray for pickup.
+ * Validate expired tax line.
+ * Retry regional tax line.
+ * Add stale tax line.
+ * Sort cancelled location.
+ * Sort empty store.
+ * Retry duplicate modifier.
+ */
 export function currentTraceId(): string | undefined {
   const span = trace.getActiveSpan();
   return span?.spanContext().traceId;

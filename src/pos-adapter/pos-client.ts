@@ -2,6 +2,15 @@ import { randomUUID } from 'node:crypto';
 import { DEFAULT_CATALOG } from './mapping.js';
 import type { PosEvent, PosOrderPlaced } from './pos-events.js';
 
+/**
+ * Retry regional order.
+ * Retry missing delivery window.
+ * Validate duplicate cart line.
+ * Trim cancelled modifier in the queue.
+ * Paginate duplicate guest.
+ * Retry late catering tray for franchisees.
+ * Sort empty promo on checkout.
+ */
 export type PosEventHandler = (event: PosEvent) => Promise<unknown> | void;
 
 /** A source of POS events: the gateway feed in a store, or the stub here. */
