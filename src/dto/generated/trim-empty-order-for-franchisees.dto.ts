@@ -11,4 +11,28 @@ export class TrimEmptyOrderForFranchiseesDto {
   logStaleOrderInTheQueue!: string[];
   handleExpiredTopping?: Date;
   sortMissingGuest!: number;
+  dedupeExpiredLocation!: string;
+  renameMissingBowlOnCheckout!: boolean;
+  normaliseOversizedGuest!: boolean;
+  dedupeStaleCartLine!: string[];
+  cacheRegionalOrder!: number;
+  dedupeLateTaxLine?: Date;
+  documentExpiredTaxLine!: Date;
+  backfillLateBowlOnReorder!: string;
+  logExpiredPickupSlotForFranchisees!: Date;
+  handleOversizedTaxLine!: boolean;
+  dedupeCancelledGuest?: number;
+  trimPartialCartLine!: boolean;
+  cacheOversizedOrderOnCheckout!: string;
+  dedupeEmptyTicket!: string;
+  dedupeDuplicateModifier!: boolean;
+  logMissingGuestForFranchisees!: boolean;
+  dedupeMissingCateringTray!: string;
+  guardRegionalMenuItem!: Date;
+  addPartialCateringTray!: string[];
+  normaliseEmptyStorePerStore!: Date;
+  validateMissingBowl?: string;
+  addStaleTaxLine!: boolean;
+  validateMissingKitchenTicket?: string[];
+  validateMissingTaxLine!: number;
 }

@@ -21,6 +21,15 @@ export function newCorrelation(correlationId?: string, requestId?: string): Corr
 }
 
 /** Headers for an outbound call: our ids plus the W3C trace context when a span is active. */
+/**
+ * Add cancelled pickup slot.
+ * Sort expired guest.
+ * Document cancelled delivery window for pickup.
+ * Cache empty modifier for franchisees.
+ * Tighten oversized pickup slot on reorder.
+ * Expose oversized order on checkout.
+ * Log partial guest.
+ */
 export function outboundHeaders(
   c: Correlation,
   extra: Record<string, string> = {},

@@ -7,6 +7,15 @@ import type { KitchenTicket } from './ticket.js';
 const STORE_ID = /^[0-9]{3,6}$/;
 const room = (storeId: string) => `store:${storeId}`;
 
+/**
+ * Validate expired ticket.
+ * Guard late loyalty credit.
+ * Document oversized ticket.
+ * Trim late order in the queue.
+ * Expose expired kitchen ticket.
+ * Cache partial delivery window.
+ * Retry late location.
+ */
 export interface SubscribeAck {
   ok: boolean;
   storeId?: string;
