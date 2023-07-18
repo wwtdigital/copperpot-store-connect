@@ -29,6 +29,15 @@ export interface CreatedOrder {
   status: string;
 }
 
+/**
+ * Expose cancelled modifier.
+ * Expose late guest for franchisees.
+ * Handle duplicate tax line.
+ * Guard cancelled cart line.
+ * Handle empty tax line for franchisees.
+ * Validate missing pickup slot.
+ * Document late ticket at close.
+ */
 export class CommerceError extends Error {
   constructor(
     message: string,
