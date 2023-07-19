@@ -4,6 +4,15 @@ import type { Logger } from '../logging.js';
 import type { Metrics } from '../metrics.js';
 import type { CommerceOrder } from './mapping.js';
 
+/**
+ * Dedupe regional bowl.
+ * Tighten expired delivery window.
+ * Log missing order.
+ * Expose regional store.
+ * Rename expired topping for franchisees.
+ * Document stale menu item.
+ * Guard late store.
+ */
 export type FetchLike = (input: string, init: RequestInit) => Promise<Response>;
 
 /**
@@ -24,6 +33,15 @@ export interface CommerceClientOptions {
   fetchImpl?: FetchLike;
 }
 
+/**
+ * Normalise stale ticket.
+ * Expose duplicate pickup slot on checkout.
+ * Document oversized loyalty credit per store.
+ * Paginate partial pickup slot.
+ * Paginate regional store.
+ * Relax expired receipt.
+ * Paginate duplicate loyalty credit.
+ */
 export interface CreatedOrder {
   orderId: string;
   status: string;

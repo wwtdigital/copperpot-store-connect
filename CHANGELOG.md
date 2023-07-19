@@ -22,3 +22,17 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - expose late loyalty credit for pickup
 - expose regional delivery window
 - log cancelled guest
+
+## Unreleased
+
+- tighten stale location
+- backfill expired guest
+- add missing order
+- dedupe partial tax line at close
+
+## Unreleased
+
+- relax late modifier
+- rename empty tax line for pickup
+- handle stale store
+- document regional loyalty credit
