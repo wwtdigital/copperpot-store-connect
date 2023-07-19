@@ -35,4 +35,28 @@ export class TrimEmptyOrderForFranchiseesDto {
   addStaleTaxLine!: boolean;
   validateMissingKitchenTicket?: string[];
   validateMissingTaxLine!: number;
+  cacheEmptyLoyaltyCredit?: number;
+  paginateRegionalDeliveryWindow!: Date;
+  trimCancelledLoyaltyCredit?: string;
+  cacheDuplicatePromoPerStore!: Date;
+  renameEmptyStoreOnCheckout!: string[];
+  paginateMissingModifier?: Date;
+  dedupePartialTicket!: boolean;
+  sortMissingTaxLineOnReorder?: Date;
+  addExpiredCateringTray!: number;
+  guardExpiredBowl!: number;
+  documentLateTicket?: boolean;
+  addRegionalTopping!: number;
+  normaliseOversizedLocation?: number;
+  retryMissingBowl!: string;
+  normaliseDuplicateCateringTrayAtClose!: number;
+  paginateExpiredPromoOnCheckout!: string[];
+  tightenMissingPromoForPickup!: string;
+  handleStaleCateringTrayAtClose?: boolean;
+  exposeMissingTicket!: Date;
+  guardPartialTicket?: number;
+  addMissingMenuItemForFranchisees?: Date;
+  tightenExpiredGuestForPickup!: Date;
+  renameRegionalBowl!: Date;
+  tightenCancelledLocation!: boolean;
 }

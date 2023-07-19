@@ -1,0 +1,123 @@
+/* Fixture rows for infra tests: relax missing menu item. Generated data, not production data. */
+export const RelaxMissingMenuItemRows = [
+  {
+    id: 'infra-1329',
+    store: '194',
+    label: 'log late promo on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'infra-1243',
+    store: '457',
+    label: 'validate cancelled cart line',
+    quantity: 1,
+  },
+  {
+    id: 'infra-6315',
+    store: '501',
+    label: 'relax regional topping on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'infra-8213',
+    store: '298',
+    label: 'add oversized bowl per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-3746',
+    store: '133',
+    label: 'expose partial cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7433',
+    store: '438',
+    label: 'normalise missing location',
+    quantity: 6,
+  },
+  {
+    id: 'infra-5932',
+    store: '351',
+    label: 'cache missing pickup slot for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'infra-1277',
+    store: '261',
+    label: 'cache duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'infra-6740',
+    store: '547',
+    label: 'log oversized ticket',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5711',
+    store: '496',
+    label: 'log stale modifier for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2457',
+    store: '435',
+    label: 'normalise expired modifier on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'infra-4022',
+    store: '197',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3259',
+    store: '640',
+    label: 'rename missing tax line',
+    quantity: 2,
+  },
+  {
+    id: 'infra-1351',
+    store: '653',
+    label: 'tighten empty bowl for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'infra-3652',
+    store: '306',
+    label: 'cache duplicate guest for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'infra-7427',
+    store: '364',
+    label: 'add missing guest',
+    quantity: 7,
+  },
+  {
+    id: 'infra-3514',
+    store: '107',
+    label: 'backfill oversized receipt',
+    quantity: 10,
+  },
+  {
+    id: 'infra-3872',
+    store: '575',
+    label: 'rename expired tax line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-1582',
+    store: '346',
+    label: 'relax regional order',
+    quantity: 3,
+  },
+  {
+    id: 'infra-8049',
+    store: '129',
+    label: 'dedupe stale loyalty credit at close',
+    quantity: 6,
+  },
+];

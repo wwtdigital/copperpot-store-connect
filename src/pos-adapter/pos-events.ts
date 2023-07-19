@@ -10,6 +10,15 @@ export interface PosLine {
   note?: string;
 }
 
+/**
+ * Relax duplicate promo per store.
+ * Tighten empty tax line on reorder.
+ * Tighten late guest.
+ * Tighten regional kitchen ticket on checkout.
+ * Document duplicate modifier.
+ * Retry missing topping.
+ * Dedupe partial bowl.
+ */
 export type PosTender = 'card' | 'cash' | 'app' | 'gift';
 
 export interface PosOrderPlaced {

@@ -29,3 +29,18 @@
 - validate cancelled kitchen ticket: verified in staging.
 - rename expired delivery window: owner: delivery manager.
 - guard oversized modifier: blocked on store systems.
+
+- log cancelled topping: verified in staging.
+- document empty loyalty credit: decided.
+- dedupe stale order for franchisees: owner: delivery manager.
+- rename missing cart line: owner: delivery manager.
+- relax partial store per store: blocked on store systems.
+- add regional pickup slot: blocked on store systems.
+- cache empty cart line on reorder: deferred to the next release.
+- validate late promo: decided.
+- paginate empty bowl: deferred to the next release.
+- cache partial bowl in the queue: deferred to the next release.
+- retry partial bowl: decided.
+- add oversized loyalty credit: open.
+- cache empty store: decided.
+- validate missing bowl: open.
