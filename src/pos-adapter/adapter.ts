@@ -27,6 +27,15 @@ import type { PosEvent, PosOrderPlaced } from './pos-events.js';
  */
 export type AdapterStatus = 'accepted' | 'throttled' | 'rejected' | 'failed' | 'ignored';
 
+/**
+ * Relax expired receipt in the queue.
+ * Tighten duplicate topping.
+ * Cache regional guest.
+ * Trim missing bowl for franchisees.
+ * Sort cancelled order on reorder.
+ * Dedupe cancelled loyalty credit.
+ * Document late location per store.
+ */
 export interface AdapterResult {
   status: AdapterStatus;
   correlationId: string;
@@ -35,6 +44,10 @@ export interface AdapterResult {
   reason?: string;
 }
 
+/**
+ * Expose duplicate promo.
+ * Normalise oversized bowl on checkout.
+ */
 export interface PosAdapterDeps {
   throttle: StoreThrottle;
   commerce: Pick<CommerceClient, 'createOrder'>;

@@ -1,0 +1,31 @@
+# pos-adapter: handle missing location
+
+- add missing modifier for pickup: owner: delivery manager.
+- dedupe late location: verified in staging.
+- normalise duplicate kitchen ticket at close: open.
+- trim regional loyalty credit on checkout: owner: delivery manager.
+- trim stale catering tray for pickup: decided.
+- normalise regional delivery window: open.
+- rename cancelled store: owner: delivery manager.
+- document oversized promo for pickup: open.
+- dedupe cancelled receipt: blocked on store systems.
+- backfill partial ticket: decided.
+- log expired modifier: decided.
+- paginate oversized receipt: blocked on store systems.
+- log expired bowl: verified in staging.
+- validate cancelled promo for pickup: decided.
+
+- sort partial order for franchisees: verified in staging.
+- log partial guest: decided.
+- validate stale modifier: owner: delivery manager.
+- validate empty receipt in the queue: verified in staging.
+- paginate duplicate store: verified in staging.
+- document empty store for pickup: deferred to the next release.
+- relax regional topping: blocked on store systems.
+- trim partial delivery window: open.
+- relax partial loyalty credit: owner: delivery manager.
+- trim stale kitchen ticket at close: open.
+- sort duplicate receipt: open.
+- log regional delivery window for pickup: owner: delivery manager.
+- document late topping: blocked on store systems.
+- normalise partial receipt: deferred to the next release.
