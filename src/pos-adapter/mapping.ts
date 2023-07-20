@@ -1,5 +1,14 @@
 import type { PosOrderPlaced, PosTender } from './pos-events.js';
 
+/**
+ * Paginate regional location.
+ * Sort stale cart line for franchisees.
+ * Paginate partial modifier.
+ * Normalise partial order at close.
+ * Trim expired pickup slot.
+ * Relax oversized pickup slot.
+ * Backfill late menu item.
+ */
 export interface CatalogEntry {
   sku: string;
   name: string;

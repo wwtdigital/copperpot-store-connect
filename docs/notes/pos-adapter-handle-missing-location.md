@@ -14,3 +14,18 @@
 - paginate oversized receipt: blocked on store systems.
 - log expired bowl: verified in staging.
 - validate cancelled promo for pickup: decided.
+
+- sort partial order for franchisees: verified in staging.
+- log partial guest: decided.
+- validate stale modifier: owner: delivery manager.
+- validate empty receipt in the queue: verified in staging.
+- paginate duplicate store: verified in staging.
+- document empty store for pickup: deferred to the next release.
+- relax regional topping: blocked on store systems.
+- trim partial delivery window: open.
+- relax partial loyalty credit: owner: delivery manager.
+- trim stale kitchen ticket at close: open.
+- sort duplicate receipt: open.
+- log regional delivery window for pickup: owner: delivery manager.
+- document late topping: blocked on store systems.
+- normalise partial receipt: deferred to the next release.

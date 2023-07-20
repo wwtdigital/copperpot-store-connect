@@ -78,4 +78,46 @@ export const NormaliseDuplicateModifierRows = [
     label: 'guard cancelled modifier on checkout',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-7278',
+    store: '510',
+    label: 'dedupe regional location',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-3333',
+    store: '351',
+    label: 'retry missing kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8813',
+    store: '228',
+    label: 'expose regional delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9021',
+    store: '409',
+    label: 'dedupe missing cart line at close',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8927',
+    store: '140',
+    label: 'trim stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5887',
+    store: '513',
+    label: 'sort stale delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9982',
+    store: '262',
+    label: 'relax missing delivery window',
+    quantity: 6,
+  },
 ];
