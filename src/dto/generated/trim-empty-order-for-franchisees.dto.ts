@@ -59,4 +59,28 @@ export class TrimEmptyOrderForFranchiseesDto {
   tightenExpiredGuestForPickup!: Date;
   renameRegionalBowl!: Date;
   tightenCancelledLocation!: boolean;
+  cacheMissingPromo!: string[];
+  tightenStaleModifierForFranchisees!: Date;
+  tightenRegionalLocation?: boolean;
+  renameOversizedCateringTray!: string[];
+  addCancelledTicketForPickup!: string;
+  retryRegionalLoyaltyCredit?: string[];
+  relaxOversizedKitchenTicket?: string;
+  backfillOversizedStoreForFranchisees!: boolean;
+  normaliseDuplicateDeliveryWindow!: Date;
+  normaliseDuplicateOrder?: boolean;
+  renameLateTaxLineOnCheckout!: string;
+  dedupeOversizedLocation!: number;
+  sortOversizedTicketPerStore!: number;
+  dedupeDuplicateDeliveryWindow?: Date;
+  sortDuplicateLoyaltyCreditAtClose!: string;
+  retryLateDeliveryWindowForPickup?: number;
+  paginateMissingStore!: string;
+  backfillLateStoreOnReorder!: Date;
+  retryPartialLoyaltyCredit!: number;
+  sortCancelledStore!: Date;
+  relaxCancelledCartLine?: Date;
+  handleDuplicateModifier!: number;
+  addPartialLoyaltyCredit?: Date;
+  backfillDuplicateGuest!: string[];
 }

@@ -4,13 +4,18 @@
 - add late loyalty credit for franchisees: blocked on store systems.
 - relax regional bowl: verified in staging.
 - relax late ticket in the queue: blocked on store systems.
-- handle regional menu item: deferred to the next release.
-- sort late kitchen ticket for pickup: owner: delivery manager.
-- expose partial tax line: deferred to the next release.
-- dedupe stale menu item: blocked on store systems.
-- cache missing ticket: deferred to the next release.
-- validate expired ticket: verified in staging.
-- handle late order: decided.
-- backfill expired kitchen ticket on reorder: verified in staging.
-- cache expired store on reorder: open.
-- tighten oversized receipt: deferred to the next release.
+
+- relax cancelled catering tray: open.
+- guard partial bowl: open.
+- normalise late ticket: blocked on store systems.
+- backfill cancelled tax line: decided.
+- validate regional delivery window: blocked on store systems.
+- cache partial location: verified in staging.
+- log stale ticket per store: owner: delivery manager.
+- retry expired cart line: open.
+- relax cancelled location: owner: delivery manager.
+- handle stale topping per store: deferred to the next release.
+- relax missing cart line for pickup: deferred to the next release.
+- cache missing pickup slot: deferred to the next release.
+- backfill regional ticket: verified in staging.
+- relax partial kitchen ticket: owner: delivery manager.
