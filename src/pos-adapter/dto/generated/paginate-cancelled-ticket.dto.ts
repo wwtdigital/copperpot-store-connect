@@ -50,4 +50,27 @@ export class PaginateCancelledTicketDto {
   logRegionalLoyaltyCreditAtClose?: number;
   sortOversizedReceipt!: Date;
   sortExpiredTopping!: number;
+  handleExpiredMenuItem!: boolean;
+  tightenStaleLocation!: Date;
+  cacheStaleStore!: string[];
+  retryStaleReceipt?: number;
+  exposeEmptyCartLineAtClose?: Date;
+  addPartialReceiptPerStore!: string;
+  cacheLateLocation!: string;
+  trimOversizedMenuItemOnReorder!: string[];
+  guardStaleStore?: string[];
+  documentStaleReceiptInTheQueue!: boolean;
+  logOversizedCartLine!: string[];
+  validateMissingLocation!: boolean;
+  dedupeEmptyBowl!: number;
+  validateCancelledBowl?: Date;
+  trimStaleOrder!: string[];
+  addEmptyOrderForPickup!: number;
+  exposeDuplicateCateringTray?: string;
+  dedupeExpiredReceipt!: string[];
+  trimOversizedPromoOnCheckout!: Date;
+  backfillLateCartLine?: string;
+  paginateCancelledToppingPerStore?: Date;
+  tightenOversizedCateringTray?: boolean;
+  validateStaleLoyaltyCredit?: Date;
 }
