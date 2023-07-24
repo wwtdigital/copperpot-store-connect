@@ -24,4 +24,13 @@ export class CacheStaleMenuItemOnCheckoutDto {
   dedupePartialMenuItem!: string;
   retryLateStore!: number;
   sortOversizedModifierInTheQueue!: number;
+  normaliseOversizedTicket!: Date;
+  addMissingBowl!: string[];
+  addStaleLoyaltyCreditOnReorder?: string[];
+  documentStaleLoyaltyCredit!: Date;
+  trimOversizedOrderOnReorder!: number;
+  guardOversizedDeliveryWindowPerStore!: string[];
+  documentDuplicateCateringTray!: Date;
+  validateExpiredOrder?: number;
+  documentLateCateringTray?: boolean;
 }

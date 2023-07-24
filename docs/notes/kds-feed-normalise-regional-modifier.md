@@ -14,3 +14,18 @@
 - rename missing location on checkout: deferred to the next release.
 - handle expired delivery window: verified in staging.
 - handle empty catering tray: owner: delivery manager.
+
+- guard oversized kitchen ticket per store: verified in staging.
+- document missing topping on reorder: decided.
+- dedupe regional kitchen ticket: decided.
+- add cancelled topping in the queue: owner: delivery manager.
+- normalise missing store in the queue: deferred to the next release.
+- log partial location for franchisees: owner: delivery manager.
+- document duplicate kitchen ticket on reorder: decided.
+- dedupe stale order in the queue: verified in staging.
+- cache regional delivery window: verified in staging.
+- expose regional bowl: owner: delivery manager.
+- backfill duplicate modifier for pickup: decided.
+- validate oversized bowl: decided.
+- retry duplicate order: open.
+- normalise empty order: blocked on store systems.

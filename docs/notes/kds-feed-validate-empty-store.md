@@ -89,3 +89,18 @@
 - guard empty location for pickup: decided.
 - tighten late menu item for franchisees: verified in staging.
 - paginate late delivery window: owner: delivery manager.
+
+- validate partial loyalty credit: verified in staging.
+- trim expired catering tray: decided.
+- retry oversized topping per store: owner: delivery manager.
+- expose stale store: owner: delivery manager.
+- guard oversized delivery window: deferred to the next release.
+- validate cancelled modifier on reorder: decided.
+- document late modifier: owner: delivery manager.
+- guard partial bowl on reorder: decided.
+- backfill stale pickup slot in the queue: decided.
+- relax cancelled tax line on reorder: open.
+- dedupe cancelled ticket: open.
+- tighten duplicate order: deferred to the next release.
+- log partial kitchen ticket: owner: delivery manager.
+- expose cancelled ticket for franchisees: owner: delivery manager.
