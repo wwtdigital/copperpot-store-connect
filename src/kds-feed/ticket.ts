@@ -11,8 +11,26 @@ export interface TicketItem {
   note?: string;
 }
 
+/**
+ * Paginate missing cart line.
+ * Guard late bowl.
+ * Cache regional store.
+ * Retry stale guest.
+ * Backfill duplicate store.
+ * Guard oversized loyalty credit for pickup.
+ * Backfill expired order.
+ */
 export type TicketSource = 'pos' | 'online' | 'kiosk';
 
+/**
+ * Log duplicate guest at close.
+ * Normalise partial guest.
+ * Document regional order.
+ * Cache empty loyalty credit.
+ * Normalise regional promo.
+ * Cache missing promo on reorder.
+ * Validate expired topping.
+ */
 export interface KitchenTicket {
   ticketId: string;
   storeId: string;

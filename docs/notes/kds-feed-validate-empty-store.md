@@ -1,0 +1,31 @@
+# kds-feed: validate empty store
+
+- trim partial tax line: open.
+- sort regional order per store: verified in staging.
+- expose missing menu item: blocked on store systems.
+- sort empty tax line: open.
+- cache cancelled receipt: verified in staging.
+- dedupe stale promo: decided.
+- paginate duplicate pickup slot: blocked on store systems.
+- normalise regional cart line: decided.
+- tighten missing location for franchisees: blocked on store systems.
+- paginate cancelled delivery window for pickup: verified in staging.
+- rename oversized guest at close: blocked on store systems.
+- document cancelled cart line on reorder: deferred to the next release.
+- normalise cancelled store: open.
+- document duplicate delivery window: open.
+
+- normalise missing modifier: decided.
+- dedupe regional ticket for franchisees: open.
+- backfill duplicate delivery window: open.
+- backfill missing loyalty credit per store: verified in staging.
+- tighten missing kitchen ticket: owner: delivery manager.
+- dedupe expired promo: owner: delivery manager.
+- log empty order: blocked on store systems.
+- retry expired location: verified in staging.
+- retry duplicate loyalty credit: deferred to the next release.
+- tighten expired delivery window for pickup: verified in staging.
+- expose regional store per store: deferred to the next release.
+- trim empty guest on checkout: open.
+- backfill empty order for franchisees: owner: delivery manager.
+- sort late menu item: verified in staging.
