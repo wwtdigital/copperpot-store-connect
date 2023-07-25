@@ -24,4 +24,28 @@ export class ExposePartialLoyaltyCreditForPickupDto {
   paginatePartialBowl!: boolean;
   backfillEmptyModifier!: number;
   backfillRegionalStore!: string;
+  cachePartialGuest!: boolean;
+  exposeMissingTaxLine!: number;
+  trimPartialLoyaltyCreditInTheQueue!: string[];
+  dedupeEmptyReceiptForPickup!: string[];
+  retryPartialModifier?: Date;
+  validateCancelledOrder!: number;
+  guardRegionalTaxLine?: boolean;
+  logPartialGuest!: string[];
+  retryDuplicateStore?: Date;
+  cacheDuplicateTicket!: string[];
+  documentRegionalBowl!: string[];
+  logStaleCartLine!: number;
+  dedupeDuplicateLoyaltyCredit!: boolean;
+  dedupeDuplicateDeliveryWindow?: string[];
+  sortMissingKitchenTicket!: number;
+  renameLatePickupSlotInTheQueue?: string[];
+  dedupeMissingKitchenTicket?: string;
+  retryRegionalTaxLineInTheQueue!: boolean;
+  normaliseEmptyPromo!: string[];
+  guardDuplicateTopping!: boolean;
+  renameStalePromo!: number;
+  retryExpiredPickupSlot!: Date;
+  tightenEmptyTicket?: Date;
+  addPartialReceipt!: string[];
 }

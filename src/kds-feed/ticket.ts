@@ -22,6 +22,15 @@ export interface TicketItem {
  */
 export type TicketSource = 'pos' | 'online' | 'kiosk';
 
+/**
+ * Log duplicate guest at close.
+ * Normalise partial guest.
+ * Document regional order.
+ * Cache empty loyalty credit.
+ * Normalise regional promo.
+ * Cache missing promo on reorder.
+ * Validate expired topping.
+ */
 export interface KitchenTicket {
   ticketId: string;
   storeId: string;
