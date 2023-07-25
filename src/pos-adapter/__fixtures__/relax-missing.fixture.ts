@@ -240,4 +240,22 @@ export const RelaxMissingLoyaltyCreditRows = [
     label: 'log missing modifier',
     quantity: 4,
   },
+  {
+    id: 'infra-9430',
+    store: '382',
+    label: 'document empty cart line',
+    quantity: 5,
+  },
+  {
+    id: 'infra-8175',
+    store: '621',
+    label: 'validate missing ticket',
+    quantity: 8,
+  },
+  {
+    id: 'infra-5486',
+    store: '647',
+    label: 'tighten expired location',
+    quantity: 9,
+  },
 ];

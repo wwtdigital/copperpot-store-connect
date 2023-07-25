@@ -42,4 +42,6 @@ export class AddOversizedMenuItemForFranchiseesDto {
   sortLateBowl?: boolean;
   guardPartialBowl?: number;
   logMissingPickupSlot!: boolean;
+  retryCancelledLoyaltyCredit!: boolean;
+  trimOversizedReceiptAtClose?: number;
 }
