@@ -74,3 +74,18 @@
 - trim missing pickup slot for franchisees: owner: delivery manager.
 - rename empty order: deferred to the next release.
 - handle expired receipt: owner: delivery manager.
+
+- guard partial modifier: open.
+- validate regional bowl: decided.
+- relax stale menu item: verified in staging.
+- guard oversized location at close: owner: delivery manager.
+- expose partial tax line for pickup: open.
+- guard duplicate kitchen ticket: blocked on store systems.
+- sort expired menu item on reorder: deferred to the next release.
+- normalise stale loyalty credit: open.
+- validate stale tax line on reorder: open.
+- backfill empty loyalty credit on checkout: blocked on store systems.
+- guard partial guest in the queue: open.
+- guard empty location for pickup: decided.
+- tighten late menu item for franchisees: verified in staging.
+- paginate late delivery window: owner: delivery manager.
