@@ -1,0 +1,123 @@
+/* Fixture rows for kds-feed tests: sort partial loyalty credit. Generated data, not production data. */
+export const SortPartialLoyaltyCreditRows = [
+  {
+    id: 'kds-feed-3214',
+    store: '410',
+    label: 'handle stale receipt',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-1263',
+    store: '496',
+    label: 'validate partial cart line',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-9627',
+    store: '555',
+    label: 'expose expired cart line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6320',
+    store: '675',
+    label: 'guard oversized receipt',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-6845',
+    store: '416',
+    label: 'relax missing cart line',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-9855',
+    store: '175',
+    label: 'normalise cancelled tax line for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5902',
+    store: '542',
+    label: 'relax partial delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2374',
+    store: '222',
+    label: 'cache late promo at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5259',
+    store: '433',
+    label: 'log empty location per store',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-2752',
+    store: '527',
+    label: 'paginate missing loyalty credit for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-6442',
+    store: '155',
+    label: 'add late guest',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-8204',
+    store: '191',
+    label: 'dedupe oversized bowl at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8883',
+    store: '310',
+    label: 'trim expired pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-9457',
+    store: '558',
+    label: 'handle cancelled loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4800',
+    store: '690',
+    label: 'relax regional guest',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-4902',
+    store: '162',
+    label: 'tighten oversized promo',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-2131',
+    store: '590',
+    label: 'paginate empty cart line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-6009',
+    store: '255',
+    label: 'sort late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-1671',
+    store: '642',
+    label: 'cache cancelled cart line on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-2754',
+    store: '571',
+    label: 'dedupe oversized promo on reorder',
+    quantity: 5,
+  },
+];

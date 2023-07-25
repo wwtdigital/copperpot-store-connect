@@ -59,3 +59,18 @@
 - expose expired menu item: owner: delivery manager.
 - sort regional ticket: verified in staging.
 - trim duplicate menu item: open.
+
+- expose late delivery window for pickup: owner: delivery manager.
+- backfill late bowl on reorder: blocked on store systems.
+- trim duplicate menu item per store: decided.
+- handle expired order on checkout: decided.
+- tighten duplicate cart line: verified in staging.
+- cache expired kitchen ticket: open.
+- paginate expired guest: owner: delivery manager.
+- paginate expired modifier: open.
+- retry late loyalty credit at close: decided.
+- tighten cancelled topping for pickup: blocked on store systems.
+- log expired store for franchisees: open.
+- trim missing pickup slot for franchisees: owner: delivery manager.
+- rename empty order: deferred to the next release.
+- handle expired receipt: owner: delivery manager.
