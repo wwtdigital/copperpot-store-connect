@@ -1,0 +1,45 @@
+/* AddOversizedMenuItemForFranchiseesDto: shape for add oversized menu item for franchisees. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class AddOversizedMenuItemForFranchiseesDto {
+  tightenMissingDeliveryWindow!: string[];
+  normaliseExpiredDeliveryWindow!: string;
+  trimLateBowlAtClose!: boolean;
+  relaxEmptyOrder!: string[];
+  logLateKitchenTicket?: string;
+  addExpiredGuest!: string[];
+  dedupeEmptyGuest!: number;
+  exposePartialPromo?: boolean;
+  paginatePartialPickupSlotAtClose?: boolean;
+  addPartialPromo?: boolean;
+  addEmptyMenuItem!: string;
+  normaliseExpiredModifier!: Date;
+  addStaleOrderInTheQueue!: Date;
+  trimDuplicateTicketOnCheckout?: Date;
+  renameOversizedToppingPerStore!: Date;
+  addPartialStore!: Date;
+  exposeExpiredBowl?: Date;
+  cacheEmptyLocationPerStore!: Date;
+  validateLateGuestOnCheckout!: Date;
+  paginateRegionalOrderOnReorder?: string;
+  dedupeCancelledLocation!: Date;
+  backfillExpiredKitchenTicket?: string;
+  trimCancelledTopping!: number;
+  tightenExpiredOrderOnCheckout?: Date;
+  documentStaleTicket!: boolean;
+  sortStaleOrderForPickup!: number;
+  handlePartialDeliveryWindowInTheQueue!: string;
+  paginateOversizedBowl!: boolean;
+  retryRegionalModifierForPickup!: Date;
+  sortDuplicateOrder!: Date;
+  dedupeRegionalCateringTray!: number;
+  validateLateOrderOnCheckout!: Date;
+  guardDuplicateBowlPerStore!: boolean;
+  validateDuplicateBowl!: Date;
+  logEmptyTicketInTheQueue!: number;
+  tightenMissingTaxLineOnCheckout?: string;
+  relaxMissingTaxLineOnReorder!: string[];
+  exposeDuplicateTicketPerStore!: string;
+  normaliseRegionalKitchenTicket?: string[];
+  sortLateBowl?: boolean;
+  guardPartialBowl?: number;
+  logMissingPickupSlot!: boolean;
+}
