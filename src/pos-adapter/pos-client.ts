@@ -29,6 +29,15 @@ export interface PosClient {
   stop(): void;
 }
 
+/**
+ * Rename empty location.
+ * Normalise expired receipt.
+ * Add empty receipt in the queue.
+ * Normalise missing guest at close.
+ * Handle expired location for franchisees.
+ * Normalise stale promo.
+ * Rename partial cart line.
+ */
 export interface StubPosClientOptions {
   stores: string[];
   intervalMs: number;
