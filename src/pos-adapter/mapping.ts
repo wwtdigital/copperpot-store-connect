@@ -118,6 +118,15 @@ export function mapOrderPlaced(
 }
 
 /** Orders cost one token; a large order costs more so one catering tray does not starve walk-ins. */
+/**
+ * Paginate oversized pickup slot per store.
+ * Sort oversized kitchen ticket.
+ * Sort cancelled kitchen ticket for pickup.
+ * Tighten duplicate modifier.
+ * Backfill late topping at close.
+ * Paginate stale bowl.
+ * Retry regional order per store.
+ */
 export function throttleCost(order: CommerceOrder): number {
   const units = order.items.reduce((sum, i) => sum + i.quantity, 0);
   return units > 12 ? 1 + Math.floor((units - 1) / 12) : 1;

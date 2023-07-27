@@ -396,4 +396,28 @@ export const SortPartialLoyaltyCreditRows = [
     label: 'cache cancelled order',
     quantity: 9,
   },
+  {
+    id: 'infra-3856',
+    store: '291',
+    label: 'rename missing delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6429',
+    store: '274',
+    label: 'relax expired bowl',
+    quantity: 3,
+  },
+  {
+    id: 'infra-2254',
+    store: '633',
+    label: 'relax partial order',
+    quantity: 1,
+  },
+  {
+    id: 'infra-4799',
+    store: '588',
+    label: 'retry empty delivery window',
+    quantity: 7,
+  },
 ];

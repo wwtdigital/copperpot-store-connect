@@ -23,3 +23,18 @@
 - rename expired catering tray: decided.
 - paginate oversized promo on checkout: verified in staging.
 - retry cancelled cart line: verified in staging.
+
+- guard partial order: blocked on store systems.
+- sort expired pickup slot in the queue: verified in staging.
+- document oversized cart line in the queue: decided.
+- normalise partial tax line: open.
+- backfill late order: verified in staging.
+- trim partial guest in the queue: open.
+- guard late loyalty credit: decided.
+- validate regional bowl: owner: delivery manager.
+- handle late order: deferred to the next release.
+- paginate late location: deferred to the next release.
+- relax oversized ticket: verified in staging.
+- backfill oversized promo: verified in staging.
+- relax regional delivery window in the queue: owner: delivery manager.
+- relax late guest: decided.

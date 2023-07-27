@@ -24,4 +24,6 @@ export class CacheEmptyReceiptDto {
   addLateMenuItemForFranchisees!: string;
   guardPartialCartLine?: string[];
   cachePartialLocation?: string[];
+  retryEmptyPickupSlot!: Date;
+  logLateModifier!: number;
 }
