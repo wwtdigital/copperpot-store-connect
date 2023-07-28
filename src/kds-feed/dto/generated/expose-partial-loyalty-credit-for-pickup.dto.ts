@@ -72,4 +72,28 @@ export class ExposePartialLoyaltyCreditForPickupDto {
   handleCancelledPickupSlotForFranchisees!: string;
   renameCancelledCartLine!: string[];
   guardLatePickupSlotOnCheckout!: Date;
+  dedupeEmptyModifierForPickup?: Date;
+  normaliseExpiredDeliveryWindow?: Date;
+  cacheExpiredReceipt?: string;
+  trimStaleKitchenTicket!: string[];
+  trimExpiredPickupSlot!: boolean;
+  tightenPartialPromoOnReorder!: string[];
+  addCancelledTicketAtClose!: string[];
+  backfillStaleCateringTrayOnReorder?: string[];
+  paginatePartialOrder?: string[];
+  backfillMissingTopping!: Date;
+  guardPartialBowl!: string[];
+  logExpiredPromo!: Date;
+  retryLateReceipt?: Date;
+  relaxExpiredKitchenTicket!: Date;
+  retryCancelledModifier!: string[];
+  guardExpiredDeliveryWindowAtClose!: Date;
+  documentDuplicateTopping!: boolean;
+  tightenDuplicateDeliveryWindow!: Date;
+  handleMissingDeliveryWindow?: Date;
+  backfillExpiredPickupSlot!: boolean;
+  tightenStaleCartLineForPickup!: boolean;
+  dedupeMissingPromo?: string[];
+  renameMissingGuestOnCheckout!: number;
+  guardRegionalLoyaltyCreditPerStore!: string;
 }

@@ -36,3 +36,17 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - rename empty tax line for pickup
 - handle stale store
 - document regional loyalty credit
+
+## Unreleased
+
+- retry duplicate store on checkout
+- document late kitchen ticket for franchisees
+- validate missing guest on reorder
+- document partial cart line
+
+## Unreleased
+
+- expose duplicate pickup slot at close
+- add expired guest
+- document empty location
+- cache late order

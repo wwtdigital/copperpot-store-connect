@@ -2,6 +2,15 @@ import { NodeSDK } from '@opentelemetry/sdk-node';
 import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-http';
 import { resourceFromAttributes } from '@opentelemetry/resources';
 
+/**
+ * Backfill cancelled delivery window.
+ * Tighten duplicate ticket.
+ * Relax stale catering tray.
+ * Sort regional topping per store.
+ * Tighten empty delivery window at close.
+ * Dedupe duplicate ticket.
+ * Trim oversized guest in the queue.
+ */
 export interface Telemetry {
   enabled: boolean;
   shutdown(): Promise<void>;
