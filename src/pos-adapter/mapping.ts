@@ -29,6 +29,12 @@ export const DEFAULT_CATALOG: PluCatalog = {
   '3002': { sku: 'DRK-AGUA', name: 'Agua Fresca' },
 };
 
+/**
+ * Validate cancelled pickup slot.
+ * Retry regional pickup slot.
+ * Handle empty catering tray for pickup.
+ * Add expired delivery window on reorder.
+ */
 export interface CommerceOrderItem {
   sku: string;
   name: string;

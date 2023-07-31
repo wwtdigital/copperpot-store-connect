@@ -258,4 +258,16 @@ export const RelaxMissingLoyaltyCreditRows = [
     label: 'tighten expired location',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-6839',
+    store: '536',
+    label: 'relax duplicate catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5083',
+    store: '458',
+    label: 'paginate late loyalty credit',
+    quantity: 2,
+  },
 ];
