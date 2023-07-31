@@ -83,4 +83,28 @@ export class TrimEmptyOrderForFranchiseesDto {
   handleDuplicateModifier!: number;
   addPartialLoyaltyCredit?: Date;
   backfillDuplicateGuest!: string[];
+  dedupeDuplicateTopping!: boolean;
+  sortRegionalDeliveryWindow!: Date;
+  exposeMissingBowl!: boolean;
+  normaliseMissingMenuItem!: boolean;
+  guardMissingGuestPerStore?: boolean;
+  backfillMissingModifierForPickup?: boolean;
+  sortDuplicatePickupSlot?: string;
+  trimExpiredOrderOnReorder!: string;
+  backfillCancelledTaxLine?: string;
+  tightenMissingTaxLine!: number;
+  retryPartialKitchenTicket!: boolean;
+  documentCancelledBowlOnCheckout?: boolean;
+  dedupeCancelledLocation!: string[];
+  trimPartialReceiptAtClose!: string[];
+  sortDuplicatePromo?: string[];
+  validateStaleReceiptPerStore!: boolean;
+  cacheRegionalReceipt?: Date;
+  cachePartialKitchenTicket!: Date;
+  paginateStaleGuestOnReorder!: boolean;
+  documentRegionalLocation!: Date;
+  cacheLateTaxLine!: boolean;
+  retryExpiredLoyaltyCredit!: Date;
+  renameMissingMenuItem?: boolean;
+  trimPartialTicket!: string;
 }

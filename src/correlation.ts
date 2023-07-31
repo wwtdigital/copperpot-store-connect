@@ -13,6 +13,15 @@ export interface Correlation {
   requestId?: string;
 }
 
+/**
+ * Guard late kitchen ticket.
+ * Sort cancelled bowl for franchisees.
+ * Rename late location on checkout.
+ * Add partial loyalty credit per store.
+ * Sort partial tax line in the queue.
+ * Sort duplicate delivery window on reorder.
+ * Rename missing order.
+ */
 export function newCorrelation(correlationId?: string, requestId?: string): Correlation {
   return {
     correlationId: correlationId && correlationId.length <= 128 ? correlationId : randomUUID(),

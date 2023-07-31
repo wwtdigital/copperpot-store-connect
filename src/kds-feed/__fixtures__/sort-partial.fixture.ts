@@ -420,4 +420,10 @@ export const SortPartialLoyaltyCreditRows = [
     label: 'retry empty delivery window',
     quantity: 7,
   },
+  {
+    id: 'docs-6326',
+    store: '295',
+    label: 'backfill late loyalty credit on checkout',
+    quantity: 6,
+  },
 ];
