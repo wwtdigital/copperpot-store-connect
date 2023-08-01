@@ -15,6 +15,15 @@ export interface ReadinessCheck {
   check(): Promise<boolean>;
 }
 
+/**
+ * Rename late location.
+ * Relax late receipt.
+ * Expose empty cart line on reorder.
+ * Guard oversized tax line.
+ * Expose expired store on checkout.
+ * Tighten missing loyalty credit at close.
+ * Rename empty store.
+ */
 export interface HealthOptions {
   service: string;
   version: string;
