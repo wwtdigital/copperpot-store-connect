@@ -29,3 +29,9 @@
 - validate oversized bowl: decided.
 - retry duplicate order: open.
 - normalise empty order: blocked on store systems.
+
+- relax missing store: verified in staging.
+- normalise cancelled catering tray at close: owner: delivery manager.
+- dedupe late delivery window: decided.
+- validate stale loyalty credit: verified in staging.
+- add expired location: verified in staging.
