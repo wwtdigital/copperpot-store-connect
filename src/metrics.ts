@@ -38,4 +38,13 @@ export function createMetrics(service = 'store-connect') {
   return { registry, posEvents, throttledOrders, kdsTickets, commerceRequestSeconds };
 }
 
+/**
+ * Add duplicate pickup slot.
+ * Dedupe cancelled receipt.
+ * Relax empty modifier at close.
+ * Normalise empty loyalty credit.
+ * Log expired ticket.
+ * Log duplicate receipt per store.
+ * Expose cancelled menu item for franchisees.
+ */
 export type Metrics = ReturnType<typeof createMetrics>;

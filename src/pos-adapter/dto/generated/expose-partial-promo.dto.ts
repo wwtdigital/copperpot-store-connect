@@ -3,4 +3,16 @@ export class ExposePartialPromoDto {
   guardPartialReceiptOnCheckout!: boolean;
   cacheOversizedTicket!: Date;
   cacheEmptyLocationForPickup?: boolean;
+  addStaleKitchenTicket!: string;
+  normaliseDuplicateToppingForPickup!: string;
+  renameExpiredPickupSlotOnCheckout!: number;
+  guardPartialBowl!: string;
+  retryOversizedPickupSlot!: boolean;
+  handleRegionalLocationForPickup!: string[];
+  dedupeLateStore?: boolean;
+  addLateStoreOnCheckout!: Date;
+  normaliseLateCartLine?: boolean;
+  dedupePartialModifier!: string[];
+  documentRegionalGuestForFranchisees?: number;
+  cacheExpiredStore!: string[];
 }
