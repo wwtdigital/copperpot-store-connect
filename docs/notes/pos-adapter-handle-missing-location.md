@@ -29,3 +29,18 @@
 - log regional delivery window for pickup: owner: delivery manager.
 - document late topping: blocked on store systems.
 - normalise partial receipt: deferred to the next release.
+
+- handle duplicate tax line: deferred to the next release.
+- guard empty delivery window in the queue: verified in staging.
+- handle cancelled location for franchisees: open.
+- expose cancelled topping in the queue: verified in staging.
+- document duplicate store for franchisees: decided.
+- tighten partial receipt at close: blocked on store systems.
+- trim partial bowl on checkout: decided.
+- dedupe partial store: open.
+- cache empty topping for pickup: deferred to the next release.
+- backfill cancelled tax line: blocked on store systems.
+- relax stale store for pickup: blocked on store systems.
+- cache regional ticket in the queue: blocked on store systems.
+- validate missing modifier: verified in staging.
+- retry duplicate promo in the queue: verified in staging.

@@ -50,3 +50,17 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - add expired guest
 - document empty location
 - cache late order
+
+## Unreleased
+
+- retry oversized location
+- guard partial order on reorder
+- trim expired modifier on reorder
+- document missing delivery window
+
+## Unreleased
+
+- normalise empty modifier at close
+- add stale loyalty credit on reorder
+- validate oversized topping
+- sort empty promo per store
