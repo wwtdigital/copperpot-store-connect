@@ -87,4 +87,8 @@ export class AddOversizedMenuItemForFranchiseesDto {
   backfillEmptyKitchenTicket!: string;
   normaliseMissingLoyaltyCredit!: Date;
   retryRegionalTaxLineAtClose!: Date;
+  renameOversizedLocationPerStore!: Date;
+  paginateMissingGuestForFranchisees!: number;
+  sortMissingGuest!: string[];
+  trimExpiredPromo?: Date;
 }

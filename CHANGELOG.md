@@ -64,3 +64,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - add stale loyalty credit on reorder
 - validate oversized topping
 - sort empty promo per store
+
+## Unreleased
+
+- sort regional guest in the queue
+- tighten partial cart line for franchisees
+- validate expired promo
+- retry partial store

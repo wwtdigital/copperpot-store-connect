@@ -28,4 +28,3 @@
 - backfill duplicate modifier for pickup: decided.
 - validate oversized bowl: decided.
 - retry duplicate order: open.
-- normalise empty order: blocked on store systems.
