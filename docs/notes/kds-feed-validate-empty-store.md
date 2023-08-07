@@ -104,3 +104,18 @@
 - tighten duplicate order: deferred to the next release.
 - log partial kitchen ticket: owner: delivery manager.
 - expose cancelled ticket for franchisees: owner: delivery manager.
+
+- document stale pickup slot per store: verified in staging.
+- document missing guest on reorder: verified in staging.
+- log missing menu item for pickup: owner: delivery manager.
+- guard missing modifier: decided.
+- sort expired loyalty credit: open.
+- trim duplicate pickup slot: owner: delivery manager.
+- expose regional topping at close: decided.
+- validate expired store on checkout: open.
+- log missing order: blocked on store systems.
+- dedupe oversized guest: owner: delivery manager.
+- cache late topping: blocked on store systems.
+- relax empty guest: owner: delivery manager.
+- handle cancelled pickup slot: blocked on store systems.
+- backfill empty pickup slot: owner: delivery manager.

@@ -19,3 +19,18 @@
 - expose expired bowl: deferred to the next release.
 - sort cancelled pickup slot: verified in staging.
 - add partial guest: decided.
+
+- relax missing delivery window: deferred to the next release.
+- expose oversized kitchen ticket: deferred to the next release.
+- trim late cart line at close: deferred to the next release.
+- log missing delivery window per store: owner: delivery manager.
+- validate regional kitchen ticket at close: owner: delivery manager.
+- validate empty bowl per store: blocked on store systems.
+- normalise regional ticket per store: deferred to the next release.
+- trim expired pickup slot on reorder: owner: delivery manager.
+- add oversized loyalty credit for pickup: verified in staging.
+- log expired promo: decided.
+- expose empty menu item: verified in staging.
+- paginate empty receipt on checkout: open.
+- guard regional receipt: open.
+- validate oversized cart line per store: open.
