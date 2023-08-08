@@ -12,4 +12,28 @@ export const RetryExpiredDeliveryWindowForFranchiseesRows = [
     label: 'handle oversized menu item',
     quantity: 8,
   },
+  {
+    id: 'docs-5939',
+    store: '420',
+    label: 'relax expired menu item at close',
+    quantity: 11,
+  },
+  {
+    id: 'docs-7985',
+    store: '322',
+    label: 'tighten cancelled promo per store',
+    quantity: 6,
+  },
+  {
+    id: 'docs-1473',
+    store: '226',
+    label: 'retry cancelled kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'docs-3358',
+    store: '511',
+    label: 'expose late guest',
+    quantity: 11,
+  },
 ];
