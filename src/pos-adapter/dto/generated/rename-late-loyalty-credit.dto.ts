@@ -24,4 +24,28 @@ export class RenameLateLoyaltyCreditDto {
   guardCancelledModifierOnReorder!: number;
   cacheCancelledTicketAtClose!: string;
   backfillDuplicateDeliveryWindow!: string;
+  exposeExpiredPickupSlot!: string[];
+  tightenCancelledGuestAtClose?: boolean;
+  retryExpiredOrder!: string;
+  exposeCancelledTaxLineOnReorder?: string[];
+  validateRegionalTaxLineOnCheckout!: Date;
+  logEmptyTopping?: boolean;
+  documentOversizedStore!: string;
+  addOversizedTaxLinePerStore!: string[];
+  retryExpiredGuestOnCheckout!: Date;
+  trimRegionalLocation!: string[];
+  tightenMissingPickupSlot!: boolean;
+  handleStaleGuestForFranchisees!: string;
+  logCancelledPickupSlot!: boolean;
+  renameEmptyOrderInTheQueue!: number;
+  logEmptyTaxLineOnCheckout!: string;
+  exposeCancelledGuestForFranchisees!: string;
+  retryEmptyDeliveryWindow!: string;
+  handleOversizedTaxLineAtClose!: boolean;
+  paginateOversizedOrderInTheQueue!: number;
+  cacheEmptyGuest!: Date;
+  relaxCancelledPickupSlotAtClose?: string[];
+  retryDuplicateReceiptAtClose?: Date;
+  retryEmptyReceipt!: number;
+  paginateRegionalPromo?: number;
 }
