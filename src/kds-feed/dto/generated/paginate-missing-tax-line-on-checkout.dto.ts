@@ -2,4 +2,28 @@
 export class PaginateMissingTaxLineOnCheckoutDto {
   addMissingOrder!: number;
   backfillExpiredTicketAtClose?: number;
+  dedupeStaleBowl?: number;
+  retryRegionalDeliveryWindow?: string[];
+  cacheLateLoyaltyCreditPerStore!: Date;
+  logMissingLoyaltyCreditForPickup!: number;
+  documentStaleReceiptPerStore!: string[];
+  exposeOversizedLoyaltyCredit?: string;
+  trimEmptyReceipt?: Date;
+  retryPartialBowlOnReorder!: number;
+  dedupeStaleCartLinePerStore!: number;
+  normaliseEmptyTicket!: boolean;
+  dedupeStaleTopping!: number;
+  renameLatePickupSlot!: Date;
+  logStalePickupSlotForPickup!: string[];
+  retryPartialLoyaltyCreditAtClose?: string[];
+  dedupeStaleGuestInTheQueue!: string;
+  retryEmptyPickupSlot!: string;
+  exposeExpiredOrder!: number;
+  handleOversizedStoreOnCheckout!: string[];
+  relaxLateReceiptInTheQueue!: boolean;
+  documentStaleLocationForFranchisees!: string[];
+  tightenCancelledCateringTray!: number;
+  tightenMissingKitchenTicketPerStore!: string[];
+  exposeDuplicateReceipt?: string[];
+  paginateLateTicketForPickup!: number;
 }

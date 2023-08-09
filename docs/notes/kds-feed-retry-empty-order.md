@@ -19,3 +19,48 @@
 - expose expired bowl: deferred to the next release.
 - sort cancelled pickup slot: verified in staging.
 - add partial guest: decided.
+
+- relax missing delivery window: deferred to the next release.
+- expose oversized kitchen ticket: deferred to the next release.
+- trim late cart line at close: deferred to the next release.
+- log missing delivery window per store: owner: delivery manager.
+- validate regional kitchen ticket at close: owner: delivery manager.
+- validate empty bowl per store: blocked on store systems.
+- normalise regional ticket per store: deferred to the next release.
+- trim expired pickup slot on reorder: owner: delivery manager.
+- add oversized loyalty credit for pickup: verified in staging.
+- log expired promo: decided.
+- expose empty menu item: verified in staging.
+- paginate empty receipt on checkout: open.
+- guard regional receipt: open.
+- validate oversized cart line per store: open.
+
+- cache stale order: deferred to the next release.
+- paginate expired cart line at close: deferred to the next release.
+- cache partial guest: deferred to the next release.
+- handle stale receipt on reorder: verified in staging.
+- retry expired delivery window in the queue: blocked on store systems.
+- expose empty guest at close: decided.
+- guard regional kitchen ticket: decided.
+- validate stale receipt: open.
+- guard partial loyalty credit: verified in staging.
+- expose late tax line per store: blocked on store systems.
+- handle stale menu item in the queue: open.
+- paginate partial loyalty credit: decided.
+- relax partial pickup slot in the queue: owner: delivery manager.
+- validate missing cart line: open.
+
+- cache late menu item: owner: delivery manager.
+- tighten cancelled receipt: owner: delivery manager.
+- expose empty modifier: decided.
+- expose expired catering tray for franchisees: decided.
+- cache oversized promo per store: owner: delivery manager.
+- expose cancelled menu item per store: owner: delivery manager.
+- trim regional tax line: deferred to the next release.
+- sort stale delivery window: deferred to the next release.
+- log duplicate modifier: open.
+- document empty store: owner: delivery manager.
+- tighten missing topping: decided.
+- backfill duplicate topping at close: open.
+- relax regional pickup slot: open.
+- guard empty order on reorder: verified in staging.

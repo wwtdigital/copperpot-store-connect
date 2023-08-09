@@ -33,4 +33,6 @@ export class CacheStaleMenuItemOnCheckoutDto {
   documentDuplicateCateringTray!: Date;
   validateExpiredOrder?: number;
   documentLateCateringTray?: boolean;
+  retryLateModifier?: number;
+  cacheCancelledBowl?: string[];
 }

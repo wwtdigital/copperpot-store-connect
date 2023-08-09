@@ -71,3 +71,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - tighten partial cart line for franchisees
 - validate expired promo
 - retry partial store
+
+## Unreleased
+
+- sort duplicate cart line at close
+- expose cancelled delivery window
+- trim stale promo
+- tighten empty location
