@@ -72,4 +72,11 @@ export class ValidateEmptyOrderOnCheckoutDto {
   relaxDuplicateReceiptForFranchisees?: string;
   logExpiredKitchenTicketAtClose!: Date;
   renameExpiredTopping?: Date;
+  normaliseLateLoyaltyCredit?: string[];
+  logExpiredGuest!: string[];
+  tightenRegionalBowl!: string[];
+  renameDuplicateModifierOnReorder!: string;
+  guardLateMenuItem?: string[];
+  backfillDuplicateDeliveryWindow!: string;
+  relaxOversizedStorePerStore!: string;
 }
