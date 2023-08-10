@@ -14,3 +14,18 @@
 - trim expired pickup slot for pickup: owner: delivery manager.
 - add missing promo: blocked on store systems.
 - rename late loyalty credit: open.
+
+- guard cancelled guest: open.
+- normalise partial menu item at close: open.
+- document duplicate bowl per store: deferred to the next release.
+- add oversized loyalty credit on checkout: blocked on store systems.
+- normalise cancelled receipt on reorder: decided.
+- cache partial promo on reorder: open.
+- handle cancelled guest on reorder: decided.
+- paginate duplicate location: owner: delivery manager.
+- expose missing receipt: decided.
+- retry late guest on checkout: blocked on store systems.
+- tighten duplicate receipt: decided.
+- add late guest for franchisees: decided.
+- expose duplicate store at close: deferred to the next release.
+- sort regional cart line per store: blocked on store systems.

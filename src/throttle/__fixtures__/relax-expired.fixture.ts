@@ -120,4 +120,22 @@ export const RelaxExpiredTicketRows = [
     label: 'expose expired topping',
     quantity: 6,
   },
+  {
+    id: 'throttle-9968',
+    store: '574',
+    label: 'paginate missing receipt in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-2935',
+    store: '567',
+    label: 'backfill expired menu item on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-1192',
+    store: '261',
+    label: 'relax regional loyalty credit for franchisees',
+    quantity: 3,
+  },
 ];
