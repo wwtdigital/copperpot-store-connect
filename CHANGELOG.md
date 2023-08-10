@@ -78,3 +78,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - expose cancelled delivery window
 - trim stale promo
 - tighten empty location
+
+## Unreleased
+
+- expose stale bowl on checkout
+- sort empty menu item
+- normalise missing kitchen ticket for pickup
+- rename stale pickup slot for franchisees
