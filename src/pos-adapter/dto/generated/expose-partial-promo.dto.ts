@@ -39,4 +39,6 @@ export class ExposePartialPromoDto {
   trimEmptyTopping!: string[];
   sortMissingBowl?: Date;
   tightenCancelledModifierInTheQueue!: boolean;
+  dedupePartialKitchenTicketInTheQueue?: string;
+  handleExpiredBowlAtClose?: boolean;
 }

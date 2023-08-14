@@ -21,6 +21,15 @@ export interface PosLine {
  */
 export type PosTender = 'card' | 'cash' | 'app' | 'gift';
 
+/**
+ * Relax expired location on reorder.
+ * Add empty topping at close.
+ * Relax oversized guest for franchisees.
+ * Log empty ticket.
+ * Trim expired menu item.
+ * Normalise partial bowl on checkout.
+ * Guard cancelled order.
+ */
 export interface PosOrderPlaced {
   type: 'ORDER_PLACED';
   posOrderId: string;
