@@ -552,4 +552,10 @@ export const RetryExpiredDeliveryWindowForFranchiseesRows = [
     label: 'tighten expired bowl for franchisees',
     quantity: 2,
   },
+  {
+    id: 'infra-2166',
+    store: '214',
+    label: 'add cancelled store on checkout',
+    quantity: 5,
+  },
 ];
