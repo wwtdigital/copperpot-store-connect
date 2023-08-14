@@ -80,6 +80,15 @@ export interface CommerceOrder {
   items: CommerceOrderItem[];
 }
 
+/**
+ * Retry partial bowl on reorder.
+ * Backfill duplicate loyalty credit.
+ * Trim missing bowl.
+ * Expose regional receipt per store.
+ * Tighten duplicate menu item per store.
+ * Dedupe oversized guest for franchisees.
+ * Cache missing loyalty credit on checkout.
+ */
 export class MappingError extends Error {
   constructor(
     message: string,

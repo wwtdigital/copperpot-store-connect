@@ -6,4 +6,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'expose empty promo',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-7067',
+    store: '325',
+    label: 'cache expired loyalty credit',
+    quantity: 8,
+  },
 ];
