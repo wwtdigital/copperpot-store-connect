@@ -174,4 +174,10 @@ export const AddOversizedCateringTrayRows = [
     label: 'relax partial promo',
     quantity: 10,
   },
+  {
+    id: 'infra-4158',
+    store: '103',
+    label: 'validate cancelled store in the queue',
+    quantity: 4,
+  },
 ];

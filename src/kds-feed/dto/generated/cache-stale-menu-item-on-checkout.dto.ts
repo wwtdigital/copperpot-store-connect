@@ -35,4 +35,28 @@ export class CacheStaleMenuItemOnCheckoutDto {
   documentLateCateringTray?: boolean;
   retryLateModifier?: number;
   cacheCancelledBowl?: string[];
+  renameRegionalPickupSlotPerStore!: string;
+  relaxOversizedLocation!: Date;
+  normaliseStaleBowlOnReorder!: Date;
+  guardPartialTicket?: string;
+  cacheOversizedKitchenTicket!: string[];
+  documentPartialMenuItem!: number;
+  cacheCancelledOrder!: Date;
+  validateOversizedPickupSlot?: boolean;
+  relaxOversizedStore!: string;
+  sortEmptyTaxLine?: string[];
+  guardEmptyPromoPerStore!: string;
+  retryDuplicateTaxLine!: Date;
+  normaliseRegionalModifier?: string[];
+  exposeDuplicateStore!: string[];
+  retryPartialLocation!: string[];
+  renameLateTaxLine?: string[];
+  validateMissingCateringTrayOnCheckout!: boolean;
+  addRegionalCateringTray!: string;
+  logEmptyPickupSlot!: string[];
+  normalisePartialBowl!: number;
+  tightenLateCartLine?: boolean;
+  renameExpiredGuest!: boolean;
+  exposeCancelledTopping!: boolean;
+  cacheLateCartLine!: string[];
 }
