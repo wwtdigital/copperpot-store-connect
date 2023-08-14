@@ -48,4 +48,10 @@ export class DedupeExpiredModifierInTheQueueDto {
   cacheEmptyTopping?: string[];
   backfillPartialOrderOnCheckout?: number;
   paginateDuplicateLocationOnReorder!: Date;
+  trimDuplicatePromo?: string[];
+  sortDuplicateMenuItem?: Date;
+  relaxExpiredOrder!: boolean;
+  addDuplicateTicketPerStore!: number;
+  handleRegionalGuestPerStore!: boolean;
+  guardDuplicateCateringTrayOnCheckout!: string[];
 }

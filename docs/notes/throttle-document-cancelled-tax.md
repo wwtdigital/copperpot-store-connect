@@ -29,3 +29,11 @@
 - add late guest for franchisees: decided.
 - expose duplicate store at close: deferred to the next release.
 - sort regional cart line per store: blocked on store systems.
+
+- backfill oversized store on checkout: open.
+- cache partial delivery window: owner: delivery manager.
+- paginate late location in the queue: verified in staging.
+- sort expired topping: blocked on store systems.
+- retry partial loyalty credit: verified in staging.
+- validate partial order on reorder: verified in staging.
+- backfill regional guest: owner: delivery manager.
