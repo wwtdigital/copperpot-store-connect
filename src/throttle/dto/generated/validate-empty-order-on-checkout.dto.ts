@@ -159,4 +159,27 @@ export class ValidateEmptyOrderOnCheckoutDto {
   sortStaleMenuItemOnCheckout!: number;
   relaxCancelledReceipt?: boolean;
   handleOversizedModifier!: number;
+  trimEmptyCartLineOnReorder!: boolean;
+  normaliseStaleTaxLine!: number;
+  guardPartialModifierForPickup!: Date;
+  documentCancelledGuest!: string[];
+  renameDuplicateLocation!: string[];
+  guardLateLocationPerStore!: string;
+  documentStaleGuest?: string;
+  trimExpiredCateringTrayPerStore?: string;
+  renameEmptyDeliveryWindow!: number;
+  guardEmptyBowl!: string[];
+  backfillPartialBowl!: number;
+  dedupePartialBowlForPickup!: string[];
+  tightenRegionalGuest?: number;
+  cacheMissingCateringTray?: number;
+  renameMissingCartLineInTheQueue!: boolean;
+  logEmptyReceipt?: boolean;
+  documentPartialCartLine!: string;
+  cacheRegionalGuest!: string;
+  renameExpiredTicket!: number;
+  cacheExpiredBowl!: number;
+  dedupeRegionalModifier!: boolean;
+  paginateCancelledGuestPerStore!: string;
+  normaliseStaleReceipt!: boolean;
 }
