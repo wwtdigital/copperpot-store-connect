@@ -59,4 +59,6 @@ export class CacheStaleMenuItemOnCheckoutDto {
   renameExpiredGuest!: boolean;
   exposeCancelledTopping!: boolean;
   cacheLateCartLine!: string[];
+  backfillLatePromo?: string;
+  logRegionalLocationInTheQueue!: Date;
 }
