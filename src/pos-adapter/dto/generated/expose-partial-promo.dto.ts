@@ -15,4 +15,28 @@ export class ExposePartialPromoDto {
   dedupePartialModifier!: string[];
   documentRegionalGuestForFranchisees?: number;
   cacheExpiredStore!: string[];
+  trimMissingOrder!: number;
+  dedupeRegionalCateringTray!: Date;
+  guardCancelledTopping!: Date;
+  relaxDuplicateCateringTray!: Date;
+  renameExpiredMenuItem!: string[];
+  sortRegionalKitchenTicketForPickup!: Date;
+  backfillOversizedTaxLine?: string[];
+  retryMissingTicketOnReorder?: string[];
+  cacheEmptyDeliveryWindowPerStore!: boolean;
+  validateRegionalCartLine!: string;
+  renameLateModifier!: string;
+  validateRegionalOrder?: Date;
+  dedupeExpiredGuest?: string[];
+  backfillDuplicateLocation?: string[];
+  renameExpiredCartLineInTheQueue?: string;
+  renameOversizedKitchenTicket!: Date;
+  addLateTaxLineForPickup!: string;
+  logCancelledCartLine!: Date;
+  logLateCateringTrayOnReorder!: boolean;
+  dedupeRegionalLoyaltyCredit!: boolean;
+  paginateRegionalOrder?: boolean;
+  trimEmptyTopping!: string[];
+  sortMissingBowl?: Date;
+  tightenCancelledModifierInTheQueue!: boolean;
 }
