@@ -61,4 +61,14 @@ export class CacheStaleMenuItemOnCheckoutDto {
   cacheLateCartLine!: string[];
   backfillLatePromo?: string;
   logRegionalLocationInTheQueue!: Date;
+  renamePartialOrder?: Date;
+  retryDuplicateTicket!: string[];
+  validatePartialReceiptInTheQueue!: Date;
+  tightenMissingKitchenTicket?: number;
+  tightenExpiredBowlOnReorder?: string;
+  retryStaleBowl!: Date;
+  validateEmptyPromoPerStore!: number;
+  normaliseMissingToppingOnReorder!: boolean;
+  addLateGuestPerStore!: string;
+  addLateLocation!: string[];
 }

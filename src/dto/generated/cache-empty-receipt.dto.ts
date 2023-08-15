@@ -26,4 +26,27 @@ export class CacheEmptyReceiptDto {
   cachePartialLocation?: string[];
   retryEmptyPickupSlot!: Date;
   logLateModifier!: number;
+  guardDuplicateStoreOnReorder!: string[];
+  backfillExpiredLocation!: string;
+  cacheLateGuest!: Date;
+  dedupePartialModifier?: number;
+  renameStalePromoForFranchisees!: string;
+  relaxRegionalLoyaltyCreditInTheQueue!: number;
+  paginateLateMenuItem!: string[];
+  retryEmptyLocation!: number;
+  backfillEmptyPickupSlotPerStore?: boolean;
+  guardCancelledDeliveryWindowOnCheckout?: boolean;
+  guardStalePickupSlot?: string[];
+  renameStaleLocation!: string[];
+  validateOversizedCateringTrayOnReorder!: string[];
+  backfillPartialLoyaltyCredit!: string[];
+  documentLateCartLine?: Date;
+  guardOversizedPromo?: boolean;
+  tightenMissingBowl!: number;
+  retryStaleGuestOnCheckout?: Date;
+  relaxStaleTaxLineOnCheckout?: string[];
+  retryMissingBowl!: string[];
+  cacheCancelledPickupSlot?: string;
+  sortMissingStore?: boolean;
+  handleExpiredReceiptOnCheckout?: string;
 }
