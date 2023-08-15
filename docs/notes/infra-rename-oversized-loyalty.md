@@ -18,3 +18,18 @@
 - guard partial kitchen ticket: blocked on store systems.
 - add oversized bowl: verified in staging.
 - cache missing ticket: owner: delivery manager.
+
+- sort cancelled delivery window on reorder: open.
+- normalise stale bowl on reorder: open.
+- tighten missing bowl: owner: delivery manager.
+- sort missing cart line for franchisees: decided.
+- normalise expired store: blocked on store systems.
+- validate partial store: open.
+- expose duplicate bowl: decided.
+- sort missing menu item for franchisees: verified in staging.
+- log stale pickup slot on checkout: verified in staging.
+- handle missing kitchen ticket at close: open.
+- sort partial pickup slot: deferred to the next release.
+- tighten partial delivery window per store: owner: delivery manager.
+- handle oversized guest: open.
+- handle missing promo for pickup: verified in staging.

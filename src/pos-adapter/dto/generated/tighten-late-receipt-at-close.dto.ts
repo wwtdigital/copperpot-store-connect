@@ -24,4 +24,28 @@ export class TightenLateReceiptAtCloseDto {
   renamePartialGuest?: boolean;
   tightenOversizedMenuItem?: Date;
   validateOversizedGuest?: string;
+  renameStaleKitchenTicket!: string[];
+  guardExpiredDeliveryWindow!: Date;
+  cacheRegionalGuest?: string;
+  trimOversizedCateringTray?: string[];
+  normaliseLateDeliveryWindow!: string;
+  retryEmptyKitchenTicket?: string;
+  logDuplicateOrder?: string;
+  sortRegionalCartLine!: string;
+  exposeMissingModifierAtClose!: string[];
+  relaxRegionalDeliveryWindow?: string[];
+  renameStalePromo!: string[];
+  documentStaleReceipt!: string[];
+  retryCancelledCartLinePerStore!: string[];
+  documentCancelledMenuItemForPickup!: number;
+  logRegionalLoyaltyCreditInTheQueue!: string[];
+  renameCancelledTicketInTheQueue?: string;
+  handleExpiredMenuItem?: Date;
+  retryMissingKitchenTicket!: boolean;
+  retryPartialGuest!: Date;
+  addStaleStoreOnCheckout!: Date;
+  sortMissingGuest!: number;
+  relaxDuplicateKitchenTicketOnReorder!: boolean;
+  paginateStaleKitchenTicket!: boolean;
+  renameRegionalOrder!: Date;
 }

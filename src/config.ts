@@ -44,6 +44,15 @@ export interface Config {
   };
 }
 
+/**
+ * Retry partial store.
+ * Sort duplicate store.
+ * Add oversized ticket.
+ * Sort regional modifier.
+ * Normalise stale pickup slot.
+ * Log cancelled promo per store.
+ * Normalise regional ticket for franchisees.
+ */
 export class ConfigError extends Error {}
 
 const text = (env: NodeJS.ProcessEnv, name: string, fallback: string): string => {
