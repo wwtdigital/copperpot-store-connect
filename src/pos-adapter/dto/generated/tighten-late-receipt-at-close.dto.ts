@@ -48,4 +48,18 @@ export class TightenLateReceiptAtCloseDto {
   relaxDuplicateKitchenTicketOnReorder!: boolean;
   paginateStaleKitchenTicket!: boolean;
   renameRegionalOrder!: Date;
+  trimOversizedModifierAtClose?: Date;
+  cacheCancelledTaxLineForPickup!: Date;
+  dedupeDuplicateKitchenTicket!: string;
+  logRegionalToppingForPickup?: boolean;
+  backfillEmptyDeliveryWindowAtClose?: number;
+  relaxLateTaxLine!: number;
+  exposeCancelledCartLineOnReorder?: string[];
+  relaxStaleLoyaltyCredit!: number;
+  sortPartialPickupSlot!: boolean;
+  trimPartialTicketForPickup!: string[];
+  cacheEmptyMenuItem!: boolean;
+  trimDuplicateDeliveryWindowForFranchisees!: string[];
+  dedupeCancelledPromoInTheQueue!: boolean;
+  logEmptyGuest!: string;
 }

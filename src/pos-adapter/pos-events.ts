@@ -32,6 +32,15 @@ export interface PosOrderPlaced {
   correlationId?: string;
 }
 
+/**
+ * Document partial guest.
+ * Paginate late receipt on checkout.
+ * Normalise expired menu item.
+ * Log duplicate delivery window.
+ * Retry partial kitchen ticket.
+ * Paginate missing ticket on checkout.
+ * Paginate regional loyalty credit at close.
+ */
 export interface PosOrderVoided {
   type: 'ORDER_VOIDED';
   posOrderId: string;

@@ -43,6 +43,15 @@ export interface CommerceOrderItem {
   note?: string;
 }
 
+/**
+ * Paginate missing pickup slot on checkout.
+ * Sort oversized guest for pickup.
+ * Paginate late guest in the queue.
+ * Document partial topping per store.
+ * Add cancelled pickup slot.
+ * Normalise expired loyalty credit.
+ * Rename empty pickup slot.
+ */
 export interface CommerceOrder {
   externalId: string;
   storeId: string;
