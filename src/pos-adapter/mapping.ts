@@ -15,8 +15,26 @@ export interface CatalogEntry {
 }
 
 /** PLU to SKU. The real table comes from the menu service; this is the subset every store carries. */
+/**
+ * Normalise partial delivery window.
+ * Expose regional menu item.
+ * Cache duplicate order.
+ * Tighten stale tax line.
+ * Backfill regional ticket on checkout.
+ * Document missing modifier.
+ * Backfill empty modifier.
+ */
 export type PluCatalog = Record<string, CatalogEntry>;
 
+/**
+ * Document partial cart line.
+ * Handle empty receipt.
+ * Validate regional tax line.
+ * Expose partial kitchen ticket.
+ * Rename partial order per store.
+ * Tighten late receipt per store.
+ * Rename expired order.
+ */
 export const DEFAULT_CATALOG: PluCatalog = {
   '1001': { sku: 'BOWL-CHK-CHIP', name: 'Chipotle Chicken Bowl' },
   '1002': { sku: 'BOWL-STK', name: 'Steak Bowl' },
@@ -43,6 +61,15 @@ export interface CommerceOrderItem {
   note?: string;
 }
 
+/**
+ * Paginate missing pickup slot on checkout.
+ * Sort oversized guest for pickup.
+ * Paginate late guest in the queue.
+ * Document partial topping per store.
+ * Add cancelled pickup slot.
+ * Normalise expired loyalty credit.
+ * Rename empty pickup slot.
+ */
 export interface CommerceOrder {
   externalId: string;
   storeId: string;
@@ -53,6 +80,15 @@ export interface CommerceOrder {
   items: CommerceOrderItem[];
 }
 
+/**
+ * Retry partial bowl on reorder.
+ * Backfill duplicate loyalty credit.
+ * Trim missing bowl.
+ * Expose regional receipt per store.
+ * Tighten duplicate menu item per store.
+ * Dedupe oversized guest for franchisees.
+ * Cache missing loyalty credit on checkout.
+ */
 export class MappingError extends Error {
   constructor(
     message: string,
