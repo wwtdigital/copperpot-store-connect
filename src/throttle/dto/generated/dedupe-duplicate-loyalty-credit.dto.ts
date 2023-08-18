@@ -48,4 +48,27 @@ export class DedupeDuplicateLoyaltyCreditDto {
   sortCancelledLoyaltyCreditInTheQueue!: number;
   logOversizedCateringTray?: boolean;
   cacheStalePickupSlotForFranchisees!: boolean;
+  guardExpiredStore!: Date;
+  documentPartialReceipt?: number;
+  logRegionalPickupSlot!: string[];
+  sortLateStore?: number;
+  tightenOversizedOrder!: Date;
+  renameCancelledGuest!: string;
+  normaliseExpiredLoyaltyCredit?: string;
+  cacheOversizedCartLine!: string;
+  renameStaleCateringTrayForFranchisees!: string;
+  exposeCancelledTaxLine!: string[];
+  addStalePromo!: Date;
+  documentRegionalPromo?: number;
+  tightenPartialCateringTray!: string;
+  normaliseEmptyGuestAtClose!: Date;
+  handleDuplicateKitchenTicketPerStore!: string[];
+  documentMissingPromo!: string;
+  cacheCancelledDeliveryWindowAtClose!: string[];
+  documentRegionalCateringTrayInTheQueue?: boolean;
+  relaxDuplicateTaxLine!: Date;
+  tightenExpiredLoyaltyCreditOnCheckout?: number;
+  retryEmptyDeliveryWindowOnCheckout!: number;
+  handleExpiredCartLine!: Date;
+  trimOversizedKitchenTicket!: number;
 }

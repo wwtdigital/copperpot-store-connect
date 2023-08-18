@@ -85,3 +85,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - sort empty menu item
 - normalise missing kitchen ticket for pickup
 - rename stale pickup slot for franchisees
+
+## Unreleased
+
+- relax duplicate receipt at close
+- cache missing loyalty credit
+- cache regional order
+- dedupe oversized menu item

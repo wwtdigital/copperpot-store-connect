@@ -234,4 +234,46 @@ export const RelaxExpiredTicketRows = [
     label: 'rename regional cart line',
     quantity: 11,
   },
+  {
+    id: 'throttle-7109',
+    store: '135',
+    label: 'rename cancelled loyalty credit at close',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-6402',
+    store: '293',
+    label: 'validate oversized modifier',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-2180',
+    store: '628',
+    label: 'paginate cancelled modifier',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-5897',
+    store: '115',
+    label: 'guard cancelled store',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-4206',
+    store: '646',
+    label: 'tighten duplicate tax line on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-9961',
+    store: '192',
+    label: 'paginate expired receipt',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4109',
+    store: '114',
+    label: 'sort partial cart line',
+    quantity: 5,
+  },
 ];
