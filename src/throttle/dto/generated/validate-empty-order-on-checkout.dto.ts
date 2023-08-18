@@ -124,4 +124,21 @@ export class ValidateEmptyOrderOnCheckoutDto {
   tightenOversizedModifier?: string[];
   trimMissingDeliveryWindowForFranchisees!: boolean;
   dedupePartialTicketOnCheckout?: string;
+  relaxOversizedMenuItem!: string[];
+  relaxRegionalBowlAtClose!: string[];
+  paginateMissingLoyaltyCredit!: string;
+  guardCancelledKitchenTicket!: number;
+  sortEmptyPromo!: Date;
+  normalisePartialMenuItem!: boolean;
+  backfillCancelledLoyaltyCredit?: boolean;
+  documentExpiredDeliveryWindowForFranchisees!: boolean;
+  renameLateDeliveryWindow!: Date;
+  tightenDuplicateKitchenTicket!: number;
+  documentRegionalOrderInTheQueue!: string[];
+  handleOversizedCateringTrayForFranchisees?: number;
+  paginateMissingModifier?: number;
+  dedupeExpiredDeliveryWindow!: string;
+  tightenMissingReceipt!: string[];
+  backfillDuplicateModifier!: string[];
+  logLateKitchenTicket!: string;
 }

@@ -1,0 +1,123 @@
+/* Fixture rows for throttle tests: relax expired ticket. Generated data, not production data. */
+export const RelaxExpiredTicketRows = [
+  {
+    id: 'throttle-1233',
+    store: '354',
+    label: 'guard empty ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6815',
+    store: '558',
+    label: 'document missing promo in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-2061',
+    store: '234',
+    label: 'relax late topping for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-2369',
+    store: '221',
+    label: 'cache empty order for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-3774',
+    store: '479',
+    label: 'relax oversized order',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-7802',
+    store: '190',
+    label: 'trim late ticket for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-5616',
+    store: '666',
+    label: 'backfill regional modifier in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-8299',
+    store: '333',
+    label: 'trim partial location for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-2914',
+    store: '427',
+    label: 'sort late cart line',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-3779',
+    store: '162',
+    label: 'handle expired delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-2344',
+    store: '526',
+    label: 'guard empty bowl',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-1266',
+    store: '504',
+    label: 'handle late store at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3488',
+    store: '495',
+    label: 'paginate expired receipt',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-3650',
+    store: '204',
+    label: 'add regional pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-9616',
+    store: '243',
+    label: 'document cancelled kitchen ticket for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-6256',
+    store: '284',
+    label: 'validate partial pickup slot for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-8839',
+    store: '299',
+    label: 'tighten duplicate bowl at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3733',
+    store: '499',
+    label: 'guard late receipt',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-4852',
+    store: '484',
+    label: 'log partial loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-3524',
+    store: '678',
+    label: 'expose expired topping',
+    quantity: 6,
+  },
+];
