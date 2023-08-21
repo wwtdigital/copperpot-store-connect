@@ -282,4 +282,28 @@ export const RelaxExpiredTicketRows = [
     label: 'document duplicate delivery window',
     quantity: 9,
   },
+  {
+    id: 'infra-4882',
+    store: '327',
+    label: 'trim partial kitchen ticket for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'infra-4893',
+    store: '648',
+    label: 'guard duplicate order',
+    quantity: 10,
+  },
+  {
+    id: 'infra-9599',
+    store: '373',
+    label: 'backfill cancelled location for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'infra-2958',
+    store: '425',
+    label: 'normalise duplicate catering tray',
+    quantity: 7,
+  },
 ];
