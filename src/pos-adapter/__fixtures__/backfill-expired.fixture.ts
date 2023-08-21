@@ -30,4 +30,22 @@ export const BackfillExpiredCateringTrayOnReorderRows = [
     label: 'trim partial topping',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-9881',
+    store: '541',
+    label: 'sort oversized menu item',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2075',
+    store: '385',
+    label: 'retry regional catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-5481',
+    store: '325',
+    label: 'guard oversized tax line',
+    quantity: 10,
+  },
 ];

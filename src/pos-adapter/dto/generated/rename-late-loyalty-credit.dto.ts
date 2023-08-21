@@ -72,4 +72,24 @@ export class RenameLateLoyaltyCreditDto {
   handleEmptyReceipt!: number;
   validateLateLoyaltyCreditPerStore!: boolean;
   normaliseOversizedReceiptOnCheckout?: Date;
+  trimLateOrderForFranchisees?: number;
+  normaliseLateDeliveryWindow!: string;
+  normaliseMissingStore?: string;
+  tightenRegionalDeliveryWindowAtClose!: Date;
+  cacheRegionalModifier!: boolean;
+  renameMissingModifier!: number;
+  logExpiredTaxLine?: Date;
+  sortStaleBowl!: Date;
+  renameEmptyModifier!: string[];
+  documentExpiredPickupSlot!: boolean;
+  relaxEmptyCartLine!: Date;
+  guardExpiredKitchenTicket!: boolean;
+  renameStaleKitchenTicketAtClose?: string[];
+  relaxOversizedPromoForPickup!: number;
+  addStalePickupSlotPerStore?: string;
+  renameDuplicateOrder?: string[];
+  trimPartialBowl?: number;
+  normaliseOversizedPickupSlot?: string[];
+  relaxLateTicket!: string;
+  trimMissingMenuItem!: boolean;
 }
