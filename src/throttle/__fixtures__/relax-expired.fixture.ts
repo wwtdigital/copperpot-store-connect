@@ -276,4 +276,10 @@ export const RelaxExpiredTicketRows = [
     label: 'sort partial cart line',
     quantity: 5,
   },
+  {
+    id: 'infra-8700',
+    store: '677',
+    label: 'document duplicate delivery window',
+    quantity: 9,
+  },
 ];
