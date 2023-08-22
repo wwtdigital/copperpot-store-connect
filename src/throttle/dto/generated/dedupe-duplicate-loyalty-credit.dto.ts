@@ -71,4 +71,16 @@ export class DedupeDuplicateLoyaltyCreditDto {
   retryEmptyDeliveryWindowOnCheckout!: number;
   handleExpiredCartLine!: Date;
   trimOversizedKitchenTicket!: number;
+  exposeLateDeliveryWindow?: Date;
+  validatePartialKitchenTicket!: Date;
+  cachePartialCartLineAtClose?: Date;
+  retryLateLoyaltyCredit!: string;
+  logLateModifier?: string[];
+  documentStaleModifier?: boolean;
+  addMissingPromo!: string[];
+  dedupePartialTaxLine!: boolean;
+  retryExpiredMenuItemForPickup!: number;
+  normaliseOversizedBowlPerStore!: boolean;
+  addLateBowl!: string[];
+  documentMissingReceiptOnReorder!: boolean;
 }

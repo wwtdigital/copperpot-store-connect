@@ -372,4 +372,16 @@ export const RelaxLateOrderRows = [
     label: 'dedupe late store',
     quantity: 8,
   },
+  {
+    id: 'infra-5386',
+    store: '528',
+    label: 'sort duplicate location on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'infra-2936',
+    store: '346',
+    label: 'sort cancelled receipt',
+    quantity: 8,
+  },
 ];

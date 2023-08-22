@@ -49,4 +49,6 @@ export class CacheEmptyReceiptDto {
   cacheCancelledPickupSlot?: string;
   sortMissingStore?: boolean;
   handleExpiredReceiptOnCheckout?: string;
+  retryOversizedLoyaltyCredit!: Date;
+  trimEmptyMenuItem!: boolean;
 }

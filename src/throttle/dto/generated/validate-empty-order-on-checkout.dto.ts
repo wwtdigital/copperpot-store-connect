@@ -182,4 +182,5 @@ export class ValidateEmptyOrderOnCheckoutDto {
   dedupeRegionalModifier!: boolean;
   paginateCancelledGuestPerStore!: string;
   normaliseStaleReceipt!: boolean;
+  documentOversizedTicketForPickup!: number;
 }

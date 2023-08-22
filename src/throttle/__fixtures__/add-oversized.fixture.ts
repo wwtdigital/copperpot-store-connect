@@ -546,4 +546,28 @@ export const AddOversizedCateringTrayRows = [
     label: 'sort expired modifier for pickup',
     quantity: 3,
   },
+  {
+    id: 'infra-5929',
+    store: '374',
+    label: 'relax expired pickup slot for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'infra-4106',
+    store: '278',
+    label: 'paginate late catering tray per store',
+    quantity: 8,
+  },
+  {
+    id: 'infra-4339',
+    store: '676',
+    label: 'trim expired tax line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-5913',
+    store: '320',
+    label: 'sort missing tax line',
+    quantity: 2,
+  },
 ];

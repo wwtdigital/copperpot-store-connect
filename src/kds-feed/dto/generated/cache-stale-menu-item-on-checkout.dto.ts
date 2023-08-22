@@ -71,4 +71,14 @@ export class CacheStaleMenuItemOnCheckoutDto {
   normaliseMissingToppingOnReorder!: boolean;
   addLateGuestPerStore!: string;
   addLateLocation!: string[];
+  validateCancelledPickupSlotForPickup!: number;
+  tightenMissingBowl!: string;
+  backfillOversizedDeliveryWindowForPickup!: string;
+  addRegionalMenuItem!: string;
+  documentMissingStore!: string;
+  normaliseExpiredModifierInTheQueue!: boolean;
+  handleOversizedKitchenTicketForPickup!: string[];
+  documentDuplicateBowl?: boolean;
+  addRegionalTicketForPickup!: boolean;
+  handleLateTopping!: number;
 }
