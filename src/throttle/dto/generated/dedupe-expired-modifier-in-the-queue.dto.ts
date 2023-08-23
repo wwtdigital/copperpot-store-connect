@@ -54,4 +54,28 @@ export class DedupeExpiredModifierInTheQueueDto {
   addDuplicateTicketPerStore!: number;
   handleRegionalGuestPerStore!: boolean;
   guardDuplicateCateringTrayOnCheckout!: string[];
+  paginateEmptyLocation!: Date;
+  sortCancelledTopping!: boolean;
+  addOversizedLocation!: Date;
+  backfillPartialPickupSlot?: boolean;
+  renameCancelledTicketPerStore!: Date;
+  sortMissingTicketForPickup!: string[];
+  sortMissingModifier?: number;
+  handleEmptyReceipt?: string[];
+  normaliseRegionalOrderPerStore!: string[];
+  exposeExpiredTicket!: Date;
+  retryDuplicateCartLine!: number;
+  dedupeExpiredCateringTray!: string[];
+  backfillExpiredMenuItemOnReorder!: string[];
+  validateDuplicateGuest!: string[];
+  handleStalePickupSlot!: string[];
+  dedupeExpiredTicket!: string[];
+  normalisePartialPickupSlot!: number;
+  tightenCancelledCartLine?: string;
+  trimEmptyModifier?: string[];
+  paginateEmptyKitchenTicket!: Date;
+  documentDuplicateStoreAtClose!: number;
+  relaxOversizedTaxLine?: boolean;
+  relaxRegionalCateringTray!: number;
+  relaxLateGuest?: Date;
 }

@@ -30,4 +30,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'retry late location on checkout',
     quantity: 2,
   },
+  {
+    id: 'docs-4490',
+    store: '421',
+    label: 'relax cancelled menu item for franchisees',
+    quantity: 9,
+  },
 ];

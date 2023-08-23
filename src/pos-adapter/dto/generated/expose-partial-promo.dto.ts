@@ -76,4 +76,6 @@ export class ExposePartialPromoDto {
   dedupeExpiredTaxLineAtClose?: Date;
   dedupeEmptyTaxLineOnCheckout!: string[];
   trimCancelledTicketInTheQueue!: string[];
+  trimStaleGuest!: Date;
+  normaliseExpiredPromoPerStore!: string[];
 }
