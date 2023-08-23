@@ -48,4 +48,22 @@ export const BackfillExpiredCateringTrayOnReorderRows = [
     label: 'guard oversized tax line',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-7767',
+    store: '103',
+    label: 'document expired ticket for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3749',
+    store: '407',
+    label: 'dedupe late order',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4884',
+    store: '174',
+    label: 'tighten expired cart line in the queue',
+    quantity: 3,
+  },
 ];

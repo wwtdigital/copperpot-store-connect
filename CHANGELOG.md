@@ -96,3 +96,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 ## Unreleased
 
 - document empty promo
+
+## Unreleased
+
+- trim oversized guest on checkout
+- validate expired location
+- handle empty topping
+- normalise late bowl

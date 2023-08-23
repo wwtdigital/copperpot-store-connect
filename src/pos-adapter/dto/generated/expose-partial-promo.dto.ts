@@ -55,4 +55,25 @@ export class ExposePartialPromoDto {
   tightenEmptyPromo!: string;
   relaxStaleTopping!: boolean;
   documentExpiredKitchenTicketForPickup?: Date;
+  paginateCancelledCartLineForPickup!: string[];
+  exposeStaleBowl?: Date;
+  normaliseDuplicateCartLine!: boolean;
+  paginateDuplicateStore!: string;
+  guardDuplicateTaxLineAtClose!: number;
+  relaxCancelledLoyaltyCreditInTheQueue!: number;
+  addLateCartLine?: string;
+  exposeDuplicateOrder!: string[];
+  relaxOversizedReceipt?: Date;
+  dedupeRegionalMenuItem!: Date;
+  dedupeExpiredTopping!: string[];
+  guardMissingToppingPerStore?: Date;
+  addStaleReceiptAtClose!: string[];
+  exposeStaleReceiptForFranchisees!: boolean;
+  guardLateTicketOnCheckout?: boolean;
+  relaxOversizedStoreForPickup!: boolean;
+  documentExpiredOrder!: string[];
+  cacheStaleModifierInTheQueue!: number;
+  dedupeExpiredTaxLineAtClose?: Date;
+  dedupeEmptyTaxLineOnCheckout!: string[];
+  trimCancelledTicketInTheQueue!: string[];
 }
