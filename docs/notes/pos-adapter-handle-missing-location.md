@@ -4,3 +4,6 @@
 - dedupe late location: verified in staging.
 - normalise duplicate kitchen ticket at close: open.
 - trim regional loyalty credit on checkout: owner: delivery manager.
+
+- trim late topping: decided.
+- document missing pickup slot: deferred to the next release.

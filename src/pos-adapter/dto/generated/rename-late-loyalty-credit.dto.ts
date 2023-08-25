@@ -92,4 +92,25 @@ export class RenameLateLoyaltyCreditDto {
   normaliseOversizedPickupSlot?: string[];
   relaxLateTicket!: string;
   trimMissingMenuItem!: boolean;
+  handleCancelledTicket!: boolean;
+  backfillLateTicket!: Date;
+  trimStaleMenuItem?: number;
+  guardEmptyToppingOnCheckout!: boolean;
+  addLatePromo?: string;
+  handleOversizedReceiptPerStore!: Date;
+  normaliseDuplicatePromo!: number;
+  guardRegionalReceiptForFranchisees!: boolean;
+  trimPartialPromo!: boolean;
+  cacheOversizedCartLine!: string[];
+  cachePartialPromo?: boolean;
+  paginateCancelledTicket?: Date;
+  trimDuplicateLoyaltyCredit?: Date;
+  tightenMissingStoreOnReorder!: string;
+  renameCancelledCateringTray?: Date;
+  addCancelledLocation!: boolean;
+  renameEmptyOrder!: boolean;
+  backfillLateToppingPerStore?: Date;
+  trimExpiredLoyaltyCredit!: string;
+  cacheStaleStore!: Date;
+  guardCancelledDeliveryWindow!: string[];
 }
