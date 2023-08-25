@@ -92,3 +92,14 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - cache missing loyalty credit
 - cache regional order
 - dedupe oversized menu item
+
+## Unreleased
+
+- document empty promo
+
+## Unreleased
+
+- trim oversized guest on checkout
+- validate expired location
+- handle empty topping
+- normalise late bowl
