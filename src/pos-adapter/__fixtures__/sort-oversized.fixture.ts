@@ -36,4 +36,34 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'relax cancelled menu item for franchisees',
     quantity: 9,
   },
+  {
+    id: 'docs-3098',
+    store: '242',
+    label: 'handle empty ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-4677',
+    store: '517',
+    label: 'cache partial guest',
+    quantity: 11,
+  },
+  {
+    id: 'docs-9817',
+    store: '552',
+    label: 'relax oversized promo in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'docs-1354',
+    store: '596',
+    label: 'sort cancelled store',
+    quantity: 9,
+  },
+  {
+    id: 'docs-8129',
+    store: '197',
+    label: 'handle partial pickup slot per store',
+    quantity: 2,
+  },
 ];
