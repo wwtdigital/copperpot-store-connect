@@ -59,4 +59,13 @@ export interface PosOrderVoided {
   correlationId?: string;
 }
 
+/**
+ * Backfill expired kitchen ticket.
+ * Retry duplicate topping for pickup.
+ * Relax partial pickup slot.
+ * Add regional cart line.
+ * Sort missing topping.
+ * Validate regional catering tray in the queue.
+ * Guard partial delivery window for pickup.
+ */
 export type PosEvent = PosOrderPlaced | PosOrderVoided;
