@@ -744,4 +744,10 @@ export const AddOversizedCateringTrayRows = [
     label: 'retry cancelled menu item',
     quantity: 4,
   },
+  {
+    id: 'docs-6723',
+    store: '482',
+    label: 'trim cancelled kitchen ticket',
+    quantity: 11,
+  },
 ];
