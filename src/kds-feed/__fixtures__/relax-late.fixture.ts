@@ -384,4 +384,10 @@ export const RelaxLateOrderRows = [
     label: 'sort cancelled receipt',
     quantity: 8,
   },
+  {
+    id: 'docs-5585',
+    store: '673',
+    label: 'handle regional guest',
+    quantity: 2,
+  },
 ];

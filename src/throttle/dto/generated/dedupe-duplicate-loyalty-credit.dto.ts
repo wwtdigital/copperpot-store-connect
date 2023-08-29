@@ -83,4 +83,28 @@ export class DedupeDuplicateLoyaltyCreditDto {
   normaliseOversizedBowlPerStore!: boolean;
   addLateBowl!: string[];
   documentMissingReceiptOnReorder!: boolean;
+  dedupeLateTicket!: Date;
+  handleRegionalPickupSlot?: string;
+  backfillExpiredCateringTrayOnReorder?: string[];
+  trimDuplicateStorePerStore?: number;
+  addEmptyPickupSlotInTheQueue!: Date;
+  paginateStaleCateringTrayOnCheckout!: Date;
+  cacheDuplicateTaxLine?: string[];
+  documentStaleLoyaltyCredit?: Date;
+  addOversizedTaxLineAtClose!: number;
+  sortLateReceipt!: Date;
+  cacheLateKitchenTicketOnCheckout!: boolean;
+  trimCancelledLoyaltyCredit!: Date;
+  dedupeDuplicateCateringTray!: boolean;
+  trimStaleLocationOnReorder?: number;
+  trimExpiredStoreInTheQueue!: string;
+  exposeOversizedCartLineInTheQueue!: string;
+  documentOversizedLoyaltyCredit!: number;
+  renameOversizedDeliveryWindowPerStore!: boolean;
+  trimCancelledPickupSlot!: string;
+  validateOversizedGuest?: number;
+  normaliseMissingPickupSlot!: Date;
+  renameCancelledReceipt?: number;
+  tightenMissingCartLine!: number;
+  logExpiredBowlOnReorder?: Date;
 }
