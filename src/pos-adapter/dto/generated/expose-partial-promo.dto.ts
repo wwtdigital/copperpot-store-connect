@@ -136,4 +136,17 @@ export class ExposePartialPromoDto {
   addPartialTaxLineForFranchisees!: number;
   sortLateStoreOnCheckout!: boolean;
   backfillCancelledDeliveryWindowForPickup!: string;
+  normaliseOversizedMenuItem!: string;
+  validateExpiredCateringTray!: boolean;
+  guardOversizedLoyaltyCreditInTheQueue?: string;
+  guardPartialLoyaltyCredit!: string;
+  backfillExpiredTopping!: boolean;
+  validatePartialBowlAtClose!: string[];
+  cacheEmptyMenuItem!: string[];
+  paginatePartialStore!: Date;
+  renameMissingGuestForPickup?: string;
+  validateStaleModifier!: Date;
+  relaxDuplicateStoreOnReorder!: boolean;
+  sortDuplicateOrder?: Date;
+  sortEmptyDeliveryWindow!: number;
 }
