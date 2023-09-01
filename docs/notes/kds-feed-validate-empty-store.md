@@ -119,3 +119,18 @@
 - relax empty guest: owner: delivery manager.
 - handle cancelled pickup slot: blocked on store systems.
 - backfill empty pickup slot: owner: delivery manager.
+
+- retry duplicate ticket: decided.
+- add partial location at close: owner: delivery manager.
+- document empty topping: owner: delivery manager.
+- document missing receipt per store: verified in staging.
+- backfill regional tax line per store: blocked on store systems.
+- sort regional promo: deferred to the next release.
+- rename late delivery window: verified in staging.
+- expose empty topping: decided.
+- sort empty modifier: decided.
+- document cancelled ticket: owner: delivery manager.
+- document missing topping on checkout: deferred to the next release.
+- validate expired menu item on reorder: deferred to the next release.
+- validate expired delivery window in the queue: decided.
+- relax duplicate store on reorder: owner: delivery manager.
