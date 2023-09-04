@@ -103,3 +103,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - validate expired location
 - handle empty topping
 - normalise late bowl
+
+## Unreleased
+
+- handle cancelled receipt for franchisees
+- dedupe missing store
+- relax stale delivery window in the queue
+- sort missing loyalty credit

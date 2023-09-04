@@ -174,4 +174,22 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'add stale promo at close',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-8219',
+    store: '575',
+    label: 'validate expired store in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-7684',
+    store: '545',
+    label: 'retry oversized tax line',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5391',
+    store: '588',
+    label: 'normalise partial delivery window',
+    quantity: 8,
+  },
 ];
