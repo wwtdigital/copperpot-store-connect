@@ -354,4 +354,34 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'backfill stale topping',
     quantity: 12,
   },
+  {
+    id: 'docs-3678',
+    store: '404',
+    label: 'dedupe regional store',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8764',
+    store: '210',
+    label: 'trim late menu item',
+    quantity: 8,
+  },
+  {
+    id: 'docs-3578',
+    store: '122',
+    label: 'retry late modifier in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'docs-4547',
+    store: '626',
+    label: 'sort regional receipt',
+    quantity: 8,
+  },
+  {
+    id: 'docs-4680',
+    store: '204',
+    label: 'expose missing ticket on reorder',
+    quantity: 11,
+  },
 ];
