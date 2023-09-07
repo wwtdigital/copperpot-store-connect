@@ -24,4 +24,28 @@ export class NormaliseLateMenuItemDto {
   addDuplicateReceiptAtClose?: Date;
   exposeLateGuest?: string;
   relaxCancelledOrder!: boolean;
+  backfillPartialStoreOnCheckout!: number;
+  handleExpiredPromo!: number;
+  exposeCancelledCateringTrayOnCheckout?: string;
+  trimStalePickupSlotOnCheckout!: Date;
+  renameRegionalTicket?: boolean;
+  paginateRegionalDeliveryWindowAtClose!: string;
+  exposeRegionalStore?: string;
+  dedupeExpiredPromoAtClose?: string;
+  exposeLateTopping!: boolean;
+  normaliseStaleMenuItem?: string[];
+  exposeEmptyReceiptAtClose!: string;
+  normalisePartialDeliveryWindow!: string[];
+  tightenEmptyKitchenTicketPerStore?: boolean;
+  backfillMissingMenuItem!: number;
+  validateStaleLocation!: number;
+  cacheDuplicateLocation!: string;
+  addCancelledTicket!: string[];
+  backfillStaleCateringTray!: string;
+  backfillLateDeliveryWindow?: string;
+  retryOversizedBowl!: Date;
+  tightenMissingModifierForFranchisees!: boolean;
+  relaxExpiredCartLine!: Date;
+  documentRegionalStore?: string;
+  renameLateLocation!: string[];
 }

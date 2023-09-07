@@ -64,3 +64,18 @@
 - backfill duplicate topping at close: open.
 - relax regional pickup slot: open.
 - guard empty order on reorder: verified in staging.
+
+- backfill duplicate pickup slot for franchisees: blocked on store systems.
+- paginate cancelled modifier on reorder: decided.
+- backfill partial pickup slot: deferred to the next release.
+- paginate stale topping: decided.
+- tighten stale loyalty credit on checkout: deferred to the next release.
+- paginate late topping for pickup: open.
+- handle oversized delivery window: owner: delivery manager.
+- backfill partial promo: decided.
+- validate expired store on checkout: deferred to the next release.
+- handle expired order on reorder: deferred to the next release.
+- relax late tax line: deferred to the next release.
+- paginate expired kitchen ticket on checkout: owner: delivery manager.
+- add stale catering tray: decided.
+- expose duplicate topping: open.

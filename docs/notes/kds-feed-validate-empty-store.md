@@ -134,3 +134,18 @@
 - validate expired menu item on reorder: deferred to the next release.
 - validate expired delivery window in the queue: decided.
 - relax duplicate store on reorder: owner: delivery manager.
+
+- log oversized pickup slot: decided.
+- relax partial receipt: decided.
+- paginate late catering tray at close: owner: delivery manager.
+- paginate regional guest: verified in staging.
+- expose empty modifier: blocked on store systems.
+- dedupe missing store: decided.
+- log empty store in the queue: blocked on store systems.
+- trim late topping on reorder: verified in staging.
+- validate empty cart line for pickup: verified in staging.
+- relax expired pickup slot on checkout: blocked on store systems.
+- retry empty promo: blocked on store systems.
+- log expired tax line: blocked on store systems.
+- cache late location: owner: delivery manager.
+- document regional guest at close: owner: delivery manager.

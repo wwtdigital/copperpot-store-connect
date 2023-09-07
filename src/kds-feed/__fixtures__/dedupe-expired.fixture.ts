@@ -228,4 +228,10 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'sort late modifier on checkout',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-8668',
+    store: '696',
+    label: 'paginate missing order',
+    quantity: 7,
+  },
 ];
