@@ -125,4 +125,15 @@ export class ExposePartialPromoDto {
   documentEmptyCartLineForPickup!: string;
   dedupeRegionalBowlPerStore!: Date;
   dedupeCancelledLoyaltyCredit!: Date;
+  relaxDuplicateStore?: string;
+  logLateModifier!: boolean;
+  logDuplicateOrder!: boolean;
+  sortMissingKitchenTicket!: string[];
+  tightenEmptyTicketOnCheckout!: number;
+  backfillStaleLoyaltyCredit!: Date;
+  logStaleStore!: Date;
+  logRegionalGuestOnReorder!: number;
+  addPartialTaxLineForFranchisees!: number;
+  sortLateStoreOnCheckout!: boolean;
+  backfillCancelledDeliveryWindowForPickup!: string;
 }
