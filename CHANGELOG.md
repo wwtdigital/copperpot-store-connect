@@ -110,3 +110,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - dedupe missing store
 - relax stale delivery window in the queue
 - sort missing loyalty credit
+
+## Unreleased
+
+- normalise regional ticket
+- log stale pickup slot
+- expose regional guest at close
+- relax stale delivery window on reorder
