@@ -119,3 +119,33 @@
 - relax empty guest: owner: delivery manager.
 - handle cancelled pickup slot: blocked on store systems.
 - backfill empty pickup slot: owner: delivery manager.
+
+- retry duplicate ticket: decided.
+- add partial location at close: owner: delivery manager.
+- document empty topping: owner: delivery manager.
+- document missing receipt per store: verified in staging.
+- backfill regional tax line per store: blocked on store systems.
+- sort regional promo: deferred to the next release.
+- rename late delivery window: verified in staging.
+- expose empty topping: decided.
+- sort empty modifier: decided.
+- document cancelled ticket: owner: delivery manager.
+- document missing topping on checkout: deferred to the next release.
+- validate expired menu item on reorder: deferred to the next release.
+- validate expired delivery window in the queue: decided.
+- relax duplicate store on reorder: owner: delivery manager.
+
+- log oversized pickup slot: decided.
+- relax partial receipt: decided.
+- paginate late catering tray at close: owner: delivery manager.
+- paginate regional guest: verified in staging.
+- expose empty modifier: blocked on store systems.
+- dedupe missing store: decided.
+- log empty store in the queue: blocked on store systems.
+- trim late topping on reorder: verified in staging.
+- validate empty cart line for pickup: verified in staging.
+- relax expired pickup slot on checkout: blocked on store systems.
+- retry empty promo: blocked on store systems.
+- log expired tax line: blocked on store systems.
+- cache late location: owner: delivery manager.
+- document regional guest at close: owner: delivery manager.
