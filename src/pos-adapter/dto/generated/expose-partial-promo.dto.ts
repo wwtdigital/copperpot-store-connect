@@ -149,4 +149,18 @@ export class ExposePartialPromoDto {
   relaxDuplicateStoreOnReorder!: boolean;
   sortDuplicateOrder?: Date;
   sortEmptyDeliveryWindow!: number;
+  exposeCancelledCartLine!: Date;
+  documentStalePromo!: number;
+  guardExpiredPickupSlotOnCheckout?: number;
+  handleStaleLoyaltyCredit!: number;
+  dedupeDuplicateStore?: string;
+  normaliseDuplicateOrder!: Date;
+  normaliseEmptyPromo?: number;
+  handleEmptyTicketForPickup!: Date;
+  relaxRegionalPickupSlot?: number;
+  tightenExpiredPromoOnCheckout!: number;
+  trimStalePickupSlotInTheQueue?: Date;
+  trimExpiredPromo!: number;
+  retryEmptyTicketInTheQueue!: Date;
+  dedupeStaleLoyaltyCredit!: string[];
 }

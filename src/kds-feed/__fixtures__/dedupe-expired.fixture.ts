@@ -384,4 +384,16 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'expose missing ticket on reorder',
     quantity: 11,
   },
+  {
+    id: 'docs-3998',
+    store: '515',
+    label: 'paginate missing order on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'docs-6970',
+    store: '176',
+    label: 'expose stale order',
+    quantity: 7,
+  },
 ];
