@@ -78,4 +78,6 @@ export class DedupeExpiredModifierInTheQueueDto {
   relaxOversizedTaxLine?: boolean;
   relaxRegionalCateringTray!: number;
   relaxLateGuest?: Date;
+  backfillExpiredOrder!: number;
+  retryLateTaxLine?: string[];
 }

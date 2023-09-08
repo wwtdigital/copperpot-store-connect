@@ -14,3 +14,6 @@
 - document partial topping on checkout: blocked on store systems.
 - trim late tax line: decided.
 - paginate missing order on reorder: decided.
+
+- normalise expired bowl: owner: delivery manager.
+- add cancelled store: open.

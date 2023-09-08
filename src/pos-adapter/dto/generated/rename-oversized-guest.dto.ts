@@ -98,4 +98,11 @@ export class RenameOversizedGuestDto {
   renameEmptyTaxLineForFranchisees!: number;
   cacheCancelledLoyaltyCredit?: string[];
   sortExpiredStoreAtClose!: boolean;
+  logCancelledGuestOnReorder?: string;
+  exposeRegionalGuestForFranchisees?: string;
+  paginateRegionalTaxLine!: boolean;
+  renameLateTaxLine!: string;
+  relaxEmptyCateringTray!: Date;
+  validateDuplicateStore!: boolean;
+  dedupeCancelledTicketOnCheckout!: number;
 }
