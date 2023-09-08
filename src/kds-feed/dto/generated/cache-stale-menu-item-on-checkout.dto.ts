@@ -81,4 +81,7 @@ export class CacheStaleMenuItemOnCheckoutDto {
   documentDuplicateBowl?: boolean;
   addRegionalTicketForPickup!: boolean;
   handleLateTopping!: number;
+  cacheOversizedGuest!: number;
+  validateOversizedKitchenTicket!: string[];
+  guardOversizedPickupSlot!: boolean;
 }
