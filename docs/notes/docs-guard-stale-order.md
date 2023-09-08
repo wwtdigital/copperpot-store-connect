@@ -17,3 +17,18 @@
 
 - normalise expired bowl: owner: delivery manager.
 - add cancelled store: open.
+
+- add stale kitchen ticket on reorder: open.
+- sort duplicate pickup slot: open.
+- retry duplicate tax line: deferred to the next release.
+- rename duplicate guest: verified in staging.
+- log expired menu item in the queue: owner: delivery manager.
+- tighten expired location for franchisees: deferred to the next release.
+- sort partial topping: blocked on store systems.
+- handle oversized menu item on checkout: decided.
+- rename empty modifier: verified in staging.
+- backfill empty tax line: open.
+- rename oversized loyalty credit for franchisees: decided.
+- dedupe duplicate order on reorder: open.
+- tighten missing menu item on reorder: deferred to the next release.
+- dedupe empty location for pickup: blocked on store systems.
