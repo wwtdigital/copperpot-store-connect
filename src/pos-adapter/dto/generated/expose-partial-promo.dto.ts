@@ -215,4 +215,6 @@ export class ExposePartialPromoDto {
   trimOversizedLocation!: string[];
   tightenCancelledReceipt!: number;
   documentRegionalBowl?: Date;
+  addPartialTicket!: string;
+  handleOversizedTicket!: string[];
 }
