@@ -822,4 +822,40 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'document regional store',
     quantity: 1,
   },
+  {
+    id: 'docs-9752',
+    store: '261',
+    label: 'backfill expired tax line',
+    quantity: 2,
+  },
+  {
+    id: 'docs-4160',
+    store: '551',
+    label: 'handle oversized promo',
+    quantity: 6,
+  },
+  {
+    id: 'docs-1716',
+    store: '378',
+    label: 'paginate expired catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'docs-3223',
+    store: '565',
+    label: 'handle missing delivery window on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'docs-6777',
+    store: '389',
+    label: 'document duplicate topping',
+    quantity: 5,
+  },
+  {
+    id: 'docs-4631',
+    store: '412',
+    label: 'sort empty cart line',
+    quantity: 1,
+  },
 ];
