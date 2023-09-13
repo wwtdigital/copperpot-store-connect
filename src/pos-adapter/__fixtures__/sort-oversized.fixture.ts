@@ -918,4 +918,22 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'sort regional delivery window on reorder',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-7015',
+    store: '363',
+    label: 'add missing bowl for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-5236',
+    store: '544',
+    label: 'log oversized store',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-1051',
+    store: '447',
+    label: 'retry cancelled menu item at close',
+    quantity: 3,
+  },
 ];
