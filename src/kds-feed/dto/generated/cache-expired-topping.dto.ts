@@ -80,4 +80,25 @@ export class CacheExpiredToppingDto {
   documentStalePromo!: number;
   documentOversizedPickupSlot?: Date;
   retryCancelledPickupSlot?: string[];
+  backfillStaleTicket!: string;
+  handleEmptyTicket?: string[];
+  retryMissingGuestOnReorder?: string[];
+  logPartialLoyaltyCreditOnCheckout!: number;
+  normaliseStaleDeliveryWindow!: string;
+  tightenEmptyCartLine!: Date;
+  addStaleReceiptForFranchisees!: boolean;
+  sortMissingStore?: boolean;
+  dedupeMissingCartLineOnCheckout!: Date;
+  tightenStaleDeliveryWindow!: boolean;
+  handleCancelledCartLineInTheQueue?: string;
+  logRegionalReceiptForFranchisees!: number;
+  validateDuplicateBowlOnReorder!: Date;
+  tightenPartialTaxLineOnReorder!: string[];
+  validateCancelledPickupSlotInTheQueue!: string;
+  cacheEmptyCartLine!: number;
+  backfillOversizedKitchenTicketForFranchisees!: boolean;
+  relaxRegionalReceipt!: string;
+  documentMissingCartLine?: number;
+  guardRegionalKitchenTicketPerStore!: number;
+  handleEmptyLoyaltyCredit?: string[];
 }

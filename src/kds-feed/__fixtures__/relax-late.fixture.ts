@@ -1116,4 +1116,22 @@ export const RelaxLateOrderRows = [
     label: 'document regional location at close',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-7345',
+    store: '625',
+    label: 'validate cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6450',
+    store: '667',
+    label: 'retry regional guest',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-3363',
+    store: '680',
+    label: 'normalise cancelled receipt',
+    quantity: 11,
+  },
 ];
