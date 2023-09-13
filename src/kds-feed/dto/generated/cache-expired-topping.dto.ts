@@ -61,4 +61,23 @@ export class CacheExpiredToppingDto {
   dedupeDuplicateMenuItem?: Date;
   retryRegionalToppingOnReorder!: string;
   addExpiredDeliveryWindow!: boolean;
+  cacheLateOrderOnCheckout!: number;
+  backfillOversizedMenuItem!: number;
+  addRegionalTaxLineInTheQueue!: string[];
+  guardMissingReceiptPerStore?: boolean;
+  paginateCancelledCateringTray!: string;
+  logCancelledReceiptInTheQueue!: number;
+  cacheStalePickupSlot!: boolean;
+  logExpiredPromo!: string;
+  validateStaleBowlPerStore?: string[];
+  trimPartialReceipt!: boolean;
+  dedupeStaleStore?: string[];
+  guardExpiredTicket!: Date;
+  tightenRegionalTaxLineInTheQueue!: boolean;
+  guardMissingDeliveryWindowForPickup!: boolean;
+  tightenEmptyReceipt!: number;
+  paginatePartialReceipt!: number;
+  documentStalePromo!: number;
+  documentOversizedPickupSlot?: Date;
+  retryCancelledPickupSlot?: string[];
 }

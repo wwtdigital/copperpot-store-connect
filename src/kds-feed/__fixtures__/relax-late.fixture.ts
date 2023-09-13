@@ -1098,4 +1098,22 @@ export const RelaxLateOrderRows = [
     label: 'expose partial topping',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-5283',
+    store: '157',
+    label: 'dedupe stale catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3941',
+    store: '367',
+    label: 'retry cancelled topping',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-7250',
+    store: '625',
+    label: 'document regional location at close',
+    quantity: 1,
+  },
 ];
