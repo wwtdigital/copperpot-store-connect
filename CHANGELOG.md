@@ -124,3 +124,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - validate partial topping
 - retry duplicate store on checkout
 - retry stale delivery window at close
+
+## Unreleased
+
+- document expired guest at close
+- guard partial location on reorder
+- document cancelled ticket
+- rename duplicate order

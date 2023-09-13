@@ -217,4 +217,7 @@ export class ExposePartialPromoDto {
   documentRegionalBowl?: Date;
   addPartialTicket!: string;
   handleOversizedTicket!: string[];
+  sortPartialTicketOnCheckout!: number;
+  retryMissingPickupSlot!: string;
+  logEmptyStoreInTheQueue!: string[];
 }

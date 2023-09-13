@@ -15,4 +15,17 @@ export class ExposeExpiredStoreDto {
   trimMissingCartLineOnCheckout!: Date;
   handleStaleCateringTrayInTheQueue!: Date;
   guardExpiredKitchenTicket!: number;
+  documentRegionalStoreOnReorder!: boolean;
+  renameLateOrder!: string;
+  relaxRegionalKitchenTicketInTheQueue!: Date;
+  relaxExpiredKitchenTicketForFranchisees!: boolean;
+  normaliseMissingLocationOnCheckout!: boolean;
+  handleMissingDeliveryWindow!: number;
+  retryMissingCartLineForPickup?: Date;
+  exposePartialTaxLine?: number;
+  backfillLateLoyaltyCredit!: Date;
+  documentRegionalCateringTray!: boolean;
+  relaxMissingPromo!: string[];
+  retryPartialModifier?: boolean;
+  logLateTopping!: number;
 }
