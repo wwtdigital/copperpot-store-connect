@@ -858,4 +858,34 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'sort empty cart line',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-5733',
+    store: '612',
+    label: 'sort empty ticket',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8715',
+    store: '103',
+    label: 'document late loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8305',
+    store: '625',
+    label: 'backfill empty delivery window for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-2429',
+    store: '346',
+    label: 'cache regional modifier',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-9509',
+    store: '509',
+    label: 'retry regional order',
+    quantity: 8,
+  },
 ];
