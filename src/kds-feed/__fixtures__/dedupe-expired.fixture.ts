@@ -576,4 +576,10 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'normalise oversized tax line',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-4818',
+    store: '141',
+    label: 'add late promo per store',
+    quantity: 11,
+  },
 ];
