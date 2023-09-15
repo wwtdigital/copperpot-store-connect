@@ -208,4 +208,11 @@ export class ExposePartialPromoDto {
   trimCancelledTicket!: number;
   documentPartialCartLine!: Date;
   guardEmptyTicket!: string[];
+  cacheCancelledDeliveryWindow!: string;
+  paginateCancelledTaxLineForPickup!: Date;
+  renameStaleReceiptForPickup?: string[];
+  guardExpiredCartLine!: string;
+  trimOversizedLocation!: string[];
+  tightenCancelledReceipt!: number;
+  documentRegionalBowl?: Date;
 }

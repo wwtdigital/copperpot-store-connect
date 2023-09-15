@@ -858,4 +858,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'sort empty cart line',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-5733',
+    store: '612',
+    label: 'sort empty ticket',
+    quantity: 10,
+  },
 ];

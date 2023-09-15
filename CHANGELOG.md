@@ -117,3 +117,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - log stale pickup slot
 - expose regional guest at close
 - relax stale delivery window on reorder
+
+## Unreleased
+
+- retry partial delivery window
+- validate partial topping
+- retry duplicate store on checkout
+- retry stale delivery window at close
