@@ -2,6 +2,11 @@
 
 Kept by release. Each `v*` tag has a section; the promotion tooling reads the top section into the release marker.
 
+## Unreleased
+
+- CI on the host's workflows; the reusable `ci-template.yml` for the other Store Systems repositories.
+- Change template, code owners, weekly dependency updates.
+
 ## 0.9.0
 
 - POS adapter: order placed events mapped to commerce orders, with a stub POS for local runs.
