@@ -149,3 +149,7 @@
 - log expired tax line: blocked on store systems.
 - cache late location: owner: delivery manager.
 - document regional guest at close: owner: delivery manager.
+
+- sort late receipt: verified in staging.
+- guard cancelled pickup slot: owner: delivery manager.
+- backfill duplicate tax line in the queue: decided.

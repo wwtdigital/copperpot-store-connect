@@ -79,3 +79,18 @@
 - paginate expired kitchen ticket on checkout: owner: delivery manager.
 - add stale catering tray: decided.
 - expose duplicate topping: open.
+
+- backfill late ticket for pickup: decided.
+- relax regional pickup slot: deferred to the next release.
+- rename cancelled kitchen ticket: open.
+- log oversized topping at close: decided.
+- validate stale ticket per store: owner: delivery manager.
+- normalise regional bowl: open.
+- handle stale pickup slot: open.
+- add duplicate order on checkout: deferred to the next release.
+- sort expired topping: open.
+- cache duplicate delivery window: deferred to the next release.
+- sort partial promo in the queue: owner: delivery manager.
+- normalise regional guest per store: deferred to the next release.
+- backfill duplicate catering tray: owner: delivery manager.
+- guard oversized pickup slot: blocked on store systems.

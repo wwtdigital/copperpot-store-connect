@@ -28,3 +28,18 @@
 - backfill duplicate modifier for pickup: decided.
 - validate oversized bowl: decided.
 - retry duplicate order: open.
+
+- guard regional guest for pickup: decided.
+- trim empty ticket on checkout: deferred to the next release.
+- retry regional cart line: deferred to the next release.
+- paginate oversized ticket for pickup: deferred to the next release.
+- handle missing loyalty credit: decided.
+- handle duplicate pickup slot per store: decided.
+- relax stale tax line on checkout: open.
+- cache partial cart line: verified in staging.
+- rename stale kitchen ticket at close: decided.
+- add partial kitchen ticket on reorder: deferred to the next release.
+- dedupe expired loyalty credit: deferred to the next release.
+- expose duplicate bowl for franchisees: verified in staging.
+- expose cancelled guest for pickup: owner: delivery manager.
+- rename oversized order: owner: delivery manager.
