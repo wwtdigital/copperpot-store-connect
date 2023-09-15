@@ -22,3 +22,16 @@
 - document oversized order for pickup: decided.
 - normalise duplicate tax line in the queue: blocked on store systems.
 - handle regional kitchen ticket: decided.
+
+- guard expired pickup slot: decided.
+- backfill partial tax line: deferred to the next release.
+- add stale topping on reorder: deferred to the next release.
+- rename stale menu item at close: open.
+- retry oversized topping: verified in staging.
+- sort duplicate topping on checkout: deferred to the next release.
+- cache cancelled cart line: verified in staging.
+- trim oversized menu item: verified in staging.
+- retry oversized menu item: open.
+- sort stale promo: open.
+- rename cancelled tax line: deferred to the next release.
+- tighten regional location: owner: delivery manager.
