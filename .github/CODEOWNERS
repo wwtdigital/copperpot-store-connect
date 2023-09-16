@@ -1,0 +1,9 @@
+# Store Systems owns this repository. Reviews on the paths below are
+# requested from the team automatically; the fleet tooling and the shared
+# CI template also go past the platform group.
+*                           @wwtdigital/store-systems
+/src/                       @wwtdigital/store-systems
+/test/                      @wwtdigital/store-systems
+/.github/workflows/         @wwtdigital/store-systems @wwtdigital/platform
+/docker-compose.yml         @wwtdigital/store-systems
+/Dockerfile                 @wwtdigital/store-systems @wwtdigital/platform

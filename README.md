@@ -57,6 +57,12 @@ npm run build            # dist/ for the container image
 
 The devcontainer (`.devcontainer/devcontainer.json`) runs `npm run setup` on create and starts Redis on open.
 
+## CI
+
+`.github/workflows/ci.yml` runs on every change and on `main`: install from the lock, compile, type check, lint, format check, tests with coverage, and `npm audit` at level high. The job token is read-only.
+
+`.github/workflows/ci-template.yml` is the same pipeline as a reusable workflow. The other Store Systems TypeScript repositories call it with `uses: wwtdigital/copperpot-store-connect/.github/workflows/ci-template.yml@main`; a change to the steps is made in `ci.yml` first so it runs here before anyone else picks it up.
+
 ## Environment variables
 
 Every variable the service reads is listed in `.env.example` with its default and a comment; `npm run setup` copies it to `.env`. The ones that matter in a store:

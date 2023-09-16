@@ -1,0 +1,64 @@
+# Reusable CI for Store Systems TypeScript services. Call it from a
+# repository's own workflow:
+#
+#   on:
+#     pull_request:
+#     push:
+#       branches: [main]
+#   jobs:
+#     ci:
+#       uses: wwtdigital/copperpot-store-connect/.github/workflows/ci-template.yml@main
+#       with:
+#         node-version: '20'
+#
+# The caller's package.json needs build, typecheck, lint, format:check and
+# test:coverage scripts. The steps are the ones ci.yml runs here; keep the
+# two in step.
+name: ci-template
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        type: string
+        default: '20'
+        description: Node major the caller tests on
+      audit-level:
+        type: string
+        default: high
+        description: npm audit level that fails the job
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: npm
+      - name: Install from the lock
+        run: npm ci
+      - name: Compile
+        run: npm run build
+      - name: Type check
+        run: npm run typecheck
+      - name: Lint
+        run: npm run lint
+      - name: Format check
+        run: npm run format:check
+      - name: Unit and integration tests with coverage
+        run: npm run test:coverage
+      - name: Dependency vulnerability audit
+        run: npm audit --omit=dev --audit-level=${{ inputs.audit-level }}
+      - name: Test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: junit
+          path: reports/junit.xml
+          if-no-files-found: ignore
