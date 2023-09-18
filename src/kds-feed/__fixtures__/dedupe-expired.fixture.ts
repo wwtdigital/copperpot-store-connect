@@ -588,4 +588,16 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'document regional kitchen ticket for pickup',
     quantity: 2,
   },
+  {
+    id: 'infra-9911',
+    store: '122',
+    label: 'log empty order',
+    quantity: 9,
+  },
+  {
+    id: 'infra-3409',
+    store: '370',
+    label: 'dedupe regional delivery window',
+    quantity: 9,
+  },
 ];
