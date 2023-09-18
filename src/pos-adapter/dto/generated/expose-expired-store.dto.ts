@@ -28,4 +28,25 @@ export class ExposeExpiredStoreDto {
   relaxMissingPromo!: string[];
   retryPartialModifier?: boolean;
   logLateTopping!: number;
+  backfillCancelledTaxLine!: string;
+  sortCancelledToppingForFranchisees!: string;
+  renameDuplicatePromo?: boolean;
+  sortRegionalModifier!: string[];
+  documentStaleModifierAtClose!: string[];
+  dedupeStaleBowl!: number;
+  validateCancelledOrder!: string;
+  renameOversizedCartLine!: Date;
+  backfillPartialTaxLine!: string;
+  paginateStaleGuestOnCheckout!: string;
+  cacheOversizedModifier?: boolean;
+  logEmptyDeliveryWindowInTheQueue?: Date;
+  paginateExpiredLoyaltyCredit!: Date;
+  tightenRegionalGuestAtClose?: number;
+  logEmptyTicket!: string[];
+  normaliseLateTicket!: Date;
+  relaxPartialPromo!: string[];
+  normalisePartialBowl!: string;
+  tightenDuplicateStoreForFranchisees?: boolean;
+  tightenDuplicateDeliveryWindowOnCheckout!: string;
+  logMissingCateringTray!: string;
 }

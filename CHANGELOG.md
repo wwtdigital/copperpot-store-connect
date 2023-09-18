@@ -136,3 +136,17 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - guard partial location on reorder
 - document cancelled ticket
 - rename duplicate order
+
+## Unreleased
+
+- rename stale catering tray for franchisees
+- normalise empty ticket
+- handle missing catering tray
+- paginate cancelled location
+
+## Unreleased
+
+- validate missing ticket
+- handle missing cart line
+- expose missing location
+- paginate stale ticket at close
