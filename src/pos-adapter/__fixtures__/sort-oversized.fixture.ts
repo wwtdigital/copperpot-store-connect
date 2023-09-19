@@ -888,4 +888,34 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'retry regional order',
     quantity: 8,
   },
+  {
+    id: 'infra-4095',
+    store: '444',
+    label: 'backfill expired ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'infra-3227',
+    store: '465',
+    label: 'validate missing delivery window for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'infra-2109',
+    store: '218',
+    label: 'tighten late bowl per store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6324',
+    store: '158',
+    label: 'paginate duplicate loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'infra-1819',
+    store: '287',
+    label: 'sort regional delivery window on reorder',
+    quantity: 11,
+  },
 ];
