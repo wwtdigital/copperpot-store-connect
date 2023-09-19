@@ -238,4 +238,28 @@ export class ExposePartialPromoDto {
   paginateOversizedTicket!: string;
   dedupeRegionalOrderOnCheckout!: Date;
   dedupePartialStore!: Date;
+  normaliseExpiredBowlInTheQueue!: boolean;
+  trimExpiredOrder!: string;
+  documentExpiredPromo!: boolean;
+  documentOversizedModifierOnReorder!: number;
+  handleCancelledKitchenTicket!: Date;
+  cacheRegionalReceiptForPickup!: string;
+  paginateCancelledGuest!: string;
+  trimMissingKitchenTicket?: string[];
+  handleEmptyDeliveryWindow!: Date;
+  tightenStaleReceipt!: number;
+  relaxMissingCateringTray?: number;
+  logPartialToppingForPickup!: string;
+  paginatePartialLoyaltyCreditForFranchisees!: number;
+  validateMissingCartLineInTheQueue?: string[];
+  sortMissingToppingOnReorder!: Date;
+  logRegionalCartLine?: string;
+  cacheDuplicateDeliveryWindow!: string;
+  paginateRegionalStorePerStore!: boolean;
+  sortStaleCateringTray!: string;
+  addLateGuest!: string[];
+  sortEmptyLoyaltyCreditForFranchisees!: string[];
+  renamePartialToppingForFranchisees!: string;
+  tightenLateTaxLine!: Date;
+  tightenStaleTaxLine!: Date;
 }
