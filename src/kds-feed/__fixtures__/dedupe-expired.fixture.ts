@@ -582,4 +582,10 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'add late promo per store',
     quantity: 11,
   },
+  {
+    id: 'infra-8301',
+    store: '513',
+    label: 'document regional kitchen ticket for pickup',
+    quantity: 2,
+  },
 ];
