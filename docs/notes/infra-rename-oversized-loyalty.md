@@ -32,6 +32,3 @@
 - sort partial pickup slot: deferred to the next release.
 - tighten partial delivery window per store: owner: delivery manager.
 - handle oversized guest: open.
-- handle missing promo for pickup: verified in staging.
-
-- backfill expired menu item per store: open.

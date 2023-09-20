@@ -936,4 +936,22 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'retry cancelled menu item at close',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-1782',
+    store: '336',
+    label: 'sort partial order',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6357',
+    store: '591',
+    label: 'rename cancelled guest',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-9980',
+    store: '610',
+    label: 'dedupe missing location',
+    quantity: 5,
+  },
 ];
