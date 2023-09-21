@@ -101,4 +101,27 @@ export class CacheExpiredToppingDto {
   documentMissingCartLine?: number;
   guardRegionalKitchenTicketPerStore!: number;
   handleEmptyLoyaltyCredit?: string[];
+  addOversizedModifierPerStore!: boolean;
+  cachePartialPickupSlotAtClose!: Date;
+  trimStaleDeliveryWindow!: string[];
+  validateDuplicatePickupSlot!: number;
+  validateStaleStoreInTheQueue!: string;
+  exposeLatePickupSlot!: string;
+  trimOversizedDeliveryWindowInTheQueue!: Date;
+  trimRegionalDeliveryWindow!: boolean;
+  guardOversizedPromo!: string[];
+  guardLateOrder?: Date;
+  normaliseMissingTaxLine?: boolean;
+  sortPartialBowl?: string[];
+  guardOversizedCartLineAtClose?: boolean;
+  exposeStaleBowlOnReorder!: string;
+  backfillLateStore?: Date;
+  dedupeDuplicatePickupSlot!: number;
+  validateStaleStore!: number;
+  tightenEmptyCateringTrayOnCheckout?: string[];
+  retryDuplicateBowlOnReorder?: Date;
+  validateRegionalPickupSlotInTheQueue!: string;
+  documentPartialTicketInTheQueue!: string[];
+  paginateStaleToppingForFranchisees!: string[];
+  addOversizedOrderOnReorder!: string[];
 }
