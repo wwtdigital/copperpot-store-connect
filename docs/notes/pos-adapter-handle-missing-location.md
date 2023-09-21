@@ -35,3 +35,6 @@
 - sort stale promo: open.
 - rename cancelled tax line: deferred to the next release.
 - tighten regional location: owner: delivery manager.
+
+- relax expired bowl: verified in staging.
+- relax cancelled guest: open.

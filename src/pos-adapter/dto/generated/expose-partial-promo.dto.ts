@@ -220,4 +220,22 @@ export class ExposePartialPromoDto {
   sortPartialTicketOnCheckout!: number;
   retryMissingPickupSlot!: string;
   logEmptyStoreInTheQueue!: string[];
+  renameStaleMenuItemForFranchisees!: string;
+  dedupeMissingTopping!: boolean;
+  retryCancelledDeliveryWindowForFranchisees?: string;
+  retryEmptyStore?: string;
+  paginateOversizedGuest?: number;
+  exposeLateBowlOnReorder!: Date;
+  documentEmptyLocation!: string[];
+  exposeOversizedLoyaltyCreditOnReorder!: boolean;
+  normaliseMissingBowlForFranchisees!: boolean;
+  logEmptyReceipt?: string[];
+  tightenPartialPickupSlot?: string;
+  retryExpiredPickupSlotInTheQueue?: Date;
+  tightenCancelledTicketForFranchisees!: string;
+  guardDuplicateLocationForFranchisees?: Date;
+  renameEmptyCateringTrayForPickup?: Date;
+  paginateOversizedTicket!: string;
+  dedupeRegionalOrderOnCheckout!: Date;
+  dedupePartialStore!: Date;
 }

@@ -22,3 +22,18 @@
 - document late cart line: deferred to the next release.
 - add oversized guest for pickup: blocked on store systems.
 - dedupe missing delivery window at close: verified in staging.
+
+- retry stale order per store: owner: delivery manager.
+- backfill stale ticket: blocked on store systems.
+- dedupe oversized order: owner: delivery manager.
+- expose late location: decided.
+- relax cancelled pickup slot: verified in staging.
+- retry cancelled store per store: blocked on store systems.
+- relax late menu item on reorder: blocked on store systems.
+- retry empty pickup slot: verified in staging.
+- log late modifier: deferred to the next release.
+- tighten stale ticket for pickup: blocked on store systems.
+- normalise empty tax line: decided.
+- relax partial cart line: open.
+- handle cancelled menu item at close: verified in staging.
+- dedupe stale receipt: open.

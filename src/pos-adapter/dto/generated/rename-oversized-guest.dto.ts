@@ -105,4 +105,25 @@ export class RenameOversizedGuestDto {
   relaxEmptyCateringTray!: Date;
   validateDuplicateStore!: boolean;
   dedupeCancelledTicketOnCheckout!: number;
+  sortMissingLoyaltyCredit!: boolean;
+  handlePartialTicketForFranchisees?: string[];
+  tightenStaleMenuItemAtClose?: number;
+  paginateOversizedPickupSlotPerStore!: Date;
+  logPartialModifierOnCheckout!: Date;
+  cacheDuplicateKitchenTicketOnReorder!: boolean;
+  addPartialCartLineForFranchisees!: boolean;
+  sortExpiredCateringTrayForFranchisees!: string[];
+  relaxEmptyMenuItem!: boolean;
+  documentDuplicateModifier!: string;
+  trimExpiredTopping?: boolean;
+  normalisePartialReceipt!: number;
+  relaxStaleTicket!: number;
+  guardRegionalOrder!: boolean;
+  validateExpiredPromoForFranchisees?: number;
+  cacheLateTicket!: boolean;
+  trimExpiredGuestAtClose!: Date;
+  cacheStaleDeliveryWindowForFranchisees!: string[];
+  relaxExpiredLoyaltyCreditOnReorder!: number;
+  backfillLateLoyaltyCreditAtClose!: number;
+  normaliseMissingCateringTray!: string[];
 }
