@@ -9,3 +9,6 @@
 - paginate partial tax line per store: open.
 - document partial bowl on reorder: decided.
 - paginate regional menu item on reorder: verified in staging.
+
+- document stale promo: decided.
+- handle stale modifier per store: deferred to the next release.
