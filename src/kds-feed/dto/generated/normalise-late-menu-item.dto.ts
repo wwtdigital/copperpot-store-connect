@@ -63,4 +63,16 @@ export class NormaliseLateMenuItemDto {
   cacheStaleMenuItem?: number;
   paginatePartialGuest!: Date;
   cacheLateTopping!: string[];
+  retryDuplicateLoyaltyCreditPerStore!: number;
+  renameOversizedReceiptForPickup!: boolean;
+  dedupeDuplicateKitchenTicketForPickup!: number;
+  validateRegionalCartLine!: boolean;
+  cacheMissingPromo!: string[];
+  retryPartialLoyaltyCredit?: Date;
+  documentStaleOrder!: boolean;
+  sortMissingKitchenTicket?: string[];
+  documentOversizedStore?: boolean;
+  logExpiredCartLineAtClose!: string[];
+  retryMissingGuest!: boolean;
+  backfillRegionalTaxLine?: Date;
 }

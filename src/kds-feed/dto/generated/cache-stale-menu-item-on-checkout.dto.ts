@@ -137,4 +137,28 @@ export class CacheStaleMenuItemOnCheckoutDto {
   retryExpiredOrderForPickup!: Date;
   tightenRegionalModifier!: Date;
   guardLateModifier!: string[];
+  renameDuplicateDeliveryWindow!: string[];
+  retryStaleDeliveryWindow?: Date;
+  normaliseLatePickupSlot?: string;
+  trimExpiredMenuItem!: number;
+  validateCancelledOrderOnReorder!: Date;
+  cacheOversizedMenuItemForPickup!: Date;
+  logEmptyStore?: Date;
+  exposeEmptyTopping!: Date;
+  documentLateTicketOnCheckout!: Date;
+  tightenStalePromo!: string[];
+  addExpiredDeliveryWindow?: Date;
+  trimOversizedBowl?: number;
+  paginateRegionalOrderPerStore!: number;
+  paginateMissingPickupSlot!: string[];
+  backfillCancelledBowlForPickup!: number;
+  addMissingPromoOnCheckout!: string;
+  validateDuplicatePickupSlot!: number;
+  sortRegionalStore!: boolean;
+  handleEmptyCartLineForFranchisees!: boolean;
+  relaxCancelledStorePerStore!: string;
+  validateCancelledLoyaltyCredit!: string[];
+  addDuplicateLocation!: string[];
+  retryMissingKitchenTicket?: string;
+  paginateDuplicateLoyaltyCredit?: number;
 }
