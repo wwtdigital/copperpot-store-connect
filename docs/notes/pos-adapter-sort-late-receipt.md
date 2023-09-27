@@ -9,3 +9,5 @@
 - guard missing order: open.
 - log oversized ticket: deferred to the next release.
 - retry duplicate modifier: verified in staging.
+
+- handle expired bowl: blocked on store systems.
