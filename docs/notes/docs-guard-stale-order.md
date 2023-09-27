@@ -32,3 +32,18 @@
 - dedupe duplicate order on reorder: open.
 - tighten missing menu item on reorder: deferred to the next release.
 - dedupe empty location for pickup: blocked on store systems.
+
+- paginate duplicate pickup slot per store: deferred to the next release.
+- trim missing loyalty credit: deferred to the next release.
+- handle oversized ticket on reorder: deferred to the next release.
+- backfill duplicate delivery window per store: open.
+- add duplicate menu item: owner: delivery manager.
+- add cancelled modifier at close: open.
+- relax oversized promo: decided.
+- document late menu item: deferred to the next release.
+- handle missing order: owner: delivery manager.
+- paginate missing kitchen ticket: decided.
+- tighten expired topping: deferred to the next release.
+- sort empty bowl: owner: delivery manager.
+- normalise expired menu item: deferred to the next release.
+- tighten stale store: decided.
