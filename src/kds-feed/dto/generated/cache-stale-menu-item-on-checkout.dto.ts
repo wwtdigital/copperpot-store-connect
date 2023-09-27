@@ -113,4 +113,25 @@ export class CacheStaleMenuItemOnCheckoutDto {
   validateMissingTopping?: string[];
   handleMissingLocation?: boolean;
   exposePartialTaxLineForPickup!: Date;
+  renamePartialLocation?: number;
+  guardDuplicateGuestOnCheckout?: number;
+  exposeExpiredDeliveryWindowForFranchisees!: string;
+  dedupeRegionalReceipt!: boolean;
+  renameCancelledCartLine?: number;
+  trimRegionalToppingOnCheckout!: string[];
+  exposeExpiredReceipt!: string;
+  cachePartialPromo!: string;
+  logOversizedLocation?: boolean;
+  dedupeLateCartLine?: boolean;
+  relaxDuplicateModifier!: Date;
+  tightenPartialCateringTray!: string[];
+  paginateStalePickupSlot?: Date;
+  dedupeRegionalTopping!: string;
+  tightenLateModifierOnCheckout?: boolean;
+  dedupeCancelledLoyaltyCreditPerStore!: number;
+  dedupeOversizedTopping!: number;
+  retryEmptyStore?: string[];
+  validateMissingMenuItem!: number;
+  guardCancelledPromo?: number;
+  logCancelledTopping?: boolean;
 }

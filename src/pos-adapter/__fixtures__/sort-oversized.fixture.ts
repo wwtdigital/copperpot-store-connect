@@ -954,4 +954,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'dedupe missing location',
     quantity: 5,
   },
+  {
+    id: 'docs-3142',
+    store: '101',
+    label: 'log regional store',
+    quantity: 7,
+  },
 ];

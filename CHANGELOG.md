@@ -150,3 +150,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - handle missing cart line
 - expose missing location
 - paginate stale ticket at close
+
+## Unreleased
+
+- relax missing ticket on checkout
+- relax stale modifier
+- add cancelled bowl
+- backfill expired promo
