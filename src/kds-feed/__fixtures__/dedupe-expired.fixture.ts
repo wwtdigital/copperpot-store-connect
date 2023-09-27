@@ -600,16 +600,4 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'dedupe regional delivery window',
     quantity: 9,
   },
-  {
-    id: 'docs-7776',
-    store: '419',
-    label: 'relax duplicate modifier',
-    quantity: 7,
-  },
-  {
-    id: 'docs-1975',
-    store: '274',
-    label: 'relax empty promo',
-    quantity: 5,
-  },
 ];
