@@ -134,4 +134,7 @@ export class CacheStaleMenuItemOnCheckoutDto {
   validateMissingMenuItem!: number;
   guardCancelledPromo?: number;
   logCancelledTopping?: boolean;
+  retryExpiredOrderForPickup!: Date;
+  tightenRegionalModifier!: Date;
+  guardLateModifier!: string[];
 }

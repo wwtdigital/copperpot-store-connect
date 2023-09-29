@@ -726,4 +726,10 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'retry cancelled tax line per store',
     quantity: 2,
   },
+  {
+    id: 'infra-5441',
+    store: '330',
+    label: 'paginate oversized promo in the queue',
+    quantity: 11,
+  },
 ];
