@@ -1,0 +1,123 @@
+/* Fixture rows for pos-adapter tests: rename empty receipt. Generated data, not production data. */
+export const RenameEmptyReceiptRows = [
+  {
+    id: 'pos-adapter-6091',
+    store: '138',
+    label: 'rename missing loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-3526',
+    store: '585',
+    label: 'tighten empty promo for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-8673',
+    store: '174',
+    label: 'retry late bowl',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-3050',
+    store: '222',
+    label: 'handle partial delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-6211',
+    store: '104',
+    label: 'validate cancelled modifier on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9347',
+    store: '375',
+    label: 'add duplicate catering tray per store',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-3130',
+    store: '455',
+    label: 'normalise partial cart line',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-9387',
+    store: '535',
+    label: 'handle stale ticket',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-6264',
+    store: '583',
+    label: 'handle missing guest',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1376',
+    store: '386',
+    label: 'document regional kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-5622',
+    store: '385',
+    label: 'sort partial ticket',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-5083',
+    store: '499',
+    label: 'retry oversized tax line',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-3869',
+    store: '664',
+    label: 'document cancelled catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8441',
+    store: '280',
+    label: 'document regional store for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8385',
+    store: '445',
+    label: 'cache duplicate guest',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-6683',
+    store: '490',
+    label: 'tighten duplicate modifier on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3112',
+    store: '506',
+    label: 'backfill oversized receipt',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3708',
+    store: '434',
+    label: 'expose stale cart line',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6010',
+    store: '622',
+    label: 'sort late tax line',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4559',
+    store: '421',
+    label: 'log duplicate modifier',
+    quantity: 7,
+  },
+];

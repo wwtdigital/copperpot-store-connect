@@ -1440,4 +1440,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'log duplicate receipt in the queue',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-6850',
+    store: '340',
+    label: 'tighten oversized order',
+    quantity: 10,
+  },
 ];
