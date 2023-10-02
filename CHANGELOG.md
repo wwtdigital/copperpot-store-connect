@@ -157,3 +157,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - relax stale modifier
 - add cancelled bowl
 - backfill expired promo
+
+## Unreleased
+
+- paginate partial modifier
+- rename regional bowl
+- add cancelled pickup slot on checkout
+- trim late pickup slot
