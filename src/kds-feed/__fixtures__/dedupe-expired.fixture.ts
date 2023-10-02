@@ -732,4 +732,22 @@ export const DedupeExpiredDeliveryWindowForFranchiseesRows = [
     label: 'paginate oversized promo in the queue',
     quantity: 11,
   },
+  {
+    id: 'infra-2975',
+    store: '386',
+    label: 'handle expired promo',
+    quantity: 3,
+  },
+  {
+    id: 'infra-7559',
+    store: '217',
+    label: 'relax stale loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'infra-7327',
+    store: '434',
+    label: 'add partial ticket',
+    quantity: 11,
+  },
 ];
