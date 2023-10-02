@@ -276,4 +276,22 @@ export const RenameEmptyReceiptRows = [
     label: 'add missing modifier',
     quantity: 9,
   },
+  {
+    id: 'docs-5563',
+    store: '239',
+    label: 'handle duplicate pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8488',
+    store: '436',
+    label: 'paginate empty location per store',
+    quantity: 2,
+  },
+  {
+    id: 'docs-8760',
+    store: '138',
+    label: 'validate regional location on reorder',
+    quantity: 4,
+  },
 ];
