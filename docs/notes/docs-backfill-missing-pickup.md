@@ -9,3 +9,7 @@
 - paginate partial tax line per store: open.
 - document partial bowl on reorder: decided.
 - paginate regional menu item on reorder: verified in staging.
+
+- sort stale cart line: blocked on store systems.
+- normalise stale kitchen ticket on reorder: owner: delivery manager.
+- log empty kitchen ticket on reorder: decided.
