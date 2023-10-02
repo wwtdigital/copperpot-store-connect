@@ -61,4 +61,6 @@ export class NormaliseLateMenuItemDto {
   tightenOversizedBowl!: Date;
   validateEmptyKitchenTicketOnCheckout!: number;
   cacheStaleMenuItem?: number;
+  paginatePartialGuest!: Date;
+  cacheLateTopping!: string[];
 }
