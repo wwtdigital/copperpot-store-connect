@@ -1,0 +1,111 @@
+/* Fixture rows for kds-feed tests: backfill stale promo on reorder. Generated data, not production data. */
+export const BackfillStalePromoOnReorderRows = [
+  {
+    id: 'kds-feed-5990',
+    store: '142',
+    label: 'trim duplicate location for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-2849',
+    store: '440',
+    label: 'handle empty receipt per store',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-6039',
+    store: '288',
+    label: 'validate cancelled delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-3577',
+    store: '374',
+    label: 'relax regional kitchen ticket for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-7214',
+    store: '601',
+    label: 'dedupe expired guest',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-9537',
+    store: '400',
+    label: 'backfill missing tax line in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5819',
+    store: '596',
+    label: 'normalise late loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4723',
+    store: '331',
+    label: 'cache partial bowl',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5815',
+    store: '600',
+    label: 'add cancelled delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9199',
+    store: '494',
+    label: 'add oversized store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9975',
+    store: '221',
+    label: 'sort duplicate delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8603',
+    store: '183',
+    label: 'handle partial pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-8893',
+    store: '618',
+    label: 'validate partial kitchen ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-3961',
+    store: '370',
+    label: 'handle missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-8697',
+    store: '606',
+    label: 'expose missing loyalty credit on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-5051',
+    store: '135',
+    label: 'cache duplicate tax line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1854',
+    store: '388',
+    label: 'rename oversized bowl for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-4739',
+    store: '590',
+    label: 'cache regional ticket',
+    quantity: 1,
+  },
+];
