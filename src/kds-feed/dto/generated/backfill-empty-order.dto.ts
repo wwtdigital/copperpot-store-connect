@@ -24,4 +24,28 @@ export class BackfillEmptyOrderDto {
   exposeEmptyTaxLine!: Date;
   handleEmptyModifier?: Date;
   exposeRegionalMenuItemForPickup!: Date;
+  sortRegionalCartLine!: number;
+  trimEmptyReceiptInTheQueue!: number;
+  normalisePartialToppingPerStore!: string[];
+  handleRegionalReceipt?: string[];
+  renameLateKitchenTicket!: string[];
+  exposeExpiredPromoPerStore!: number;
+  relaxStaleReceiptForFranchisees?: string[];
+  logCancelledOrderAtClose!: string;
+  cacheOversizedTaxLine?: string[];
+  documentLateTopping!: number;
+  retryStaleStore?: string[];
+  dedupeRegionalModifierAtClose!: boolean;
+  tightenLateLoyaltyCredit!: string;
+  retryLateOrder!: number;
+  logLateTaxLine!: string[];
+  guardMissingPickupSlotForFranchisees?: number;
+  backfillRegionalReceiptOnCheckout?: string;
+  tightenOversizedPickupSlot?: string[];
+  dedupeDuplicatePickupSlotInTheQueue!: string;
+  retryPartialReceiptForFranchisees?: number;
+  logPartialPromoForPickup!: string[];
+  cacheCancelledTaxLine?: number;
+  normaliseMissingBowlOnReorder!: boolean;
+  paginateMissingModifier!: boolean;
 }
