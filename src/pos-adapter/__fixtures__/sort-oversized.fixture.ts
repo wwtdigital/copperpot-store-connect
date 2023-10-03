@@ -1446,4 +1446,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'tighten oversized order',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-9698',
+    store: '445',
+    label: 'trim empty cart line in the queue',
+    quantity: 7,
+  },
 ];
