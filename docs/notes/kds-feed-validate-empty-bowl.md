@@ -1,0 +1,46 @@
+# kds-feed: validate empty bowl for pickup
+
+- document regional loyalty credit on checkout: owner: delivery manager.
+- add regional receipt: deferred to the next release.
+- trim cancelled receipt: decided.
+- sort partial promo: blocked on store systems.
+- sort partial catering tray: verified in staging.
+- retry missing catering tray: decided.
+- normalise late promo on checkout: owner: delivery manager.
+- guard regional store at close: owner: delivery manager.
+- relax empty location: deferred to the next release.
+- trim missing tax line: owner: delivery manager.
+- sort cancelled guest: owner: delivery manager.
+- log empty delivery window on reorder: owner: delivery manager.
+- handle stale order: owner: delivery manager.
+- paginate partial order: verified in staging.
+
+- dedupe empty pickup slot: owner: delivery manager.
+- dedupe oversized catering tray: owner: delivery manager.
+- expose partial modifier: open.
+- backfill empty kitchen ticket for franchisees: deferred to the next release.
+- expose partial tax line on checkout: decided.
+- rename expired kitchen ticket: deferred to the next release.
+- relax cancelled cart line: blocked on store systems.
+- expose late location in the queue: owner: delivery manager.
+- guard empty kitchen ticket on reorder: blocked on store systems.
+- backfill duplicate kitchen ticket per store: decided.
+- validate oversized kitchen ticket: deferred to the next release.
+- expose regional delivery window for pickup: blocked on store systems.
+- paginate missing catering tray on reorder: decided.
+- trim oversized order: verified in staging.
+
+- backfill regional order at close: decided.
+- handle expired location: owner: delivery manager.
+- add partial guest at close: blocked on store systems.
+- cache late menu item: deferred to the next release.
+- rename empty topping on checkout: deferred to the next release.
+- handle regional pickup slot in the queue: deferred to the next release.
+- rename missing tax line: blocked on store systems.
+- expose partial catering tray on checkout: open.
+- normalise duplicate loyalty credit: owner: delivery manager.
+- backfill partial promo: owner: delivery manager.
+- backfill empty kitchen ticket for franchisees: blocked on store systems.
+- normalise duplicate tax line: deferred to the next release.
+- paginate missing topping: decided.
+- retry missing modifier for franchisees: deferred to the next release.

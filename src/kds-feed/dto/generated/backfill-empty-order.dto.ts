@@ -1,0 +1,27 @@
+/* BackfillEmptyOrderDto: shape for backfill empty order. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class BackfillEmptyOrderDto {
+  cachePartialLocationInTheQueue!: boolean;
+  renameRegionalLoyaltyCredit!: number;
+  handlePartialReceiptOnReorder!: string;
+  trimPartialLocation!: string[];
+  renameDuplicatePromoOnCheckout!: Date;
+  sortEmptyModifier!: boolean;
+  documentCancelledModifierPerStore!: Date;
+  tightenMissingTaxLine!: string[];
+  normaliseCancelledGuest?: string;
+  normaliseStaleCartLine!: string[];
+  normaliseExpiredPromoAtClose!: string;
+  renameLateModifier!: Date;
+  trimPartialPickupSlotInTheQueue!: Date;
+  paginateEmptyMenuItem!: string;
+  guardExpiredLoyaltyCredit?: string;
+  logMissingLocationForFranchisees!: string[];
+  exposeExpiredStore?: string;
+  validateOversizedOrder!: boolean;
+  documentStaleGuest!: Date;
+  backfillEmptyStore?: string;
+  retryRegionalLoyaltyCreditForFranchisees!: Date;
+  exposeEmptyTaxLine!: Date;
+  handleEmptyModifier?: Date;
+  exposeRegionalMenuItemForPickup!: Date;
+}

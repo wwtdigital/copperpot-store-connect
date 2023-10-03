@@ -43,3 +43,7 @@
 - expose duplicate bowl for franchisees: verified in staging.
 - expose cancelled guest for pickup: owner: delivery manager.
 - rename oversized order: owner: delivery manager.
+
+- add duplicate order at close: owner: delivery manager.
+- handle partial pickup slot on checkout: blocked on store systems.
+- add stale ticket: blocked on store systems.
