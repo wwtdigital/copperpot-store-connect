@@ -180,4 +180,34 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'rename stale kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-1284',
+    store: '118',
+    label: 'tighten partial tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-8158',
+    store: '153',
+    label: 'relax missing ticket',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9898',
+    store: '676',
+    label: 'retry partial modifier in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4891',
+    store: '572',
+    label: 'retry empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-6211',
+    store: '329',
+    label: 'validate expired store',
+    quantity: 5,
+  },
 ];
