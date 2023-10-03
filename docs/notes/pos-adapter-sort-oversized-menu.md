@@ -37,3 +37,18 @@
 - relax partial cart line: open.
 - handle cancelled menu item at close: verified in staging.
 - dedupe stale receipt: open.
+
+- sort late promo: blocked on store systems.
+- rename regional menu item: owner: delivery manager.
+- normalise expired receipt for pickup: verified in staging.
+- add expired promo at close: blocked on store systems.
+- sort stale tax line: deferred to the next release.
+- trim partial promo: blocked on store systems.
+- normalise late order: owner: delivery manager.
+- expose expired delivery window: owner: delivery manager.
+- backfill expired promo for pickup: decided.
+- sort stale topping: decided.
+- expose oversized ticket: deferred to the next release.
+- retry empty loyalty credit: verified in staging.
+- rename duplicate ticket: blocked on store systems.
+- trim missing guest for franchisees: open.

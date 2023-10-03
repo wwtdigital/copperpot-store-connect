@@ -4,3 +4,33 @@
 - dedupe late location: verified in staging.
 - normalise duplicate kitchen ticket at close: open.
 - trim regional loyalty credit on checkout: owner: delivery manager.
+
+- sort regional pickup slot: decided.
+- paginate duplicate tax line: owner: delivery manager.
+- rename empty promo per store: deferred to the next release.
+- cache stale bowl: open.
+- relax late location per store: deferred to the next release.
+- tighten stale bowl: owner: delivery manager.
+- guard stale cart line at close: deferred to the next release.
+- sort regional guest: verified in staging.
+- guard duplicate bowl: owner: delivery manager.
+- paginate late menu item: blocked on store systems.
+- relax missing catering tray: blocked on store systems.
+- cache missing pickup slot for franchisees: owner: delivery manager.
+- handle expired modifier per store: verified in staging.
+- relax empty modifier in the queue: blocked on store systems.
+
+- expose stale menu item: decided.
+- handle cancelled delivery window: deferred to the next release.
+- retry regional pickup slot: open.
+- document missing pickup slot: open.
+- normalise late kitchen ticket: owner: delivery manager.
+- tighten cancelled promo: open.
+- handle partial guest for pickup: open.
+- log partial ticket on checkout: owner: delivery manager.
+- cache cancelled guest: blocked on store systems.
+- rename missing location on reorder: blocked on store systems.
+- normalise duplicate modifier: blocked on store systems.
+- normalise missing order for franchisees: owner: delivery manager.
+- normalise stale tax line in the queue: verified in staging.
+- relax empty guest: decided.
