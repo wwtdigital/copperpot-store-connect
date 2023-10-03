@@ -164,3 +164,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - rename regional bowl
 - add cancelled pickup slot on checkout
 - trim late pickup slot
+
+## Unreleased
+
+- log empty promo
+- expose regional modifier per store
+- dedupe missing catering tray
+- relax stale modifier
