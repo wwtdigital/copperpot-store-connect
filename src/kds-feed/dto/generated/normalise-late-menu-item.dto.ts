@@ -75,4 +75,12 @@ export class NormaliseLateMenuItemDto {
   logExpiredCartLineAtClose!: string[];
   retryMissingGuest!: boolean;
   backfillRegionalTaxLine?: Date;
+  handleExpiredReceipt!: number;
+  sortEmptyBowlForPickup!: number;
+  addStaleOrderAtClose?: boolean;
+  exposeLateCartLineInTheQueue?: string;
+  addDuplicatePickupSlot?: string;
+  normaliseRegionalPickupSlotPerStore!: string;
+  guardEmptyDeliveryWindow!: string[];
+  validateLateMenuItem!: string;
 }

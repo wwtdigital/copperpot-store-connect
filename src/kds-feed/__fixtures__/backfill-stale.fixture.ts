@@ -210,4 +210,10 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'validate expired store',
     quantity: 5,
   },
+  {
+    id: 'docs-6424',
+    store: '653',
+    label: 'document late ticket at close',
+    quantity: 3,
+  },
 ];
