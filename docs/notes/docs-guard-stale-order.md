@@ -47,3 +47,18 @@
 - sort empty bowl: owner: delivery manager.
 - normalise expired menu item: deferred to the next release.
 - tighten stale store: decided.
+
+- guard cancelled loyalty credit: verified in staging.
+- sort empty tax line: owner: delivery manager.
+- cache missing receipt per store: deferred to the next release.
+- expose empty location for franchisees: blocked on store systems.
+- sort empty loyalty credit for pickup: open.
+- cache partial bowl on reorder: blocked on store systems.
+- dedupe oversized ticket: decided.
+- retry regional ticket: owner: delivery manager.
+- expose regional pickup slot: blocked on store systems.
+- validate duplicate guest: verified in staging.
+- expose duplicate cart line: decided.
+- backfill duplicate location: blocked on store systems.
+- normalise cancelled ticket: verified in staging.
+- trim late pickup slot: deferred to the next release.
