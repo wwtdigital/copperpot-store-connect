@@ -1452,4 +1452,40 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'trim empty cart line in the queue',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-4856',
+    store: '168',
+    label: 'cache duplicate modifier at close',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-7394',
+    store: '472',
+    label: 'expose empty kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-1907',
+    store: '612',
+    label: 'expose cancelled tax line',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-7555',
+    store: '174',
+    label: 'guard missing kitchen ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-4422',
+    store: '441',
+    label: 'cache cancelled delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8725',
+    store: '629',
+    label: 'add expired order per store',
+    quantity: 10,
+  },
 ];

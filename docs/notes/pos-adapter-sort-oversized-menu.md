@@ -52,3 +52,5 @@
 - retry empty loyalty credit: verified in staging.
 - rename duplicate ticket: blocked on store systems.
 - trim missing guest for franchisees: open.
+
+- validate partial modifier for franchisees: decided.
