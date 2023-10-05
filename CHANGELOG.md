@@ -171,3 +171,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - expose regional modifier per store
 - dedupe missing catering tray
 - relax stale modifier
+
+## Unreleased
+
+- cache missing kitchen ticket at close
+- log empty bowl
+- retry oversized tax line
+- sort oversized modifier in the queue

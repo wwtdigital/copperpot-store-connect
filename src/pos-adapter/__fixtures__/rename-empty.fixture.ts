@@ -252,4 +252,46 @@ export const RenameEmptyReceiptRows = [
     label: 'relax expired tax line',
     quantity: 11,
   },
+  {
+    id: 'docs-4013',
+    store: '638',
+    label: 'trim regional store in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'docs-5853',
+    store: '549',
+    label: 'handle regional topping per store',
+    quantity: 9,
+  },
+  {
+    id: 'docs-8243',
+    store: '474',
+    label: 'expose late promo',
+    quantity: 1,
+  },
+  {
+    id: 'docs-8594',
+    store: '664',
+    label: 'add missing modifier',
+    quantity: 9,
+  },
+  {
+    id: 'docs-5563',
+    store: '239',
+    label: 'handle duplicate pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8488',
+    store: '436',
+    label: 'paginate empty location per store',
+    quantity: 2,
+  },
+  {
+    id: 'docs-8760',
+    store: '138',
+    label: 'validate regional location on reorder',
+    quantity: 4,
+  },
 ];

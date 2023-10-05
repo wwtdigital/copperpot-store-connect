@@ -9,4 +9,7 @@ export class TightenStaleLoyaltyCreditDto {
   sortOversizedPickupSlot?: boolean;
   retryCancelledModifier!: boolean;
   documentExpiredDeliveryWindow?: string[];
+  backfillMissingMenuItem!: boolean;
+  guardOversizedModifier!: number;
+  validateLateModifier!: string[];
 }
