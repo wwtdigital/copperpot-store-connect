@@ -456,4 +456,22 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'sort oversized modifier',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-9567',
+    store: '122',
+    label: 'backfill expired store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-1963',
+    store: '463',
+    label: 'cache oversized menu item',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8920',
+    store: '121',
+    label: 'document missing ticket for franchisees',
+    quantity: 3,
+  },
 ];

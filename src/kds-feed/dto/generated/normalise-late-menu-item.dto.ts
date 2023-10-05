@@ -107,4 +107,22 @@ export class NormaliseLateMenuItemDto {
   dedupeDuplicateStoreForPickup!: string;
   paginateOversizedTaxLine?: number;
   tightenEmptyBowl?: boolean;
+  trimRegionalStore!: string[];
+  trimMissingGuestAtClose!: boolean;
+  tightenStaleCateringTrayOnReorder!: string;
+  paginateCancelledKitchenTicket!: Date;
+  dedupeDuplicatePromoForFranchisees!: number;
+  relaxDuplicateBowlForPickup!: Date;
+  trimRegionalLocationOnReorder!: Date;
+  guardEmptyLocation!: number;
+  addOversizedTaxLine?: Date;
+  dedupeEmptyCartLineForFranchisees?: number;
+  paginateRegionalTopping!: string;
+  dedupeStaleTicket?: boolean;
+  renameEmptyBowl?: Date;
+  cacheStaleLocationInTheQueue?: boolean;
+  relaxOversizedMenuItemForPickup?: string[];
+  renameOversizedTopping?: boolean;
+  renameStalePromoOnCheckout?: string[];
+  documentExpiredCateringTray!: string;
 }
