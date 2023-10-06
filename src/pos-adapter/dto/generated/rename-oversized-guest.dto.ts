@@ -128,4 +128,16 @@ export class RenameOversizedGuestDto {
   normaliseMissingCateringTray!: string[];
   tightenMissingOrderInTheQueue?: string;
   exposeExpiredBowlForPickup?: Date;
+  documentDuplicateBowl?: string;
+  logLateDeliveryWindow!: string;
+  normaliseStalePickupSlotOnReorder?: Date;
+  sortExpiredPickupSlotOnCheckout!: string[];
+  relaxExpiredModifierOnReorder!: string[];
+  exposeOversizedStore!: boolean;
+  cachePartialReceiptForFranchisees!: boolean;
+  backfillEmptyPickupSlotForPickup!: number;
+  paginateMissingDeliveryWindowPerStore!: boolean;
+  cacheDuplicateDeliveryWindowInTheQueue!: boolean;
+  addOversizedPromo?: boolean;
+  logStaleOrder!: string;
 }
