@@ -20,4 +20,15 @@ export class ValidateDuplicatePickupSlotDto {
   paginatePartialStore!: boolean;
   addDuplicateTaxLine?: number;
   paginateCancelledBowl!: string;
+  dedupeStaleDeliveryWindowOnCheckout!: number;
+  sortExpiredTaxLine!: number;
+  normaliseMissingCateringTray!: string[];
+  normaliseDuplicateDeliveryWindow!: string;
+  trimMissingGuest?: string[];
+  backfillStaleTicketAtClose!: Date;
+  logMissingKitchenTicketInTheQueue!: string;
+  addRegionalMenuItem!: string[];
+  sortMissingLocationOnCheckout!: Date;
+  paginateDuplicateReceiptOnReorder?: Date;
+  relaxPartialTaxLine!: Date;
 }

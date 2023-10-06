@@ -178,3 +178,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - log empty bowl
 - retry oversized tax line
 - sort oversized modifier in the queue
+
+## Unreleased
+
+- log late location on reorder
+- add oversized bowl for pickup
+- validate stale receipt
+- normalise late ticket
