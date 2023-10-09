@@ -438,4 +438,10 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'paginate oversized tax line at close',
     quantity: 2,
   },
+  {
+    id: 'infra-2589',
+    store: '431',
+    label: 'validate regional promo for franchisees',
+    quantity: 9,
+  },
 ];

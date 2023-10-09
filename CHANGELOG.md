@@ -189,3 +189,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 ## Unreleased
 
 - cache stale topping in the queue
+
+## Unreleased
+
+- guard partial tax line at close
+- tighten stale ticket on checkout
+- paginate missing modifier for franchisees
+- relax empty pickup slot

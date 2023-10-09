@@ -12,4 +12,6 @@ export class TightenStaleLoyaltyCreditDto {
   backfillMissingMenuItem!: boolean;
   guardOversizedModifier!: number;
   validateLateModifier!: string[];
+  tightenExpiredDeliveryWindow?: boolean;
+  documentCancelledCateringTray!: Date;
 }
