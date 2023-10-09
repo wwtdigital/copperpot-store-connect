@@ -510,4 +510,16 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'log regional cart line for pickup',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-8697',
+    store: '363',
+    label: 'cache cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-2998',
+    store: '114',
+    label: 'log missing order on reorder',
+    quantity: 5,
+  },
 ];
