@@ -474,4 +474,40 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'document missing ticket for franchisees',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-3353',
+    store: '631',
+    label: 'backfill late bowl in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5857',
+    store: '473',
+    label: 'handle cancelled store',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-6247',
+    store: '655',
+    label: 'guard late tax line',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-7285',
+    store: '418',
+    label: 'cache stale menu item',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8449',
+    store: '694',
+    label: 'relax partial store on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-5506',
+    store: '576',
+    label: 'log regional cart line for pickup',
+    quantity: 7,
+  },
 ];
