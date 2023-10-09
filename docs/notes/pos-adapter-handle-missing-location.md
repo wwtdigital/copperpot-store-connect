@@ -34,3 +34,18 @@
 - normalise missing order for franchisees: owner: delivery manager.
 - normalise stale tax line in the queue: verified in staging.
 - relax empty guest: decided.
+
+- handle oversized tax line on reorder: deferred to the next release.
+- trim late location: blocked on store systems.
+- handle oversized promo per store: open.
+- expose regional promo in the queue: open.
+- guard missing menu item: decided.
+- validate duplicate store: open.
+- sort cancelled kitchen ticket: verified in staging.
+- add missing tax line at close: open.
+- validate empty modifier: owner: delivery manager.
+- cache empty delivery window: open.
+- paginate duplicate bowl in the queue: open.
+- validate partial delivery window: blocked on store systems.
+- handle missing catering tray: decided.
+- add late cart line: deferred to the next release.
