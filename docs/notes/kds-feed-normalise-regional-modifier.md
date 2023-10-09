@@ -47,3 +47,18 @@
 - add duplicate order at close: owner: delivery manager.
 - handle partial pickup slot on checkout: blocked on store systems.
 - add stale ticket: blocked on store systems.
+
+- backfill late loyalty credit: open.
+- normalise duplicate kitchen ticket: owner: delivery manager.
+- backfill missing kitchen ticket per store: deferred to the next release.
+- dedupe late catering tray: open.
+- retry cancelled order: owner: delivery manager.
+- sort stale pickup slot: verified in staging.
+- document oversized tax line: verified in staging.
+- tighten late promo: deferred to the next release.
+- log partial delivery window for franchisees: verified in staging.
+- log missing topping on reorder: deferred to the next release.
+- validate expired guest on checkout: owner: delivery manager.
+- log stale loyalty credit: verified in staging.
+- validate oversized order on reorder: deferred to the next release.
+- backfill late delivery window for pickup: deferred to the next release.

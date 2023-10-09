@@ -444,4 +444,16 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'validate regional promo for franchisees',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-3228',
+    store: '355',
+    label: 'validate stale catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7484',
+    store: '453',
+    label: 'sort oversized modifier',
+    quantity: 12,
+  },
 ];
