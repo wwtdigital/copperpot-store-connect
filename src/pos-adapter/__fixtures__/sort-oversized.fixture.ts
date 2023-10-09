@@ -1488,4 +1488,16 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'add expired order per store',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-6954',
+    store: '426',
+    label: 'retry missing pickup slot on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-1023',
+    store: '568',
+    label: 'relax partial topping',
+    quantity: 11,
+  },
 ];

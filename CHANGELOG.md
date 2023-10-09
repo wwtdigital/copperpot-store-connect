@@ -185,3 +185,7 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - add oversized bowl for pickup
 - validate stale receipt
 - normalise late ticket
+
+## Unreleased
+
+- cache stale topping in the queue
