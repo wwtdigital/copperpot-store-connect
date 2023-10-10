@@ -83,4 +83,28 @@ export class NormaliseLateMenuItemDto {
   normaliseRegionalPickupSlotPerStore!: string;
   guardEmptyDeliveryWindow!: string[];
   validateLateMenuItem!: string;
+  retryPartialReceipt!: number;
+  dedupeEmptyCartLine?: number;
+  backfillPartialTopping?: Date;
+  relaxDuplicateCartLine!: string[];
+  renameMissingToppingForFranchisees!: number;
+  tightenExpiredStoreAtClose?: string[];
+  backfillExpiredCateringTray?: string[];
+  exposePartialKitchenTicket!: string;
+  documentCancelledTicket!: number;
+  validateMissingTaxLine!: Date;
+  dedupeStaleOrderForPickup!: string[];
+  sortEmptyModifier!: Date;
+  retryMissingBowl!: string[];
+  cachePartialCartLine?: Date;
+  handleLateTicketInTheQueue!: Date;
+  renameEmptyToppingOnCheckout?: Date;
+  validateEmptyDeliveryWindowOnReorder?: string[];
+  renameStaleLoyaltyCreditOnReorder!: Date;
+  addDuplicateOrder!: number;
+  backfillCancelledLocation?: string;
+  renameLateCartLineOnReorder!: string[];
+  dedupeDuplicateStoreForPickup!: string;
+  paginateOversizedTaxLine?: number;
+  tightenEmptyBowl?: boolean;
 }

@@ -1,0 +1,31 @@
+# infra: log stale kitchen ticket
+
+- trim partial promo: decided.
+- trim missing promo: open.
+- trim missing menu item: blocked on store systems.
+- backfill duplicate location: open.
+- add partial ticket for pickup: owner: delivery manager.
+- sort empty modifier per store: verified in staging.
+- sort cancelled loyalty credit: blocked on store systems.
+- log regional location: blocked on store systems.
+- document duplicate ticket in the queue: verified in staging.
+- trim expired store in the queue: verified in staging.
+- add regional delivery window at close: decided.
+- paginate missing store: owner: delivery manager.
+- validate late guest: open.
+- guard late guest: blocked on store systems.
+
+- handle oversized pickup slot: deferred to the next release.
+- handle duplicate guest for pickup: verified in staging.
+- document stale receipt: decided.
+- relax oversized tax line: verified in staging.
+- validate duplicate topping: blocked on store systems.
+- rename partial loyalty credit for pickup: verified in staging.
+- paginate duplicate bowl for franchisees: deferred to the next release.
+- guard duplicate promo: open.
+- backfill missing pickup slot on reorder: blocked on store systems.
+- rename partial promo per store: blocked on store systems.
+- tighten empty location: deferred to the next release.
+- trim stale bowl: verified in staging.
+- cache expired modifier: blocked on store systems.
+- tighten regional delivery window: open.

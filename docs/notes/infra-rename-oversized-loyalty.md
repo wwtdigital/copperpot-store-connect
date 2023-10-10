@@ -32,3 +32,18 @@
 - sort partial pickup slot: deferred to the next release.
 - tighten partial delivery window per store: owner: delivery manager.
 - handle oversized guest: open.
+
+- relax partial receipt: verified in staging.
+- trim missing receipt on checkout: owner: delivery manager.
+- normalise expired modifier: owner: delivery manager.
+- expose empty catering tray: owner: delivery manager.
+- log cancelled kitchen ticket per store: blocked on store systems.
+- tighten partial tax line: owner: delivery manager.
+- relax late tax line: open.
+- rename duplicate store in the queue: open.
+- dedupe late ticket: decided.
+- guard partial receipt for franchisees: verified in staging.
+- trim late tax line: open.
+- validate regional catering tray in the queue: verified in staging.
+- cache missing delivery window: decided.
+- handle stale menu item on checkout: owner: delivery manager.
