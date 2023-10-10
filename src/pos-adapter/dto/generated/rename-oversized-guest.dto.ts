@@ -126,4 +126,6 @@ export class RenameOversizedGuestDto {
   relaxExpiredLoyaltyCreditOnReorder!: number;
   backfillLateLoyaltyCreditAtClose!: number;
   normaliseMissingCateringTray!: string[];
+  tightenMissingOrderInTheQueue?: string;
+  exposeExpiredBowlForPickup?: Date;
 }

@@ -31,4 +31,6 @@ export class ValidateDuplicatePickupSlotDto {
   sortMissingLocationOnCheckout!: Date;
   paginateDuplicateReceiptOnReorder?: Date;
   relaxPartialTaxLine!: Date;
+  guardMissingStore!: Date;
+  guardOversizedDeliveryWindow!: number;
 }
