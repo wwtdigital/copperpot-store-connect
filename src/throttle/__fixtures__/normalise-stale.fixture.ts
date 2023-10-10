@@ -342,4 +342,34 @@ export const NormaliseStaleOrderAtCloseRows = [
     label: 'trim partial pickup slot on checkout',
     quantity: 6,
   },
+  {
+    id: 'infra-7396',
+    store: '604',
+    label: 'retry cancelled store',
+    quantity: 4,
+  },
+  {
+    id: 'infra-4646',
+    store: '361',
+    label: 'relax stale order',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4599',
+    store: '564',
+    label: 'normalise missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'infra-4276',
+    store: '497',
+    label: 'document regional menu item for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'infra-3334',
+    store: '414',
+    label: 'add late pickup slot',
+    quantity: 11,
+  },
 ];
