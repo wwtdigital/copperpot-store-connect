@@ -54,3 +54,9 @@
 - trim missing guest for franchisees: open.
 
 - validate partial modifier for franchisees: decided.
+
+- handle stale kitchen ticket: decided.
+- log oversized tax line: open.
+- validate late modifier: decided.
+- document regional ticket: verified in staging.
+- relax regional tax line: open.

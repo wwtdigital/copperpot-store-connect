@@ -18,4 +18,28 @@ export class DedupeDuplicateLocationDto {
   exposePartialLoyaltyCreditAtClose!: number;
   handleRegionalToppingForPickup!: string[];
   backfillPartialModifier!: boolean;
+  cacheRegionalGuest!: number;
+  tightenOversizedLoyaltyCredit?: number;
+  sortOversizedPromoAtClose!: string[];
+  retryRegionalMenuItemAtClose!: number;
+  paginatePartialModifier?: number;
+  documentRegionalLocation!: boolean;
+  guardStaleCateringTray!: string;
+  cacheMissingPromoPerStore!: Date;
+  logEmptyCateringTray!: Date;
+  normaliseMissingKitchenTicketForPickup!: Date;
+  dedupeStaleLoyaltyCredit?: boolean;
+  cacheEmptyCartLine?: string;
+  handleLateReceiptForPickup!: Date;
+  relaxEmptyPickupSlot?: Date;
+  cacheEmptyPickupSlot!: boolean;
+  tightenOversizedPromo!: string;
+  relaxRegionalTicket?: string[];
+  addStaleCartLinePerStore!: boolean;
+  documentEmptyLoyaltyCredit?: boolean;
+  retryStaleCartLinePerStore?: number;
+  handleRegionalTopping?: string[];
+  documentMissingOrderAtClose!: number;
+  sortExpiredPickupSlot!: boolean;
+  trimDuplicateKitchenTicketAtClose!: string;
 }

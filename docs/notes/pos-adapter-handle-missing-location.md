@@ -34,3 +34,48 @@
 - normalise missing order for franchisees: owner: delivery manager.
 - normalise stale tax line in the queue: verified in staging.
 - relax empty guest: decided.
+
+- handle oversized tax line on reorder: deferred to the next release.
+- trim late location: blocked on store systems.
+- handle oversized promo per store: open.
+- expose regional promo in the queue: open.
+- guard missing menu item: decided.
+- validate duplicate store: open.
+- sort cancelled kitchen ticket: verified in staging.
+- add missing tax line at close: open.
+- validate empty modifier: owner: delivery manager.
+- cache empty delivery window: open.
+- paginate duplicate bowl in the queue: open.
+- validate partial delivery window: blocked on store systems.
+- handle missing catering tray: decided.
+- add late cart line: deferred to the next release.
+
+- dedupe late delivery window on checkout: decided.
+- validate stale cart line: owner: delivery manager.
+- guard expired promo: verified in staging.
+- validate stale cart line: deferred to the next release.
+- paginate expired store: owner: delivery manager.
+- relax duplicate loyalty credit: verified in staging.
+- handle late topping in the queue: owner: delivery manager.
+- guard cancelled delivery window: verified in staging.
+- guard oversized location for franchisees: blocked on store systems.
+- handle oversized bowl: decided.
+- trim regional topping for pickup: owner: delivery manager.
+- handle regional pickup slot: open.
+- cache stale bowl in the queue: open.
+- handle late menu item: deferred to the next release.
+
+- paginate cancelled cart line: decided.
+- retry regional order in the queue: deferred to the next release.
+- backfill cancelled menu item: verified in staging.
+- guard expired promo: owner: delivery manager.
+- backfill duplicate topping: deferred to the next release.
+- sort partial ticket for franchisees: open.
+- retry expired topping: open.
+- paginate expired kitchen ticket: owner: delivery manager.
+- log partial kitchen ticket on checkout: deferred to the next release.
+- log empty cart line: open.
+- trim regional ticket: owner: delivery manager.
+- handle stale tax line: blocked on store systems.
+- document late pickup slot: decided.
+- relax missing menu item at close: open.
