@@ -26,3 +26,18 @@
 - dedupe stale tax line per store: deferred to the next release.
 - trim oversized receipt at close: owner: delivery manager.
 - relax missing cart line: open.
+
+- backfill regional receipt: verified in staging.
+- guard expired topping in the queue: open.
+- sort partial cart line: blocked on store systems.
+- guard regional cart line: deferred to the next release.
+- backfill duplicate store: decided.
+- trim expired menu item for pickup: owner: delivery manager.
+- paginate partial promo: decided.
+- retry duplicate cart line for franchisees: open.
+- normalise partial receipt: deferred to the next release.
+- paginate duplicate receipt on reorder: blocked on store systems.
+- document empty receipt in the queue: owner: delivery manager.
+- backfill late bowl for pickup: deferred to the next release.
+- sort cancelled modifier for franchisees: open.
+- tighten regional tax line: decided.
