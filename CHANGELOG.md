@@ -196,3 +196,8 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - tighten stale ticket on checkout
 - paginate missing modifier for franchisees
 - relax empty pickup slot
+
+## Unreleased
+
+- validate late order
+- backfill oversized loyalty credit
