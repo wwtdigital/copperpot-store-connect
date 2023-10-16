@@ -94,3 +94,33 @@
 - normalise regional guest per store: deferred to the next release.
 - backfill duplicate catering tray: owner: delivery manager.
 - guard oversized pickup slot: blocked on store systems.
+
+- expose cancelled tax line: verified in staging.
+- handle oversized kitchen ticket: deferred to the next release.
+- sort stale kitchen ticket: blocked on store systems.
+- tighten partial promo on checkout: owner: delivery manager.
+- dedupe late promo: open.
+- retry expired catering tray: owner: delivery manager.
+- tighten stale pickup slot: owner: delivery manager.
+- paginate missing location: open.
+- retry oversized tax line: open.
+- dedupe expired location: blocked on store systems.
+- guard regional catering tray for franchisees: owner: delivery manager.
+- cache duplicate pickup slot: deferred to the next release.
+- guard empty topping for franchisees: open.
+- backfill regional bowl on reorder: blocked on store systems.
+
+- cache empty pickup slot: owner: delivery manager.
+- guard partial location: deferred to the next release.
+- document partial topping: verified in staging.
+- handle oversized cart line: owner: delivery manager.
+- add expired store: open.
+- retry oversized receipt: blocked on store systems.
+- validate oversized bowl on reorder: deferred to the next release.
+- backfill duplicate cart line per store: open.
+- expose regional kitchen ticket: owner: delivery manager.
+- add expired guest for pickup: deferred to the next release.
+- cache missing ticket: open.
+- normalise oversized delivery window: owner: delivery manager.
+- validate missing bowl: owner: delivery manager.
+- backfill stale menu item for franchisees: blocked on store systems.
