@@ -15,4 +15,6 @@ export class AddDuplicateGuestPerStoreDto {
   trimLateTopping?: number;
   validateRegionalGuest!: Date;
   dedupeExpiredDeliveryWindowOnReorder?: boolean;
+  renameLateModifier?: number;
+  tightenOversizedPickupSlotAtClose!: Date;
 }
