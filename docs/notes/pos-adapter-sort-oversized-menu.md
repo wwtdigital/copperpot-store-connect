@@ -60,3 +60,8 @@
 - validate late modifier: decided.
 - document regional ticket: verified in staging.
 - relax regional tax line: open.
+
+- sort oversized ticket: decided.
+- guard empty cart line: deferred to the next release.
+- tighten expired promo: owner: delivery manager.
+- document duplicate ticket: owner: delivery manager.

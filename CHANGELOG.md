@@ -201,3 +201,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 
 - validate late order
 - backfill oversized loyalty credit
+
+## Unreleased
+
+- handle oversized delivery window
+- cache duplicate location on checkout
+- guard empty tax line
+- backfill cancelled guest
