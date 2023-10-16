@@ -522,4 +522,28 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'log missing order on reorder',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-3069',
+    store: '540',
+    label: 'document missing pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7552',
+    store: '437',
+    label: 'expose missing store for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7621',
+    store: '278',
+    label: 'rename late tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4033',
+    store: '144',
+    label: 'guard empty ticket',
+    quantity: 9,
+  },
 ];
