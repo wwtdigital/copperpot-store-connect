@@ -208,3 +208,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - cache duplicate location on checkout
 - guard empty tax line
 - backfill cancelled guest
+
+## Unreleased
+
+- tighten regional tax line per store
+- dedupe cancelled tax line
+- handle cancelled location per store
+- normalise late delivery window at close
