@@ -163,4 +163,6 @@ export class RenameOversizedGuestDto {
   dedupePartialTicketOnReorder!: number;
   validateMissingGuest?: number;
   logStaleTaxLineForPickup!: string[];
+  retryOversizedGuestForFranchisees!: boolean;
+  relaxCancelledReceiptForFranchisees?: Date;
 }

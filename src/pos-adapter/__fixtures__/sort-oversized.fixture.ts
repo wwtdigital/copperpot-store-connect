@@ -1872,4 +1872,58 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'backfill oversized modifier for pickup',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-2593',
+    store: '520',
+    label: 'retry regional pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6107',
+    store: '677',
+    label: 'retry empty promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-5525',
+    store: '117',
+    label: 'log cancelled store on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-9319',
+    store: '150',
+    label: 'cache regional receipt',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-7725',
+    store: '616',
+    label: 'expose stale cart line',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-1121',
+    store: '287',
+    label: 'guard oversized tax line per store',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-1049',
+    store: '287',
+    label: 'log partial tax line',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-7126',
+    store: '600',
+    label: 'dedupe cancelled store',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-1669',
+    store: '545',
+    label: 'normalise stale cart line',
+    quantity: 1,
+  },
 ];
