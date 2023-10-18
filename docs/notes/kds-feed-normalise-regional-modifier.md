@@ -62,3 +62,18 @@
 - log stale loyalty credit: verified in staging.
 - validate oversized order on reorder: deferred to the next release.
 - backfill late delivery window for pickup: deferred to the next release.
+
+- retry cancelled kitchen ticket for franchisees: open.
+- tighten late store at close: deferred to the next release.
+- guard missing order for pickup: owner: delivery manager.
+- guard late loyalty credit for pickup: owner: delivery manager.
+- guard oversized pickup slot: blocked on store systems.
+- rename empty cart line at close: deferred to the next release.
+- rename duplicate modifier: deferred to the next release.
+- cache cancelled ticket: deferred to the next release.
+- normalise cancelled loyalty credit: open.
+- expose missing promo per store: verified in staging.
+- add cancelled kitchen ticket per store: verified in staging.
+- dedupe late loyalty credit on reorder: open.
+- log duplicate pickup slot for franchisees: deferred to the next release.
+- expose partial ticket at close: verified in staging.
