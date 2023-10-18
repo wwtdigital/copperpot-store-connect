@@ -42,4 +42,11 @@ export class DedupeDuplicateLocationDto {
   documentMissingOrderAtClose!: number;
   sortExpiredPickupSlot!: boolean;
   trimDuplicateKitchenTicketAtClose!: string;
+  relaxOversizedCartLine?: boolean;
+  cacheCancelledBowl?: number;
+  exposeExpiredStore!: Date;
+  handleExpiredCartLineOnCheckout?: string[];
+  tightenCancelledModifierForPickup!: Date;
+  backfillExpiredCateringTrayPerStore?: string[];
+  tightenPartialMenuItemForPickup!: string[];
 }

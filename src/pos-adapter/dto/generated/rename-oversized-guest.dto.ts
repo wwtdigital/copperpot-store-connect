@@ -165,4 +165,28 @@ export class RenameOversizedGuestDto {
   logStaleTaxLineForPickup!: string[];
   retryOversizedGuestForFranchisees!: boolean;
   relaxCancelledReceiptForFranchisees?: Date;
+  exposeStaleCartLine!: boolean;
+  guardMissingModifier?: string[];
+  validateStaleMenuItemOnReorder?: string[];
+  handleStaleReceiptForFranchisees!: Date;
+  logLateStorePerStore!: Date;
+  tightenMissingDeliveryWindowInTheQueue!: string;
+  tightenStaleCartLine?: string[];
+  normaliseExpiredGuestOnCheckout!: string;
+  backfillEmptyPromoInTheQueue!: boolean;
+  handleExpiredLoyaltyCredit!: string[];
+  tightenRegionalLocation?: string[];
+  handleStaleTopping!: string[];
+  sortDuplicateModifier!: Date;
+  logOversizedTopping!: string;
+  renameRegionalBowl?: Date;
+  tightenMissingLoyaltyCredit?: string;
+  retryOversizedReceiptOnCheckout!: string;
+  tightenEmptyCateringTrayOnReorder?: Date;
+  sortOversizedStoreForPickup!: string[];
+  trimStaleTicketInTheQueue!: string[];
+  dedupeMissingTicketOnReorder!: Date;
+  handleLateBowl!: number;
+  cacheEmptyPromo!: string;
+  normaliseLateBowl!: string;
 }

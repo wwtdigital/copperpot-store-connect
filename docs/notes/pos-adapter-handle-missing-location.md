@@ -79,3 +79,24 @@
 - handle stale tax line: blocked on store systems.
 - document late pickup slot: decided.
 - relax missing menu item at close: open.
+
+- paginate stale topping: deferred to the next release.
+- handle expired promo: open.
+- paginate regional tax line: decided.
+- guard oversized pickup slot on reorder: decided.
+- retry regional location: deferred to the next release.
+- normalise partial menu item: owner: delivery manager.
+- retry partial tax line per store: owner: delivery manager.
+- validate regional kitchen ticket: deferred to the next release.
+- add expired bowl: open.
+- add regional ticket: open.
+- add late ticket: verified in staging.
+- log expired delivery window: decided.
+- guard expired guest on reorder: blocked on store systems.
+- normalise oversized guest: deferred to the next release.
+
+- log duplicate delivery window: blocked on store systems.
+- validate late topping: blocked on store systems.
+- handle partial bowl on reorder: decided.
+- document partial bowl: verified in staging.
+- tighten expired delivery window: decided.
