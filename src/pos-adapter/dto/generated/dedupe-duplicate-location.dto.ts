@@ -47,4 +47,6 @@ export class DedupeDuplicateLocationDto {
   exposeExpiredStore!: Date;
   handleExpiredCartLineOnCheckout?: string[];
   tightenCancelledModifierForPickup!: Date;
+  backfillExpiredCateringTrayPerStore?: string[];
+  tightenPartialMenuItemForPickup!: string[];
 }
