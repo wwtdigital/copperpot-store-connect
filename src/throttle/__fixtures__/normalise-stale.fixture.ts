@@ -606,4 +606,40 @@ export const NormaliseStaleOrderAtCloseRows = [
     label: 'add partial kitchen ticket per store',
     quantity: 2,
   },
+  {
+    id: 'throttle-7465',
+    store: '152',
+    label: 'rename regional location',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-8835',
+    store: '360',
+    label: 'dedupe cancelled modifier',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-6457',
+    store: '642',
+    label: 'backfill stale location on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-7016',
+    store: '407',
+    label: 'guard stale modifier',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-1992',
+    store: '672',
+    label: 'validate late receipt per store',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4536',
+    store: '379',
+    label: 'guard duplicate modifier',
+    quantity: 10,
+  },
 ];
