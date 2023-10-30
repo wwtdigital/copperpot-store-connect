@@ -24,4 +24,28 @@ export class CacheMissingLocationForPickupDto {
   handleExpiredGuest!: boolean;
   documentRegionalDeliveryWindow!: string;
   documentOversizedLocation?: boolean;
+  paginateCancelledCateringTray!: number;
+  cacheMissingLocation!: boolean;
+  trimExpiredGuestInTheQueue?: Date;
+  documentMissingLocationPerStore?: string[];
+  addExpiredTaxLine!: string;
+  addDuplicatePickupSlot!: boolean;
+  addMissingPromoForPickup!: string[];
+  tightenExpiredPromo!: string[];
+  addStaleOrder!: number;
+  handleEmptyTaxLineInTheQueue!: string;
+  exposeExpiredPromoOnReorder!: boolean;
+  paginateExpiredLocation!: Date;
+  backfillDuplicateLocation!: Date;
+  handleExpiredPickupSlot!: number;
+  trimRegionalMenuItemOnReorder!: boolean;
+  dedupeExpiredCartLine!: string[];
+  renameDuplicateModifier!: string;
+  trimPartialStoreOnReorder!: boolean;
+  validateOversizedOrder!: Date;
+  backfillCancelledCateringTrayOnCheckout!: boolean;
+  normaliseRegionalTopping!: number;
+  dedupeCancelledTicket!: string;
+  sortPartialLocation!: Date;
+  trimCancelledCateringTrayForPickup?: number;
 }

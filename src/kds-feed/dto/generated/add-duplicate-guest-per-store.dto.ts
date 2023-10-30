@@ -17,4 +17,6 @@ export class AddDuplicateGuestPerStoreDto {
   dedupeExpiredDeliveryWindowOnReorder?: boolean;
   renameLateModifier?: number;
   tightenOversizedPickupSlotAtClose!: Date;
+  exposeOversizedModifierForFranchisees?: string[];
+  backfillDuplicateMenuItem!: string[];
 }
