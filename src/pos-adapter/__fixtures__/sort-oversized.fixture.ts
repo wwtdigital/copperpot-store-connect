@@ -1986,4 +1986,22 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'trim cancelled ticket',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-5537',
+    store: '290',
+    label: 'paginate duplicate kitchen ticket in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-3623',
+    store: '114',
+    label: 'log duplicate catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-2099',
+    store: '622',
+    label: 'relax missing topping in the queue',
+    quantity: 2,
+  },
 ];
