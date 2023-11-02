@@ -100,3 +100,18 @@
 - handle partial bowl on reorder: decided.
 - document partial bowl: verified in staging.
 - tighten expired delivery window: decided.
+
+- validate oversized cart line for pickup: decided.
+- relax missing promo for pickup: blocked on store systems.
+- normalise empty cart line: owner: delivery manager.
+- dedupe regional location for pickup: blocked on store systems.
+- normalise duplicate modifier: deferred to the next release.
+- trim late ticket per store: verified in staging.
+- add oversized delivery window: decided.
+- tighten empty tax line: deferred to the next release.
+- paginate missing pickup slot: deferred to the next release.
+- validate empty modifier at close: blocked on store systems.
+- retry empty loyalty credit: deferred to the next release.
+- retry stale guest: decided.
+- relax expired cart line: owner: delivery manager.
+- log late delivery window: verified in staging.
