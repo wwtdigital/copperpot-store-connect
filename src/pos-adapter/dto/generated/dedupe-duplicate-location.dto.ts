@@ -49,4 +49,11 @@ export class DedupeDuplicateLocationDto {
   tightenCancelledModifierForPickup!: Date;
   backfillExpiredCateringTrayPerStore?: string[];
   tightenPartialMenuItemForPickup!: string[];
+  backfillOversizedReceiptAtClose?: boolean;
+  retryRegionalLocation?: boolean;
+  paginateRegionalLocationPerStore!: string;
+  exposeCancelledOrder!: string;
+  documentLateModifier!: boolean;
+  documentMissingStoreForFranchisees?: number;
+  retryOversizedGuestPerStore?: Date;
 }
