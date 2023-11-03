@@ -18,4 +18,10 @@ export const TightenExpiredTicketPerStoreRows = [
     label: 'add empty delivery window for franchisees',
     quantity: 7,
   },
+  {
+    id: 'throttle-1143',
+    store: '618',
+    label: 'relax missing topping',
+    quantity: 6,
+  },
 ];
