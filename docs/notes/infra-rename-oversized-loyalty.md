@@ -28,3 +28,6 @@
 - expose expired promo: verified in staging.
 - normalise duplicate loyalty credit on reorder: deferred to the next release.
 - dedupe cancelled menu item: verified in staging.
+
+- normalise expired modifier: owner: delivery manager.
+- expose stale catering tray: open.

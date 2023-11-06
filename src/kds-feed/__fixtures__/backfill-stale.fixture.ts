@@ -546,4 +546,22 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'guard empty ticket',
     quantity: 9,
   },
+  {
+    id: 'infra-3126',
+    store: '265',
+    label: 'document oversized menu item at close',
+    quantity: 2,
+  },
+  {
+    id: 'infra-3423',
+    store: '536',
+    label: 'backfill stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'infra-1549',
+    store: '542',
+    label: 'paginate expired location',
+    quantity: 7,
+  },
 ];
