@@ -30,4 +30,22 @@ export const TightenRegionalToppingRows = [
     label: 'relax empty delivery window',
     quantity: 11,
   },
+  {
+    id: 'throttle-1570',
+    store: '141',
+    label: 'expose stale menu item',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3444',
+    store: '475',
+    label: 'document oversized delivery window in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6864',
+    store: '328',
+    label: 'guard late topping on reorder',
+    quantity: 4,
+  },
 ];
