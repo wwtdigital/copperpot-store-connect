@@ -215,3 +215,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - dedupe cancelled tax line
 - handle cancelled location per store
 - normalise late delivery window at close
+
+## Unreleased
+
+- trim duplicate menu item on checkout
+- log late kitchen ticket on checkout
+- paginate partial pickup slot for franchisees
+- document expired kitchen ticket

@@ -24,4 +24,10 @@ export const TightenRegionalToppingRows = [
     label: 'add cancelled store for pickup',
     quantity: 1,
   },
+  {
+    id: 'throttle-6912',
+    store: '688',
+    label: 'relax empty delivery window',
+    quantity: 11,
+  },
 ];
