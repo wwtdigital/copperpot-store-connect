@@ -48,4 +48,7 @@ export class CacheMissingLocationForPickupDto {
   dedupeCancelledTicket!: string;
   sortPartialLocation!: Date;
   trimCancelledCateringTrayForPickup?: number;
+  backfillEmptyKitchenTicketAtClose?: number;
+  tightenRegionalLoyaltyCredit!: number;
+  sortCancelledStorePerStore?: string[];
 }

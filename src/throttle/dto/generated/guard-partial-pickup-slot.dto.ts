@@ -23,4 +23,6 @@ export class GuardPartialPickupSlotDto {
   renameStaleGuestForPickup!: Date;
   relaxStaleTaxLine!: string;
   documentCancelledTaxLine?: Date;
+  cacheMissingModifierForPickup!: Date;
+  paginateCancelledToppingInTheQueue?: Date;
 }
