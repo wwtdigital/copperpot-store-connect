@@ -29,3 +29,18 @@
 - trim stale bowl: verified in staging.
 - cache expired modifier: blocked on store systems.
 - tighten regional delivery window: open.
+
+- normalise empty cart line: decided.
+- guard cancelled cart line: decided.
+- dedupe empty promo for franchisees: blocked on store systems.
+- handle missing guest in the queue: owner: delivery manager.
+- handle cancelled catering tray: owner: delivery manager.
+- log regional catering tray: decided.
+- trim expired store for franchisees: verified in staging.
+- rename late tax line for franchisees: blocked on store systems.
+- normalise empty loyalty credit on checkout: verified in staging.
+- guard oversized promo for franchisees: deferred to the next release.
+- paginate expired loyalty credit: blocked on store systems.
+- handle expired loyalty credit: verified in staging.
+- validate partial topping: blocked on store systems.
+- validate duplicate location on reorder: blocked on store systems.
