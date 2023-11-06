@@ -2004,4 +2004,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'relax missing topping in the queue',
     quantity: 2,
   },
+  {
+    id: 'infra-3909',
+    store: '675',
+    label: 'rename duplicate location',
+    quantity: 11,
+  },
 ];
