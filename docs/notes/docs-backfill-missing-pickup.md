@@ -28,3 +28,18 @@
 - expose cancelled loyalty credit on checkout: blocked on store systems.
 - relax stale guest: deferred to the next release.
 - handle empty tax line on checkout: open.
+
+- document missing bowl: blocked on store systems.
+- expose empty order: decided.
+- handle missing location for pickup: verified in staging.
+- retry oversized receipt on reorder: deferred to the next release.
+- validate oversized loyalty credit: verified in staging.
+- add oversized receipt per store: verified in staging.
+- rename cancelled ticket: decided.
+- validate duplicate guest: owner: delivery manager.
+- add late receipt: verified in staging.
+- dedupe stale receipt: open.
+- backfill empty store: decided.
+- handle cancelled delivery window in the queue: decided.
+- expose partial promo at close: verified in staging.
+- validate late order: owner: delivery manager.

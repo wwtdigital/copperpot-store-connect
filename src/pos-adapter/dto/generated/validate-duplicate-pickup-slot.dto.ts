@@ -216,4 +216,20 @@ export class ValidateDuplicatePickupSlotDto {
   normaliseDuplicateTopping!: Date;
   trimCancelledLoyaltyCreditOnCheckout!: boolean;
   trimCancelledOrder?: Date;
+  cacheExpiredCateringTrayOnCheckout!: string[];
+  guardRegionalPickupSlotPerStore!: string[];
+  logRegionalKitchenTicket!: string;
+  documentOversizedLoyaltyCreditOnCheckout!: string[];
+  backfillEmptyGuest?: boolean;
+  sortRegionalLoyaltyCreditInTheQueue!: boolean;
+  normaliseLateCartLine!: string[];
+  guardCancelledPromoForPickup!: number;
+  handleLateTaxLine?: Date;
+  renamePartialBowlInTheQueue!: number;
+  validateStaleReceipt?: string[];
+  exposeCancelledModifier!: boolean;
+  handleCancelledReceipt!: number;
+  validateStaleOrder!: string[];
+  relaxRegionalDeliveryWindow!: string[];
+  guardExpiredTicket!: string;
 }
