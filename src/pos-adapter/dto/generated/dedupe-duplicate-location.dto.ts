@@ -56,4 +56,17 @@ export class DedupeDuplicateLocationDto {
   documentLateModifier!: boolean;
   documentMissingStoreForFranchisees?: number;
   retryOversizedGuestPerStore?: Date;
+  validateRegionalGuest!: string[];
+  trimEmptyCartLine!: string;
+  normaliseExpiredBowlPerStore?: boolean;
+  handleDuplicateLocation!: string[];
+  cacheLateMenuItemForPickup!: Date;
+  backfillPartialGuestForFranchisees!: string[];
+  validatePartialDeliveryWindowForFranchisees!: boolean;
+  validateRegionalStore?: string;
+  renameMissingPickupSlot!: boolean;
+  exposeStalePickupSlot!: number;
+  paginateEmptyPickupSlot!: Date;
+  documentRegionalReceiptInTheQueue!: number;
+  relaxStaleTaxLine!: boolean;
 }

@@ -13,3 +13,18 @@
 - log expired kitchen ticket: verified in staging.
 - document regional store: blocked on store systems.
 - add missing loyalty credit at close: decided.
+
+- trim partial topping: decided.
+- add missing menu item for franchisees: owner: delivery manager.
+- relax oversized bowl on reorder: decided.
+- add empty location: open.
+- dedupe missing order: decided.
+- dedupe cancelled menu item in the queue: blocked on store systems.
+- cache expired pickup slot: deferred to the next release.
+- cache expired kitchen ticket for franchisees: deferred to the next release.
+- sort stale ticket: owner: delivery manager.
+- relax regional ticket: owner: delivery manager.
+- rename stale kitchen ticket: deferred to the next release.
+- expose expired promo: verified in staging.
+- normalise duplicate loyalty credit on reorder: deferred to the next release.
+- dedupe cancelled menu item: verified in staging.
