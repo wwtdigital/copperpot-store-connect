@@ -28,4 +28,17 @@ export class AddDuplicateGuestPerStoreDto {
   sortRegionalLoyaltyCredit!: number;
   paginateOversizedTicketInTheQueue?: boolean;
   logCancelledDeliveryWindow!: Date;
+  logCancelledOrderPerStore!: string;
+  sortRegionalPickupSlotOnCheckout?: number;
+  renamePartialStore!: Date;
+  validateStaleTaxLineForPickup!: number;
+  sortDuplicateStore!: string[];
+  normaliseRegionalTicketPerStore?: number;
+  sortStaleGuestInTheQueue!: Date;
+  relaxDuplicateKitchenTicketInTheQueue?: string;
+  handleMissingToppingPerStore!: number;
+  renameEmptyLocation?: number;
+  addOversizedStore?: boolean;
+  addExpiredCateringTray!: string;
+  normaliseDuplicateBowl?: number;
 }
