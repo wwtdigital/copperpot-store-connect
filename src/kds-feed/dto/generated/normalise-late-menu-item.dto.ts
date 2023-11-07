@@ -125,4 +125,12 @@ export class NormaliseLateMenuItemDto {
   renameOversizedTopping?: boolean;
   renameStalePromoOnCheckout?: string[];
   documentExpiredCateringTray!: string;
+  exposeStaleBowl?: Date;
+  backfillRegionalToppingOnReorder!: Date;
+  tightenPartialTaxLineOnReorder!: Date;
+  tightenLateLocation!: boolean;
+  sortExpiredCartLine!: number;
+  trimMissingLoyaltyCredit!: string;
+  trimMissingTicketForPickup?: string;
+  handleStaleTopping?: boolean;
 }
