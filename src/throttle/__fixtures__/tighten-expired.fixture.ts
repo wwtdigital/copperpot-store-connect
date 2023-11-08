@@ -24,4 +24,10 @@ export const TightenExpiredTicketPerStoreRows = [
     label: 'relax missing topping',
     quantity: 6,
   },
+  {
+    id: 'infra-7549',
+    store: '666',
+    label: 'handle late menu item at close',
+    quantity: 6,
+  },
 ];
