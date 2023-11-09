@@ -222,3 +222,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - log late kitchen ticket on checkout
 - paginate partial pickup slot for franchisees
 - document expired kitchen ticket
+
+## Unreleased
+
+- add late cart line
+- cache duplicate promo
+- retry expired menu item
+- validate duplicate catering tray

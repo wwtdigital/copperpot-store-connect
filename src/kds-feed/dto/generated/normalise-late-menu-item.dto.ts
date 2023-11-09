@@ -143,4 +143,14 @@ export class NormaliseLateMenuItemDto {
   validateCancelledBowl!: Date;
   validateLateTaxLineOnReorder?: Date;
   trimEmptyTicket?: string[];
+  paginateDuplicateCartLineInTheQueue!: number;
+  documentStaleTaxLine?: Date;
+  relaxMissingStorePerStore?: boolean;
+  guardPartialKitchenTicketInTheQueue!: Date;
+  addCancelledTopping!: number;
+  guardCancelledTicket!: boolean;
+  dedupeStalePickupSlot!: number;
+  validatePartialCateringTrayInTheQueue!: string;
+  guardLateOrder?: Date;
+  documentRegionalLoyaltyCredit!: Date;
 }

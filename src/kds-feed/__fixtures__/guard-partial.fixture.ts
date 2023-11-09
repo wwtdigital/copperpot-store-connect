@@ -192,4 +192,10 @@ export const GuardPartialModifierForFranchiseesRows = [
     label: 'backfill oversized topping for franchisees',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-7198',
+    store: '206',
+    label: 'retry expired guest',
+    quantity: 10,
+  },
 ];
