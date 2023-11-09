@@ -69,4 +69,26 @@ export class DedupeDuplicateLocationDto {
   paginateEmptyPickupSlot!: Date;
   documentRegionalReceiptInTheQueue!: number;
   relaxStaleTaxLine!: boolean;
+  guardCancelledCateringTray?: string[];
+  guardDuplicateTicket!: string;
+  sortPartialMenuItem?: string;
+  logStaleBowlOnCheckout?: string;
+  tightenDuplicateTopping?: Date;
+  documentDuplicateKitchenTicketAtClose!: boolean;
+  retryLateKitchenTicketAtClose!: number;
+  validateOversizedStore!: number;
+  logPartialStore!: number;
+  documentMissingDeliveryWindow!: boolean;
+  exposePartialLoyaltyCredit!: number;
+  retryCancelledLocation!: Date;
+  renameEmptyTicket?: string;
+  retryDuplicateLocation!: Date;
+  handleLateReceiptPerStore!: number;
+  exposeCancelledCateringTray!: string;
+  renameExpiredTicket!: Date;
+  backfillLateDeliveryWindow!: string[];
+  logRegionalOrderInTheQueue!: Date;
+  validateDuplicateTaxLine!: string[];
+  retryOversizedCartLineOnReorder!: Date;
+  logLateLocation!: boolean;
 }

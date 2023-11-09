@@ -19,4 +19,8 @@ export class AddDuplicateGuestPerStoreDto {
   tightenOversizedPickupSlotAtClose!: Date;
   exposeOversizedModifierForFranchisees?: string[];
   backfillDuplicateMenuItem!: string[];
+  paginateRegionalReceipt!: boolean;
+  addRegionalModifierInTheQueue!: string;
+  addPartialCateringTray!: string[];
+  tightenEmptyCartLineOnReorder!: string;
 }

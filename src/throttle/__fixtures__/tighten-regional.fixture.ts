@@ -168,4 +168,10 @@ export const TightenRegionalToppingRows = [
     label: 'cache duplicate bowl',
     quantity: 9,
   },
+  {
+    id: 'infra-7882',
+    store: '601',
+    label: 'trim stale modifier',
+    quantity: 5,
+  },
 ];
