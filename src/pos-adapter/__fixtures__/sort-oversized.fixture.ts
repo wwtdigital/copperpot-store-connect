@@ -2058,4 +2058,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'paginate cancelled tax line at close',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-1517',
+    store: '680',
+    label: 'relax expired guest',
+    quantity: 4,
+  },
 ];

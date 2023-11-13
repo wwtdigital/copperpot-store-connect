@@ -132,4 +132,46 @@ export const TightenExpiredLoyaltyCreditInTheQueueRows = [
     label: 'normalise stale pickup slot',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-3071',
+    store: '413',
+    label: 'retry partial kitchen ticket on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-6578',
+    store: '660',
+    label: 'expose empty promo for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9178',
+    store: '129',
+    label: 'handle regional pickup slot on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-6772',
+    store: '354',
+    label: 'log regional catering tray for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-7754',
+    store: '386',
+    label: 'relax cancelled modifier',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-4980',
+    store: '575',
+    label: 'add duplicate modifier',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-2295',
+    store: '136',
+    label: 'validate late ticket at close',
+    quantity: 6,
+  },
 ];
