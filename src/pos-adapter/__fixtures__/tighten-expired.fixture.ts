@@ -48,4 +48,46 @@ export const TightenExpiredLoyaltyCreditInTheQueueRows = [
     label: 'sort empty bowl for pickup',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-6862',
+    store: '627',
+    label: 'normalise duplicate delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-7341',
+    store: '222',
+    label: 'handle expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2176',
+    store: '594',
+    label: 'normalise missing tax line per store',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-9130',
+    store: '317',
+    label: 'dedupe cancelled modifier',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8790',
+    store: '203',
+    label: 'retry missing kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9736',
+    store: '490',
+    label: 'dedupe late bowl',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-6220',
+    store: '627',
+    label: 'retry stale menu item for pickup',
+    quantity: 10,
+  },
 ];
