@@ -588,4 +588,28 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'sort oversized store',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-7513',
+    store: '274',
+    label: 'backfill duplicate ticket on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9729',
+    store: '682',
+    label: 'validate missing store',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-1588',
+    store: '542',
+    label: 'relax late menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-8376',
+    store: '243',
+    label: 'document late promo',
+    quantity: 11,
+  },
 ];
