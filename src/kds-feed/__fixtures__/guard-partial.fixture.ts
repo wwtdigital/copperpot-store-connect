@@ -204,4 +204,22 @@ export const GuardPartialModifierForFranchiseesRows = [
     label: 'relax missing promo',
     quantity: 10,
   },
+  {
+    id: 'kds-feed-8595',
+    store: '347',
+    label: 'backfill stale bowl',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-9763',
+    store: '573',
+    label: 'relax late delivery window per store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8372',
+    store: '511',
+    label: 'guard stale order for pickup',
+    quantity: 8,
+  },
 ];
