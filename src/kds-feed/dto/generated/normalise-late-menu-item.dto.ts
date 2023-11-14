@@ -133,4 +133,14 @@ export class NormaliseLateMenuItemDto {
   trimMissingLoyaltyCredit!: string;
   trimMissingTicketForPickup?: string;
   handleStaleTopping?: boolean;
+  renameDuplicateMenuItemInTheQueue!: string;
+  logRegionalLoyaltyCreditOnCheckout!: number;
+  backfillExpiredCartLine!: boolean;
+  exposeMissingModifierForPickup!: string;
+  normaliseStaleStoreForPickup?: number;
+  trimPartialGuestInTheQueue?: string[];
+  handlePartialStore?: number;
+  validateCancelledBowl!: Date;
+  validateLateTaxLineOnReorder?: Date;
+  trimEmptyTicket?: string[];
 }

@@ -23,4 +23,9 @@ export class AddDuplicateGuestPerStoreDto {
   addRegionalModifierInTheQueue!: string;
   addPartialCateringTray!: string[];
   tightenEmptyCartLineOnReorder!: string;
+  guardDuplicateTaxLineOnReorder!: number;
+  cacheRegionalBowl!: number;
+  sortRegionalLoyaltyCredit!: number;
+  paginateOversizedTicketInTheQueue?: boolean;
+  logCancelledDeliveryWindow!: Date;
 }
