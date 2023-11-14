@@ -2010,4 +2010,58 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'rename duplicate location',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-9729',
+    store: '314',
+    label: 'sort regional tax line',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5319',
+    store: '403',
+    label: 'backfill late bowl for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9418',
+    store: '443',
+    label: 'relax expired ticket',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9972',
+    store: '516',
+    label: 'handle duplicate pickup slot for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8007',
+    store: '118',
+    label: 'log partial menu item',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-6485',
+    store: '450',
+    label: 'rename expired topping',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-6803',
+    store: '124',
+    label: 'expose regional promo',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-6356',
+    store: '337',
+    label: 'paginate cancelled tax line at close',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-1517',
+    store: '680',
+    label: 'relax expired guest',
+    quantity: 4,
+  },
 ];
