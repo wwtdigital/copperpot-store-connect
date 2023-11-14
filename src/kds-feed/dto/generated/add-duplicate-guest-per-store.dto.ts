@@ -41,4 +41,11 @@ export class AddDuplicateGuestPerStoreDto {
   addOversizedStore?: boolean;
   addExpiredCateringTray!: string;
   normaliseDuplicateBowl?: number;
+  sortLateDeliveryWindow?: string[];
+  addPartialMenuItem!: string;
+  retryExpiredCartLinePerStore!: Date;
+  validateMissingBowl!: string[];
+  addEmptyMenuItem!: number;
+  addLateCartLine!: number;
+  trimCancelledPickupSlot?: Date;
 }
