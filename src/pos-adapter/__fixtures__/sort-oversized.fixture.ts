@@ -2052,4 +2052,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'expose regional promo',
     quantity: 8,
   },
+  {
+    id: 'pos-adapter-6356',
+    store: '337',
+    label: 'paginate cancelled tax line at close',
+    quantity: 3,
+  },
 ];

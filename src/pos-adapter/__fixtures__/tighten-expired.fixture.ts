@@ -90,4 +90,46 @@ export const TightenExpiredLoyaltyCreditInTheQueueRows = [
     label: 'retry stale menu item for pickup',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-1128',
+    store: '439',
+    label: 'guard cancelled location',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8462',
+    store: '332',
+    label: 'relax empty modifier for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-3821',
+    store: '253',
+    label: 'retry expired location',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5691',
+    store: '257',
+    label: 'expose oversized bowl',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4746',
+    store: '521',
+    label: 'log oversized store for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-2404',
+    store: '224',
+    label: 'normalise partial tax line',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-1413',
+    store: '493',
+    label: 'normalise stale pickup slot',
+    quantity: 10,
+  },
 ];
