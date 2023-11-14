@@ -624,4 +624,22 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'paginate late catering tray',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-7618',
+    store: '321',
+    label: 'expose missing order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7943',
+    store: '320',
+    label: 'cache late store for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-5633',
+    store: '245',
+    label: 'dedupe oversized menu item',
+    quantity: 8,
+  },
 ];

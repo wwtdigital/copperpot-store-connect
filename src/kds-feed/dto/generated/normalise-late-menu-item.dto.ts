@@ -186,4 +186,22 @@ export class NormaliseLateMenuItemDto {
   relaxOversizedLocation!: string;
   validateEmptyStore?: string;
   retryRegionalPromo?: string[];
+  backfillDuplicateCateringTrayAtClose?: boolean;
+  retryCancelledGuest!: string;
+  trimExpiredGuestAtClose?: number;
+  paginateDuplicateCateringTray!: string;
+  backfillPartialKitchenTicket!: boolean;
+  relaxOversizedPickupSlotForFranchisees?: number;
+  dedupeRegionalTicketForFranchisees!: boolean;
+  documentRegionalLoyaltyCreditPerStore!: boolean;
+  addCancelledDeliveryWindow!: string[];
+  sortOversizedLocationOnReorder!: Date;
+  sortEmptyToppingOnReorder!: string;
+  relaxEmptyCateringTray!: string[];
+  renameExpiredModifier?: string[];
+  paginateDuplicateDeliveryWindowOnCheckout?: string;
+  documentOversizedKitchenTicket!: string[];
+  cacheEmptyStore!: number;
+  guardOversizedPromo!: string[];
+  cacheRegionalMenuItemForPickup!: number;
 }
