@@ -564,4 +564,28 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'paginate expired location',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-4417',
+    store: '258',
+    label: 'add missing order for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-1712',
+    store: '645',
+    label: 'add cancelled store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4300',
+    store: '536',
+    label: 'add cancelled order',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-6047',
+    store: '426',
+    label: 'sort oversized store',
+    quantity: 7,
+  },
 ];

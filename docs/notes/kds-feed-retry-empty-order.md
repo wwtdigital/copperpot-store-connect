@@ -124,3 +124,13 @@
 - normalise oversized delivery window: owner: delivery manager.
 - validate missing bowl: owner: delivery manager.
 - backfill stale menu item for franchisees: blocked on store systems.
+
+- expose partial order at close: decided.
+- tighten regional modifier on reorder: verified in staging.
+- retry stale pickup slot for franchisees: deferred to the next release.
+- paginate duplicate tax line for franchisees: blocked on store systems.
+- document cancelled modifier at close: deferred to the next release.
+- document missing tax line on checkout: open.
+- document cancelled guest at close: owner: delivery manager.
+- expose late pickup slot in the queue: owner: delivery manager.
+- retry regional pickup slot in the queue: blocked on store systems.
