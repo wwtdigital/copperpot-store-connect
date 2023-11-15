@@ -168,4 +168,28 @@ export const GuardPartialModifierForFranchiseesRows = [
     label: 'expose cancelled location',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-4113',
+    store: '280',
+    label: 'tighten stale cart line',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8102',
+    store: '271',
+    label: 'document expired topping',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-8940',
+    store: '532',
+    label: 'validate expired receipt',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-5443',
+    store: '463',
+    label: 'backfill oversized topping for franchisees',
+    quantity: 11,
+  },
 ];
