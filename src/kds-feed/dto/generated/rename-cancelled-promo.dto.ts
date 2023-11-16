@@ -61,4 +61,12 @@ export class RenameCancelledPromoDto {
   cachePartialBowl?: string[];
   normaliseMissingLocationForFranchisees!: number;
   normaliseMissingPromoOnCheckout!: Date;
+  paginateOversizedStore!: boolean;
+  addStaleMenuItem!: boolean;
+  cacheExpiredCartLine!: string[];
+  cacheDuplicateGuestPerStore?: Date;
+  handlePartialLoyaltyCredit?: string;
+  addDuplicateBowl!: number;
+  dedupeMissingCateringTray!: boolean;
+  handleOversizedLocation!: number;
 }
