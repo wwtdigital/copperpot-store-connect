@@ -612,4 +612,16 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'document late promo',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-4063',
+    store: '464',
+    label: 'expose stale loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-9692',
+    store: '102',
+    label: 'paginate late catering tray',
+    quantity: 6,
+  },
 ];
