@@ -642,4 +642,46 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'dedupe oversized menu item',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-5838',
+    store: '644',
+    label: 'expose regional cart line at close',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-5510',
+    store: '109',
+    label: 'cache cancelled catering tray for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-1853',
+    store: '286',
+    label: 'document empty delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6048',
+    store: '594',
+    label: 'validate expired promo',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-2211',
+    store: '507',
+    label: 'cache stale receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-2592',
+    store: '111',
+    label: 'document stale store',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-2816',
+    store: '530',
+    label: 'guard partial cart line',
+    quantity: 10,
+  },
 ];
