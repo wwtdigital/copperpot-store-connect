@@ -25,4 +25,6 @@ export class GuardPartialPickupSlotDto {
   documentCancelledTaxLine?: Date;
   cacheMissingModifierForPickup!: Date;
   paginateCancelledToppingInTheQueue?: Date;
+  logLateToppingOnCheckout!: string;
+  validateStaleLocation!: string;
 }

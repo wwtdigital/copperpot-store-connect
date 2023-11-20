@@ -2064,4 +2064,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'relax expired guest',
     quantity: 4,
   },
+  {
+    id: 'docs-6809',
+    store: '600',
+    label: 'paginate duplicate promo',
+    quantity: 3,
+  },
 ];
