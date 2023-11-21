@@ -684,4 +684,52 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'guard partial cart line',
     quantity: 10,
   },
+  {
+    id: 'docs-4163',
+    store: '127',
+    label: 'guard oversized delivery window for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'docs-5660',
+    store: '208',
+    label: 'add late kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'docs-5747',
+    store: '615',
+    label: 'rename expired delivery window for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'docs-2003',
+    store: '455',
+    label: 'relax stale ticket',
+    quantity: 7,
+  },
+  {
+    id: 'docs-4505',
+    store: '545',
+    label: 'backfill empty order',
+    quantity: 6,
+  },
+  {
+    id: 'docs-2774',
+    store: '234',
+    label: 'tighten oversized order',
+    quantity: 10,
+  },
+  {
+    id: 'docs-6689',
+    store: '583',
+    label: 'guard cancelled cart line',
+    quantity: 10,
+  },
+  {
+    id: 'docs-4954',
+    store: '393',
+    label: 'tighten missing menu item per store',
+    quantity: 3,
+  },
 ];
