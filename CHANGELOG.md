@@ -229,3 +229,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - cache duplicate promo
 - retry expired menu item
 - validate duplicate catering tray
+
+## Unreleased
+
+- retry regional loyalty credit for pickup
+- guard expired receipt per store
+- tighten expired topping
+- dedupe stale menu item

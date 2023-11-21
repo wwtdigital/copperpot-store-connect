@@ -27,4 +27,8 @@ export class GuardPartialPickupSlotDto {
   paginateCancelledToppingInTheQueue?: Date;
   logLateToppingOnCheckout!: string;
   validateStaleLocation!: string;
+  logEmptyOrderPerStore!: number;
+  documentMissingOrderInTheQueue!: Date;
+  retryPartialTaxLine!: string;
+  addRegionalPromoInTheQueue?: number;
 }

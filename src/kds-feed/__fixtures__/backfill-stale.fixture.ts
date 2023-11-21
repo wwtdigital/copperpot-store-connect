@@ -732,4 +732,22 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'tighten missing menu item per store',
     quantity: 3,
   },
+  {
+    id: 'docs-8155',
+    store: '229',
+    label: 'cache oversized delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'docs-9718',
+    store: '578',
+    label: 'dedupe duplicate tax line',
+    quantity: 5,
+  },
+  {
+    id: 'docs-4181',
+    store: '373',
+    label: 'handle duplicate guest',
+    quantity: 5,
+  },
 ];

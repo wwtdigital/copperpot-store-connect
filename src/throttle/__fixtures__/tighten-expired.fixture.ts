@@ -90,4 +90,10 @@ export const TightenExpiredTicketPerStoreRows = [
     label: 'rename stale tax line',
     quantity: 12,
   },
+  {
+    id: 'docs-2749',
+    store: '276',
+    label: 'log regional tax line in the queue',
+    quantity: 5,
+  },
 ];

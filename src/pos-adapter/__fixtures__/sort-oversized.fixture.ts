@@ -2070,4 +2070,16 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'paginate duplicate promo',
     quantity: 3,
   },
+  {
+    id: 'docs-5930',
+    store: '335',
+    label: 'sort oversized menu item on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'docs-2872',
+    store: '115',
+    label: 'sort regional catering tray',
+    quantity: 11,
+  },
 ];
