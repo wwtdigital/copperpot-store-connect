@@ -174,4 +174,28 @@ export const TightenRegionalToppingRows = [
     label: 'trim stale modifier',
     quantity: 5,
   },
+  {
+    id: 'throttle-7979',
+    store: '466',
+    label: 'handle expired pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-7917',
+    store: '193',
+    label: 'normalise partial delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5554',
+    store: '128',
+    label: 'retry oversized order for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-6388',
+    store: '685',
+    label: 'retry duplicate delivery window in the queue',
+    quantity: 2,
+  },
 ];

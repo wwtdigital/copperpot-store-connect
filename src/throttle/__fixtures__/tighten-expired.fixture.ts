@@ -96,4 +96,10 @@ export const TightenExpiredTicketPerStoreRows = [
     label: 'log regional tax line in the queue',
     quantity: 5,
   },
+  {
+    id: 'throttle-6077',
+    store: '267',
+    label: 'handle missing bowl for franchisees',
+    quantity: 11,
+  },
 ];
