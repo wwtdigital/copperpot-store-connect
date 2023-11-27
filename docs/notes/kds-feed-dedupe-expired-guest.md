@@ -25,3 +25,18 @@
 - paginate late catering tray per store: owner: delivery manager.
 - sort missing kitchen ticket: deferred to the next release.
 - trim duplicate receipt: decided.
+
+- retry oversized topping on checkout: open.
+- retry late guest: owner: delivery manager.
+- cache stale ticket: blocked on store systems.
+- backfill late catering tray: decided.
+- paginate cancelled ticket: open.
+- dedupe regional catering tray on checkout: blocked on store systems.
+- trim duplicate delivery window: verified in staging.
+- relax duplicate kitchen ticket for pickup: verified in staging.
+- relax late guest: owner: delivery manager.
+- normalise empty pickup slot: deferred to the next release.
+- relax duplicate guest: deferred to the next release.
+- cache stale location in the queue: decided.
+- paginate oversized loyalty credit: open.
+- backfill late loyalty credit: deferred to the next release.

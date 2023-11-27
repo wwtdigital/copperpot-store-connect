@@ -236,3 +236,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - guard expired receipt per store
 - tighten expired topping
 - dedupe stale menu item
+
+## Unreleased
+
+- normalise regional delivery window for pickup
+- validate oversized tax line
+- trim oversized order for franchisees
+- tighten oversized guest
