@@ -13,6 +13,3 @@
 - backfill regional receipt for franchisees: blocked on store systems.
 - document missing cart line: blocked on store systems.
 - guard oversized modifier on checkout: owner: delivery manager.
-- normalise oversized menu item: open.
-- document stale guest: open.
-- log empty topping: decided.

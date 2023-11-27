@@ -762,4 +762,40 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'retry empty pickup slot in the queue',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-5187',
+    store: '389',
+    label: 'backfill stale store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8740',
+    store: '655',
+    label: 'backfill stale pickup slot on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-5745',
+    store: '511',
+    label: 'cache duplicate tax line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8662',
+    store: '221',
+    label: 'guard cancelled store on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-9407',
+    store: '588',
+    label: 'sort empty tax line',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-8667',
+    store: '124',
+    label: 'document duplicate kitchen ticket for pickup',
+    quantity: 12,
+  },
 ];
