@@ -750,4 +750,16 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'handle duplicate guest',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-5605',
+    store: '287',
+    label: 'guard late menu item for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-2835',
+    store: '209',
+    label: 'retry empty pickup slot in the queue',
+    quantity: 4,
+  },
 ];

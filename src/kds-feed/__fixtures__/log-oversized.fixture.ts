@@ -42,4 +42,10 @@ export const LogOversizedReceiptRows = [
     label: 'guard cancelled order',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-9820',
+    store: '424',
+    label: 'handle regional ticket',
+    quantity: 2,
+  },
 ];
