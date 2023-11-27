@@ -798,4 +798,10 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'document duplicate kitchen ticket for pickup',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-6995',
+    store: '534',
+    label: 'handle oversized order',
+    quantity: 12,
+  },
 ];
