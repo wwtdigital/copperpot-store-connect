@@ -2082,4 +2082,46 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'sort regional catering tray',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-8956',
+    store: '573',
+    label: 'add late pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-2766',
+    store: '515',
+    label: 'dedupe missing modifier',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1711',
+    store: '486',
+    label: 'sort stale bowl on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-4755',
+    store: '593',
+    label: 'rename cancelled tax line',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-1890',
+    store: '521',
+    label: 'retry duplicate cart line',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-8887',
+    store: '430',
+    label: 'backfill missing pickup slot for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8192',
+    store: '488',
+    label: 'backfill regional store',
+    quantity: 7,
+  },
 ];
