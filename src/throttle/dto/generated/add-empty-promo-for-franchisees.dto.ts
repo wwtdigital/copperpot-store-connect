@@ -13,4 +13,23 @@ export class AddEmptyPromoForFranchiseesDto {
   retryEmptyPickupSlotAtClose!: boolean;
   validateExpiredTopping!: number;
   exposeEmptyGuest!: boolean;
+  sortStalePromoOnCheckout!: number;
+  validatePartialPickupSlotAtClose!: number;
+  normaliseRegionalGuest?: Date;
+  trimRegionalLoyaltyCreditForPickup!: boolean;
+  exposeStaleMenuItemForFranchisees!: string[];
+  dedupeCancelledTicketForPickup!: number;
+  tightenMissingTicket?: string[];
+  trimDuplicateKitchenTicket?: string[];
+  sortStaleToppingAtClose!: string[];
+  backfillOversizedPickupSlot?: string;
+  logCancelledPromo!: string;
+  renameMissingModifier!: boolean;
+  trimRegionalLocation!: string[];
+  validateCancelledTicketOnReorder!: string;
+  guardEmptyPromoOnCheckout!: number;
+  logRegionalTaxLine!: Date;
+  tightenRegionalStore?: number;
+  handlePartialLocationForPickup?: Date;
+  documentOversizedModifierAtClose!: number;
 }
