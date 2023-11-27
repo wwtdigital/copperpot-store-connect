@@ -31,4 +31,8 @@ export class GuardPartialPickupSlotDto {
   documentMissingOrderInTheQueue!: Date;
   retryPartialTaxLine!: string;
   addRegionalPromoInTheQueue?: number;
+  documentDuplicateGuest!: number;
+  documentExpiredGuest!: string[];
+  normaliseDuplicateLocationOnReorder!: string[];
+  logLateLoyaltyCredit?: string[];
 }
