@@ -250,3 +250,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - guard empty promo per store
 - guard duplicate ticket
 - tighten cancelled delivery window
+
+## Unreleased
+
+- normalise expired order
+- normalise regional location on reorder
+- paginate partial menu item
+- normalise partial menu item

@@ -110,4 +110,28 @@ export class RenameCancelledPromoDto {
   dedupeRegionalPickupSlot!: string;
   retryLateCateringTray!: number;
   retryDuplicateModifierForPickup?: Date;
+  cacheStalePickupSlotForFranchisees!: boolean;
+  cacheOversizedMenuItem!: number;
+  normaliseExpiredLoyaltyCreditOnCheckout?: Date;
+  addEmptyPromoOnReorder!: boolean;
+  guardExpiredCateringTray!: boolean;
+  guardCancelledModifier?: number;
+  relaxLatePickupSlotOnReorder?: string[];
+  addRegionalBowl!: number;
+  renameOversizedReceiptAtClose?: Date;
+  backfillStaleGuestInTheQueue!: string;
+  normalisePartialMenuItemPerStore!: boolean;
+  documentStaleOrder!: Date;
+  logStaleModifierInTheQueue!: number;
+  paginateDuplicateKitchenTicketForPickup!: number;
+  cacheDuplicateBowl!: string;
+  relaxMissingOrder!: Date;
+  dedupeLatePromo!: boolean;
+  exposeLateTaxLine!: number;
+  guardEmptyTopping!: string[];
+  relaxEmptyCartLinePerStore!: boolean;
+  relaxDuplicateTaxLine!: Date;
+  paginateMissingGuest!: number;
+  dedupeOversizedKitchenTicketOnCheckout!: string[];
+  paginateEmptyModifier?: string;
 }
