@@ -2124,4 +2124,22 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'backfill regional store',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-7184',
+    store: '392',
+    label: 'backfill empty loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-1594',
+    store: '596',
+    label: 'rename expired store',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-9366',
+    store: '610',
+    label: 'guard expired loyalty credit',
+    quantity: 12,
+  },
 ];
