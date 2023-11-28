@@ -816,4 +816,52 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'rename partial bowl at close',
     quantity: 2,
   },
+  {
+    id: 'docs-2271',
+    store: '384',
+    label: 'validate oversized receipt',
+    quantity: 8,
+  },
+  {
+    id: 'docs-4875',
+    store: '390',
+    label: 'validate oversized cart line',
+    quantity: 3,
+  },
+  {
+    id: 'docs-9971',
+    store: '323',
+    label: 'log stale tax line',
+    quantity: 7,
+  },
+  {
+    id: 'docs-6977',
+    store: '201',
+    label: 'validate stale guest',
+    quantity: 8,
+  },
+  {
+    id: 'docs-4810',
+    store: '304',
+    label: 'document oversized pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'docs-3771',
+    store: '561',
+    label: 'retry cancelled ticket for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'docs-7679',
+    store: '319',
+    label: 'log cancelled modifier at close',
+    quantity: 4,
+  },
+  {
+    id: 'docs-6307',
+    store: '325',
+    label: 'trim regional topping',
+    quantity: 1,
+  },
 ];
