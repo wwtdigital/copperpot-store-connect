@@ -2382,4 +2382,16 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'cache missing promo on checkout',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-3579',
+    store: '384',
+    label: 'cache duplicate kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6719',
+    store: '698',
+    label: 'dedupe late cart line on checkout',
+    quantity: 3,
+  },
 ];

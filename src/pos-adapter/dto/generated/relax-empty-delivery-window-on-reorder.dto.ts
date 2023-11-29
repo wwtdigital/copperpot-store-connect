@@ -16,4 +16,16 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   logExpiredCartLineOnCheckout!: boolean;
   retryEmptyBowl!: string[];
   retryEmptyPickupSlotForFranchisees?: Date;
+  handleOversizedLoyaltyCredit!: boolean;
+  handleLateBowlForPickup!: number;
+  handleStaleTicketPerStore!: number;
+  tightenDuplicatePickupSlot!: string;
+  retryOversizedGuestAtClose!: string[];
+  guardPartialMenuItem!: string;
+  documentEmptyLocation!: string;
+  backfillMissingStore!: string;
+  normaliseDuplicateBowl!: boolean;
+  logExpiredStore?: string[];
+  addRegionalPickupSlot!: string[];
+  renameRegionalTaxLine!: string[];
 }
