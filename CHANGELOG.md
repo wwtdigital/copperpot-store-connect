@@ -243,3 +243,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - validate oversized tax line
 - trim oversized order for franchisees
 - tighten oversized guest
+
+## Unreleased
+
+- dedupe late cart line on reorder
+- guard empty promo per store
+- guard duplicate ticket
+- tighten cancelled delivery window

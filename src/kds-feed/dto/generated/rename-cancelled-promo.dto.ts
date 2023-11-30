@@ -69,4 +69,21 @@ export class RenameCancelledPromoDto {
   addDuplicateBowl!: number;
   dedupeMissingCateringTray!: boolean;
   handleOversizedLocation!: number;
+  backfillRegionalDeliveryWindow!: string[];
+  addDuplicateTopping?: boolean;
+  retryExpiredLoyaltyCredit!: boolean;
+  guardDuplicateCartLine!: boolean;
+  renameRegionalGuestForPickup?: boolean;
+  paginateExpiredMenuItemForPickup!: number;
+  renameCancelledKitchenTicket!: number;
+  cacheStaleTicketForPickup!: Date;
+  dedupeStaleTicket!: number;
+  guardCancelledPickupSlotAtClose?: Date;
+  documentOversizedBowlPerStore?: string;
+  tightenMissingLocationForPickup!: Date;
+  addMissingCartLine!: number;
+  normaliseStaleReceiptForFranchisees!: Date;
+  paginateOversizedOrder!: number;
+  addMissingMenuItem?: number;
+  normaliseRegionalKitchenTicket?: boolean;
 }

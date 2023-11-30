@@ -48,4 +48,28 @@ export const LogOversizedReceiptRows = [
     label: 'handle regional ticket',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-8542',
+    store: '479',
+    label: 'tighten regional pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5348',
+    store: '674',
+    label: 'relax late kitchen ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-3654',
+    store: '201',
+    label: 'add cancelled guest',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2827',
+    store: '475',
+    label: 'cache missing bowl',
+    quantity: 7,
+  },
 ];
