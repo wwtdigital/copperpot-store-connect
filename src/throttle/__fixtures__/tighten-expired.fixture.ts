@@ -102,4 +102,58 @@ export const TightenExpiredTicketPerStoreRows = [
     label: 'handle missing bowl for franchisees',
     quantity: 11,
   },
+  {
+    id: 'docs-2613',
+    store: '682',
+    label: 'rename regional location',
+    quantity: 10,
+  },
+  {
+    id: 'docs-7525',
+    store: '345',
+    label: 'document missing store on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6224',
+    store: '664',
+    label: 'trim empty menu item',
+    quantity: 9,
+  },
+  {
+    id: 'docs-3760',
+    store: '436',
+    label: 'paginate stale ticket in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'docs-8041',
+    store: '427',
+    label: 'trim expired topping per store',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8086',
+    store: '311',
+    label: 'rename cancelled topping',
+    quantity: 11,
+  },
+  {
+    id: 'docs-2505',
+    store: '185',
+    label: 'sort cancelled ticket at close',
+    quantity: 2,
+  },
+  {
+    id: 'docs-3552',
+    store: '288',
+    label: 'rename oversized menu item on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'docs-2038',
+    store: '265',
+    label: 'normalise partial guest',
+    quantity: 6,
+  },
 ];
