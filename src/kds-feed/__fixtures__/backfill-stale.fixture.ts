@@ -804,4 +804,16 @@ export const BackfillStalePromoOnReorderRows = [
     label: 'handle oversized order',
     quantity: 12,
   },
+  {
+    id: 'docs-9216',
+    store: '499',
+    label: 'relax oversized promo for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'docs-4356',
+    store: '295',
+    label: 'rename partial bowl at close',
+    quantity: 2,
+  },
 ];

@@ -91,4 +91,16 @@ export class DedupeDuplicateLocationDto {
   validateDuplicateTaxLine!: string[];
   retryOversizedCartLineOnReorder!: Date;
   logLateLocation!: boolean;
+  handleExpiredLoyaltyCredit?: boolean;
+  exposeExpiredModifier!: string;
+  renameLateKitchenTicketForPickup?: number;
+  logStaleOrderInTheQueue!: boolean;
+  backfillDuplicateStore!: Date;
+  retryEmptyMenuItem?: string[];
+  paginateRegionalLoyaltyCreditOnReorder!: string;
+  retryMissingModifierOnReorder?: boolean;
+  dedupeExpiredOrderForPickup!: string;
+  exposeEmptyOrderForFranchisees!: Date;
+  sortEmptyKitchenTicketInTheQueue!: boolean;
+  handleCancelledCateringTrayOnCheckout!: string;
 }

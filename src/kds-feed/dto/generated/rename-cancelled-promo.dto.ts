@@ -86,4 +86,28 @@ export class RenameCancelledPromoDto {
   paginateOversizedOrder!: number;
   addMissingMenuItem?: number;
   normaliseRegionalKitchenTicket?: boolean;
+  handleCancelledReceipt!: boolean;
+  exposeCancelledKitchenTicketInTheQueue!: string[];
+  exposeExpiredPromo!: string;
+  normaliseEmptyPromo!: boolean;
+  sortPartialOrder!: boolean;
+  normalisePartialPickupSlotForPickup!: boolean;
+  validateRegionalMenuItemInTheQueue!: string[];
+  documentRegionalDeliveryWindow?: string;
+  retryStaleTaxLinePerStore!: string;
+  retryExpiredCateringTray!: string;
+  handleCancelledModifier!: boolean;
+  handleOversizedModifier!: boolean;
+  addLatePromo!: number;
+  exposeCancelledLocation!: string;
+  tightenMissingPromoForPickup!: number;
+  renamePartialCateringTray?: Date;
+  logOversizedPickupSlotPerStore!: number;
+  exposeStaleStoreInTheQueue?: string;
+  addLateLoyaltyCredit!: string;
+  guardPartialLocation!: string;
+  relaxDuplicateLoyaltyCredit?: string[];
+  dedupeRegionalPickupSlot!: string;
+  retryLateCateringTray!: number;
+  retryDuplicateModifierForPickup?: Date;
 }
