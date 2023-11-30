@@ -48,4 +48,10 @@ export const LogOversizedReceiptRows = [
     label: 'handle regional ticket',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-8542',
+    store: '479',
+    label: 'tighten regional pickup slot',
+    quantity: 5,
+  },
 ];
