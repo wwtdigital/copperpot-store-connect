@@ -34,3 +34,18 @@
 - log duplicate order for franchisees: blocked on store systems.
 - rename partial pickup slot: decided.
 - backfill partial receipt: open.
+
+- document duplicate delivery window: blocked on store systems.
+- log cancelled receipt: verified in staging.
+- backfill duplicate location: blocked on store systems.
+- trim partial loyalty credit: verified in staging.
+- sort missing menu item: blocked on store systems.
+- guard stale delivery window: blocked on store systems.
+- cache empty kitchen ticket on reorder: open.
+- sort regional store: verified in staging.
+- trim late delivery window: blocked on store systems.
+- paginate missing modifier: deferred to the next release.
+- rename late tax line: decided.
+- dedupe stale store: blocked on store systems.
+- validate duplicate receipt: decided.
+- normalise cancelled promo: owner: delivery manager.

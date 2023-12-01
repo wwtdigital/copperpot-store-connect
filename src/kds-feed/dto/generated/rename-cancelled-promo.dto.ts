@@ -134,4 +134,27 @@ export class RenameCancelledPromoDto {
   paginateMissingGuest!: number;
   dedupeOversizedKitchenTicketOnCheckout!: string[];
   paginateEmptyModifier?: string;
+  guardEmptyKitchenTicket?: boolean;
+  relaxEmptyOrderOnCheckout!: string;
+  logLateLocationOnCheckout?: Date;
+  relaxStalePromo!: boolean;
+  backfillLateKitchenTicket?: string;
+  paginateMissingReceipt!: boolean;
+  sortStaleGuest!: string[];
+  handleOversizedLoyaltyCredit?: string;
+  exposeMissingModifier!: string[];
+  guardMissingPickupSlotForFranchisees!: Date;
+  handleStaleTaxLine!: boolean;
+  addOversizedLocation?: string[];
+  guardDuplicateCateringTrayAtClose!: number;
+  guardCancelledLoyaltyCredit?: string[];
+  retryLatePromoOnCheckout!: string;
+  tightenMissingMenuItem!: string[];
+  guardLateOrder?: string[];
+  guardExpiredLocation?: boolean;
+  sortCancelledLoyaltyCredit?: Date;
+  documentExpiredLoyaltyCreditForFranchisees!: number;
+  documentLateKitchenTicketInTheQueue!: string;
+  relaxStaleKitchenTicket?: Date;
+  backfillPartialPromoOnCheckout?: boolean;
 }
