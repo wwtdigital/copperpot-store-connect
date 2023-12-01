@@ -232,4 +232,28 @@ export class ValidateDuplicatePickupSlotDto {
   validateStaleOrder!: string[];
   relaxRegionalDeliveryWindow!: string[];
   guardExpiredTicket!: string;
+  dedupeOversizedStoreOnCheckout!: number;
+  logPartialOrderForPickup?: string;
+  trimPartialTopping!: Date;
+  addPartialTicket?: string[];
+  tightenRegionalTopping!: string[];
+  relaxExpiredOrder!: number;
+  backfillMissingCateringTray!: Date;
+  paginatePartialGuestInTheQueue!: Date;
+  trimRegionalTopping?: string;
+  validateEmptyDeliveryWindowForPickup!: string[];
+  paginateCancelledToppingOnReorder!: string;
+  renamePartialLocationForFranchisees!: string;
+  validateEmptyCateringTray!: number;
+  normaliseMissingPickupSlotInTheQueue?: boolean;
+  paginateCancelledModifier!: string;
+  addExpiredBowl!: Date;
+  cacheRegionalBowlOnCheckout!: Date;
+  retryStaleDeliveryWindow?: Date;
+  tightenExpiredTopping!: string;
+  validateRegionalGuestOnCheckout!: string[];
+  dedupeExpiredReceiptPerStore!: boolean;
+  paginateOversizedLocationOnReorder!: string[];
+  validateLateMenuItemOnCheckout!: Date;
+  relaxCancelledBowl!: number;
 }

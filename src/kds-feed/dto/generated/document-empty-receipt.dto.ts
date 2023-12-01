@@ -9,4 +9,19 @@ export class DocumentEmptyReceiptDto {
   renameOversizedModifierForFranchisees?: string;
   handleRegionalLoyaltyCreditOnReorder!: string;
   addRegionalGuest!: Date;
+  guardDuplicateMenuItemForFranchisees?: Date;
+  exposeOversizedStore!: number;
+  normaliseDuplicateBowl!: string;
+  tightenEmptyKitchenTicket!: number;
+  renameRegionalCartLine?: Date;
+  logEmptyKitchenTicket?: boolean;
+  guardCancelledPickupSlot?: string[];
+  normaliseExpiredDeliveryWindowAtClose?: string;
+  paginateMissingCateringTray?: Date;
+  logEmptyCateringTrayAtClose!: number;
+  dedupePartialStore!: boolean;
+  guardPartialMenuItem!: Date;
+  tightenDuplicateTopping?: number;
+  cacheDuplicateLoyaltyCredit?: boolean;
+  trimStaleStore?: Date;
 }
