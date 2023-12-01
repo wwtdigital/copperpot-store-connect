@@ -228,4 +228,16 @@ export class NormaliseLateMenuItemDto {
   normaliseExpiredMenuItem?: boolean;
   validateStalePickupSlot?: string;
   dedupeMissingLoyaltyCredit?: number;
+  renamePartialTaxLine!: boolean;
+  validateRegionalGuest!: string[];
+  relaxCancelledCartLine!: boolean;
+  logExpiredDeliveryWindow!: number;
+  relaxLatePromoPerStore!: string[];
+  exposeMissingKitchenTicket!: string[];
+  validateRegionalBowl!: boolean;
+  exposeCancelledReceiptAtClose!: string[];
+  documentOversizedGuestOnReorder!: string;
+  handleEmptyLoyaltyCredit!: Date;
+  validatePartialReceiptInTheQueue!: string[];
+  retryPartialPickupSlot?: boolean;
 }
