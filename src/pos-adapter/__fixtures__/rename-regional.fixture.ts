@@ -18,4 +18,16 @@ export const RenameRegionalBowlRows = [
     label: 'normalise partial order',
     quantity: 9,
   },
+  {
+    id: 'infra-7917',
+    store: '622',
+    label: 'validate missing guest',
+    quantity: 2,
+  },
+  {
+    id: 'infra-4820',
+    store: '177',
+    label: 'normalise empty modifier',
+    quantity: 5,
+  },
 ];

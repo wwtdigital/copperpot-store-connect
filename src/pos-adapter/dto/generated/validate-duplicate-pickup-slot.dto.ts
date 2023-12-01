@@ -271,4 +271,6 @@ export class ValidateDuplicatePickupSlotDto {
   addOversizedModifier?: boolean;
   tightenDuplicateReceiptInTheQueue!: Date;
   normaliseCancelledDeliveryWindow?: string[];
+  paginateOversizedLocationInTheQueue!: boolean;
+  paginatePartialCateringTray!: Date;
 }
