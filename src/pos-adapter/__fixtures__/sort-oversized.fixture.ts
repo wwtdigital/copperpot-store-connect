@@ -2394,4 +2394,34 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'dedupe late cart line on checkout',
     quantity: 3,
   },
+  {
+    id: 'infra-4194',
+    store: '178',
+    label: 'sort stale location',
+    quantity: 5,
+  },
+  {
+    id: 'infra-3618',
+    store: '409',
+    label: 'backfill regional delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2549',
+    store: '559',
+    label: 'log oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-8161',
+    store: '195',
+    label: 'rename late loyalty credit per store',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5462',
+    store: '681',
+    label: 'relax cancelled order in the queue',
+    quantity: 11,
+  },
 ];
