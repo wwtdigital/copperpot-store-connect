@@ -264,3 +264,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - document cancelled modifier
 - retry missing guest
 - relax expired bowl per store
+
+## Unreleased
+
+- rename late pickup slot
+- trim empty catering tray at close
+- normalise regional loyalty credit
+- retry oversized guest in the queue

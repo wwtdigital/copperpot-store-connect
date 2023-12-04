@@ -264,4 +264,11 @@ export class ValidateDuplicatePickupSlotDto {
   sortOversizedDeliveryWindowPerStore!: string[];
   retryExpiredLoyaltyCredit!: string;
   relaxMissingBowl?: Date;
+  relaxMissingCartLine!: Date;
+  retryStaleGuestForPickup?: number;
+  backfillCancelledLocationPerStore!: Date;
+  tightenOversizedPickupSlotAtClose!: boolean;
+  addOversizedModifier?: boolean;
+  tightenDuplicateReceiptInTheQueue!: Date;
+  normaliseCancelledDeliveryWindow?: string[];
 }
