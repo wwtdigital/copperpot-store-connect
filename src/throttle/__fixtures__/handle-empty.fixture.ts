@@ -12,4 +12,22 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'tighten expired modifier on checkout',
     quantity: 10,
   },
+  {
+    id: 'throttle-5434',
+    store: '648',
+    label: 'relax oversized catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-2869',
+    store: '563',
+    label: 'sort late ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-7893',
+    store: '308',
+    label: 'add empty guest',
+    quantity: 12,
+  },
 ];

@@ -18,4 +18,10 @@ export const DocumentLateStoreOnCheckoutRows = [
     label: 'validate stale ticket',
     quantity: 11,
   },
+  {
+    id: 'throttle-4723',
+    store: '357',
+    label: 'log expired receipt',
+    quantity: 3,
+  },
 ];
