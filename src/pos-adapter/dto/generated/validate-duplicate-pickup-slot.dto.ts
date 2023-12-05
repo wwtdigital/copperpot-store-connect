@@ -256,4 +256,19 @@ export class ValidateDuplicatePickupSlotDto {
   paginateOversizedLocationOnReorder!: string[];
   validateLateMenuItemOnCheckout!: Date;
   relaxCancelledBowl!: number;
+  backfillEmptyStoreForFranchisees?: Date;
+  cacheDuplicatePickupSlot?: string;
+  guardPartialGuestInTheQueue!: Date;
+  retryEmptyStorePerStore?: boolean;
+  handleRegionalCartLine?: number;
+  sortOversizedDeliveryWindowPerStore!: string[];
+  retryExpiredLoyaltyCredit!: string;
+  relaxMissingBowl?: Date;
+  relaxMissingCartLine!: Date;
+  retryStaleGuestForPickup?: number;
+  backfillCancelledLocationPerStore!: Date;
+  tightenOversizedPickupSlotAtClose!: boolean;
+  addOversizedModifier?: boolean;
+  tightenDuplicateReceiptInTheQueue!: Date;
+  normaliseCancelledDeliveryWindow?: string[];
 }
