@@ -17,3 +17,7 @@
 - normalise empty menu item: owner: delivery manager.
 - tighten regional topping for pickup: decided.
 - handle missing bowl: deferred to the next release.
+
+- rename oversized kitchen ticket for pickup: deferred to the next release.
+- relax late pickup slot: decided.
+- normalise duplicate order on checkout: deferred to the next release.
