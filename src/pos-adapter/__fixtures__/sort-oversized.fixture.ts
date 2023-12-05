@@ -2424,4 +2424,10 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'relax cancelled order in the queue',
     quantity: 11,
   },
+  {
+    id: 'infra-9357',
+    store: '268',
+    label: 'dedupe stale location',
+    quantity: 9,
+  },
 ];
