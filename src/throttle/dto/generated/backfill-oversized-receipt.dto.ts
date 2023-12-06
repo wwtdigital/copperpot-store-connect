@@ -34,4 +34,14 @@ export class BackfillOversizedReceiptDto {
   dedupeMissingModifier!: string;
   trimPartialMenuItem?: string;
   dedupeEmptyMenuItem!: number;
+  paginateMissingLoyaltyCredit?: Date;
+  retryEmptyTaxLine!: boolean;
+  renameCancelledGuest!: Date;
+  handleExpiredOrderOnCheckout!: Date;
+  paginateStaleOrder!: string[];
+  cacheRegionalModifier!: Date;
+  cacheRegionalBowl!: string[];
+  documentRegionalStore?: string[];
+  paginateLateGuestInTheQueue!: boolean;
+  trimMissingMenuItemAtClose!: Date;
 }
