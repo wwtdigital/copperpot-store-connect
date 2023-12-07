@@ -157,4 +157,6 @@ export class RenameCancelledPromoDto {
   documentLateKitchenTicketInTheQueue!: string;
   relaxStaleKitchenTicket?: Date;
   backfillPartialPromoOnCheckout?: boolean;
+  documentMissingOrder?: string[];
+  addStaleCateringTrayForPickup!: boolean;
 }
