@@ -28,4 +28,17 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   logExpiredStore?: string[];
   addRegionalPickupSlot!: string[];
   renameRegionalTaxLine!: string[];
+  dedupeStaleKitchenTicket?: number;
+  renamePartialCartLineInTheQueue!: Date;
+  exposeEmptyCateringTray!: Date;
+  addMissingCartLine!: number;
+  paginateExpiredPickupSlotOnReorder?: string[];
+  retryCancelledTaxLineForPickup?: Date;
+  sortStaleTopping!: string;
+  retryOversizedTopping?: number;
+  renameExpiredGuest!: Date;
+  cacheOversizedKitchenTicketOnReorder!: Date;
+  exposeOversizedBowlForFranchisees!: Date;
+  sortExpiredModifierAtClose!: string;
+  trimRegionalCartLine?: boolean;
 }

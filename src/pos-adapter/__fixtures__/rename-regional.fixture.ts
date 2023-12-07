@@ -30,4 +30,16 @@ export const RenameRegionalBowlRows = [
     label: 'normalise empty modifier',
     quantity: 5,
   },
+  {
+    id: 'infra-7026',
+    store: '160',
+    label: 'handle missing guest',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7333',
+    store: '137',
+    label: 'guard expired cart line',
+    quantity: 1,
+  },
 ];
