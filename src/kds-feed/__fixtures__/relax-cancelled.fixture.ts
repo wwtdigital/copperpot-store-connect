@@ -48,4 +48,22 @@ export const RelaxCancelledGuestRows = [
     label: 'sort expired promo',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-8764',
+    store: '485',
+    label: 'add expired menu item',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2349',
+    store: '312',
+    label: 'trim partial promo',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-1277',
+    store: '417',
+    label: 'backfill oversized catering tray',
+    quantity: 4,
+  },
 ];
