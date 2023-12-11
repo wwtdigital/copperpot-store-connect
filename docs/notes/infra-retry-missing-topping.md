@@ -13,3 +13,7 @@
 - backfill regional receipt for franchisees: blocked on store systems.
 - document missing cart line: blocked on store systems.
 - guard oversized modifier on checkout: owner: delivery manager.
+
+- normalise empty menu item: owner: delivery manager.
+- tighten regional topping for pickup: decided.
+- handle missing bowl: deferred to the next release.

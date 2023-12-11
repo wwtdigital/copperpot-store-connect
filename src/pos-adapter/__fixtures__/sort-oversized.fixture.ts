@@ -2430,4 +2430,22 @@ export const SortOversizedMenuItemPerStoreRows = [
     label: 'dedupe stale location',
     quantity: 9,
   },
+  {
+    id: 'infra-6907',
+    store: '204',
+    label: 'log oversized menu item',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2658',
+    store: '473',
+    label: 'trim duplicate guest',
+    quantity: 2,
+  },
+  {
+    id: 'infra-7895',
+    store: '209',
+    label: 'backfill regional store on reorder',
+    quantity: 4,
+  },
 ];
