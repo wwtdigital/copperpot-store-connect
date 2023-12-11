@@ -14,3 +14,18 @@
 - expose late modifier: blocked on store systems.
 - sort partial guest: verified in staging.
 - validate cancelled pickup slot: verified in staging.
+
+- rename oversized catering tray: open.
+- dedupe empty store: owner: delivery manager.
+- cache duplicate cart line: open.
+- paginate partial location for franchisees: open.
+- tighten empty catering tray on reorder: decided.
+- rename oversized receipt: decided.
+- tighten missing topping: decided.
+- tighten regional bowl: deferred to the next release.
+- tighten late location for franchisees: blocked on store systems.
+- dedupe cancelled receipt on checkout: verified in staging.
+- relax regional promo on reorder: blocked on store systems.
+- tighten late modifier: owner: delivery manager.
+- document late order per store: deferred to the next release.
+- log expired cart line: blocked on store systems.
