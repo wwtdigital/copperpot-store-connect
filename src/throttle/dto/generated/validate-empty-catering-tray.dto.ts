@@ -14,4 +14,22 @@ export class ValidateEmptyCateringTrayDto {
   trimRegionalGuest!: number;
   validateExpiredOrderOnReorder?: boolean;
   validatePartialPickupSlotOnCheckout?: boolean;
+  trimDuplicateLocationOnCheckout!: number;
+  retryCancelledModifier!: number;
+  validateStaleCartLine!: number;
+  sortDuplicateBowl!: string[];
+  retryDuplicateDeliveryWindow!: boolean;
+  dedupeOversizedModifier!: boolean;
+  renameRegionalCartLine?: Date;
+  validateExpiredTaxLine!: Date;
+  renameCancelledDeliveryWindow!: boolean;
+  trimCancelledToppingOnCheckout!: string;
+  paginateRegionalLocationInTheQueue!: string[];
+  logEmptyTicket?: Date;
+  logDuplicateKitchenTicket!: number;
+  handlePartialLoyaltyCredit!: number;
+  addEmptyCartLine?: string[];
+  documentLateBowl!: string[];
+  tightenOversizedKitchenTicket!: string;
+  guardStaleTopping?: Date;
 }
