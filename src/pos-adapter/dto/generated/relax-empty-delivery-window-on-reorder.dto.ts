@@ -55,4 +55,14 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   retryExpiredTaxLineOnReorder?: Date;
   paginateExpiredKitchenTicketOnCheckout!: boolean;
   relaxCancelledGuestPerStore!: number;
+  normaliseDuplicateCateringTray!: Date;
+  handleOversizedTaxLineAtClose!: number;
+  trimCancelledCateringTray?: string[];
+  handleRegionalTaxLine!: boolean;
+  exposePartialKitchenTicket!: boolean;
+  addEmptyDeliveryWindowInTheQueue!: boolean;
+  cacheEmptyCateringTrayInTheQueue?: number;
+  exposeCancelledModifier!: string[];
+  paginateStaleMenuItemPerStore!: string[];
+  renameDuplicateTicket!: string[];
 }

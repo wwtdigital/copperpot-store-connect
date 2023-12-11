@@ -271,3 +271,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - trim empty catering tray at close
 - normalise regional loyalty credit
 - retry oversized guest in the queue
+
+## Unreleased
+
+- validate cancelled receipt
+- guard duplicate receipt
+- expose expired guest
+- handle missing kitchen ticket

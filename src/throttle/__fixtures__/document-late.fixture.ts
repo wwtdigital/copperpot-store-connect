@@ -24,4 +24,10 @@ export const DocumentLateStoreOnCheckoutRows = [
     label: 'log expired receipt',
     quantity: 3,
   },
+  {
+    id: 'infra-3766',
+    store: '135',
+    label: 'backfill missing loyalty credit',
+    quantity: 4,
+  },
 ];
