@@ -263,4 +263,6 @@ export class NormaliseLateMenuItemDto {
   paginateStaleTaxLine!: boolean;
   handleDuplicateStoreForPickup!: number;
   logExpiredMenuItem!: number;
+  relaxEmptyTaxLine?: string[];
+  logOversizedMenuItem?: string;
 }

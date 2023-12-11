@@ -132,4 +132,10 @@ export const RelaxCancelledGuestRows = [
     label: 'expose missing catering tray',
     quantity: 2,
   },
+  {
+    id: 'docs-4861',
+    store: '151',
+    label: 'validate oversized topping',
+    quantity: 6,
+  },
 ];
