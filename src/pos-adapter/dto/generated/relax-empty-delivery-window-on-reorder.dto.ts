@@ -41,4 +41,18 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   exposeOversizedBowlForFranchisees!: Date;
   sortExpiredModifierAtClose!: string;
   trimRegionalCartLine?: boolean;
+  backfillLateGuest?: string[];
+  cacheRegionalToppingForFranchisees!: Date;
+  relaxCancelledLoyaltyCreditInTheQueue!: boolean;
+  renameLateMenuItem!: boolean;
+  sortPartialCateringTrayOnCheckout?: string[];
+  guardMissingCateringTray!: string;
+  cacheLateLoyaltyCredit!: number;
+  logMissingTicket!: Date;
+  sortExpiredGuestAtClose?: Date;
+  exposeRegionalPickupSlotForFranchisees!: boolean;
+  trimStaleTaxLine!: boolean;
+  retryExpiredTaxLineOnReorder?: Date;
+  paginateExpiredKitchenTicketOnCheckout!: boolean;
+  relaxCancelledGuestPerStore!: number;
 }
