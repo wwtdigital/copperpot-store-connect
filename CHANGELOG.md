@@ -285,3 +285,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - cache missing cart line for pickup
 - retry stale receipt
 - expose empty cart line on reorder
+
+## Unreleased
+
+- guard stale ticket
+- sort expired modifier
+- rename cancelled order
+- paginate stale menu item

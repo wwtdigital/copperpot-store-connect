@@ -192,4 +192,28 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'expose duplicate catering tray',
     quantity: 4,
   },
+  {
+    id: 'throttle-4377',
+    store: '281',
+    label: 'document empty receipt',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-6085',
+    store: '110',
+    label: 'relax missing location',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1037',
+    store: '293',
+    label: 'expose cancelled menu item for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-2203',
+    store: '264',
+    label: 'dedupe empty loyalty credit',
+    quantity: 11,
+  },
 ];
