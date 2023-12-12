@@ -24,4 +24,26 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   handleCancelledPromo?: string;
   documentEmptyReceiptInTheQueue!: string[];
   logLateModifier?: number;
+  guardEmptyKitchenTicketOnReorder?: number;
+  trimOversizedTaxLine!: Date;
+  logMissingTopping!: Date;
+  addCancelledOrder!: string[];
+  handleRegionalStoreForPickup!: Date;
+  exposeStalePickupSlotAtClose?: string;
+  paginateExpiredReceipt!: boolean;
+  paginateDuplicatePickupSlotOnReorder?: string[];
+  cacheCancelledMenuItem!: number;
+  dedupeEmptyReceiptPerStore!: Date;
+  tightenRegionalModifier?: boolean;
+  normaliseCancelledTopping!: string[];
+  paginateLatePromo!: boolean;
+  dedupeLateCartLine?: number;
+  renameDuplicateLoyaltyCredit!: number;
+  renameStaleCateringTray!: boolean;
+  paginateRegionalModifier!: number;
+  dedupeCancelledKitchenTicketInTheQueue!: string[];
+  dedupeEmptyCateringTrayInTheQueue!: Date;
+  relaxRegionalDeliveryWindow!: number;
+  renameEmptyPromo!: Date;
+  renameLateToppingOnCheckout!: number;
 }
