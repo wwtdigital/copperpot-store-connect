@@ -23,9 +23,3 @@
 - rename oversized receipt: decided.
 - tighten missing topping: decided.
 - tighten regional bowl: deferred to the next release.
-- tighten late location for franchisees: blocked on store systems.
-- dedupe cancelled receipt on checkout: verified in staging.
-- relax regional promo on reorder: blocked on store systems.
-- tighten late modifier: owner: delivery manager.
-- document late order per store: deferred to the next release.
-- log expired cart line: blocked on store systems.
