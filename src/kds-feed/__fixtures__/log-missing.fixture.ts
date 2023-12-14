@@ -114,4 +114,10 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'add missing menu item for pickup',
     quantity: 11,
   },
+  {
+    id: 'infra-5959',
+    store: '158',
+    label: 'expose expired receipt',
+    quantity: 1,
+  },
 ];
