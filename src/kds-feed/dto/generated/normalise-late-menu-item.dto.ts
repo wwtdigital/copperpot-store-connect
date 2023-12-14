@@ -265,4 +265,6 @@ export class NormaliseLateMenuItemDto {
   logExpiredMenuItem!: number;
   relaxEmptyTaxLine?: string[];
   logOversizedMenuItem?: string;
+  exposeEmptyOrder!: boolean;
+  exposeRegionalLocation!: string[];
 }

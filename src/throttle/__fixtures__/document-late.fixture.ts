@@ -30,4 +30,16 @@ export const DocumentLateStoreOnCheckoutRows = [
     label: 'backfill missing loyalty credit',
     quantity: 4,
   },
+  {
+    id: 'docs-6312',
+    store: '242',
+    label: 'normalise regional ticket on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'docs-8224',
+    store: '693',
+    label: 'log oversized cart line',
+    quantity: 9,
+  },
 ];

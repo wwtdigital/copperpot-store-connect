@@ -44,4 +44,17 @@ export class BackfillOversizedReceiptDto {
   documentRegionalStore?: string[];
   paginateLateGuestInTheQueue!: boolean;
   trimMissingMenuItemAtClose!: Date;
+  backfillStaleReceiptInTheQueue!: number;
+  retryEmptyPromoAtClose!: Date;
+  tightenStaleCartLine?: string[];
+  handleRegionalMenuItem!: boolean;
+  addEmptyPickupSlot?: number;
+  paginateLateOrder!: string[];
+  cacheLateTicketForFranchisees!: Date;
+  backfillPartialLoyaltyCreditOnCheckout!: string[];
+  validateMissingStoreAtClose!: boolean;
+  documentCancelledDeliveryWindow?: boolean;
+  tightenCancelledGuest?: number;
+  backfillLateKitchenTicket?: string[];
+  normaliseExpiredCartLineForPickup!: number;
 }
