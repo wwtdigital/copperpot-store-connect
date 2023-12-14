@@ -278,3 +278,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - guard duplicate receipt
 - expose expired guest
 - handle missing kitchen ticket
+
+## Unreleased
+
+- tighten missing location
+- cache missing cart line for pickup
+- retry stale receipt
+- expose empty cart line on reorder

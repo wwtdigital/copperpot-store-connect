@@ -49,3 +49,18 @@
 - dedupe stale store: blocked on store systems.
 - validate duplicate receipt: decided.
 - normalise cancelled promo: owner: delivery manager.
+
+- rename cancelled location: owner: delivery manager.
+- rename duplicate location per store: owner: delivery manager.
+- guard expired delivery window per store: decided.
+- document regional store: owner: delivery manager.
+- tighten empty pickup slot per store: verified in staging.
+- normalise late order: owner: delivery manager.
+- paginate partial kitchen ticket for pickup: blocked on store systems.
+- guard stale promo: blocked on store systems.
+- expose oversized modifier: deferred to the next release.
+- normalise oversized loyalty credit: owner: delivery manager.
+- trim missing modifier: deferred to the next release.
+- validate empty modifier: deferred to the next release.
+- sort late receipt on checkout: decided.
+- handle missing order: owner: delivery manager.
