@@ -36,3 +36,18 @@
 - log missing bowl: verified in staging.
 - backfill oversized bowl: deferred to the next release.
 - validate missing store: verified in staging.
+
+- tighten cancelled delivery window for pickup: open.
+- normalise cancelled bowl per store: blocked on store systems.
+- log cancelled order: decided.
+- expose expired order on reorder: deferred to the next release.
+- dedupe duplicate bowl: open.
+- tighten oversized bowl at close: owner: delivery manager.
+- paginate cancelled tax line: open.
+- validate empty topping on checkout: decided.
+- guard oversized receipt for franchisees: verified in staging.
+- validate late modifier for pickup: verified in staging.
+- backfill empty ticket: decided.
+- log missing cart line on checkout: decided.
+- document expired tax line in the queue: deferred to the next release.
+- trim cancelled tax line: open.
