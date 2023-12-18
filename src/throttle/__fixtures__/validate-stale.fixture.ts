@@ -120,4 +120,10 @@ export const ValidateStaleStoreRows = [
     label: 'expose empty catering tray for franchisees',
     quantity: 10,
   },
+  {
+    id: 'throttle-1678',
+    store: '614',
+    label: 'dedupe expired catering tray',
+    quantity: 7,
+  },
 ];

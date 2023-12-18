@@ -216,4 +216,46 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'dedupe empty loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'throttle-8843',
+    store: '137',
+    label: 'add cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-7405',
+    store: '263',
+    label: 'tighten partial kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-3168',
+    store: '461',
+    label: 'guard stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-7628',
+    store: '203',
+    label: 'document late loyalty credit in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-1988',
+    store: '302',
+    label: 'relax stale tax line',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3354',
+    store: '139',
+    label: 'add missing pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-6551',
+    store: '366',
+    label: 'trim empty promo',
+    quantity: 1,
+  },
 ];
