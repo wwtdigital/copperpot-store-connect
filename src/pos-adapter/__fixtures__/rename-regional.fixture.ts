@@ -42,4 +42,10 @@ export const RenameRegionalBowlRows = [
     label: 'guard expired cart line',
     quantity: 1,
   },
+  {
+    id: 'infra-9657',
+    store: '154',
+    label: 'paginate late pickup slot',
+    quantity: 7,
+  },
 ];

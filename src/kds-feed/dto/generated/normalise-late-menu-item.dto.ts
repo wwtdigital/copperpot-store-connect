@@ -267,4 +267,8 @@ export class NormaliseLateMenuItemDto {
   logOversizedMenuItem?: string;
   exposeEmptyOrder!: boolean;
   exposeRegionalLocation!: string[];
+  paginateDuplicatePromo!: boolean;
+  paginateDuplicatePickupSlot?: boolean;
+  exposeExpiredModifierInTheQueue!: boolean;
+  retryStalePromo!: Date;
 }
