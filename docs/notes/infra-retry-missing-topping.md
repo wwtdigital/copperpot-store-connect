@@ -51,3 +51,18 @@
 - log missing cart line on checkout: decided.
 - document expired tax line in the queue: deferred to the next release.
 - trim cancelled tax line: open.
+
+- dedupe cancelled kitchen ticket on reorder: decided.
+- rename missing tax line: owner: delivery manager.
+- dedupe stale catering tray: blocked on store systems.
+- expose empty topping: owner: delivery manager.
+- normalise regional guest: verified in staging.
+- trim missing receipt: open.
+- retry late ticket: blocked on store systems.
+- dedupe stale store at close: verified in staging.
+- dedupe stale tax line in the queue: deferred to the next release.
+- validate empty store: open.
+- guard duplicate bowl per store: open.
+- expose regional order: decided.
+- sort expired location: deferred to the next release.
+- rename oversized delivery window: deferred to the next release.

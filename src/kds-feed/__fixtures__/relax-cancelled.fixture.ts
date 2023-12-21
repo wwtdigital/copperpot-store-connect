@@ -234,4 +234,22 @@ export const RelaxCancelledGuestRows = [
     label: 'trim stale catering tray',
     quantity: 2,
   },
+  {
+    id: 'infra-3375',
+    store: '616',
+    label: 'sort expired bowl',
+    quantity: 9,
+  },
+  {
+    id: 'infra-4832',
+    store: '679',
+    label: 'expose oversized bowl per store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-3126',
+    store: '526',
+    label: 'validate missing location on reorder',
+    quantity: 1,
+  },
 ];
