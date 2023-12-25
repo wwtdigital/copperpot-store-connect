@@ -138,4 +138,34 @@ export const RelaxCancelledGuestRows = [
     label: 'validate oversized topping',
     quantity: 6,
   },
+  {
+    id: 'docs-3188',
+    store: '374',
+    label: 'rename regional tax line at close',
+    quantity: 6,
+  },
+  {
+    id: 'docs-3118',
+    store: '304',
+    label: 'relax partial tax line per store',
+    quantity: 12,
+  },
+  {
+    id: 'docs-5961',
+    store: '631',
+    label: 'tighten oversized store',
+    quantity: 7,
+  },
+  {
+    id: 'docs-7459',
+    store: '154',
+    label: 'relax stale tax line',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8829',
+    store: '502',
+    label: 'backfill regional kitchen ticket for franchisees',
+    quantity: 5,
+  },
 ];
