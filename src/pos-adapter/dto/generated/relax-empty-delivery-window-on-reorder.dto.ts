@@ -65,4 +65,28 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   exposeCancelledModifier!: string[];
   paginateStaleMenuItemPerStore!: string[];
   renameDuplicateTicket!: string[];
+  backfillEmptyDeliveryWindowForFranchisees?: Date;
+  renamePartialModifier!: number;
+  renameEmptyMenuItem!: string[];
+  backfillCancelledGuestForFranchisees?: boolean;
+  retryExpiredReceipt?: Date;
+  retryStaleTicketPerStore!: Date;
+  retryOversizedToppingPerStore?: Date;
+  addMissingDeliveryWindow!: string[];
+  handleDuplicateBowl?: boolean;
+  renameStaleBowlPerStore!: boolean;
+  tightenExpiredKitchenTicketPerStore?: string;
+  documentMissingPromo!: number;
+  backfillMissingReceiptOnCheckout!: boolean;
+  paginateCancelledKitchenTicket!: string[];
+  logMissingKitchenTicket?: string[];
+  validateOversizedReceipt?: boolean;
+  documentEmptyBowl!: number;
+  validateStaleOrderAtClose!: string[];
+  paginateExpiredOrderInTheQueue!: string;
+  exposeRegionalLoyaltyCreditOnCheckout!: Date;
+  relaxPartialModifier!: string;
+  addCancelledCateringTray?: number;
+  documentOversizedReceipt!: number;
+  tightenCancelledDeliveryWindow!: string[];
 }

@@ -64,3 +64,18 @@
 - validate empty modifier: deferred to the next release.
 - sort late receipt on checkout: decided.
 - handle missing order: owner: delivery manager.
+
+- normalise expired ticket: verified in staging.
+- sort partial order for franchisees: verified in staging.
+- handle expired promo for franchisees: blocked on store systems.
+- rename empty location: blocked on store systems.
+- relax expired location for franchisees: decided.
+- handle missing guest: deferred to the next release.
+- tighten cancelled loyalty credit: blocked on store systems.
+- normalise stale loyalty credit: decided.
+- tighten regional menu item on checkout: verified in staging.
+- guard duplicate order: deferred to the next release.
+- paginate oversized tax line in the queue: deferred to the next release.
+- trim partial pickup slot per store: blocked on store systems.
+- sort oversized topping per store: owner: delivery manager.
+- cache missing loyalty credit: blocked on store systems.
