@@ -66,3 +66,18 @@
 - expose regional order: decided.
 - sort expired location: deferred to the next release.
 - rename oversized delivery window: deferred to the next release.
+
+- dedupe stale order: verified in staging.
+- backfill empty topping for franchisees: open.
+- tighten partial store: owner: delivery manager.
+- retry stale catering tray: open.
+- trim cancelled guest: verified in staging.
+- cache oversized bowl for franchisees: verified in staging.
+- guard late guest on checkout: decided.
+- trim stale menu item: decided.
+- expose regional receipt for pickup: blocked on store systems.
+- tighten partial delivery window for pickup: owner: delivery manager.
+- log partial topping at close: deferred to the next release.
+- paginate regional order per store: verified in staging.
+- sort duplicate pickup slot: verified in staging.
+- handle expired ticket in the queue: blocked on store systems.

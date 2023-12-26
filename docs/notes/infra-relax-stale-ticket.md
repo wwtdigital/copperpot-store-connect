@@ -38,3 +38,33 @@
 - tighten empty loyalty credit: deferred to the next release.
 - document oversized catering tray in the queue: verified in staging.
 - rename partial location in the queue: owner: delivery manager.
+
+- tighten empty kitchen ticket: open.
+- normalise expired topping: blocked on store systems.
+- relax oversized location: decided.
+- trim missing store: blocked on store systems.
+- sort oversized modifier per store: verified in staging.
+- handle late location in the queue: owner: delivery manager.
+- dedupe regional ticket: blocked on store systems.
+- rename missing tax line: verified in staging.
+- normalise cancelled tax line on checkout: open.
+- dedupe partial delivery window per store: open.
+- expose cancelled catering tray for franchisees: verified in staging.
+- document stale modifier in the queue: verified in staging.
+- retry late bowl at close: decided.
+- paginate oversized promo on reorder: open.
+
+- add expired order: owner: delivery manager.
+- expose empty promo on reorder: open.
+- guard duplicate catering tray: blocked on store systems.
+- retry oversized loyalty credit: deferred to the next release.
+- retry partial promo: owner: delivery manager.
+- guard duplicate order on checkout: blocked on store systems.
+- expose expired receipt: open.
+- trim partial modifier for franchisees: open.
+- trim partial pickup slot: decided.
+- expose partial modifier for franchisees: verified in staging.
+- handle expired tax line: verified in staging.
+- cache missing catering tray at close: open.
+- guard oversized topping for franchisees: deferred to the next release.
+- paginate duplicate delivery window: decided.
