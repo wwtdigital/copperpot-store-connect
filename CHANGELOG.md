@@ -292,3 +292,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - sort expired modifier
 - rename cancelled order
 - paginate stale menu item
+
+## Unreleased
+
+- relax duplicate loyalty credit per store
+- cache cancelled cart line at close
+- retry oversized modifier
+- log cancelled guest

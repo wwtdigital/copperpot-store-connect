@@ -32,4 +32,6 @@ export class ValidateEmptyCateringTrayDto {
   documentLateBowl!: string[];
   tightenOversizedKitchenTicket!: string;
   guardStaleTopping?: Date;
+  sortOversizedPickupSlot?: string[];
+  normaliseExpiredLoyaltyCredit?: string[];
 }

@@ -14,4 +14,6 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   addLateMenuItemOnReorder!: Date;
   validateStaleKitchenTicket!: number;
   logLateGuest?: number;
+  handleMissingTaxLine?: string;
+  normaliseLatePromo!: Date;
 }
