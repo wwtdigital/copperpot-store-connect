@@ -10,4 +10,8 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   paginateStaleMenuItem!: number;
   retryStaleOrder?: string[];
   guardEmptyCateringTray!: number;
+  validatePartialCartLine!: boolean;
+  addLateMenuItemOnReorder!: Date;
+  validateStaleKitchenTicket!: number;
+  logLateGuest?: number;
 }
