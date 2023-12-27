@@ -138,4 +138,10 @@ export const RelaxCancelledGuestRows = [
     label: 'validate oversized topping',
     quantity: 6,
   },
+  {
+    id: 'docs-7368',
+    store: '366',
+    label: 'cache regional catering tray in the queue',
+    quantity: 2,
+  },
 ];

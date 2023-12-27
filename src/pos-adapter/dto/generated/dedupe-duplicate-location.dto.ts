@@ -103,4 +103,6 @@ export class DedupeDuplicateLocationDto {
   exposeEmptyOrderForFranchisees!: Date;
   sortEmptyKitchenTicketInTheQueue!: boolean;
   handleCancelledCateringTrayOnCheckout!: string;
+  dedupeDuplicateLocation!: boolean;
+  handleOversizedReceipt?: string[];
 }
