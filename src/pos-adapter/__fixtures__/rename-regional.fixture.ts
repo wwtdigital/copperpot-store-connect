@@ -132,4 +132,40 @@ export const RenameRegionalBowlRows = [
     label: 'validate partial kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'docs-7545',
+    store: '534',
+    label: 'add duplicate pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'docs-4093',
+    store: '350',
+    label: 'sort empty order',
+    quantity: 2,
+  },
+  {
+    id: 'docs-7473',
+    store: '228',
+    label: 'normalise missing menu item for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'docs-2000',
+    store: '188',
+    label: 'guard partial ticket',
+    quantity: 10,
+  },
+  {
+    id: 'docs-6060',
+    store: '607',
+    label: 'cache late delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9197',
+    store: '315',
+    label: 'tighten cancelled promo',
+    quantity: 9,
+  },
 ];
