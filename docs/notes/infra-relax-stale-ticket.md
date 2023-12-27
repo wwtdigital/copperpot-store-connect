@@ -68,3 +68,18 @@
 - cache missing catering tray at close: open.
 - guard oversized topping for franchisees: deferred to the next release.
 - paginate duplicate delivery window: decided.
+
+- expose duplicate receipt: verified in staging.
+- rename expired catering tray per store: decided.
+- trim late bowl at close: decided.
+- sort empty location: owner: delivery manager.
+- paginate partial cart line: decided.
+- dedupe stale pickup slot: open.
+- guard late topping: blocked on store systems.
+- backfill oversized order: owner: delivery manager.
+- backfill oversized menu item for pickup: open.
+- expose oversized order: blocked on store systems.
+- rename cancelled cart line: owner: delivery manager.
+- dedupe stale bowl: owner: delivery manager.
+- guard duplicate location: verified in staging.
+- guard cancelled order: verified in staging.
