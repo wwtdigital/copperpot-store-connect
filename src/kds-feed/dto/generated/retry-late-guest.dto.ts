@@ -24,4 +24,18 @@ export class RetryLateGuestDto {
   documentEmptyTicket?: boolean;
   cacheRegionalLocationOnCheckout?: number;
   dedupeMissingLoyaltyCredit!: string;
+  trimDuplicateMenuItem!: number;
+  normaliseDuplicateReceipt!: string;
+  logPartialLoyaltyCredit?: string;
+  tightenDuplicateBowl!: boolean;
+  tightenEmptyGuest!: Date;
+  cacheRegionalCateringTrayAtClose!: string[];
+  guardEmptyToppingOnCheckout!: string;
+  sortMissingCartLine!: string;
+  relaxMissingTaxLine!: string;
+  tightenOversizedBowlForPickup?: string[];
+  handleCancelledDeliveryWindow!: Date;
+  relaxExpiredToppingPerStore!: string;
+  guardOversizedReceipt!: Date;
+  sortMissingLocation!: string;
 }

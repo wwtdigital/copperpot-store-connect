@@ -83,3 +83,18 @@
 - dedupe stale bowl: owner: delivery manager.
 - guard duplicate location: verified in staging.
 - guard cancelled order: verified in staging.
+
+- log stale catering tray per store: decided.
+- tighten regional promo: decided.
+- dedupe expired ticket: deferred to the next release.
+- rename partial receipt in the queue: verified in staging.
+- trim partial tax line: blocked on store systems.
+- normalise cancelled order: owner: delivery manager.
+- paginate duplicate pickup slot: blocked on store systems.
+- retry duplicate delivery window at close: open.
+- guard cancelled delivery window: deferred to the next release.
+- expose cancelled cart line: open.
+- cache late bowl: blocked on store systems.
+- document empty loyalty credit: decided.
+- retry cancelled pickup slot at close: open.
+- rename missing kitchen ticket: blocked on store systems.
