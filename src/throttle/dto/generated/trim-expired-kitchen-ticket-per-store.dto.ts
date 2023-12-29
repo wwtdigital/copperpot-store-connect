@@ -16,4 +16,6 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   logLateGuest?: number;
   handleMissingTaxLine?: string;
   normaliseLatePromo!: Date;
+  addLateTicket!: Date;
+  backfillOversizedCartLineForFranchisees?: boolean;
 }
