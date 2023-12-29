@@ -46,4 +46,6 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   relaxRegionalDeliveryWindow!: number;
   renameEmptyPromo!: Date;
   renameLateToppingOnCheckout!: number;
+  dedupeMissingStore!: number;
+  addMissingLocation?: string[];
 }

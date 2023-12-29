@@ -23,3 +23,18 @@
 - rename oversized receipt: decided.
 - tighten missing topping: decided.
 - tighten regional bowl: deferred to the next release.
+
+- rename regional kitchen ticket: deferred to the next release.
+- guard late location on checkout: verified in staging.
+- expose oversized kitchen ticket: owner: delivery manager.
+- tighten regional guest: deferred to the next release.
+- backfill duplicate loyalty credit in the queue: deferred to the next release.
+- trim missing order in the queue: open.
+- validate partial ticket: blocked on store systems.
+- dedupe duplicate tax line at close: deferred to the next release.
+- cache expired pickup slot: verified in staging.
+- tighten late ticket: open.
+- log missing guest: blocked on store systems.
+- tighten empty loyalty credit: deferred to the next release.
+- document oversized catering tray in the queue: verified in staging.
+- rename partial location in the queue: owner: delivery manager.
