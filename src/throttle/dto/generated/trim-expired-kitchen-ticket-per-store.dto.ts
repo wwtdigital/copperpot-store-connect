@@ -18,4 +18,6 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   normaliseLatePromo!: Date;
   addLateTicket!: Date;
   backfillOversizedCartLineForFranchisees?: boolean;
+  validateEmptyLoyaltyCredit!: boolean;
+  sortCancelledKitchenTicket!: string[];
 }

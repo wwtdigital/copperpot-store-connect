@@ -299,3 +299,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - cache cancelled cart line at close
 - retry oversized modifier
 - log cancelled guest
+
+## Unreleased
+
+- add oversized kitchen ticket
+- expose empty loyalty credit
+- guard oversized receipt in the queue
+- expose oversized tax line at close

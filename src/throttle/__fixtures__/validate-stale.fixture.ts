@@ -246,4 +246,22 @@ export const ValidateStaleStoreRows = [
     label: 'add missing guest',
     quantity: 3,
   },
+  {
+    id: 'throttle-5141',
+    store: '153',
+    label: 'expose oversized order',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-4960',
+    store: '128',
+    label: 'expose partial cart line for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-1621',
+    store: '174',
+    label: 'cache cancelled loyalty credit',
+    quantity: 10,
+  },
 ];
