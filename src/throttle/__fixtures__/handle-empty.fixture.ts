@@ -690,4 +690,10 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'document late pickup slot',
     quantity: 9,
   },
+  {
+    id: 'throttle-3855',
+    store: '530',
+    label: 'log missing receipt',
+    quantity: 10,
+  },
 ];
