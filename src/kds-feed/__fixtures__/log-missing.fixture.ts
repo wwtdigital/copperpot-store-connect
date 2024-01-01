@@ -936,4 +936,52 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'tighten oversized promo at close',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-2187',
+    store: '294',
+    label: 'sort empty delivery window for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3727',
+    store: '670',
+    label: 'sort regional loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-3072',
+    store: '110',
+    label: 'rename expired catering tray at close',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-7142',
+    store: '607',
+    label: 'cache expired topping',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2672',
+    store: '615',
+    label: 'retry late kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-9601',
+    store: '574',
+    label: 'tighten cancelled topping on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-8407',
+    store: '622',
+    label: 'document late guest at close',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-7033',
+    store: '415',
+    label: 'backfill duplicate receipt',
+    quantity: 6,
+  },
 ];
