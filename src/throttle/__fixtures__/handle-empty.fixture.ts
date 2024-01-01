@@ -618,4 +618,34 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'tighten stale guest',
     quantity: 2,
   },
+  {
+    id: 'infra-1649',
+    store: '257',
+    label: 'sort cancelled topping for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'infra-3010',
+    store: '394',
+    label: 'normalise missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'infra-9509',
+    store: '151',
+    label: 'validate missing promo for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3347',
+    store: '356',
+    label: 'normalise empty pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5819',
+    store: '142',
+    label: 'expose empty promo',
+    quantity: 9,
+  },
 ];

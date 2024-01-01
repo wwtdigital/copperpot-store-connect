@@ -98,3 +98,18 @@
 - document empty loyalty credit: decided.
 - retry cancelled pickup slot at close: open.
 - rename missing kitchen ticket: blocked on store systems.
+
+- normalise empty promo: blocked on store systems.
+- guard missing cart line: owner: delivery manager.
+- tighten partial bowl: blocked on store systems.
+- tighten regional pickup slot for pickup: decided.
+- rename cancelled ticket: open.
+- relax regional menu item in the queue: decided.
+- retry expired ticket on reorder: owner: delivery manager.
+- sort regional loyalty credit on checkout: blocked on store systems.
+- trim empty topping in the queue: deferred to the next release.
+- guard expired promo: blocked on store systems.
+- guard late tax line for pickup: blocked on store systems.
+- expose late bowl: deferred to the next release.
+- retry late loyalty credit: owner: delivery manager.
+- paginate stale catering tray: owner: delivery manager.
