@@ -60,4 +60,6 @@ export class ValidateEmptyCateringTrayDto {
   paginateStaleDeliveryWindowOnReorder!: string[];
   cacheDuplicatePickupSlot?: string;
   addMissingTaxLineForPickup!: boolean;
+  trimLateLoyaltyCredit?: Date;
+  dedupeExpiredKitchenTicket!: string[];
 }

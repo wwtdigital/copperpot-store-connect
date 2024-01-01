@@ -648,4 +648,46 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'expose empty promo',
     quantity: 9,
   },
+  {
+    id: 'throttle-5861',
+    store: '619',
+    label: 'backfill empty ticket',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-6190',
+    store: '337',
+    label: 'expose late location at close',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6041',
+    store: '172',
+    label: 'guard empty pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-9759',
+    store: '651',
+    label: 'rename expired pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-9363',
+    store: '336',
+    label: 'paginate late catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4275',
+    store: '441',
+    label: 'document regional ticket',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-2179',
+    store: '533',
+    label: 'document late pickup slot',
+    quantity: 9,
+  },
 ];
