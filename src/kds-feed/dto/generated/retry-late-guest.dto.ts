@@ -38,4 +38,28 @@ export class RetryLateGuestDto {
   relaxExpiredToppingPerStore!: string;
   guardOversizedReceipt!: Date;
   sortMissingLocation!: string;
+  normaliseEmptyTopping!: string;
+  validatePartialLocation!: string[];
+  cacheRegionalTaxLine!: boolean;
+  addDuplicateTicket?: string;
+  sortEmptyTicket!: number;
+  renameLateDeliveryWindow!: string[];
+  validateOversizedKitchenTicketForPickup?: string[];
+  trimPartialTaxLineOnReorder!: string[];
+  cacheLateModifier?: boolean;
+  logCancelledModifierPerStore!: boolean;
+  guardMissingModifierOnReorder?: string;
+  renamePartialStorePerStore!: string[];
+  sortOversizedMenuItemInTheQueue!: Date;
+  retryEmptyModifierInTheQueue!: string[];
+  guardRegionalReceipt!: number;
+  handleEmptyCartLine?: Date;
+  dedupeOversizedGuest?: string;
+  addLateLocation!: Date;
+  addExpiredCateringTrayOnCheckout!: Date;
+  addLateTopping?: boolean;
+  addEmptyOrder?: Date;
+  dedupeCancelledStoreOnCheckout?: number;
+  logLateLoyaltyCreditForFranchisees!: number;
+  paginateExpiredTaxLine?: string[];
 }

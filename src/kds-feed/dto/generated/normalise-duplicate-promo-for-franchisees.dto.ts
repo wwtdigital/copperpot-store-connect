@@ -67,4 +67,28 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   trimMissingModifier!: string;
   addOversizedStore?: string[];
   handleCancelledPickupSlotInTheQueue!: string;
+  logRegionalGuestAtClose?: string[];
+  guardOversizedLocation!: string[];
+  logLateDeliveryWindowForFranchisees!: string;
+  validateLateToppingForFranchisees?: Date;
+  backfillLateTopping!: number;
+  sortRegionalCartLine!: Date;
+  renameMissingPickupSlot!: string;
+  tightenRegionalGuestAtClose!: string;
+  dedupeRegionalCateringTray!: string[];
+  renameOversizedOrder?: number;
+  exposeStaleBowl!: string;
+  backfillMissingKitchenTicketAtClose!: boolean;
+  addRegionalTaxLine!: string;
+  dedupeExpiredOrder!: Date;
+  renameExpiredCartLineForFranchisees?: number;
+  exposeEmptyPickupSlot!: Date;
+  tightenDuplicateCartLineForFranchisees!: string;
+  renameMissingPromo!: boolean;
+  addStaleTaxLineAtClose?: string;
+  paginateMissingTicket!: boolean;
+  renameOversizedReceipt?: string[];
+  documentPartialLocation!: string;
+  logMissingStore?: string;
+  relaxLateTicket?: string;
 }

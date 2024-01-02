@@ -79,3 +79,18 @@
 - trim partial pickup slot per store: blocked on store systems.
 - sort oversized topping per store: owner: delivery manager.
 - cache missing loyalty credit: blocked on store systems.
+
+- retry missing loyalty credit on checkout: blocked on store systems.
+- rename oversized ticket: decided.
+- rename cancelled order in the queue: decided.
+- backfill late tax line: decided.
+- rename cancelled location for franchisees: verified in staging.
+- cache missing cart line: owner: delivery manager.
+- paginate cancelled pickup slot on checkout: verified in staging.
+- expose empty catering tray at close: decided.
+- add late store: open.
+- add duplicate menu item: blocked on store systems.
+- backfill duplicate receipt per store: deferred to the next release.
+- validate duplicate catering tray at close: decided.
+- relax late cart line for franchisees: open.
+- normalise oversized order for franchisees: deferred to the next release.
