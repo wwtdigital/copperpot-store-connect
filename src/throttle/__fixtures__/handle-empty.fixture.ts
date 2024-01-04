@@ -696,4 +696,10 @@ export const HandleEmptyCateringTrayOnReorderRows = [
     label: 'log missing receipt',
     quantity: 10,
   },
+  {
+    id: 'docs-3844',
+    store: '205',
+    label: 'document regional order at close',
+    quantity: 12,
+  },
 ];
