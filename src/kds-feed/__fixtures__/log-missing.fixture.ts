@@ -984,4 +984,46 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'backfill duplicate receipt',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-2402',
+    store: '249',
+    label: 'sort regional modifier for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-4206',
+    store: '226',
+    label: 'validate missing loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4184',
+    store: '410',
+    label: 'paginate stale order on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4445',
+    store: '523',
+    label: 'document late modifier per store',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-1525',
+    store: '152',
+    label: 'expose late pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6472',
+    store: '641',
+    label: 'rename duplicate bowl',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9612',
+    store: '650',
+    label: 'expose missing location for franchisees',
+    quantity: 7,
+  },
 ];
