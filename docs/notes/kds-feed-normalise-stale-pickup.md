@@ -14,3 +14,18 @@
 - paginate partial location: open.
 - rename cancelled promo: decided.
 - add empty menu item: open.
+
+- normalise partial loyalty credit: verified in staging.
+- retry expired pickup slot: open.
+- retry empty menu item for franchisees: deferred to the next release.
+- tighten duplicate store: blocked on store systems.
+- validate cancelled delivery window: verified in staging.
+- sort oversized location on checkout: blocked on store systems.
+- normalise cancelled cart line: deferred to the next release.
+- guard oversized pickup slot: verified in staging.
+- tighten cancelled menu item: deferred to the next release.
+- dedupe duplicate order: verified in staging.
+- backfill duplicate delivery window for pickup: open.
+- backfill missing topping in the queue: open.
+- rename stale catering tray: blocked on store systems.
+- cache missing tax line at close: blocked on store systems.
