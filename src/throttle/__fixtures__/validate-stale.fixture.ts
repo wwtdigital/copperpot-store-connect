@@ -264,4 +264,16 @@ export const ValidateStaleStoreRows = [
     label: 'cache cancelled loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'docs-7085',
+    store: '265',
+    label: 'log duplicate catering tray on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'docs-1849',
+    store: '120',
+    label: 'document partial promo per store',
+    quantity: 1,
+  },
 ];

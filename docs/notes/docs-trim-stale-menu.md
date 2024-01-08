@@ -94,3 +94,18 @@
 - validate duplicate catering tray at close: decided.
 - relax late cart line for franchisees: open.
 - normalise oversized order for franchisees: deferred to the next release.
+
+- rename expired location: open.
+- tighten late catering tray: open.
+- validate late cart line: blocked on store systems.
+- add late guest: open.
+- validate oversized bowl: decided.
+- retry missing delivery window: open.
+- paginate late catering tray per store: blocked on store systems.
+- paginate missing order: blocked on store systems.
+- retry missing catering tray at close: blocked on store systems.
+- validate cancelled menu item: verified in staging.
+- rename missing guest: blocked on store systems.
+- add empty menu item in the queue: verified in staging.
+- backfill duplicate cart line: verified in staging.
+- cache missing location: verified in staging.
