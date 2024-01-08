@@ -306,3 +306,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - expose empty loyalty credit
 - guard oversized receipt in the queue
 - expose oversized tax line at close
+
+## Unreleased
+
+- document stale tax line
+- normalise oversized ticket
+- handle regional location
+- handle stale location in the queue

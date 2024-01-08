@@ -1026,4 +1026,10 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'expose missing location for franchisees',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-4140',
+    store: '452',
+    label: 'log late tax line',
+    quantity: 3,
+  },
 ];

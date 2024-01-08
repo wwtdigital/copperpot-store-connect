@@ -21,3 +21,18 @@
 - retry partial modifier: deferred to the next release.
 
 - expose partial loyalty credit: owner: delivery manager.
+
+- document expired store: verified in staging.
+- rename regional promo: open.
+- rename duplicate store: decided.
+- retry empty cart line in the queue: blocked on store systems.
+- tighten empty order: open.
+- dedupe missing catering tray: owner: delivery manager.
+- log duplicate cart line: owner: delivery manager.
+- relax partial topping: decided.
+- dedupe regional store: verified in staging.
+- guard duplicate location on checkout: verified in staging.
+- validate regional receipt in the queue: owner: delivery manager.
+- sort duplicate guest for franchisees: open.
+- backfill missing receipt: open.
+- add partial modifier: verified in staging.
