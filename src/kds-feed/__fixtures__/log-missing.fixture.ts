@@ -888,4 +888,52 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'validate late promo',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-5047',
+    store: '123',
+    label: 'document oversized promo on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-8700',
+    store: '339',
+    label: 'document expired topping for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-9380',
+    store: '633',
+    label: 'cache expired ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8600',
+    store: '557',
+    label: 'sort regional guest',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3405',
+    store: '168',
+    label: 'handle cancelled bowl on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3585',
+    store: '142',
+    label: 'relax partial guest at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5137',
+    store: '461',
+    label: 'dedupe cancelled tax line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9365',
+    store: '243',
+    label: 'tighten oversized promo at close',
+    quantity: 8,
+  },
 ];
