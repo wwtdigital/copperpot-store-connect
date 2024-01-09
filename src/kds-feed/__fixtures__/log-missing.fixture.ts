@@ -1098,4 +1098,58 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'sort oversized guest',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-7545',
+    store: '572',
+    label: 'tighten partial delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-9042',
+    store: '611',
+    label: 'document oversized catering tray on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-3607',
+    store: '653',
+    label: 'log duplicate cart line on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-2262',
+    store: '303',
+    label: 'log expired promo on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-2862',
+    store: '588',
+    label: 'dedupe oversized store',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-6681',
+    store: '574',
+    label: 'paginate duplicate loyalty credit at close',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-7882',
+    store: '517',
+    label: 'paginate regional guest',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-3605',
+    store: '466',
+    label: 'trim duplicate pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-7644',
+    store: '110',
+    label: 'paginate missing kitchen ticket',
+    quantity: 11,
+  },
 ];

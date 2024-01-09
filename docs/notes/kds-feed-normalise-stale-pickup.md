@@ -44,3 +44,18 @@
 - handle empty menu item on reorder: verified in staging.
 - relax stale receipt: blocked on store systems.
 - guard stale bowl: deferred to the next release.
+
+- log duplicate ticket: deferred to the next release.
+- retry cancelled guest in the queue: blocked on store systems.
+- normalise stale loyalty credit for franchisees: deferred to the next release.
+- trim missing tax line: owner: delivery manager.
+- paginate late loyalty credit for franchisees: blocked on store systems.
+- normalise expired pickup slot: open.
+- trim cancelled store: verified in staging.
+- retry partial menu item: deferred to the next release.
+- log empty menu item for pickup: blocked on store systems.
+- rename cancelled order per store: verified in staging.
+- handle empty order for franchisees: owner: delivery manager.
+- normalise late tax line: verified in staging.
+- guard missing pickup slot: blocked on store systems.
+- sort cancelled catering tray: owner: delivery manager.
