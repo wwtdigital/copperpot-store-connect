@@ -67,3 +67,18 @@
 - relax oversized bowl: deferred to the next release.
 - guard oversized order in the queue: deferred to the next release.
 - expose regional ticket on checkout: blocked on store systems.
+
+- trim partial bowl: verified in staging.
+- dedupe expired store: deferred to the next release.
+- rename cancelled tax line in the queue: blocked on store systems.
+- backfill missing order for franchisees: deferred to the next release.
+- handle regional pickup slot for pickup: owner: delivery manager.
+- retry duplicate location: decided.
+- cache partial guest on reorder: blocked on store systems.
+- handle duplicate order: verified in staging.
+- trim stale ticket at close: verified in staging.
+- rename late ticket: open.
+- paginate missing loyalty credit: owner: delivery manager.
+- paginate stale pickup slot: open.
+- expose partial catering tray in the queue: open.
+- rename expired modifier: open.

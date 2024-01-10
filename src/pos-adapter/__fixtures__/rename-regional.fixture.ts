@@ -168,4 +168,10 @@ export const RenameRegionalBowlRows = [
     label: 'tighten cancelled promo',
     quantity: 9,
   },
+  {
+    id: 'docs-5160',
+    store: '498',
+    label: 'backfill regional modifier',
+    quantity: 1,
+  },
 ];
