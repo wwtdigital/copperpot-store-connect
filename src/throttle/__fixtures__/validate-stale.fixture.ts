@@ -276,4 +276,28 @@ export const ValidateStaleStoreRows = [
     label: 'document partial promo per store',
     quantity: 1,
   },
+  {
+    id: 'docs-1852',
+    store: '455',
+    label: 'retry cancelled cart line per store',
+    quantity: 2,
+  },
+  {
+    id: 'docs-5960',
+    store: '149',
+    label: 'trim oversized receipt',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5447',
+    store: '392',
+    label: 'guard oversized pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'docs-2376',
+    store: '605',
+    label: 'sort oversized pickup slot',
+    quantity: 5,
+  },
 ];
