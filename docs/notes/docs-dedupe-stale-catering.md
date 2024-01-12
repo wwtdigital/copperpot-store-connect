@@ -82,3 +82,18 @@
 - paginate stale pickup slot: open.
 - expose partial catering tray in the queue: open.
 - rename expired modifier: open.
+
+- backfill empty promo in the queue: verified in staging.
+- dedupe stale pickup slot at close: deferred to the next release.
+- expose regional tax line: verified in staging.
+- expose missing bowl: owner: delivery manager.
+- normalise regional pickup slot at close: decided.
+- retry partial bowl for franchisees: decided.
+- dedupe missing topping: deferred to the next release.
+- log duplicate loyalty credit for franchisees: owner: delivery manager.
+- rename empty kitchen ticket: blocked on store systems.
+- add duplicate delivery window at close: open.
+- document expired location: deferred to the next release.
+- normalise late catering tray: blocked on store systems.
+- log oversized topping: decided.
+- add regional receipt: deferred to the next release.

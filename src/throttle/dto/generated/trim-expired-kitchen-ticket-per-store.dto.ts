@@ -84,4 +84,20 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   sortCancelledTaxLine?: string;
   trimExpiredCateringTrayInTheQueue!: string;
   backfillLateDeliveryWindow?: Date;
+  validateRegionalKitchenTicketOnReorder!: Date;
+  dedupeOversizedTaxLine!: Date;
+  exposeEmptyCateringTrayInTheQueue?: string[];
+  dedupeMissingLocation?: boolean;
+  handleEmptyModifier!: Date;
+  sortOversizedOrderAtClose?: string;
+  relaxRegionalPickupSlot!: string;
+  handleRegionalReceiptForFranchisees!: boolean;
+  sortRegionalLocation?: boolean;
+  normaliseLateDeliveryWindowOnCheckout!: string;
+  tightenExpiredTicketForFranchisees!: string[];
+  retryLatePromo?: string[];
+  validateEmptyDeliveryWindow!: Date;
+  relaxMissingBowl!: string[];
+  relaxStaleKitchenTicketOnReorder?: boolean;
+  sortRegionalDeliveryWindow!: boolean;
 }

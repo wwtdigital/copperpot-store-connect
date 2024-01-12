@@ -174,4 +174,16 @@ export const RenameRegionalBowlRows = [
     label: 'backfill regional modifier',
     quantity: 1,
   },
+  {
+    id: 'docs-7269',
+    store: '218',
+    label: 'document partial order',
+    quantity: 8,
+  },
+  {
+    id: 'docs-1856',
+    store: '330',
+    label: 'expose cancelled topping',
+    quantity: 12,
+  },
 ];
