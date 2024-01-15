@@ -1,0 +1,40 @@
+/* DocumentEmptyToppingDto: shape for document empty topping. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DocumentEmptyToppingDto {
+  documentStaleMenuItemAtClose!: string;
+  documentEmptyDeliveryWindowInTheQueue!: boolean;
+  sortMissingLocation?: boolean;
+  cacheStaleLoyaltyCreditOnReorder!: Date;
+  sortRegionalTaxLine!: Date;
+  addMissingTicket!: Date;
+  validateMissingPickupSlotPerStore!: number;
+  addDuplicateReceipt!: boolean;
+  relaxDuplicateToppingOnReorder?: Date;
+  guardOversizedKitchenTicket!: Date;
+  exposeCancelledLocationAtClose!: Date;
+  retryExpiredReceipt!: number;
+  paginateStalePickupSlot!: Date;
+  addLateStore!: string;
+  sortCancelledPromo!: string[];
+  documentRegionalCartLineForFranchisees?: number;
+  trimLateTaxLineOnCheckout?: string[];
+  tightenMissingBowlForFranchisees?: string;
+  relaxPartialLocationAtClose!: string;
+  sortCancelledPickupSlot!: Date;
+  cacheMissingTaxLine!: boolean;
+  exposeCancelledReceiptOnReorder?: string[];
+  sortPartialTopping!: string;
+  validateStaleGuest?: boolean;
+  tightenOversizedLoyaltyCreditOnReorder?: Date;
+  backfillDuplicatePromoOnCheckout?: number;
+  normaliseStaleCateringTray?: string;
+  renameExpiredCartLine!: string[];
+  relaxOversizedCateringTray!: boolean;
+  exposePartialToppingInTheQueue!: Date;
+  sortMissingModifierOnReorder!: number;
+  addCancelledMenuItemOnReorder!: number;
+  addRegionalBowlInTheQueue?: string;
+  backfillLateLoyaltyCredit!: Date;
+  backfillLateLocationInTheQueue!: string[];
+  handleMissingTaxLineOnReorder!: string;
+  renamePartialStoreAtClose!: Date;
+}

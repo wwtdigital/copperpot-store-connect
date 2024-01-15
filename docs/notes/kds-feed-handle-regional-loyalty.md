@@ -1,0 +1,46 @@
+# kds-feed: handle regional loyalty credit
+
+- rename oversized loyalty credit: decided.
+- rename regional guest on checkout: open.
+- expose stale loyalty credit for franchisees: verified in staging.
+- cache duplicate kitchen ticket at close: verified in staging.
+- sort expired tax line: owner: delivery manager.
+- expose duplicate kitchen ticket for pickup: owner: delivery manager.
+- tighten oversized cart line for franchisees: blocked on store systems.
+- dedupe partial pickup slot: decided.
+- cache cancelled kitchen ticket: verified in staging.
+- relax oversized ticket at close: open.
+- sort cancelled ticket on reorder: deferred to the next release.
+- log late pickup slot for franchisees: owner: delivery manager.
+- rename expired delivery window: owner: delivery manager.
+- expose oversized kitchen ticket per store: verified in staging.
+
+- dedupe stale tax line: owner: delivery manager.
+- handle oversized delivery window on reorder: decided.
+- paginate expired order in the queue: owner: delivery manager.
+- validate missing ticket: deferred to the next release.
+- expose oversized catering tray on checkout: decided.
+- add cancelled receipt: decided.
+- backfill missing order: decided.
+- relax late bowl for pickup: verified in staging.
+- log stale promo in the queue: open.
+- add expired loyalty credit: verified in staging.
+- handle duplicate topping: deferred to the next release.
+- rename duplicate pickup slot: decided.
+- validate expired catering tray: owner: delivery manager.
+- handle cancelled kitchen ticket: open.
+
+- guard cancelled ticket on reorder: deferred to the next release.
+- guard empty location for franchisees: open.
+- relax late menu item on reorder: verified in staging.
+- guard oversized catering tray per store: decided.
+- expose cancelled promo on reorder: open.
+- dedupe stale pickup slot for franchisees: deferred to the next release.
+- paginate duplicate catering tray: decided.
+- guard cancelled cart line for pickup: open.
+- add expired tax line for pickup: blocked on store systems.
+- backfill duplicate guest: verified in staging.
+- normalise late topping: decided.
+- handle expired location: blocked on store systems.
+- guard regional guest: verified in staging.
+- handle late receipt: deferred to the next release.

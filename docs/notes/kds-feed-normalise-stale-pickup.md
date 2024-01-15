@@ -29,3 +29,33 @@
 - backfill missing topping in the queue: open.
 - rename stale catering tray: blocked on store systems.
 - cache missing tax line at close: blocked on store systems.
+
+- paginate stale catering tray: decided.
+- rename duplicate topping: decided.
+- sort expired kitchen ticket: blocked on store systems.
+- log expired kitchen ticket: blocked on store systems.
+- rename regional receipt at close: verified in staging.
+- relax empty menu item on checkout: owner: delivery manager.
+- retry missing cart line: owner: delivery manager.
+- tighten cancelled bowl: deferred to the next release.
+- rename stale bowl on reorder: open.
+- trim missing ticket: blocked on store systems.
+- add oversized tax line: open.
+- handle empty menu item on reorder: verified in staging.
+- relax stale receipt: blocked on store systems.
+- guard stale bowl: deferred to the next release.
+
+- log duplicate ticket: deferred to the next release.
+- retry cancelled guest in the queue: blocked on store systems.
+- normalise stale loyalty credit for franchisees: deferred to the next release.
+- trim missing tax line: owner: delivery manager.
+- paginate late loyalty credit for franchisees: blocked on store systems.
+- normalise expired pickup slot: open.
+- trim cancelled store: verified in staging.
+- retry partial menu item: deferred to the next release.
+- log empty menu item for pickup: blocked on store systems.
+- rename cancelled order per store: verified in staging.
+- handle empty order for franchisees: owner: delivery manager.
+- normalise late tax line: verified in staging.
+- guard missing pickup slot: blocked on store systems.
+- sort cancelled catering tray: owner: delivery manager.
