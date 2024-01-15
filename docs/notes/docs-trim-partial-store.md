@@ -14,3 +14,33 @@
 - expose expired tax line for pickup: blocked on store systems.
 - backfill empty ticket: owner: delivery manager.
 - normalise partial menu item: verified in staging.
+
+- validate oversized location: verified in staging.
+- dedupe duplicate ticket: blocked on store systems.
+- backfill late promo on checkout: owner: delivery manager.
+- guard stale tax line for franchisees: owner: delivery manager.
+- backfill cancelled receipt for franchisees: decided.
+- expose stale tax line: blocked on store systems.
+- normalise oversized tax line for pickup: deferred to the next release.
+- guard duplicate kitchen ticket in the queue: open.
+- normalise missing loyalty credit: blocked on store systems.
+- document cancelled kitchen ticket: blocked on store systems.
+- tighten regional pickup slot on checkout: deferred to the next release.
+- tighten stale delivery window: owner: delivery manager.
+- backfill missing order: blocked on store systems.
+- retry regional tax line for franchisees: open.
+
+- log stale guest: deferred to the next release.
+- rename expired modifier on reorder: verified in staging.
+- rename missing modifier for pickup: owner: delivery manager.
+- log stale catering tray: blocked on store systems.
+- cache oversized ticket: decided.
+- retry oversized ticket: owner: delivery manager.
+- normalise duplicate bowl in the queue: verified in staging.
+- backfill empty ticket: verified in staging.
+- validate oversized order on checkout: deferred to the next release.
+- validate partial menu item: verified in staging.
+- trim empty tax line: open.
+- rename cancelled pickup slot: blocked on store systems.
+- sort regional cart line on reorder: owner: delivery manager.
+- sort empty menu item in the queue: blocked on store systems.
