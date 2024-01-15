@@ -313,3 +313,10 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 - normalise oversized ticket
 - handle regional location
 - handle stale location in the queue
+
+## Unreleased
+
+- relax partial bowl
+- normalise oversized menu item on reorder
+- tighten partial guest
+- add empty store for franchisees

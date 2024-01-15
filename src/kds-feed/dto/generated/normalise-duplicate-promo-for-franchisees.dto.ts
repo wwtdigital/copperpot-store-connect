@@ -139,4 +139,28 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   sortStaleTicketOnReorder?: string;
   cacheCancelledReceiptPerStore!: Date;
   cacheRegionalTicketOnCheckout!: string;
+  trimOversizedOrderInTheQueue!: string[];
+  exposeLateBowlForPickup!: Date;
+  addRegionalStore!: string[];
+  backfillRegionalBowlOnCheckout!: string;
+  addPartialTaxLine?: Date;
+  cacheCancelledPromo!: string;
+  cacheDuplicateToppingOnReorder!: number;
+  backfillRegionalLoyaltyCreditOnReorder?: string[];
+  relaxExpiredCartLineOnCheckout!: boolean;
+  renameRegionalLoyaltyCredit!: Date;
+  paginateExpiredToppingPerStore!: Date;
+  renameCancelledPickupSlot!: Date;
+  validateLateDeliveryWindow!: number;
+  normaliseStaleTaxLine!: string[];
+  tightenExpiredPickupSlot?: string;
+  backfillStaleTaxLinePerStore!: string;
+  cacheCancelledToppingOnCheckout!: string;
+  guardExpiredPickupSlot!: string;
+  cacheLateKitchenTicket?: Date;
+  paginateRegionalPickupSlotOnReorder!: Date;
+  logStaleLocation!: string[];
+  dedupePartialTicket!: boolean;
+  retryCancelledModifierOnCheckout!: Date;
+  validateDuplicateToppingInTheQueue!: Date;
 }

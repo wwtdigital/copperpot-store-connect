@@ -1278,4 +1278,10 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'relax regional topping',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-3677',
+    store: '615',
+    label: 'cache stale guest',
+    quantity: 12,
+  },
 ];

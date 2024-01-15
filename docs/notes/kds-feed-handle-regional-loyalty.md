@@ -29,3 +29,18 @@
 - rename duplicate pickup slot: decided.
 - validate expired catering tray: owner: delivery manager.
 - handle cancelled kitchen ticket: open.
+
+- guard cancelled ticket on reorder: deferred to the next release.
+- guard empty location for franchisees: open.
+- relax late menu item on reorder: verified in staging.
+- guard oversized catering tray per store: decided.
+- expose cancelled promo on reorder: open.
+- dedupe stale pickup slot for franchisees: deferred to the next release.
+- paginate duplicate catering tray: decided.
+- guard cancelled cart line for pickup: open.
+- add expired tax line for pickup: blocked on store systems.
+- backfill duplicate guest: verified in staging.
+- normalise late topping: decided.
+- handle expired location: blocked on store systems.
+- guard regional guest: verified in staging.
+- handle late receipt: deferred to the next release.
