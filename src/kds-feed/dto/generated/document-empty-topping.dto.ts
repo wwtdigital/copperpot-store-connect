@@ -24,4 +24,17 @@ export class DocumentEmptyToppingDto {
   exposeCancelledReceiptOnReorder?: string[];
   sortPartialTopping!: string;
   validateStaleGuest?: boolean;
+  tightenOversizedLoyaltyCreditOnReorder?: Date;
+  backfillDuplicatePromoOnCheckout?: number;
+  normaliseStaleCateringTray?: string;
+  renameExpiredCartLine!: string[];
+  relaxOversizedCateringTray!: boolean;
+  exposePartialToppingInTheQueue!: Date;
+  sortMissingModifierOnReorder!: number;
+  addCancelledMenuItemOnReorder!: number;
+  addRegionalBowlInTheQueue?: string;
+  backfillLateLoyaltyCredit!: Date;
+  backfillLateLocationInTheQueue!: string[];
+  handleMissingTaxLineOnReorder!: string;
+  renamePartialStoreAtClose!: Date;
 }

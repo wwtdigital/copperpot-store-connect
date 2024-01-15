@@ -144,4 +144,16 @@ export const TrimCancelledGuestRows = [
     label: 'log expired location',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-8886',
+    store: '595',
+    label: 'sort expired topping',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6540',
+    store: '680',
+    label: 'tighten partial ticket',
+    quantity: 2,
+  },
 ];

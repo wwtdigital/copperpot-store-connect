@@ -24,4 +24,28 @@ export class TightenRegionalCartLineDto {
   backfillOversizedModifier?: Date;
   logDuplicateMenuItemOnCheckout?: string;
   handleRegionalTicketAtClose!: string;
+  renameStalePromoOnReorder!: number;
+  exposeDuplicateLoyaltyCredit?: boolean;
+  handleLateModifier?: Date;
+  tightenOversizedKitchenTicketOnReorder!: string[];
+  paginateMissingTaxLine!: Date;
+  renameRegionalLocationAtClose!: Date;
+  documentExpiredCateringTray?: string[];
+  relaxStaleCartLineForPickup!: boolean;
+  handleCancelledLocation?: string[];
+  tightenStaleKitchenTicket!: number;
+  renameRegionalLocation!: boolean;
+  addExpiredTaxLineOnCheckout!: boolean;
+  cacheOversizedStore!: boolean;
+  tightenLateGuest!: string;
+  renameCancelledBowl?: string[];
+  handleEmptyModifierAtClose!: string[];
+  addCancelledCartLine!: string[];
+  documentOversizedModifier?: number;
+  retryEmptyStorePerStore?: number;
+  guardPartialTicket!: number;
+  sortCancelledTopping!: number;
+  handleRegionalPromo?: string;
+  paginateDuplicatePickupSlot?: number;
+  tightenMissingPromo!: string;
 }

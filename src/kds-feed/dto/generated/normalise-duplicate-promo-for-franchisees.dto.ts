@@ -115,4 +115,28 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   guardOversizedKitchenTicket!: boolean;
   renameCancelledTicket!: number;
   retryEmptyOrderOnCheckout?: string[];
+  logEmptyTicket!: string[];
+  paginateLateLoyaltyCredit!: number;
+  relaxLateCartLineAtClose!: string[];
+  relaxPartialReceipt?: string[];
+  logRegionalKitchenTicket!: Date;
+  tightenEmptyKitchenTicket!: string;
+  renameMissingTaxLineOnCheckout!: string;
+  dedupeDuplicateToppingOnCheckout!: string;
+  dedupeCancelledMenuItemForFranchisees?: number;
+  addRegionalDeliveryWindow!: string[];
+  guardOversizedModifier!: Date;
+  validateOversizedKitchenTicket!: boolean;
+  validateLateLocation!: string;
+  renameEmptyCartLine!: Date;
+  paginateEmptyCartLine!: Date;
+  trimDuplicateBowlForPickup!: Date;
+  logEmptyDeliveryWindow!: string;
+  handleEmptyModifier!: boolean;
+  renameMissingTaxLine!: string;
+  cacheRegionalPromo!: number;
+  addLateModifierAtClose!: string[];
+  sortStaleTicketOnReorder?: string;
+  cacheCancelledReceiptPerStore!: Date;
+  cacheRegionalTicketOnCheckout!: string;
 }
