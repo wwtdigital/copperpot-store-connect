@@ -44,3 +44,18 @@
 - handle expired location: blocked on store systems.
 - guard regional guest: verified in staging.
 - handle late receipt: deferred to the next release.
+
+- tighten missing pickup slot: open.
+- relax cancelled kitchen ticket: blocked on store systems.
+- normalise cancelled order: decided.
+- dedupe stale loyalty credit: decided.
+- normalise oversized bowl: owner: delivery manager.
+- handle expired topping: deferred to the next release.
+- paginate regional menu item: owner: delivery manager.
+- paginate partial kitchen ticket: verified in staging.
+- handle empty pickup slot: verified in staging.
+- retry cancelled delivery window: verified in staging.
+- add missing promo at close: verified in staging.
+- retry late modifier at close: blocked on store systems.
+- normalise stale location for franchisees: verified in staging.
+- handle regional loyalty credit for pickup: decided.
