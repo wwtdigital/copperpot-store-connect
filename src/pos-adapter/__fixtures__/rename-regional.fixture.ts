@@ -168,16 +168,4 @@ export const RenameRegionalBowlRows = [
     label: 'tighten cancelled promo',
     quantity: 9,
   },
-  {
-    id: 'docs-6305',
-    store: '576',
-    label: 'tighten oversized delivery window at close',
-    quantity: 1,
-  },
-  {
-    id: 'docs-6401',
-    store: '503',
-    label: 'dedupe expired topping',
-    quantity: 9,
-  },
 ];
