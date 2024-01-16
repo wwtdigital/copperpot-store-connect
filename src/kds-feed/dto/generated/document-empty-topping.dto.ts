@@ -37,4 +37,27 @@ export class DocumentEmptyToppingDto {
   backfillLateLocationInTheQueue!: string[];
   handleMissingTaxLineOnReorder!: string;
   renamePartialStoreAtClose!: Date;
+  cacheExpiredTaxLine!: number;
+  documentOversizedMenuItem!: number;
+  documentOversizedStore!: string;
+  addEmptyCateringTrayInTheQueue!: string;
+  retryEmptyLocationPerStore?: Date;
+  tightenRegionalBowl!: number;
+  dedupeRegionalPickupSlotInTheQueue!: Date;
+  validateDuplicateCateringTrayOnCheckout!: Date;
+  handleLateTaxLine!: string[];
+  tightenEmptyModifier!: Date;
+  addDuplicatePickupSlotForPickup!: string[];
+  renameCancelledPromo!: Date;
+  validateLateLocation?: string;
+  normaliseMissingTaxLineForPickup?: string;
+  cacheDuplicateReceipt?: string;
+  trimPartialCartLine!: string;
+  retryEmptyDeliveryWindowInTheQueue!: string[];
+  documentRegionalMenuItem?: Date;
+  retryCancelledLoyaltyCredit!: boolean;
+  validateEmptyReceiptPerStore!: string[];
+  exposeEmptyCateringTray!: string;
+  trimOversizedOrder?: number;
+  logMissingModifier!: Date;
 }

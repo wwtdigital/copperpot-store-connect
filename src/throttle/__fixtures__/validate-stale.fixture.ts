@@ -276,4 +276,10 @@ export const ValidateStaleStoreRows = [
     label: 'document partial promo per store',
     quantity: 1,
   },
+  {
+    id: 'docs-2363',
+    store: '494',
+    label: 'normalise cancelled catering tray',
+    quantity: 3,
+  },
 ];

@@ -109,3 +109,18 @@
 - add empty menu item in the queue: verified in staging.
 - backfill duplicate cart line: verified in staging.
 - cache missing location: verified in staging.
+
+- dedupe duplicate loyalty credit: decided.
+- cache missing pickup slot on reorder: deferred to the next release.
+- expose empty kitchen ticket: blocked on store systems.
+- dedupe stale order for pickup: owner: delivery manager.
+- paginate empty delivery window: deferred to the next release.
+- cache stale topping on reorder: decided.
+- expose partial promo at close: verified in staging.
+- document stale store for pickup: open.
+- log regional location on checkout: decided.
+- paginate cancelled promo: verified in staging.
+- dedupe late catering tray on checkout: verified in staging.
+- retry stale modifier: decided.
+- paginate partial topping per store: open.
+- sort regional guest for pickup: blocked on store systems.

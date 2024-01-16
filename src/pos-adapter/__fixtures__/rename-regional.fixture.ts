@@ -168,4 +168,52 @@ export const RenameRegionalBowlRows = [
     label: 'tighten cancelled promo',
     quantity: 9,
   },
+  {
+    id: 'docs-5160',
+    store: '498',
+    label: 'backfill regional modifier',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7269',
+    store: '218',
+    label: 'document partial order',
+    quantity: 8,
+  },
+  {
+    id: 'docs-1856',
+    store: '330',
+    label: 'expose cancelled topping',
+    quantity: 12,
+  },
+  {
+    id: 'docs-3659',
+    store: '141',
+    label: 'trim expired menu item',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2553',
+    store: '396',
+    label: 'rename empty menu item',
+    quantity: 7,
+  },
+  {
+    id: 'docs-7648',
+    store: '222',
+    label: 'normalise stale location',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8950',
+    store: '596',
+    label: 'cache partial modifier',
+    quantity: 8,
+  },
+  {
+    id: 'docs-9666',
+    store: '495',
+    label: 'expose partial tax line',
+    quantity: 3,
+  },
 ];
