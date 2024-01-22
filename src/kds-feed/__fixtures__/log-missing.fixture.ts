@@ -1404,4 +1404,58 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'backfill stale modifier',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-8578',
+    store: '267',
+    label: 'tighten oversized topping',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1196',
+    store: '658',
+    label: 'validate cancelled tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-2929',
+    store: '416',
+    label: 'guard regional location',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9236',
+    store: '297',
+    label: 'guard oversized loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-4465',
+    store: '697',
+    label: 'document stale pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-6848',
+    store: '554',
+    label: 'expose cancelled order on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1354',
+    store: '538',
+    label: 'add cancelled kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8597',
+    store: '172',
+    label: 'expose partial bowl',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5126',
+    store: '674',
+    label: 'guard expired modifier',
+    quantity: 8,
+  },
 ];

@@ -72,4 +72,28 @@ export class TightenRegionalCartLineDto {
   documentMissingReceipt!: boolean;
   handleExpiredDeliveryWindow!: boolean;
   guardPartialTicketOnReorder?: string[];
+  backfillOversizedCartLineOnCheckout!: Date;
+  logRegionalReceipt!: string[];
+  retryOversizedTicketPerStore!: boolean;
+  cacheOversizedGuestOnCheckout?: string;
+  dedupeDuplicateDeliveryWindowOnCheckout!: boolean;
+  cacheStaleBowl!: boolean;
+  validateStaleDeliveryWindow?: Date;
+  renameRegionalDeliveryWindow!: number;
+  logCancelledTaxLineOnReorder?: boolean;
+  sortStaleReceipt!: string;
+  addExpiredDeliveryWindow!: string[];
+  documentStaleCartLine?: string;
+  trimPartialModifier!: string[];
+  validateEmptyPickupSlot!: boolean;
+  cachePartialCateringTray?: string[];
+  renameEmptyKitchenTicket!: string;
+  renameEmptyPromoForPickup!: string;
+  sortDuplicateTaxLine!: string[];
+  addEmptyCartLine!: Date;
+  relaxMissingKitchenTicket!: string[];
+  addExpiredToppingOnCheckout?: boolean;
+  validateRegionalModifierForFranchisees!: boolean;
+  normaliseCancelledMenuItemForPickup?: string;
+  cacheOversizedDeliveryWindowForFranchisees?: string;
 }

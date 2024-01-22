@@ -60,4 +60,28 @@ export class DocumentEmptyToppingDto {
   exposeEmptyCateringTray!: string;
   trimOversizedOrder?: number;
   logMissingModifier!: Date;
+  documentOversizedBowlPerStore!: string[];
+  paginateExpiredPromo!: boolean;
+  normaliseEmptyPromo!: boolean;
+  trimLateGuest?: string;
+  handleOversizedStoreForFranchisees!: Date;
+  exposeRegionalBowlOnCheckout!: number;
+  logLateKitchenTicket!: Date;
+  addDuplicateLoyaltyCreditForPickup!: boolean;
+  retryOversizedBowlAtClose!: string[];
+  tightenCancelledModifier!: Date;
+  addLateLoyaltyCredit!: string;
+  addRegionalBowl!: string[];
+  paginateRegionalMenuItem?: string[];
+  logEmptyOrder!: boolean;
+  validateDuplicateCartLineInTheQueue!: string;
+  handleRegionalLoyaltyCreditAtClose!: boolean;
+  handleStaleDeliveryWindow!: Date;
+  relaxStaleGuest!: string;
+  documentEmptyDeliveryWindow!: string[];
+  documentEmptyKitchenTicketPerStore!: number;
+  tightenCancelledCartLine!: number;
+  normaliseEmptyTicket!: string[];
+  guardRegionalPromoAtClose?: number;
+  addCancelledGuest!: string;
 }
