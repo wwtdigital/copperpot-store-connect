@@ -14,3 +14,18 @@
 - log duplicate delivery window for pickup: blocked on store systems.
 - rename late tax line on reorder: decided.
 - retry stale menu item in the queue: decided.
+
+- sort regional kitchen ticket per store: deferred to the next release.
+- validate duplicate order: decided.
+- expose partial modifier on checkout: owner: delivery manager.
+- sort stale delivery window at close: verified in staging.
+- document expired catering tray: open.
+- relax missing kitchen ticket: open.
+- paginate cancelled ticket in the queue: deferred to the next release.
+- relax oversized ticket: deferred to the next release.
+- handle regional cart line: verified in staging.
+- guard stale modifier on reorder: open.
+- handle stale store on checkout: verified in staging.
+- relax oversized menu item at close: blocked on store systems.
+- trim partial receipt: deferred to the next release.
+- validate regional loyalty credit: blocked on store systems.
