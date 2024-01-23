@@ -29,3 +29,8 @@
 - relax oversized menu item at close: blocked on store systems.
 - trim partial receipt: deferred to the next release.
 - validate regional loyalty credit: blocked on store systems.
+
+- handle oversized promo: decided.
+- rename expired receipt at close: deferred to the next release.
+- log duplicate promo: open.
+- validate duplicate kitchen ticket: deferred to the next release.

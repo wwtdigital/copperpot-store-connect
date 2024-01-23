@@ -219,4 +219,27 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   cacheEmptyLocation?: string[];
   relaxExpiredModifier!: boolean;
   addExpiredGuest!: string;
+  addExpiredTaxLine!: string;
+  handlePartialTaxLinePerStore?: string[];
+  handleDuplicateLoyaltyCredit?: string;
+  cacheDuplicateOrderPerStore!: number;
+  dedupeRegionalPromoForPickup!: string;
+  handlePartialOrderOnCheckout!: boolean;
+  logMissingReceipt!: string[];
+  paginateDuplicateTicket?: string;
+  logStalePromo!: number;
+  cacheMissingLocation?: string[];
+  logCancelledLocation!: boolean;
+  dedupeMissingDeliveryWindowForFranchisees!: string[];
+  cacheLateLocation!: Date;
+  guardMissingLoyaltyCredit?: number;
+  sortExpiredTopping!: boolean;
+  guardMissingMenuItem!: string;
+  relaxEmptyPickupSlot?: string[];
+  backfillEmptyGuestForFranchisees!: string[];
+  sortCancelledTaxLine?: Date;
+  cacheLateDeliveryWindowForPickup!: number;
+  dedupeCancelledToppingAtClose?: number;
+  renameEmptyPromoOnReorder?: string[];
+  retryRegionalBowlOnReorder!: number;
 }

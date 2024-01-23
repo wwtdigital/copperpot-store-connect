@@ -48,4 +48,28 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'retry missing pickup slot',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-3538',
+    store: '558',
+    label: 'backfill duplicate loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6487',
+    store: '563',
+    label: 'add partial kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-4473',
+    store: '324',
+    label: 'normalise duplicate loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-2309',
+    store: '385',
+    label: 'normalise partial tax line for franchisees',
+    quantity: 9,
+  },
 ];
