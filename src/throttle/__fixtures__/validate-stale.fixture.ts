@@ -282,4 +282,46 @@ export const ValidateStaleStoreRows = [
     label: 'normalise cancelled catering tray',
     quantity: 3,
   },
+  {
+    id: 'throttle-6648',
+    store: '535',
+    label: 'validate oversized location',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-1490',
+    store: '344',
+    label: 'tighten stale store',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-2245',
+    store: '652',
+    label: 'validate cancelled delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9021',
+    store: '429',
+    label: 'rename partial order',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-7983',
+    store: '111',
+    label: 'document stale store',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4851',
+    store: '397',
+    label: 'paginate regional ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-4261',
+    store: '108',
+    label: 'guard stale promo',
+    quantity: 12,
+  },
 ];
