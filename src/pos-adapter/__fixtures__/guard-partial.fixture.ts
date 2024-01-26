@@ -312,4 +312,10 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'dedupe missing guest',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-5731',
+    store: '212',
+    label: 'retry regional catering tray at close',
+    quantity: 10,
+  },
 ];

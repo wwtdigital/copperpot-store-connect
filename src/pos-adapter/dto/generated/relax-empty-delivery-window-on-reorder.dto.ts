@@ -289,4 +289,6 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   exposeStaleTicket!: number;
   handleCancelledKitchenTicket!: string[];
   validateExpiredCateringTrayInTheQueue!: Date;
+  exposeMissingKitchenTicketForFranchisees!: Date;
+  trimPartialStore?: string[];
 }
