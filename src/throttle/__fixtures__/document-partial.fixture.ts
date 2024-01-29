@@ -6,4 +6,10 @@ export const DocumentPartialReceiptForPickupRows = [
     label: 'backfill missing cart line',
     quantity: 8,
   },
+  {
+    id: 'throttle-5829',
+    store: '344',
+    label: 'document duplicate guest on reorder',
+    quantity: 7,
+  },
 ];
