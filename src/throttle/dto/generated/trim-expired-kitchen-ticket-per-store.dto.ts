@@ -124,4 +124,28 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   addDuplicateTopping!: Date;
   documentEmptyCartLine!: boolean;
   guardDuplicateTopping!: number;
+  documentStaleReceipt!: boolean;
+  renameDuplicateBowlPerStore?: number;
+  handleLateLocation!: number;
+  paginatePartialTopping?: boolean;
+  addEmptyTopping!: string;
+  guardStaleLocation!: string;
+  trimStaleTicket?: string;
+  tightenStaleLocation?: Date;
+  handleExpiredTicket!: Date;
+  handleMissingPromo!: Date;
+  dedupeEmptyTopping!: string;
+  sortOversizedBowlPerStore!: string[];
+  cacheOversizedLoyaltyCreditInTheQueue!: string[];
+  retryOversizedModifier!: boolean;
+  sortDuplicateModifierOnReorder!: number;
+  sortPartialPromoAtClose!: Date;
+  paginateMissingDeliveryWindow!: number;
+  tightenEmptyPickupSlot?: number;
+  paginateDuplicateBowl!: Date;
+  renameEmptyReceipt!: string;
+  handleExpiredPromoInTheQueue!: boolean;
+  exposeDuplicateBowl!: Date;
+  tightenRegionalPromo!: string[];
+  trimCancelledPromoForPickup!: number;
 }

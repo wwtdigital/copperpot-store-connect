@@ -44,3 +44,22 @@
 - normalise late tax line: blocked on store systems.
 - dedupe empty tax line on reorder: decided.
 - handle partial pickup slot: open.
+
+- document regional guest: owner: delivery manager.
+- guard oversized order in the queue: blocked on store systems.
+- relax stale modifier: blocked on store systems.
+- rename empty bowl: owner: delivery manager.
+- handle late loyalty credit for franchisees: decided.
+- tighten cancelled delivery window in the queue: owner: delivery manager.
+- rename missing promo for pickup: blocked on store systems.
+- normalise late bowl: owner: delivery manager.
+- handle duplicate store for franchisees: blocked on store systems.
+- backfill missing kitchen ticket on checkout: blocked on store systems.
+- paginate regional ticket: decided.
+- trim empty store: decided.
+- backfill partial receipt: deferred to the next release.
+- paginate empty delivery window per store: owner: delivery manager.
+
+- trim empty cart line for franchisees: blocked on store systems.
+- rename partial location: blocked on store systems.
+- document regional cart line: owner: delivery manager.
