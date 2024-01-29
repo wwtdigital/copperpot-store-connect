@@ -62,4 +62,28 @@ export class ValidateEmptyCateringTrayDto {
   addMissingTaxLineForPickup!: boolean;
   trimLateLoyaltyCredit?: Date;
   dedupeExpiredKitchenTicket!: string[];
+  tightenEmptyMenuItem?: Date;
+  trimPartialLoyaltyCredit!: number;
+  sortDuplicateModifierPerStore?: Date;
+  handleMissingMenuItemOnReorder!: boolean;
+  exposeRegionalTopping!: string;
+  relaxMissingStoreOnCheckout?: string;
+  relaxOversizedBowl!: string;
+  tightenStaleTopping!: number;
+  trimEmptyCateringTrayOnCheckout!: number;
+  paginateStaleModifierAtClose?: string;
+  tightenRegionalStore!: number;
+  guardPartialTaxLine!: Date;
+  cacheOversizedLoyaltyCreditInTheQueue?: string[];
+  logExpiredModifier!: boolean;
+  tightenPartialTaxLineOnReorder?: string[];
+  trimStaleOrderPerStore?: number;
+  sortMissingModifier!: string[];
+  validatePartialPromo?: number;
+  backfillLateModifier!: string[];
+  logLateModifierAtClose!: Date;
+  trimOversizedToppingForFranchisees!: string[];
+  retryLateGuest!: string[];
+  handleEmptyKitchenTicket!: string;
+  logPartialLoyaltyCredit!: string[];
 }
