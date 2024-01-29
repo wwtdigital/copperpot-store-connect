@@ -19,3 +19,18 @@
 - sort late store: blocked on store systems.
 - expose expired location: decided.
 - add oversized menu item per store: blocked on store systems.
+
+- tighten empty pickup slot: owner: delivery manager.
+- rename cancelled delivery window: blocked on store systems.
+- log stale catering tray in the queue: owner: delivery manager.
+- normalise missing location per store: decided.
+- dedupe duplicate tax line: blocked on store systems.
+- add empty bowl: owner: delivery manager.
+- trim cancelled location: verified in staging.
+- cache oversized ticket at close: deferred to the next release.
+- trim missing menu item at close: owner: delivery manager.
+- backfill partial store: decided.
+- guard oversized ticket for pickup: decided.
+- backfill expired store: decided.
+- validate stale ticket: owner: delivery manager.
+- sort cancelled kitchen ticket: blocked on store systems.
