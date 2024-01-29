@@ -34,3 +34,18 @@
 - backfill expired store: decided.
 - validate stale ticket: owner: delivery manager.
 - sort cancelled kitchen ticket: blocked on store systems.
+
+- expose empty store: open.
+- paginate missing promo: decided.
+- document stale receipt on checkout: blocked on store systems.
+- relax partial tax line on reorder: open.
+- trim regional ticket: verified in staging.
+- backfill oversized modifier: verified in staging.
+- document partial modifier at close: decided.
+- rename oversized ticket in the queue: open.
+- cache partial ticket: blocked on store systems.
+- trim empty tax line: blocked on store systems.
+- retry cancelled bowl: decided.
+- sort cancelled pickup slot for franchisees: decided.
+- tighten regional pickup slot for franchisees: owner: delivery manager.
+- retry partial ticket: open.
