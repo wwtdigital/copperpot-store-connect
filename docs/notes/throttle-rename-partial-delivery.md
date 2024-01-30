@@ -29,3 +29,18 @@
 - handle duplicate promo: decided.
 - trim regional tax line: blocked on store systems.
 - dedupe empty kitchen ticket per store: blocked on store systems.
+
+- rename cancelled menu item: owner: delivery manager.
+- guard duplicate guest: deferred to the next release.
+- normalise late menu item per store: owner: delivery manager.
+- tighten oversized loyalty credit at close: decided.
+- document partial promo: open.
+- tighten late delivery window on checkout: deferred to the next release.
+- trim regional receipt: open.
+- validate partial guest: blocked on store systems.
+- validate regional ticket: deferred to the next release.
+- sort expired tax line: deferred to the next release.
+- backfill empty topping on checkout: verified in staging.
+- normalise late tax line: blocked on store systems.
+- dedupe empty tax line on reorder: decided.
+- handle partial pickup slot: open.

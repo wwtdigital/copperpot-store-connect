@@ -100,4 +100,28 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   relaxMissingBowl!: string[];
   relaxStaleKitchenTicketOnReorder?: boolean;
   sortRegionalDeliveryWindow!: boolean;
+  paginateCancelledBowl!: Date;
+  sortOversizedTopping!: Date;
+  retryOversizedGuestOnReorder!: number;
+  addMissingCateringTrayInTheQueue?: string[];
+  sortCancelledLocation?: string;
+  sortCancelledGuest!: string;
+  dedupeEmptyModifierInTheQueue!: string[];
+  cacheDuplicateOrder!: string[];
+  renameMissingCateringTray?: Date;
+  validateEmptyStoreForFranchisees!: boolean;
+  tightenRegionalLocation!: string;
+  tightenPartialMenuItemAtClose?: boolean;
+  trimLateKitchenTicketOnCheckout?: string[];
+  dedupeCancelledKitchenTicketForPickup!: string;
+  documentMissingTicketForFranchisees!: string;
+  retryCancelledMenuItem!: string;
+  paginateStaleCartLineForPickup?: string[];
+  retryExpiredTaxLineInTheQueue!: string[];
+  logEmptyLocation!: string;
+  paginateEmptyLocationAtClose!: number;
+  renameEmptyStore!: number;
+  addDuplicateTopping!: Date;
+  documentEmptyCartLine!: boolean;
+  guardDuplicateTopping!: number;
 }
