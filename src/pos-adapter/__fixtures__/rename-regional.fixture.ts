@@ -756,4 +756,10 @@ export const RenameRegionalBowlRows = [
     label: 'handle partial ticket in the queue',
     quantity: 10,
   },
+  {
+    id: 'docs-4325',
+    store: '290',
+    label: 'sort partial tax line',
+    quantity: 9,
+  },
 ];
