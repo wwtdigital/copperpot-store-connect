@@ -24,4 +24,28 @@ export class ExposeExpiredLoyaltyCreditDto {
   documentLateTopping?: string[];
   documentDuplicateDeliveryWindow!: string;
   relaxLateTicketForPickup!: boolean;
+  handleStaleBowl!: number;
+  exposeExpiredTaxLineOnReorder!: string[];
+  paginateCancelledCartLine!: boolean;
+  addOversizedPickupSlot!: Date;
+  addEmptyLocation?: string[];
+  exposeCancelledOrderPerStore!: string;
+  guardExpiredBowl!: string[];
+  paginateDuplicatePickupSlot!: Date;
+  trimExpiredLoyaltyCreditOnCheckout!: number;
+  validateEmptyLoyaltyCredit!: boolean;
+  documentStaleReceipt!: string;
+  sortRegionalTicket!: Date;
+  guardEmptyTicketForFranchisees!: string[];
+  handleMissingMenuItem!: string[];
+  validateStaleReceiptOnCheckout!: boolean;
+  backfillDuplicateToppingForPickup?: string[];
+  validateDuplicateGuestPerStore?: number;
+  cacheDuplicateTicket?: number;
+  retryExpiredCateringTray?: Date;
+  sortOversizedTopping!: string[];
+  dedupeExpiredTicketForFranchisees!: number;
+  normaliseCancelledModifier!: Date;
+  sortOversizedCartLine!: string[];
+  cacheStaleReceiptOnCheckout?: number;
 }

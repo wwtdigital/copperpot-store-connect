@@ -12,3 +12,18 @@
 - log empty promo: blocked on store systems.
 - rename partial tax line: decided.
 - cache partial ticket: blocked on store systems.
+
+- handle empty receipt: owner: delivery manager.
+- dedupe regional menu item per store: open.
+- dedupe duplicate location: open.
+- paginate partial modifier: deferred to the next release.
+- rename empty promo: deferred to the next release.
+- backfill partial pickup slot: open.
+- guard missing kitchen ticket for franchisees: decided.
+- expose late topping for franchisees: owner: delivery manager.
+- handle cancelled tax line on checkout: blocked on store systems.
+- normalise regional kitchen ticket at close: blocked on store systems.
+- document regional tax line: open.
+- tighten oversized promo: decided.
+- tighten missing delivery window: open.
+- add stale modifier in the queue: verified in staging.
