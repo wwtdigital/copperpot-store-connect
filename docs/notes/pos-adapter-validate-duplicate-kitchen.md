@@ -1,0 +1,31 @@
+# pos-adapter: validate duplicate kitchen ticket
+
+- handle cancelled topping: decided.
+- rename oversized delivery window: deferred to the next release.
+- expose oversized menu item: deferred to the next release.
+- dedupe duplicate location at close: open.
+- cache missing guest: open.
+- relax oversized location: blocked on store systems.
+- tighten oversized loyalty credit: decided.
+- rename cancelled kitchen ticket at close: deferred to the next release.
+- paginate stale bowl for pickup: blocked on store systems.
+- handle expired kitchen ticket: deferred to the next release.
+- add missing modifier: owner: delivery manager.
+- cache regional loyalty credit for franchisees: verified in staging.
+- normalise empty cart line for pickup: open.
+- guard duplicate location: decided.
+
+- tighten stale pickup slot for franchisees: verified in staging.
+- guard expired tax line on reorder: blocked on store systems.
+- paginate late tax line: blocked on store systems.
+- rename cancelled topping: deferred to the next release.
+- backfill late pickup slot: owner: delivery manager.
+- cache oversized guest: decided.
+- retry late ticket in the queue: deferred to the next release.
+- expose duplicate store: decided.
+- document late kitchen ticket: deferred to the next release.
+- retry stale topping for franchisees: owner: delivery manager.
+- tighten expired pickup slot: open.
+- normalise late modifier: verified in staging.
+- add stale menu item: verified in staging.
+- backfill missing menu item per store: verified in staging.
