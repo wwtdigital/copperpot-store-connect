@@ -49,3 +49,18 @@
 - sort cancelled pickup slot for franchisees: decided.
 - tighten regional pickup slot for franchisees: owner: delivery manager.
 - retry partial ticket: open.
+
+- validate partial tax line: blocked on store systems.
+- retry expired delivery window: owner: delivery manager.
+- add empty location for franchisees: open.
+- log late modifier: owner: delivery manager.
+- relax oversized loyalty credit: decided.
+- expose late order: verified in staging.
+- normalise empty bowl: blocked on store systems.
+- dedupe missing cart line on reorder: decided.
+- trim stale catering tray: decided.
+- add stale order per store: owner: delivery manager.
+- log late promo: deferred to the next release.
+- document partial store: blocked on store systems.
+- log partial catering tray: blocked on store systems.
+- handle duplicate ticket: verified in staging.
