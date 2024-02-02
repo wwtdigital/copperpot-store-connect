@@ -14,3 +14,52 @@
 - document expired delivery window: blocked on store systems.
 - document expired menu item: open.
 - retry late receipt: verified in staging.
+
+- dedupe regional cart line on checkout: blocked on store systems.
+- sort stale menu item: owner: delivery manager.
+- handle regional location per store: deferred to the next release.
+- relax missing order: deferred to the next release.
+- add missing ticket for pickup: open.
+- rename missing tax line: verified in staging.
+- validate duplicate catering tray on checkout: open.
+- paginate missing store per store: deferred to the next release.
+- backfill cancelled kitchen ticket in the queue: decided.
+- handle cancelled location at close: blocked on store systems.
+- relax oversized bowl at close: verified in staging.
+- handle duplicate promo: decided.
+- trim regional tax line: blocked on store systems.
+- dedupe empty kitchen ticket per store: blocked on store systems.
+
+- rename cancelled menu item: owner: delivery manager.
+- guard duplicate guest: deferred to the next release.
+- normalise late menu item per store: owner: delivery manager.
+- tighten oversized loyalty credit at close: decided.
+- document partial promo: open.
+- tighten late delivery window on checkout: deferred to the next release.
+- trim regional receipt: open.
+- validate partial guest: blocked on store systems.
+- validate regional ticket: deferred to the next release.
+- sort expired tax line: deferred to the next release.
+- backfill empty topping on checkout: verified in staging.
+- normalise late tax line: blocked on store systems.
+- dedupe empty tax line on reorder: decided.
+- handle partial pickup slot: open.
+
+- document regional guest: owner: delivery manager.
+- guard oversized order in the queue: blocked on store systems.
+- relax stale modifier: blocked on store systems.
+- rename empty bowl: owner: delivery manager.
+- handle late loyalty credit for franchisees: decided.
+- tighten cancelled delivery window in the queue: owner: delivery manager.
+- rename missing promo for pickup: blocked on store systems.
+- normalise late bowl: owner: delivery manager.
+- handle duplicate store for franchisees: blocked on store systems.
+- backfill missing kitchen ticket on checkout: blocked on store systems.
+- paginate regional ticket: decided.
+- trim empty store: decided.
+- backfill partial receipt: deferred to the next release.
+- paginate empty delivery window per store: owner: delivery manager.
+
+- trim empty cart line for franchisees: blocked on store systems.
+- rename partial location: blocked on store systems.
+- document regional cart line: owner: delivery manager.
