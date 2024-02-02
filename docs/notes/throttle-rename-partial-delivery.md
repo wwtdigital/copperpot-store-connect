@@ -14,3 +14,18 @@
 - document expired delivery window: blocked on store systems.
 - document expired menu item: open.
 - retry late receipt: verified in staging.
+
+- dedupe regional cart line on checkout: blocked on store systems.
+- sort stale menu item: owner: delivery manager.
+- handle regional location per store: deferred to the next release.
+- relax missing order: deferred to the next release.
+- add missing ticket for pickup: open.
+- rename missing tax line: verified in staging.
+- validate duplicate catering tray on checkout: open.
+- paginate missing store per store: deferred to the next release.
+- backfill cancelled kitchen ticket in the queue: decided.
+- handle cancelled location at close: blocked on store systems.
+- relax oversized bowl at close: verified in staging.
+- handle duplicate promo: decided.
+- trim regional tax line: blocked on store systems.
+- dedupe empty kitchen ticket per store: blocked on store systems.
