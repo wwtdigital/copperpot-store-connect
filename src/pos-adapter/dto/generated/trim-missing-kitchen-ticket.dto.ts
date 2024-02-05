@@ -48,4 +48,6 @@ export class TrimMissingKitchenTicketDto {
   exposeEmptyStore!: string;
   backfillPartialMenuItem!: Date;
   backfillPartialLocation!: string;
+  logRegionalGuest?: number;
+  backfillDuplicateLoyaltyCredit?: string;
 }
