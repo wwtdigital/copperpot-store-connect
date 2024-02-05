@@ -594,4 +594,34 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'rename partial promo at close',
     quantity: 2,
   },
+  {
+    id: 'docs-8166',
+    store: '115',
+    label: 'dedupe stale topping for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'docs-4884',
+    store: '197',
+    label: 'validate stale kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8288',
+    store: '697',
+    label: 'add partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'docs-1678',
+    store: '435',
+    label: 'retry empty modifier',
+    quantity: 7,
+  },
+  {
+    id: 'docs-5580',
+    store: '538',
+    label: 'expose expired catering tray',
+    quantity: 12,
+  },
 ];

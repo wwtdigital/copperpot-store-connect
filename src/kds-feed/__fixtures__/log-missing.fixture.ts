@@ -1458,4 +1458,10 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'guard expired modifier',
     quantity: 8,
   },
+  {
+    id: 'docs-1037',
+    store: '689',
+    label: 'expose late ticket',
+    quantity: 12,
+  },
 ];
