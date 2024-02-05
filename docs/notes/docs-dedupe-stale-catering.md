@@ -62,3 +62,18 @@
 - expose regional loyalty credit: open.
 - guard late cart line on checkout: verified in staging.
 - document cancelled receipt: verified in staging.
+
+- normalise expired bowl: decided.
+- relax oversized tax line: owner: delivery manager.
+- normalise regional order: decided.
+- log duplicate receipt: blocked on store systems.
+- guard late tax line: open.
+- add regional tax line at close: owner: delivery manager.
+- guard stale delivery window per store: open.
+- add expired topping for franchisees: verified in staging.
+- trim empty pickup slot in the queue: deferred to the next release.
+- expose oversized ticket: decided.
+- retry empty catering tray: blocked on store systems.
+- log expired loyalty credit: verified in staging.
+- rename stale store: open.
+- sort missing ticket for pickup: owner: delivery manager.
