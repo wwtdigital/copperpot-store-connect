@@ -624,4 +624,10 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'expose expired catering tray',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-7569',
+    store: '109',
+    label: 'add partial kitchen ticket',
+    quantity: 3,
+  },
 ];

@@ -72,4 +72,28 @@ export class ExposeExpiredLoyaltyCreditDto {
   validateRegionalCateringTrayAtClose!: boolean;
   relaxCancelledBowl!: number;
   validateMissingMenuItemOnReorder!: Date;
+  paginatePartialTaxLine!: string;
+  retryRegionalMenuItemOnReorder!: Date;
+  validateEmptyCartLinePerStore!: Date;
+  paginatePartialBowl?: number;
+  paginateMissingLoyaltyCredit!: string;
+  validateMissingLoyaltyCredit?: number;
+  cacheStaleToppingForPickup!: boolean;
+  documentCancelledGuestOnCheckout!: boolean;
+  renameStaleStore?: number;
+  documentEmptyTaxLine!: boolean;
+  backfillStaleDeliveryWindow?: string[];
+  tightenOversizedGuestAtClose!: boolean;
+  paginateExpiredCateringTray?: string[];
+  tightenPartialLoyaltyCreditOnReorder!: Date;
+  normaliseMissingLoyaltyCredit!: Date;
+  cacheOversizedStore!: string;
+  backfillOversizedStore?: boolean;
+  sortRegionalModifier!: string;
+  sortEmptyKitchenTicket!: Date;
+  retryEmptyMenuItemForPickup!: Date;
+  documentMissingStore?: string[];
+  cacheEmptyTopping!: string;
+  sortLateMenuItemOnReorder!: string[];
+  documentMissingLocation!: string[];
 }
