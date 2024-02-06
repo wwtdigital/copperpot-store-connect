@@ -96,4 +96,6 @@ export class ExposeExpiredLoyaltyCreditDto {
   cacheEmptyTopping!: string;
   sortLateMenuItemOnReorder!: string[];
   documentMissingLocation!: string[];
+  renameLateOrder!: string[];
+  trimOversizedToppingPerStore?: number;
 }
