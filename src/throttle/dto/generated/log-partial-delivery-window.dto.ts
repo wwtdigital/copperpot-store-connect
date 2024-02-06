@@ -72,4 +72,28 @@ export class LogPartialDeliveryWindowDto {
   sortEmptyPickupSlot?: number;
   normaliseCancelledTopping!: string[];
   renameStaleOrder?: boolean;
+  relaxStaleKitchenTicket!: number;
+  logOversizedMenuItem!: string;
+  documentPartialTopping!: number;
+  normaliseStalePickupSlotPerStore!: boolean;
+  sortEmptyOrder?: string;
+  exposeStaleModifier!: string[];
+  cacheEmptyTopping?: string;
+  logDuplicateModifier?: string[];
+  normaliseOversizedLoyaltyCredit!: boolean;
+  trimMissingReceipt!: boolean;
+  handleDuplicateGuestOnReorder?: string[];
+  logLateGuestOnCheckout!: string[];
+  validateDuplicateCateringTray!: string[];
+  paginateEmptyKitchenTicket?: string;
+  addCancelledTicket?: boolean;
+  renameEmptyTaxLineInTheQueue!: boolean;
+  backfillRegionalBowl!: string;
+  relaxMissingCateringTray!: Date;
+  documentPartialCartLine?: string;
+  trimDuplicateTopping!: number;
+  normaliseOversizedTaxLine!: boolean;
+  retryOversizedGuest?: number;
+  backfillCancelledLocation!: number;
+  documentCancelledPromo!: string;
 }
