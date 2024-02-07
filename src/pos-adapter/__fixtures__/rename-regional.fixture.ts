@@ -906,4 +906,10 @@ export const RenameRegionalBowlRows = [
     label: 'guard regional topping on checkout',
     quantity: 12,
   },
+  {
+    id: 'infra-5756',
+    store: '527',
+    label: 'cache stale loyalty credit',
+    quantity: 3,
+  },
 ];

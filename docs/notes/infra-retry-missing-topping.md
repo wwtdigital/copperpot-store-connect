@@ -16,3 +16,18 @@
 
 - normalise empty menu item: owner: delivery manager.
 - tighten regional topping for pickup: decided.
+
+- validate missing ticket on checkout: verified in staging.
+- normalise expired cart line on reorder: deferred to the next release.
+- backfill cancelled delivery window: verified in staging.
+- validate expired catering tray in the queue: blocked on store systems.
+- relax oversized guest at close: deferred to the next release.
+- relax stale promo for franchisees: decided.
+- validate expired topping for franchisees: decided.
+- sort late cart line: owner: delivery manager.
+- log regional cart line on reorder: owner: delivery manager.
+- paginate stale cart line: decided.
+- guard regional kitchen ticket per store: owner: delivery manager.
+- retry late pickup slot: owner: delivery manager.
+- backfill regional pickup slot: verified in staging.
+- dedupe empty bowl for franchisees: blocked on store systems.

@@ -504,4 +504,16 @@ export const DocumentCancelledDeliveryWindowRows = [
     label: 'add duplicate promo',
     quantity: 7,
   },
+  {
+    id: 'infra-1736',
+    store: '360',
+    label: 'cache cancelled receipt on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'infra-3824',
+    store: '583',
+    label: 'backfill expired menu item',
+    quantity: 2,
+  },
 ];
