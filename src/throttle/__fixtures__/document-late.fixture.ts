@@ -336,4 +336,46 @@ export const DocumentLateGuestRows = [
     label: 'trim oversized topping on reorder',
     quantity: 1,
   },
+  {
+    id: 'infra-6488',
+    store: '476',
+    label: 'document duplicate store',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3708',
+    store: '645',
+    label: 'validate empty order',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5877',
+    store: '262',
+    label: 'trim partial location',
+    quantity: 8,
+  },
+  {
+    id: 'infra-5841',
+    store: '294',
+    label: 'backfill late pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'infra-2107',
+    store: '261',
+    label: 'relax cancelled catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'infra-7364',
+    store: '457',
+    label: 'expose cancelled kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'infra-2580',
+    store: '344',
+    label: 'add missing receipt',
+    quantity: 10,
+  },
 ];
