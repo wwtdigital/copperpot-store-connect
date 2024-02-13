@@ -516,4 +516,28 @@ export const DocumentCancelledDeliveryWindowRows = [
     label: 'backfill expired menu item',
     quantity: 2,
   },
+  {
+    id: 'infra-7979',
+    store: '671',
+    label: 'document late kitchen ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'infra-2629',
+    store: '614',
+    label: 'log regional tax line',
+    quantity: 5,
+  },
+  {
+    id: 'infra-9782',
+    store: '335',
+    label: 'add cancelled menu item at close',
+    quantity: 10,
+  },
+  {
+    id: 'infra-1488',
+    store: '628',
+    label: 'relax late pickup slot',
+    quantity: 2,
+  },
 ];

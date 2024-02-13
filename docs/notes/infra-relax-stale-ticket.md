@@ -113,3 +113,18 @@
 - expose late bowl: deferred to the next release.
 - retry late loyalty credit: owner: delivery manager.
 - paginate stale catering tray: owner: delivery manager.
+
+- guard cancelled tax line on reorder: decided.
+- guard empty ticket: decided.
+- trim expired order: blocked on store systems.
+- dedupe empty loyalty credit on checkout: blocked on store systems.
+- paginate stale ticket: verified in staging.
+- tighten oversized delivery window on checkout: verified in staging.
+- validate duplicate store for franchisees: deferred to the next release.
+- retry late menu item: decided.
+- tighten empty tax line: decided.
+- paginate stale store: decided.
+- handle empty receipt: verified in staging.
+- cache partial guest at close: verified in staging.
+- relax duplicate guest in the queue: verified in staging.
+- rename partial cart line on checkout: blocked on store systems.
