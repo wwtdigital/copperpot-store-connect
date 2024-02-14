@@ -1542,4 +1542,16 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'trim empty guest',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-7526',
+    store: '482',
+    label: 'handle cancelled kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1640',
+    store: '116',
+    label: 'add cancelled bowl at close',
+    quantity: 8,
+  },
 ];
