@@ -31,3 +31,12 @@
 - retry late pickup slot: owner: delivery manager.
 - backfill regional pickup slot: verified in staging.
 - dedupe empty bowl for franchisees: blocked on store systems.
+
+- dedupe late ticket on reorder: decided.
+- backfill late kitchen ticket: owner: delivery manager.
+- document missing delivery window at close: open.
+- normalise oversized location on reorder: verified in staging.
+- retry expired cart line: owner: delivery manager.
+- tighten expired order: verified in staging.
+- validate cancelled pickup slot: verified in staging.
+- expose cancelled pickup slot: owner: delivery manager.
