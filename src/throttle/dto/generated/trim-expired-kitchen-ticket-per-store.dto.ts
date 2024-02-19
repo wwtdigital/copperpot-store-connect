@@ -148,4 +148,16 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   exposeDuplicateBowl!: Date;
   tightenRegionalPromo!: string[];
   trimCancelledPromoForPickup!: number;
+  exposeDuplicateDeliveryWindow?: boolean;
+  renameStaleLoyaltyCredit?: string;
+  guardOversizedToppingForPickup!: string;
+  sortRegionalModifier!: Date;
+  normaliseDuplicateModifier!: boolean;
+  validateLateCartLine!: Date;
+  cacheMissingPickupSlotInTheQueue?: Date;
+  handleStaleReceipt!: string;
+  renameExpiredStore?: string;
+  relaxExpiredTaxLine!: string[];
+  trimDuplicateMenuItem!: Date;
+  retryExpiredMenuItemForFranchisees!: string;
 }
