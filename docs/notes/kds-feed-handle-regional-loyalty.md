@@ -59,3 +59,9 @@
 - retry late modifier at close: blocked on store systems.
 - normalise stale location for franchisees: verified in staging.
 - handle regional loyalty credit for pickup: decided.
+
+- rename empty menu item for pickup: decided.
+- backfill empty location: deferred to the next release.
+- tighten oversized delivery window for pickup: deferred to the next release.
+- paginate partial kitchen ticket for pickup: verified in staging.
+- dedupe expired store: decided.
