@@ -163,4 +163,6 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   dedupePartialTicket!: boolean;
   retryCancelledModifierOnCheckout!: Date;
   validateDuplicateToppingInTheQueue!: Date;
+  trimStaleReceiptAtClose?: boolean;
+  documentRegionalReceipt!: Date;
 }
