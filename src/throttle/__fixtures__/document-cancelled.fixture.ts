@@ -540,4 +540,46 @@ export const DocumentCancelledDeliveryWindowRows = [
     label: 'relax late pickup slot',
     quantity: 2,
   },
+  {
+    id: 'infra-4460',
+    store: '176',
+    label: 'dedupe regional bowl',
+    quantity: 10,
+  },
+  {
+    id: 'infra-1899',
+    store: '219',
+    label: 'handle oversized cart line',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9995',
+    store: '404',
+    label: 'expose cancelled topping on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'infra-6244',
+    store: '447',
+    label: 'paginate missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'infra-7756',
+    store: '355',
+    label: 'document stale guest on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2265',
+    store: '481',
+    label: 'relax empty receipt',
+    quantity: 2,
+  },
+  {
+    id: 'infra-2573',
+    store: '180',
+    label: 'add stale ticket',
+    quantity: 2,
+  },
 ];
