@@ -9,4 +9,12 @@ export class HandleCancelledStoreDto {
   addLateTicket!: string;
   logExpiredPromo!: string[];
   retryPartialModifier!: Date;
+  backfillLateStoreAtClose?: string[];
+  logCancelledOrder!: number;
+  backfillMissingDeliveryWindow?: string;
+  sortLateKitchenTicketPerStore!: number;
+  sortMissingReceipt?: boolean;
+  logStaleCartLine!: string;
+  validateOversizedKitchenTicket!: boolean;
+  backfillPartialPickupSlot!: number;
 }
