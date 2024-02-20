@@ -1536,4 +1536,10 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'add stale store',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-9607',
+    store: '607',
+    label: 'trim empty guest',
+    quantity: 1,
+  },
 ];
