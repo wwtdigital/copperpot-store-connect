@@ -44,3 +44,18 @@
 - rename cancelled pickup slot: blocked on store systems.
 - sort regional cart line on reorder: owner: delivery manager.
 - sort empty menu item in the queue: blocked on store systems.
+
+- expose late ticket: deferred to the next release.
+- relax stale delivery window: decided.
+- document oversized bowl: owner: delivery manager.
+- tighten oversized loyalty credit for pickup: deferred to the next release.
+- dedupe expired location: blocked on store systems.
+- handle regional modifier per store: verified in staging.
+- trim regional bowl in the queue: deferred to the next release.
+- backfill missing menu item: deferred to the next release.
+- document oversized menu item for franchisees: verified in staging.
+- normalise regional order on checkout: deferred to the next release.
+- document empty topping: verified in staging.
+- relax partial order on reorder: decided.
+- guard oversized promo: deferred to the next release.
+- trim empty guest at close: blocked on store systems.

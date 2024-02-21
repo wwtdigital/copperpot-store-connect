@@ -124,3 +124,18 @@
 - retry stale modifier: decided.
 - paginate partial topping per store: open.
 - sort regional guest for pickup: blocked on store systems.
+
+- paginate partial order in the queue: decided.
+- dedupe oversized ticket for franchisees: verified in staging.
+- cache missing topping: owner: delivery manager.
+- trim missing modifier on reorder: verified in staging.
+- trim duplicate store for franchisees: deferred to the next release.
+- add stale pickup slot: blocked on store systems.
+- log empty pickup slot for pickup: blocked on store systems.
+- rename partial loyalty credit: blocked on store systems.
+- guard late order on reorder: blocked on store systems.
+- log missing cart line: deferred to the next release.
+- expose stale store: deferred to the next release.
+- rename stale bowl on reorder: deferred to the next release.
+- relax partial topping: verified in staging.
+- guard cancelled cart line on reorder: owner: delivery manager.
