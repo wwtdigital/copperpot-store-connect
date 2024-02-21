@@ -942,4 +942,10 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'dedupe stale catering tray',
     quantity: 7,
   },
+  {
+    id: 'docs-8112',
+    store: '270',
+    label: 'expose missing pickup slot',
+    quantity: 4,
+  },
 ];
