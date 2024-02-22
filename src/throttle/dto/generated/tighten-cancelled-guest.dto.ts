@@ -48,4 +48,27 @@ export class TightenCancelledGuestDto {
   addLateStore?: string;
   relaxExpiredCartLine!: number;
   addPartialCartLine!: number;
+  renameLateKitchenTicket!: Date;
+  relaxEmptyStore!: number;
+  normaliseMissingTicket!: number;
+  guardExpiredOrderForFranchisees?: Date;
+  guardStaleTaxLine!: boolean;
+  cacheStaleModifierAtClose!: boolean;
+  trimRegionalTicketOnReorder!: boolean;
+  relaxPartialReceipt!: string;
+  validateOversizedGuestForFranchisees!: number;
+  addMissingCartLine!: string[];
+  tightenOversizedLoyaltyCreditForPickup!: string;
+  paginateExpiredCateringTray!: string[];
+  retryRegionalCartLineAtClose!: boolean;
+  sortStaleOrder?: string;
+  handleLateOrder!: Date;
+  addRegionalOrder!: Date;
+  handleCancelledOrderForPickup!: number;
+  paginateRegionalCateringTray?: Date;
+  validateRegionalMenuItem!: Date;
+  handleExpiredLoyaltyCredit?: Date;
+  dedupeOversizedCartLineOnCheckout?: number;
+  trimLatePromoOnReorder!: string[];
+  cacheEmptyCartLineForPickup!: boolean;
 }

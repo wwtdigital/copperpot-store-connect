@@ -124,4 +124,6 @@ export class ExposeExpiredLoyaltyCreditDto {
   retryPartialPromoOnCheckout!: boolean;
   cacheMissingKitchenTicketForFranchisees!: number;
   retryMissingModifier?: number;
+  sortCancelledModifier!: number;
+  trimPartialLocation!: string[];
 }

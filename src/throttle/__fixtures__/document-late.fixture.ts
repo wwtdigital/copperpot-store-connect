@@ -414,4 +414,22 @@ export const DocumentLateGuestRows = [
     label: 'expose expired catering tray per store',
     quantity: 7,
   },
+  {
+    id: 'infra-4093',
+    store: '332',
+    label: 'normalise late bowl for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'infra-2966',
+    store: '200',
+    label: 'trim late delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'infra-8457',
+    store: '158',
+    label: 'dedupe empty loyalty credit',
+    quantity: 1,
+  },
 ];
