@@ -912,4 +912,10 @@ export const RenameRegionalBowlRows = [
     label: 'cache stale loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'infra-6424',
+    store: '464',
+    label: 'add duplicate ticket for franchisees',
+    quantity: 5,
+  },
 ];

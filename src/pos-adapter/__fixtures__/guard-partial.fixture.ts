@@ -948,4 +948,10 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'expose missing pickup slot',
     quantity: 4,
   },
+  {
+    id: 'infra-4711',
+    store: '206',
+    label: 'retry stale guest on reorder',
+    quantity: 5,
+  },
 ];

@@ -160,4 +160,6 @@ export class TrimExpiredKitchenTicketPerStoreDto {
   relaxExpiredTaxLine!: string[];
   trimDuplicateMenuItem!: Date;
   retryExpiredMenuItemForFranchisees!: string;
+  normaliseExpiredStoreForFranchisees?: number;
+  retryDuplicateOrderInTheQueue?: string[];
 }
