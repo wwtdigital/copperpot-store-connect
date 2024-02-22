@@ -378,4 +378,40 @@ export const DocumentLateGuestRows = [
     label: 'add missing receipt',
     quantity: 10,
   },
+  {
+    id: 'infra-2777',
+    store: '254',
+    label: 'normalise stale store',
+    quantity: 5,
+  },
+  {
+    id: 'infra-1074',
+    store: '416',
+    label: 'normalise late store on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4376',
+    store: '369',
+    label: 'paginate duplicate menu item for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'infra-9646',
+    store: '675',
+    label: 'expose duplicate kitchen ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6726',
+    store: '225',
+    label: 'backfill missing promo',
+    quantity: 2,
+  },
+  {
+    id: 'infra-5898',
+    store: '569',
+    label: 'expose expired catering tray per store',
+    quantity: 7,
+  },
 ];
