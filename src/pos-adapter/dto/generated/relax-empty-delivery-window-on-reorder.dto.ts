@@ -379,4 +379,6 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   renameOversizedDeliveryWindow?: Date;
   relaxStaleCateringTray!: string;
   dedupeRegionalKitchenTicketForFranchisees!: string[];
+  documentMissingGuest?: number;
+  trimPartialReceipt!: number;
 }

@@ -1026,4 +1026,40 @@ export const GuardPartialLoyaltyCreditForPickupRows = [
     label: 'sort late catering tray on reorder',
     quantity: 9,
   },
+  {
+    id: 'docs-1897',
+    store: '540',
+    label: 'cache missing ticket',
+    quantity: 12,
+  },
+  {
+    id: 'docs-9524',
+    store: '619',
+    label: 'normalise missing pickup slot for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'docs-8213',
+    store: '574',
+    label: 'expose missing menu item',
+    quantity: 7,
+  },
+  {
+    id: 'docs-8305',
+    store: '396',
+    label: 'cache missing location',
+    quantity: 5,
+  },
+  {
+    id: 'docs-9672',
+    store: '205',
+    label: 'tighten late menu item',
+    quantity: 3,
+  },
+  {
+    id: 'docs-6633',
+    store: '158',
+    label: 'validate regional catering tray in the queue',
+    quantity: 6,
+  },
 ];
