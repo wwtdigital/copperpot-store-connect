@@ -167,4 +167,11 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   documentRegionalReceipt!: Date;
   validateRegionalGuest!: Date;
   validateOversizedModifier!: Date;
+  relaxRegionalCartLine!: string;
+  documentLateLocationPerStore!: string;
+  handleCancelledGuestOnCheckout?: boolean;
+  addCancelledTicketPerStore!: number;
+  tightenPartialStore!: boolean;
+  renameStaleGuest!: string;
+  logOversizedReceiptPerStore!: Date;
 }
