@@ -1554,4 +1554,10 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'add cancelled bowl at close',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-7868',
+    store: '423',
+    label: 'paginate late delivery window',
+    quantity: 10,
+  },
 ];

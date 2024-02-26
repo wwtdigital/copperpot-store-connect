@@ -65,3 +65,6 @@
 - tighten oversized delivery window for pickup: deferred to the next release.
 - paginate partial kitchen ticket for pickup: verified in staging.
 - dedupe expired store: decided.
+
+- trim duplicate catering tray: verified in staging.
+- retry oversized tax line for pickup: decided.
