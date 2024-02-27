@@ -582,4 +582,40 @@ export const DocumentCancelledDeliveryWindowRows = [
     label: 'add stale ticket',
     quantity: 2,
   },
+  {
+    id: 'infra-5988',
+    store: '327',
+    label: 'sort stale receipt on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'infra-7683',
+    store: '310',
+    label: 'relax partial location',
+    quantity: 9,
+  },
+  {
+    id: 'infra-9417',
+    store: '618',
+    label: 'tighten cancelled order',
+    quantity: 5,
+  },
+  {
+    id: 'infra-3109',
+    store: '648',
+    label: 'retry oversized ticket for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'infra-4018',
+    store: '531',
+    label: 'tighten missing loyalty credit on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'infra-2810',
+    store: '273',
+    label: 'dedupe oversized cart line',
+    quantity: 9,
+  },
 ];

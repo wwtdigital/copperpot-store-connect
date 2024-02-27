@@ -40,3 +40,20 @@
 - tighten expired order: verified in staging.
 - validate cancelled pickup slot: verified in staging.
 - expose cancelled pickup slot: owner: delivery manager.
+
+- expose regional delivery window for pickup: owner: delivery manager.
+- backfill late cart line: deferred to the next release.
+- dedupe empty location: decided.
+- cache missing catering tray: blocked on store systems.
+- tighten regional ticket: decided.
+- retry empty menu item: deferred to the next release.
+- dedupe stale order: verified in staging.
+- trim oversized delivery window: deferred to the next release.
+- normalise oversized catering tray: blocked on store systems.
+- normalise cancelled menu item: decided.
+- sort partial store for franchisees: owner: delivery manager.
+- guard expired pickup slot: owner: delivery manager.
+- add late menu item on reorder: verified in staging.
+- log expired kitchen ticket for pickup: open.
+
+- cache expired cart line: owner: delivery manager.

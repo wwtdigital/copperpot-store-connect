@@ -165,4 +165,6 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   validateDuplicateToppingInTheQueue!: Date;
   trimStaleReceiptAtClose?: boolean;
   documentRegionalReceipt!: Date;
+  validateRegionalGuest!: Date;
+  validateOversizedModifier!: Date;
 }

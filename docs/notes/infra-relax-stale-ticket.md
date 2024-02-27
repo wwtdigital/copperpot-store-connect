@@ -128,3 +128,33 @@
 - cache partial guest at close: verified in staging.
 - relax duplicate guest in the queue: verified in staging.
 - rename partial cart line on checkout: blocked on store systems.
+
+- guard late pickup slot: decided.
+- handle partial menu item: deferred to the next release.
+- dedupe expired guest for franchisees: open.
+- log stale bowl per store: verified in staging.
+- validate stale ticket: decided.
+- trim duplicate menu item: decided.
+- paginate expired store per store: owner: delivery manager.
+- backfill stale order: deferred to the next release.
+- guard expired modifier: verified in staging.
+- cache duplicate store: deferred to the next release.
+- guard regional guest: owner: delivery manager.
+- cache duplicate tax line: open.
+- rename missing catering tray: blocked on store systems.
+- log oversized guest: verified in staging.
+
+- normalise oversized modifier on reorder: decided.
+- trim partial order: deferred to the next release.
+- relax missing promo on checkout: open.
+- guard late loyalty credit: open.
+- trim oversized catering tray on checkout: verified in staging.
+- paginate stale topping: decided.
+- trim cancelled pickup slot: decided.
+- trim stale order: verified in staging.
+- sort regional tax line: owner: delivery manager.
+- document expired receipt: owner: delivery manager.
+- normalise stale order: verified in staging.
+- log stale order on reorder: open.
+- trim stale cart line per store: owner: delivery manager.
+- retry late guest: decided.
