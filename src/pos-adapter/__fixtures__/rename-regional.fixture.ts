@@ -918,4 +918,40 @@ export const RenameRegionalBowlRows = [
     label: 'add duplicate ticket for franchisees',
     quantity: 5,
   },
+  {
+    id: 'infra-6149',
+    store: '155',
+    label: 'relax partial cart line per store',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7915',
+    store: '163',
+    label: 'expose stale cart line on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'infra-5133',
+    store: '198',
+    label: 'tighten partial guest',
+    quantity: 9,
+  },
+  {
+    id: 'infra-7574',
+    store: '234',
+    label: 'handle missing receipt',
+    quantity: 9,
+  },
+  {
+    id: 'infra-3320',
+    store: '196',
+    label: 'paginate regional promo on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'infra-6119',
+    store: '630',
+    label: 'rename expired menu item per store',
+    quantity: 10,
+  },
 ];
