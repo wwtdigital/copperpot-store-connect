@@ -46,3 +46,20 @@
 - sort oversized modifier per store: verified in staging.
 - handle late location in the queue: owner: delivery manager.
 - dedupe regional ticket: blocked on store systems.
+
+- retry partial modifier: decided.
+- handle partial bowl: verified in staging.
+- trim duplicate promo at close: verified in staging.
+- rename oversized pickup slot: owner: delivery manager.
+- normalise regional bowl in the queue: deferred to the next release.
+- sort oversized guest: deferred to the next release.
+- tighten cancelled receipt on checkout: owner: delivery manager.
+- dedupe expired receipt: owner: delivery manager.
+- relax stale bowl per store: verified in staging.
+- add duplicate store for pickup: owner: delivery manager.
+- validate empty order per store: blocked on store systems.
+- add missing loyalty credit in the queue: blocked on store systems.
+- relax partial catering tray at close: decided.
+- add partial order: decided.
+
+- backfill stale location: blocked on store systems.
