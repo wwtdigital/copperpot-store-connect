@@ -17,4 +17,6 @@ export class HandleCancelledStoreDto {
   logStaleCartLine!: string;
   validateOversizedKitchenTicket!: boolean;
   backfillPartialPickupSlot!: number;
+  retryCancelledReceiptForFranchisees!: number;
+  retryOversizedPickupSlot!: boolean;
 }

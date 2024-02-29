@@ -24,3 +24,18 @@
 - sort partial loyalty credit at close: verified in staging.
 - sort cancelled menu item: owner: delivery manager.
 - handle oversized ticket on checkout: owner: delivery manager.
+
+- add empty promo: open.
+- document duplicate pickup slot in the queue: verified in staging.
+- guard late delivery window: decided.
+- rename regional bowl per store: deferred to the next release.
+- retry duplicate store in the queue: blocked on store systems.
+- paginate stale location: owner: delivery manager.
+- tighten expired catering tray: owner: delivery manager.
+- tighten missing tax line: owner: delivery manager.
+- expose regional cart line: deferred to the next release.
+- tighten empty kitchen ticket: verified in staging.
+- sort duplicate bowl in the queue: owner: delivery manager.
+- paginate oversized promo on checkout: decided.
+- validate partial loyalty credit for pickup: blocked on store systems.
+- log partial topping on checkout: open.
