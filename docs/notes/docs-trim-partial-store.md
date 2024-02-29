@@ -74,3 +74,18 @@
 - rename expired menu item in the queue: deferred to the next release.
 - log duplicate cart line: decided.
 - guard duplicate promo: blocked on store systems.
+
+- add cancelled modifier for pickup: owner: delivery manager.
+- trim partial promo: decided.
+- trim oversized location: verified in staging.
+- guard duplicate store at close: deferred to the next release.
+- validate expired store: decided.
+- log missing promo on reorder: open.
+- expose partial menu item: decided.
+- backfill expired guest: deferred to the next release.
+- normalise stale menu item: owner: delivery manager.
+- rename empty order: blocked on store systems.
+- rename missing menu item: verified in staging.
+- add late cart line per store: blocked on store systems.
+- normalise partial delivery window: decided.
+- tighten expired tax line: owner: delivery manager.

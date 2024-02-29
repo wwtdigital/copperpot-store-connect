@@ -3,4 +3,11 @@ export class LogMissingTicketDto {
   paginateCancelledLocation!: string[];
   dedupeExpiredTaxLine?: number;
   paginateOversizedDeliveryWindowForPickup!: number;
+  documentRegionalPickupSlotForPickup?: boolean;
+  normaliseLateCateringTrayOnReorder!: Date;
+  tightenCancelledBowlAtClose?: Date;
+  addStalePromoForPickup?: boolean;
+  normaliseOversizedCartLine!: Date;
+  cacheExpiredOrder!: string[];
+  exposePartialLoyaltyCredit!: Date;
 }

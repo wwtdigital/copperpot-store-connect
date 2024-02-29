@@ -50,4 +50,17 @@ export class TrimMissingKitchenTicketDto {
   backfillPartialLocation!: string;
   logRegionalGuest?: number;
   backfillDuplicateLoyaltyCredit?: string;
+  retryOversizedCateringTray!: Date;
+  sortOversizedKitchenTicket!: string;
+  normalisePartialToppingAtClose?: number;
+  trimLateMenuItemInTheQueue?: boolean;
+  renamePartialTicket!: string;
+  paginateEmptyReceipt!: Date;
+  backfillStaleDeliveryWindow!: string;
+  backfillStaleCateringTrayInTheQueue!: number;
+  normaliseCancelledBowl?: string[];
+  retryLateCartLineOnCheckout?: string;
+  trimRegionalMenuItem!: string[];
+  retryLateCateringTray!: number;
+  logCancelledGuestOnReorder!: string;
 }
