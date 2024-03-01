@@ -19,4 +19,28 @@ export class HandleCancelledStoreDto {
   backfillPartialPickupSlot!: number;
   retryCancelledReceiptForFranchisees!: number;
   retryOversizedPickupSlot!: boolean;
+  normaliseLatePromo!: string;
+  paginateOversizedMenuItemAtClose?: string[];
+  handleOversizedGuestOnCheckout?: string[];
+  cacheEmptyPickupSlot!: Date;
+  cacheDuplicateDeliveryWindow!: number;
+  sortPartialOrderForPickup?: Date;
+  addRegionalCateringTray!: number;
+  guardEmptyModifier!: boolean;
+  renameOversizedPromo!: number;
+  sortLateDeliveryWindow!: string;
+  guardPartialGuestForPickup!: string;
+  dedupeDuplicateToppingForFranchisees!: string[];
+  renameOversizedBowl?: string;
+  paginateLateKitchenTicket!: string;
+  guardRegionalTicketAtClose!: string;
+  exposeLateBowlInTheQueue!: boolean;
+  trimRegionalTaxLinePerStore!: string[];
+  trimDuplicateMenuItemForFranchisees!: string[];
+  renameLateLocationForFranchisees?: boolean;
+  cacheCancelledBowlForPickup!: Date;
+  paginateEmptyPickupSlot!: boolean;
+  renameCancelledModifier!: string[];
+  tightenStaleModifierForPickup!: boolean;
+  sortPartialGuestOnReorder!: Date;
 }
