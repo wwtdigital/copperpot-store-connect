@@ -9,3 +9,33 @@
 - normalise cancelled bowl: deferred to the next release.
 - log partial menu item at close: decided.
 - cache missing tax line: open.
+
+- cache expired cart line: open.
+- rename partial promo: owner: delivery manager.
+- document expired topping: deferred to the next release.
+- rename partial catering tray at close: deferred to the next release.
+- normalise duplicate modifier on reorder: owner: delivery manager.
+- tighten regional tax line on reorder: blocked on store systems.
+- handle expired tax line: decided.
+- add oversized order: deferred to the next release.
+- relax expired order per store: owner: delivery manager.
+- rename cancelled guest: blocked on store systems.
+- cache duplicate store for franchisees: owner: delivery manager.
+- sort partial loyalty credit at close: verified in staging.
+- sort cancelled menu item: owner: delivery manager.
+- handle oversized ticket on checkout: owner: delivery manager.
+
+- add empty promo: open.
+- document duplicate pickup slot in the queue: verified in staging.
+- guard late delivery window: decided.
+- rename regional bowl per store: deferred to the next release.
+- retry duplicate store in the queue: blocked on store systems.
+- paginate stale location: owner: delivery manager.
+- tighten expired catering tray: owner: delivery manager.
+- tighten missing tax line: owner: delivery manager.
+- expose regional cart line: deferred to the next release.
+- tighten empty kitchen ticket: verified in staging.
+- sort duplicate bowl in the queue: owner: delivery manager.
+- paginate oversized promo on checkout: decided.
+- validate partial loyalty credit for pickup: blocked on store systems.
+- log partial topping on checkout: open.
