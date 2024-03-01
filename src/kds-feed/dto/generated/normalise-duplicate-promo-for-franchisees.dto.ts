@@ -174,4 +174,17 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   tightenPartialStore!: boolean;
   renameStaleGuest!: string;
   logOversizedReceiptPerStore!: Date;
+  handleCancelledCateringTray?: Date;
+  retryOversizedTaxLine?: number;
+  paginateExpiredDeliveryWindowInTheQueue!: number;
+  handleLateLocation!: string[];
+  guardMissingKitchenTicket?: boolean;
+  addMissingMenuItemPerStore!: string[];
+  retryMissingTopping?: boolean;
+  guardOversizedTopping!: Date;
+  backfillOversizedOrderPerStore!: string[];
+  trimOversizedTicketForFranchisees!: Date;
+  backfillCancelledModifierForFranchisees!: boolean;
+  paginateLateDeliveryWindow?: string;
+  relaxOversizedKitchenTicketInTheQueue!: number;
 }

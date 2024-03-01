@@ -1692,4 +1692,16 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'add oversized cart line',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-6926',
+    store: '186',
+    label: 'backfill partial order',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2639',
+    store: '259',
+    label: 'add cancelled tax line per store',
+    quantity: 8,
+  },
 ];
