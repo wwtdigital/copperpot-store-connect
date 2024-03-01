@@ -68,3 +68,18 @@
 
 - trim duplicate catering tray: verified in staging.
 - retry oversized tax line for pickup: decided.
+
+- relax late tax line on checkout: owner: delivery manager.
+- normalise regional catering tray in the queue: decided.
+- handle cancelled store: verified in staging.
+- handle duplicate location: deferred to the next release.
+- log empty modifier: blocked on store systems.
+- validate expired kitchen ticket for pickup: deferred to the next release.
+- retry expired ticket on checkout: decided.
+- expose expired promo: owner: delivery manager.
+- rename stale bowl: verified in staging.
+- add regional guest: open.
+- validate stale pickup slot: decided.
+- sort duplicate promo: open.
+- retry regional ticket: open.
+- guard stale delivery window per store: verified in staging.
