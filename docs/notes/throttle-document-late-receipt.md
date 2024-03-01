@@ -19,3 +19,18 @@
 - sort late store: blocked on store systems.
 - expose expired location: decided.
 - add oversized menu item per store: blocked on store systems.
+
+- validate expired location: blocked on store systems.
+- rename cancelled bowl: blocked on store systems.
+- log empty pickup slot: deferred to the next release.
+- trim partial location: deferred to the next release.
+- relax oversized bowl: deferred to the next release.
+- tighten expired receipt in the queue: deferred to the next release.
+- add expired delivery window on checkout: decided.
+- dedupe expired topping on reorder: open.
+- retry oversized tax line on checkout: deferred to the next release.
+- validate late delivery window: owner: delivery manager.
+- dedupe stale order at close: open.
+- paginate oversized pickup slot for franchisees: deferred to the next release.
+- sort duplicate cart line: blocked on store systems.
+- normalise cancelled cart line for pickup: decided.
