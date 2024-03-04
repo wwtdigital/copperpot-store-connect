@@ -187,4 +187,22 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   backfillCancelledModifierForFranchisees!: boolean;
   paginateLateDeliveryWindow?: string;
   relaxOversizedKitchenTicketInTheQueue!: number;
+  tightenEmptyGuest?: Date;
+  retryPartialTaxLineForPickup?: boolean;
+  dedupePartialBowl!: Date;
+  dedupeOversizedTaxLineOnReorder!: string[];
+  addCancelledBowl?: number;
+  cacheRegionalReceiptPerStore!: number;
+  cacheStaleDeliveryWindow!: number;
+  validateCancelledKitchenTicketOnCheckout!: number;
+  guardRegionalKitchenTicket!: boolean;
+  validateStaleLocation!: number;
+  relaxCancelledStoreInTheQueue!: string;
+  trimLateDeliveryWindowInTheQueue?: Date;
+  renameEmptyCartLineAtClose?: string;
+  handleMissingReceipt?: Date;
+  backfillLateModifier?: string;
+  relaxStaleBowlForPickup!: string;
+  guardOversizedMenuItem!: string;
+  sortEmptyBowl!: Date;
 }

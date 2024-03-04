@@ -18,4 +18,6 @@ export class LogMissingTicketDto {
   dedupeCancelledCateringTray!: string[];
   retryDuplicateToppingOnReorder!: string[];
   sortMissingBowlForPickup?: Date;
+  backfillLatePromo!: string;
+  normalisePartialReceipt?: number;
 }
