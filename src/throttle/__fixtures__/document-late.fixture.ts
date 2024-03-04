@@ -432,4 +432,10 @@ export const DocumentLateGuestRows = [
     label: 'dedupe empty loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'docs-3575',
+    store: '272',
+    label: 'trim late menu item per store',
+    quantity: 12,
+  },
 ];

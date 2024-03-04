@@ -10,4 +10,12 @@ export class LogMissingTicketDto {
   normaliseOversizedCartLine!: Date;
   cacheExpiredOrder!: string[];
   exposePartialLoyaltyCredit!: Date;
+  paginateCancelledKitchenTicketAtClose!: Date;
+  paginateOversizedCateringTrayInTheQueue!: boolean;
+  backfillDuplicateOrder!: boolean;
+  documentLateKitchenTicket!: string[];
+  tightenDuplicateKitchenTicketAtClose!: string[];
+  dedupeCancelledCateringTray!: string[];
+  retryDuplicateToppingOnReorder!: string[];
+  sortMissingBowlForPickup?: Date;
 }

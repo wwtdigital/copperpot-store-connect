@@ -13,4 +13,3 @@
 - log empty kitchen ticket per store: deferred to the next release.
 - log missing delivery window: blocked on store systems.
 - guard regional receipt: decided.
-- validate expired store: open.
