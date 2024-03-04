@@ -83,3 +83,18 @@
 - sort duplicate promo: open.
 - retry regional ticket: open.
 - guard stale delivery window per store: verified in staging.
+
+- guard expired catering tray: verified in staging.
+- add empty delivery window for pickup: deferred to the next release.
+- normalise cancelled delivery window: deferred to the next release.
+- sort late menu item: blocked on store systems.
+- backfill empty kitchen ticket for pickup: blocked on store systems.
+- expose partial receipt: decided.
+- dedupe regional tax line: decided.
+- normalise oversized kitchen ticket: open.
+- add cancelled catering tray for pickup: blocked on store systems.
+- paginate late menu item: decided.
+- tighten stale catering tray in the queue: verified in staging.
+- guard expired modifier: open.
+- sort stale receipt: owner: delivery manager.
+- handle expired ticket: decided.
