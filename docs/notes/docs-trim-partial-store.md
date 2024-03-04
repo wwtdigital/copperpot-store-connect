@@ -59,3 +59,18 @@
 - relax partial order on reorder: decided.
 - guard oversized promo: deferred to the next release.
 - trim empty guest at close: blocked on store systems.
+
+- dedupe empty topping: verified in staging.
+- document expired catering tray: verified in staging.
+- tighten empty order per store: owner: delivery manager.
+- handle oversized order on reorder: decided.
+- trim cancelled topping: blocked on store systems.
+- expose empty kitchen ticket: deferred to the next release.
+- cache duplicate cart line at close: open.
+- expose cancelled pickup slot for franchisees: verified in staging.
+- rename regional delivery window: blocked on store systems.
+- trim empty ticket for franchisees: open.
+- log oversized promo per store: blocked on store systems.
+- rename expired menu item in the queue: deferred to the next release.
+- log duplicate cart line: decided.
+- guard duplicate promo: blocked on store systems.

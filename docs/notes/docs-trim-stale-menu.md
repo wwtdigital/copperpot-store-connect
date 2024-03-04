@@ -139,3 +139,18 @@
 - rename stale bowl on reorder: deferred to the next release.
 - relax partial topping: verified in staging.
 - guard cancelled cart line on reorder: owner: delivery manager.
+
+- relax late menu item for franchisees: open.
+- trim missing topping in the queue: verified in staging.
+- dedupe cancelled kitchen ticket for pickup: deferred to the next release.
+- relax partial kitchen ticket on checkout: open.
+- relax partial modifier: deferred to the next release.
+- guard expired catering tray at close: deferred to the next release.
+- normalise expired menu item for pickup: decided.
+- add regional modifier for pickup: decided.
+- add oversized ticket: deferred to the next release.
+- retry empty order: owner: delivery manager.
+- cache expired cart line for franchisees: verified in staging.
+- normalise cancelled cart line: blocked on store systems.
+- backfill oversized promo: owner: delivery manager.
+- rename oversized bowl: deferred to the next release.

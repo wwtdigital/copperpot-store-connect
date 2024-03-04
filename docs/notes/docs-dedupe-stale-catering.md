@@ -77,3 +77,14 @@
 - log expired loyalty credit: verified in staging.
 - rename stale store: open.
 - sort missing ticket for pickup: owner: delivery manager.
+
+- normalise stale cart line per store: verified in staging.
+- guard cancelled order for pickup: deferred to the next release.
+- tighten regional pickup slot per store: verified in staging.
+- document cancelled guest: deferred to the next release.
+- retry partial cart line for franchisees: open.
+- trim expired modifier: decided.
+- add expired store on checkout: decided.
+- retry expired kitchen ticket for pickup: owner: delivery manager.
+- sort cancelled pickup slot: decided.
+- validate partial loyalty credit: open.
