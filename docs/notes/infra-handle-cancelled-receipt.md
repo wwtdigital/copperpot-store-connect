@@ -17,3 +17,16 @@
 
 - expose expired location: blocked on store systems.
 - expose late tax line: open.
+
+- retry oversized loyalty credit: verified in staging.
+- sort expired guest: decided.
+- dedupe partial store for franchisees: owner: delivery manager.
+- add empty guest: blocked on store systems.
+- tighten regional kitchen ticket for pickup: decided.
+- retry expired tax line: verified in staging.
+- document missing order per store: deferred to the next release.
+- dedupe stale location at close: deferred to the next release.
+- validate partial location on reorder: blocked on store systems.
+- trim expired loyalty credit: blocked on store systems.
+- handle late pickup slot on reorder: verified in staging.
+- rename partial promo: deferred to the next release.
