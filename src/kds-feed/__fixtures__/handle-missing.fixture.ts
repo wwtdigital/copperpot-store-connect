@@ -54,4 +54,22 @@ export const HandleMissingKitchenTicketRows = [
     label: 'add stale delivery window',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-7614',
+    store: '636',
+    label: 'dedupe duplicate pickup slot per store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6506',
+    store: '272',
+    label: 'sort duplicate ticket on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7453',
+    store: '252',
+    label: 'paginate expired menu item',
+    quantity: 9,
+  },
 ];

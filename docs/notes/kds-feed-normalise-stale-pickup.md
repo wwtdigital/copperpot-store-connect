@@ -4,3 +4,5 @@
 - add duplicate topping: deferred to the next release.
 - guard regional pickup slot: owner: delivery manager.
 - log partial menu item: verified in staging.
+
+- dedupe partial guest at close: decided.

@@ -18,4 +18,25 @@ export class LogMissingTicketDto {
   dedupeCancelledCateringTray!: string[];
   retryDuplicateToppingOnReorder!: string[];
   sortMissingBowlForPickup?: Date;
+  backfillLatePromo!: string;
+  normalisePartialReceipt?: number;
+  exposeExpiredCartLine!: boolean;
+  documentOversizedTopping?: string;
+  logRegionalPickupSlot?: string;
+  paginateExpiredDeliveryWindowOnReorder!: boolean;
+  normaliseStaleToppingAtClose!: string[];
+  renamePartialLoyaltyCredit!: boolean;
+  relaxOversizedMenuItem!: string;
+  backfillStalePickupSlot!: boolean;
+  retryExpiredLocation!: number;
+  trimDuplicateStore!: string[];
+  documentMissingLocation!: string;
+  trimDuplicateTopping!: string;
+  handleDuplicateMenuItem!: string;
+  backfillStaleTicket?: number;
+  handlePartialTicketForFranchisees!: number;
+  renameDuplicateToppingAtClose?: Date;
+  backfillOversizedLoyaltyCredit!: number;
+  renameMissingGuestOnCheckout!: boolean;
+  dedupeCancelledTopping?: string;
 }

@@ -39,3 +39,18 @@
 - paginate oversized promo on checkout: decided.
 - validate partial loyalty credit for pickup: blocked on store systems.
 - log partial topping on checkout: open.
+
+- trim duplicate cart line: blocked on store systems.
+- sort cancelled store: deferred to the next release.
+- dedupe missing guest: deferred to the next release.
+- trim cancelled ticket: deferred to the next release.
+- validate oversized catering tray at close: decided.
+- rename stale kitchen ticket: open.
+- normalise stale pickup slot: blocked on store systems.
+- tighten late guest per store: owner: delivery manager.
+- tighten late location: decided.
+- guard late location: decided.
+- expose expired menu item per store: verified in staging.
+- sort empty topping: decided.
+- trim stale pickup slot per store: decided.
+- backfill empty receipt: open.

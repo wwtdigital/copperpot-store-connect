@@ -1662,4 +1662,46 @@ export const LogMissingPickupSlotForFranchiseesRows = [
     label: 'document oversized modifier',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-8019',
+    store: '355',
+    label: 'validate expired kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-5310',
+    store: '279',
+    label: 'dedupe expired delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7779',
+    store: '190',
+    label: 'relax missing modifier',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-5843',
+    store: '349',
+    label: 'backfill stale modifier',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4907',
+    store: '331',
+    label: 'add oversized cart line',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6926',
+    store: '186',
+    label: 'backfill partial order',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2639',
+    store: '259',
+    label: 'add cancelled tax line per store',
+    quantity: 8,
+  },
 ];
