@@ -431,4 +431,28 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   tightenStaleTicketOnReorder!: number;
   validateExpiredModifierForFranchisees!: string[];
   logStaleTopping!: Date;
+  handleMissingDeliveryWindowForFranchisees!: number;
+  trimEmptyOrderOnReorder!: Date;
+  documentExpiredOrder!: string;
+  dedupeMissingTaxLineAtClose?: string[];
+  paginateExpiredOrder?: string[];
+  tightenEmptyReceiptAtClose!: string;
+  sortPartialLoyaltyCreditForPickup!: string;
+  documentCancelledBowl?: string[];
+  handleExpiredStoreAtClose?: string;
+  relaxLateBowlForPickup!: string;
+  dedupeOversizedOrderOnReorder!: boolean;
+  exposeStaleBowl!: number;
+  renameMissingCateringTrayPerStore!: Date;
+  normaliseLateOrder!: string[];
+  retryStaleReceipt?: boolean;
+  paginateDuplicateTopping?: number;
+  normaliseExpiredToppingOnCheckout!: number;
+  tightenOversizedDeliveryWindowInTheQueue?: number;
+  validateLateCateringTrayOnCheckout?: string;
+  retryPartialStorePerStore!: Date;
+  normaliseMissingGuestForPickup?: number;
+  trimEmptyTaxLineForPickup?: string;
+  relaxOversizedTicketOnReorder?: number;
+  documentMissingMenuItem?: number;
 }
