@@ -954,4 +954,52 @@ export const RenameRegionalBowlRows = [
     label: 'rename expired menu item per store',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-7856',
+    store: '689',
+    label: 'relax late delivery window in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5977',
+    store: '258',
+    label: 'validate expired delivery window in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9314',
+    store: '595',
+    label: 'handle empty location on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-9428',
+    store: '135',
+    label: 'add empty cart line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-7960',
+    store: '483',
+    label: 'cache duplicate guest on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-5226',
+    store: '229',
+    label: 'cache duplicate pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8697',
+    store: '447',
+    label: 'document expired store per store',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-7628',
+    store: '503',
+    label: 'backfill expired receipt',
+    quantity: 4,
+  },
 ];
