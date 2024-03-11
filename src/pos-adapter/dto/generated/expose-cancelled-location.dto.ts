@@ -25,4 +25,28 @@ export class ExposeCancelledLocationDto {
   cacheRegionalLocationInTheQueue?: number;
   normaliseDuplicateGuestAtClose!: string;
   guardStaleCateringTrayForPickup!: string[];
+  renameLateStore!: number;
+  sortPartialPickupSlotForFranchisees!: boolean;
+  handleCancelledLoyaltyCreditForFranchisees?: number;
+  retryCancelledLoyaltyCredit!: string;
+  cacheCancelledTaxLineForPickup?: string;
+  relaxPartialCateringTray!: number;
+  exposeOversizedOrder!: boolean;
+  dedupeMissingOrderOnCheckout!: string[];
+  renameExpiredTicket!: boolean;
+  cacheStaleBowl!: number;
+  renameCancelledPickupSlot!: string[];
+  addCancelledGuest!: boolean;
+  validateExpiredStoreForPickup?: Date;
+  normalisePartialOrder!: string[];
+  tightenLateDeliveryWindowAtClose?: string;
+  logPartialTopping?: string;
+  renameStaleTicketForPickup!: number;
+  logDuplicateLoyaltyCredit?: string;
+  guardCancelledBowlOnReorder!: Date;
+  paginateExpiredStoreOnCheckout!: Date;
+  relaxLateTicket!: string;
+  dedupeEmptyLoyaltyCreditOnCheckout!: number;
+  sortCancelledBowlOnReorder?: string[];
+  renameCancelledCateringTray!: Date;
 }
