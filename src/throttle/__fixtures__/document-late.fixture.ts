@@ -570,4 +570,22 @@ export const DocumentLateGuestRows = [
     label: 'guard cancelled location',
     quantity: 12,
   },
+  {
+    id: 'throttle-8810',
+    store: '152',
+    label: 'guard oversized location at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6329',
+    store: '483',
+    label: 'validate expired catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-8130',
+    store: '272',
+    label: 'document partial receipt',
+    quantity: 7,
+  },
 ];
