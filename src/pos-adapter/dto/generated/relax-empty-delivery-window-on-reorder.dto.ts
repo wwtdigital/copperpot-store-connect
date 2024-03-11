@@ -421,4 +421,6 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   normaliseDuplicateMenuItem!: boolean;
   addCancelledPromo?: string[];
   addCancelledToppingOnCheckout!: boolean;
+  dedupeLateMenuItem!: number;
+  handlePartialTicketForPickup!: string[];
 }
