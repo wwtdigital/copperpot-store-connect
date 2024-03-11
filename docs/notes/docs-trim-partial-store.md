@@ -89,3 +89,18 @@
 - add late cart line per store: blocked on store systems.
 - normalise partial delivery window: decided.
 - tighten expired tax line: owner: delivery manager.
+
+- sort late bowl at close: decided.
+- retry regional order: verified in staging.
+- tighten late tax line in the queue: open.
+- document stale receipt at close: blocked on store systems.
+- rename late cart line: blocked on store systems.
+- retry stale receipt: verified in staging.
+- add empty loyalty credit: decided.
+- trim duplicate modifier: owner: delivery manager.
+- backfill stale location: decided.
+- validate late order: deferred to the next release.
+- trim late bowl: deferred to the next release.
+- cache late delivery window: blocked on store systems.
+- relax empty order: decided.
+- trim cancelled bowl on checkout: verified in staging.
