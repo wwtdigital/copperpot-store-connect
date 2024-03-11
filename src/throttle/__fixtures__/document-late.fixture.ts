@@ -558,4 +558,16 @@ export const DocumentLateGuestRows = [
     label: 'rename duplicate cart line',
     quantity: 8,
   },
+  {
+    id: 'throttle-9429',
+    store: '668',
+    label: 'cache stale tax line at close',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-3195',
+    store: '406',
+    label: 'guard cancelled location',
+    quantity: 12,
+  },
 ];
