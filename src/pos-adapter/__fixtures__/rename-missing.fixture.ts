@@ -54,4 +54,34 @@ export const RenameMissingCateringTrayRows = [
     label: 'validate regional cart line for franchisees',
     quantity: 6,
   },
+  {
+    id: 'docs-8113',
+    store: '597',
+    label: 'relax expired menu item',
+    quantity: 6,
+  },
+  {
+    id: 'docs-5882',
+    store: '188',
+    label: 'relax regional order',
+    quantity: 4,
+  },
+  {
+    id: 'docs-3487',
+    store: '625',
+    label: 'dedupe missing receipt on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'docs-3579',
+    store: '575',
+    label: 'sort empty promo',
+    quantity: 1,
+  },
+  {
+    id: 'docs-4729',
+    store: '472',
+    label: 'backfill partial tax line',
+    quantity: 10,
+  },
 ];

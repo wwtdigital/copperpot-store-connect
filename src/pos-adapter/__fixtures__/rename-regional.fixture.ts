@@ -1002,4 +1002,22 @@ export const RenameRegionalBowlRows = [
     label: 'backfill expired receipt',
     quantity: 4,
   },
+  {
+    id: 'docs-2303',
+    store: '510',
+    label: 'handle missing tax line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-4661',
+    store: '206',
+    label: 'paginate missing menu item',
+    quantity: 1,
+  },
+  {
+    id: 'docs-5247',
+    store: '682',
+    label: 'paginate duplicate delivery window',
+    quantity: 6,
+  },
 ];

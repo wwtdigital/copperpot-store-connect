@@ -88,3 +88,20 @@
 - retry expired kitchen ticket for pickup: owner: delivery manager.
 - sort cancelled pickup slot: decided.
 - validate partial loyalty credit: open.
+
+- cache partial guest: blocked on store systems.
+- guard empty catering tray: owner: delivery manager.
+- normalise late loyalty credit: deferred to the next release.
+- dedupe expired topping per store: verified in staging.
+- document late delivery window: deferred to the next release.
+- tighten oversized promo: owner: delivery manager.
+- relax partial modifier: owner: delivery manager.
+- cache regional delivery window: owner: delivery manager.
+- backfill partial bowl per store: owner: delivery manager.
+- guard late cart line on checkout: open.
+- cache missing loyalty credit: owner: delivery manager.
+- backfill regional cart line: blocked on store systems.
+- cache partial modifier: decided.
+- sort duplicate order on checkout: verified in staging.
+
+- expose missing menu item: blocked on store systems.
