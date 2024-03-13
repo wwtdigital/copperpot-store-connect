@@ -421,4 +421,14 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   normaliseDuplicateMenuItem!: boolean;
   addCancelledPromo?: string[];
   addCancelledToppingOnCheckout!: boolean;
+  dedupeLateMenuItem!: number;
+  handlePartialTicketForPickup!: string[];
+  sortCancelledCartLine!: string;
+  paginateEmptyModifier?: string;
+  exposeMissingTaxLine!: boolean;
+  logPartialBowlForPickup!: Date;
+  normaliseStaleCateringTrayForFranchisees!: number;
+  tightenStaleTicketOnReorder!: number;
+  validateExpiredModifierForFranchisees!: string[];
+  logStaleTopping!: Date;
 }

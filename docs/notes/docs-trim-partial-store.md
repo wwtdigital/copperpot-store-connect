@@ -104,3 +104,18 @@
 - cache late delivery window: blocked on store systems.
 - relax empty order: decided.
 - trim cancelled bowl on checkout: verified in staging.
+
+- document oversized order for pickup: deferred to the next release.
+- dedupe expired catering tray: open.
+- rename duplicate catering tray in the queue: decided.
+- paginate empty ticket: owner: delivery manager.
+- retry expired guest for franchisees: verified in staging.
+- document missing loyalty credit: verified in staging.
+- trim regional catering tray per store: blocked on store systems.
+- backfill missing menu item: deferred to the next release.
+- rename empty catering tray in the queue: decided.
+- normalise duplicate catering tray on checkout: decided.
+- log missing loyalty credit per store: owner: delivery manager.
+- relax late ticket: open.
+- dedupe late modifier per store: blocked on store systems.
+- rename duplicate order on checkout: deferred to the next release.
