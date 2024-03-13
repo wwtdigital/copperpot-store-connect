@@ -205,4 +205,19 @@ export class NormaliseDuplicatePromoForFranchiseesDto {
   relaxStaleBowlForPickup!: string;
   guardOversizedMenuItem!: string;
   sortEmptyBowl!: Date;
+  handleExpiredCateringTray!: string;
+  validateMissingPromo!: string;
+  trimExpiredGuest?: boolean;
+  relaxExpiredGuest!: string[];
+  renameDuplicateTicket!: string;
+  tightenEmptyTaxLine!: string[];
+  exposeLateCartLineOnReorder!: string[];
+  relaxExpiredMenuItem!: string;
+  validateOversizedStoreInTheQueue?: string[];
+  documentPartialPromo!: number;
+  addMissingTaxLine!: number;
+  validateRegionalKitchenTicket?: boolean;
+  addOversizedModifierForFranchisees!: boolean;
+  dedupeCancelledLocation!: string[];
+  paginateMissingDeliveryWindowForFranchisees!: number;
 }
