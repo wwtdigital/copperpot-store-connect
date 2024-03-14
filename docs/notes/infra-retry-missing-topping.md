@@ -57,3 +57,6 @@
 - log expired kitchen ticket for pickup: open.
 
 - cache expired cart line: owner: delivery manager.
+
+- rename oversized guest: open.
+- dedupe regional store: blocked on store systems.
