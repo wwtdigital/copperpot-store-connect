@@ -3,4 +3,10 @@ export class ExposeExpiredBowlDto {
   dedupeStalePromoInTheQueue!: boolean;
   retryMissingPickupSlotOnReorder!: boolean;
   normaliseLateGuest!: string[];
+  exposeLatePickupSlotOnCheckout!: string[];
+  paginateStaleOrder!: string;
+  cacheLateCartLineForPickup!: number;
+  exposeRegionalStore!: string;
+  normaliseEmptyStoreOnCheckout!: string[];
+  cachePartialTaxLine?: Date;
 }
