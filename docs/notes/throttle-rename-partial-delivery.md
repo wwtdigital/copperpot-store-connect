@@ -63,3 +63,18 @@
 - trim empty cart line for franchisees: blocked on store systems.
 - rename partial location: blocked on store systems.
 - document regional cart line: owner: delivery manager.
+
+- paginate regional topping on checkout: open.
+- add missing cart line on reorder: decided.
+- trim missing store: decided.
+- retry duplicate pickup slot: blocked on store systems.
+- trim expired tax line: blocked on store systems.
+- normalise late modifier: decided.
+- validate expired receipt: open.
+- sort stale delivery window: decided.
+- sort cancelled tax line: owner: delivery manager.
+- guard oversized modifier for pickup: decided.
+- relax oversized store at close: verified in staging.
+- expose late ticket: owner: delivery manager.
+- backfill late catering tray per store: owner: delivery manager.
+- relax oversized kitchen ticket: blocked on store systems.
