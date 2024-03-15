@@ -14,3 +14,18 @@
 - add duplicate ticket: verified in staging.
 - document regional location per store: deferred to the next release.
 - normalise missing cart line in the queue: owner: delivery manager.
+
+- relax partial topping for pickup: open.
+- validate empty topping: decided.
+- dedupe empty order for franchisees: owner: delivery manager.
+- backfill duplicate delivery window: verified in staging.
+- dedupe regional receipt: deferred to the next release.
+- expose partial order on checkout: verified in staging.
+- log expired order: open.
+- add missing bowl for pickup: blocked on store systems.
+- dedupe missing cart line for pickup: blocked on store systems.
+- trim regional topping: verified in staging.
+- validate late promo: owner: delivery manager.
+- cache cancelled order on reorder: verified in staging.
+- cache partial promo for pickup: blocked on store systems.
+- backfill missing modifier per store: decided.

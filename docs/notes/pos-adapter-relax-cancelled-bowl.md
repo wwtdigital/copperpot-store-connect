@@ -19,3 +19,18 @@
 - add empty receipt: verified in staging.
 - cache late kitchen ticket: owner: delivery manager.
 - retry empty pickup slot: open.
+
+- cache empty modifier: open.
+- guard partial delivery window in the queue: blocked on store systems.
+- backfill expired delivery window: decided.
+- expose cancelled guest at close: blocked on store systems.
+- expose cancelled promo: verified in staging.
+- normalise cancelled modifier per store: owner: delivery manager.
+- guard duplicate store on reorder: owner: delivery manager.
+- paginate empty loyalty credit on checkout: decided.
+- log duplicate receipt: deferred to the next release.
+- rename stale kitchen ticket: blocked on store systems.
+- add oversized store: deferred to the next release.
+- validate missing ticket: blocked on store systems.
+- document oversized delivery window: decided.
+- normalise oversized modifier: open.
