@@ -48,3 +48,18 @@
 - tighten stale delivery window for pickup: verified in staging.
 - expose stale menu item: deferred to the next release.
 - paginate oversized store in the queue: decided.
+
+- relax duplicate receipt: verified in staging.
+- sort stale loyalty credit: owner: delivery manager.
+- relax missing pickup slot: verified in staging.
+- tighten empty topping for pickup: owner: delivery manager.
+- trim oversized guest for pickup: owner: delivery manager.
+- handle empty order for franchisees: owner: delivery manager.
+- guard empty promo: open.
+- validate duplicate order: decided.
+- guard missing promo: verified in staging.
+- document partial promo: deferred to the next release.
+- cache empty store per store: decided.
+- normalise missing topping: verified in staging.
+- sort late order for franchisees: deferred to the next release.
+- expose partial ticket: deferred to the next release.
