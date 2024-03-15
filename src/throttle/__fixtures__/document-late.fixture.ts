@@ -588,4 +588,28 @@ export const DocumentLateGuestRows = [
     label: 'document partial receipt',
     quantity: 7,
   },
+  {
+    id: 'throttle-6956',
+    store: '590',
+    label: 'paginate expired pickup slot on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-2445',
+    store: '558',
+    label: 'dedupe partial bowl at close',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-3966',
+    store: '512',
+    label: 'backfill expired cart line',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-9964',
+    store: '656',
+    label: 'normalise partial promo',
+    quantity: 12,
+  },
 ];
