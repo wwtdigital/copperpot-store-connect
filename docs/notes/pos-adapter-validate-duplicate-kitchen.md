@@ -33,3 +33,18 @@
 - document expired loyalty credit on reorder: decided.
 - log partial order on reorder: deferred to the next release.
 - rename oversized kitchen ticket: open.
+
+- normalise empty receipt for franchisees: deferred to the next release.
+- log partial delivery window per store: blocked on store systems.
+- add partial promo on checkout: owner: delivery manager.
+- expose missing ticket: blocked on store systems.
+- normalise empty loyalty credit: blocked on store systems.
+- handle missing tax line per store: decided.
+- trim duplicate cart line: verified in staging.
+- handle duplicate loyalty credit per store: deferred to the next release.
+- cache oversized catering tray: deferred to the next release.
+- handle duplicate catering tray at close: open.
+- validate missing order for franchisees: open.
+- tighten stale delivery window for pickup: verified in staging.
+- expose stale menu item: deferred to the next release.
+- paginate oversized store in the queue: decided.
