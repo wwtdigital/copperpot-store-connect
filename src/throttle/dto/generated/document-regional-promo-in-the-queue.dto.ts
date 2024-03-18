@@ -24,4 +24,28 @@ export class DocumentRegionalPromoInTheQueueDto {
   retryStaleModifierInTheQueue?: string;
   trimPartialLoyaltyCredit?: string;
   normaliseMissingPromo?: number;
+  handleEmptyDeliveryWindow!: boolean;
+  renameCancelledLocationPerStore!: number;
+  renameRegionalCateringTray!: Date;
+  retryExpiredModifierPerStore!: Date;
+  documentOversizedBowlOnCheckout!: number;
+  addCancelledPromo?: Date;
+  retryExpiredModifier?: boolean;
+  renamePartialLocationAtClose!: boolean;
+  exposeStaleStore!: string;
+  validateOversizedOrder?: string[];
+  exposeRegionalOrder?: number;
+  paginateMissingTicket!: string[];
+  exposeMissingTaxLine!: boolean;
+  retryCancelledOrderForFranchisees?: string[];
+  addExpiredModifier!: string[];
+  trimLateCartLineOnReorder?: string[];
+  backfillPartialPickupSlotAtClose!: string[];
+  logExpiredModifier!: boolean;
+  documentLateTicket?: string;
+  paginateCancelledLoyaltyCreditInTheQueue?: string;
+  backfillEmptyModifier?: Date;
+  cacheLateCartLineForFranchisees!: string;
+  logCancelledKitchenTicket?: number;
+  renameLateBowl!: number;
 }
