@@ -49,4 +49,28 @@ export class ExposeCancelledLocationDto {
   dedupeEmptyLoyaltyCreditOnCheckout!: number;
   sortCancelledBowlOnReorder?: string[];
   renameCancelledCateringTray!: Date;
+  relaxEmptyCateringTray!: boolean;
+  backfillRegionalTaxLine!: boolean;
+  backfillEmptyGuestForPickup!: string;
+  retryMissingKitchenTicketForPickup!: string;
+  addStaleReceipt!: string;
+  handleLateReceipt?: number;
+  validateExpiredPickupSlotForFranchisees!: string;
+  renameOversizedMenuItemPerStore!: string[];
+  normaliseOversizedOrder!: string[];
+  logDuplicateOrderForPickup?: Date;
+  normalisePartialModifier?: string;
+  validateDuplicateModifierForPickup!: Date;
+  exposePartialOrder!: string;
+  relaxStaleGuestPerStore!: string[];
+  dedupeExpiredOrderInTheQueue?: Date;
+  renameEmptyCateringTray?: string[];
+  paginateCancelledTicketOnReorder?: number;
+  relaxMissingCateringTray?: string[];
+  exposeOversizedTaxLine!: Date;
+  validateDuplicateBowl!: string[];
+  exposeDuplicateBowlOnCheckout?: boolean;
+  renameMissingToppingAtClose?: string[];
+  paginateRegionalPromoOnReorder!: boolean;
+  renameLateTicket!: boolean;
 }

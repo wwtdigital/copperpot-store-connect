@@ -1470,4 +1470,46 @@ export const RenameRegionalBowlRows = [
     label: 'backfill missing menu item',
     quantity: 2,
   },
+  {
+    id: 'infra-4043',
+    store: '156',
+    label: 'rename duplicate location for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'infra-4575',
+    store: '341',
+    label: 'trim expired tax line',
+    quantity: 1,
+  },
+  {
+    id: 'infra-2398',
+    store: '255',
+    label: 'handle missing ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'infra-1720',
+    store: '299',
+    label: 'paginate duplicate delivery window for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'infra-9598',
+    store: '451',
+    label: 'document stale catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5532',
+    store: '355',
+    label: 'expose regional ticket',
+    quantity: 4,
+  },
+  {
+    id: 'infra-6260',
+    store: '130',
+    label: 'document stale modifier on checkout',
+    quantity: 10,
+  },
 ];
