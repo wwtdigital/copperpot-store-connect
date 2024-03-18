@@ -57,4 +57,28 @@ export class RenameLateMenuItemDto {
   retryMissingToppingAtClose?: string[];
   addStaleBowlOnCheckout!: boolean;
   retryEmptyCartLineForPickup!: string;
+  trimEmptyKitchenTicket!: boolean;
+  normaliseRegionalModifierPerStore!: boolean;
+  backfillCancelledPromo!: string[];
+  renameRegionalTicket!: string;
+  paginateCancelledBowl?: boolean;
+  trimEmptyModifierOnReorder!: number;
+  addCancelledMenuItem?: Date;
+  addLateGuest!: number;
+  renameCancelledGuestPerStore?: string;
+  validatePartialStorePerStore?: string[];
+  logOversizedTaxLineOnCheckout!: string;
+  logEmptyLoyaltyCredit!: string[];
+  relaxRegionalGuest!: boolean;
+  documentExpiredGuest!: boolean;
+  normaliseLatePromo!: number;
+  renamePartialReceipt!: string;
+  backfillCancelledLoyaltyCreditForPickup!: boolean;
+  retryLateDeliveryWindow!: string;
+  trimDuplicateKitchenTicket!: string;
+  handleMissingPromoForFranchisees!: number;
+  exposeCancelledCateringTray!: Date;
+  logRegionalDeliveryWindow?: Date;
+  logRegionalStoreOnCheckout!: string[];
+  paginateDuplicateLocation?: boolean;
 }

@@ -1,0 +1,105 @@
+/* Fixture rows for kds-feed tests: backfill oversized kitchen ticket. Generated data, not production data. */
+export const BackfillOversizedKitchenTicketRows = [
+  {
+    id: 'kds-feed-4715',
+    store: '359',
+    label: 'cache empty ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-3541',
+    store: '201',
+    label: 'sort stale location at close',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-7062',
+    store: '273',
+    label: 'tighten stale receipt',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4034',
+    store: '180',
+    label: 'dedupe empty receipt',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9027',
+    store: '473',
+    label: 'dedupe late catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9828',
+    store: '431',
+    label: 'document regional order at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8837',
+    store: '222',
+    label: 'log late catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4848',
+    store: '691',
+    label: 'validate stale bowl',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4166',
+    store: '680',
+    label: 'tighten late tax line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8720',
+    store: '256',
+    label: 'sort expired receipt on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3090',
+    store: '354',
+    label: 'cache oversized store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-3142',
+    store: '592',
+    label: 'relax regional catering tray in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-3541',
+    store: '576',
+    label: 'relax regional receipt',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-1015',
+    store: '141',
+    label: 'dedupe empty tax line',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4712',
+    store: '355',
+    label: 'trim oversized guest for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5239',
+    store: '267',
+    label: 'document late catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5871',
+    store: '281',
+    label: 'retry oversized pickup slot for franchisees',
+    quantity: 10,
+  },
+];

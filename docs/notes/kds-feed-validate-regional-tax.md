@@ -62,3 +62,18 @@
 - handle stale bowl: verified in staging.
 - backfill partial ticket: verified in staging.
 - trim duplicate bowl: deferred to the next release.
+
+- cache oversized tax line: decided.
+- guard duplicate tax line on checkout: verified in staging.
+- dedupe empty kitchen ticket: open.
+- dedupe stale cart line for pickup: verified in staging.
+- normalise oversized location: blocked on store systems.
+- normalise expired store: owner: delivery manager.
+- guard expired kitchen ticket for franchisees: owner: delivery manager.
+- tighten expired guest: deferred to the next release.
+- normalise missing ticket: deferred to the next release.
+- paginate regional catering tray for pickup: open.
+- relax empty modifier on checkout: decided.
+- log regional guest: deferred to the next release.
+- expose oversized topping for franchisees: verified in staging.
+- document regional catering tray: owner: delivery manager.

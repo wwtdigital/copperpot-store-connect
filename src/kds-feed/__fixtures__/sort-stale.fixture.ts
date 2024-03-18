@@ -1,0 +1,123 @@
+/* Fixture rows for kds-feed tests: sort stale menu item at close. Generated data, not production data. */
+export const SortStaleMenuItemAtCloseRows = [
+  {
+    id: 'kds-feed-2676',
+    store: '573',
+    label: 'sort duplicate topping on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8119',
+    store: '641',
+    label: 'tighten expired topping',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1229',
+    store: '644',
+    label: 'relax missing cart line',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-1085',
+    store: '462',
+    label: 'expose regional guest per store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5381',
+    store: '512',
+    label: 'cache missing location',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-7918',
+    store: '215',
+    label: 'rename regional delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4609',
+    store: '567',
+    label: 'tighten late loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-6657',
+    store: '493',
+    label: 'add late loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-7189',
+    store: '472',
+    label: 'validate empty pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-6968',
+    store: '599',
+    label: 'add regional bowl',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3464',
+    store: '615',
+    label: 'paginate empty promo for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-5137',
+    store: '460',
+    label: 'expose duplicate bowl',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9820',
+    store: '271',
+    label: 'sort duplicate cart line',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-9910',
+    store: '407',
+    label: 'retry partial bowl',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-9888',
+    store: '309',
+    label: 'tighten stale ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-4373',
+    store: '578',
+    label: 'sort duplicate catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5862',
+    store: '428',
+    label: 'validate cancelled receipt on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-6014',
+    store: '551',
+    label: 'add expired promo',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-3298',
+    store: '660',
+    label: 'retry missing modifier',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6044',
+    store: '185',
+    label: 'normalise regional catering tray',
+    quantity: 8,
+  },
+];
