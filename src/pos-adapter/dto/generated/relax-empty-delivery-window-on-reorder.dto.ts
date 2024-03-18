@@ -547,4 +547,6 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   guardCancelledReceipt!: Date;
   backfillOversizedLoyaltyCreditForFranchisees!: string;
   trimPartialOrderForPickup?: boolean;
+  paginateOversizedReceiptPerStore?: boolean;
+  validateEmptyTaxLine!: boolean;
 }
