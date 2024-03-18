@@ -73,4 +73,28 @@ export class ExposeCancelledLocationDto {
   renameMissingToppingAtClose?: string[];
   paginateRegionalPromoOnReorder!: boolean;
   renameLateTicket!: boolean;
+  renameRegionalPickupSlotForPickup!: boolean;
+  dedupePartialPromo!: string;
+  paginateRegionalCartLine!: Date;
+  cacheStaleMenuItem!: boolean;
+  documentStaleCateringTrayOnCheckout!: boolean;
+  guardDuplicateLocationOnCheckout!: Date;
+  logStalePromoAtClose!: Date;
+  renameExpiredModifier?: Date;
+  paginateLatePromo!: Date;
+  exposeExpiredLocation!: Date;
+  exposeStalePickupSlot?: number;
+  handleStaleCartLine!: number;
+  addPartialLocation!: number;
+  retryCancelledStore?: number;
+  renameExpiredPickupSlot?: string[];
+  handlePartialPickupSlotAtClose?: string;
+  backfillPartialToppingOnReorder!: Date;
+  dedupeEmptyGuest!: string[];
+  retryPartialToppingOnCheckout!: boolean;
+  logCancelledCartLine!: string[];
+  paginateOversizedCateringTray!: number;
+  tightenOversizedGuestInTheQueue?: Date;
+  documentMissingOrderOnReorder?: boolean;
+  normaliseCancelledTopping?: string[];
 }

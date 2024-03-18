@@ -60,3 +60,18 @@
 
 - rename oversized guest: open.
 - dedupe regional store: blocked on store systems.
+
+- normalise partial guest: decided.
+- normalise late bowl: blocked on store systems.
+- handle cancelled topping: verified in staging.
+- rename stale loyalty credit on checkout: verified in staging.
+- handle empty location per store: open.
+- trim expired location: blocked on store systems.
+- retry duplicate delivery window on checkout: open.
+- rename duplicate store for pickup: open.
+- relax late guest on checkout: verified in staging.
+- retry oversized pickup slot: blocked on store systems.
+- retry missing order: open.
+- handle expired modifier: open.
+- expose expired pickup slot: open.
+- expose partial guest at close: blocked on store systems.

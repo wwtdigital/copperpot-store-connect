@@ -90,4 +90,22 @@ export const ValidatePartialModifierRows = [
     label: 'trim cancelled cart line',
     quantity: 9,
   },
+  {
+    id: 'infra-5216',
+    store: '339',
+    label: 'log cancelled kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'infra-3690',
+    store: '681',
+    label: 'log late location per store',
+    quantity: 9,
+  },
+  {
+    id: 'infra-8544',
+    store: '579',
+    label: 'add missing topping',
+    quantity: 11,
+  },
 ];
