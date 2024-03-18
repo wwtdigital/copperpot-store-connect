@@ -551,4 +551,6 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   validateEmptyTaxLine!: boolean;
   tightenLateReceipt!: Date;
   sortOversizedDeliveryWindowForPickup!: boolean;
+  normaliseMissingBowl!: boolean;
+  validateStaleCateringTrayForPickup!: string;
 }

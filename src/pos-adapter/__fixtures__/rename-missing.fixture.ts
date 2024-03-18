@@ -390,4 +390,58 @@ export const RenameMissingCateringTrayRows = [
     label: 'document regional promo',
     quantity: 3,
   },
+  {
+    id: 'infra-7617',
+    store: '556',
+    label: 'dedupe empty guest',
+    quantity: 6,
+  },
+  {
+    id: 'infra-5084',
+    store: '259',
+    label: 'paginate oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'infra-8101',
+    store: '454',
+    label: 'backfill missing guest',
+    quantity: 9,
+  },
+  {
+    id: 'infra-7612',
+    store: '217',
+    label: 'paginate missing guest',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5765',
+    store: '577',
+    label: 'handle empty bowl at close',
+    quantity: 6,
+  },
+  {
+    id: 'infra-9058',
+    store: '569',
+    label: 'validate expired guest',
+    quantity: 1,
+  },
+  {
+    id: 'infra-1040',
+    store: '227',
+    label: 'cache oversized order',
+    quantity: 1,
+  },
+  {
+    id: 'infra-2028',
+    store: '629',
+    label: 'guard oversized order in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'infra-5688',
+    store: '193',
+    label: 'tighten regional ticket on checkout',
+    quantity: 7,
+  },
 ];
