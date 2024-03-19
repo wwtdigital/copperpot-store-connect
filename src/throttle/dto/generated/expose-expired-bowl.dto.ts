@@ -9,4 +9,28 @@ export class ExposeExpiredBowlDto {
   exposeRegionalStore!: string;
   normaliseEmptyStoreOnCheckout!: string[];
   cachePartialTaxLine?: Date;
+  logDuplicateDeliveryWindow?: string;
+  relaxStaleKitchenTicketInTheQueue?: boolean;
+  retryLateOrderForPickup!: string[];
+  retryExpiredCateringTrayForFranchisees!: Date;
+  exposeDuplicateModifierForPickup!: boolean;
+  guardMissingLocation!: string;
+  documentEmptyOrderForPickup?: string;
+  documentExpiredMenuItem?: Date;
+  handleOversizedPromoOnReorder!: Date;
+  logMissingPromo!: boolean;
+  addDuplicatePickupSlotAtClose?: number;
+  logDuplicateDeliveryWindowAtClose!: boolean;
+  backfillExpiredLocation!: string;
+  backfillRegionalPickupSlot!: boolean;
+  tightenCancelledCateringTray?: boolean;
+  paginatePartialDeliveryWindow!: boolean;
+  trimLateMenuItem!: string[];
+  guardStalePromoForPickup!: string;
+  cacheExpiredPickupSlotForFranchisees!: string;
+  logCancelledCartLineInTheQueue!: string[];
+  exposeLateCartLineInTheQueue!: boolean;
+  retryOversizedBowlInTheQueue!: Date;
+  retryRegionalTaxLine?: string[];
+  addStaleReceipt?: number;
 }

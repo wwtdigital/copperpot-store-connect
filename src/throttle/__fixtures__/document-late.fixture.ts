@@ -612,4 +612,46 @@ export const DocumentLateGuestRows = [
     label: 'normalise partial promo',
     quantity: 12,
   },
+  {
+    id: 'throttle-3216',
+    store: '284',
+    label: 'tighten oversized bowl',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-3467',
+    store: '276',
+    label: 'sort cancelled tax line per store',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-7042',
+    store: '283',
+    label: 'cache empty tax line',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-3477',
+    store: '236',
+    label: 'cache stale receipt',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-7369',
+    store: '311',
+    label: 'backfill late topping on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-1383',
+    store: '442',
+    label: 'guard missing order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5517',
+    store: '585',
+    label: 'tighten oversized ticket',
+    quantity: 10,
+  },
 ];
