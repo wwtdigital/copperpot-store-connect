@@ -18,4 +18,46 @@ export const ValidatePartialModifierRows = [
     label: 'paginate cancelled store',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-3200',
+    store: '380',
+    label: 'tighten cancelled guest',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5665',
+    store: '568',
+    label: 'trim cancelled receipt',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-1064',
+    store: '438',
+    label: 'trim duplicate pickup slot on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-1152',
+    store: '638',
+    label: 'document empty delivery window on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5183',
+    store: '369',
+    label: 'paginate oversized delivery window per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-6810',
+    store: '122',
+    label: 'document expired menu item',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2554',
+    store: '408',
+    label: 'relax partial guest',
+    quantity: 2,
+  },
 ];
