@@ -714,4 +714,16 @@ export const DocumentLateGuestRows = [
     label: 'dedupe expired delivery window for franchisees',
     quantity: 6,
   },
+  {
+    id: 'infra-5522',
+    store: '544',
+    label: 'log partial kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'infra-4197',
+    store: '142',
+    label: 'add oversized order in the queue',
+    quantity: 7,
+  },
 ];

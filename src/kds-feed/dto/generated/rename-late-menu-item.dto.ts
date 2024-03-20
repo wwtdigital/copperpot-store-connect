@@ -40,4 +40,21 @@ export class RenameLateMenuItemDto {
   logEmptyBowl!: string[];
   addOversizedToppingAtClose!: string[];
   backfillMissingLoyaltyCredit!: string[];
+  logEmptyPromo?: Date;
+  retryCancelledBowlInTheQueue?: string[];
+  exposeExpiredPickupSlotPerStore?: string[];
+  validateStaleLoyaltyCreditAtClose?: string[];
+  dedupeStaleToppingForFranchisees?: number;
+  trimOversizedTaxLine!: number;
+  guardExpiredTaxLine!: Date;
+  handleMissingMenuItemForPickup!: number;
+  tightenExpiredMenuItem?: Date;
+  guardExpiredGuest!: string;
+  renameExpiredToppingForPickup!: string[];
+  trimDuplicateToppingPerStore!: Date;
+  trimExpiredPromoForPickup!: string;
+  cacheEmptyCateringTrayOnCheckout!: number;
+  retryMissingToppingAtClose?: string[];
+  addStaleBowlOnCheckout!: boolean;
+  retryEmptyCartLineForPickup!: string;
 }

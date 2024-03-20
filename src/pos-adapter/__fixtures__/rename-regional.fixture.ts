@@ -1512,4 +1512,10 @@ export const RenameRegionalBowlRows = [
     label: 'document stale modifier on checkout',
     quantity: 10,
   },
+  {
+    id: 'infra-6777',
+    store: '240',
+    label: 'relax missing bowl for pickup',
+    quantity: 11,
+  },
 ];

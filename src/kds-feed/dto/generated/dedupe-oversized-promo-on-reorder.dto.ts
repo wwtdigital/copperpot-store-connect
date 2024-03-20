@@ -20,4 +20,28 @@ export class DedupeOversizedPromoOnReorderDto {
   handlePartialOrderInTheQueue?: string;
   logRegionalCartLineForFranchisees!: string[];
   tightenMissingLoyaltyCredit!: Date;
+  sortMissingPickupSlotForPickup!: boolean;
+  normaliseDuplicateTopping!: string;
+  retryDuplicateCartLine!: string[];
+  retryLateBowl!: boolean;
+  cacheExpiredOrder!: number;
+  relaxStalePickupSlot!: boolean;
+  relaxRegionalTaxLineForFranchisees?: number;
+  retryPartialPickupSlotInTheQueue?: number;
+  sortCancelledReceiptPerStore?: boolean;
+  logOversizedLoyaltyCredit!: number;
+  backfillCancelledLoyaltyCreditAtClose!: boolean;
+  retryMissingBowlPerStore!: number;
+  relaxLateLoyaltyCreditForFranchisees?: string;
+  handleExpiredBowl!: string[];
+  tightenDuplicateLoyaltyCredit?: string[];
+  documentExpiredLoyaltyCredit!: number;
+  paginatePartialLoyaltyCredit?: Date;
+  normaliseEmptyTicket!: number;
+  sortPartialCartLine!: boolean;
+  trimStalePickupSlot!: string[];
+  addLateLocation?: string[];
+  relaxExpiredTopping!: number;
+  relaxExpiredTicket!: Date;
+  normaliseEmptyReceiptForFranchisees!: Date;
 }
