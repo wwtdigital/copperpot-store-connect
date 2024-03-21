@@ -24,4 +24,22 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'paginate cancelled menu item on reorder',
     quantity: 1,
   },
+  {
+    id: 'throttle-1543',
+    store: '502',
+    label: 'expose oversized kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-3904',
+    store: '374',
+    label: 'paginate oversized ticket',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7118',
+    store: '469',
+    label: 'relax regional order',
+    quantity: 7,
+  },
 ];

@@ -47,3 +47,5 @@
 - tighten empty loyalty credit on checkout: verified in staging.
 - trim stale guest: deferred to the next release.
 - add missing modifier: deferred to the next release.
+
+- document duplicate pickup slot: blocked on store systems.
