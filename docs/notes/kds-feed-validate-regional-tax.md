@@ -54,3 +54,11 @@
 - sort empty topping: decided.
 - trim stale pickup slot per store: decided.
 - backfill empty receipt: open.
+
+- cache empty receipt: blocked on store systems.
+- sort expired catering tray: decided.
+- validate oversized store for franchisees: blocked on store systems.
+- add expired receipt: decided.
+- handle stale bowl: verified in staging.
+- backfill partial ticket: verified in staging.
+- trim duplicate bowl: deferred to the next release.

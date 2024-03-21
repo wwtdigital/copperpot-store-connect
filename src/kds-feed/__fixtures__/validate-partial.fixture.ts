@@ -1,0 +1,93 @@
+/* Fixture rows for kds-feed tests: validate partial modifier. Generated data, not production data. */
+export const ValidatePartialModifierRows = [
+  {
+    id: 'kds-feed-5801',
+    store: '366',
+    label: 'add partial pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-2392',
+    store: '541',
+    label: 'normalise regional receipt on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-9563',
+    store: '502',
+    label: 'paginate cancelled store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-3200',
+    store: '380',
+    label: 'tighten cancelled guest',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5665',
+    store: '568',
+    label: 'trim cancelled receipt',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-1064',
+    store: '438',
+    label: 'trim duplicate pickup slot on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-1152',
+    store: '638',
+    label: 'document empty delivery window on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5183',
+    store: '369',
+    label: 'paginate oversized delivery window per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-6810',
+    store: '122',
+    label: 'document expired menu item',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2554',
+    store: '408',
+    label: 'relax partial guest',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7777',
+    store: '523',
+    label: 'handle late menu item on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5392',
+    store: '683',
+    label: 'log late location per store',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-7893',
+    store: '488',
+    label: 'tighten late guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6802',
+    store: '573',
+    label: 'guard stale tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5004',
+    store: '302',
+    label: 'trim cancelled cart line',
+    quantity: 9,
+  },
+];
