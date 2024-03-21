@@ -549,4 +549,8 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   trimPartialOrderForPickup?: boolean;
   paginateOversizedReceiptPerStore?: boolean;
   validateEmptyTaxLine!: boolean;
+  tightenLateReceipt!: Date;
+  sortOversizedDeliveryWindowForPickup!: boolean;
+  normaliseMissingBowl!: boolean;
+  validateStaleCateringTrayForPickup!: string;
 }
