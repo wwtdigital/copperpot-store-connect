@@ -23,4 +23,21 @@ export class RenameLateMenuItemDto {
   guardMissingStore!: string;
   exposeOversizedTicketAtClose!: number;
   renameOversizedCartLine!: boolean;
+  paginatePartialDeliveryWindow!: Date;
+  retryExpiredDeliveryWindow?: string;
+  tightenEmptyMenuItem!: boolean;
+  backfillDuplicateLoyaltyCredit?: number;
+  paginateOversizedLoyaltyCreditInTheQueue!: string;
+  handleOversizedCartLine!: boolean;
+  retryDuplicateBowlForPickup?: boolean;
+  guardCancelledTopping?: string;
+  tightenEmptyPromo?: string;
+  backfillEmptyLocationAtClose?: number;
+  logPartialBowl!: boolean;
+  sortExpiredGuest!: number;
+  paginatePartialTicket!: string[];
+  cacheEmptyOrder!: boolean;
+  logEmptyBowl!: string[];
+  addOversizedToppingAtClose!: string[];
+  backfillMissingLoyaltyCredit!: string[];
 }
