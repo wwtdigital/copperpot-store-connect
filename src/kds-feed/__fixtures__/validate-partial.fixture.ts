@@ -60,4 +60,34 @@ export const ValidatePartialModifierRows = [
     label: 'relax partial guest',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-7777',
+    store: '523',
+    label: 'handle late menu item on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5392',
+    store: '683',
+    label: 'log late location per store',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-7893',
+    store: '488',
+    label: 'tighten late guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6802',
+    store: '573',
+    label: 'guard stale tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5004',
+    store: '302',
+    label: 'trim cancelled cart line',
+    quantity: 9,
+  },
 ];
