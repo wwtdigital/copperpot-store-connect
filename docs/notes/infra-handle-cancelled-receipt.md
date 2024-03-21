@@ -30,3 +30,6 @@
 - trim expired loyalty credit: blocked on store systems.
 - handle late pickup slot on reorder: verified in staging.
 - rename partial promo: deferred to the next release.
+
+- cache oversized loyalty credit for pickup: decided.
+- guard stale store for franchisees: deferred to the next release.

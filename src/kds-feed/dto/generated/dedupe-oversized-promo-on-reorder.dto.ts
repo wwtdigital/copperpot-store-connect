@@ -18,4 +18,6 @@ export class DedupeOversizedPromoOnReorderDto {
   renamePartialReceipt?: string;
   exposeLateBowlForFranchisees!: Date;
   handlePartialOrderInTheQueue?: string;
+  logRegionalCartLineForFranchisees!: string[];
+  tightenMissingLoyaltyCredit!: Date;
 }
