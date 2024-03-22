@@ -77,3 +77,48 @@
 - log regional guest: deferred to the next release.
 - expose oversized topping for franchisees: verified in staging.
 - document regional catering tray: owner: delivery manager.
+
+- relax late pickup slot at close: verified in staging.
+- retry duplicate menu item for franchisees: open.
+- tighten expired guest: open.
+- log oversized store: verified in staging.
+- backfill cancelled loyalty credit for franchisees: blocked on store systems.
+- tighten stale ticket on checkout: verified in staging.
+- normalise expired store: owner: delivery manager.
+- rename duplicate promo on checkout: blocked on store systems.
+- guard missing location in the queue: owner: delivery manager.
+- cache empty bowl: blocked on store systems.
+- expose late loyalty credit: open.
+- document oversized delivery window: open.
+- expose oversized guest: decided.
+- sort stale menu item: open.
+
+- expose duplicate pickup slot: deferred to the next release.
+- tighten late tax line on checkout: owner: delivery manager.
+- expose empty promo per store: owner: delivery manager.
+- tighten late loyalty credit: open.
+- document late topping: verified in staging.
+- document duplicate menu item for pickup: owner: delivery manager.
+- tighten duplicate promo: open.
+- validate duplicate delivery window on reorder: blocked on store systems.
+- expose empty ticket: deferred to the next release.
+- dedupe expired topping for franchisees: owner: delivery manager.
+- add cancelled pickup slot: verified in staging.
+- dedupe empty store: open.
+- document late modifier: blocked on store systems.
+- rename regional kitchen ticket: owner: delivery manager.
+
+- add duplicate loyalty credit: decided.
+- trim late promo: deferred to the next release.
+- expose expired pickup slot on checkout: decided.
+- normalise missing loyalty credit: owner: delivery manager.
+- sort expired kitchen ticket: blocked on store systems.
+- rename stale loyalty credit: deferred to the next release.
+- validate partial store on reorder: deferred to the next release.
+- guard empty receipt: blocked on store systems.
+- log regional kitchen ticket at close: deferred to the next release.
+- trim oversized catering tray: deferred to the next release.
+- normalise regional kitchen ticket: blocked on store systems.
+- paginate empty promo: owner: delivery manager.
+- rename expired menu item for franchisees: blocked on store systems.
+- sort partial kitchen ticket: blocked on store systems.
