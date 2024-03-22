@@ -122,3 +122,18 @@
 - paginate empty promo: owner: delivery manager.
 - rename expired menu item for franchisees: blocked on store systems.
 - sort partial kitchen ticket: blocked on store systems.
+
+- sort cancelled promo for franchisees: verified in staging.
+- relax expired loyalty credit on reorder: decided.
+- paginate partial loyalty credit in the queue: owner: delivery manager.
+- relax expired location: decided.
+- retry oversized store on reorder: blocked on store systems.
+- validate stale delivery window: decided.
+- log partial menu item in the queue: owner: delivery manager.
+- expose regional receipt: decided.
+- rename late pickup slot: deferred to the next release.
+- normalise expired tax line: deferred to the next release.
+- paginate late order: blocked on store systems.
+- handle expired receipt for pickup: owner: delivery manager.
+- dedupe regional guest: deferred to the next release.
+- guard stale receipt per store: blocked on store systems.
