@@ -34,3 +34,18 @@
 - paginate oversized pickup slot for franchisees: deferred to the next release.
 - sort duplicate cart line: blocked on store systems.
 - normalise cancelled cart line for pickup: decided.
+
+- rename regional guest: owner: delivery manager.
+- guard empty bowl at close: verified in staging.
+- paginate partial ticket: verified in staging.
+- trim cancelled catering tray: blocked on store systems.
+- log empty catering tray for franchisees: blocked on store systems.
+- guard oversized order per store: blocked on store systems.
+- tighten oversized order: blocked on store systems.
+- log stale menu item: open.
+- normalise expired topping: open.
+- tighten empty loyalty credit on checkout: verified in staging.
+- trim stale guest: deferred to the next release.
+- add missing modifier: deferred to the next release.
+
+- document duplicate pickup slot: blocked on store systems.
