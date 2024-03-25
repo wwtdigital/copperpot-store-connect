@@ -42,4 +42,16 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'relax regional order',
     quantity: 7,
   },
+  {
+    id: 'throttle-4976',
+    store: '634',
+    label: 'handle duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-2012',
+    store: '527',
+    label: 'normalise duplicate kitchen ticket',
+    quantity: 8,
+  },
 ];
