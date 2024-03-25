@@ -360,4 +360,52 @@ export const SortStaleMenuItemAtCloseRows = [
     label: 'sort cancelled bowl',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-8758',
+    store: '369',
+    label: 'add regional promo on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9157',
+    store: '315',
+    label: 'guard duplicate kitchen ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-9192',
+    store: '568',
+    label: 'handle late ticket',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8301',
+    store: '622',
+    label: 'retry missing bowl',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-1823',
+    store: '402',
+    label: 'add late modifier per store',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2185',
+    store: '359',
+    label: 'document duplicate kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-3583',
+    store: '185',
+    label: 'log cancelled promo',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3161',
+    store: '483',
+    label: 'document oversized cart line',
+    quantity: 8,
+  },
 ];

@@ -19,3 +19,18 @@
 - rename expired menu item: decided.
 - rename missing guest: blocked on store systems.
 - cache stale promo on reorder: verified in staging.
+
+- paginate cancelled catering tray: verified in staging.
+- paginate missing receipt: verified in staging.
+- backfill partial cart line per store: open.
+- validate oversized receipt: owner: delivery manager.
+- tighten duplicate receipt: owner: delivery manager.
+- dedupe late ticket: blocked on store systems.
+- dedupe oversized topping at close: blocked on store systems.
+- relax missing bowl: open.
+- normalise duplicate order: owner: delivery manager.
+- normalise cancelled receipt on reorder: open.
+- trim stale catering tray for franchisees: decided.
+- backfill partial catering tray: open.
+- tighten empty catering tray: decided.
+- add duplicate bowl: blocked on store systems.
