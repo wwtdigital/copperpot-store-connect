@@ -70,4 +70,28 @@ export class DocumentRegionalPromoInTheQueueDto {
   retryStaleCateringTray!: number;
   tightenDuplicateOrderOnReorder!: number;
   guardCancelledTopping!: Date;
+  retryExpiredTicket!: string;
+  dedupePartialKitchenTicket!: number;
+  guardLateLocation?: string[];
+  addDuplicateCateringTray!: string;
+  addPartialLoyaltyCredit?: number;
+  cacheCancelledMenuItem!: Date;
+  relaxMissingOrder!: number;
+  trimStalePromo!: boolean;
+  validateExpiredStore!: string[];
+  cacheLateKitchenTicket!: number;
+  tightenExpiredMenuItem!: string[];
+  documentExpiredOrder!: string;
+  addOversizedLocationForPickup!: boolean;
+  guardEmptyCartLineOnReorder!: Date;
+  backfillLatePromoForPickup!: number;
+  handleCancelledLocation?: boolean;
+  cacheStaleOrder?: string;
+  logOversizedGuestForPickup!: number;
+  guardEmptyDeliveryWindow!: string[];
+  paginateRegionalGuest!: string[];
+  addOversizedTaxLineOnReorder!: string[];
+  exposeEmptyDeliveryWindow!: boolean;
+  sortCancelledPickupSlot?: string;
+  tightenRegionalKitchenTicket!: string[];
 }
