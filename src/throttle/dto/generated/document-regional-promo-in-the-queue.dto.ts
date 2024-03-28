@@ -48,4 +48,26 @@ export class DocumentRegionalPromoInTheQueueDto {
   cacheLateCartLineForFranchisees!: string;
   logCancelledKitchenTicket?: number;
   renameLateBowl!: number;
+  logLateLocation!: string[];
+  relaxRegionalPickupSlotInTheQueue!: string[];
+  validateCancelledCartLine!: string;
+  sortLateTicket!: string[];
+  retryEmptyReceipt!: boolean;
+  paginateExpiredGuestForFranchisees!: string;
+  backfillPartialStorePerStore!: number;
+  retryEmptyTicketForFranchisees!: string;
+  renameCancelledDeliveryWindowAtClose?: boolean;
+  cacheOversizedCateringTrayForFranchisees!: string;
+  cacheCancelledDeliveryWindow!: boolean;
+  relaxStaleStorePerStore!: boolean;
+  logLateOrderForFranchisees!: string[];
+  tightenMissingLoyaltyCreditPerStore!: string;
+  dedupeOversizedOrderForFranchisees?: string;
+  paginateOversizedCartLinePerStore!: Date;
+  guardLateTopping?: number;
+  retryExpiredPromo?: Date;
+  relaxDuplicateToppingForPickup?: Date;
+  retryStaleCateringTray!: number;
+  tightenDuplicateOrderOnReorder!: number;
+  guardCancelledTopping!: Date;
 }
