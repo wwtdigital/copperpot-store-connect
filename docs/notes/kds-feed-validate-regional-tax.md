@@ -137,3 +137,18 @@
 - handle expired receipt for pickup: owner: delivery manager.
 - dedupe regional guest: deferred to the next release.
 - guard stale receipt per store: blocked on store systems.
+
+- rename regional tax line: verified in staging.
+- guard cancelled menu item: owner: delivery manager.
+- paginate duplicate tax line: deferred to the next release.
+- sort partial tax line per store: verified in staging.
+- trim stale bowl: deferred to the next release.
+- validate empty store: open.
+- paginate expired guest for pickup: verified in staging.
+- retry stale kitchen ticket for pickup: blocked on store systems.
+- paginate oversized tax line: blocked on store systems.
+- backfill stale menu item per store: open.
+- normalise late loyalty credit: blocked on store systems.
+- paginate late guest in the queue: open.
+- relax oversized topping: owner: delivery manager.
+- guard regional ticket at close: decided.

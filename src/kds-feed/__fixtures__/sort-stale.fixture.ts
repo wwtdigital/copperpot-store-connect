@@ -408,4 +408,40 @@ export const SortStaleMenuItemAtCloseRows = [
     label: 'document oversized cart line',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-2983',
+    store: '680',
+    label: 'tighten expired pickup slot on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3094',
+    store: '318',
+    label: 'guard duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4562',
+    store: '565',
+    label: 'add expired store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-3575',
+    store: '423',
+    label: 'retry cancelled order for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6178',
+    store: '399',
+    label: 'add cancelled topping on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4204',
+    store: '165',
+    label: 'expose missing pickup slot for pickup',
+    quantity: 8,
+  },
 ];
