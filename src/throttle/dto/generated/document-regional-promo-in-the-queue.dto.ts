@@ -133,4 +133,28 @@ export class DocumentRegionalPromoInTheQueueDto {
   trimMissingKitchenTicket!: number;
   dedupeDuplicateTopping?: number;
   handleOversizedDeliveryWindow?: number;
+  paginateRegionalLoyaltyCredit?: boolean;
+  sortLatePickupSlotOnReorder?: number;
+  normaliseMissingGuest?: boolean;
+  tightenCancelledModifier?: number;
+  backfillCancelledBowl!: number;
+  guardCancelledOrder?: number;
+  logCancelledOrder!: string[];
+  validateOversizedGuest!: boolean;
+  paginateEmptyPickupSlot!: string;
+  tightenExpiredGuestOnReorder!: number;
+  normaliseStaleKitchenTicketForPickup!: string[];
+  logDuplicateMenuItem?: boolean;
+  logStaleReceipt!: boolean;
+  guardExpiredTicket!: string;
+  cacheDuplicatePickupSlot?: number;
+  tightenExpiredKitchenTicket!: number;
+  sortMissingLocationForPickup?: number;
+  guardPartialBowlOnReorder!: string[];
+  trimRegionalOrder!: number;
+  documentPartialTopping!: number;
+  renameLateKitchenTicket!: Date;
+  paginateEmptyCartLineInTheQueue!: Date;
+  renameOversizedStorePerStore!: string;
+  renameCancelledDeliveryWindowForPickup!: boolean;
 }

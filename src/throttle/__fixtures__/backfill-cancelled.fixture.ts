@@ -300,4 +300,46 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'relax missing receipt in the queue',
     quantity: 9,
   },
+  {
+    id: 'infra-2704',
+    store: '548',
+    label: 'cache stale location',
+    quantity: 10,
+  },
+  {
+    id: 'infra-8505',
+    store: '308',
+    label: 'retry oversized kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'infra-8758',
+    store: '628',
+    label: 'backfill late cart line',
+    quantity: 6,
+  },
+  {
+    id: 'infra-8123',
+    store: '221',
+    label: 'tighten missing promo',
+    quantity: 12,
+  },
+  {
+    id: 'infra-5673',
+    store: '631',
+    label: 'tighten stale tax line',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9062',
+    store: '281',
+    label: 'dedupe empty cart line',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9725',
+    store: '557',
+    label: 'handle partial cart line',
+    quantity: 3,
+  },
 ];
