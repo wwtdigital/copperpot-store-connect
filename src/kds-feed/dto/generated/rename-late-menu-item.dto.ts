@@ -105,4 +105,12 @@ export class RenameLateMenuItemDto {
   relaxEmptyBowlInTheQueue!: number;
   backfillMissingBowlForPickup!: Date;
   backfillLatePromoPerStore?: string[];
+  cacheStaleKitchenTicket!: number;
+  sortStaleLoyaltyCredit!: boolean;
+  cacheLateTicketAtClose!: number;
+  handleStaleBowl!: string;
+  normaliseOversizedPromo!: Date;
+  renameMissingBowlForPickup!: string;
+  paginateRegionalLoyaltyCredit!: boolean;
+  validateLateStoreOnCheckout?: string[];
 }

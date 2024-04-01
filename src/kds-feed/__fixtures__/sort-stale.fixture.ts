@@ -438,4 +438,10 @@ export const SortStaleMenuItemAtCloseRows = [
     label: 'add cancelled topping on reorder',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-4204',
+    store: '165',
+    label: 'expose missing pickup slot for pickup',
+    quantity: 8,
+  },
 ];
