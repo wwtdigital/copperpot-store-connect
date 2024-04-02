@@ -577,4 +577,25 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   normaliseLateLoyaltyCredit!: string;
   cacheCancelledPickupSlot!: Date;
   documentStaleTicket!: string[];
+  exposeLateTaxLineForPickup!: string;
+  renameRegionalKitchenTicket?: number;
+  trimLateLocationOnCheckout?: number;
+  addExpiredTaxLineAtClose!: string[];
+  tightenDuplicateReceipt!: string;
+  documentOversizedPickupSlotOnReorder?: string[];
+  validateDuplicateMenuItem!: string;
+  normaliseCancelledKitchenTicketPerStore!: number;
+  dedupeCancelledModifierOnReorder!: string[];
+  guardPartialLocation!: Date;
+  cacheCancelledDeliveryWindow!: number;
+  relaxOversizedToppingAtClose!: string[];
+  backfillDuplicateStore?: string[];
+  exposeDuplicateOrderOnReorder!: string[];
+  documentDuplicateLocation?: string;
+  guardDuplicateKitchenTicket!: Date;
+  normaliseExpiredTopping!: number;
+  exposeStaleReceipt?: string[];
+  validateCancelledPickupSlot!: string;
+  renameMissingMenuItem!: string;
+  guardRegionalCartLine?: boolean;
 }
