@@ -48,4 +48,28 @@ export class SortLateBowlDto {
   backfillExpiredMenuItemForFranchisees!: number;
   normaliseStaleCateringTrayInTheQueue?: boolean;
   tightenExpiredTicket!: boolean;
+  normaliseMissingToppingInTheQueue!: string;
+  normalisePartialLocationInTheQueue!: boolean;
+  logMissingCartLineForPickup!: number;
+  renameExpiredBowl?: Date;
+  addCancelledTicketAtClose!: string[];
+  retryOversizedDeliveryWindow!: Date;
+  addRegionalGuestForPickup!: Date;
+  paginateOversizedModifierInTheQueue!: boolean;
+  paginateRegionalGuestForPickup!: boolean;
+  relaxOversizedBowl?: Date;
+  cacheExpiredStoreInTheQueue!: string;
+  cacheCancelledStoreForPickup!: number;
+  handleMissingBowlOnReorder!: string[];
+  exposeExpiredPromo!: boolean;
+  dedupeExpiredPromo?: string;
+  retryDuplicateBowl!: number;
+  paginateOversizedOrderForFranchisees!: string;
+  paginateOversizedCateringTrayForFranchisees!: string[];
+  retryCancelledCartLinePerStore?: string[];
+  logRegionalDeliveryWindowAtClose!: boolean;
+  exposeStalePromo!: string[];
+  documentMissingOrder!: boolean;
+  tightenMissingGuest?: boolean;
+  handleLateBowlForPickup!: string[];
 }

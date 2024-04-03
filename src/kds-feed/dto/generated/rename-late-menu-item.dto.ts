@@ -137,4 +137,28 @@ export class RenameLateMenuItemDto {
   normaliseExpiredPromoPerStore?: string;
   exposePartialGuest!: boolean;
   addOversizedMenuItemForFranchisees!: string;
+  retryOversizedModifierForFranchisees!: string[];
+  backfillPartialStore!: number;
+  paginateOversizedModifier?: string;
+  sortRegionalToppingPerStore!: string;
+  normaliseLateModifier?: boolean;
+  tightenExpiredCartLine!: boolean;
+  dedupeDuplicateCartLineForFranchisees!: string[];
+  logOversizedTicketOnCheckout!: number;
+  guardRegionalPickupSlotOnReorder!: string[];
+  paginateExpiredLocation!: string[];
+  guardPartialTaxLine!: Date;
+  trimEmptyModifierPerStore!: number;
+  logRegionalCateringTray?: number;
+  exposePartialReceipt!: string[];
+  logStalePickupSlotPerStore!: string;
+  documentMissingDeliveryWindow!: string;
+  trimCancelledCateringTrayAtClose!: string[];
+  backfillExpiredPromo!: number;
+  validateCancelledLocationAtClose?: number;
+  paginateStaleTicketInTheQueue!: Date;
+  relaxLateTopping!: boolean;
+  handleCancelledStore?: string[];
+  renameOversizedDeliveryWindowOnReorder?: string;
+  guardExpiredTicket!: number;
 }
