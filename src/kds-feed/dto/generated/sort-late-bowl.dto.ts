@@ -24,4 +24,28 @@ export class SortLateBowlDto {
   trimPartialPickupSlotAtClose?: boolean;
   documentDuplicateToppingPerStore!: Date;
   relaxOversizedDeliveryWindow?: string;
+  relaxStaleReceipt!: string[];
+  renameDuplicateCateringTray?: number;
+  trimMissingCartLine!: number;
+  backfillLateGuest!: string[];
+  exposeDuplicateTicket?: string[];
+  cacheEmptyBowl!: boolean;
+  addEmptyCateringTrayPerStore!: string[];
+  normaliseMissingBowl!: Date;
+  relaxRegionalCartLine!: string;
+  guardExpiredOrder!: Date;
+  exposeMissingCateringTray?: string[];
+  dedupeEmptyReceiptOnReorder!: boolean;
+  tightenMissingDeliveryWindow!: string[];
+  addMissingMenuItemAtClose?: string[];
+  normaliseOversizedCartLine!: Date;
+  addLateCartLineForFranchisees?: Date;
+  normaliseStaleReceipt?: boolean;
+  guardRegionalTaxLineOnCheckout!: number;
+  backfillExpiredTicket!: number;
+  sortLateCateringTray?: Date;
+  exposeEmptyTicket!: string;
+  backfillExpiredMenuItemForFranchisees!: number;
+  normaliseStaleCateringTrayInTheQueue?: boolean;
+  tightenExpiredTicket!: boolean;
 }
