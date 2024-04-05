@@ -154,3 +154,33 @@
 - normalise cancelled cart line: blocked on store systems.
 - backfill oversized promo: owner: delivery manager.
 - rename oversized bowl: deferred to the next release.
+
+- expose late topping: open.
+- rename late delivery window on checkout: open.
+- log cancelled delivery window: open.
+- normalise partial delivery window: deferred to the next release.
+- tighten partial modifier: verified in staging.
+- retry cancelled kitchen ticket in the queue: owner: delivery manager.
+- paginate expired ticket in the queue: open.
+- tighten missing store: owner: delivery manager.
+- backfill regional delivery window: decided.
+- retry regional guest: decided.
+- normalise regional location: decided.
+- rename partial promo: owner: delivery manager.
+- sort stale order: decided.
+- guard cancelled location: verified in staging.
+
+- handle empty tax line: open.
+- cache duplicate location for pickup: verified in staging.
+- add empty pickup slot: deferred to the next release.
+- log stale pickup slot: blocked on store systems.
+- backfill regional menu item for pickup: decided.
+- expose expired promo: verified in staging.
+- log late order: blocked on store systems.
+- expose duplicate topping per store: deferred to the next release.
+- tighten late bowl on reorder: decided.
+- sort late order: decided.
+- handle expired catering tray in the queue: deferred to the next release.
+- rename stale promo in the queue: open.
+- cache late receipt: verified in staging.
+- handle cancelled receipt: decided.

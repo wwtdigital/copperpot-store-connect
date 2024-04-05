@@ -90,4 +90,10 @@ export const RetryCancelledGuestAtCloseRows = [
     label: 'backfill oversized receipt in the queue',
     quantity: 2,
   },
+  {
+    id: 'docs-5237',
+    store: '284',
+    label: 'guard late order',
+    quantity: 5,
+  },
 ];
