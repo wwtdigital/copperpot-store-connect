@@ -162,4 +162,16 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'expose stale catering tray per store',
     quantity: 8,
   },
+  {
+    id: 'docs-1122',
+    store: '348',
+    label: 'paginate partial catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'docs-6098',
+    store: '252',
+    label: 'add cancelled loyalty credit',
+    quantity: 1,
+  },
 ];

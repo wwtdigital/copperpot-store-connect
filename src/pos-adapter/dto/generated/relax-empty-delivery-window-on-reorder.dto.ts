@@ -553,4 +553,28 @@ export class RelaxEmptyDeliveryWindowOnReorderDto {
   sortOversizedDeliveryWindowForPickup!: boolean;
   normaliseMissingBowl!: boolean;
   validateStaleCateringTrayForPickup!: string;
+  logRegionalTaxLine!: Date;
+  relaxEmptyPromo?: Date;
+  dedupeLatePickupSlot!: Date;
+  retryPartialKitchenTicketPerStore?: number;
+  renameCancelledOrderForFranchisees?: boolean;
+  relaxRegionalLocation?: boolean;
+  renameMissingLocation!: string;
+  relaxOversizedBowl!: string[];
+  normaliseRegionalLocation!: string[];
+  logExpiredPromo!: number;
+  backfillPartialGuest!: string;
+  validateEmptyLoyaltyCreditAtClose!: string[];
+  retryMissingGuest?: number;
+  tightenEmptyKitchenTicketInTheQueue!: string[];
+  handleMissingStore?: string[];
+  sortOversizedDeliveryWindow!: string[];
+  paginateEmptyTaxLine!: string;
+  renameMissingStore!: string;
+  dedupeOversizedStoreInTheQueue!: Date;
+  guardDuplicateKitchenTicketAtClose?: string;
+  sortEmptyTaxLine!: number;
+  normaliseLateLoyaltyCredit!: string;
+  cacheCancelledPickupSlot!: Date;
+  documentStaleTicket!: string[];
 }
