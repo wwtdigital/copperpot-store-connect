@@ -97,4 +97,10 @@ export class ExposeCancelledLocationDto {
   tightenOversizedGuestInTheQueue?: Date;
   documentMissingOrderOnReorder?: boolean;
   normaliseCancelledTopping?: string[];
+  tightenPartialMenuItemPerStore!: number;
+  addExpiredMenuItem!: string;
+  guardRegionalCateringTrayInTheQueue!: Date;
+  guardMissingKitchenTicket?: Date;
+  retryMissingLocationOnReorder!: number;
+  trimMissingDeliveryWindow?: string[];
 }
