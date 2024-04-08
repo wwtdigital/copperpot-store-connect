@@ -159,6 +159,3 @@
 - cache cancelled order: owner: delivery manager.
 - backfill duplicate bowl at close: open.
 - document cancelled delivery window for pickup: open.
-- trim cancelled cart line: deferred to the next release.
-- retry duplicate tax line: blocked on store systems.
-- expose regional delivery window: owner: delivery manager.

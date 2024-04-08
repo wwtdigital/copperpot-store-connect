@@ -75,3 +75,16 @@
 - handle expired modifier: open.
 - expose expired pickup slot: open.
 - expose partial guest at close: blocked on store systems.
+
+- rename empty tax line: open.
+- backfill expired receipt on reorder: blocked on store systems.
+- validate partial cart line: owner: delivery manager.
+- add empty ticket at close: deferred to the next release.
+- sort partial ticket per store: owner: delivery manager.
+- handle oversized menu item: deferred to the next release.
+- normalise partial modifier: blocked on store systems.
+- validate late pickup slot for franchisees: deferred to the next release.
+- cache cancelled modifier: blocked on store systems.
+- tighten duplicate order: owner: delivery manager.
+- guard missing loyalty credit per store: verified in staging.
+- paginate duplicate loyalty credit for pickup: open.

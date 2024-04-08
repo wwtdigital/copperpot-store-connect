@@ -103,4 +103,28 @@ export class ExposeCancelledLocationDto {
   guardMissingKitchenTicket?: Date;
   retryMissingLocationOnReorder!: number;
   trimMissingDeliveryWindow?: string[];
+  paginateDuplicateTicket!: Date;
+  tightenMissingCartLine!: string[];
+  renameDuplicateTicket!: string[];
+  logDuplicateKitchenTicket?: boolean;
+  backfillRegionalPickupSlot!: Date;
+  documentEmptyPromo?: boolean;
+  paginateLateLocationForPickup!: string;
+  handleMissingPromo?: Date;
+  normaliseStaleTopping!: string[];
+  dedupeOversizedOrderAtClose!: Date;
+  paginateCancelledBowlOnCheckout?: boolean;
+  handleExpiredLoyaltyCredit!: number;
+  sortExpiredCartLine!: string[];
+  tightenLateModifier!: string[];
+  validateLateDeliveryWindowForPickup!: Date;
+  validateDuplicateTaxLine?: string;
+  paginateExpiredTaxLine!: string[];
+  cacheLateCateringTray?: number;
+  guardOversizedLoyaltyCredit!: number;
+  trimStaleGuestForPickup!: number;
+  handleExpiredCateringTrayOnCheckout!: boolean;
+  validateMissingModifier!: string[];
+  normaliseMissingReceipt!: number;
+  handleEmptyOrder?: number;
 }
