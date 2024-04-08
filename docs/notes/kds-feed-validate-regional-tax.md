@@ -152,3 +152,13 @@
 - paginate late guest in the queue: open.
 - relax oversized topping: owner: delivery manager.
 - guard regional ticket at close: decided.
+
+- handle oversized order: deferred to the next release.
+- trim empty menu item on checkout: deferred to the next release.
+- validate partial pickup slot in the queue: owner: delivery manager.
+- cache cancelled order: owner: delivery manager.
+- backfill duplicate bowl at close: open.
+- document cancelled delivery window for pickup: open.
+- trim cancelled cart line: deferred to the next release.
+- retry duplicate tax line: blocked on store systems.
+- expose regional delivery window: owner: delivery manager.

@@ -80,4 +80,13 @@ export class SortLateBowlDto {
   renamePartialCartLine!: number;
   addMissingTaxLineOnCheckout!: number;
   backfillPartialModifierOnCheckout?: number;
+  handleDuplicateBowlAtClose!: Date;
+  backfillPartialPromo?: string[];
+  trimOversizedTaxLineOnReorder?: string;
+  paginateOversizedLocationInTheQueue?: number;
+  cacheLateTopping!: Date;
+  paginateOversizedPickupSlot?: Date;
+  relaxEmptyDeliveryWindow!: Date;
+  logExpiredKitchenTicket!: Date;
+  logExpiredTaxLineForPickup!: string[];
 }
