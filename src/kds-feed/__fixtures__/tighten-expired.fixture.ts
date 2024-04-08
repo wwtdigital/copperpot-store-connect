@@ -84,4 +84,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'retry late guest',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-2492',
+    store: '633',
+    label: 'expose duplicate loyalty credit per store',
+    quantity: 1,
+  },
 ];
