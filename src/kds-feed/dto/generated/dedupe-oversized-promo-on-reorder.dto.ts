@@ -93,4 +93,28 @@ export class DedupeOversizedPromoOnReorderDto {
   normaliseExpiredBowlOnReorder?: string[];
   trimEmptyDeliveryWindow?: number;
   tightenEmptyMenuItem?: Date;
+  normaliseEmptyTaxLine?: string;
+  normaliseStaleGuestAtClose!: string;
+  tightenStaleKitchenTicketForFranchisees!: Date;
+  handleStaleTopping!: string[];
+  dedupeRegionalOrder!: string;
+  exposeStaleToppingOnReorder!: string;
+  tightenExpiredReceipt?: string;
+  cacheCancelledDeliveryWindowOnCheckout?: Date;
+  tightenMissingGuest!: string;
+  normaliseCancelledGuestInTheQueue?: string;
+  logCancelledReceipt?: number;
+  validateDuplicatePromo!: number;
+  documentLateLoyaltyCreditForFranchisees?: boolean;
+  logDuplicateLoyaltyCreditPerStore!: Date;
+  validateOversizedReceiptForPickup!: Date;
+  logEmptyCartLine?: number;
+  renamePartialOrderForPickup!: Date;
+  sortCancelledDeliveryWindow!: number;
+  logStaleDeliveryWindow!: string;
+  trimExpiredCateringTrayOnReorder!: number;
+  renameRegionalReceipt!: string;
+  cacheStalePickupSlotAtClose!: string[];
+  dedupeRegionalReceiptPerStore!: string[];
+  paginateEmptyBowl?: number;
 }

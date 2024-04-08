@@ -63,3 +63,18 @@
 - retry empty order: owner: delivery manager.
 - sort stale receipt: open.
 - handle late catering tray in the queue: verified in staging.
+
+- guard stale modifier on checkout: verified in staging.
+- normalise duplicate pickup slot in the queue: blocked on store systems.
+- normalise empty ticket in the queue: deferred to the next release.
+- rename late catering tray: verified in staging.
+- log stale delivery window: owner: delivery manager.
+- normalise late menu item: verified in staging.
+- validate expired store: open.
+- validate late delivery window in the queue: open.
+- log oversized topping: verified in staging.
+- retry oversized cart line: decided.
+- paginate cancelled promo: decided.
+- guard missing location: blocked on store systems.
+- rename regional tax line: deferred to the next release.
+- trim missing catering tray on reorder: decided.
