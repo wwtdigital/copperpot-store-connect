@@ -81,4 +81,16 @@ export class DedupeOversizedPromoOnReorderDto {
   paginateStaleTicket!: number;
   retryStaleLocation!: boolean;
   renamePartialModifier?: number;
+  dedupeCancelledCateringTrayForPickup!: boolean;
+  normaliseLateKitchenTicket?: Date;
+  trimStaleStorePerStore?: number;
+  relaxPartialOrderInTheQueue!: number;
+  normaliseMissingOrder!: string;
+  renameDuplicateKitchenTicket!: string;
+  validateOversizedCartLineAtClose!: boolean;
+  renameOversizedBowlInTheQueue!: boolean;
+  addLateBowlOnCheckout!: string;
+  normaliseExpiredBowlOnReorder?: string[];
+  trimEmptyDeliveryWindow?: number;
+  tightenEmptyMenuItem?: Date;
 }

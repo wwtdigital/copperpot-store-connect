@@ -72,4 +72,21 @@ export class SortLateBowlDto {
   documentMissingOrder!: boolean;
   tightenMissingGuest?: boolean;
   handleLateBowlForPickup!: string[];
+  guardEmptyTaxLineAtClose!: number;
+  handleRegionalCateringTray!: boolean;
+  validateCancelledModifier!: boolean;
+  retryOversizedReceiptForPickup?: number;
+  handleRegionalPickupSlotAtClose!: Date;
+  renamePartialCartLine!: number;
+  addMissingTaxLineOnCheckout!: number;
+  backfillPartialModifierOnCheckout?: number;
+  handleDuplicateBowlAtClose!: Date;
+  backfillPartialPromo?: string[];
+  trimOversizedTaxLineOnReorder?: string;
+  paginateOversizedLocationInTheQueue?: number;
+  cacheLateTopping!: Date;
+  paginateOversizedPickupSlot?: Date;
+  relaxEmptyDeliveryWindow!: Date;
+  logExpiredKitchenTicket!: Date;
+  logExpiredTaxLineForPickup!: string[];
 }

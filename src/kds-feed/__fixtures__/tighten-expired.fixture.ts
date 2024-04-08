@@ -84,4 +84,40 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'retry late guest',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-2492',
+    store: '633',
+    label: 'expose duplicate loyalty credit per store',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-1346',
+    store: '602',
+    label: 'trim late kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4549',
+    store: '669',
+    label: 'dedupe oversized location',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-2002',
+    store: '466',
+    label: 'normalise cancelled topping in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-7976',
+    store: '630',
+    label: 'handle missing topping',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4765',
+    store: '147',
+    label: 'relax oversized cart line',
+    quantity: 10,
+  },
 ];
