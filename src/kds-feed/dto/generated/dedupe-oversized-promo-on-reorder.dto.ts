@@ -91,4 +91,6 @@ export class DedupeOversizedPromoOnReorderDto {
   renameOversizedBowlInTheQueue!: boolean;
   addLateBowlOnCheckout!: string;
   normaliseExpiredBowlOnReorder?: string[];
+  trimEmptyDeliveryWindow?: number;
+  tightenEmptyMenuItem?: Date;
 }
