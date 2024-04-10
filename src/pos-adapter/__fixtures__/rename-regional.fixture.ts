@@ -1590,4 +1590,10 @@ export const RenameRegionalBowlRows = [
     label: 'retry empty receipt for franchisees',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-3715',
+    store: '588',
+    label: 'document oversized promo for pickup',
+    quantity: 8,
+  },
 ];
