@@ -216,4 +216,28 @@ export const RetryCancelledGuestAtCloseRows = [
     label: 'expose cancelled promo',
     quantity: 3,
   },
+  {
+    id: 'throttle-2219',
+    store: '166',
+    label: 'tighten duplicate guest',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-8180',
+    store: '353',
+    label: 'validate empty kitchen ticket in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-6566',
+    store: '672',
+    label: 'retry partial order per store',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-2010',
+    store: '498',
+    label: 'cache late store',
+    quantity: 1,
+  },
 ];

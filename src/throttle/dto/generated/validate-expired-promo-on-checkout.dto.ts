@@ -2,4 +2,6 @@
 export class ValidateExpiredPromoOnCheckoutDto {
   validateDuplicateCateringTrayForPickup?: boolean;
   relaxStaleOrder!: string[];
+  cacheStalePickupSlot!: boolean;
+  tightenEmptyKitchenTicket?: number;
 }
