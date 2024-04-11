@@ -34,3 +34,18 @@
 - validate missing ticket: blocked on store systems.
 - document oversized delivery window: decided.
 - normalise oversized modifier: open.
+
+- log empty guest: decided.
+- paginate expired guest for pickup: deferred to the next release.
+- dedupe cancelled location: owner: delivery manager.
+- relax stale kitchen ticket: decided.
+- log oversized delivery window at close: verified in staging.
+- log cancelled loyalty credit: verified in staging.
+- rename oversized topping for franchisees: blocked on store systems.
+- tighten partial store on checkout: open.
+- dedupe late bowl on checkout: open.
+- sort cancelled catering tray: verified in staging.
+- handle duplicate order: blocked on store systems.
+- validate partial promo: verified in staging.
+- expose missing cart line per store: verified in staging.
+- dedupe regional catering tray: deferred to the next release.
