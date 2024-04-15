@@ -159,3 +159,8 @@
 - cache cancelled order: owner: delivery manager.
 - backfill duplicate bowl at close: open.
 - document cancelled delivery window for pickup: open.
+
+- handle expired topping: decided.
+- add late bowl: verified in staging.
+- sort missing ticket at close: blocked on store systems.
+- relax oversized location: blocked on store systems.
