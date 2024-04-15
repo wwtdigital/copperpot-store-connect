@@ -180,4 +180,6 @@ export class DocumentRegionalPromoInTheQueueDto {
   renameStaleLocationPerStore!: string[];
   logLateOrder?: Date;
   trimStaleDeliveryWindow?: number;
+  normaliseEmptyModifierForPickup!: string[];
+  normaliseStaleBowl!: boolean;
 }

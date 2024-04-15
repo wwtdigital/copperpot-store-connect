@@ -378,4 +378,10 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'paginate stale promo',
     quantity: 10,
   },
+  {
+    id: 'throttle-8644',
+    store: '315',
+    label: 'relax oversized guest on reorder',
+    quantity: 10,
+  },
 ];
