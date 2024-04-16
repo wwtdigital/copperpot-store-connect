@@ -185,4 +185,28 @@ export class RenameLateMenuItemDto {
   normalisePartialBowl!: string[];
   validateLateLoyaltyCreditOnCheckout!: number;
   paginateExpiredOrderOnCheckout?: string;
+  trimOversizedKitchenTicket!: Date;
+  validateDuplicateLocation!: Date;
+  handleEmptyTaxLine!: Date;
+  documentExpiredKitchenTicket!: string;
+  trimStaleKitchenTicket!: string[];
+  documentLateLocation!: string;
+  dedupeExpiredTicketAtClose!: string;
+  validatePartialToppingForPickup!: string;
+  addExpiredToppingForPickup!: number;
+  relaxExpiredMenuItem!: string;
+  paginateExpiredBowlPerStore!: string;
+  tightenExpiredTaxLinePerStore!: Date;
+  sortEmptyTopping!: string;
+  logRegionalGuest!: string[];
+  paginateMissingOrder!: number;
+  backfillDuplicateToppingOnReorder!: number;
+  tightenMissingTicketAtClose!: boolean;
+  relaxStaleMenuItem?: Date;
+  tightenMissingPromo!: number;
+  dedupeOversizedPromoForPickup!: boolean;
+  handleExpiredStoreForFranchisees!: string;
+  handleEmptyOrderPerStore?: string;
+  relaxEmptyOrder!: string[];
+  paginateDuplicatePickupSlot?: number;
 }

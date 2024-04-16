@@ -342,4 +342,40 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'handle partial cart line',
     quantity: 3,
   },
+  {
+    id: 'infra-7601',
+    store: '348',
+    label: 'expose partial promo',
+    quantity: 1,
+  },
+  {
+    id: 'infra-8233',
+    store: '609',
+    label: 'relax oversized order',
+    quantity: 9,
+  },
+  {
+    id: 'infra-7004',
+    store: '452',
+    label: 'handle expired loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3206',
+    store: '281',
+    label: 'retry regional menu item',
+    quantity: 10,
+  },
+  {
+    id: 'infra-9747',
+    store: '537',
+    label: 'paginate regional ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'infra-8264',
+    store: '255',
+    label: 'paginate stale promo',
+    quantity: 10,
+  },
 ];
