@@ -246,4 +246,28 @@ export const RetryCancelledGuestAtCloseRows = [
     label: 'paginate stale store',
     quantity: 6,
   },
+  {
+    id: 'throttle-6413',
+    store: '322',
+    label: 'relax cancelled location on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-9453',
+    store: '317',
+    label: 'add empty modifier',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-7782',
+    store: '132',
+    label: 'guard duplicate ticket',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9259',
+    store: '486',
+    label: 'retry duplicate order',
+    quantity: 3,
+  },
 ];

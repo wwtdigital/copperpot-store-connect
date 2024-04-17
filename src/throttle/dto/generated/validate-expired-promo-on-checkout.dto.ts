@@ -4,4 +4,6 @@ export class ValidateExpiredPromoOnCheckoutDto {
   relaxStaleOrder!: string[];
   cacheStalePickupSlot!: boolean;
   tightenEmptyKitchenTicket?: number;
+  backfillDuplicateTicket!: string[];
+  relaxMissingMenuItem?: number;
 }
