@@ -209,4 +209,18 @@ export class RenameLateMenuItemDto {
   handleEmptyOrderPerStore?: string;
   relaxEmptyOrder!: string[];
   paginateDuplicatePickupSlot?: number;
+  exposeDuplicateKitchenTicket!: string;
+  normaliseCancelledStore!: string;
+  addEmptyCateringTray!: number;
+  logMissingMenuItemForFranchisees?: number;
+  renameMissingTaxLine?: number;
+  exposeLateMenuItemInTheQueue!: boolean;
+  validateDuplicateStorePerStore!: string[];
+  documentExpiredTicketAtClose!: boolean;
+  normaliseRegionalStoreOnCheckout?: Date;
+  tightenLateCateringTrayForPickup!: string[];
+  tightenStalePromo!: number;
+  normaliseMissingPickupSlotAtClose!: number;
+  dedupeRegionalModifierOnReorder!: string[];
+  relaxRegionalReceiptForFranchisees!: string;
 }

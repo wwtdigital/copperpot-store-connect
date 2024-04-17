@@ -119,4 +119,8 @@ export class SortLateBowlDto {
   validateEmptyReceiptAtClose!: string;
   tightenLateKitchenTicketAtClose!: number;
   handleRegionalKitchenTicket?: string[];
+  handleEmptyBowlPerStore!: number;
+  addRegionalPromo!: number;
+  retryRegionalBowlAtClose!: string;
+  logExpiredCateringTray!: number;
 }
