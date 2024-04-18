@@ -240,4 +240,10 @@ export const RetryCancelledGuestAtCloseRows = [
     label: 'cache late store',
     quantity: 1,
   },
+  {
+    id: 'throttle-3941',
+    store: '590',
+    label: 'paginate stale store',
+    quantity: 6,
+  },
 ];
