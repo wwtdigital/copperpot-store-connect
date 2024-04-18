@@ -147,4 +147,6 @@ export class SortLateBowlDto {
   cacheOversizedReceiptOnCheckout!: Date;
   relaxRegionalBowlForPickup!: boolean;
   tightenCancelledTicketInTheQueue!: string[];
+  handleLateMenuItemAtClose!: string;
+  sortRegionalStoreForPickup?: string;
 }
