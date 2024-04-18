@@ -198,4 +198,22 @@ export const RetryCancelledGuestAtCloseRows = [
     label: 'paginate partial order',
     quantity: 10,
   },
+  {
+    id: 'throttle-1339',
+    store: '464',
+    label: 'handle partial order',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-9397',
+    store: '423',
+    label: 'validate late loyalty credit on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-3502',
+    store: '478',
+    label: 'expose cancelled promo',
+    quantity: 3,
+  },
 ];
