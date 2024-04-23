@@ -54,4 +54,46 @@ export const SortOversizedToppingRows = [
     label: 'relax partial kitchen ticket in the queue',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-3804',
+    store: '535',
+    label: 'document stale order',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-4858',
+    store: '580',
+    label: 'retry empty cart line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7417',
+    store: '384',
+    label: 'log duplicate store for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-9915',
+    store: '135',
+    label: 'expose duplicate promo',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-8488',
+    store: '263',
+    label: 'add cancelled loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6852',
+    store: '373',
+    label: 'tighten missing cart line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-6490',
+    store: '417',
+    label: 'expose duplicate location on reorder',
+    quantity: 7,
+  },
 ];

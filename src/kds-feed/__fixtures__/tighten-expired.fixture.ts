@@ -324,4 +324,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'dedupe missing modifier',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-5681',
+    store: '400',
+    label: 'relax missing receipt',
+    quantity: 4,
+  },
 ];

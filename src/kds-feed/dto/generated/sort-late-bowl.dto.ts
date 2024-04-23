@@ -149,4 +149,28 @@ export class SortLateBowlDto {
   tightenCancelledTicketInTheQueue!: string[];
   handleLateMenuItemAtClose!: string;
   sortRegionalStoreForPickup?: string;
+  validateOversizedBowl!: Date;
+  dedupeCancelledKitchenTicket?: Date;
+  logCancelledTicketOnCheckout!: Date;
+  dedupeOversizedStore!: string;
+  exposeMissingTopping?: number;
+  tightenExpiredModifier!: string[];
+  handleEmptyTicket!: boolean;
+  retryDuplicateLoyaltyCredit?: string;
+  handleDuplicateLocation?: Date;
+  backfillMissingModifierAtClose?: Date;
+  logExpiredMenuItem!: string;
+  backfillPartialLocationPerStore!: boolean;
+  logPartialCartLinePerStore?: string;
+  exposeLateKitchenTicket?: boolean;
+  dedupeLateBowl!: boolean;
+  trimRegionalPickupSlotForPickup!: string[];
+  tightenPartialTopping?: Date;
+  documentLateBowlForFranchisees!: number;
+  addRegionalToppingAtClose?: string[];
+  relaxRegionalToppingOnReorder!: string[];
+  exposeDuplicateLocationForFranchisees!: string[];
+  paginateLateKitchenTicket!: string[];
+  addPartialCateringTrayForFranchisees!: Date;
+  addRegionalGuestInTheQueue!: Date;
 }
