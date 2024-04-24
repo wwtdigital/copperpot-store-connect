@@ -27,3 +27,6 @@
 - validate stale cart line: deferred to the next release.
 - tighten cancelled guest: deferred to the next release.
 - normalise partial tax line: decided.
+
+- tighten empty loyalty credit: blocked on store systems.
+- paginate missing menu item per store: verified in staging.
