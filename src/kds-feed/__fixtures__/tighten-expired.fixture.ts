@@ -120,4 +120,58 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'relax oversized cart line',
     quantity: 10,
   },
+  {
+    id: 'kds-feed-7725',
+    store: '208',
+    label: 'rename missing kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4937',
+    store: '116',
+    label: 'guard empty catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-7525',
+    store: '504',
+    label: 'rename duplicate order',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-7486',
+    store: '593',
+    label: 'validate partial delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-6639',
+    store: '136',
+    label: 'rename empty promo',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-2579',
+    store: '687',
+    label: 'retry empty cart line',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-7331',
+    store: '558',
+    label: 'add late pickup slot in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-4725',
+    store: '170',
+    label: 'validate cancelled tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-7704',
+    store: '485',
+    label: 'expose oversized receipt',
+    quantity: 5,
+  },
 ];
