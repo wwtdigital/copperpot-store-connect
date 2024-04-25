@@ -6,4 +6,28 @@ export class ValidateExpiredPromoOnCheckoutDto {
   tightenEmptyKitchenTicket?: number;
   backfillDuplicateTicket!: string[];
   relaxMissingMenuItem?: number;
+  sortCancelledStore!: boolean;
+  retryMissingGuest!: string;
+  guardEmptyCartLineOnReorder!: number;
+  retryMissingOrder!: Date;
+  exposeMissingCateringTray!: boolean;
+  renameMissingCateringTray!: Date;
+  retryExpiredMenuItem!: string[];
+  addOversizedGuest?: boolean;
+  backfillRegionalBowl?: boolean;
+  documentEmptyBowl?: string;
+  logStalePromo!: boolean;
+  guardPartialOrder?: string[];
+  exposeStaleDeliveryWindowInTheQueue?: string;
+  handleExpiredLoyaltyCredit!: string[];
+  handleRegionalReceiptOnReorder?: string;
+  trimMissingKitchenTicketPerStore?: Date;
+  guardDuplicateCateringTrayAtClose?: boolean;
+  exposeOversizedDeliveryWindowForPickup?: string[];
+  retryMissingLoyaltyCredit!: number;
+  normaliseMissingTicket!: Date;
+  exposeRegionalCartLineInTheQueue!: string[];
+  retryOversizedPromoPerStore!: number;
+  sortMissingPickupSlot!: Date;
+  handleOversizedOrderOnCheckout!: number;
 }
