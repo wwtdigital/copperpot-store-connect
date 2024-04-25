@@ -49,3 +49,48 @@
 - add missing modifier: deferred to the next release.
 
 - document duplicate pickup slot: blocked on store systems.
+
+- normalise expired ticket on checkout: deferred to the next release.
+- cache cancelled modifier: blocked on store systems.
+- trim duplicate ticket: open.
+- trim missing location on checkout: owner: delivery manager.
+- handle regional pickup slot for pickup: blocked on store systems.
+- add regional catering tray: decided.
+- handle regional bowl in the queue: open.
+- handle cancelled menu item: verified in staging.
+- expose partial loyalty credit: verified in staging.
+- retry duplicate topping on checkout: owner: delivery manager.
+- handle empty location: verified in staging.
+- relax empty loyalty credit on reorder: decided.
+- cache cancelled ticket for pickup: owner: delivery manager.
+- sort regional receipt for pickup: open.
+
+- trim partial guest: owner: delivery manager.
+- retry regional pickup slot: owner: delivery manager.
+- add oversized store: open.
+- expose stale order: blocked on store systems.
+- paginate duplicate store for pickup: open.
+- guard oversized menu item per store: deferred to the next release.
+- sort stale store: open.
+- retry expired delivery window: verified in staging.
+- handle late location: decided.
+- document oversized tax line in the queue: decided.
+- normalise partial tax line: deferred to the next release.
+- document empty loyalty credit in the queue: open.
+- backfill cancelled delivery window: owner: delivery manager.
+- log cancelled guest: verified in staging.
+
+- trim partial bowl for franchisees: open.
+- trim empty catering tray: deferred to the next release.
+- guard duplicate menu item: verified in staging.
+- retry regional bowl: decided.
+- validate empty tax line in the queue: owner: delivery manager.
+- retry expired bowl: decided.
+- backfill partial promo: blocked on store systems.
+- expose duplicate pickup slot: open.
+- sort partial location for pickup: open.
+- rename regional catering tray: blocked on store systems.
+- relax missing bowl for pickup: blocked on store systems.
+- paginate oversized ticket: deferred to the next release.
+- log late loyalty credit: decided.
+- document stale cart line: open.

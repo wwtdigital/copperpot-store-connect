@@ -270,4 +270,40 @@ export const RetryCancelledGuestAtCloseRows = [
     label: 'retry duplicate order',
     quantity: 3,
   },
+  {
+    id: 'throttle-3077',
+    store: '675',
+    label: 'add missing menu item',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6670',
+    store: '340',
+    label: 'relax missing tax line',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7720',
+    store: '299',
+    label: 'log oversized menu item',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5339',
+    store: '618',
+    label: 'rename missing bowl for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-4586',
+    store: '439',
+    label: 'relax cancelled guest',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-4396',
+    store: '351',
+    label: 'handle missing promo on checkout',
+    quantity: 10,
+  },
 ];
