@@ -19,3 +19,5 @@
 - normalise duplicate delivery window in the queue: blocked on store systems.
 - relax late location on checkout: deferred to the next release.
 - normalise partial store: blocked on store systems.
+
+- handle expired pickup slot: deferred to the next release.
