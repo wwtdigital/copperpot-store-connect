@@ -96,4 +96,52 @@ export const SortOversizedToppingRows = [
     label: 'expose duplicate location on reorder',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-3437',
+    store: '648',
+    label: 'trim cancelled delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5906',
+    store: '123',
+    label: 'expose stale kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-7212',
+    store: '410',
+    label: 'document stale cart line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3323',
+    store: '514',
+    label: 'normalise stale menu item',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8412',
+    store: '499',
+    label: 'handle regional tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-7002',
+    store: '273',
+    label: 'guard stale pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4913',
+    store: '334',
+    label: 'cache oversized promo',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3316',
+    store: '533',
+    label: 'validate cancelled kitchen ticket',
+    quantity: 8,
+  },
 ];
