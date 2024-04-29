@@ -330,4 +330,46 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'relax missing receipt',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-5426',
+    store: '298',
+    label: 'relax duplicate bowl for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-3711',
+    store: '340',
+    label: 'dedupe late store',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-9593',
+    store: '337',
+    label: 'add duplicate tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-9321',
+    store: '633',
+    label: 'tighten stale ticket',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3252',
+    store: '286',
+    label: 'dedupe oversized modifier',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9254',
+    store: '491',
+    label: 'handle late order for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-2434',
+    store: '434',
+    label: 'backfill duplicate order on reorder',
+    quantity: 7,
+  },
 ];
