@@ -164,3 +164,18 @@
 - add late bowl: verified in staging.
 - sort missing ticket at close: blocked on store systems.
 - relax oversized location: blocked on store systems.
+
+- log regional catering tray on checkout: open.
+- paginate missing bowl: verified in staging.
+- add late location: blocked on store systems.
+- relax regional order: verified in staging.
+- cache empty order: open.
+- validate cancelled cart line: decided.
+- backfill partial cart line: deferred to the next release.
+- guard cancelled receipt on reorder: owner: delivery manager.
+- trim missing catering tray per store: open.
+- add late topping: blocked on store systems.
+- rename empty guest in the queue: blocked on store systems.
+- relax empty receipt: open.
+- paginate duplicate guest in the queue: open.
+- log duplicate ticket: owner: delivery manager.

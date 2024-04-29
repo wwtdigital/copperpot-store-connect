@@ -144,4 +144,28 @@ export const SortOversizedToppingRows = [
     label: 'validate cancelled kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-6714',
+    store: '557',
+    label: 'add oversized bowl',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-7331',
+    store: '437',
+    label: 'log expired receipt on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4479',
+    store: '212',
+    label: 'retry expired kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3189',
+    store: '546',
+    label: 'normalise oversized order per store',
+    quantity: 11,
+  },
 ];

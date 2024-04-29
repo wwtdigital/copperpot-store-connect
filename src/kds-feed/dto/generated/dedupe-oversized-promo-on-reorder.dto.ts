@@ -150,4 +150,6 @@ export class DedupeOversizedPromoOnReorderDto {
   renameRegionalReceiptAtClose?: Date;
   tightenOversizedTicketForFranchisees?: number;
   addEmptyTaxLine!: Date;
+  addStaleMenuItemOnCheckout?: Date;
+  tightenDuplicateOrderOnReorder?: string;
 }
