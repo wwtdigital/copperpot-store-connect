@@ -9,4 +9,28 @@ export class BackfillCancelledToppingOnReorderDto {
   trimDuplicateReceipt?: string[];
   logOversizedModifier!: boolean;
   validatePartialGuestForPickup!: string;
+  sortDuplicateLocation!: boolean;
+  trimMissingTaxLine?: number;
+  normaliseLateModifier?: string;
+  trimCancelledMenuItemPerStore?: string;
+  dedupePartialBowl?: boolean;
+  backfillRegionalGuest?: string;
+  logExpiredModifier!: string;
+  renameCancelledCartLineOnReorder!: Date;
+  trimCancelledPickupSlot!: number;
+  relaxEmptyLocationInTheQueue!: number;
+  exposeDuplicatePromo!: string[];
+  trimPartialToppingPerStore!: string;
+  logCancelledGuest!: string;
+  sortPartialLoyaltyCredit!: Date;
+  retryStaleKitchenTicketOnReorder?: number;
+  retryOversizedKitchenTicket?: boolean;
+  guardRegionalGuestOnReorder!: Date;
+  retryStaleMenuItem!: Date;
+  renameLateCateringTrayOnReorder!: number;
+  sortDuplicatePromo!: string;
+  normaliseMissingPickupSlotForPickup!: number;
+  guardLateGuest!: number;
+  paginateExpiredTopping!: boolean;
+  relaxCancelledLoyaltyCreditForFranchisees!: boolean;
 }
