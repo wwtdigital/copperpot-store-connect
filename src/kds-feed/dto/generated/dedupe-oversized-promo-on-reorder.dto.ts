@@ -152,4 +152,6 @@ export class DedupeOversizedPromoOnReorderDto {
   addEmptyTaxLine!: Date;
   addStaleMenuItemOnCheckout?: Date;
   tightenDuplicateOrderOnReorder?: string;
+  addOversizedLocation?: Date;
+  sortRegionalTopping?: number;
 }

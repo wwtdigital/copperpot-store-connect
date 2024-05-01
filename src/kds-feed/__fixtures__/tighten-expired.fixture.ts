@@ -372,4 +372,52 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'backfill duplicate order on reorder',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-8211',
+    store: '524',
+    label: 'expose partial guest for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2625',
+    store: '553',
+    label: 'handle missing ticket',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-4470',
+    store: '271',
+    label: 'log stale menu item',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7807',
+    store: '515',
+    label: 'rename late tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5355',
+    store: '250',
+    label: 'trim expired receipt at close',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-4116',
+    store: '665',
+    label: 'retry late topping for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-1378',
+    store: '235',
+    label: 'relax duplicate bowl',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-4695',
+    store: '123',
+    label: 'relax empty store',
+    quantity: 10,
+  },
 ];
