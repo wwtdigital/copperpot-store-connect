@@ -148,4 +148,10 @@ export class DedupeOversizedPromoOnReorderDto {
   retryPartialPickupSlot?: Date;
   paginateStaleLoyaltyCreditOnReorder!: Date;
   renameRegionalReceiptAtClose?: Date;
+  tightenOversizedTicketForFranchisees?: number;
+  addEmptyTaxLine!: Date;
+  addStaleMenuItemOnCheckout?: Date;
+  tightenDuplicateOrderOnReorder?: string;
+  addOversizedLocation?: Date;
+  sortRegionalTopping?: number;
 }
