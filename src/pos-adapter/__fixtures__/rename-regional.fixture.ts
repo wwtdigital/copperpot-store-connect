@@ -2040,4 +2040,10 @@ export const RenameRegionalBowlRows = [
     label: 'cache late menu item',
     quantity: 4,
   },
+  {
+    id: 'infra-8911',
+    store: '418',
+    label: 'trim expired modifier',
+    quantity: 2,
+  },
 ];

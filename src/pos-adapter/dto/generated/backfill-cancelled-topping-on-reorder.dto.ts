@@ -33,4 +33,13 @@ export class BackfillCancelledToppingOnReorderDto {
   guardLateGuest!: number;
   paginateExpiredTopping!: boolean;
   relaxCancelledLoyaltyCreditForFranchisees!: boolean;
+  renameCancelledPromoForFranchisees!: string[];
+  cacheStaleTaxLine!: string[];
+  tightenDuplicateBowlInTheQueue!: string;
+  trimStalePickupSlotForPickup!: boolean;
+  addExpiredOrder!: string[];
+  addPartialDeliveryWindow!: boolean;
+  backfillStaleLocationForPickup!: boolean;
+  paginateCancelledPickupSlotForFranchisees!: Date;
+  retryMissingTaxLine!: number;
 }

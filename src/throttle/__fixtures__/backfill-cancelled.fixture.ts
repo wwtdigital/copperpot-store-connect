@@ -504,4 +504,10 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'log late modifier',
     quantity: 11,
   },
+  {
+    id: 'infra-1410',
+    store: '545',
+    label: 'rename duplicate loyalty credit',
+    quantity: 12,
+  },
 ];
