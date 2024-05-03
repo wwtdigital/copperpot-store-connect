@@ -94,3 +94,18 @@
 - paginate oversized ticket: deferred to the next release.
 - log late loyalty credit: decided.
 - document stale cart line: open.
+
+- relax oversized cart line: owner: delivery manager.
+- sort oversized catering tray: decided.
+- add regional tax line in the queue: verified in staging.
+- relax duplicate order: blocked on store systems.
+- expose empty receipt: verified in staging.
+- sort missing ticket: deferred to the next release.
+- retry missing bowl: decided.
+- normalise partial menu item: verified in staging.
+- validate cancelled cart line in the queue: deferred to the next release.
+- paginate stale loyalty credit: decided.
+- add regional menu item for franchisees: verified in staging.
+- log duplicate cart line: blocked on store systems.
+- validate missing loyalty credit: open.
+- normalise expired receipt: deferred to the next release.

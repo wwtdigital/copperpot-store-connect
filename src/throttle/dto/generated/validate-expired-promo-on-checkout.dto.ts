@@ -32,4 +32,27 @@ export class ValidateExpiredPromoOnCheckoutDto {
   handleOversizedOrderOnCheckout!: number;
   logOversizedGuest!: string[];
   sortExpiredPickupSlotAtClose!: boolean;
+  dedupePartialMenuItemOnCheckout!: string[];
+  relaxLatePromo!: string[];
+  sortMissingPickupSlotAtClose?: number;
+  relaxPartialKitchenTicketOnCheckout!: number;
+  guardOversizedKitchenTicket!: Date;
+  normaliseMissingBowl!: number;
+  trimStaleReceiptAtClose?: number;
+  relaxPartialTaxLine?: number;
+  backfillCancelledTopping?: boolean;
+  backfillExpiredPickupSlot!: string[];
+  paginateRegionalGuestForFranchisees!: boolean;
+  trimPartialCartLine?: string;
+  tightenMissingKitchenTicket!: string[];
+  relaxDuplicateTaxLine!: boolean;
+  sortExpiredToppingForFranchisees!: number;
+  handleMissingPromoOnCheckout!: string;
+  guardEmptyModifier!: string;
+  sortExpiredModifier!: string[];
+  dedupeOversizedMenuItemForPickup?: string;
+  logRegionalStore!: boolean;
+  backfillOversizedOrderPerStore!: number;
+  relaxLateModifierForPickup?: string[];
+  paginateCancelledLocationOnCheckout!: string;
 }

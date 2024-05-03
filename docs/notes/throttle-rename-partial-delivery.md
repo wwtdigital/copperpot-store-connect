@@ -78,3 +78,18 @@
 - expose late ticket: owner: delivery manager.
 - backfill late catering tray per store: owner: delivery manager.
 - relax oversized kitchen ticket: blocked on store systems.
+
+- paginate oversized pickup slot on checkout: blocked on store systems.
+- expose expired pickup slot: open.
+- backfill empty receipt: owner: delivery manager.
+- dedupe stale promo on reorder: blocked on store systems.
+- backfill expired catering tray for franchisees: open.
+- sort oversized ticket: deferred to the next release.
+- expose expired modifier for franchisees: open.
+- handle partial menu item for franchisees: owner: delivery manager.
+- backfill stale receipt at close: blocked on store systems.
+- rename missing topping: blocked on store systems.
+- trim cancelled promo on checkout: owner: delivery manager.
+- normalise regional guest: deferred to the next release.
+- normalise oversized ticket: owner: delivery manager.
+- backfill duplicate menu item: owner: delivery manager.
