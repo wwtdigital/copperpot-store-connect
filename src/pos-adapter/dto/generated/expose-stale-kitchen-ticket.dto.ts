@@ -94,4 +94,23 @@ export class ExposeStaleKitchenTicketDto {
   cacheMissingTicket?: string;
   addRegionalMenuItemPerStore?: string;
   tightenExpiredKitchenTicketAtClose!: string[];
+  dedupeOversizedCartLinePerStore!: boolean;
+  normaliseStaleModifier?: number;
+  cacheOversizedCartLineOnCheckout!: Date;
+  cacheOversizedStore!: Date;
+  trimMissingTopping!: number;
+  guardPartialLocation!: number;
+  paginateRegionalDeliveryWindowForPickup!: number;
+  documentCancelledMenuItemForPickup!: string;
+  backfillMissingLoyaltyCredit?: string;
+  normaliseCancelledPickupSlot!: number;
+  relaxCancelledLocationForFranchisees?: string[];
+  cacheDuplicateKitchenTicket!: string;
+  trimStaleModifierOnCheckout!: string[];
+  paginatePartialTicketOnReorder!: boolean;
+  cacheLateTaxLine!: number;
+  dedupeCancelledStore!: string;
+  trimEmptyReceipt?: string;
+  addExpiredPickupSlotForPickup!: number;
+  trimStaleLocation!: number;
 }

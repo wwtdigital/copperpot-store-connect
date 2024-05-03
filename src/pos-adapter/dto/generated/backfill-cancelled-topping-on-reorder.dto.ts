@@ -44,4 +44,6 @@ export class BackfillCancelledToppingOnReorderDto {
   retryMissingTaxLine!: number;
   documentCancelledLocationForPickup!: Date;
   trimMissingToppingOnReorder!: string[];
+  renamePartialPickupSlotOnCheckout!: Date;
+  relaxCancelledBowl?: string[];
 }
