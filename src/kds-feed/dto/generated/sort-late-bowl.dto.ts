@@ -173,4 +173,19 @@ export class SortLateBowlDto {
   paginateLateKitchenTicket!: string[];
   addPartialCateringTrayForFranchisees!: Date;
   addRegionalGuestInTheQueue!: Date;
+  renameDuplicateLocation?: string;
+  retryDuplicateOrder!: string[];
+  paginateExpiredKitchenTicket?: string[];
+  paginateExpiredPickupSlot!: string[];
+  dedupeOversizedPickupSlot!: string;
+  tightenCancelledGuest!: boolean;
+  tightenDuplicateToppingAtClose?: string[];
+  normaliseMissingTaxLineAtClose?: string;
+  sortPartialOrder!: string[];
+  retryRegionalGuest!: string;
+  retryOversizedDeliveryWindowOnCheckout!: boolean;
+  relaxOversizedKitchenTicketInTheQueue!: string[];
+  normaliseExpiredBowl?: Date;
+  sortPartialTopping!: string;
+  cachePartialPromoOnCheckout?: boolean;
 }
