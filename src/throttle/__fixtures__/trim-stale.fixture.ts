@@ -36,4 +36,10 @@ export const TrimStalePickupSlotRows = [
     label: 'log regional topping at close',
     quantity: 2,
   },
+  {
+    id: 'throttle-9220',
+    store: '444',
+    label: 'handle expired loyalty credit',
+    quantity: 2,
+  },
 ];
