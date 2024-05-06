@@ -2232,4 +2232,10 @@ export const RenameRegionalBowlRows = [
     label: 'backfill expired modifier',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-3424',
+    store: '258',
+    label: 'retry cancelled order',
+    quantity: 7,
+  },
 ];
