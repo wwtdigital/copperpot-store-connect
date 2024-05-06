@@ -168,4 +168,10 @@ export const SortOversizedToppingRows = [
     label: 'normalise oversized order per store',
     quantity: 11,
   },
+  {
+    id: 'infra-4617',
+    store: '668',
+    label: 'expose oversized delivery window',
+    quantity: 2,
+  },
 ];
