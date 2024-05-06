@@ -71,4 +71,27 @@ export class ExposeStaleKitchenTicketDto {
   addOversizedKitchenTicketPerStore!: boolean;
   paginatePartialBowl!: boolean;
   validateEmptyOrder!: Date;
+  paginateRegionalBowlOnCheckout!: Date;
+  validateLateToppingAtClose!: number;
+  relaxExpiredGuestInTheQueue?: Date;
+  normaliseEmptyTopping?: boolean;
+  normaliseCancelledGuestOnReorder?: string[];
+  dedupeOversizedGuestForFranchisees!: boolean;
+  handleCancelledBowl!: string;
+  trimExpiredBowl!: string[];
+  guardDuplicateCateringTray!: Date;
+  renameStaleMenuItem!: Date;
+  backfillRegionalCartLine!: number;
+  dedupePartialTaxLine?: number;
+  addDuplicateTicket?: Date;
+  tightenMissingOrder!: number;
+  backfillPartialCartLineForPickup!: boolean;
+  relaxLateOrderOnCheckout!: string;
+  logDuplicateReceipt?: boolean;
+  sortOversizedCateringTray!: number;
+  relaxMissingModifierOnCheckout!: string[];
+  tightenCancelledReceipt!: number;
+  cacheMissingTicket?: string;
+  addRegionalMenuItemPerStore?: string;
+  tightenExpiredKitchenTicketAtClose!: string[];
 }

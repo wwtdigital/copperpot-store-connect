@@ -24,4 +24,28 @@ export class RenameStaleCartLineDto {
   validateEmptyMenuItem!: boolean;
   exposeMissingTaxLine!: string[];
   normaliseMissingOrderOnCheckout!: string[];
+  cacheStaleStore!: string;
+  retryOversizedModifier!: number;
+  tightenMissingTaxLineForPickup!: string;
+  exposeDuplicateBowl?: boolean;
+  normalisePartialOrder?: string;
+  addDuplicateOrder?: string;
+  sortEmptyLocation!: Date;
+  sortEmptyDeliveryWindow!: boolean;
+  backfillRegionalStore!: number;
+  guardMissingBowl!: Date;
+  dedupeDuplicateGuest!: Date;
+  tightenCancelledStore!: number;
+  sortStaleTicketInTheQueue!: Date;
+  relaxCancelledPickupSlot?: number;
+  addDuplicateTaxLineForFranchisees?: string;
+  relaxRegionalLoyaltyCredit!: string;
+  documentMissingCateringTrayForFranchisees!: Date;
+  guardStaleCartLine!: boolean;
+  retryStaleStore!: string;
+  tightenPartialKitchenTicket?: number;
+  logPartialStore!: string[];
+  normaliseRegionalKitchenTicket?: string;
+  sortExpiredDeliveryWindow!: number;
+  guardPartialOrderAtClose!: Date;
 }
