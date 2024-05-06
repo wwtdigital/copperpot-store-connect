@@ -2220,4 +2220,16 @@ export const RenameRegionalBowlRows = [
     label: 'handle expired tax line',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-4619',
+    store: '434',
+    label: 'handle late menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6571',
+    store: '526',
+    label: 'backfill expired modifier',
+    quantity: 4,
+  },
 ];

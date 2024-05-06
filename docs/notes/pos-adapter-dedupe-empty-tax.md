@@ -29,3 +29,8 @@
 - cache cancelled order on reorder: verified in staging.
 - cache partial promo for pickup: blocked on store systems.
 - backfill missing modifier per store: decided.
+
+- retry partial cart line: blocked on store systems.
+- paginate partial catering tray for franchisees: open.
+- guard regional location: verified in staging.
+- document missing loyalty credit: deferred to the next release.
