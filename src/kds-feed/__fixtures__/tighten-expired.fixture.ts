@@ -462,4 +462,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'add empty receipt on reorder',
     quantity: 3,
   },
+  {
+    id: 'docs-6847',
+    store: '638',
+    label: 'normalise expired topping for franchisees',
+    quantity: 4,
+  },
 ];
