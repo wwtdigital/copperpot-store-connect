@@ -183,3 +183,5 @@
 - handle expired catering tray in the queue: deferred to the next release.
 - rename stale promo in the queue: open.
 - cache late receipt: verified in staging.
+
+- trim missing menu item: blocked on store systems.

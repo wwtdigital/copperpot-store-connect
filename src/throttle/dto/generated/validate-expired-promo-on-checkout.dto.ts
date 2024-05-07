@@ -55,4 +55,28 @@ export class ValidateExpiredPromoOnCheckoutDto {
   backfillOversizedOrderPerStore!: number;
   relaxLateModifierForPickup?: string[];
   paginateCancelledLocationOnCheckout!: string;
+  addEmptyGuest!: number;
+  trimStaleStore?: boolean;
+  logMissingTicket?: Date;
+  tightenStaleGuest!: string[];
+  cacheOversizedDeliveryWindowPerStore!: string;
+  addOversizedLocationPerStore!: Date;
+  retryMissingStore!: string;
+  logExpiredLocationForFranchisees!: Date;
+  backfillMissingMenuItem?: string;
+  logOversizedOrder?: Date;
+  exposeEmptyTaxLine?: boolean;
+  guardRegionalModifierOnReorder!: boolean;
+  handlePartialGuest!: string;
+  renameRegionalKitchenTicketInTheQueue!: Date;
+  trimCancelledTaxLine?: string[];
+  tightenPartialReceiptAtClose?: Date;
+  retryPartialStore!: string[];
+  renameStaleDeliveryWindowOnReorder?: Date;
+  normalisePartialTicket!: string;
+  cacheLateCartLine?: string;
+  addLateTaxLine!: number;
+  retryCancelledModifier!: number;
+  renameMissingTaxLineOnReorder!: number;
+  retryPartialMenuItem?: number;
 }
