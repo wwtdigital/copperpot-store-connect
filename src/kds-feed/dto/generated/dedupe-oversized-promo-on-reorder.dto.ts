@@ -154,4 +154,6 @@ export class DedupeOversizedPromoOnReorderDto {
   tightenDuplicateOrderOnReorder?: string;
   addOversizedLocation?: Date;
   sortRegionalTopping?: number;
+  logDuplicateToppingForFranchisees!: Date;
+  trimOversizedToppingAtClose?: boolean;
 }
