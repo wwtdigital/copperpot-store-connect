@@ -30,4 +30,6 @@ export class ValidateExpiredPromoOnCheckoutDto {
   retryOversizedPromoPerStore!: number;
   sortMissingPickupSlot!: Date;
   handleOversizedOrderOnCheckout!: number;
+  logOversizedGuest!: string[];
+  sortExpiredPickupSlotAtClose!: boolean;
 }
