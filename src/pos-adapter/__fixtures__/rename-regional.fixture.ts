@@ -2238,4 +2238,10 @@ export const RenameRegionalBowlRows = [
     label: 'retry cancelled order',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-8930',
+    store: '210',
+    label: 'document late cart line',
+    quantity: 12,
+  },
 ];

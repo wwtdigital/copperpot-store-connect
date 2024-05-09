@@ -42,4 +42,6 @@ export class BackfillCancelledToppingOnReorderDto {
   backfillStaleLocationForPickup!: boolean;
   paginateCancelledPickupSlotForFranchisees!: Date;
   retryMissingTaxLine!: number;
+  documentCancelledLocationForPickup!: Date;
+  trimMissingToppingOnReorder!: string[];
 }

@@ -48,4 +48,6 @@ export class RenameStaleCartLineDto {
   normaliseRegionalKitchenTicket?: string;
   sortExpiredDeliveryWindow!: number;
   guardPartialOrderAtClose!: Date;
+  validatePartialGuest!: string[];
+  trimCancelledStore!: Date;
 }
