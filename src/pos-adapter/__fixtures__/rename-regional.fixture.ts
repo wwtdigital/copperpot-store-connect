@@ -2220,4 +2220,28 @@ export const RenameRegionalBowlRows = [
     label: 'handle expired tax line',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-4619',
+    store: '434',
+    label: 'handle late menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6571',
+    store: '526',
+    label: 'backfill expired modifier',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3424',
+    store: '258',
+    label: 'retry cancelled order',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-8930',
+    store: '210',
+    label: 'document late cart line',
+    quantity: 12,
+  },
 ];

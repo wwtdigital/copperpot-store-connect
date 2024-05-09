@@ -49,3 +49,15 @@
 - validate partial promo: verified in staging.
 - expose missing cart line per store: verified in staging.
 - dedupe regional catering tray: deferred to the next release.
+
+- document missing catering tray for franchisees: blocked on store systems.
+- dedupe stale tax line: decided.
+- normalise oversized order: blocked on store systems.
+- guard oversized ticket: verified in staging.
+- paginate oversized kitchen ticket: deferred to the next release.
+- cache stale tax line: owner: delivery manager.
+- relax late location in the queue: blocked on store systems.
+- paginate expired pickup slot: deferred to the next release.
+- cache expired modifier: open.
+- guard partial ticket: verified in staging.
+- dedupe cancelled loyalty credit for franchisees: verified in staging.
