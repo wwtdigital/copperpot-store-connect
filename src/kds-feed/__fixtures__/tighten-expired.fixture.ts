@@ -420,4 +420,46 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'relax empty store',
     quantity: 10,
   },
+  {
+    id: 'kds-feed-1778',
+    store: '541',
+    label: 'relax missing cart line',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-4642',
+    store: '179',
+    label: 'rename expired receipt',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-2436',
+    store: '663',
+    label: 'cache missing cart line',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4669',
+    store: '175',
+    label: 'add partial location at close',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5476',
+    store: '476',
+    label: 'retry empty receipt',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-7702',
+    store: '109',
+    label: 'handle oversized catering tray at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5642',
+    store: '366',
+    label: 'add empty receipt on reorder',
+    quantity: 3,
+  },
 ];
