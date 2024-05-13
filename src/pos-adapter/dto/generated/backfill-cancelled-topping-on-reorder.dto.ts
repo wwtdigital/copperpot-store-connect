@@ -46,4 +46,26 @@ export class BackfillCancelledToppingOnReorderDto {
   trimMissingToppingOnReorder!: string[];
   renamePartialPickupSlotOnCheckout!: Date;
   relaxCancelledBowl?: string[];
+  exposeRegionalLoyaltyCreditForPickup!: string;
+  cacheOversizedCateringTray!: Date;
+  sortOversizedToppingOnReorder!: Date;
+  exposeDuplicateMenuItem?: Date;
+  sortLateKitchenTicketForFranchisees!: boolean;
+  relaxLateOrderOnCheckout!: boolean;
+  renameOversizedPromo!: number;
+  renameStaleBowl?: string[];
+  handleExpiredOrder!: number;
+  retryOversizedLoyaltyCreditAtClose!: string[];
+  dedupeExpiredTopping!: string;
+  trimEmptyBowl!: string;
+  backfillPartialPickupSlotInTheQueue!: string;
+  cachePartialCartLine?: boolean;
+  sortEmptyPickupSlot!: number;
+  exposeRegionalLocation!: Date;
+  handleStalePromo!: Date;
+  addRegionalOrderPerStore!: number;
+  tightenCancelledCateringTrayAtClose!: string[];
+  addLateLoyaltyCredit!: number;
+  sortPartialTopping?: string;
+  backfillCancelledKitchenTicket!: Date;
 }
