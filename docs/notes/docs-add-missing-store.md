@@ -1,0 +1,31 @@
+# docs: add missing store at close
+
+- paginate duplicate order: owner: delivery manager.
+- dedupe expired guest: deferred to the next release.
+- tighten oversized loyalty credit: blocked on store systems.
+- sort oversized guest: decided.
+- validate oversized location: owner: delivery manager.
+- handle oversized guest for franchisees: open.
+- validate duplicate receipt for franchisees: owner: delivery manager.
+- cache missing tax line: verified in staging.
+- add empty pickup slot: open.
+- expose oversized menu item per store: open.
+- normalise regional modifier: open.
+- validate expired promo in the queue: owner: delivery manager.
+- rename expired cart line: open.
+- add oversized promo for pickup: blocked on store systems.
+
+- trim oversized topping: owner: delivery manager.
+- handle oversized promo on reorder: owner: delivery manager.
+- log late loyalty credit: open.
+- log stale kitchen ticket: decided.
+- sort late loyalty credit per store: owner: delivery manager.
+- relax stale tax line: blocked on store systems.
+- relax empty kitchen ticket on reorder: deferred to the next release.
+- dedupe expired delivery window: deferred to the next release.
+- cache duplicate tax line: open.
+- cache regional order: blocked on store systems.
+- normalise late pickup slot: verified in staging.
+- normalise empty kitchen ticket: owner: delivery manager.
+- log oversized guest: decided.
+- add oversized receipt: owner: delivery manager.

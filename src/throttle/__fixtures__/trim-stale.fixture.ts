@@ -42,4 +42,22 @@ export const TrimStalePickupSlotRows = [
     label: 'handle expired loyalty credit',
     quantity: 2,
   },
+  {
+    id: 'docs-4733',
+    store: '322',
+    label: 'guard late location',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9515',
+    store: '398',
+    label: 'expose late promo in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'docs-4651',
+    store: '288',
+    label: 'document missing loyalty credit',
+    quantity: 5,
+  },
 ];

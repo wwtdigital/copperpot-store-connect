@@ -690,4 +690,40 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'guard stale topping',
     quantity: 12,
   },
+  {
+    id: 'docs-1070',
+    store: '438',
+    label: 'cache cancelled tax line',
+    quantity: 10,
+  },
+  {
+    id: 'docs-2248',
+    store: '564',
+    label: 'expose empty bowl for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'docs-7801',
+    store: '155',
+    label: 'retry missing location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'docs-7326',
+    store: '417',
+    label: 'guard regional catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'docs-6582',
+    store: '515',
+    label: 'cache stale delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6559',
+    store: '505',
+    label: 'cache late tax line in the queue',
+    quantity: 8,
+  },
 ];
