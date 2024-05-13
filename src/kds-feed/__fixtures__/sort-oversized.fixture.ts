@@ -270,4 +270,10 @@ export const SortOversizedToppingRows = [
     label: 'trim regional modifier for pickup',
     quantity: 9,
   },
+  {
+    id: 'docs-4757',
+    store: '645',
+    label: 'add stale cart line',
+    quantity: 11,
+  },
 ];
