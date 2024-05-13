@@ -492,4 +492,52 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'document expired cart line',
     quantity: 1,
   },
+  {
+    id: 'docs-8704',
+    store: '272',
+    label: 'trim partial catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'docs-2236',
+    store: '605',
+    label: 'handle cancelled kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'docs-1138',
+    store: '464',
+    label: 'relax empty receipt on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'docs-5704',
+    store: '267',
+    label: 'relax partial bowl',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2958',
+    store: '536',
+    label: 'tighten missing ticket',
+    quantity: 5,
+  },
+  {
+    id: 'docs-1619',
+    store: '376',
+    label: 'add missing topping',
+    quantity: 7,
+  },
+  {
+    id: 'docs-7318',
+    store: '624',
+    label: 'validate oversized receipt in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8038',
+    store: '516',
+    label: 'document expired delivery window',
+    quantity: 9,
+  },
 ];
