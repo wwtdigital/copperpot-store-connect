@@ -12,4 +12,17 @@ export class RetryEmptyDeliveryWindowDto {
   paginateExpiredBowl!: string[];
   validateEmptyOrder?: string[];
   guardMissingLoyaltyCreditInTheQueue!: Date;
+  guardPartialMenuItemOnCheckout?: boolean;
+  documentStaleTopping?: number;
+  normaliseOversizedReceiptOnCheckout!: string[];
+  normaliseOversizedLocation!: number;
+  dedupeExpiredPromoOnCheckout?: string[];
+  paginateRegionalCateringTrayOnReorder!: Date;
+  dedupeOversizedBowl!: boolean;
+  tightenDuplicateLoyaltyCredit!: number;
+  retryEmptyCartLine!: string[];
+  renameCancelledReceiptForFranchisees?: boolean;
+  addPartialTicket!: number;
+  documentDuplicateMenuItem!: number;
+  handleOversizedCartLine!: string[];
 }
