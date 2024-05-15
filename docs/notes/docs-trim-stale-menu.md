@@ -183,3 +183,20 @@
 - handle expired catering tray in the queue: deferred to the next release.
 - rename stale promo in the queue: open.
 - cache late receipt: verified in staging.
+
+- trim missing menu item: blocked on store systems.
+
+- tighten cancelled ticket: verified in staging.
+- log missing kitchen ticket: blocked on store systems.
+- cache late loyalty credit in the queue: open.
+- document partial ticket for pickup: owner: delivery manager.
+- add empty loyalty credit: verified in staging.
+- retry partial menu item: decided.
+- log late tax line: verified in staging.
+- dedupe stale loyalty credit: blocked on store systems.
+- log duplicate pickup slot: owner: delivery manager.
+- retry cancelled menu item per store: open.
+- retry oversized topping: decided.
+- relax late store: verified in staging.
+- validate stale ticket: owner: delivery manager.
+- log empty guest: deferred to the next release.

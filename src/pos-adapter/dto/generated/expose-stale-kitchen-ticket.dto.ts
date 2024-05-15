@@ -133,4 +133,28 @@ export class ExposeStaleKitchenTicketDto {
   relaxOversizedLocation?: string[];
   addStaleLocation?: number;
   renameLateKitchenTicket!: number;
+  renamePartialReceiptForFranchisees!: Date;
+  dedupeExpiredLoyaltyCredit?: string[];
+  validateRegionalTicket?: number;
+  renameDuplicateKitchenTicketOnCheckout?: Date;
+  sortMissingCartLine?: number;
+  paginateEmptyLoyaltyCreditForPickup!: string[];
+  trimMissingPickupSlotOnReorder?: string[];
+  logExpiredTicket?: string[];
+  backfillRegionalKitchenTicket!: string;
+  normaliseCancelledTaxLine!: string[];
+  retryOversizedStore?: boolean;
+  retryDuplicateReceiptOnReorder?: string;
+  backfillExpiredMenuItem!: string[];
+  guardEmptyPickupSlot!: boolean;
+  backfillRegionalReceiptForFranchisees!: string;
+  exposeStaleLoyaltyCreditPerStore?: string[];
+  exposeRegionalTaxLine!: string;
+  guardOversizedTicket!: Date;
+  trimPartialStore?: string[];
+  logEmptyCateringTrayForFranchisees!: number;
+  cacheOversizedTopping?: string;
+  tightenLateLoyaltyCredit!: Date;
+  documentExpiredTaxLineOnReorder?: boolean;
+  retryEmptyPickupSlotAtClose?: Date;
 }
