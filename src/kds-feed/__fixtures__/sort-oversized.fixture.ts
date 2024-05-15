@@ -294,4 +294,10 @@ export const SortOversizedToppingRows = [
     label: 'log missing ticket',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-5101',
+    store: '264',
+    label: 'tighten regional pickup slot for pickup',
+    quantity: 8,
+  },
 ];
