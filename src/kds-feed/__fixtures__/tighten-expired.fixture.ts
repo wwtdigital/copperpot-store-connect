@@ -468,4 +468,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'normalise expired topping for franchisees',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-6006',
+    store: '659',
+    label: 'relax cancelled guest',
+    quantity: 8,
+  },
 ];
