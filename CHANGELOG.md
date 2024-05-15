@@ -4,6 +4,7 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 
 ## Unreleased
 
+- Fleet promotion in Terraform (`infra/`): pilot, region, all, each behind a health gate; the tag-triggered workflow plans every stage and records the release marker; `scripts/rollback.sh`.
 - CI on the host's workflows; the reusable `ci-template.yml` for the other Store Systems repositories.
 - Change template, code owners, weekly dependency updates.
 

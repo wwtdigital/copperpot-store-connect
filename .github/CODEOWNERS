@@ -7,3 +7,6 @@
 /.github/workflows/         @wwtdigital/store-systems @wwtdigital/platform
 /docker-compose.yml         @wwtdigital/store-systems
 /Dockerfile                 @wwtdigital/store-systems @wwtdigital/platform
+/infra/                     @wwtdigital/store-systems @wwtdigital/platform
+/scripts/                   @wwtdigital/store-systems @wwtdigital/platform
+/docs/release.md            @wwtdigital/store-systems @wwtdigital/platform
