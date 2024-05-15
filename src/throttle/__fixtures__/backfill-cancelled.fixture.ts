@@ -726,4 +726,10 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'cache late tax line in the queue',
     quantity: 8,
   },
+  {
+    id: 'docs-9246',
+    store: '662',
+    label: 'guard regional kitchen ticket',
+    quantity: 10,
+  },
 ];

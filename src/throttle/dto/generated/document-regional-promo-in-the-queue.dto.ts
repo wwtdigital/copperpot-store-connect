@@ -204,4 +204,28 @@ export class DocumentRegionalPromoInTheQueueDto {
   handleDuplicatePromoOnCheckout!: number;
   dedupeDuplicateTaxLineOnReorder!: number;
   dedupeMissingStoreOnReorder!: string;
+  dedupeOversizedMenuItem!: string;
+  normaliseCancelledPickupSlotPerStore!: string;
+  documentStaleStore?: boolean;
+  paginateExpiredBowlAtClose!: number;
+  trimRegionalOrderPerStore!: Date;
+  backfillLateKitchenTicket!: boolean;
+  logStaleDeliveryWindow!: number;
+  backfillDuplicateDeliveryWindowForPickup!: Date;
+  renameEmptyReceiptOnCheckout?: Date;
+  trimEmptyLoyaltyCredit?: string[];
+  exposeLateCateringTray!: boolean;
+  guardDuplicateDeliveryWindow!: Date;
+  tightenEmptyBowl!: boolean;
+  retryPartialBowl?: Date;
+  documentExpiredLocationForPickup?: number;
+  paginateEmptyCateringTray!: string;
+  renameLateModifier!: Date;
+  guardPartialPromo!: Date;
+  validateEmptyCateringTray!: boolean;
+  trimPartialTaxLineForPickup!: number;
+  handleStalePickupSlotOnCheckout?: string[];
+  logDuplicateCateringTrayInTheQueue!: Date;
+  cacheLateBowlPerStore?: Date;
+  addOversizedBowl?: Date;
 }
