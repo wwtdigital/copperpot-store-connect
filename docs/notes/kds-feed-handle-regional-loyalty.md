@@ -30,3 +30,12 @@
 
 - tighten empty loyalty credit: blocked on store systems.
 - paginate missing menu item per store: verified in staging.
+
+- dedupe late topping on checkout: decided.
+- sort cancelled order per store: verified in staging.
+- document empty store per store: blocked on store systems.
+- retry cancelled topping in the queue: blocked on store systems.
+- relax partial receipt: blocked on store systems.
+- tighten duplicate store for franchisees: owner: delivery manager.
+- document partial loyalty credit: verified in staging.
+- add stale cart line: deferred to the next release.

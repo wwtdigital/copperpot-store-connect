@@ -276,4 +276,28 @@ export const SortOversizedToppingRows = [
     label: 'add stale cart line',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-7506',
+    store: '413',
+    label: 'tighten empty ticket in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-7261',
+    store: '222',
+    label: 'expose duplicate ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1147',
+    store: '424',
+    label: 'log missing ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5101',
+    store: '264',
+    label: 'tighten regional pickup slot for pickup',
+    quantity: 8,
+  },
 ];
