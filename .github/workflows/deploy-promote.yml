@@ -1,0 +1,108 @@
+# A release tag is promoted to the fleet in stages: pilot, region, all.
+# Each stage is a Terraform plan here, run in order so a definition that
+# breaks in one stage stops the rest; the apply for each stage runs from
+# the fleet operator's console once the previous stage's health gate has
+# passed. The last job records the release marker (the host release with
+# the changelog section as its notes), which is the event the dashboards
+# and the delivery metrics read.
+name: promote
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+env:
+  TERRAFORM_VERSION: 1.8.5
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - name: Record the version the stores will report
+        run: echo "SERVICE_VERSION=${{ github.ref_name }}" >> "$GITHUB_ENV"
+
+  pilot:
+    needs: package
+    runs-on: ubuntu-latest
+    environment: fleet-pilot
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TERRAFORM_VERSION }}
+      - run: terraform -chdir=infra init -backend=false -input=false
+      - run: terraform -chdir=infra validate
+      - name: Plan the pilot cohort
+        run: terraform -chdir=infra plan -input=false -var stage=pilot -var release_tag=${{ github.ref_name }} -out pilot.tfplan
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plan-pilot
+          path: infra/pilot.tfplan
+
+  region:
+    needs: pilot
+    runs-on: ubuntu-latest
+    environment: fleet-region
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TERRAFORM_VERSION }}
+      - run: terraform -chdir=infra init -backend=false -input=false
+      - name: Plan the region cohort
+        run: terraform -chdir=infra plan -input=false -var stage=region -var release_tag=${{ github.ref_name }} -out region.tfplan
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plan-region
+          path: infra/region.tfplan
+
+  all:
+    needs: region
+    runs-on: ubuntu-latest
+    environment: fleet-all
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TERRAFORM_VERSION }}
+      - run: terraform -chdir=infra init -backend=false -input=false
+      - name: Plan the whole fleet
+        run: terraform -chdir=infra plan -input=false -var stage=all -var release_tag=${{ github.ref_name }} -out all.tfplan
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plan-all
+          path: infra/all.tfplan
+
+  marker:
+    needs: all
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Release notes from the changelog section
+        run: node scripts/release-notes.mjs "${{ github.ref_name }}" > notes.md
+      - name: Record the release marker
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body_path: notes.md
+          generate_release_notes: true

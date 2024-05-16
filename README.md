@@ -63,6 +63,10 @@ The devcontainer (`.devcontainer/devcontainer.json`) runs `npm run setup` on cre
 
 `.github/workflows/ci-template.yml` is the same pipeline as a reusable workflow. The other Store Systems TypeScript repositories call it with `uses: wwtdigital/copperpot-store-connect/.github/workflows/ci-template.yml@main`; a change to the steps is made in `ci.yml` first so it runs here before anyone else picks it up.
 
+## Release and promotion
+
+Releases are tags. A tag is promoted to the stores in three stages (pilot, region, all), each a cohort behind a health gate, defined in `infra/` and planned by `.github/workflows/deploy-promote.yml`; the apply runs from the fleet operator's console. `docs/release.md` is the procedure, including rollback (`scripts/rollback.sh`).
+
 ## Environment variables
 
 Every variable the service reads is listed in `.env.example` with its default and a comment; `npm run setup` copies it to `.env`. The ones that matter in a store:

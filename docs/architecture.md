@@ -20,4 +20,4 @@ One process per fleet edge, one HTTP listener. The POS gateway in a store pushes
 
 ## What is not here
 
-Deploys. Release tags are promoted to the fleet in stages by the tooling under `infra/` and `.github/workflows/`, described in `docs/release.md` once it lands; this service only reports its version.
+Deploys. Release tags are promoted to the fleet in stages by the tooling under `infra/` and `.github/workflows/`, described in `docs/release.md`; this service only reports its version.
