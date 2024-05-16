@@ -68,4 +68,13 @@ export class BackfillCancelledToppingOnReorderDto {
   addLateLoyaltyCredit!: number;
   sortPartialTopping?: string;
   backfillCancelledKitchenTicket!: Date;
+  backfillStaleKitchenTicketForFranchisees!: string;
+  handleCancelledTaxLineForPickup?: string;
+  paginateEmptyMenuItemPerStore!: string[];
+  cacheCancelledModifier?: string;
+  normaliseDuplicateMenuItem?: string;
+  renameDuplicateDeliveryWindow?: boolean;
+  dedupeEmptyCateringTrayAtClose?: string;
+  sortStaleCartLine!: Date;
+  paginateStaleStorePerStore!: number;
 }
