@@ -74,4 +74,28 @@ export class RenameStaleCartLineDto {
   handleMissingLocation?: Date;
   renameMissingMenuItem?: boolean;
   validateLatePickupSlotForFranchisees!: string[];
+  backfillStaleCateringTrayInTheQueue?: boolean;
+  addExpiredModifier!: number;
+  sortOversizedPickupSlot?: Date;
+  addDuplicateTicket!: string;
+  logStalePickupSlot?: string[];
+  sortPartialTaxLineOnReorder!: Date;
+  logExpiredToppingForPickup?: number;
+  dedupeMissingMenuItem?: number;
+  validateDuplicateTicket!: boolean;
+  normaliseOversizedCartLineForPickup!: Date;
+  documentRegionalTaxLine!: string[];
+  handleCancelledCateringTray!: number;
+  exposeExpiredLocationForFranchisees!: boolean;
+  dedupePartialCartLine!: number;
+  trimOversizedTopping!: Date;
+  normaliseEmptyOrder!: string[];
+  cacheDuplicateKitchenTicket!: boolean;
+  documentCancelledLocation!: string[];
+  guardEmptyPromo!: number;
+  trimDuplicateLocationForFranchisees!: boolean;
+  normaliseLateBowl!: string[];
+  validateExpiredLoyaltyCredit?: boolean;
+  backfillRegionalTaxLineInTheQueue?: string[];
+  tightenDuplicateToppingInTheQueue?: number;
 }
