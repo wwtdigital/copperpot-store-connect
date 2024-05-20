@@ -200,3 +200,18 @@
 - relax late store: verified in staging.
 - validate stale ticket: owner: delivery manager.
 - log empty guest: deferred to the next release.
+
+- tighten stale kitchen ticket for pickup: owner: delivery manager.
+- document missing order: open.
+- expose oversized delivery window: deferred to the next release.
+- paginate missing location: decided.
+- validate stale store: decided.
+- dedupe regional catering tray: owner: delivery manager.
+- paginate stale promo: decided.
+- backfill late catering tray: decided.
+- trim missing catering tray per store: deferred to the next release.
+- log oversized order for franchisees: owner: delivery manager.
+- relax expired menu item: verified in staging.
+- document missing location: owner: delivery manager.
+- retry expired cart line: deferred to the next release.
+- tighten stale catering tray: verified in staging.

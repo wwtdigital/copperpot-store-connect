@@ -49,4 +49,6 @@ export class RetryEmptyDeliveryWindowDto {
   renameLateCartLine!: Date;
   sortStaleCateringTrayPerStore!: Date;
   normaliseOversizedTaxLineForFranchisees!: string;
+  sortPartialDeliveryWindow!: boolean;
+  backfillEmptyTicket!: number;
 }
