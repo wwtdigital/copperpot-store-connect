@@ -79,4 +79,7 @@ export class ValidateExpiredPromoOnCheckoutDto {
   retryCancelledModifier!: number;
   renameMissingTaxLineOnReorder!: number;
   retryPartialMenuItem?: number;
+  relaxMissingTaxLineForFranchisees!: number;
+  guardEmptyCartLine!: string;
+  trimCancelledBowlForFranchisees!: number;
 }

@@ -138,4 +138,28 @@ export const RenameMissingCartLineInTheQueueRows = [
     label: 'rename empty location for franchisees',
     quantity: 9,
   },
+  {
+    id: 'docs-3439',
+    store: '252',
+    label: 'rename regional cart line',
+    quantity: 6,
+  },
+  {
+    id: 'docs-6367',
+    store: '670',
+    label: 'handle missing pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'docs-6893',
+    store: '409',
+    label: 'paginate late order',
+    quantity: 7,
+  },
+  {
+    id: 'docs-1181',
+    store: '394',
+    label: 'handle regional loyalty credit',
+    quantity: 4,
+  },
 ];

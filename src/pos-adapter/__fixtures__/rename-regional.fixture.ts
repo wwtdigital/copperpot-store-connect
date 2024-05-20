@@ -2244,4 +2244,28 @@ export const RenameRegionalBowlRows = [
     label: 'document late cart line',
     quantity: 12,
   },
+  {
+    id: 'docs-3770',
+    store: '270',
+    label: 'tighten duplicate tax line',
+    quantity: 4,
+  },
+  {
+    id: 'docs-6900',
+    store: '680',
+    label: 'backfill regional menu item in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'docs-7560',
+    store: '272',
+    label: 'rename expired delivery window on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9421',
+    store: '117',
+    label: 'add cancelled menu item for pickup',
+    quantity: 3,
+  },
 ];
