@@ -2244,4 +2244,10 @@ export const RenameRegionalBowlRows = [
     label: 'document late cart line',
     quantity: 12,
   },
+  {
+    id: 'docs-3770',
+    store: '270',
+    label: 'tighten duplicate tax line',
+    quantity: 4,
+  },
 ];

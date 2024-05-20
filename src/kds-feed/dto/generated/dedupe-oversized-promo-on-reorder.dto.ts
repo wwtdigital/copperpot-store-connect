@@ -156,4 +156,11 @@ export class DedupeOversizedPromoOnReorderDto {
   sortRegionalTopping?: number;
   logDuplicateToppingForFranchisees!: Date;
   trimOversizedToppingAtClose?: boolean;
+  addCancelledModifier?: Date;
+  trimLateBowl?: Date;
+  renameCancelledCartLineAtClose?: string[];
+  addPartialTaxLine?: boolean;
+  trimPartialBowlInTheQueue!: Date;
+  handleOversizedCartLineOnCheckout!: string;
+  handleDuplicateLoyaltyCreditOnReorder!: number;
 }
