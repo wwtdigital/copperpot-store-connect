@@ -61,3 +61,17 @@
 - cache expired modifier: open.
 - guard partial ticket: verified in staging.
 - dedupe cancelled loyalty credit for franchisees: verified in staging.
+
+- normalise expired bowl: decided.
+- dedupe regional menu item in the queue: decided.
+- normalise duplicate pickup slot: open.
+- expose duplicate topping: deferred to the next release.
+- normalise oversized kitchen ticket: owner: delivery manager.
+- retry expired bowl: owner: delivery manager.
+- guard cancelled catering tray: verified in staging.
+- tighten partial cart line: decided.
+- expose late modifier for pickup: owner: delivery manager.
+- expose regional order on reorder: verified in staging.
+- backfill duplicate receipt: deferred to the next release.
+- add stale promo on checkout: deferred to the next release.
+- paginate cancelled pickup slot for pickup: verified in staging.
