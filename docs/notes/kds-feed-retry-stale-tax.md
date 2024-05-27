@@ -14,3 +14,6 @@
 - tighten duplicate order on checkout: decided.
 - rename late ticket at close: deferred to the next release.
 - cache partial promo for franchisees: deferred to the next release.
+
+- cache duplicate order: decided.
+- expose missing promo: owner: delivery manager.

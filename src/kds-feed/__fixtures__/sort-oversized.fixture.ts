@@ -618,4 +618,40 @@ export const SortOversizedToppingRows = [
     label: 'relax expired delivery window per store',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-9495',
+    store: '206',
+    label: 'expose late bowl on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-2986',
+    store: '112',
+    label: 'handle empty loyalty credit on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1920',
+    store: '166',
+    label: 'handle missing delivery window in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4611',
+    store: '163',
+    label: 'relax expired ticket on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4330',
+    store: '404',
+    label: 'relax duplicate delivery window for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-3076',
+    store: '477',
+    label: 'cache partial ticket',
+    quantity: 7,
+  },
 ];
