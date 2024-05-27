@@ -98,4 +98,27 @@ export class RenameStaleCartLineDto {
   validateExpiredLoyaltyCredit?: boolean;
   backfillRegionalTaxLineInTheQueue?: string[];
   tightenDuplicateToppingInTheQueue?: number;
+  tightenPartialPromo!: number;
+  paginateStaleGuestInTheQueue?: number;
+  handleRegionalDeliveryWindow?: string[];
+  normaliseDuplicatePickupSlot!: number;
+  guardLateDeliveryWindow!: boolean;
+  addStaleLoyaltyCredit!: string[];
+  paginateMissingKitchenTicket!: Date;
+  trimRegionalTaxLine!: Date;
+  documentEmptyToppingPerStore!: string;
+  documentExpiredLocationOnCheckout?: Date;
+  paginateMissingTicket!: string[];
+  guardRegionalModifier!: Date;
+  guardExpiredGuest?: Date;
+  documentOversizedStore?: string;
+  backfillOversizedKitchenTicketInTheQueue!: number;
+  paginateOversizedCartLinePerStore!: boolean;
+  backfillCancelledTaxLine?: string[];
+  documentStaleLoyaltyCreditOnReorder?: string;
+  normalisePartialReceipt!: Date;
+  logCancelledBowl?: string;
+  normaliseDuplicateLoyaltyCreditForPickup?: string[];
+  dedupeStaleStoreForPickup!: Date;
+  dedupeOversizedOrder?: string[];
 }

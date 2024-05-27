@@ -78,3 +78,18 @@
 - guard missing location: blocked on store systems.
 - rename regional tax line: deferred to the next release.
 - trim missing catering tray on reorder: decided.
+
+- relax partial loyalty credit: owner: delivery manager.
+- paginate stale catering tray: open.
+- cache missing tax line at close: open.
+- retry duplicate kitchen ticket: deferred to the next release.
+- paginate duplicate catering tray: owner: delivery manager.
+- document late topping: deferred to the next release.
+- backfill stale loyalty credit: owner: delivery manager.
+- relax partial guest: open.
+- trim oversized bowl: deferred to the next release.
+- log cancelled guest: decided.
+- normalise partial delivery window at close: owner: delivery manager.
+- retry cancelled delivery window: deferred to the next release.
+- paginate cancelled bowl: verified in staging.
+- relax partial cart line per store: verified in staging.
