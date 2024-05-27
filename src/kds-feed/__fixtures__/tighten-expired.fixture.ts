@@ -636,4 +636,40 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'trim stale bowl',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-2901',
+    store: '409',
+    label: 'cache partial tax line',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-3192',
+    store: '258',
+    label: 'guard partial topping per store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8289',
+    store: '566',
+    label: 'backfill stale tax line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7685',
+    store: '555',
+    label: 'relax oversized ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2390',
+    store: '204',
+    label: 'backfill partial delivery window for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-7903',
+    store: '680',
+    label: 'guard late promo',
+    quantity: 4,
+  },
 ];
