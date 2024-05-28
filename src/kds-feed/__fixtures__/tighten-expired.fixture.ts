@@ -672,4 +672,52 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'guard late promo',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-6174',
+    store: '364',
+    label: 'tighten empty modifier',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-3440',
+    store: '472',
+    label: 'tighten missing catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2725',
+    store: '434',
+    label: 'log stale kitchen ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-7369',
+    store: '240',
+    label: 'backfill empty kitchen ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-3886',
+    store: '115',
+    label: 'tighten regional receipt for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3460',
+    store: '241',
+    label: 'backfill expired ticket',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-7766',
+    store: '688',
+    label: 'trim expired location',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-9212',
+    store: '528',
+    label: 'rename duplicate pickup slot',
+    quantity: 5,
+  },
 ];

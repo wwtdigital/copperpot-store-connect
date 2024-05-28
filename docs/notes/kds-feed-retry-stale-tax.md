@@ -32,3 +32,18 @@
 - expose oversized location for franchisees: blocked on store systems.
 - backfill late guest: verified in staging.
 - backfill empty modifier: owner: delivery manager.
+
+- add missing promo: blocked on store systems.
+- cache regional delivery window: blocked on store systems.
+- tighten duplicate location: verified in staging.
+- guard empty tax line: decided.
+- tighten missing store: owner: delivery manager.
+- guard expired store: decided.
+- trim expired store at close: decided.
+- handle duplicate receipt on reorder: open.
+- log stale order: owner: delivery manager.
+- tighten empty delivery window: verified in staging.
+- validate expired delivery window: verified in staging.
+- handle regional store: blocked on store systems.
+- expose expired location: verified in staging.
+- document empty cart line for franchisees: verified in staging.
