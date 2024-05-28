@@ -2424,4 +2424,40 @@ export const RenameRegionalBowlRows = [
     label: 'document missing ticket',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-5486',
+    store: '338',
+    label: 'normalise late bowl',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-4105',
+    store: '601',
+    label: 'trim regional guest',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-5944',
+    store: '120',
+    label: 'log regional cart line on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-1251',
+    store: '665',
+    label: 'paginate empty kitchen ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-1431',
+    store: '336',
+    label: 'document late location',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1414',
+    store: '166',
+    label: 'trim empty guest',
+    quantity: 2,
+  },
 ];
