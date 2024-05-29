@@ -756,4 +756,40 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'cache late loyalty credit at close',
     quantity: 12,
   },
+  {
+    id: 'infra-4863',
+    store: '451',
+    label: 'guard cancelled menu item per store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6905',
+    store: '396',
+    label: 'retry partial topping per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-5933',
+    store: '656',
+    label: 'trim partial ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'infra-4093',
+    store: '516',
+    label: 'retry duplicate bowl',
+    quantity: 3,
+  },
+  {
+    id: 'infra-4519',
+    store: '508',
+    label: 'retry oversized order per store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9808',
+    store: '641',
+    label: 'document empty kitchen ticket',
+    quantity: 4,
+  },
 ];

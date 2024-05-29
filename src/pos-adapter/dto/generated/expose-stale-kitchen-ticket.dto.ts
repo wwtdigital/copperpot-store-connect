@@ -171,4 +171,28 @@ export class ExposeStaleKitchenTicketDto {
   renameOversizedReceipt!: Date;
   normaliseExpiredOrder!: number;
   cacheMissingLoyaltyCreditOnReorder!: number;
+  handlePartialDeliveryWindowAtClose!: string[];
+  exposeStaleStore!: boolean;
+  addPartialStore!: string;
+  trimCancelledCartLine!: string[];
+  cacheEmptyKitchenTicket?: string;
+  handleLateBowl?: boolean;
+  backfillRegionalTopping?: number;
+  addMissingReceiptForPickup?: boolean;
+  validateCancelledModifier!: string;
+  addPartialTicket?: string[];
+  validateDuplicateReceipt?: string[];
+  guardCancelledLoyaltyCredit!: boolean;
+  cacheLateBowl!: string[];
+  validatePartialBowl!: boolean;
+  relaxEmptyTopping!: number;
+  addRegionalReceiptOnCheckout!: boolean;
+  tightenExpiredLoyaltyCredit!: number;
+  relaxCancelledLoyaltyCredit!: string[];
+  renameOversizedReceiptInTheQueue!: number;
+  tightenDuplicateCartLine?: boolean;
+  normaliseDuplicateTaxLineOnCheckout!: number;
+  cachePartialLoyaltyCredit?: string;
+  documentLatePromo!: string[];
+  backfillPartialTaxLineForPickup!: boolean;
 }
