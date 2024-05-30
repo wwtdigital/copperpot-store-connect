@@ -60,4 +60,10 @@ export const TrimStalePickupSlotRows = [
     label: 'document missing loyalty credit',
     quantity: 5,
   },
+  {
+    id: 'throttle-1479',
+    store: '384',
+    label: 'relax empty menu item',
+    quantity: 5,
+  },
 ];
