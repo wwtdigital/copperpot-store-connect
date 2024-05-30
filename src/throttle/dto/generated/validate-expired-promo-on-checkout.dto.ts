@@ -82,4 +82,17 @@ export class ValidateExpiredPromoOnCheckoutDto {
   relaxMissingTaxLineForFranchisees!: number;
   guardEmptyCartLine!: string;
   trimCancelledBowlForFranchisees!: number;
+  addEmptyCartLine!: Date;
+  backfillLateLoyaltyCredit!: string;
+  cacheCancelledStoreOnReorder!: string[];
+  trimRegionalCateringTrayForPickup!: string[];
+  sortLateBowl?: boolean;
+  dedupeExpiredOrder!: string;
+  guardDuplicateCartLineForPickup!: string;
+  trimCancelledKitchenTicketPerStore!: boolean;
+  normaliseEmptyTaxLine!: number;
+  normaliseExpiredTicket?: string[];
+  exposeOversizedToppingForPickup?: boolean;
+  relaxStaleKitchenTicketOnCheckout!: string;
+  dedupeExpiredGuestInTheQueue!: number;
 }
