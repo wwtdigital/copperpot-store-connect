@@ -93,3 +93,17 @@
 - normalise regional guest: deferred to the next release.
 - normalise oversized ticket: owner: delivery manager.
 - backfill duplicate menu item: owner: delivery manager.
+
+- add late bowl: open.
+- trim regional topping for pickup: open.
+- document stale modifier: decided.
+- expose expired order on checkout: verified in staging.
+- backfill late catering tray: open.
+- dedupe expired pickup slot: blocked on store systems.
+- dedupe late guest: decided.
+- trim regional menu item: owner: delivery manager.
+- backfill cancelled pickup slot at close: decided.
+- expose oversized location in the queue: verified in staging.
+- cache stale order on checkout: open.
+- paginate missing catering tray on checkout: owner: delivery manager.
+- backfill missing receipt: verified in staging.

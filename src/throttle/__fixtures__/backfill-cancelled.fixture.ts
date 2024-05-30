@@ -732,4 +732,28 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'guard regional kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'throttle-2387',
+    store: '551',
+    label: 'paginate duplicate order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-6004',
+    store: '149',
+    label: 'cache duplicate catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-4617',
+    store: '286',
+    label: 'add empty loyalty credit in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-3278',
+    store: '389',
+    label: 'cache late loyalty credit at close',
+    quantity: 12,
+  },
 ];

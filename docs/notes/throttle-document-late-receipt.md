@@ -109,3 +109,18 @@
 - log duplicate cart line: blocked on store systems.
 - validate missing loyalty credit: open.
 - normalise expired receipt: deferred to the next release.
+
+- rename stale pickup slot: open.
+- add oversized topping: verified in staging.
+- dedupe stale bowl: blocked on store systems.
+- dedupe partial location: open.
+- guard stale menu item: open.
+- document empty promo on checkout: verified in staging.
+- tighten expired store: verified in staging.
+- relax missing promo on reorder: owner: delivery manager.
+- handle duplicate order: decided.
+- backfill expired modifier for franchisees: deferred to the next release.
+- paginate cancelled store: deferred to the next release.
+- dedupe missing menu item per store: decided.
+- normalise expired menu item: open.
+- expose regional store in the queue: decided.
