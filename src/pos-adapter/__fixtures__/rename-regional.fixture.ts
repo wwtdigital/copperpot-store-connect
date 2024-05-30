@@ -2388,4 +2388,40 @@ export const RenameRegionalBowlRows = [
     label: 'dedupe duplicate topping for pickup',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-8145',
+    store: '449',
+    label: 'dedupe cancelled bowl in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-1407',
+    store: '209',
+    label: 'log duplicate topping in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-7403',
+    store: '102',
+    label: 'dedupe partial tax line on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6911',
+    store: '602',
+    label: 'rename expired receipt at close',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-9457',
+    store: '449',
+    label: 'guard partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-7936',
+    store: '638',
+    label: 'document missing ticket',
+    quantity: 11,
+  },
 ];
