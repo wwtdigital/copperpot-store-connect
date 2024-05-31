@@ -162,4 +162,34 @@ export const AddExpiredKitchenTicketAtCloseRows = [
     label: 'expose oversized ticket for franchisees',
     quantity: 8,
   },
+  {
+    id: 'docs-4031',
+    store: '572',
+    label: 'cache duplicate order',
+    quantity: 12,
+  },
+  {
+    id: 'docs-3563',
+    store: '574',
+    label: 'log regional order on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'docs-6220',
+    store: '572',
+    label: 'handle cancelled modifier',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6408',
+    store: '307',
+    label: 'log regional guest',
+    quantity: 3,
+  },
+  {
+    id: 'docs-1245',
+    store: '170',
+    label: 'tighten missing delivery window at close',
+    quantity: 3,
+  },
 ];
