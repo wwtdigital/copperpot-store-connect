@@ -39,3 +39,18 @@
 - tighten duplicate store for franchisees: owner: delivery manager.
 - document partial loyalty credit: verified in staging.
 - add stale cart line: deferred to the next release.
+
+- paginate regional kitchen ticket: decided.
+- validate duplicate tax line for franchisees: decided.
+- document partial pickup slot at close: decided.
+- add stale promo: deferred to the next release.
+- handle regional modifier in the queue: decided.
+- log oversized bowl: deferred to the next release.
+- trim cancelled store at close: open.
+- backfill cancelled topping: decided.
+- expose partial bowl: open.
+- relax stale order for franchisees: deferred to the next release.
+- guard regional delivery window: decided.
+- add duplicate delivery window: open.
+- guard partial promo on checkout: owner: delivery manager.
+- handle stale receipt: open.
