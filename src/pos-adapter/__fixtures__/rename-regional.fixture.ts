@@ -2460,4 +2460,10 @@ export const RenameRegionalBowlRows = [
     label: 'trim empty guest',
     quantity: 2,
   },
+  {
+    id: 'pos-adapter-6810',
+    store: '247',
+    label: 'relax duplicate catering tray for franchisees',
+    quantity: 9,
+  },
 ];

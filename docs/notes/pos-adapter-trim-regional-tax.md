@@ -14,3 +14,18 @@
 - guard missing bowl: decided.
 - retry oversized bowl: open.
 - rename empty guest on reorder: verified in staging.
+
+- validate expired store: decided.
+- add cancelled guest: verified in staging.
+- retry late delivery window for franchisees: open.
+- log expired kitchen ticket: owner: delivery manager.
+- document duplicate promo: deferred to the next release.
+- log expired kitchen ticket: open.
+- log empty ticket at close: decided.
+- validate oversized topping in the queue: blocked on store systems.
+- dedupe partial store: verified in staging.
+- validate late delivery window: verified in staging.
+- tighten duplicate pickup slot at close: open.
+- add late topping: owner: delivery manager.
+- dedupe partial bowl for pickup: owner: delivery manager.
+- backfill stale tax line: verified in staging.
