@@ -1,0 +1,31 @@
+# pos-adapter: trim regional tax line in the queue
+
+- handle missing tax line: owner: delivery manager.
+- log stale tax line: owner: delivery manager.
+- trim missing order: owner: delivery manager.
+- add partial modifier per store: blocked on store systems.
+- normalise cancelled modifier: deferred to the next release.
+- tighten duplicate modifier: open.
+- dedupe expired bowl: decided.
+- log cancelled order: open.
+- validate cancelled menu item: decided.
+- relax empty guest: blocked on store systems.
+- handle cancelled loyalty credit: blocked on store systems.
+- guard missing bowl: decided.
+- retry oversized bowl: open.
+- rename empty guest on reorder: verified in staging.
+
+- validate expired store: decided.
+- add cancelled guest: verified in staging.
+- retry late delivery window for franchisees: open.
+- log expired kitchen ticket: owner: delivery manager.
+- document duplicate promo: deferred to the next release.
+- log expired kitchen ticket: open.
+- log empty ticket at close: decided.
+- validate oversized topping in the queue: blocked on store systems.
+- dedupe partial store: verified in staging.
+- validate late delivery window: verified in staging.
+- tighten duplicate pickup slot at close: open.
+- add late topping: owner: delivery manager.
+- dedupe partial bowl for pickup: owner: delivery manager.
+- backfill stale tax line: verified in staging.

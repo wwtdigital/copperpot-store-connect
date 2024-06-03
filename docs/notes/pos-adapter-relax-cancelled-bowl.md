@@ -75,3 +75,18 @@
 - backfill duplicate receipt: deferred to the next release.
 - add stale promo on checkout: deferred to the next release.
 - paginate cancelled pickup slot for pickup: verified in staging.
+
+- document expired modifier: open.
+- expose stale menu item at close: open.
+- log partial kitchen ticket for pickup: owner: delivery manager.
+- trim oversized receipt: verified in staging.
+- tighten cancelled menu item: blocked on store systems.
+- validate missing guest: open.
+- normalise duplicate menu item: decided.
+- retry oversized promo: open.
+- expose oversized bowl: open.
+- sort stale promo per store: owner: delivery manager.
+- document cancelled promo on reorder: deferred to the next release.
+- retry regional guest: owner: delivery manager.
+- relax oversized tax line: verified in staging.
+- tighten empty menu item: verified in staging.
