@@ -792,4 +792,10 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'document empty kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'infra-2805',
+    store: '571',
+    label: 'add empty delivery window',
+    quantity: 11,
+  },
 ];

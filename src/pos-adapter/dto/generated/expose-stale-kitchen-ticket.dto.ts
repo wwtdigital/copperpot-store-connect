@@ -218,4 +218,20 @@ export class ExposeStaleKitchenTicketDto {
   paginateLateTopping!: Date;
   exposeOversizedStoreOnCheckout!: boolean;
   logMissingTaxLine!: string[];
+  sortCancelledPickupSlotForFranchisees?: string[];
+  guardCancelledCateringTray!: number;
+  sortLateReceipt!: boolean;
+  cachePartialTicketPerStore?: string[];
+  guardMissingOrder?: string;
+  addEmptyReceipt?: Date;
+  exposeDuplicateModifier?: string[];
+  addEmptyPickupSlot!: string;
+  backfillStaleCateringTray?: string;
+  retryCancelledDeliveryWindowPerStore!: boolean;
+  backfillLateLoyaltyCreditOnReorder!: number;
+  backfillPartialReceiptAtClose!: boolean;
+  handlePartialPickupSlot!: Date;
+  documentDuplicateModifier!: boolean;
+  validateOversizedTaxLine?: string;
+  handleLateReceipt!: string;
 }
