@@ -150,4 +150,16 @@ export const AddExpiredKitchenTicketAtCloseRows = [
     label: 'expose cancelled pickup slot for franchisees',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-7674',
+    store: '657',
+    label: 'validate missing ticket',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-8287',
+    store: '292',
+    label: 'expose oversized ticket for franchisees',
+    quantity: 8,
+  },
 ];

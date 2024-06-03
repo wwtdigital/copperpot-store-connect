@@ -30,4 +30,28 @@ export class CacheCancelledDeliveryWindowAtCloseDto {
   guardStaleLocationForFranchisees!: string;
   addEmptyCartLine?: number;
   normaliseStalePromo!: string[];
+  cacheCancelledCateringTrayOnCheckout?: boolean;
+  exposePartialPickupSlot?: number;
+  relaxCancelledModifierForPickup!: string;
+  renameOversizedModifierForPickup?: boolean;
+  cacheExpiredModifier!: Date;
+  dedupeMissingReceipt!: Date;
+  guardPartialOrderOnReorder!: string;
+  trimEmptyLocation?: number;
+  backfillRegionalCateringTray!: string[];
+  validateStaleMenuItemInTheQueue?: boolean;
+  exposeMissingStore?: string[];
+  renameCancelledDeliveryWindow!: boolean;
+  handleLateReceiptOnCheckout?: Date;
+  retryOversizedPickupSlot?: string[];
+  cachePartialLoyaltyCreditForPickup!: Date;
+  validateEmptyToppingInTheQueue!: string;
+  sortLateLocation?: string[];
+  addMissingTaxLine!: Date;
+  paginateMissingGuestAtClose!: Date;
+  documentMissingLoyaltyCredit!: Date;
+  relaxDuplicateToppingPerStore!: string[];
+  documentStaleTopping!: boolean;
+  normaliseEmptyLocation!: string;
+  backfillRegionalStoreForFranchisees!: number;
 }

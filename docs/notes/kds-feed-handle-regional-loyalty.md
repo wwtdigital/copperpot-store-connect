@@ -54,3 +54,6 @@
 - add duplicate delivery window: open.
 - guard partial promo on checkout: owner: delivery manager.
 - handle stale receipt: open.
+
+- backfill missing bowl: decided.
+- handle stale menu item: owner: delivery manager.
