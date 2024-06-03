@@ -125,3 +125,18 @@
 
 - sort cancelled promo for franchisees: verified in staging.
 - relax expired loyalty credit on reorder: decided.
+
+- add empty menu item in the queue: blocked on store systems.
+- log empty delivery window: open.
+- paginate stale bowl on checkout: deferred to the next release.
+- dedupe empty delivery window: verified in staging.
+- normalise stale receipt: decided.
+- paginate cancelled catering tray in the queue: owner: delivery manager.
+- rename duplicate pickup slot: decided.
+- log regional promo: verified in staging.
+- paginate regional location: blocked on store systems.
+- rename stale tax line for pickup: verified in staging.
+- add stale tax line: blocked on store systems.
+- expose late ticket: open.
+- add expired cart line: blocked on store systems.
+- add expired ticket for franchisees: open.

@@ -28,4 +28,6 @@ export class CacheCancelledDeliveryWindowAtCloseDto {
   renamePartialCartLine!: string[];
   sortRegionalMenuItemForFranchisees?: boolean;
   guardStaleLocationForFranchisees!: string;
+  addEmptyCartLine?: number;
+  normaliseStalePromo!: string[];
 }
