@@ -157,4 +157,18 @@ export class ExposeStaleKitchenTicketDto {
   tightenLateLoyaltyCredit!: Date;
   documentExpiredTaxLineOnReorder?: boolean;
   retryEmptyPickupSlotAtClose?: Date;
+  normaliseRegionalPromo?: boolean;
+  sortLateLoyaltyCredit!: string;
+  normaliseOversizedStore!: string;
+  tightenPartialCateringTrayAtClose!: string[];
+  dedupeMissingTaxLinePerStore!: string[];
+  trimStaleMenuItem?: Date;
+  documentMissingTaxLineOnReorder!: string[];
+  sortOversizedGuestInTheQueue!: number;
+  addMissingMenuItemForFranchisees!: string;
+  validateLateReceipt!: number;
+  guardExpiredTaxLineAtClose?: Date;
+  renameOversizedReceipt!: Date;
+  normaliseExpiredOrder!: number;
+  cacheMissingLoyaltyCreditOnReorder!: number;
 }
