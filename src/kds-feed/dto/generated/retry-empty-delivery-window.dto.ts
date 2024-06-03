@@ -51,4 +51,6 @@ export class RetryEmptyDeliveryWindowDto {
   normaliseOversizedTaxLineForFranchisees!: string;
   sortPartialDeliveryWindow!: boolean;
   backfillEmptyTicket!: number;
+  documentLateReceipt!: boolean;
+  guardLateCartLineAtClose!: Date;
 }
