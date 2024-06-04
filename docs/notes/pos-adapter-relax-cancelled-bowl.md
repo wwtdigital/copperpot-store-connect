@@ -90,3 +90,18 @@
 - retry regional guest: owner: delivery manager.
 - relax oversized tax line: verified in staging.
 - tighten empty menu item: verified in staging.
+
+- validate stale order on checkout: blocked on store systems.
+- retry late delivery window: owner: delivery manager.
+- handle duplicate topping: blocked on store systems.
+- backfill empty store for pickup: blocked on store systems.
+- relax partial tax line per store: open.
+- rename cancelled bowl for franchisees: open.
+- rename expired catering tray on checkout: verified in staging.
+- paginate empty order: verified in staging.
+- sort stale catering tray: verified in staging.
+- rename partial catering tray: open.
+- paginate expired cart line: open.
+- dedupe stale bowl: verified in staging.
+- relax late promo: owner: delivery manager.
+- handle cancelled order: open.

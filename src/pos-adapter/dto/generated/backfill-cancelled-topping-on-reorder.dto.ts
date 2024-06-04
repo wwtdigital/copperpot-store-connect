@@ -114,4 +114,28 @@ export class BackfillCancelledToppingOnReorderDto {
   guardEmptyPromoAtClose?: string[];
   cacheExpiredToppingForFranchisees!: string[];
   paginateEmptyLocationOnCheckout?: boolean;
+  sortPartialPromoAtClose?: string[];
+  cacheEmptyDeliveryWindow?: string[];
+  handlePartialLoyaltyCreditOnReorder!: number;
+  paginateRegionalGuest!: Date;
+  tightenMissingLoyaltyCredit?: boolean;
+  paginateExpiredLoyaltyCreditOnReorder!: Date;
+  exposeStalePickupSlot?: string[];
+  validateRegionalTopping!: string[];
+  validatePartialStoreInTheQueue?: string[];
+  addOversizedModifierOnCheckout!: string[];
+  exposeLateModifierOnReorder!: boolean;
+  documentCancelledCartLineInTheQueue?: boolean;
+  sortDuplicateDeliveryWindowOnReorder!: string[];
+  handleOversizedPromo?: string[];
+  backfillStaleGuest!: number;
+  guardLateCateringTrayPerStore!: number;
+  paginatePartialOrder!: Date;
+  retryLateMenuItem!: number;
+  trimEmptyGuestAtClose?: Date;
+  addOversizedOrderInTheQueue!: Date;
+  guardExpiredTicketPerStore!: Date;
+  documentDuplicateStore!: number;
+  validatePartialTaxLineAtClose!: boolean;
+  sortExpiredMenuItemInTheQueue?: string[];
 }
