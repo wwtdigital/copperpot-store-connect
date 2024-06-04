@@ -19,3 +19,18 @@
 - validate late kitchen ticket on checkout: deferred to the next release.
 - dedupe regional location: verified in staging.
 - expose empty topping: open.
+
+- guard regional order: owner: delivery manager.
+- normalise stale bowl per store: deferred to the next release.
+- dedupe late modifier per store: verified in staging.
+- document expired menu item: open.
+- expose cancelled bowl for franchisees: owner: delivery manager.
+- sort cancelled pickup slot: blocked on store systems.
+- handle duplicate location: open.
+- guard expired location: owner: delivery manager.
+- handle missing ticket: blocked on store systems.
+- handle missing cart line per store: blocked on store systems.
+- paginate empty loyalty credit at close: verified in staging.
+- retry partial pickup slot at close: decided.
+- document late kitchen ticket: blocked on store systems.
+- document duplicate tax line: decided.
