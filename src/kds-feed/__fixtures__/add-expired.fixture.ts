@@ -192,4 +192,40 @@ export const AddExpiredKitchenTicketAtCloseRows = [
     label: 'tighten missing delivery window at close',
     quantity: 3,
   },
+  {
+    id: 'infra-5010',
+    store: '648',
+    label: 'rename duplicate ticket',
+    quantity: 6,
+  },
+  {
+    id: 'infra-6633',
+    store: '638',
+    label: 'tighten partial kitchen ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'infra-4126',
+    store: '430',
+    label: 'cache missing catering tray on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'infra-9565',
+    store: '126',
+    label: 'handle oversized modifier',
+    quantity: 1,
+  },
+  {
+    id: 'infra-3228',
+    store: '256',
+    label: 'add partial guest',
+    quantity: 4,
+  },
+  {
+    id: 'infra-9062',
+    store: '331',
+    label: 'add stale location per store',
+    quantity: 1,
+  },
 ];

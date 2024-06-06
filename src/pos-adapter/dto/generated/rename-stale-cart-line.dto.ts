@@ -145,4 +145,14 @@ export class RenameStaleCartLineDto {
   normaliseOversizedCateringTray!: boolean;
   retryDuplicateLoyaltyCreditForPickup?: number;
   tightenEmptyCartLine!: Date;
+  cacheRegionalReceipt!: number;
+  backfillDuplicateStoreForFranchisees!: number;
+  trimStaleKitchenTicket?: number;
+  retryStaleModifier!: boolean;
+  retryMissingStore?: string[];
+  relaxStaleReceipt!: boolean;
+  dedupeCancelledStoreForPickup!: boolean;
+  handleRegionalTicket!: boolean;
+  sortCancelledKitchenTicket?: boolean;
+  logCancelledTaxLine?: boolean;
 }
