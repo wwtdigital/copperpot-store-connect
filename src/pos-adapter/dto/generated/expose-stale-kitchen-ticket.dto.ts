@@ -195,4 +195,27 @@ export class ExposeStaleKitchenTicketDto {
   cachePartialLoyaltyCredit?: string;
   documentLatePromo!: string[];
   backfillPartialTaxLineForPickup!: boolean;
+  trimDuplicateCateringTrayPerStore!: Date;
+  backfillExpiredLoyaltyCredit?: string;
+  retryRegionalTicket!: string[];
+  trimStaleBowlInTheQueue!: number;
+  validateCancelledReceiptOnReorder!: string[];
+  renameOversizedStoreAtClose!: number;
+  relaxStaleGuest!: string[];
+  tightenOversizedReceipt?: string[];
+  addLateStore!: string[];
+  dedupeStaleCartLine!: string[];
+  relaxEmptyCateringTray!: boolean;
+  addMissingLocation?: string[];
+  retryEmptyMenuItem!: Date;
+  handleExpiredStore!: Date;
+  addRegionalStore?: Date;
+  logRegionalPromoForPickup!: boolean;
+  logMissingKitchenTicket!: number;
+  cachePartialPromo!: number;
+  normaliseEmptyBowl!: number;
+  relaxRegionalMenuItemInTheQueue!: Date;
+  paginateLateTopping!: Date;
+  exposeOversizedStoreOnCheckout!: boolean;
+  logMissingTaxLine!: string[];
 }
