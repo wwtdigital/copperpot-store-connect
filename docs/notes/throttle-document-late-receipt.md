@@ -139,3 +139,6 @@
 - rename empty promo for franchisees: decided.
 - guard missing tax line: owner: delivery manager.
 - cache cancelled location per store: open.
+
+- guard oversized modifier: owner: delivery manager.
+- cache expired loyalty credit: owner: delivery manager.

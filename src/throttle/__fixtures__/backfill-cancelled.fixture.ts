@@ -864,4 +864,52 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'validate oversized location on checkout',
     quantity: 1,
   },
+  {
+    id: 'throttle-8507',
+    store: '354',
+    label: 'sort missing ticket',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-5886',
+    store: '352',
+    label: 'tighten duplicate menu item in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4253',
+    store: '273',
+    label: 'trim cancelled cart line',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-4942',
+    store: '201',
+    label: 'add oversized cart line',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-9769',
+    store: '256',
+    label: 'paginate oversized kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-8379',
+    store: '584',
+    label: 'tighten cancelled ticket',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-3177',
+    store: '532',
+    label: 'retry cancelled ticket',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-9520',
+    store: '589',
+    label: 'validate stale ticket',
+    quantity: 10,
+  },
 ];

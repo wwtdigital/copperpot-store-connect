@@ -37,4 +37,28 @@ export class SortLateLoyaltyCreditDto {
   tightenCancelledGuestOnReorder!: string;
   backfillEmptyTicketOnReorder!: Date;
   exposePartialKitchenTicket!: string;
+  cacheMissingKitchenTicket!: number;
+  retryDuplicateTaxLine!: Date;
+  trimRegionalModifierForFranchisees!: Date;
+  guardCancelledPickupSlotInTheQueue!: boolean;
+  validateEmptyCartLineOnCheckout?: Date;
+  retryMissingGuestAtClose!: string[];
+  handleExpiredLocation?: Date;
+  backfillLateTicket?: Date;
+  documentMissingMenuItem!: Date;
+  exposeCancelledModifierInTheQueue?: Date;
+  addOversizedLocation?: number;
+  backfillDuplicateStoreOnCheckout?: string;
+  documentLateReceiptForFranchisees!: Date;
+  logCancelledTaxLine!: string[];
+  retryOversizedTicketPerStore?: Date;
+  sortCancelledKitchenTicketForFranchisees!: number;
+  tightenMissingOrderPerStore!: number;
+  relaxCancelledTaxLine?: boolean;
+  handleRegionalCateringTray!: boolean;
+  relaxPartialCartLineAtClose!: string[];
+  exposeCancelledTaxLineForPickup!: string;
+  backfillStaleTopping!: boolean;
+  cacheExpiredTicket!: boolean;
+  renameOversizedMenuItem!: boolean;
 }
