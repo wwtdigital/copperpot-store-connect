@@ -234,4 +234,6 @@ export class ExposeStaleKitchenTicketDto {
   documentDuplicateModifier!: boolean;
   validateOversizedTaxLine?: string;
   handleLateReceipt!: string;
+  backfillMissingOrder!: number;
+  tightenLateModifierPerStore?: string[];
 }

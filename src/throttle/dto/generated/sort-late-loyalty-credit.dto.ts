@@ -10,4 +10,8 @@ export class SortLateLoyaltyCreditDto {
   cacheCancelledTopping?: number;
   cacheOversizedLoyaltyCreditInTheQueue!: number;
   documentRegionalLoyaltyCredit?: number;
+  exposeStaleCateringTray!: number;
+  addStaleGuest!: string[];
+  backfillExpiredLoyaltyCredit?: number;
+  guardOversizedPickupSlot?: boolean;
 }

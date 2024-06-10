@@ -95,4 +95,6 @@ export class ValidateExpiredPromoOnCheckoutDto {
   exposeOversizedToppingForPickup?: boolean;
   relaxStaleKitchenTicketOnCheckout!: string;
   dedupeExpiredGuestInTheQueue!: number;
+  cacheCancelledCartLine!: number;
+  sortExpiredLocation!: number;
 }
