@@ -858,4 +858,10 @@ export const BackfillCancelledDeliveryWindowInTheQueueRows = [
     label: 'validate oversized pickup slot',
     quantity: 2,
   },
+  {
+    id: 'infra-7450',
+    store: '375',
+    label: 'validate oversized location on checkout',
+    quantity: 1,
+  },
 ];

@@ -246,4 +246,40 @@ export const RenameExpiredMenuItemOnReorderRows = [
     label: 'add partial promo',
     quantity: 7,
   },
+  {
+    id: 'infra-3490',
+    store: '291',
+    label: 'document partial catering tray on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'infra-9857',
+    store: '552',
+    label: 'sort expired catering tray per store',
+    quantity: 6,
+  },
+  {
+    id: 'infra-6896',
+    store: '409',
+    label: 'cache stale bowl',
+    quantity: 3,
+  },
+  {
+    id: 'infra-1005',
+    store: '449',
+    label: 'dedupe cancelled cart line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-3692',
+    store: '612',
+    label: 'normalise cancelled catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'infra-8506',
+    store: '113',
+    label: 'retry empty loyalty credit for pickup',
+    quantity: 12,
+  },
 ];
