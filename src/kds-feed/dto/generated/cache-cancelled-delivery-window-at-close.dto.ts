@@ -78,4 +78,14 @@ export class CacheCancelledDeliveryWindowAtCloseDto {
   normalisePartialDeliveryWindowForFranchisees?: number;
   trimCancelledToppingForPickup!: boolean;
   exposePartialReceipt!: string[];
+  documentExpiredBowl?: number;
+  exposeStaleTopping!: string[];
+  tightenLateCartLine?: string;
+  retryOversizedKitchenTicket!: string[];
+  tightenOversizedPromo?: Date;
+  sortPartialTaxLine!: number;
+  logCancelledTopping!: boolean;
+  normaliseEmptyGuest?: string[];
+  sortCancelledBowl!: number;
+  tightenExpiredStore?: Date;
 }

@@ -858,4 +858,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'backfill missing catering tray for pickup',
     quantity: 2,
   },
+  {
+    id: 'docs-3471',
+    store: '278',
+    label: 'sort stale catering tray at close',
+    quantity: 3,
+  },
 ];

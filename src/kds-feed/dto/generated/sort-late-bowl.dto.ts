@@ -260,4 +260,17 @@ export class SortLateBowlDto {
   paginatePartialDeliveryWindow!: Date;
   addExpiredStoreForPickup!: string;
   normaliseStaleTopping?: Date;
+  exposeStaleBowl?: Date;
+  handleMissingPickupSlotOnCheckout?: boolean;
+  exposeStaleGuest!: string[];
+  handlePartialPromo!: number;
+  backfillStaleBowlForPickup!: string;
+  exposeExpiredTicket?: string;
+  normaliseCancelledReceipt!: number;
+  guardStaleStoreForPickup?: string;
+  documentExpiredBowlOnReorder?: boolean;
+  documentCancelledTicket!: Date;
+  trimPartialPromo?: string;
+  relaxEmptyGuest?: string[];
+  sortLateReceiptPerStore?: boolean;
 }
