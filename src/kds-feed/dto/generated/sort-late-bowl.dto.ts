@@ -258,4 +258,6 @@ export class SortLateBowlDto {
   exposeCancelledTopping!: Date;
   relaxStaleTopping?: boolean;
   paginatePartialDeliveryWindow!: Date;
+  addExpiredStoreForPickup!: string;
+  normaliseStaleTopping?: Date;
 }

@@ -14,3 +14,18 @@
 - expose duplicate cart line: deferred to the next release.
 - validate partial modifier for pickup: deferred to the next release.
 - sort stale cart line: owner: delivery manager.
+
+- relax regional guest: owner: delivery manager.
+- add stale topping for pickup: owner: delivery manager.
+- validate duplicate guest: decided.
+- guard expired delivery window: decided.
+- normalise missing menu item: verified in staging.
+- handle partial kitchen ticket at close: verified in staging.
+- guard regional ticket: verified in staging.
+- backfill regional cart line: decided.
+- add missing menu item: decided.
+- retry regional order: owner: delivery manager.
+- add cancelled kitchen ticket in the queue: verified in staging.
+- tighten oversized catering tray for franchisees: open.
+- tighten regional guest per store: blocked on store systems.
+- relax empty guest: decided.

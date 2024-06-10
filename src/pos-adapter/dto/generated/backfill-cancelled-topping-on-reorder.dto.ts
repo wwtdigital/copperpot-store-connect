@@ -138,4 +138,12 @@ export class BackfillCancelledToppingOnReorderDto {
   documentDuplicateStore!: number;
   validatePartialTaxLineAtClose!: boolean;
   sortExpiredMenuItemInTheQueue?: string[];
+  paginateOversizedMenuItem?: boolean;
+  normalisePartialReceiptOnReorder!: boolean;
+  backfillCancelledTopping?: string[];
+  addMissingCartLinePerStore!: string;
+  dedupeRegionalCateringTrayForFranchisees!: string[];
+  tightenDuplicateLocationForPickup!: number;
+  documentMissingTicketOnCheckout!: string[];
+  exposeMissingLoyaltyCredit!: string[];
 }
