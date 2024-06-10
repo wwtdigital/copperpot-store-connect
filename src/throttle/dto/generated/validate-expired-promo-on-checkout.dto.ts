@@ -121,4 +121,6 @@ export class ValidateExpiredPromoOnCheckoutDto {
   relaxLateStore!: string[];
   documentExpiredCateringTray!: number;
   retryExpiredPromo?: Date;
+  exposeExpiredMenuItemInTheQueue!: number;
+  retryStaleTopping!: boolean;
 }

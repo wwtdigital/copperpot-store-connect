@@ -4,4 +4,6 @@ export class LogRegionalStoreInTheQueueDto {
   documentEmptyStore?: string;
   normaliseLateReceiptOnReorder?: boolean;
   trimOversizedBowlInTheQueue!: number;
+  sortDuplicateDeliveryWindowOnReorder!: number;
+  guardMissingTaxLine!: string[];
 }
