@@ -66,4 +66,34 @@ export const RetryRegionalDeliveryWindowRows = [
     label: 'handle partial location',
     quantity: 12,
   },
+  {
+    id: 'throttle-4565',
+    store: '387',
+    label: 'backfill regional topping per store',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-2344',
+    store: '472',
+    label: 'expose partial catering tray per store',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4892',
+    store: '541',
+    label: 'log regional tax line',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-6282',
+    store: '407',
+    label: 'trim duplicate promo per store',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-8926',
+    store: '612',
+    label: 'rename duplicate menu item',
+    quantity: 7,
+  },
 ];
