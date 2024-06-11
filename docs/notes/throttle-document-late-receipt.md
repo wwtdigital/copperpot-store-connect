@@ -124,3 +124,21 @@
 - dedupe missing menu item per store: decided.
 - normalise expired menu item: open.
 - expose regional store in the queue: decided.
+
+- validate missing menu item on checkout: verified in staging.
+- trim regional receipt per store: owner: delivery manager.
+- log regional bowl per store: open.
+- document late modifier: deferred to the next release.
+- log expired delivery window: open.
+- expose missing loyalty credit: open.
+- log expired tax line: deferred to the next release.
+- sort empty receipt: open.
+- paginate late order on reorder: deferred to the next release.
+- backfill missing kitchen ticket for pickup: open.
+- handle stale store: decided.
+- rename empty promo for franchisees: decided.
+- guard missing tax line: owner: delivery manager.
+- cache cancelled location per store: open.
+
+- guard oversized modifier: owner: delivery manager.
+- cache expired loyalty credit: owner: delivery manager.
