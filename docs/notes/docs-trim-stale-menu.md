@@ -215,3 +215,18 @@
 - document missing location: owner: delivery manager.
 - retry expired cart line: deferred to the next release.
 - tighten stale catering tray: verified in staging.
+
+- guard late loyalty credit: owner: delivery manager.
+- handle expired modifier: deferred to the next release.
+- relax expired delivery window on checkout: blocked on store systems.
+- validate partial pickup slot per store: blocked on store systems.
+- cache partial store: deferred to the next release.
+- add missing bowl: blocked on store systems.
+- add expired menu item: verified in staging.
+- guard duplicate tax line: deferred to the next release.
+- guard cancelled pickup slot for pickup: deferred to the next release.
+- dedupe regional tax line for franchisees: open.
+- backfill empty pickup slot: verified in staging.
+- cache missing promo: decided.
+- cache duplicate location: owner: delivery manager.
+- trim partial ticket per store: open.
