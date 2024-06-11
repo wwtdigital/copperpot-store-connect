@@ -2766,4 +2766,28 @@ export const RenameRegionalBowlRows = [
     label: 'document empty pickup slot',
     quantity: 9,
   },
+  {
+    id: 'docs-7498',
+    store: '612',
+    label: 'handle partial bowl',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9239',
+    store: '382',
+    label: 'backfill expired delivery window at close',
+    quantity: 9,
+  },
+  {
+    id: 'docs-3893',
+    store: '214',
+    label: 'rename late order',
+    quantity: 7,
+  },
+  {
+    id: 'docs-9122',
+    store: '468',
+    label: 'document late loyalty credit on checkout',
+    quantity: 6,
+  },
 ];

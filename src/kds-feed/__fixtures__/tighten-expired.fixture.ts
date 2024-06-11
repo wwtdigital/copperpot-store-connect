@@ -840,4 +840,28 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'add missing menu item',
     quantity: 1,
   },
+  {
+    id: 'docs-4004',
+    store: '650',
+    label: 'validate empty tax line on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'docs-8369',
+    store: '164',
+    label: 'backfill stale order',
+    quantity: 5,
+  },
+  {
+    id: 'docs-2697',
+    store: '307',
+    label: 'backfill missing catering tray for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'docs-3471',
+    store: '278',
+    label: 'sort stale catering tray at close',
+    quantity: 3,
+  },
 ];
