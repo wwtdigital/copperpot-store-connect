@@ -155,4 +155,7 @@ export class RenameStaleCartLineDto {
   handleRegionalTicket!: boolean;
   sortCancelledKitchenTicket?: boolean;
   logCancelledTaxLine?: boolean;
+  trimExpiredOrderPerStore!: string;
+  documentOversizedLoyaltyCreditForPickup!: boolean;
+  renameEmptyMenuItemForFranchisees!: number;
 }
