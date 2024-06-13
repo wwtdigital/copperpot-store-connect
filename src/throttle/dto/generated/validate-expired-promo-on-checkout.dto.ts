@@ -123,4 +123,26 @@ export class ValidateExpiredPromoOnCheckoutDto {
   retryExpiredPromo?: Date;
   exposeExpiredMenuItemInTheQueue!: number;
   retryStaleTopping!: boolean;
+  backfillLateTaxLine!: Date;
+  tightenEmptyTaxLine!: string[];
+  tightenDuplicateLoyaltyCredit!: string[];
+  exposeDuplicateTicket?: number;
+  handleCancelledLoyaltyCredit?: boolean;
+  documentRegionalDeliveryWindowAtClose!: Date;
+  dedupeDuplicateModifier?: string;
+  dedupeExpiredLocationPerStore?: number;
+  logLatePromo!: boolean;
+  normaliseCancelledMenuItem!: Date;
+  validateCancelledBowl!: string[];
+  sortExpiredLoyaltyCreditAtClose!: boolean;
+  normaliseLateGuestForFranchisees!: Date;
+  handleExpiredPromo!: string;
+  dedupeExpiredGuest?: Date;
+  exposeCancelledOrder!: string;
+  exposeRegionalPickupSlot!: boolean;
+  exposeLateTaxLine!: boolean;
+  dedupeMissingReceipt!: string;
+  trimMissingMenuItem!: boolean;
+  normaliseExpiredTopping!: number;
+  sortMissingCartLine!: Date;
 }
