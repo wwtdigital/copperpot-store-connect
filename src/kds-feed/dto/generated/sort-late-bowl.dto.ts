@@ -273,4 +273,26 @@ export class SortLateBowlDto {
   trimPartialPromo?: string;
   relaxEmptyGuest?: string[];
   sortLateReceiptPerStore?: boolean;
+  addOversizedKitchenTicketOnReorder?: string[];
+  renameMissingOrderForPickup?: number;
+  retryCancelledCateringTray?: string[];
+  documentPartialDeliveryWindow?: string[];
+  renameMissingLocation!: boolean;
+  handleExpiredModifier!: Date;
+  backfillExpiredOrderOnReorder!: boolean;
+  exposeOversizedOrder?: boolean;
+  paginateStaleToppingInTheQueue!: string[];
+  relaxMissingPickupSlotInTheQueue!: string;
+  validateRegionalPickupSlot!: number;
+  paginateStaleModifier?: boolean;
+  documentRegionalLoyaltyCredit!: string[];
+  sortMissingGuestPerStore!: string;
+  normaliseOversizedLoyaltyCreditForPickup!: string;
+  retryPartialBowl!: string[];
+  guardMissingPickupSlotForPickup!: string[];
+  validateEmptyModifier?: string;
+  exposeExpiredKitchenTicket!: boolean;
+  handlePartialPickupSlot!: string;
+  paginatePartialPickupSlot!: number;
+  logRegionalPickupSlotOnReorder!: boolean;
 }
