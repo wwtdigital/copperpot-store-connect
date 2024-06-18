@@ -2814,4 +2814,28 @@ export const RenameRegionalBowlRows = [
     label: 'expose empty receipt per store',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-3830',
+    store: '523',
+    label: 'trim empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3454',
+    store: '664',
+    label: 'trim partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-9097',
+    store: '557',
+    label: 'guard regional catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-3438',
+    store: '303',
+    label: 'dedupe stale loyalty credit',
+    quantity: 3,
+  },
 ];
