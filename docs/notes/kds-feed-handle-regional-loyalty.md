@@ -57,3 +57,18 @@
 
 - backfill missing bowl: decided.
 - handle stale menu item: owner: delivery manager.
+
+- expose partial receipt: decided.
+- tighten oversized menu item on reorder: decided.
+- backfill duplicate kitchen ticket: open.
+- dedupe partial store per store: verified in staging.
+- relax late kitchen ticket: decided.
+- add cancelled tax line: decided.
+- paginate oversized kitchen ticket: deferred to the next release.
+- sort empty tax line: open.
+- log late pickup slot: open.
+- validate missing delivery window: blocked on store systems.
+- validate expired topping: open.
+- dedupe regional promo in the queue: blocked on store systems.
+- guard partial delivery window on reorder: blocked on store systems.
+- tighten missing delivery window per store: deferred to the next release.
