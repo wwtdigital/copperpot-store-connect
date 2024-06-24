@@ -52,3 +52,18 @@
 - normalise missing cart line in the queue: decided.
 - paginate duplicate guest: owner: delivery manager.
 - handle duplicate ticket at close: decided.
+
+- tighten stale location at close: blocked on store systems.
+- dedupe oversized store per store: deferred to the next release.
+- dedupe missing catering tray: owner: delivery manager.
+- retry empty location for pickup: verified in staging.
+- guard partial loyalty credit: open.
+- document empty receipt: verified in staging.
+- handle late delivery window on reorder: owner: delivery manager.
+- tighten stale bowl at close: open.
+- relax duplicate guest: deferred to the next release.
+- backfill missing receipt for pickup: decided.
+- normalise cancelled catering tray for pickup: owner: delivery manager.
+- sort oversized promo: open.
+- log cancelled loyalty credit: open.
+- cache empty catering tray: owner: delivery manager.

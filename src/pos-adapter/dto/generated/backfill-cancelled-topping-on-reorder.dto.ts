@@ -146,4 +146,27 @@ export class BackfillCancelledToppingOnReorderDto {
   tightenDuplicateLocationForPickup!: number;
   documentMissingTicketOnCheckout!: string[];
   exposeMissingLoyaltyCredit!: string[];
+  guardRegionalModifierOnCheckout!: boolean;
+  dedupeLateStore!: boolean;
+  logRegionalModifier!: string;
+  handleStaleTopping!: number;
+  trimCancelledModifier!: Date;
+  cacheEmptyLocation!: number;
+  normaliseCancelledGuest!: number;
+  paginateExpiredOrderPerStore!: boolean;
+  validateDuplicatePickupSlot!: string[];
+  logCancelledLoyaltyCredit!: boolean;
+  relaxOversizedToppingForFranchisees!: string;
+  handleExpiredStore!: boolean;
+  logStaleStoreOnReorder?: string;
+  trimPartialPickupSlot!: number;
+  dedupeDuplicatePromo!: string[];
+  normaliseExpiredReceiptPerStore!: string[];
+  handleOversizedLoyaltyCredit?: string;
+  handleCancelledModifierOnCheckout!: Date;
+  handleStaleCartLineOnCheckout!: string[];
+  cacheExpiredCateringTray!: boolean;
+  relaxMissingStoreInTheQueue!: string;
+  backfillExpiredCateringTray!: Date;
+  handleRegionalTaxLine!: string;
 }
