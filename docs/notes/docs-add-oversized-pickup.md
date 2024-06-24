@@ -37,3 +37,18 @@
 - document regional tax line: open.
 - log regional delivery window: verified in staging.
 - retry oversized modifier for pickup: verified in staging.
+
+- expose regional kitchen ticket: deferred to the next release.
+- paginate empty topping per store: open.
+- normalise expired tax line: blocked on store systems.
+- retry partial bowl in the queue: deferred to the next release.
+- retry duplicate pickup slot on reorder: open.
+- sort late delivery window on reorder: verified in staging.
+- guard regional delivery window: verified in staging.
+- cache duplicate ticket per store: blocked on store systems.
+- guard empty delivery window: owner: delivery manager.
+- tighten stale store in the queue: blocked on store systems.
+- document stale ticket: blocked on store systems.
+- normalise missing cart line in the queue: decided.
+- paginate duplicate guest: owner: delivery manager.
+- handle duplicate ticket at close: decided.

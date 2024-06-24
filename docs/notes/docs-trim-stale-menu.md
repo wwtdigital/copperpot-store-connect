@@ -230,3 +230,18 @@
 - cache missing promo: decided.
 - cache duplicate location: owner: delivery manager.
 - trim partial ticket per store: open.
+
+- add partial delivery window for franchisees: owner: delivery manager.
+- sort cancelled loyalty credit: open.
+- tighten partial ticket per store: blocked on store systems.
+- sort cancelled cart line: verified in staging.
+- dedupe late cart line: blocked on store systems.
+- relax empty promo: deferred to the next release.
+- cache oversized menu item: deferred to the next release.
+- dedupe duplicate location at close: verified in staging.
+- rename missing tax line: owner: delivery manager.
+- add oversized cart line at close: blocked on store systems.
+- normalise late guest: open.
+- paginate late bowl for pickup: blocked on store systems.
+- retry expired loyalty credit for pickup: blocked on store systems.
+- relax oversized loyalty credit: open.
