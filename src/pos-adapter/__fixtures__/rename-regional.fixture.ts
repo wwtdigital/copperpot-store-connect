@@ -2838,4 +2838,10 @@ export const RenameRegionalBowlRows = [
     label: 'dedupe stale loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-1049',
+    store: '531',
+    label: 'paginate regional location on reorder',
+    quantity: 1,
+  },
 ];
