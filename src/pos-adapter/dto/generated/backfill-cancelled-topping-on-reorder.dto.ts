@@ -169,4 +169,6 @@ export class BackfillCancelledToppingOnReorderDto {
   relaxMissingStoreInTheQueue!: string;
   backfillExpiredCateringTray!: Date;
   handleRegionalTaxLine!: string;
+  trimDuplicatePromoForFranchisees!: string;
+  dedupeRegionalPickupSlot?: boolean;
 }

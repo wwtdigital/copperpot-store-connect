@@ -6,4 +6,18 @@ export class LogRegionalStoreInTheQueueDto {
   trimOversizedBowlInTheQueue!: number;
   sortDuplicateDeliveryWindowOnReorder!: number;
   guardMissingTaxLine!: string[];
+  retryMissingCateringTrayAtClose!: string[];
+  documentStaleModifierForPickup!: string[];
+  logCancelledOrderInTheQueue?: string[];
+  relaxCancelledOrder!: boolean;
+  handleOversizedToppingOnReorder!: boolean;
+  guardDuplicateOrder!: boolean;
+  dedupeExpiredGuest!: number;
+  sortDuplicateLoyaltyCredit!: number;
+  exposeExpiredCartLineOnCheckout!: string[];
+  handleEmptyModifier!: Date;
+  exposeRegionalStore?: string;
+  tightenOversizedPromoForPickup?: number;
+  addMissingCartLineAtClose!: string[];
+  trimCancelledGuest?: string;
 }
