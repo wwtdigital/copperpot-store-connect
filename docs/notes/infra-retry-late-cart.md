@@ -14,3 +14,18 @@
 - trim missing modifier for franchisees: open.
 - paginate late menu item on reorder: owner: delivery manager.
 - trim late ticket: deferred to the next release.
+
+- retry missing ticket per store: verified in staging.
+- normalise regional store: owner: delivery manager.
+- retry late pickup slot: decided.
+- document empty pickup slot: owner: delivery manager.
+- normalise duplicate menu item in the queue: open.
+- paginate stale guest: owner: delivery manager.
+- dedupe missing promo in the queue: decided.
+- handle expired store: decided.
+- dedupe missing catering tray: deferred to the next release.
+- trim cancelled loyalty credit for franchisees: open.
+- cache expired delivery window at close: decided.
+- cache regional menu item: open.
+- handle oversized catering tray: blocked on store systems.
+- tighten partial guest: owner: delivery manager.
