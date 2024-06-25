@@ -135,4 +135,7 @@ export class CacheCancelledDeliveryWindowAtCloseDto {
   tightenExpiredPickupSlotAtClose?: string;
   validateMissingReceipt!: number;
   handlePartialCateringTray?: number;
+  tightenStaleTicket!: number;
+  addStaleMenuItemInTheQueue!: boolean;
+  trimStaleReceiptInTheQueue?: string[];
 }

@@ -216,4 +216,10 @@ export const RetryRegionalDeliveryWindowRows = [
     label: 'expose late delivery window',
     quantity: 6,
   },
+  {
+    id: 'docs-5477',
+    store: '474',
+    label: 'log regional receipt',
+    quantity: 8,
+  },
 ];
