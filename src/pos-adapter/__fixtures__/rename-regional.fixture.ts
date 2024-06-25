@@ -2790,4 +2790,28 @@ export const RenameRegionalBowlRows = [
     label: 'document late loyalty credit on checkout',
     quantity: 6,
   },
+  {
+    id: 'docs-1689',
+    store: '199',
+    label: 'document stale loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'docs-8582',
+    store: '489',
+    label: 'expose missing catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'docs-4921',
+    store: '603',
+    label: 'rename empty store',
+    quantity: 3,
+  },
+  {
+    id: 'docs-6022',
+    store: '662',
+    label: 'expose empty receipt per store',
+    quantity: 6,
+  },
 ];
