@@ -2874,4 +2874,28 @@ export const RenameRegionalBowlRows = [
     label: 'paginate empty guest',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-6297',
+    store: '685',
+    label: 'guard regional kitchen ticket for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-2354',
+    store: '121',
+    label: 'handle empty guest',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-1577',
+    store: '467',
+    label: 'paginate oversized ticket',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6880',
+    store: '513',
+    label: 'add empty menu item per store',
+    quantity: 11,
+  },
 ];
