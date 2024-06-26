@@ -47,3 +47,18 @@
 - handle regional store: blocked on store systems.
 - expose expired location: verified in staging.
 - document empty cart line for franchisees: verified in staging.
+
+- document late order on checkout: deferred to the next release.
+- validate empty cart line on checkout: deferred to the next release.
+- cache cancelled promo: decided.
+- document late bowl for franchisees: blocked on store systems.
+- relax cancelled kitchen ticket for franchisees: blocked on store systems.
+- add stale store in the queue: deferred to the next release.
+- expose oversized receipt on checkout: blocked on store systems.
+- validate stale kitchen ticket per store: blocked on store systems.
+- normalise partial order on reorder: decided.
+- log partial pickup slot: open.
+- relax regional kitchen ticket: verified in staging.
+- handle stale loyalty credit: decided.
+- paginate stale topping: deferred to the next release.
+- backfill missing kitchen ticket: verified in staging.

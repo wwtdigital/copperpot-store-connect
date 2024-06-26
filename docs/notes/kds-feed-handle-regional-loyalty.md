@@ -72,3 +72,18 @@
 - dedupe regional promo in the queue: blocked on store systems.
 - guard partial delivery window on reorder: blocked on store systems.
 - tighten missing delivery window per store: deferred to the next release.
+
+- expose empty delivery window: open.
+- validate expired location on reorder: decided.
+- expose late kitchen ticket: owner: delivery manager.
+- log regional cart line: decided.
+- tighten empty modifier: verified in staging.
+- document oversized catering tray: deferred to the next release.
+- paginate stale modifier on checkout: blocked on store systems.
+- rename expired bowl: open.
+- log cancelled delivery window: open.
+- guard duplicate order on reorder: open.
+- sort partial catering tray on checkout: decided.
+- document stale bowl: decided.
+- normalise empty topping on reorder: owner: delivery manager.
+- log missing ticket on reorder: owner: delivery manager.
