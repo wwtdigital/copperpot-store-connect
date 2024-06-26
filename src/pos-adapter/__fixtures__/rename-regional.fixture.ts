@@ -2850,4 +2850,28 @@ export const RenameRegionalBowlRows = [
     label: 'sort empty catering tray per store',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-8517',
+    store: '324',
+    label: 'expose cancelled bowl',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-6786',
+    store: '555',
+    label: 'tighten expired delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2502',
+    store: '478',
+    label: 'document missing promo',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-4486',
+    store: '142',
+    label: 'paginate empty guest',
+    quantity: 7,
+  },
 ];
