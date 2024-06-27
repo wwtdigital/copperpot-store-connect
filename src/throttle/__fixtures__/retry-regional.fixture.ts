@@ -222,4 +222,16 @@ export const RetryRegionalDeliveryWindowRows = [
     label: 'log regional receipt',
     quantity: 8,
   },
+  {
+    id: 'throttle-1367',
+    store: '283',
+    label: 'cache cancelled modifier',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-5659',
+    store: '679',
+    label: 'trim expired bowl',
+    quantity: 12,
+  },
 ];
