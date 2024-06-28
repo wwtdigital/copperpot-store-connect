@@ -234,4 +234,34 @@ export const RetryRegionalDeliveryWindowRows = [
     label: 'trim expired bowl',
     quantity: 12,
   },
+  {
+    id: 'throttle-2991',
+    store: '173',
+    label: 'handle oversized receipt',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-9207',
+    store: '653',
+    label: 'trim partial ticket',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6075',
+    store: '504',
+    label: 'handle empty receipt',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-6026',
+    store: '566',
+    label: 'validate empty guest for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-4529',
+    store: '234',
+    label: 'relax regional catering tray on reorder',
+    quantity: 9,
+  },
 ];
