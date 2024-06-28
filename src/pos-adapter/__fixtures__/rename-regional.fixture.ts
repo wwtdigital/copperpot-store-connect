@@ -2844,4 +2844,10 @@ export const RenameRegionalBowlRows = [
     label: 'paginate regional location on reorder',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-6119',
+    store: '622',
+    label: 'sort empty catering tray per store',
+    quantity: 6,
+  },
 ];
