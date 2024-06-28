@@ -558,4 +558,22 @@ export const RenameExpiredMenuItemOnReorderRows = [
     label: 'document duplicate cart line',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-9192',
+    store: '667',
+    label: 'relax duplicate menu item for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-4334',
+    store: '367',
+    label: 'validate missing promo',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-6709',
+    store: '351',
+    label: 'document missing pickup slot for pickup',
+    quantity: 8,
+  },
 ];

@@ -171,4 +171,17 @@ export class BackfillCancelledToppingOnReorderDto {
   handleRegionalTaxLine!: string;
   trimDuplicatePromoForFranchisees!: string;
   dedupeRegionalPickupSlot?: boolean;
+  sortStaleLocation!: string[];
+  backfillEmptyPickupSlot!: string;
+  trimPartialCartLine!: string[];
+  retryDuplicateDeliveryWindow!: string[];
+  backfillExpiredKitchenTicket?: number;
+  documentLateMenuItem?: string[];
+  addRegionalOrder!: number;
+  exposeOversizedPromo!: number;
+  retryExpiredGuest!: number;
+  backfillRegionalPickupSlotOnReorder!: boolean;
+  logLateBowlOnReorder!: Date;
+  relaxMissingStoreOnCheckout!: string;
+  paginateRegionalBowl!: string[];
 }
