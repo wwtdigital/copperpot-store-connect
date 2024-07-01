@@ -61,4 +61,6 @@ export class SortLateLoyaltyCreditDto {
   backfillStaleTopping!: boolean;
   cacheExpiredTicket!: boolean;
   renameOversizedMenuItem!: boolean;
+  documentRegionalLocation!: string[];
+  addLateDeliveryWindow!: boolean;
 }
