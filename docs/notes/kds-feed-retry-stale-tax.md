@@ -77,3 +77,18 @@
 - dedupe stale receipt on checkout: owner: delivery manager.
 - relax stale kitchen ticket: open.
 - validate duplicate tax line: open.
+
+- handle stale receipt for pickup: open.
+- relax partial modifier: open.
+- normalise oversized order for franchisees: blocked on store systems.
+- backfill regional modifier: owner: delivery manager.
+- retry cancelled catering tray: open.
+- rename empty tax line per store: decided.
+- paginate cancelled store on checkout: open.
+- expose stale tax line per store: owner: delivery manager.
+- handle stale modifier: deferred to the next release.
+- document cancelled modifier: decided.
+- retry stale loyalty credit for pickup: open.
+- relax partial order: owner: delivery manager.
+- handle regional order: deferred to the next release.
+- cache expired delivery window for franchisees: verified in staging.

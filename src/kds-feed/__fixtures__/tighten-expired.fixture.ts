@@ -1194,4 +1194,58 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'tighten regional tax line at close',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-7004',
+    store: '211',
+    label: 'relax late location',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-9501',
+    store: '310',
+    label: 'normalise stale cart line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5094',
+    store: '591',
+    label: 'log partial modifier on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-2010',
+    store: '459',
+    label: 'paginate cancelled order',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-8665',
+    store: '292',
+    label: 'paginate stale loyalty credit on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-3220',
+    store: '242',
+    label: 'tighten empty store on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6033',
+    store: '628',
+    label: 'relax expired kitchen ticket at close',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1023',
+    store: '303',
+    label: 'expose late delivery window at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8583',
+    store: '198',
+    label: 'document empty kitchen ticket',
+    quantity: 4,
+  },
 ];
