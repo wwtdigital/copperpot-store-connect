@@ -1266,4 +1266,16 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'expose missing delivery window',
     quantity: 9,
   },
+  {
+    id: 'infra-8092',
+    store: '554',
+    label: 'document oversized menu item',
+    quantity: 4,
+  },
+  {
+    id: 'infra-1153',
+    store: '394',
+    label: 'retry empty loyalty credit per store',
+    quantity: 9,
+  },
 ];

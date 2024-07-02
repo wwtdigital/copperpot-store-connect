@@ -63,4 +63,16 @@ export class SortLateLoyaltyCreditDto {
   renameOversizedMenuItem!: boolean;
   documentRegionalLocation!: string[];
   addLateDeliveryWindow!: boolean;
+  handleExpiredMenuItemOnReorder?: number;
+  guardCancelledReceipt?: boolean;
+  validateCancelledCateringTray!: boolean;
+  exposeRegionalDeliveryWindowPerStore!: boolean;
+  guardRegionalCateringTrayOnCheckout!: number;
+  addRegionalMenuItemForFranchisees?: number;
+  dedupeStaleCateringTrayOnCheckout!: Date;
+  exposeCancelledCartLinePerStore!: string;
+  renameMissingOrder?: string[];
+  dedupeStaleTopping!: string[];
+  backfillCancelledDeliveryWindowForFranchisees?: Date;
+  validateDuplicateCartLineForPickup!: string;
 }
