@@ -1152,4 +1152,46 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'document oversized kitchen ticket',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-5554',
+    store: '638',
+    label: 'expose late bowl',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-4774',
+    store: '634',
+    label: 'normalise oversized tax line',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-8614',
+    store: '507',
+    label: 'backfill expired guest',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-7773',
+    store: '422',
+    label: 'log oversized loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9544',
+    store: '241',
+    label: 'handle regional location at close',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3049',
+    store: '248',
+    label: 'normalise partial kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1222',
+    store: '485',
+    label: 'tighten regional tax line at close',
+    quantity: 8,
+  },
 ];

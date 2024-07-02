@@ -62,3 +62,18 @@
 - handle stale loyalty credit: decided.
 - paginate stale topping: deferred to the next release.
 - backfill missing kitchen ticket: verified in staging.
+
+- expose regional tax line: verified in staging.
+- dedupe late order: deferred to the next release.
+- validate regional order: verified in staging.
+- handle expired kitchen ticket: open.
+- trim empty receipt: open.
+- paginate duplicate loyalty credit on reorder: blocked on store systems.
+- sort duplicate kitchen ticket on reorder: deferred to the next release.
+- validate regional store: decided.
+- validate cancelled loyalty credit: deferred to the next release.
+- dedupe partial kitchen ticket at close: decided.
+- guard partial guest: open.
+- dedupe stale receipt on checkout: owner: delivery manager.
+- relax stale kitchen ticket: open.
+- validate duplicate tax line: open.
