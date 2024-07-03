@@ -29,3 +29,5 @@
 - cache regional menu item: open.
 - handle oversized catering tray: blocked on store systems.
 - tighten partial guest: owner: delivery manager.
+
+- expose regional order: blocked on store systems.
