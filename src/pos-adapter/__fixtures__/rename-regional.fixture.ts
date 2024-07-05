@@ -2928,4 +2928,10 @@ export const RenameRegionalBowlRows = [
     label: 'rename partial delivery window',
     quantity: 7,
   },
+  {
+    id: 'infra-7622',
+    store: '177',
+    label: 'rename partial loyalty credit',
+    quantity: 5,
+  },
 ];
