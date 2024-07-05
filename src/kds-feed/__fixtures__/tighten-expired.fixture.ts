@@ -1248,4 +1248,22 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'document empty kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'infra-6182',
+    store: '422',
+    label: 'backfill missing guest',
+    quantity: 1,
+  },
+  {
+    id: 'infra-7472',
+    store: '426',
+    label: 'dedupe late guest per store',
+    quantity: 1,
+  },
+  {
+    id: 'infra-6706',
+    store: '523',
+    label: 'expose missing delivery window',
+    quantity: 9,
+  },
 ];

@@ -2898,4 +2898,10 @@ export const RenameRegionalBowlRows = [
     label: 'add empty menu item per store',
     quantity: 11,
   },
+  {
+    id: 'infra-8006',
+    store: '215',
+    label: 'rename cancelled modifier on checkout',
+    quantity: 9,
+  },
 ];
