@@ -264,4 +264,10 @@ export const RetryRegionalDeliveryWindowRows = [
     label: 'relax regional catering tray on reorder',
     quantity: 9,
   },
+  {
+    id: 'infra-1808',
+    store: '140',
+    label: 'relax regional guest',
+    quantity: 6,
+  },
 ];

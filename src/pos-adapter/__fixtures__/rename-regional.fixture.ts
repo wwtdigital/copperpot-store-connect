@@ -2898,4 +2898,40 @@ export const RenameRegionalBowlRows = [
     label: 'add empty menu item per store',
     quantity: 11,
   },
+  {
+    id: 'infra-8006',
+    store: '215',
+    label: 'rename cancelled modifier on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'infra-9699',
+    store: '181',
+    label: 'cache cancelled catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-2073',
+    store: '431',
+    label: 'cache oversized kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'infra-4650',
+    store: '508',
+    label: 'expose partial location in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'infra-9394',
+    store: '453',
+    label: 'rename partial delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'infra-7622',
+    store: '177',
+    label: 'rename partial loyalty credit',
+    quantity: 5,
+  },
 ];
