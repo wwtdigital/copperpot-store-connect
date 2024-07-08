@@ -1,0 +1,111 @@
+/* Fixture rows for pos-adapter tests: trim cancelled store. Generated data, not production data. */
+export const TrimCancelledStoreRows = [
+  {
+    id: 'pos-adapter-1624',
+    store: '258',
+    label: 'relax cancelled store',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-8559',
+    store: '216',
+    label: 'backfill cancelled kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-6340',
+    store: '500',
+    label: 'retry missing cart line on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-7748',
+    store: '402',
+    label: 'dedupe late kitchen ticket on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1463',
+    store: '258',
+    label: 'relax missing ticket',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-2456',
+    store: '403',
+    label: 'backfill missing cart line per store',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4080',
+    store: '188',
+    label: 'paginate partial topping for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-9577',
+    store: '438',
+    label: 'tighten partial tax line per store',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-5178',
+    store: '362',
+    label: 'dedupe partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-3905',
+    store: '592',
+    label: 'backfill missing order for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9855',
+    store: '431',
+    label: 'handle stale store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-3572',
+    store: '499',
+    label: 'backfill missing modifier',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8579',
+    store: '420',
+    label: 'backfill duplicate location on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-8464',
+    store: '255',
+    label: 'sort expired promo on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-9051',
+    store: '343',
+    label: 'retry duplicate modifier per store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-1800',
+    store: '234',
+    label: 'cache partial store',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1193',
+    store: '145',
+    label: 'paginate stale menu item',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-7264',
+    store: '571',
+    label: 'log empty modifier',
+    quantity: 1,
+  },
+];
