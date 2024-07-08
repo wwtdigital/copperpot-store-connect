@@ -245,3 +245,22 @@
 - paginate late bowl for pickup: blocked on store systems.
 - retry expired loyalty credit for pickup: blocked on store systems.
 - relax oversized loyalty credit: open.
+
+- validate regional order: open.
+- guard oversized guest for franchisees: verified in staging.
+- backfill late guest: deferred to the next release.
+- sort duplicate guest per store: owner: delivery manager.
+- cache partial delivery window: owner: delivery manager.
+- retry cancelled bowl on reorder: open.
+- guard duplicate order in the queue: deferred to the next release.
+- validate duplicate bowl: deferred to the next release.
+- normalise missing delivery window at close: open.
+- sort missing menu item: verified in staging.
+- relax cancelled tax line: open.
+- trim duplicate modifier: open.
+- rename cancelled loyalty credit: decided.
+- retry oversized topping: verified in staging.
+
+- dedupe late delivery window at close: deferred to the next release.
+- relax stale guest: deferred to the next release.
+- dedupe cancelled cart line: decided.

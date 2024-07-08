@@ -3132,4 +3132,10 @@ export const RenameRegionalBowlRows = [
     label: 'add stale pickup slot for pickup',
     quantity: 6,
   },
+  {
+    id: 'docs-8940',
+    store: '219',
+    label: 'relax late ticket',
+    quantity: 8,
+  },
 ];
