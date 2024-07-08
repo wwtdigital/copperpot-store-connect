@@ -1,0 +1,46 @@
+# throttle: backfill duplicate order at close
+
+- trim duplicate cart line: owner: delivery manager.
+- handle partial receipt for pickup: verified in staging.
+- cache missing store: owner: delivery manager.
+- trim duplicate store per store: verified in staging.
+- retry partial loyalty credit per store: deferred to the next release.
+- add duplicate pickup slot for franchisees: verified in staging.
+- guard empty promo: owner: delivery manager.
+- cache stale pickup slot for pickup: decided.
+- normalise regional store: decided.
+- cache partial bowl: blocked on store systems.
+- guard oversized topping: open.
+- relax expired tax line at close: decided.
+- cache cancelled receipt in the queue: blocked on store systems.
+- sort oversized store on checkout: owner: delivery manager.
+
+- rename duplicate order: deferred to the next release.
+- add missing cart line: open.
+- guard regional guest: deferred to the next release.
+- document regional topping at close: deferred to the next release.
+- cache empty topping at close: blocked on store systems.
+- relax stale store: decided.
+- expose expired ticket: owner: delivery manager.
+- tighten duplicate ticket: open.
+- expose late bowl on checkout: deferred to the next release.
+- rename late receipt: open.
+- expose partial pickup slot: owner: delivery manager.
+- trim oversized pickup slot for franchisees: blocked on store systems.
+- backfill regional guest on reorder: verified in staging.
+- normalise empty promo: owner: delivery manager.
+
+- paginate duplicate delivery window: blocked on store systems.
+- cache partial modifier: decided.
+- normalise regional pickup slot: verified in staging.
+- log missing modifier for franchisees: open.
+- normalise missing location: open.
+- add expired catering tray: verified in staging.
+- paginate empty ticket for pickup: decided.
+- normalise duplicate modifier: decided.
+- normalise regional receipt: decided.
+- rename empty catering tray: owner: delivery manager.
+- backfill late kitchen ticket: blocked on store systems.
+- relax expired store per store: deferred to the next release.
+- cache late catering tray: open.
+- tighten missing bowl: verified in staging.
