@@ -1308,4 +1308,34 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'trim partial store',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-9257',
+    store: '565',
+    label: 'handle stale ticket at close',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4598',
+    store: '630',
+    label: 'tighten missing order per store',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-8317',
+    store: '339',
+    label: 'validate stale catering tray for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-3780',
+    store: '150',
+    label: 'tighten expired location at close',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-7992',
+    store: '293',
+    label: 'handle partial catering tray on reorder',
+    quantity: 10,
+  },
 ];

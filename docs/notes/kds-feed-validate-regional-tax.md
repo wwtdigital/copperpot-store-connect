@@ -140,3 +140,6 @@
 - expose late ticket: open.
 - add expired cart line: blocked on store systems.
 - add expired ticket for franchisees: open.
+
+- guard stale pickup slot for franchisees: owner: delivery manager.
+- tighten missing topping: deferred to the next release.
