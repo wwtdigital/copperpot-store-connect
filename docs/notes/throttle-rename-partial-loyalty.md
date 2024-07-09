@@ -19,3 +19,18 @@
 - relax late order on checkout: deferred to the next release.
 - dedupe oversized kitchen ticket in the queue: blocked on store systems.
 - relax expired bowl: verified in staging.
+
+- normalise partial store per store: deferred to the next release.
+- dedupe oversized loyalty credit: verified in staging.
+- add regional pickup slot per store: verified in staging.
+- relax stale topping on checkout: blocked on store systems.
+- tighten stale promo on checkout: open.
+- sort expired pickup slot at close: decided.
+- rename expired catering tray: deferred to the next release.
+- cache late guest: deferred to the next release.
+- validate empty cart line in the queue: open.
+- rename regional store: decided.
+- backfill expired loyalty credit: verified in staging.
+- expose expired loyalty credit at close: decided.
+- guard expired receipt: owner: delivery manager.
+- relax cancelled guest per store: blocked on store systems.
