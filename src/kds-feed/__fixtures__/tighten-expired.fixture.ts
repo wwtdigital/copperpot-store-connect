@@ -1278,4 +1278,34 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'retry empty loyalty credit per store',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-1307',
+    store: '225',
+    label: 'document missing store',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4253',
+    store: '286',
+    label: 'document cancelled pickup slot on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-8860',
+    store: '664',
+    label: 'validate missing loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4797',
+    store: '640',
+    label: 'paginate expired promo',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-4215',
+    store: '130',
+    label: 'trim partial store',
+    quantity: 7,
+  },
 ];
