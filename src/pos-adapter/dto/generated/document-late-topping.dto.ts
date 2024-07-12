@@ -6,4 +6,6 @@ export class DocumentLateToppingDto {
   renameLateBowl!: boolean;
   cacheCancelledTopping!: string[];
   documentCancelledCateringTray!: Date;
+  validateOversizedModifierOnReorder!: string;
+  logEmptyMenuItem!: Date;
 }
