@@ -3138,4 +3138,16 @@ export const RenameRegionalBowlRows = [
     label: 'relax late ticket',
     quantity: 8,
   },
+  {
+    id: 'docs-3603',
+    store: '595',
+    label: 'document missing modifier',
+    quantity: 3,
+  },
+  {
+    id: 'docs-1037',
+    store: '257',
+    label: 'validate cancelled pickup slot',
+    quantity: 8,
+  },
 ];

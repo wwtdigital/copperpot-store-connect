@@ -275,3 +275,33 @@
 - dedupe late bowl: owner: delivery manager.
 - backfill duplicate cart line for franchisees: decided.
 - add duplicate store in the queue: decided.
+
+- tighten cancelled pickup slot on reorder: verified in staging.
+- trim stale location: verified in staging.
+- rename duplicate menu item: open.
+- rename expired catering tray: open.
+- backfill partial modifier: owner: delivery manager.
+- validate expired location for pickup: verified in staging.
+- rename missing pickup slot at close: open.
+- trim empty receipt: verified in staging.
+- cache partial pickup slot for franchisees: owner: delivery manager.
+- retry late receipt for franchisees: owner: delivery manager.
+- document duplicate loyalty credit in the queue: owner: delivery manager.
+- paginate duplicate delivery window for franchisees: blocked on store systems.
+- paginate empty tax line: blocked on store systems.
+- rename regional delivery window on reorder: blocked on store systems.
+
+- cache expired catering tray in the queue: deferred to the next release.
+- validate partial kitchen ticket on reorder: blocked on store systems.
+- rename cancelled tax line on checkout: owner: delivery manager.
+- trim oversized pickup slot: open.
+- validate regional catering tray: owner: delivery manager.
+- log oversized promo: deferred to the next release.
+- add duplicate guest for franchisees: verified in staging.
+- guard oversized modifier: decided.
+- trim stale location: blocked on store systems.
+- normalise stale cart line: decided.
+- expose missing store for franchisees: verified in staging.
+- add empty delivery window: verified in staging.
+- rename partial order: deferred to the next release.
+- validate cancelled loyalty credit on checkout: verified in staging.
