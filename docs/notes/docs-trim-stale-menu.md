@@ -264,3 +264,14 @@
 - dedupe late delivery window at close: deferred to the next release.
 - relax stale guest: deferred to the next release.
 - dedupe cancelled cart line: decided.
+
+- log cancelled store on reorder: verified in staging.
+- handle expired catering tray: open.
+- retry expired bowl: verified in staging.
+- backfill expired promo: owner: delivery manager.
+- retry regional tax line: blocked on store systems.
+- relax oversized menu item per store: open.
+- dedupe empty modifier at close: verified in staging.
+- dedupe late bowl: owner: delivery manager.
+- backfill duplicate cart line for franchisees: decided.
+- add duplicate store in the queue: decided.

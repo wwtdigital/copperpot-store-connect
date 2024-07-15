@@ -341,4 +341,14 @@ export class SortLateBowlDto {
   normaliseLateOrderAtClose!: number;
   logCancelledLocationPerStore?: string;
   paginateLateLocation!: string[];
+  dedupeOversizedLoyaltyCreditPerStore!: string[];
+  validateExpiredPickupSlotOnReorder!: number;
+  validateOversizedDeliveryWindowOnCheckout?: Date;
+  backfillCancelledPromoForPickup!: Date;
+  logOversizedPickupSlot!: boolean;
+  backfillDuplicateGuest!: string[];
+  retryPartialTaxLine!: string[];
+  sortPartialLocationForPickup!: string[];
+  normaliseEmptyMenuItemForFranchisees!: Date;
+  guardRegionalBowlForPickup!: string[];
 }
