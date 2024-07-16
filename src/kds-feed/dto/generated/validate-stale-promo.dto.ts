@@ -7,4 +7,6 @@ export class ValidateStalePromoDto {
   validateLatePickupSlotPerStore!: Date;
   handleExpiredCartLinePerStore!: number;
   dedupeExpiredTaxLine?: boolean;
+  retryMissingTaxLine?: string;
+  addPartialCartLine!: Date;
 }

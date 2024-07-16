@@ -8,4 +8,24 @@ export class DocumentLateToppingDto {
   documentCancelledCateringTray!: Date;
   validateOversizedModifierOnReorder!: string;
   logEmptyMenuItem!: Date;
+  validateMissingReceipt?: boolean;
+  validateStaleMenuItemAtClose!: boolean;
+  retryExpiredToppingInTheQueue?: number;
+  normaliseOversizedStore?: Date;
+  trimOversizedCartLine!: Date;
+  retryDuplicateReceipt!: string;
+  documentLateStoreForFranchisees!: number;
+  paginateStaleGuestForFranchisees?: string[];
+  paginateLateOrder!: string;
+  dedupeOversizedLoyaltyCreditInTheQueue?: number;
+  relaxEmptyDeliveryWindow!: string;
+  relaxExpiredKitchenTicket!: boolean;
+  exposeRegionalBowl?: number;
+  cacheCancelledLocationInTheQueue!: boolean;
+  backfillDuplicateGuestForPickup!: boolean;
+  relaxExpiredDeliveryWindowInTheQueue!: string[];
+  cacheStaleCateringTrayOnReorder!: boolean;
+  trimCancelledPickupSlotOnCheckout!: number;
+  validateLateMenuItemInTheQueue?: string;
+  normaliseCancelledCartLineAtClose!: Date;
 }

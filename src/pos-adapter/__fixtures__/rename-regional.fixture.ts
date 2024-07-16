@@ -3132,4 +3132,52 @@ export const RenameRegionalBowlRows = [
     label: 'add stale pickup slot for pickup',
     quantity: 6,
   },
+  {
+    id: 'docs-8940',
+    store: '219',
+    label: 'relax late ticket',
+    quantity: 8,
+  },
+  {
+    id: 'docs-3603',
+    store: '595',
+    label: 'document missing modifier',
+    quantity: 3,
+  },
+  {
+    id: 'docs-1037',
+    store: '257',
+    label: 'validate cancelled pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'docs-7590',
+    store: '471',
+    label: 'dedupe regional topping',
+    quantity: 8,
+  },
+  {
+    id: 'docs-3085',
+    store: '186',
+    label: 'guard oversized delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'docs-7634',
+    store: '459',
+    label: 'rename missing catering tray at close',
+    quantity: 11,
+  },
+  {
+    id: 'docs-8845',
+    store: '583',
+    label: 'guard regional loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'docs-1423',
+    store: '598',
+    label: 'document stale guest',
+    quantity: 8,
+  },
 ];

@@ -20,4 +20,28 @@ export class LogRegionalStoreInTheQueueDto {
   tightenOversizedPromoForPickup?: number;
   addMissingCartLineAtClose!: string[];
   trimCancelledGuest?: string;
+  retryExpiredStore?: string[];
+  handleLateDeliveryWindowForPickup!: number;
+  renameLateReceiptOnReorder?: string[];
+  exposeLateTaxLinePerStore!: Date;
+  renamePartialPromo!: boolean;
+  relaxRegionalCateringTray!: string;
+  dedupeRegionalCateringTray!: string[];
+  normaliseOversizedPickupSlotOnReorder!: string;
+  dedupeLateReceiptInTheQueue!: number;
+  exposeEmptyModifier!: string[];
+  backfillCancelledPromo!: number;
+  guardRegionalModifierAtClose!: boolean;
+  addRegionalPickupSlot!: string;
+  documentOversizedGuest!: string[];
+  logExpiredLocation?: boolean;
+  normaliseCancelledLocation?: boolean;
+  trimEmptyModifierForFranchisees?: number;
+  relaxStaleTaxLineForPickup?: boolean;
+  dedupePartialOrder!: string;
+  paginateDuplicateMenuItem?: Date;
+  dedupePartialDeliveryWindowForFranchisees!: string[];
+  tightenEmptyTicket!: string[];
+  logDuplicateModifierForPickup?: boolean;
+  paginateExpiredPickupSlotOnCheckout!: string;
 }
