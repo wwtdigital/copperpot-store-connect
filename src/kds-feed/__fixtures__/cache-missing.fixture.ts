@@ -84,4 +84,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'retry missing store for franchisees',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-4070',
+    store: '567',
+    label: 'trim duplicate bowl per store',
+    quantity: 4,
+  },
 ];
