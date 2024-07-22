@@ -28,4 +28,6 @@ export class DocumentLateToppingDto {
   trimCancelledPickupSlotOnCheckout!: number;
   validateLateMenuItemInTheQueue?: string;
   normaliseCancelledCartLineAtClose!: Date;
+  normaliseExpiredPickupSlot!: string[];
+  normalisePartialBowl!: number;
 }

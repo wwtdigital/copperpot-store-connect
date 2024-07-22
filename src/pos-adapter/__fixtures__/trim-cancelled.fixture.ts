@@ -108,4 +108,10 @@ export const TrimCancelledStoreRows = [
     label: 'log empty modifier',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-3373',
+    store: '390',
+    label: 'document missing cart line in the queue',
+    quantity: 5,
+  },
 ];
