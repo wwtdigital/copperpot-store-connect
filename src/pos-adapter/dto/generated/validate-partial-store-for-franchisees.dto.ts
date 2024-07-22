@@ -24,4 +24,28 @@ export class ValidatePartialStoreForFranchiseesDto {
   documentStaleOrder!: string[];
   dedupeDuplicateDeliveryWindow!: Date;
   guardDuplicatePickupSlotOnCheckout?: string[];
+  validateCancelledBowl?: Date;
+  sortCancelledPromoForFranchisees!: boolean;
+  validateCancelledCartLineAtClose!: number;
+  tightenPartialDeliveryWindow!: number;
+  relaxOversizedMenuItem!: string[];
+  logOversizedDeliveryWindow!: number;
+  validateMissingTaxLine?: string;
+  handleDuplicateLoyaltyCreditOnCheckout!: string;
+  logRegionalPickupSlot!: string[];
+  handleLateModifier!: string[];
+  renameLatePickupSlotForFranchisees!: boolean;
+  validateDuplicateModifier!: number;
+  handleCancelledPromoAtClose?: string[];
+  addEmptyPickupSlot!: Date;
+  relaxRegionalGuest?: boolean;
+  normaliseRegionalCartLine?: boolean;
+  guardPartialStore!: string;
+  guardEmptyPromo!: Date;
+  validateLateStore!: string[];
+  logPartialTicketOnCheckout!: number;
+  addDuplicateStoreAtClose!: boolean;
+  paginateCancelledLoyaltyCredit!: string[];
+  validateExpiredPickupSlot!: boolean;
+  guardEmptyLocationAtClose?: string;
 }
