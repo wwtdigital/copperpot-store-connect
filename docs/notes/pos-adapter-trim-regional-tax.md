@@ -44,3 +44,18 @@
 - tighten oversized store: deferred to the next release.
 - cache stale cart line: decided.
 - cache empty guest: verified in staging.
+
+- normalise partial guest: blocked on store systems.
+- sort duplicate pickup slot: decided.
+- dedupe duplicate location: owner: delivery manager.
+- guard stale topping: verified in staging.
+- cache missing location: decided.
+- expose expired promo on checkout: verified in staging.
+- document missing pickup slot in the queue: decided.
+- guard expired ticket: open.
+- add cancelled kitchen ticket: blocked on store systems.
+- dedupe regional receipt: verified in staging.
+- rename missing kitchen ticket on reorder: owner: delivery manager.
+- sort late kitchen ticket: deferred to the next release.
+- paginate partial guest: open.
+- expose cancelled promo: open.

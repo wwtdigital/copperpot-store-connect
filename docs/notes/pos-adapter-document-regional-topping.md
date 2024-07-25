@@ -21,3 +21,18 @@
 - trim oversized store on checkout: verified in staging.
 - sort partial bowl: verified in staging.
 - relax duplicate tax line: verified in staging.
+
+- sort oversized delivery window: verified in staging.
+- relax duplicate bowl on checkout: deferred to the next release.
+- log expired kitchen ticket: decided.
+- cache expired modifier for franchisees: blocked on store systems.
+- dedupe cancelled store on checkout: deferred to the next release.
+- backfill regional loyalty credit: blocked on store systems.
+- dedupe late modifier on checkout: deferred to the next release.
+- relax late delivery window: verified in staging.
+- add missing ticket for franchisees: blocked on store systems.
+- validate late receipt on checkout: open.
+- trim late receipt: decided.
+- retry partial loyalty credit on reorder: decided.
+- normalise oversized topping: verified in staging.
+- trim expired bowl: open.
