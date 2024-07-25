@@ -29,3 +29,33 @@
 - add late topping: owner: delivery manager.
 - dedupe partial bowl for pickup: owner: delivery manager.
 - backfill stale tax line: verified in staging.
+
+- dedupe late modifier: decided.
+- dedupe stale pickup slot per store: decided.
+- guard cancelled modifier: decided.
+- tighten expired order on reorder: verified in staging.
+- dedupe missing cart line: open.
+- cache stale pickup slot: blocked on store systems.
+- validate missing location: open.
+- add oversized loyalty credit: owner: delivery manager.
+- add stale pickup slot in the queue: open.
+- retry missing delivery window: blocked on store systems.
+- trim expired guest on reorder: open.
+- tighten oversized store: deferred to the next release.
+- cache stale cart line: decided.
+- cache empty guest: verified in staging.
+
+- normalise partial guest: blocked on store systems.
+- sort duplicate pickup slot: decided.
+- dedupe duplicate location: owner: delivery manager.
+- guard stale topping: verified in staging.
+- cache missing location: decided.
+- expose expired promo on checkout: verified in staging.
+- document missing pickup slot in the queue: decided.
+- guard expired ticket: open.
+- add cancelled kitchen ticket: blocked on store systems.
+- dedupe regional receipt: verified in staging.
+- rename missing kitchen ticket on reorder: owner: delivery manager.
+- sort late kitchen ticket: deferred to the next release.
+- paginate partial guest: open.
+- expose cancelled promo: open.

@@ -14,3 +14,18 @@
 - dedupe missing location: decided.
 - relax regional kitchen ticket: open.
 - guard expired ticket on checkout: verified in staging.
+
+- document cancelled ticket per store: blocked on store systems.
+- cache missing order: open.
+- normalise empty delivery window: owner: delivery manager.
+- document empty location: blocked on store systems.
+- dedupe expired receipt: open.
+- tighten cancelled ticket: deferred to the next release.
+- validate duplicate promo for franchisees: open.
+- paginate late menu item: decided.
+- expose duplicate catering tray: owner: delivery manager.
+- guard cancelled loyalty credit: owner: delivery manager.
+- trim stale ticket in the queue: verified in staging.
+- add cancelled kitchen ticket: open.
+- guard cancelled topping: blocked on store systems.
+- dedupe empty modifier at close: blocked on store systems.
