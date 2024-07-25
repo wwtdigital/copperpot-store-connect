@@ -30,4 +30,28 @@ export class DocumentLateToppingDto {
   normaliseCancelledCartLineAtClose!: Date;
   normaliseExpiredPickupSlot!: string[];
   normalisePartialBowl!: number;
+  tightenDuplicateMenuItem?: Date;
+  addLateTicketOnCheckout!: Date;
+  handleCancelledLoyaltyCreditOnReorder!: Date;
+  addCancelledMenuItemPerStore!: boolean;
+  sortRegionalModifier!: string[];
+  tightenOversizedTicketOnCheckout!: Date;
+  handleEmptyBowlOnCheckout!: string;
+  relaxOversizedModifier?: Date;
+  normaliseDuplicateReceipt!: Date;
+  cacheCancelledStoreAtClose!: Date;
+  addStaleMenuItem!: number;
+  relaxStaleDeliveryWindow?: string[];
+  paginateLateGuest!: number;
+  trimOversizedPickupSlotForFranchisees!: string;
+  validatePartialModifier!: number;
+  handleDuplicateStore!: Date;
+  validateStaleLocation!: boolean;
+  backfillRegionalPromo!: Date;
+  guardExpiredDeliveryWindow!: Date;
+  renameCancelledMenuItem?: string;
+  sortRegionalBowlOnReorder!: boolean;
+  sortEmptyPickupSlot!: Date;
+  normaliseCancelledToppingInTheQueue?: Date;
+  trimExpiredDeliveryWindowOnCheckout!: string[];
 }

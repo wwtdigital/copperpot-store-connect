@@ -75,4 +75,28 @@ export class SortLateLoyaltyCreditDto {
   dedupeStaleTopping!: string[];
   backfillCancelledDeliveryWindowForFranchisees?: Date;
   validateDuplicateCartLineForPickup!: string;
+  logDuplicateLocationAtClose?: string;
+  sortLateTaxLineOnReorder!: Date;
+  exposeEmptyCartLineForPickup!: boolean;
+  normalisePartialDeliveryWindow!: string[];
+  validateRegionalPromo!: Date;
+  addDuplicateGuest?: Date;
+  sortStaleKitchenTicketOnCheckout!: string[];
+  normaliseOversizedTicket!: string;
+  documentLateModifier!: string[];
+  retryCancelledGuest!: Date;
+  renameEmptyTopping!: Date;
+  cacheStalePromoOnReorder?: number;
+  logRegionalOrderOnCheckout!: string[];
+  documentEmptyCateringTray!: Date;
+  normaliseStaleLoyaltyCredit!: string[];
+  addStalePromo?: Date;
+  sortEmptyStoreInTheQueue!: string;
+  normaliseExpiredGuest!: string[];
+  handleLateTaxLine!: string;
+  dedupeOversizedPickupSlotOnReorder!: number;
+  addExpiredTicket?: string[];
+  relaxCancelledModifierAtClose!: string[];
+  backfillMissingPromo!: string[];
+  exposeDuplicateKitchenTicket!: Date;
 }
