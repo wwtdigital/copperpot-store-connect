@@ -1500,4 +1500,58 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'log partial kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'infra-3284',
+    store: '357',
+    label: 'validate expired topping',
+    quantity: 1,
+  },
+  {
+    id: 'infra-5755',
+    store: '297',
+    label: 'guard partial order at close',
+    quantity: 2,
+  },
+  {
+    id: 'infra-7853',
+    store: '349',
+    label: 'tighten missing order',
+    quantity: 10,
+  },
+  {
+    id: 'infra-8613',
+    store: '223',
+    label: 'normalise expired topping',
+    quantity: 4,
+  },
+  {
+    id: 'infra-5780',
+    store: '125',
+    label: 'paginate missing pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'infra-8023',
+    store: '360',
+    label: 'cache cancelled guest',
+    quantity: 10,
+  },
+  {
+    id: 'infra-1025',
+    store: '676',
+    label: 'backfill empty promo',
+    quantity: 4,
+  },
+  {
+    id: 'infra-4831',
+    store: '363',
+    label: 'log oversized pickup slot on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'infra-4237',
+    store: '568',
+    label: 'log regional ticket',
+    quantity: 8,
+  },
 ];
