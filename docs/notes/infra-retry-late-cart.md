@@ -31,3 +31,12 @@
 - tighten partial guest: owner: delivery manager.
 
 - expose regional order: blocked on store systems.
+
+- retry duplicate cart line per store: open.
+- guard late location per store: deferred to the next release.
+- log expired menu item on checkout: deferred to the next release.
+- tighten duplicate promo: decided.
+- relax missing loyalty credit at close: verified in staging.
+- guard expired pickup slot: decided.
+- normalise cancelled bowl: deferred to the next release.
+- guard empty modifier: decided.

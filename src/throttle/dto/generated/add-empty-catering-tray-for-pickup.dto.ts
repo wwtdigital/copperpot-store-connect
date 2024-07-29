@@ -13,4 +13,28 @@ export class AddEmptyCateringTrayForPickupDto {
   sortRegionalTicketOnReorder!: Date;
   backfillPartialTaxLine?: string;
   documentStalePromoPerStore!: string;
+  cachePartialLoyaltyCreditPerStore!: string;
+  validateEmptyLoyaltyCreditOnReorder!: string[];
+  validatePartialPromoOnCheckout!: string[];
+  addCancelledBowlOnCheckout!: Date;
+  backfillRegionalLocation?: Date;
+  handleExpiredStore!: string[];
+  cacheRegionalPromo!: Date;
+  trimPartialOrder!: string;
+  retryLatePromo!: boolean;
+  trimMissingCateringTray!: Date;
+  documentMissingModifierOnCheckout?: Date;
+  retryPartialModifierPerStore!: boolean;
+  tightenEmptyDeliveryWindow!: boolean;
+  addDuplicateLoyaltyCredit!: string;
+  dedupeExpiredCateringTray!: Date;
+  trimLateModifier!: Date;
+  tightenEmptyTicketPerStore?: boolean;
+  sortRegionalTicket?: string;
+  validateLateOrder!: string;
+  validateEmptyReceiptInTheQueue!: string[];
+  validateCancelledMenuItemOnCheckout!: string;
+  trimMissingLocation!: Date;
+  validateDuplicateGuestForPickup!: number;
+  tightenMissingGuestForFranchisees!: Date;
 }
