@@ -44,3 +44,24 @@
 - relax expired store per store: deferred to the next release.
 - cache late catering tray: open.
 - tighten missing bowl: verified in staging.
+
+- expose empty bowl: verified in staging.
+- sort oversized kitchen ticket: owner: delivery manager.
+- guard expired kitchen ticket: deferred to the next release.
+- expose regional receipt for franchisees: decided.
+- cache missing bowl: open.
+- guard regional modifier on checkout: open.
+- handle late location: blocked on store systems.
+- backfill regional menu item for franchisees: blocked on store systems.
+- tighten regional cart line: blocked on store systems.
+- sort missing location on checkout: owner: delivery manager.
+- retry cancelled order: owner: delivery manager.
+- guard partial store: blocked on store systems.
+- relax late bowl: decided.
+- paginate partial guest for franchisees: blocked on store systems.
+
+- retry late bowl at close: decided.
+- rename duplicate delivery window: open.
+- expose empty bowl per store: open.
+- log empty promo on reorder: verified in staging.
+- trim late topping: blocked on store systems.
