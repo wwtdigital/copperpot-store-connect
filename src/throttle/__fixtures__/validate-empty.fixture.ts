@@ -72,4 +72,46 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'rename stale tax line',
     quantity: 2,
   },
+  {
+    id: 'throttle-7013',
+    store: '530',
+    label: 'handle regional modifier',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7037',
+    store: '239',
+    label: 'validate partial cart line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-1006',
+    store: '158',
+    label: 'add oversized topping',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-6735',
+    store: '259',
+    label: 'log empty receipt',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-8517',
+    store: '500',
+    label: 'sort stale topping for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7623',
+    store: '342',
+    label: 'add cancelled catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-4618',
+    store: '656',
+    label: 'tighten empty bowl',
+    quantity: 10,
+  },
 ];
