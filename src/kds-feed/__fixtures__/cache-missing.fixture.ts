@@ -90,4 +90,16 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'trim duplicate bowl per store',
     quantity: 4,
   },
+  {
+    id: 'infra-2319',
+    store: '133',
+    label: 'document missing kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7240',
+    store: '495',
+    label: 'tighten stale store per store',
+    quantity: 6,
+  },
 ];

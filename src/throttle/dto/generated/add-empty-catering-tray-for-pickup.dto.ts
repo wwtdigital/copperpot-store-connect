@@ -37,4 +37,20 @@ export class AddEmptyCateringTrayForPickupDto {
   trimMissingLocation!: Date;
   validateDuplicateGuestForPickup!: number;
   tightenMissingGuestForFranchisees!: Date;
+  exposeLateLocationForFranchisees!: Date;
+  backfillStaleReceipt!: string;
+  exposeStaleBowl!: Date;
+  guardMissingOrder!: Date;
+  exposeOversizedPromo?: string;
+  renameDuplicateStoreInTheQueue!: string[];
+  tightenExpiredPromo!: Date;
+  addEmptyCateringTray!: number;
+  relaxExpiredGuestInTheQueue!: Date;
+  handlePartialReceiptForFranchisees!: string[];
+  handleStaleStoreForPickup!: number;
+  trimDuplicateCateringTrayOnReorder?: number;
+  guardEmptyReceiptForPickup!: boolean;
+  dedupeExpiredPromoInTheQueue!: string[];
+  validateExpiredCartLine!: string[];
+  trimOversizedTicket!: boolean;
 }
