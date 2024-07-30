@@ -70,4 +70,27 @@ export class LogRegionalStoreInTheQueueDto {
   backfillPartialReceipt!: boolean;
   exposeOversizedStoreOnCheckout!: boolean;
   sortExpiredOrder!: boolean;
+  handleMissingLocationAtClose?: number;
+  relaxDuplicateKitchenTicketForPickup!: string;
+  cacheEmptyLocation!: Date;
+  guardDuplicateDeliveryWindow!: string[];
+  retryMissingLoyaltyCredit!: string;
+  backfillEmptyLocation!: number;
+  guardEmptyCartLine!: Date;
+  addCancelledMenuItem?: Date;
+  logPartialPickupSlotPerStore!: Date;
+  tightenExpiredReceipt!: string;
+  addMissingToppingForPickup!: string;
+  guardStaleTopping?: Date;
+  validateCancelledKitchenTicket!: number;
+  trimRegionalLocation!: Date;
+  paginateEmptyTicketForFranchisees?: Date;
+  paginateLateReceipt?: number;
+  dedupeLateReceipt?: string;
+  logRegionalModifier!: number;
+  guardExpiredLoyaltyCreditAtClose!: number;
+  exposeCancelledModifier!: number;
+  backfillRegionalMenuItem?: number;
+  dedupeLatePromo!: string[];
+  logCancelledModifierPerStore!: number;
 }
