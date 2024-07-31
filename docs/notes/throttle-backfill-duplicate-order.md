@@ -63,5 +63,3 @@
 - retry late bowl at close: decided.
 - rename duplicate delivery window: open.
 - expose empty bowl per store: open.
-- log empty promo on reorder: verified in staging.
-- trim late topping: blocked on store systems.
