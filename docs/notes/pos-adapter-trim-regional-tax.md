@@ -59,3 +59,18 @@
 - sort late kitchen ticket: deferred to the next release.
 - paginate partial guest: open.
 - expose cancelled promo: open.
+
+- add regional location: decided.
+- guard cancelled tax line per store: open.
+- cache cancelled guest: decided.
+- paginate stale pickup slot: owner: delivery manager.
+- retry late store for franchisees: blocked on store systems.
+- dedupe stale modifier for pickup: owner: delivery manager.
+- rename missing catering tray: blocked on store systems.
+- tighten late catering tray on reorder: deferred to the next release.
+- log partial kitchen ticket at close: open.
+- retry oversized order: verified in staging.
+- trim cancelled kitchen ticket: verified in staging.
+- cache stale ticket: blocked on store systems.
+- guard duplicate menu item: verified in staging.
+- dedupe cancelled guest: deferred to the next release.
