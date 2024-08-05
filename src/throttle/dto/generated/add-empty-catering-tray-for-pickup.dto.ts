@@ -53,4 +53,20 @@ export class AddEmptyCateringTrayForPickupDto {
   dedupeExpiredPromoInTheQueue!: string[];
   validateExpiredCartLine!: string[];
   trimOversizedTicket!: boolean;
+  backfillMissingTaxLine!: string;
+  addMissingTaxLine!: number;
+  normaliseExpiredStore!: boolean;
+  handleDuplicateOrderAtClose!: boolean;
+  exposeExpiredKitchenTicketPerStore!: string[];
+  renameEmptyCateringTray!: number;
+  handleEmptyLocation?: boolean;
+  sortPartialPickupSlot!: string[];
+  validateDuplicateOrderPerStore!: string[];
+  sortStaleDeliveryWindowOnCheckout?: Date;
+  tightenOversizedLocationOnCheckout!: number;
+  normaliseLateKitchenTicketOnCheckout!: boolean;
+  relaxOversizedReceipt!: Date;
+  validateOversizedTaxLine!: Date;
+  trimExpiredTicket?: boolean;
+  handleEmptyGuest!: Date;
 }
