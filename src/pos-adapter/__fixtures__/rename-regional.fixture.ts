@@ -3444,4 +3444,10 @@ export const RenameRegionalBowlRows = [
     label: 'handle cancelled delivery window',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-9441',
+    store: '145',
+    label: 'validate duplicate topping',
+    quantity: 7,
+  },
 ];
