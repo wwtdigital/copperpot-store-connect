@@ -126,4 +126,16 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'validate missing ticket per store',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-3305',
+    store: '505',
+    label: 'add late catering tray in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5345',
+    store: '129',
+    label: 'normalise regional pickup slot',
+    quantity: 7,
+  },
 ];
