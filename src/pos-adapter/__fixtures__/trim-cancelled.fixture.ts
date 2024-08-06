@@ -372,4 +372,52 @@ export const TrimCancelledStoreRows = [
     label: 'paginate expired location on checkout',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-3956',
+    store: '484',
+    label: 'relax expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-7727',
+    store: '587',
+    label: 'add late guest',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4849',
+    store: '263',
+    label: 'sort missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8199',
+    store: '539',
+    label: 'relax partial location in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-8466',
+    store: '134',
+    label: 'trim missing store per store',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9053',
+    store: '256',
+    label: 'handle regional pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6814',
+    store: '647',
+    label: 'log duplicate ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-8713',
+    store: '523',
+    label: 'cache regional location for franchisees',
+    quantity: 4,
+  },
 ];
