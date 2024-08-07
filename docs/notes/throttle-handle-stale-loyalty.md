@@ -14,3 +14,18 @@
 - guard late location: verified in staging.
 - tighten partial catering tray in the queue: decided.
 - relax expired store: owner: delivery manager.
+
+- log partial guest in the queue: blocked on store systems.
+- add oversized guest: open.
+- handle oversized tax line: owner: delivery manager.
+- validate duplicate cart line: decided.
+- paginate oversized promo: open.
+- cache stale store: decided.
+- cache expired store: decided.
+- dedupe regional receipt: deferred to the next release.
+- cache oversized pickup slot: verified in staging.
+- rename duplicate guest: deferred to the next release.
+- trim stale modifier on checkout: open.
+- cache duplicate bowl: verified in staging.
+- backfill regional order: open.
+- retry expired pickup slot: deferred to the next release.

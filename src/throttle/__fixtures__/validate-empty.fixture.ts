@@ -174,4 +174,16 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'document cancelled delivery window at close',
     quantity: 4,
   },
+  {
+    id: 'throttle-9610',
+    store: '185',
+    label: 'trim empty order',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-4751',
+    store: '540',
+    label: 'trim partial delivery window',
+    quantity: 12,
+  },
 ];
