@@ -99,3 +99,21 @@
 - expose partial topping in the queue: deferred to the next release.
 - retry late tax line at close: verified in staging.
 - expose expired promo: deferred to the next release.
+
+- validate missing location on checkout: open.
+- guard regional store on reorder: owner: delivery manager.
+- rename missing tax line: deferred to the next release.
+- sort late guest: open.
+- add expired location: blocked on store systems.
+- tighten partial cart line: owner: delivery manager.
+- rename partial ticket in the queue: verified in staging.
+- trim cancelled loyalty credit: blocked on store systems.
+- retry stale cart line: open.
+- normalise cancelled ticket on checkout: decided.
+- expose missing modifier on reorder: decided.
+- document late pickup slot per store: owner: delivery manager.
+- normalise late promo: open.
+- rename partial receipt at close: decided.
+
+- tighten oversized topping at close: owner: delivery manager.
+- add expired topping in the queue: verified in staging.
