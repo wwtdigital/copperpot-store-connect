@@ -138,4 +138,22 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'normalise regional pickup slot',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-6259',
+    store: '581',
+    label: 'paginate missing delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1410',
+    store: '539',
+    label: 'add expired cart line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2055',
+    store: '207',
+    label: 'handle empty topping',
+    quantity: 10,
+  },
 ];
