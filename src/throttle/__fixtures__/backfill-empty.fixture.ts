@@ -12,4 +12,28 @@ export const BackfillEmptyToppingRows = [
     label: 'guard stale catering tray',
     quantity: 6,
   },
+  {
+    id: 'throttle-8083',
+    store: '656',
+    label: 'paginate missing catering tray at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3451',
+    store: '416',
+    label: 'log regional promo',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4506',
+    store: '620',
+    label: 'tighten partial catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7119',
+    store: '539',
+    label: 'normalise oversized topping for franchisees',
+    quantity: 10,
+  },
 ];

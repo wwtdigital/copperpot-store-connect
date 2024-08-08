@@ -29,3 +29,18 @@
 - cache duplicate bowl: verified in staging.
 - backfill regional order: open.
 - retry expired pickup slot: deferred to the next release.
+
+- rename late receipt: owner: delivery manager.
+- validate stale menu item at close: open.
+- normalise empty kitchen ticket: verified in staging.
+- retry duplicate promo: decided.
+- document late delivery window: deferred to the next release.
+- rename cancelled loyalty credit per store: verified in staging.
+- handle partial receipt on reorder: open.
+- paginate oversized location: blocked on store systems.
+- tighten cancelled pickup slot in the queue: decided.
+- rename expired receipt: open.
+- log empty store: blocked on store systems.
+- dedupe cancelled guest at close: open.
+- retry expired promo at close: open.
+- retry regional store on checkout: deferred to the next release.
