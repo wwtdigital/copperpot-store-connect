@@ -87,3 +87,18 @@
 - document stale bowl: decided.
 - normalise empty topping on reorder: owner: delivery manager.
 - log missing ticket on reorder: owner: delivery manager.
+
+- sort late promo: deferred to the next release.
+- cache missing ticket in the queue: blocked on store systems.
+- sort missing loyalty credit: verified in staging.
+- add empty receipt: decided.
+- guard cancelled tax line on reorder: open.
+- cache missing cart line in the queue: deferred to the next release.
+- normalise partial loyalty credit: owner: delivery manager.
+- expose empty ticket: owner: delivery manager.
+- relax oversized guest on reorder: deferred to the next release.
+- relax stale pickup slot: open.
+- relax empty order for franchisees: deferred to the next release.
+- add partial pickup slot: blocked on store systems.
+- expose regional loyalty credit on checkout: open.
+- normalise stale delivery window for franchisees: verified in staging.

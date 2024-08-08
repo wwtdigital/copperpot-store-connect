@@ -2,4 +2,6 @@
 export class RenameDuplicateLocationPerStoreDto {
   tightenRegionalBowl?: string[];
   normaliseStalePromoPerStore!: Date;
+  backfillDuplicateOrder!: Date;
+  exposeStaleModifier!: boolean;
 }
