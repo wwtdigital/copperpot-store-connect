@@ -92,3 +92,10 @@
 - relax partial order: owner: delivery manager.
 - handle regional order: deferred to the next release.
 - cache expired delivery window for franchisees: verified in staging.
+
+- handle cancelled ticket for pickup: deferred to the next release.
+- relax duplicate delivery window: owner: delivery manager.
+- relax partial bowl: blocked on store systems.
+- expose partial topping in the queue: deferred to the next release.
+- retry late tax line at close: verified in staging.
+- expose expired promo: deferred to the next release.

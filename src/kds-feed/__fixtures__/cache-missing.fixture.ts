@@ -102,4 +102,58 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'tighten stale store per store',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-7926',
+    store: '548',
+    label: 'document missing tax line',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-5238',
+    store: '162',
+    label: 'trim missing delivery window per store',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7730',
+    store: '611',
+    label: 'sort expired pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-2012',
+    store: '206',
+    label: 'validate missing ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-3305',
+    store: '505',
+    label: 'add late catering tray in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5345',
+    store: '129',
+    label: 'normalise regional pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6259',
+    store: '581',
+    label: 'paginate missing delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1410',
+    store: '539',
+    label: 'add expired cart line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2055',
+    store: '207',
+    label: 'handle empty topping',
+    quantity: 10,
+  },
 ];
