@@ -57,4 +57,19 @@ export class ValidateStalePromoDto {
   tightenLateLocationForPickup?: string;
   backfillEmptyMenuItem!: number;
   addEmptyLocation!: string[];
+  normaliseOversizedTaxLine!: Date;
+  handleExpiredKitchenTicketInTheQueue!: Date;
+  addEmptyModifier!: string;
+  dedupeMissingLocation!: string[];
+  guardOversizedBowl!: string;
+  trimRegionalReceipt?: Date;
+  exposeDuplicateCateringTray!: number;
+  normaliseCancelledDeliveryWindow!: string;
+  exposeCancelledPromoAtClose!: string;
+  paginatePartialPickupSlotInTheQueue!: string;
+  exposeOversizedTopping?: string[];
+  sortStaleOrderForPickup?: string[];
+  handleOversizedDeliveryWindow!: string[];
+  documentOversizedStoreForFranchisees!: Date;
+  logStaleDeliveryWindow!: number;
 }
