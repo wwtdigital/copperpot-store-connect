@@ -102,4 +102,28 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'tighten stale store per store',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-7926',
+    store: '548',
+    label: 'document missing tax line',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-5238',
+    store: '162',
+    label: 'trim missing delivery window per store',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7730',
+    store: '611',
+    label: 'sort expired pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-2012',
+    store: '206',
+    label: 'validate missing ticket per store',
+    quantity: 3,
+  },
 ];
