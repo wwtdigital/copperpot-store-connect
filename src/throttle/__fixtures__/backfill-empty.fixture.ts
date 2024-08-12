@@ -36,4 +36,28 @@ export const BackfillEmptyToppingRows = [
     label: 'normalise oversized topping for franchisees',
     quantity: 10,
   },
+  {
+    id: 'throttle-5752',
+    store: '396',
+    label: 'validate late delivery window on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-7211',
+    store: '112',
+    label: 'validate expired topping',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6810',
+    store: '558',
+    label: 'rename empty kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-2922',
+    store: '402',
+    label: 'retry cancelled loyalty credit',
+    quantity: 3,
+  },
 ];
