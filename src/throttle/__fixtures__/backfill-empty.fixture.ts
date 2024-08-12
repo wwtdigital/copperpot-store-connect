@@ -60,4 +60,34 @@ export const BackfillEmptyToppingRows = [
     label: 'retry cancelled loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'throttle-8870',
+    store: '304',
+    label: 'rename regional menu item per store',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-3583',
+    store: '318',
+    label: 'relax empty order',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-7885',
+    store: '565',
+    label: 'backfill duplicate catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-8229',
+    store: '636',
+    label: 'dedupe late menu item',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-6416',
+    store: '653',
+    label: 'guard regional ticket in the queue',
+    quantity: 7,
+  },
 ];
