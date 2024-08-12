@@ -186,4 +186,34 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'trim partial delivery window',
     quantity: 12,
   },
+  {
+    id: 'throttle-2418',
+    store: '531',
+    label: 'sort late location at close',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-5683',
+    store: '231',
+    label: 'log duplicate pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-2107',
+    store: '567',
+    label: 'normalise stale topping',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-5562',
+    store: '537',
+    label: 'retry regional loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-4297',
+    store: '207',
+    label: 'document partial catering tray for pickup',
+    quantity: 4,
+  },
 ];
