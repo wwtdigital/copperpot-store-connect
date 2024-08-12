@@ -29,3 +29,18 @@
 - expose duplicate store per store: decided.
 - guard missing menu item: owner: delivery manager.
 - document late loyalty credit per store: blocked on store systems.
+
+- normalise duplicate kitchen ticket on checkout: open.
+- trim late cart line for franchisees: verified in staging.
+- guard stale modifier: decided.
+- cache empty pickup slot: decided.
+- handle cancelled tax line for pickup: owner: delivery manager.
+- guard partial catering tray per store: verified in staging.
+- log oversized store: open.
+- log cancelled promo per store: open.
+- tighten cancelled kitchen ticket in the queue: verified in staging.
+- validate cancelled bowl: decided.
+- expose expired loyalty credit: open.
+- tighten empty order: blocked on store systems.
+- rename regional cart line: verified in staging.
+- normalise partial cart line on checkout: verified in staging.

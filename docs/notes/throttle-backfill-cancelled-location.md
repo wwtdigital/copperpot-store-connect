@@ -14,3 +14,33 @@
 - cache oversized bowl: decided.
 - cache duplicate guest in the queue: verified in staging.
 - handle duplicate bowl for franchisees: deferred to the next release.
+
+- sort duplicate order: blocked on store systems.
+- rename regional catering tray for franchisees: owner: delivery manager.
+- sort duplicate tax line: deferred to the next release.
+- guard cancelled topping for franchisees: decided.
+- expose late topping on reorder: owner: delivery manager.
+- trim empty promo: verified in staging.
+- retry missing order for franchisees: verified in staging.
+- add empty loyalty credit: blocked on store systems.
+- sort oversized cart line on reorder: decided.
+- trim partial modifier in the queue: open.
+- retry cancelled store: owner: delivery manager.
+- log late cart line per store: open.
+- handle stale menu item: decided.
+- dedupe missing location: open.
+
+- document oversized location: verified in staging.
+- dedupe oversized ticket: verified in staging.
+- expose stale modifier: owner: delivery manager.
+- cache late receipt in the queue: deferred to the next release.
+- tighten regional pickup slot per store: deferred to the next release.
+- trim stale bowl: decided.
+- tighten cancelled ticket: verified in staging.
+- rename partial receipt: verified in staging.
+- trim oversized store: verified in staging.
+- dedupe duplicate receipt: deferred to the next release.
+- log partial tax line: owner: delivery manager.
+- add partial delivery window: blocked on store systems.
+- sort stale guest: verified in staging.
+- log missing catering tray on checkout: blocked on store systems.
