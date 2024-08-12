@@ -6,4 +6,10 @@ export const BackfillEmptyToppingRows = [
     label: 'validate duplicate location for pickup',
     quantity: 8,
   },
+  {
+    id: 'throttle-8540',
+    store: '295',
+    label: 'guard stale catering tray',
+    quantity: 6,
+  },
 ];

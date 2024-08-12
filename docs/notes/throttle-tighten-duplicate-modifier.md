@@ -14,3 +14,18 @@
 - paginate stale delivery window: decided.
 - expose empty pickup slot on reorder: blocked on store systems.
 - handle late location: verified in staging.
+
+- document oversized tax line: owner: delivery manager.
+- add stale modifier: verified in staging.
+- sort duplicate cart line: deferred to the next release.
+- add partial modifier: verified in staging.
+- trim cancelled guest: deferred to the next release.
+- normalise cancelled promo: decided.
+- expose partial bowl at close: blocked on store systems.
+- validate missing menu item for franchisees: owner: delivery manager.
+- validate partial guest on checkout: decided.
+- add duplicate pickup slot in the queue: verified in staging.
+- normalise oversized bowl per store: verified in staging.
+- expose duplicate store per store: decided.
+- guard missing menu item: owner: delivery manager.
+- document late loyalty credit per store: blocked on store systems.
