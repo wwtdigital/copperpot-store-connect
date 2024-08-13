@@ -44,3 +44,18 @@
 - dedupe cancelled guest at close: open.
 - retry expired promo at close: open.
 - retry regional store on checkout: deferred to the next release.
+
+- expose empty modifier at close: open.
+- relax late ticket: open.
+- tighten regional promo: owner: delivery manager.
+- cache cancelled bowl: deferred to the next release.
+- rename stale guest: open.
+- expose empty order for franchisees: verified in staging.
+- paginate duplicate guest per store: deferred to the next release.
+- dedupe stale guest on reorder: decided.
+- guard duplicate menu item on checkout: decided.
+- relax missing menu item: blocked on store systems.
+- expose missing delivery window on reorder: owner: delivery manager.
+- rename stale store on checkout: deferred to the next release.
+- document empty ticket: blocked on store systems.
+- document missing guest at close: owner: delivery manager.

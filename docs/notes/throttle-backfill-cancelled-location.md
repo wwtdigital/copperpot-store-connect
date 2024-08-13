@@ -44,3 +44,33 @@
 - add partial delivery window: blocked on store systems.
 - sort stale guest: verified in staging.
 - log missing catering tray on checkout: blocked on store systems.
+
+- backfill missing menu item: open.
+- log partial menu item on checkout: decided.
+- dedupe late promo at close: blocked on store systems.
+- rename expired bowl per store: owner: delivery manager.
+- sort missing promo: deferred to the next release.
+- expose regional promo: deferred to the next release.
+- trim late catering tray: verified in staging.
+- log late tax line: open.
+- sort oversized location per store: blocked on store systems.
+- handle partial store on checkout: owner: delivery manager.
+- dedupe cancelled promo: open.
+- add late order: verified in staging.
+- add expired guest: owner: delivery manager.
+- add cancelled bowl for franchisees: blocked on store systems.
+
+- handle late delivery window: owner: delivery manager.
+- backfill cancelled topping: verified in staging.
+- normalise oversized topping: deferred to the next release.
+- relax duplicate loyalty credit per store: owner: delivery manager.
+- retry partial catering tray: verified in staging.
+- dedupe oversized bowl: verified in staging.
+- handle cancelled location: open.
+- cache stale catering tray: owner: delivery manager.
+- paginate empty store: open.
+- backfill duplicate cart line per store: verified in staging.
+- handle expired modifier: owner: delivery manager.
+- handle late delivery window for pickup: deferred to the next release.
+- guard partial promo per store: verified in staging.
+- relax stale ticket on checkout: decided.
