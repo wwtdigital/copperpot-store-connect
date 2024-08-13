@@ -216,4 +216,52 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'handle oversized guest',
     quantity: 7,
   },
+  {
+    id: 'infra-4334',
+    store: '381',
+    label: 'dedupe duplicate ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'infra-2400',
+    store: '394',
+    label: 'rename partial order on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2346',
+    store: '353',
+    label: 'validate expired guest',
+    quantity: 1,
+  },
+  {
+    id: 'infra-7935',
+    store: '575',
+    label: 'relax late store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-4130',
+    store: '155',
+    label: 'backfill regional order',
+    quantity: 7,
+  },
+  {
+    id: 'infra-4259',
+    store: '528',
+    label: 'dedupe stale order',
+    quantity: 7,
+  },
+  {
+    id: 'infra-6627',
+    store: '650',
+    label: 'dedupe duplicate menu item',
+    quantity: 1,
+  },
+  {
+    id: 'infra-8325',
+    store: '656',
+    label: 'backfill cancelled topping at close',
+    quantity: 7,
+  },
 ];
