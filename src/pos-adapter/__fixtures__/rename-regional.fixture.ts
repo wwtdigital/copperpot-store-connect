@@ -3450,4 +3450,46 @@ export const RenameRegionalBowlRows = [
     label: 'validate duplicate topping',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-4622',
+    store: '551',
+    label: 'rename expired delivery window at close',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-2213',
+    store: '199',
+    label: 'relax cancelled cart line per store',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8766',
+    store: '128',
+    label: 'paginate oversized guest',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5350',
+    store: '457',
+    label: 'guard late pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-3337',
+    store: '683',
+    label: 'guard partial order',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-5808',
+    store: '187',
+    label: 'retry expired pickup slot on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-8315',
+    store: '292',
+    label: 'trim empty catering tray on checkout',
+    quantity: 1,
+  },
 ];
