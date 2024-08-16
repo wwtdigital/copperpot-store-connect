@@ -450,4 +450,22 @@ export const BackfillEmptyToppingRows = [
     label: 'validate partial menu item',
     quantity: 4,
   },
+  {
+    id: 'throttle-6066',
+    store: '197',
+    label: 'trim missing kitchen ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-2021',
+    store: '544',
+    label: 'log cancelled kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-5722',
+    store: '626',
+    label: 'normalise duplicate guest at close',
+    quantity: 12,
+  },
 ];
