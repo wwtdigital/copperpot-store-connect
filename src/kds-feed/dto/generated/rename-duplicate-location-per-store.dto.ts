@@ -4,4 +4,6 @@ export class RenameDuplicateLocationPerStoreDto {
   normaliseStalePromoPerStore!: Date;
   backfillDuplicateOrder!: Date;
   exposeStaleModifier!: boolean;
+  validateExpiredDeliveryWindow!: boolean;
+  documentDuplicateBowl!: boolean;
 }

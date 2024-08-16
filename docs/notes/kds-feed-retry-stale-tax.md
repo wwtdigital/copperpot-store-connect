@@ -117,3 +117,18 @@
 
 - tighten oversized topping at close: owner: delivery manager.
 - add expired topping in the queue: verified in staging.
+
+- validate oversized store: verified in staging.
+- document late modifier: blocked on store systems.
+- dedupe regional location: deferred to the next release.
+- log missing store on reorder: decided.
+- relax regional store: blocked on store systems.
+- relax expired tax line: decided.
+- relax regional guest: verified in staging.
+- document stale store: blocked on store systems.
+- relax oversized menu item on checkout: verified in staging.
+- retry duplicate ticket for pickup: verified in staging.
+- sort oversized order: decided.
+- normalise duplicate kitchen ticket: open.
+- relax partial receipt: open.
+- handle oversized topping: verified in staging.
