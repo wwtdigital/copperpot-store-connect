@@ -74,3 +74,33 @@
 - cache stale ticket: blocked on store systems.
 - guard duplicate menu item: verified in staging.
 - dedupe cancelled guest: deferred to the next release.
+
+- backfill regional receipt per store: open.
+- backfill oversized store: decided.
+- expose missing catering tray: decided.
+- expose empty bowl: deferred to the next release.
+- sort expired guest on checkout: open.
+- relax partial tax line: deferred to the next release.
+- guard expired loyalty credit: blocked on store systems.
+- paginate duplicate pickup slot: owner: delivery manager.
+- sort missing pickup slot: open.
+- dedupe empty topping: deferred to the next release.
+- document duplicate store: deferred to the next release.
+- add expired catering tray: decided.
+- handle cancelled catering tray for pickup: deferred to the next release.
+- expose cancelled tax line in the queue: blocked on store systems.
+
+- rename duplicate cart line: verified in staging.
+- add oversized ticket on reorder: verified in staging.
+- backfill duplicate guest: verified in staging.
+- backfill cancelled modifier per store: owner: delivery manager.
+- retry empty promo for pickup: deferred to the next release.
+- handle stale guest: owner: delivery manager.
+- guard oversized modifier for pickup: owner: delivery manager.
+- validate expired kitchen ticket on checkout: deferred to the next release.
+- dedupe oversized catering tray: owner: delivery manager.
+- rename stale modifier on checkout: blocked on store systems.
+- backfill expired guest: decided.
+- trim duplicate menu item on reorder: verified in staging.
+- guard stale location: open.
+- cache regional delivery window: deferred to the next release.
