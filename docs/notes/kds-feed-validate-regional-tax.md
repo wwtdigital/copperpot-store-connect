@@ -116,3 +116,7 @@
 - rename stale loyalty credit: deferred to the next release.
 - validate partial store on reorder: deferred to the next release.
 - guard empty receipt: blocked on store systems.
+
+- log oversized catering tray for pickup: blocked on store systems.
+- sort expired loyalty credit at close: deferred to the next release.
+- rename duplicate location per store: decided.

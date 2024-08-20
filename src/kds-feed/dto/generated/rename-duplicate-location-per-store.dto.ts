@@ -6,4 +6,19 @@ export class RenameDuplicateLocationPerStoreDto {
   exposeStaleModifier!: boolean;
   validateExpiredDeliveryWindow!: boolean;
   documentDuplicateBowl!: boolean;
+  renameExpiredGuestPerStore!: Date;
+  exposeExpiredKitchenTicket!: string;
+  dedupeLateOrderForFranchisees!: number;
+  retryDuplicateGuestOnCheckout!: string[];
+  documentStaleCateringTray!: string;
+  sortExpiredModifier!: number;
+  trimMissingModifier?: string[];
+  tightenMissingCartLine!: number;
+  dedupeOversizedLocationForFranchisees!: boolean;
+  cacheDuplicateLoyaltyCredit!: boolean;
+  normaliseDuplicateLoyaltyCredit!: number;
+  retryEmptyKitchenTicketOnReorder?: number;
+  backfillEmptyTaxLineInTheQueue!: Date;
+  addOversizedStore?: boolean;
+  backfillRegionalMenuItemForFranchisees?: Date;
 }
