@@ -264,4 +264,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'backfill cancelled topping at close',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-3563',
+    store: '199',
+    label: 'dedupe regional location at close',
+    quantity: 7,
+  },
 ];
