@@ -3492,4 +3492,58 @@ export const RenameRegionalBowlRows = [
     label: 'trim empty catering tray on checkout',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-5603',
+    store: '640',
+    label: 'sort missing menu item',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9495',
+    store: '543',
+    label: 'dedupe missing topping',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-6585',
+    store: '151',
+    label: 'normalise stale loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-1660',
+    store: '542',
+    label: 'sort duplicate ticket',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-4843',
+    store: '426',
+    label: 'paginate regional tax line per store',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-4401',
+    store: '373',
+    label: 'tighten missing guest',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-3272',
+    store: '571',
+    label: 'paginate stale kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-4561',
+    store: '370',
+    label: 'paginate missing delivery window for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-1371',
+    store: '253',
+    label: 'handle oversized store',
+    quantity: 9,
+  },
 ];
