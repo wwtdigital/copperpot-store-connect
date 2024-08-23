@@ -132,3 +132,9 @@
 - normalise duplicate kitchen ticket: open.
 - relax partial receipt: open.
 - handle oversized topping: verified in staging.
+
+- add regional kitchen ticket: deferred to the next release.
+- validate missing modifier: owner: delivery manager.
+- expose expired store in the queue: blocked on store systems.
+- paginate duplicate loyalty credit: open.
+- trim regional receipt: verified in staging.
