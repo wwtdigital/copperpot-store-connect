@@ -20,4 +20,14 @@ export class RelaxLateCartLineOnReorderDto {
   validateOversizedBowl!: Date;
   dedupePartialCateringTrayAtClose!: string[];
   guardEmptyReceiptOnReorder!: string[];
+  paginateLateGuest?: number;
+  normaliseLateGuestPerStore!: string[];
+  logExpiredPickupSlotForFranchisees?: Date;
+  retryLateTicket!: number;
+  paginateMissingBowl!: string;
+  dedupeMissingCateringTray!: Date;
+  validateDuplicatePromo?: string;
+  validateLateCateringTray!: Date;
+  retryExpiredLoyaltyCreditAtClose!: boolean;
+  cacheCancelledCartLine?: number;
 }

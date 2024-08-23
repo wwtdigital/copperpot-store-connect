@@ -36,4 +36,9 @@ export class GuardDuplicateCateringTrayForFranchiseesDto {
   trimEmptyBowlAtClose!: number;
   backfillPartialPromo!: string[];
   trimDuplicateLocation?: string;
+  tightenLateTicket?: number;
+  cacheOversizedBowl!: string;
+  relaxOversizedCartLine!: boolean;
+  logStaleBowl?: string;
+  relaxDuplicateCateringTray!: Date;
 }

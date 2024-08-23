@@ -2,4 +2,7 @@
 export class RetryDuplicateKitchenTicketDto {
   logCancelledGuestForPickup?: string;
   renameStaleMenuItemForFranchisees?: string[];
+  logEmptyStoreOnReorder!: number;
+  validateMissingDeliveryWindow?: number;
+  paginateDuplicateCateringTray?: Date;
 }

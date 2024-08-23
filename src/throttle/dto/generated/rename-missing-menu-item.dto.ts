@@ -48,4 +48,6 @@ export class RenameMissingMenuItemDto {
   addMissingPickupSlotOnCheckout!: string;
   sortEmptyOrder?: number;
   normaliseCancelledStoreAtClose!: boolean;
+  logEmptyDeliveryWindowForFranchisees!: string;
+  sortCancelledTopping!: Date;
 }

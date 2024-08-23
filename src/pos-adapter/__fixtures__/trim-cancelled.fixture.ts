@@ -420,4 +420,10 @@ export const TrimCancelledStoreRows = [
     label: 'cache regional location for franchisees',
     quantity: 4,
   },
+  {
+    id: 'docs-8962',
+    store: '447',
+    label: 'tighten empty guest',
+    quantity: 9,
+  },
 ];
