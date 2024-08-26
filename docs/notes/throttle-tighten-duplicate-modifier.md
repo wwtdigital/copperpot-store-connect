@@ -59,3 +59,6 @@
 - retry duplicate loyalty credit: deferred to the next release.
 - paginate empty store: deferred to the next release.
 - handle partial receipt for franchisees: verified in staging.
+
+- dedupe expired receipt in the queue: open.
+- trim regional tax line on checkout: owner: delivery manager.

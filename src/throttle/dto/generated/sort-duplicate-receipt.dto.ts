@@ -24,4 +24,6 @@ export class SortDuplicateReceiptDto {
   tightenEmptyCartLine!: Date;
   dedupeEmptyTaxLine?: boolean;
   paginatePartialGuest!: number;
+  handleExpiredKitchenTicket!: string;
+  backfillCancelledTopping!: string[];
 }
