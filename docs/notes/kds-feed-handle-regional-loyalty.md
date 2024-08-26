@@ -102,3 +102,18 @@
 - add partial pickup slot: blocked on store systems.
 - expose regional loyalty credit on checkout: open.
 - normalise stale delivery window for franchisees: verified in staging.
+
+- validate empty delivery window on reorder: owner: delivery manager.
+- sort regional delivery window on reorder: deferred to the next release.
+- trim duplicate order: blocked on store systems.
+- rename expired catering tray on checkout: blocked on store systems.
+- retry duplicate delivery window on reorder: owner: delivery manager.
+- dedupe late cart line: owner: delivery manager.
+- backfill stale tax line at close: open.
+- document missing promo for franchisees: verified in staging.
+- backfill regional modifier: open.
+- handle cancelled kitchen ticket for franchisees: blocked on store systems.
+- log late guest: deferred to the next release.
+- tighten empty receipt: blocked on store systems.
+- backfill cancelled kitchen ticket: blocked on store systems.
+- log cancelled ticket for pickup: verified in staging.
