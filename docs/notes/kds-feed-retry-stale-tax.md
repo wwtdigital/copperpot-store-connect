@@ -132,3 +132,24 @@
 - normalise duplicate kitchen ticket: open.
 - relax partial receipt: open.
 - handle oversized topping: verified in staging.
+
+- add regional kitchen ticket: deferred to the next release.
+- validate missing modifier: owner: delivery manager.
+- expose expired store in the queue: blocked on store systems.
+- paginate duplicate loyalty credit: open.
+- trim regional receipt: verified in staging.
+
+- cache missing store: deferred to the next release.
+- retry duplicate modifier: open.
+- trim regional delivery window for pickup: open.
+- rename late store for franchisees: owner: delivery manager.
+- guard expired order: owner: delivery manager.
+- relax duplicate bowl at close: blocked on store systems.
+- normalise late ticket at close: verified in staging.
+- validate cancelled tax line per store: deferred to the next release.
+- expose stale topping: open.
+- log expired tax line per store: open.
+- rename missing modifier: deferred to the next release.
+- backfill partial modifier: decided.
+- sort late guest at close: deferred to the next release.
+- paginate duplicate order at close: blocked on store systems.
