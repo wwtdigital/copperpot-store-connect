@@ -270,4 +270,16 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'dedupe regional location at close',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-4816',
+    store: '106',
+    label: 'log late tax line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4772',
+    store: '116',
+    label: 'rename late location per store',
+    quantity: 1,
+  },
 ];
