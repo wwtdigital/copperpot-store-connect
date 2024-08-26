@@ -282,4 +282,28 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'rename late location per store',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-4265',
+    store: '695',
+    label: 'add regional loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9703',
+    store: '498',
+    label: 'trim missing topping',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6306',
+    store: '670',
+    label: 'document cancelled catering tray on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4280',
+    store: '289',
+    label: 'rename stale receipt',
+    quantity: 5,
+  },
 ];
