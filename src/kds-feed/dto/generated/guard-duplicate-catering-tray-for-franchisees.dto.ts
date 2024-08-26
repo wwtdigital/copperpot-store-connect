@@ -29,4 +29,11 @@ export class GuardDuplicateCateringTrayForFranchiseesDto {
   exposePartialPromoPerStore!: string;
   sortOversizedCartLineForPickup!: Date;
   paginateOversizedTaxLine!: Date;
+  renameDuplicateKitchenTicketForPickup?: string;
+  relaxPartialPickupSlot!: number;
+  validateLateToppingInTheQueue!: string;
+  dedupeRegionalOrderPerStore!: boolean;
+  trimEmptyBowlAtClose!: number;
+  backfillPartialPromo!: string[];
+  trimDuplicateLocation?: string;
 }

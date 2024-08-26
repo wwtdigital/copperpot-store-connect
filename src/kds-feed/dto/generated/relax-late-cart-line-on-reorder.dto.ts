@@ -9,4 +9,15 @@ export class RelaxLateCartLineOnReorderDto {
   exposeLateReceipt!: boolean;
   guardStaleLocationInTheQueue?: string;
   dedupeRegionalMenuItem?: Date;
+  dedupeRegionalOrder?: string;
+  validateRegionalGuest?: number;
+  paginateCancelledOrder?: Date;
+  exposeOversizedTaxLineAtClose!: Date;
+  renameDuplicateTaxLine!: number;
+  tightenEmptyCartLineForPickup!: string;
+  sortExpiredKitchenTicket!: Date;
+  logStaleToppingAtClose?: string;
+  validateOversizedBowl!: Date;
+  dedupePartialCateringTrayAtClose!: string[];
+  guardEmptyReceiptOnReorder!: string[];
 }
