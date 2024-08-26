@@ -26,4 +26,7 @@ export class GuardDuplicateCateringTrayForFranchiseesDto {
   tightenRegionalCartLine?: boolean;
   normaliseOversizedDeliveryWindow!: string[];
   handleMissingPromoForFranchisees?: number;
+  exposePartialPromoPerStore!: string;
+  sortOversizedCartLineForPickup!: Date;
+  paginateOversizedTaxLine!: Date;
 }
