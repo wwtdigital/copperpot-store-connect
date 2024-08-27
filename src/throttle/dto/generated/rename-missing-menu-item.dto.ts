@@ -50,4 +50,6 @@ export class RenameMissingMenuItemDto {
   normaliseCancelledStoreAtClose!: boolean;
   logEmptyDeliveryWindowForFranchisees!: string;
   sortCancelledTopping!: Date;
+  sortRegionalModifier!: string[];
+  normalisePartialLoyaltyCreditAtClose!: string;
 }

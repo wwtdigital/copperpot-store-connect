@@ -426,4 +426,10 @@ export const TrimCancelledStoreRows = [
     label: 'tighten empty guest',
     quantity: 9,
   },
+  {
+    id: 'docs-5521',
+    store: '556',
+    label: 'add duplicate menu item',
+    quantity: 8,
+  },
 ];
