@@ -672,4 +672,10 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'relax oversized store for franchisees',
     quantity: 11,
   },
+  {
+    id: 'docs-2983',
+    store: '666',
+    label: 'rename late bowl',
+    quantity: 5,
+  },
 ];

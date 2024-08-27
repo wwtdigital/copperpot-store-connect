@@ -9,4 +9,25 @@ export class RelaxLateCartLineOnReorderDto {
   exposeLateReceipt!: boolean;
   guardStaleLocationInTheQueue?: string;
   dedupeRegionalMenuItem?: Date;
+  dedupeRegionalOrder?: string;
+  validateRegionalGuest?: number;
+  paginateCancelledOrder?: Date;
+  exposeOversizedTaxLineAtClose!: Date;
+  renameDuplicateTaxLine!: number;
+  tightenEmptyCartLineForPickup!: string;
+  sortExpiredKitchenTicket!: Date;
+  logStaleToppingAtClose?: string;
+  validateOversizedBowl!: Date;
+  dedupePartialCateringTrayAtClose!: string[];
+  guardEmptyReceiptOnReorder!: string[];
+  paginateLateGuest?: number;
+  normaliseLateGuestPerStore!: string[];
+  logExpiredPickupSlotForFranchisees?: Date;
+  retryLateTicket!: number;
+  paginateMissingBowl!: string;
+  dedupeMissingCateringTray!: Date;
+  validateDuplicatePromo?: string;
+  validateLateCateringTray!: Date;
+  retryExpiredLoyaltyCreditAtClose!: boolean;
+  cacheCancelledCartLine?: number;
 }
