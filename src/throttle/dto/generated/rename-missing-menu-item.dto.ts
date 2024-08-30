@@ -52,4 +52,28 @@ export class RenameMissingMenuItemDto {
   sortCancelledTopping!: Date;
   sortRegionalModifier!: string[];
   normalisePartialLoyaltyCreditAtClose!: string;
+  handleEmptyBowl?: boolean;
+  handleEmptyReceiptOnCheckout!: boolean;
+  retryMissingPickupSlot!: string;
+  exposeStaleStore!: number;
+  paginateRegionalModifierPerStore!: boolean;
+  validateRegionalBowlAtClose!: string;
+  retryPartialCartLine?: boolean;
+  validateLateDeliveryWindowForPickup!: string[];
+  handleStaleCateringTrayOnReorder!: boolean;
+  retryDuplicateKitchenTicketInTheQueue!: string;
+  dedupeEmptyLocationForFranchisees!: Date;
+  normalisePartialDeliveryWindow!: number;
+  exposeMissingToppingPerStore!: number;
+  trimDuplicatePickupSlot!: Date;
+  retryDuplicateReceipt!: Date;
+  normaliseStaleLoyaltyCredit!: Date;
+  trimEmptyCartLineInTheQueue?: string;
+  trimDuplicateMenuItem!: boolean;
+  validateRegionalDeliveryWindow!: Date;
+  dedupeMissingStore!: string;
+  normalisePartialPickupSlot?: number;
+  cacheRegionalGuest!: string;
+  guardMissingBowl?: number;
+  trimEmptyTopping!: boolean;
 }

@@ -59,3 +59,18 @@
 - rename stale store on checkout: deferred to the next release.
 - document empty ticket: blocked on store systems.
 - document missing guest at close: owner: delivery manager.
+
+- relax regional receipt: decided.
+- relax partial catering tray: owner: delivery manager.
+- backfill duplicate guest: verified in staging.
+- add cancelled store for pickup: decided.
+- dedupe cancelled ticket: blocked on store systems.
+- expose duplicate pickup slot on reorder: open.
+- expose duplicate store at close: deferred to the next release.
+- handle cancelled topping: decided.
+- validate cancelled loyalty credit: owner: delivery manager.
+- normalise expired loyalty credit: verified in staging.
+- backfill cancelled kitchen ticket: verified in staging.
+- normalise partial catering tray: owner: delivery manager.
+- cache missing topping: decided.
+- trim missing location: deferred to the next release.

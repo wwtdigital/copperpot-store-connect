@@ -558,4 +558,46 @@ export const BackfillEmptyToppingRows = [
     label: 'paginate partial tax line for pickup',
     quantity: 4,
   },
+  {
+    id: 'throttle-2228',
+    store: '631',
+    label: 'relax expired cart line',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7119',
+    store: '628',
+    label: 'dedupe missing location',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-2402',
+    store: '387',
+    label: 'dedupe late promo',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-8215',
+    store: '507',
+    label: 'handle oversized pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-2328',
+    store: '637',
+    label: 'normalise stale menu item on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1063',
+    store: '657',
+    label: 'dedupe stale kitchen ticket at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-8489',
+    store: '477',
+    label: 'add late order on checkout',
+    quantity: 1,
+  },
 ];
