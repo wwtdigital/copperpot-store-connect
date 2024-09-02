@@ -24,4 +24,28 @@ export class LogDuplicateKitchenTicketOnReorderDto {
   addEmptyPickupSlotPerStore!: Date;
   validateCancelledPickupSlot!: number;
   sortLateTopping!: Date;
+  documentOversizedStore!: string;
+  guardPartialPromoForPickup!: number;
+  relaxOversizedReceipt!: number;
+  handleCancelledPickupSlot!: number;
+  backfillMissingBowl!: string[];
+  relaxPartialBowl!: string;
+  trimMissingBowl!: Date;
+  handleRegionalPickupSlot!: boolean;
+  handleMissingBowlForFranchisees!: Date;
+  guardCancelledModifierAtClose!: Date;
+  sortStaleDeliveryWindow?: string;
+  addMissingOrder!: number;
+  exposeExpiredGuestForPickup!: Date;
+  tightenOversizedCateringTray?: string[];
+  trimOversizedCateringTrayPerStore?: number;
+  guardCancelledStore!: string[];
+  documentLateModifier?: boolean;
+  addExpiredReceipt?: string;
+  tightenOversizedLocationInTheQueue?: number;
+  tightenCancelledCartLineAtClose!: boolean;
+  normaliseMissingMenuItem!: Date;
+  paginateExpiredPromoForFranchisees?: boolean;
+  dedupeEmptyModifier?: string[];
+  paginateEmptyCateringTray!: Date;
 }

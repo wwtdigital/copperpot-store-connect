@@ -678,4 +678,40 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'rename late bowl',
     quantity: 5,
   },
+  {
+    id: 'throttle-2254',
+    store: '521',
+    label: 'paginate missing modifier',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-3859',
+    store: '398',
+    label: 'expose cancelled receipt',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-2404',
+    store: '121',
+    label: 'add expired tax line',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-8844',
+    store: '111',
+    label: 'cache duplicate order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-5221',
+    store: '593',
+    label: 'paginate regional kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-8243',
+    store: '595',
+    label: 'sort empty pickup slot for pickup',
+    quantity: 3,
+  },
 ];
