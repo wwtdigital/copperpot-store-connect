@@ -76,4 +76,28 @@ export class RenameMissingMenuItemDto {
   cacheRegionalGuest!: string;
   guardMissingBowl?: number;
   trimEmptyTopping!: boolean;
+  sortExpiredPickupSlot!: string;
+  paginatePartialOrder?: string[];
+  guardLateCartLineAtClose!: Date;
+  renameExpiredGuestAtClose?: number;
+  backfillStaleCateringTrayOnCheckout!: string;
+  backfillPartialReceipt!: number;
+  normalisePartialBowl!: string[];
+  guardExpiredTopping?: string;
+  cachePartialGuestForPickup?: number;
+  backfillRegionalStore!: boolean;
+  cacheStalePickupSlot!: string;
+  exposeDuplicateTaxLine!: Date;
+  sortCancelledStore!: string[];
+  addStaleLoyaltyCreditInTheQueue!: boolean;
+  exposePartialPromoPerStore!: boolean;
+  backfillLateLoyaltyCreditForFranchisees?: string;
+  logRegionalToppingForFranchisees?: string;
+  sortDuplicateCateringTrayOnCheckout!: number;
+  documentExpiredBowl?: number;
+  exposeMissingPromo!: number;
+  logEmptyLocationForPickup!: string[];
+  normaliseMissingTicket!: string;
+  paginateDuplicateOrder!: Date;
+  validateRegionalToppingForFranchisees!: number;
 }

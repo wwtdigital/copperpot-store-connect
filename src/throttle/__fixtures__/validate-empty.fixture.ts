@@ -714,4 +714,22 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'sort empty pickup slot for pickup',
     quantity: 3,
   },
+  {
+    id: 'throttle-5603',
+    store: '572',
+    label: 'paginate missing order for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-1205',
+    store: '610',
+    label: 'rename oversized receipt',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-2854',
+    store: '124',
+    label: 'rename cancelled promo',
+    quantity: 5,
+  },
 ];
