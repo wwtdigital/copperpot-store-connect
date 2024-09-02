@@ -29,4 +29,6 @@ export class RetryDuplicateKitchenTicketDto {
   addOversizedModifier?: string[];
   logLateLoyaltyCredit?: string[];
   handleOversizedKitchenTicketAtClose?: boolean;
+  normaliseDuplicateReceiptInTheQueue!: Date;
+  retryRegionalOrderAtClose!: string[];
 }
