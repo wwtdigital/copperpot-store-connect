@@ -1,0 +1,5 @@
+/* DocumentEmptyCartLineOnReorderDto: shape for document empty cart line on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DocumentEmptyCartLineOnReorderDto {
+  renameCancelledOrderAtClose!: string[];
+  paginateExpiredTaxLine?: string;
+}
