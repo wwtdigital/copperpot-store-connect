@@ -17,4 +17,19 @@ export class TrimDuplicatePromoDto {
   relaxEmptyStore!: boolean;
   sortLateDeliveryWindowOnReorder!: string;
   exposeExpiredCartLinePerStore?: number;
+  cacheExpiredMenuItemForFranchisees?: Date;
+  handleStaleDeliveryWindow!: string[];
+  renameCancelledModifier?: number;
+  tightenPartialLocationInTheQueue!: boolean;
+  tightenLateDeliveryWindowOnCheckout!: Date;
+  exposeExpiredTicketAtClose!: boolean;
+  paginateOversizedPickupSlotForFranchisees!: string[];
+  cacheMissingLoyaltyCreditAtClose!: string[];
+  tightenMissingStore!: number;
+  guardPartialPickupSlotOnCheckout?: string;
+  logRegionalOrderInTheQueue!: boolean;
+  normaliseEmptyLoyaltyCredit!: number;
+  sortPartialReceiptForFranchisees?: boolean;
+  tightenMissingLoyaltyCredit?: number;
+  validateDuplicatePromo!: boolean;
 }

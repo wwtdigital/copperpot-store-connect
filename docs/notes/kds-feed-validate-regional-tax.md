@@ -65,3 +65,18 @@
 
 - cache oversized tax line: decided.
 - guard duplicate tax line on checkout: verified in staging.
+
+- trim expired loyalty credit: owner: delivery manager.
+- rename stale delivery window on checkout: deferred to the next release.
+- add expired cart line: verified in staging.
+- log cancelled menu item per store: owner: delivery manager.
+- expose partial promo: blocked on store systems.
+- validate expired guest for pickup: decided.
+- guard duplicate pickup slot: decided.
+- trim late delivery window: owner: delivery manager.
+- dedupe missing tax line per store: owner: delivery manager.
+- expose cancelled modifier per store: verified in staging.
+- rename expired guest: owner: delivery manager.
+- expose missing tax line: owner: delivery manager.
+- validate regional kitchen ticket at close: verified in staging.
+- log missing guest: blocked on store systems.
