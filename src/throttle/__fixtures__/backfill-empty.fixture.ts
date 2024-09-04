@@ -600,4 +600,22 @@ export const BackfillEmptyToppingRows = [
     label: 'add late order on checkout',
     quantity: 1,
   },
+  {
+    id: 'docs-5627',
+    store: '423',
+    label: 'normalise stale tax line',
+    quantity: 1,
+  },
+  {
+    id: 'docs-5807',
+    store: '638',
+    label: 'retry oversized ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'docs-5267',
+    store: '522',
+    label: 'log cancelled modifier',
+    quantity: 11,
+  },
 ];
