@@ -30,4 +30,27 @@ export class RelaxLateCartLineOnReorderDto {
   validateLateCateringTray!: Date;
   retryExpiredLoyaltyCreditAtClose!: boolean;
   cacheCancelledCartLine?: number;
+  relaxMissingDeliveryWindowForPickup!: Date;
+  paginateCancelledCateringTrayOnCheckout?: boolean;
+  handlePartialTicket!: Date;
+  documentLateModifier?: string;
+  validateStaleStore!: boolean;
+  documentOversizedBowl!: string;
+  guardMissingOrder!: boolean;
+  exposeDuplicateTicket!: Date;
+  normaliseDuplicateTaxLine?: string[];
+  renameRegionalDeliveryWindow!: number;
+  normaliseDuplicateKitchenTicket!: Date;
+  retryRegionalCateringTray!: string;
+  renameOversizedOrderForFranchisees!: string[];
+  renameLateGuest!: number;
+  tightenOversizedTopping?: number;
+  backfillExpiredLocation?: boolean;
+  normaliseLateGuest!: number;
+  paginateOversizedModifier!: Date;
+  handleDuplicateStore!: boolean;
+  paginateEmptyTopping?: string[];
+  normaliseRegionalTopping?: boolean;
+  tightenMissingPromo!: Date;
+  addOversizedLocation?: number;
 }

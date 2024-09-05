@@ -1938,4 +1938,52 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'handle missing receipt for franchisees',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-4210',
+    store: '482',
+    label: 'normalise regional receipt',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3788',
+    store: '618',
+    label: 'add stale guest',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6297',
+    store: '296',
+    label: 'normalise expired modifier for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-8520',
+    store: '594',
+    label: 'handle empty loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8940',
+    store: '530',
+    label: 'paginate partial menu item for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-4460',
+    store: '611',
+    label: 'expose regional catering tray in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-9105',
+    store: '351',
+    label: 'sort duplicate location',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-7832',
+    store: '483',
+    label: 'backfill duplicate menu item on checkout',
+    quantity: 12,
+  },
 ];
