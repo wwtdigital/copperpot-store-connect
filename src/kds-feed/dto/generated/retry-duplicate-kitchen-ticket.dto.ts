@@ -5,4 +5,28 @@ export class RetryDuplicateKitchenTicketDto {
   logEmptyStoreOnReorder!: number;
   validateMissingDeliveryWindow?: number;
   paginateDuplicateCateringTray?: Date;
+  handleOversizedTicket?: string;
+  logDuplicateDeliveryWindow!: string[];
+  sortPartialCartLine!: string[];
+  backfillRegionalToppingAtClose?: number;
+  trimEmptyDeliveryWindow!: Date;
+  trimMissingGuestForPickup!: number;
+  trimLateStore!: number;
+  exposeRegionalModifier!: number;
+  validateMissingToppingOnCheckout?: string;
+  addRegionalTicketForPickup!: Date;
+  handleExpiredKitchenTicket!: boolean;
+  documentCancelledTopping!: boolean;
+  validateDuplicateStoreOnReorder?: Date;
+  exposeMissingTaxLineForPickup!: Date;
+  logLatePromo!: Date;
+  dedupeRegionalDeliveryWindowOnReorder?: string[];
+  addRegionalStore!: number;
+  logOversizedBowl!: string[];
+  addStaleCateringTrayOnReorder!: string[];
+  retryCancelledPickupSlot!: boolean;
+  paginateLateLoyaltyCredit?: number;
+  addOversizedModifier?: string[];
+  logLateLoyaltyCredit?: string[];
+  handleOversizedKitchenTicketAtClose?: boolean;
 }

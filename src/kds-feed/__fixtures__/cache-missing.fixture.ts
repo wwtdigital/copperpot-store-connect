@@ -306,4 +306,22 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'rename stale receipt',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-5494',
+    store: '406',
+    label: 'guard oversized loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-7104',
+    store: '499',
+    label: 'handle regional loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8874',
+    store: '588',
+    label: 'backfill stale order',
+    quantity: 4,
+  },
 ];
