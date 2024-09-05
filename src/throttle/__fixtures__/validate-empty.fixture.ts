@@ -732,4 +732,52 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'rename cancelled promo',
     quantity: 5,
   },
+  {
+    id: 'docs-7999',
+    store: '104',
+    label: 'trim partial store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'docs-6054',
+    store: '479',
+    label: 'backfill stale tax line',
+    quantity: 3,
+  },
+  {
+    id: 'docs-7114',
+    store: '492',
+    label: 'tighten partial catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'docs-1333',
+    store: '166',
+    label: 'rename missing cart line',
+    quantity: 8,
+  },
+  {
+    id: 'docs-8047',
+    store: '642',
+    label: 'sort stale delivery window on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9078',
+    store: '201',
+    label: 'document cancelled pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6696',
+    store: '425',
+    label: 'normalise expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'docs-4744',
+    store: '308',
+    label: 'backfill regional ticket',
+    quantity: 6,
+  },
 ];
