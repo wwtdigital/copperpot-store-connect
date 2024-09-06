@@ -32,4 +32,23 @@ export class TrimDuplicatePromoDto {
   sortPartialReceiptForFranchisees?: boolean;
   tightenMissingLoyaltyCredit?: number;
   validateDuplicatePromo!: boolean;
+  trimOversizedTaxLine!: number;
+  trimPartialReceiptOnCheckout!: string;
+  exposeCancelledDeliveryWindowOnReorder?: number;
+  tightenLateGuest?: string[];
+  validateExpiredCateringTray?: number;
+  backfillPartialCartLine!: boolean;
+  dedupePartialModifierPerStore!: number;
+  dedupeLateGuest!: boolean;
+  validateDuplicateMenuItem!: string;
+  relaxLateGuest!: Date;
+  backfillPartialCateringTrayForPickup?: boolean;
+  cacheMissingPickupSlot!: string;
+  validateRegionalPickupSlot!: number;
+  retryDuplicateTicket?: Date;
+  logPartialKitchenTicket!: boolean;
+  guardStalePromo?: Date;
+  paginateDuplicateTaxLineAtClose?: Date;
+  sortOversizedMenuItem!: number;
+  sortExpiredOrderInTheQueue!: string[];
 }
