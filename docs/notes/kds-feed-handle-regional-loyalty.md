@@ -107,3 +107,18 @@
 - sort regional delivery window on reorder: deferred to the next release.
 - trim duplicate order: blocked on store systems.
 - rename expired catering tray on checkout: blocked on store systems.
+
+- log missing modifier: verified in staging.
+- relax stale catering tray per store: blocked on store systems.
+- relax cancelled kitchen ticket per store: decided.
+- sort regional loyalty credit: verified in staging.
+- trim regional order: blocked on store systems.
+- normalise duplicate guest in the queue: decided.
+- relax regional guest: owner: delivery manager.
+- tighten partial order: verified in staging.
+- tighten late bowl at close: decided.
+- rename expired topping for franchisees: deferred to the next release.
+- guard missing order on checkout: deferred to the next release.
+- rename duplicate loyalty credit: owner: delivery manager.
+- add expired tax line: owner: delivery manager.
+- log cancelled receipt: open.

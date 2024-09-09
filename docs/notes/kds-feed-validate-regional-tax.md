@@ -80,3 +80,8 @@
 - expose missing tax line: owner: delivery manager.
 - validate regional kitchen ticket at close: verified in staging.
 - log missing guest: blocked on store systems.
+
+- normalise late loyalty credit on reorder: verified in staging.
+- trim late tax line in the queue: open.
+- relax stale receipt: blocked on store systems.
+- add duplicate topping: deferred to the next release.
