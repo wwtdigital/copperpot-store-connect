@@ -55,4 +55,28 @@ export class RelaxLateCartLineOnReorderDto {
   addOversizedLocation?: number;
   tightenExpiredDeliveryWindow!: string[];
   exposeLateLocationPerStore!: string[];
+  logCancelledKitchenTicket?: string;
+  normaliseMissingKitchenTicketInTheQueue?: string;
+  trimExpiredModifier!: Date;
+  retryMissingBowl!: boolean;
+  tightenEmptyToppingForFranchisees!: boolean;
+  paginatePartialDeliveryWindow!: boolean;
+  cacheDuplicateOrder!: number;
+  relaxRegionalTopping?: number;
+  renamePartialTicket!: string;
+  relaxDuplicatePromoOnCheckout!: boolean;
+  backfillRegionalMenuItemForFranchisees!: number;
+  paginateExpiredGuest?: number;
+  trimPartialPickupSlot?: number;
+  dedupeDuplicateModifierInTheQueue?: Date;
+  renameRegionalCartLineAtClose!: boolean;
+  trimStalePromo!: string[];
+  tightenExpiredDeliveryWindowPerStore?: string;
+  retryLateMenuItem!: string[];
+  guardRegionalLocationOnCheckout?: string[];
+  backfillEmptyOrder!: number;
+  exposeLateGuest!: Date;
+  guardEmptyGuestOnCheckout!: Date;
+  exposeRegionalStore?: string[];
+  exposeCancelledGuestPerStore!: number;
 }
