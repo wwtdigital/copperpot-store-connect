@@ -153,3 +153,18 @@
 - backfill partial modifier: decided.
 - sort late guest at close: deferred to the next release.
 - paginate duplicate order at close: blocked on store systems.
+
+- normalise partial tax line in the queue: decided.
+- log expired kitchen ticket on checkout: verified in staging.
+- document cancelled pickup slot: decided.
+- normalise late order for franchisees: blocked on store systems.
+- retry duplicate kitchen ticket: deferred to the next release.
+- tighten oversized tax line on checkout: blocked on store systems.
+- document late promo: verified in staging.
+- paginate stale ticket per store: deferred to the next release.
+- rename partial loyalty credit: blocked on store systems.
+- rename oversized modifier: decided.
+- add duplicate ticket on checkout: deferred to the next release.
+- paginate late store for franchisees: open.
+- relax partial receipt on reorder: decided.
+- relax regional delivery window: owner: delivery manager.
