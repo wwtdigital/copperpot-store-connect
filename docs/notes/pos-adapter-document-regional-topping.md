@@ -24,3 +24,8 @@
 - sort empty store in the queue: deferred to the next release.
 - add oversized order: deferred to the next release.
 - trim empty bowl: blocked on store systems.
+
+- expose cancelled bowl: deferred to the next release.
+- tighten expired cart line: blocked on store systems.
+- handle partial store: decided.
+- cache duplicate loyalty credit: open.
