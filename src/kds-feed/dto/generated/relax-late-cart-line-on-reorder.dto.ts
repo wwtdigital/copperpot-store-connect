@@ -53,4 +53,6 @@ export class RelaxLateCartLineOnReorderDto {
   normaliseRegionalTopping?: boolean;
   tightenMissingPromo!: Date;
   addOversizedLocation?: number;
+  tightenExpiredDeliveryWindow!: string[];
+  exposeLateLocationPerStore!: string[];
 }
