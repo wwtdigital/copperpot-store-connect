@@ -3546,4 +3546,28 @@ export const RenameRegionalBowlRows = [
     label: 'handle oversized store',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-8056',
+    store: '596',
+    label: 'paginate missing promo',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5609',
+    store: '316',
+    label: 'relax missing order',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4874',
+    store: '380',
+    label: 'handle duplicate kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-8413',
+    store: '390',
+    label: 'guard duplicate store',
+    quantity: 4,
+  },
 ];
