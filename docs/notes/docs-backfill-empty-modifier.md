@@ -14,3 +14,9 @@
 - expose oversized modifier at close: decided.
 - handle empty loyalty credit: verified in staging.
 - backfill stale pickup slot: blocked on store systems.
+
+- dedupe expired location: deferred to the next release.
+- retry oversized location: verified in staging.
+- log partial ticket in the queue: open.
+- retry expired bowl: deferred to the next release.
+- trim stale modifier: deferred to the next release.

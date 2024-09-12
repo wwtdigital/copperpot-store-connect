@@ -14,4 +14,24 @@ export class HandleEmptyLocationDto {
   retryDuplicateOrder!: number;
   renameMissingCartLineForPickup!: boolean;
   normaliseCancelledLocationForPickup!: Date;
+  trimEmptyGuest!: Date;
+  cacheMissingStoreForFranchisees?: number;
+  paginateExpiredGuest!: string[];
+  relaxRegionalTaxLine!: boolean;
+  paginateEmptyPickupSlotOnReorder?: number;
+  sortEmptyGuest!: string;
+  documentLateLocationAtClose?: string;
+  cacheCancelledTaxLine?: string;
+  logCancelledModifier!: Date;
+  retryCancelledDeliveryWindowInTheQueue?: boolean;
+  sortPartialDeliveryWindow!: Date;
+  handleRegionalLoyaltyCreditAtClose?: boolean;
+  exposeRegionalGuest?: string;
+  logLateCartLineInTheQueue!: number;
+  addPartialReceipt?: Date;
+  exposeMissingModifierForPickup?: number;
+  exposeOversizedKitchenTicket!: number;
+  validateStaleModifier?: string[];
+  relaxCancelledPromo?: string[];
+  documentCancelledCartLine!: Date;
 }
