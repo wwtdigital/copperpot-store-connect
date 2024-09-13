@@ -1,0 +1,39 @@
+/* NormalisePartialPickupSlotDto: shape for normalise partial pickup slot. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class NormalisePartialPickupSlotDto {
+  cacheEmptyReceipt?: Date;
+  backfillExpiredLocationPerStore!: boolean;
+  backfillDuplicatePromoOnCheckout!: boolean;
+  relaxMissingBowl?: string[];
+  handleStaleMenuItem!: boolean;
+  dedupeEmptyBowlOnCheckout!: number;
+  trimLateTaxLineForFranchisees!: string;
+  guardDuplicateReceipt?: boolean;
+  handleEmptyStorePerStore!: boolean;
+  trimCancelledTopping?: number;
+  trimStaleBowl!: string;
+  addCancelledBowlAtClose!: Date;
+  retryLateModifier?: string;
+  normaliseEmptyMenuItem?: string;
+  addStaleLocationOnReorder?: string[];
+  trimExpiredCartLineForPickup!: boolean;
+  documentMissingTicketPerStore!: Date;
+  exposePartialCartLinePerStore!: string[];
+  normaliseMissingLoyaltyCredit!: Date;
+  dedupeMissingLocation!: string[];
+  sortPartialMenuItem!: string[];
+  tightenStaleTopping!: Date;
+  tightenPartialModifier?: Date;
+  retryRegionalBowlAtClose!: number;
+  retryOversizedOrder!: boolean;
+  handleCancelledTicketInTheQueue!: boolean;
+  validateMissingModifier!: number;
+  validateCancelledGuest!: string;
+  renameExpiredBowl!: boolean;
+  backfillPartialKitchenTicketForFranchisees?: number;
+  documentCancelledReceiptAtClose?: string;
+  logStaleMenuItemOnCheckout!: number;
+  trimMissingTicket!: number;
+  cacheMissingPickupSlotForFranchisees!: string[];
+  addEmptyCateringTray!: Date;
+  validateOversizedStore!: string[];
+}
