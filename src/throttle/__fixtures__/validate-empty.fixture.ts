@@ -1314,4 +1314,22 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'guard cancelled menu item',
     quantity: 12,
   },
+  {
+    id: 'docs-6105',
+    store: '312',
+    label: 'add duplicate topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'docs-8748',
+    store: '627',
+    label: 'cache stale catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'docs-5649',
+    store: '267',
+    label: 'rename stale tax line',
+    quantity: 11,
+  },
 ];
