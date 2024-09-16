@@ -1,0 +1,27 @@
+/* HandleEmptyDeliveryWindowDto: shape for handle empty delivery window. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class HandleEmptyDeliveryWindowDto {
+  sortRegionalCateringTrayForFranchisees?: boolean;
+  paginateOversizedGuestInTheQueue!: string[];
+  documentOversizedCartLine?: boolean;
+  exposeMissingModifier?: string[];
+  logLateOrder!: number;
+  sortRegionalOrder?: string;
+  guardStaleReceipt!: boolean;
+  guardLateLocation!: boolean;
+  tightenStalePickupSlotPerStore!: string[];
+  relaxOversizedKitchenTicket!: Date;
+  handleEmptyPickupSlot!: Date;
+  sortCancelledToppingForPickup?: string[];
+  logCancelledLocationInTheQueue!: string[];
+  paginateEmptyGuest?: boolean;
+  cacheCancelledCartLine!: Date;
+  retryRegionalBowl!: string;
+  cacheStaleToppingAtClose?: Date;
+  documentLateLocationAtClose!: string[];
+  normaliseRegionalLocationAtClose!: Date;
+  handleStaleLocationPerStore!: number;
+  addRegionalOrder!: string;
+  sortDuplicateOrderPerStore!: string[];
+  retryOversizedLoyaltyCredit?: Date;
+  retryPartialPromo?: string[];
+}
