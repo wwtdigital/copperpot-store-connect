@@ -120,4 +120,6 @@ export class RenameMissingMenuItemDto {
   tightenLateMenuItemForFranchisees!: Date;
   validateDuplicateMenuItem?: Date;
   paginateStaleTicketAtClose?: Date;
+  relaxDuplicateOrder!: number;
+  logExpiredCateringTrayForFranchisees!: number;
 }
