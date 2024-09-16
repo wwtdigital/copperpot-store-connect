@@ -618,4 +618,52 @@ export const BackfillEmptyToppingRows = [
     label: 'log cancelled modifier',
     quantity: 11,
   },
+  {
+    id: 'docs-6608',
+    store: '196',
+    label: 'backfill stale cart line',
+    quantity: 4,
+  },
+  {
+    id: 'docs-9299',
+    store: '281',
+    label: 'guard empty bowl',
+    quantity: 9,
+  },
+  {
+    id: 'docs-9381',
+    store: '598',
+    label: 'rename partial promo',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8855',
+    store: '242',
+    label: 'expose late loyalty credit on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7635',
+    store: '243',
+    label: 'document expired tax line',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9635',
+    store: '669',
+    label: 'paginate oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8986',
+    store: '326',
+    label: 'backfill regional tax line',
+    quantity: 1,
+  },
+  {
+    id: 'docs-6108',
+    store: '279',
+    label: 'document late cart line per store',
+    quantity: 3,
+  },
 ];
