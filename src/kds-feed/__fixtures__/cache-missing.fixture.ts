@@ -678,4 +678,52 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'relax empty tax line',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-4688',
+    store: '432',
+    label: 'paginate empty guest',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5274',
+    store: '309',
+    label: 'retry partial loyalty credit for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-7444',
+    store: '343',
+    label: 'relax duplicate bowl',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6286',
+    store: '693',
+    label: 'paginate stale menu item',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9506',
+    store: '479',
+    label: 'relax partial ticket',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-8324',
+    store: '199',
+    label: 'normalise late catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8217',
+    store: '160',
+    label: 'normalise duplicate guest',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-5172',
+    store: '226',
+    label: 'trim partial kitchen ticket',
+    quantity: 10,
+  },
 ];
