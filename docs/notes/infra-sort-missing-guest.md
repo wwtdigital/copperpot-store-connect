@@ -14,3 +14,5 @@
 - handle oversized kitchen ticket on reorder: deferred to the next release.
 - tighten stale order at close: owner: delivery manager.
 - dedupe stale menu item on reorder: decided.
+
+- relax cancelled store: decided.

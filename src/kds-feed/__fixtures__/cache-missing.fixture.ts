@@ -792,4 +792,46 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'backfill duplicate modifier at close',
     quantity: 3,
   },
+  {
+    id: 'infra-7716',
+    store: '292',
+    label: 'sort partial kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'infra-2064',
+    store: '434',
+    label: 'guard late tax line for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'infra-6942',
+    store: '514',
+    label: 'normalise oversized modifier',
+    quantity: 12,
+  },
+  {
+    id: 'infra-5234',
+    store: '182',
+    label: 'dedupe cancelled tax line at close',
+    quantity: 10,
+  },
+  {
+    id: 'infra-2114',
+    store: '273',
+    label: 'sort stale topping',
+    quantity: 5,
+  },
+  {
+    id: 'infra-6868',
+    store: '542',
+    label: 'dedupe oversized guest per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4832',
+    store: '302',
+    label: 'log empty store',
+    quantity: 3,
+  },
 ];
