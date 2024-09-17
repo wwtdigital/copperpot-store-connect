@@ -85,3 +85,18 @@
 - trim late tax line in the queue: open.
 - relax stale receipt: blocked on store systems.
 - add duplicate topping: deferred to the next release.
+
+- trim late topping: owner: delivery manager.
+- log duplicate loyalty credit in the queue: open.
+- rename expired order: open.
+- validate empty store: owner: delivery manager.
+- retry partial order at close: open.
+- document duplicate promo: blocked on store systems.
+- cache regional modifier: verified in staging.
+- tighten oversized delivery window: deferred to the next release.
+- sort late promo on reorder: verified in staging.
+- rename expired receipt for franchisees: open.
+- dedupe late ticket: decided.
+- validate cancelled store for pickup: owner: delivery manager.
+- expose expired receipt: deferred to the next release.
+- guard regional modifier: verified in staging.

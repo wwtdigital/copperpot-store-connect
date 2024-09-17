@@ -79,4 +79,28 @@ export class RelaxLateCartLineOnReorderDto {
   guardEmptyGuestOnCheckout!: Date;
   exposeRegionalStore?: string[];
   exposeCancelledGuestPerStore!: number;
+  exposeStaleBowl!: string;
+  cacheCancelledKitchenTicketOnCheckout!: string[];
+  renamePartialLoyaltyCredit!: Date;
+  trimLateTicketForPickup!: number;
+  cacheEmptyLocationForPickup!: string;
+  retryDuplicateCartLinePerStore?: Date;
+  addDuplicateReceipt?: string[];
+  logStaleCartLine!: Date;
+  validateCancelledKitchenTicket?: string;
+  sortOversizedLocation!: string;
+  dedupePartialStoreAtClose!: number;
+  exposeMissingLocation!: boolean;
+  cacheLateToppingForPickup!: Date;
+  documentDuplicateCateringTrayPerStore!: number;
+  tightenRegionalPickupSlotForPickup!: string[];
+  dedupeCancelledDeliveryWindow!: Date;
+  trimPartialCartLine!: string;
+  relaxDuplicateLocationForFranchisees!: boolean;
+  retryExpiredBowl?: boolean;
+  sortRegionalLocation?: boolean;
+  handleDuplicateTopping!: number;
+  cacheOversizedGuestInTheQueue?: boolean;
+  normaliseRegionalLoyaltyCreditForFranchisees!: Date;
+  handleEmptyReceipt!: number;
 }
