@@ -1260,4 +1260,58 @@ export const ValidateEmptyReceiptInTheQueueRows = [
     label: 'cache stale store for pickup',
     quantity: 1,
   },
+  {
+    id: 'infra-6013',
+    store: '104',
+    label: 'guard late order for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'infra-8677',
+    store: '645',
+    label: 'normalise regional location',
+    quantity: 4,
+  },
+  {
+    id: 'infra-5839',
+    store: '102',
+    label: 'backfill missing receipt',
+    quantity: 1,
+  },
+  {
+    id: 'infra-1596',
+    store: '489',
+    label: 'paginate duplicate guest',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9544',
+    store: '193',
+    label: 'add missing ticket',
+    quantity: 2,
+  },
+  {
+    id: 'infra-3917',
+    store: '416',
+    label: 'dedupe empty ticket at close',
+    quantity: 12,
+  },
+  {
+    id: 'infra-5685',
+    store: '257',
+    label: 'document empty kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'infra-1305',
+    store: '327',
+    label: 'expose expired catering tray per store',
+    quantity: 11,
+  },
+  {
+    id: 'infra-1767',
+    store: '298',
+    label: 'guard cancelled menu item',
+    quantity: 12,
+  },
 ];
