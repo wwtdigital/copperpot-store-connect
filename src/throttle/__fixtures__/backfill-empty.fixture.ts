@@ -1020,4 +1020,16 @@ export const BackfillEmptyToppingRows = [
     label: 'paginate late topping for franchisees',
     quantity: 10,
   },
+  {
+    id: 'docs-9181',
+    store: '645',
+    label: 'cache stale bowl',
+    quantity: 1,
+  },
+  {
+    id: 'docs-4166',
+    store: '420',
+    label: 'handle stale cart line',
+    quantity: 6,
+  },
 ];

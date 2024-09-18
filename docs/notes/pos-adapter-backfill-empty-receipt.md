@@ -13,4 +13,3 @@
 - add regional ticket at close: blocked on store systems.
 - expose missing guest: verified in staging.
 - tighten late promo: deferred to the next release.
-- add empty promo per store: blocked on store systems.
