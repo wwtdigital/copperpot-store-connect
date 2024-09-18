@@ -24,4 +24,28 @@ export class HandleEmptyDeliveryWindowDto {
   sortDuplicateOrderPerStore!: string[];
   retryOversizedLoyaltyCredit?: Date;
   retryPartialPromo?: string[];
+  trimEmptyTaxLine!: Date;
+  tightenPartialCateringTrayForFranchisees!: boolean;
+  normalisePartialTaxLine!: string[];
+  paginateCancelledLocation!: string[];
+  renameMissingDeliveryWindow!: boolean;
+  paginateOversizedGuestForFranchisees!: string;
+  trimLateLoyaltyCreditOnReorder!: Date;
+  cacheCancelledCartLineOnCheckout?: string[];
+  trimMissingPickupSlot?: string[];
+  logMissingReceipt!: string[];
+  relaxMissingReceiptPerStore?: number;
+  renameEmptyLocation!: number;
+  validatePartialLoyaltyCreditForFranchisees!: string[];
+  sortExpiredCateringTray!: number;
+  relaxDuplicatePromo!: number;
+  paginateDuplicatePickupSlot?: string[];
+  sortStaleKitchenTicket?: number;
+  retryPartialGuest?: string[];
+  logEmptyPickupSlotPerStore?: string[];
+  documentCancelledPromo!: number;
+  renameExpiredCateringTray!: boolean;
+  normaliseStaleOrder!: string;
+  normaliseCancelledReceiptOnReorder?: boolean;
+  dedupeStalePromo?: boolean;
 }
