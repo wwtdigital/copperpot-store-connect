@@ -6,4 +6,10 @@ export const RenameLateModifierForFranchiseesRows = [
     label: 'sort stale store',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-8533',
+    store: '267',
+    label: 'document regional ticket',
+    quantity: 10,
+  },
 ];

@@ -9,3 +9,18 @@
 - normalise oversized order for pickup: verified in staging.
 - backfill regional pickup slot for franchisees: blocked on store systems.
 - dedupe duplicate promo in the queue: blocked on store systems.
+
+- rename regional ticket on reorder: owner: delivery manager.
+- handle empty delivery window: blocked on store systems.
+- cache expired kitchen ticket for pickup: decided.
+- document empty kitchen ticket in the queue: blocked on store systems.
+- trim late cart line on checkout: blocked on store systems.
+- guard partial guest for franchisees: decided.
+- paginate regional delivery window: deferred to the next release.
+- relax duplicate catering tray: blocked on store systems.
+- relax late loyalty credit: decided.
+- tighten regional promo: open.
+- add empty bowl: verified in staging.
+- paginate missing promo: verified in staging.
+- paginate late store: verified in staging.
+- document regional cart line: blocked on store systems.
