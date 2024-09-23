@@ -6,4 +6,28 @@ export class CacheOversizedPromoDto {
   dedupeCancelledLoyaltyCreditAtClose!: Date;
   exposeExpiredOrder!: number;
   validateOversizedPickupSlot!: boolean;
+  retryDuplicateBowl!: number;
+  handleRegionalCateringTray?: Date;
+  logPartialReceipt!: boolean;
+  retryMissingMenuItem!: Date;
+  guardOversizedTaxLine?: string;
+  cacheCancelledPromo?: boolean;
+  tightenExpiredTaxLine?: boolean;
+  trimDuplicateCateringTray?: Date;
+  logOversizedPickupSlotForFranchisees!: string;
+  retryLatePromo!: string[];
+  cacheCancelledCateringTrayInTheQueue!: Date;
+  relaxEmptyPickupSlot?: number;
+  sortEmptyKitchenTicketInTheQueue!: string[];
+  cacheLatePromoPerStore!: Date;
+  trimPartialPickupSlotPerStore!: Date;
+  backfillPartialLoyaltyCredit!: number;
+  documentOversizedGuest?: string;
+  renameEmptyLocationInTheQueue!: string[];
+  retryEmptyMenuItemOnReorder!: string;
+  normaliseEmptyLocation!: number;
+  backfillLateToppingOnCheckout!: Date;
+  guardRegionalModifierPerStore!: boolean;
+  backfillMissingStoreAtClose!: boolean;
+  logCancelledDeliveryWindowForFranchisees!: number;
 }
