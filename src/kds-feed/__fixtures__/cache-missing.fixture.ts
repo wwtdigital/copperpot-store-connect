@@ -834,4 +834,28 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'log empty store',
     quantity: 3,
   },
+  {
+    id: 'docs-5907',
+    store: '423',
+    label: 'cache missing promo for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'docs-1074',
+    store: '568',
+    label: 'dedupe duplicate cart line',
+    quantity: 2,
+  },
+  {
+    id: 'docs-4243',
+    store: '555',
+    label: 'dedupe missing topping',
+    quantity: 10,
+  },
+  {
+    id: 'docs-5333',
+    store: '228',
+    label: 'cache oversized store in the queue',
+    quantity: 6,
+  },
 ];
