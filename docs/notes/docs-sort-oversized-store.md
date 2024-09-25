@@ -14,3 +14,10 @@
 - add stale menu item for franchisees: deferred to the next release.
 - expose duplicate delivery window on reorder: blocked on store systems.
 - trim duplicate modifier: decided.
+
+- sort late bowl at close: decided.
+- validate regional delivery window for pickup: decided.
+- rename duplicate menu item: blocked on store systems.
+- normalise regional delivery window per store: owner: delivery manager.
+- rename expired store: deferred to the next release.
+- paginate late menu item: decided.

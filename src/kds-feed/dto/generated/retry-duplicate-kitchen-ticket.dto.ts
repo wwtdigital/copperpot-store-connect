@@ -31,4 +31,10 @@ export class RetryDuplicateKitchenTicketDto {
   handleOversizedKitchenTicketAtClose?: boolean;
   normaliseDuplicateReceiptInTheQueue!: Date;
   retryRegionalOrderAtClose!: string[];
+  normaliseLateDeliveryWindowForFranchisees!: number;
+  trimEmptyTicket!: number;
+  renamePartialGuestAtClose!: boolean;
+  normaliseOversizedStore!: string[];
+  addEmptyBowlForFranchisees!: boolean;
+  handlePartialPromo!: number;
 }
