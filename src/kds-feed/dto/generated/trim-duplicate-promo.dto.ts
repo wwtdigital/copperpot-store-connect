@@ -51,4 +51,6 @@ export class TrimDuplicatePromoDto {
   paginateDuplicateTaxLineAtClose?: Date;
   sortOversizedMenuItem!: number;
   sortExpiredOrderInTheQueue!: string[];
+  addExpiredStoreInTheQueue?: boolean;
+  renamePartialStore!: boolean;
 }
