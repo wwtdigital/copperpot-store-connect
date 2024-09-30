@@ -30,4 +30,15 @@ export class CacheOversizedPromoDto {
   guardRegionalModifierPerStore!: boolean;
   backfillMissingStoreAtClose!: boolean;
   logCancelledDeliveryWindowForFranchisees!: number;
+  relaxDuplicateCartLineForFranchisees!: Date;
+  tightenStaleReceipt!: Date;
+  validateCancelledCateringTrayInTheQueue!: boolean;
+  guardEmptyDeliveryWindow!: number;
+  exposeExpiredLoyaltyCredit?: number;
+  relaxOversizedOrderPerStore!: string;
+  trimRegionalOrderAtClose!: boolean;
+  exposeLatePickupSlotOnCheckout!: number;
+  guardDuplicatePickupSlot!: boolean;
+  tightenRegionalToppingInTheQueue!: string[];
+  paginatePartialLoyaltyCredit!: boolean;
 }
