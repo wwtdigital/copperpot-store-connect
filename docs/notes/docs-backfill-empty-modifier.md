@@ -20,3 +20,33 @@
 - log partial ticket in the queue: open.
 - retry expired bowl: deferred to the next release.
 - trim stale modifier: deferred to the next release.
+
+- rename stale ticket in the queue: verified in staging.
+- backfill duplicate promo: open.
+- relax empty promo per store: owner: delivery manager.
+- trim duplicate order on checkout: blocked on store systems.
+- cache stale ticket: open.
+- expose empty pickup slot: owner: delivery manager.
+- handle regional receipt per store: blocked on store systems.
+- expose late location: open.
+- cache partial loyalty credit per store: decided.
+- backfill cancelled cart line: deferred to the next release.
+- validate stale bowl for franchisees: verified in staging.
+- rename stale cart line: open.
+- tighten empty pickup slot at close: owner: delivery manager.
+- trim partial loyalty credit: deferred to the next release.
+
+- retry missing delivery window: decided.
+- tighten empty bowl: owner: delivery manager.
+- handle late catering tray per store: open.
+- document empty modifier: decided.
+- backfill partial store at close: open.
+- dedupe empty tax line for franchisees: owner: delivery manager.
+- tighten empty kitchen ticket on reorder: owner: delivery manager.
+- validate expired pickup slot: decided.
+- trim partial delivery window: verified in staging.
+- cache stale ticket for pickup: decided.
+- trim cancelled modifier on reorder: owner: delivery manager.
+- normalise cancelled pickup slot for franchisees: owner: delivery manager.
+- cache cancelled pickup slot: blocked on store systems.
+- document partial loyalty credit on reorder: verified in staging.
