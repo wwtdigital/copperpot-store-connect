@@ -36,4 +36,28 @@ export class NormalisePartialPickupSlotDto {
   cacheMissingPickupSlotForFranchisees!: string[];
   addEmptyCateringTray!: Date;
   validateOversizedStore!: string[];
+  exposeStaleReceiptAtClose!: string[];
+  backfillOversizedCateringTray!: string;
+  guardEmptyCateringTrayForPickup!: string;
+  normalisePartialTopping?: number;
+  paginateStaleTopping!: string[];
+  sortExpiredLocationPerStore?: boolean;
+  paginateEmptyLoyaltyCredit?: boolean;
+  guardCancelledTaxLineAtClose!: Date;
+  paginateMissingKitchenTicketForFranchisees?: Date;
+  addLateKitchenTicket!: number;
+  logStaleTaxLine?: boolean;
+  cacheOversizedMenuItem!: string;
+  documentExpiredReceiptInTheQueue!: Date;
+  relaxDuplicateStore!: string[];
+  addCancelledCateringTray!: number;
+  renameExpiredPickupSlotAtClose!: string[];
+  normaliseEmptyGuestForPickup!: string;
+  tightenMissingMenuItem?: string;
+  guardRegionalLoyaltyCredit?: boolean;
+  relaxMissingReceiptOnReorder!: string[];
+  trimStaleTicket!: string[];
+  logRegionalDeliveryWindowForPickup!: boolean;
+  sortOversizedDeliveryWindow?: string;
+  handleEmptyLoyaltyCreditForFranchisees?: string;
 }
