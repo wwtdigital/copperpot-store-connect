@@ -2106,4 +2106,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'expose oversized catering tray',
     quantity: 12,
   },
+  {
+    id: 'docs-4521',
+    store: '181',
+    label: 'log expired pickup slot',
+    quantity: 6,
+  },
 ];

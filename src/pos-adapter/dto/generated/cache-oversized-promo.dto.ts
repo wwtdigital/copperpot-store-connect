@@ -59,4 +59,23 @@ export class CacheOversizedPromoDto {
   relaxOversizedLocationForFranchisees?: string[];
   cacheExpiredBowl!: Date;
   dedupeMissingReceiptAtClose!: Date;
+  handleOversizedStore?: Date;
+  normaliseStaleLocationOnReorder!: string;
+  dedupeEmptyOrder!: string[];
+  trimOversizedLoyaltyCredit!: number;
+  renameRegionalReceiptForPickup?: string[];
+  retryPartialReceipt!: string[];
+  renameLateReceipt!: string[];
+  relaxEmptyReceiptPerStore!: boolean;
+  handlePartialModifier!: string;
+  normaliseRegionalMenuItem!: string[];
+  backfillEmptyTopping!: boolean;
+  documentStaleModifier!: string;
+  addDuplicateReceipt!: string;
+  validateCancelledReceiptPerStore!: string;
+  sortMissingModifierPerStore!: number;
+  exposeRegionalOrderForFranchisees?: string[];
+  documentMissingReceiptForPickup!: boolean;
+  dedupeOversizedCartLineOnReorder?: string[];
+  guardRegionalCartLine?: Date;
 }
