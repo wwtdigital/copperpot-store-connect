@@ -21,3 +21,18 @@
 - normalise regional delivery window per store: owner: delivery manager.
 - rename expired store: deferred to the next release.
 - paginate late menu item: decided.
+
+- add oversized guest per store: decided.
+- rename duplicate promo on reorder: blocked on store systems.
+- trim oversized tax line on checkout: decided.
+- backfill stale cart line: verified in staging.
+- normalise stale menu item per store: open.
+- paginate stale tax line: owner: delivery manager.
+- retry partial cart line on reorder: blocked on store systems.
+- sort regional menu item: deferred to the next release.
+- expose duplicate loyalty credit: blocked on store systems.
+- retry cancelled bowl per store: deferred to the next release.
+- backfill stale bowl: decided.
+- cache missing kitchen ticket: owner: delivery manager.
+- paginate stale receipt for pickup: deferred to the next release.
+- normalise empty tax line in the queue: deferred to the next release.
