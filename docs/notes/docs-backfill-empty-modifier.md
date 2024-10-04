@@ -50,3 +50,11 @@
 - normalise cancelled pickup slot for franchisees: owner: delivery manager.
 - cache cancelled pickup slot: blocked on store systems.
 - document partial loyalty credit on reorder: verified in staging.
+
+- log missing guest on checkout: owner: delivery manager.
+- paginate missing kitchen ticket: verified in staging.
+- add cancelled delivery window: verified in staging.
+- relax empty bowl in the queue: open.
+- backfill oversized guest: owner: delivery manager.
+- expose late pickup slot for pickup: decided.
+- rename partial catering tray on reorder: decided.
