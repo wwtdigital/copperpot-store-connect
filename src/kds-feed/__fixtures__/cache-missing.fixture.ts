@@ -882,4 +882,22 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'relax duplicate kitchen ticket in the queue',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-9783',
+    store: '657',
+    label: 'backfill partial bowl',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-4823',
+    store: '573',
+    label: 'trim duplicate pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-8795',
+    store: '381',
+    label: 'rename oversized topping for pickup',
+    quantity: 12,
+  },
 ];
