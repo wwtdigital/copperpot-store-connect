@@ -103,4 +103,24 @@ export class RelaxLateCartLineOnReorderDto {
   cacheOversizedGuestInTheQueue?: boolean;
   normaliseRegionalLoyaltyCreditForFranchisees!: Date;
   handleEmptyReceipt!: number;
+  relaxDuplicateLocation!: string;
+  addPartialKitchenTicket!: boolean;
+  relaxMissingBowl!: string;
+  addLateDeliveryWindowOnCheckout!: Date;
+  documentDuplicateBowl!: string;
+  paginatePartialKitchenTicket!: Date;
+  logOversizedLocationOnReorder?: number;
+  guardDuplicateKitchenTicket!: string[];
+  logRegionalPromo?: string[];
+  addEmptyGuest!: string[];
+  sortEmptyOrderOnCheckout!: string[];
+  dedupeStaleLoyaltyCredit!: Date;
+  relaxMissingCartLinePerStore!: string;
+  renameRegionalLoyaltyCreditForFranchisees!: string[];
+  renameMissingDeliveryWindow!: string;
+  paginateRegionalTopping?: number;
+  dedupeEmptyCateringTray!: string;
+  sortEmptyMenuItemOnReorder!: string;
+  tightenStaleTaxLine!: string[];
+  cachePartialPromo!: Date;
 }
