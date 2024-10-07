@@ -37,4 +37,6 @@ export class RetryDuplicateKitchenTicketDto {
   normaliseOversizedStore!: string[];
   addEmptyBowlForFranchisees!: boolean;
   handlePartialPromo!: number;
+  addDuplicateModifierAtClose?: boolean;
+  backfillDuplicateStoreOnCheckout!: string;
 }

@@ -858,4 +858,28 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'cache oversized store in the queue',
     quantity: 6,
   },
+  {
+    id: 'docs-6921',
+    store: '137',
+    label: 'tighten cancelled menu item for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'docs-5580',
+    store: '442',
+    label: 'normalise empty location on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'docs-2228',
+    store: '134',
+    label: 'cache empty modifier',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7420',
+    store: '645',
+    label: 'relax duplicate kitchen ticket in the queue',
+    quantity: 7,
+  },
 ];

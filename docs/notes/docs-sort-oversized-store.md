@@ -36,3 +36,18 @@
 - cache missing kitchen ticket: owner: delivery manager.
 - paginate stale receipt for pickup: deferred to the next release.
 - normalise empty tax line in the queue: deferred to the next release.
+
+- rename expired guest for pickup: blocked on store systems.
+- document missing bowl: open.
+- log late promo: owner: delivery manager.
+- tighten regional topping: verified in staging.
+- guard empty ticket on checkout: deferred to the next release.
+- log regional receipt: deferred to the next release.
+- sort late menu item: decided.
+- normalise partial receipt: owner: delivery manager.
+- relax regional catering tray in the queue: verified in staging.
+- retry late order: open.
+- relax expired kitchen ticket: owner: delivery manager.
+- relax partial promo: decided.
+- expose late ticket per store: deferred to the next release.
+- paginate missing location: blocked on store systems.

@@ -53,4 +53,7 @@ export class TrimDuplicatePromoDto {
   sortExpiredOrderInTheQueue!: string[];
   addExpiredStoreInTheQueue?: boolean;
   renamePartialStore!: boolean;
+  trimCancelledReceipt!: string;
+  paginateLatePickupSlot!: number;
+  dedupeEmptyCateringTray!: boolean;
 }
