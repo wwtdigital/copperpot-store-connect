@@ -192,4 +192,10 @@ export const RenameLateModifierForFranchiseesRows = [
     label: 'retry empty menu item',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-3995',
+    store: '433',
+    label: 'guard cancelled modifier per store',
+    quantity: 4,
+  },
 ];
