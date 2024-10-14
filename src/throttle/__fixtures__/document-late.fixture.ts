@@ -312,4 +312,58 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'rename expired tax line for pickup',
     quantity: 6,
   },
+  {
+    id: 'infra-4755',
+    store: '285',
+    label: 'add duplicate loyalty credit on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4684',
+    store: '657',
+    label: 'paginate missing promo on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9879',
+    store: '337',
+    label: 'add duplicate kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'infra-8345',
+    store: '507',
+    label: 'handle expired kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'infra-6369',
+    store: '358',
+    label: 'guard oversized pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'infra-9914',
+    store: '585',
+    label: 'trim cancelled location at close',
+    quantity: 5,
+  },
+  {
+    id: 'infra-6675',
+    store: '176',
+    label: 'paginate stale topping',
+    quantity: 12,
+  },
+  {
+    id: 'infra-8959',
+    store: '299',
+    label: 'normalise late bowl',
+    quantity: 4,
+  },
+  {
+    id: 'infra-6087',
+    store: '250',
+    label: 'document stale ticket on reorder',
+    quantity: 12,
+  },
 ];
