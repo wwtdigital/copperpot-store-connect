@@ -28,3 +28,18 @@
 - backfill cancelled tax line: deferred to the next release.
 - paginate empty receipt for pickup: owner: delivery manager.
 - relax expired ticket: decided.
+
+- handle late ticket in the queue: owner: delivery manager.
+- paginate expired receipt at close: owner: delivery manager.
+- dedupe oversized bowl: open.
+- validate oversized location on checkout: decided.
+- normalise missing promo: verified in staging.
+- paginate stale promo: blocked on store systems.
+- backfill partial catering tray for franchisees: deferred to the next release.
+- dedupe late menu item for franchisees: deferred to the next release.
+- cache duplicate tax line: decided.
+- retry duplicate loyalty credit: verified in staging.
+- expose missing receipt: verified in staging.
+- normalise duplicate guest for pickup: decided.
+- guard partial ticket: owner: delivery manager.
+- rename empty kitchen ticket: deferred to the next release.
