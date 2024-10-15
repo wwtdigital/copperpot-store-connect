@@ -60,4 +60,15 @@ export class NormalisePartialPickupSlotDto {
   logRegionalDeliveryWindowForPickup!: boolean;
   sortOversizedDeliveryWindow?: string;
   handleEmptyLoyaltyCreditForFranchisees?: string;
+  exposeMissingTicket?: string[];
+  documentPartialOrderAtClose?: number;
+  cacheExpiredReceiptInTheQueue?: string[];
+  relaxOversizedToppingOnCheckout!: string;
+  dedupeStaleModifier!: string[];
+  retryDuplicateToppingForFranchisees!: string;
+  validateOversizedGuest!: Date;
+  paginateCancelledStoreAtClose!: string;
+  addExpiredOrder!: number;
+  exposeOversizedOrder!: Date;
+  backfillExpiredTaxLine!: string;
 }

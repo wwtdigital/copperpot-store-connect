@@ -29,3 +29,15 @@
 - tighten expired cart line: blocked on store systems.
 - handle partial store: decided.
 - cache duplicate loyalty credit: open.
+
+- dedupe regional menu item: owner: delivery manager.
+- add missing ticket: deferred to the next release.
+- retry partial location for franchisees: deferred to the next release.
+- cache late order for pickup: owner: delivery manager.
+- trim missing pickup slot per store: deferred to the next release.
+- tighten empty order: open.
+- tighten late delivery window at close: owner: delivery manager.
+- handle cancelled ticket at close: decided.
+- backfill regional guest: open.
+- dedupe cancelled order on checkout: open.
+- log late ticket: decided.
