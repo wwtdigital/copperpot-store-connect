@@ -1,0 +1,45 @@
+# throttle: backfill missing catering tray
+
+- normalise late topping: owner: delivery manager.
+- cache missing delivery window: blocked on store systems.
+- backfill duplicate receipt: blocked on store systems.
+- retry cancelled topping for franchisees: decided.
+- trim missing loyalty credit: verified in staging.
+- guard duplicate location: deferred to the next release.
+- cache stale order on reorder: open.
+- expose stale bowl for pickup: blocked on store systems.
+- handle oversized cart line: owner: delivery manager.
+- normalise stale menu item for pickup: open.
+- guard cancelled menu item: decided.
+- log empty store on reorder: owner: delivery manager.
+- retry cancelled pickup slot on reorder: deferred to the next release.
+- relax stale bowl for franchisees: open.
+
+- guard oversized order: owner: delivery manager.
+- validate duplicate delivery window on reorder: blocked on store systems.
+- backfill empty guest: deferred to the next release.
+- retry oversized order: open.
+- backfill missing receipt per store: owner: delivery manager.
+- rename missing menu item per store: open.
+- rename duplicate pickup slot per store: deferred to the next release.
+- guard missing store: deferred to the next release.
+- sort duplicate topping in the queue: open.
+- sort missing modifier on reorder: deferred to the next release.
+- backfill cancelled tax line: deferred to the next release.
+- paginate empty receipt for pickup: owner: delivery manager.
+- relax expired ticket: decided.
+
+- handle late ticket in the queue: owner: delivery manager.
+- paginate expired receipt at close: owner: delivery manager.
+- dedupe oversized bowl: open.
+- validate oversized location on checkout: decided.
+- normalise missing promo: verified in staging.
+- paginate stale promo: blocked on store systems.
+- backfill partial catering tray for franchisees: deferred to the next release.
+- dedupe late menu item for franchisees: deferred to the next release.
+- cache duplicate tax line: decided.
+- retry duplicate loyalty credit: verified in staging.
+- expose missing receipt: verified in staging.
+- normalise duplicate guest for pickup: decided.
+- guard partial ticket: owner: delivery manager.
+- rename empty kitchen ticket: deferred to the next release.
