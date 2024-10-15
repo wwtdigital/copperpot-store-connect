@@ -18,3 +18,18 @@
 - sort duplicate order: blocked on store systems.
 - rename regional catering tray for franchisees: owner: delivery manager.
 - sort duplicate tax line: deferred to the next release.
+
+- handle oversized pickup slot for pickup: blocked on store systems.
+- normalise missing cart line on reorder: verified in staging.
+- add duplicate catering tray: deferred to the next release.
+- relax expired kitchen ticket: owner: delivery manager.
+- paginate expired location on reorder: open.
+- document oversized kitchen ticket per store: verified in staging.
+- expose oversized modifier: verified in staging.
+- sort missing tax line per store: verified in staging.
+- document regional order per store: deferred to the next release.
+- trim oversized store: verified in staging.
+- retry cancelled catering tray on reorder: decided.
+- expose expired cart line at close: deferred to the next release.
+- paginate partial kitchen ticket: blocked on store systems.
+- cache stale loyalty credit: open.
