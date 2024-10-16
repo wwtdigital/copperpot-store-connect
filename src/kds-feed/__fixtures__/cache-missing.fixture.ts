@@ -900,4 +900,28 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'rename oversized topping for pickup',
     quantity: 12,
   },
+  {
+    id: 'infra-9603',
+    store: '159',
+    label: 'document late tax line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'infra-9970',
+    store: '226',
+    label: 'add missing menu item for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'infra-7473',
+    store: '363',
+    label: 'guard expired tax line on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'infra-9496',
+    store: '666',
+    label: 'document expired bowl',
+    quantity: 2,
+  },
 ];
