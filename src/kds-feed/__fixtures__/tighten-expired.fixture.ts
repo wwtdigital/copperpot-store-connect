@@ -2112,4 +2112,58 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'log expired pickup slot',
     quantity: 6,
   },
+  {
+    id: 'infra-1122',
+    store: '588',
+    label: 'retry duplicate bowl per store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-1608',
+    store: '436',
+    label: 'sort empty receipt',
+    quantity: 8,
+  },
+  {
+    id: 'infra-1015',
+    store: '476',
+    label: 'cache stale catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3455',
+    store: '621',
+    label: 'trim stale modifier',
+    quantity: 2,
+  },
+  {
+    id: 'infra-3234',
+    store: '374',
+    label: 'guard oversized pickup slot at close',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9415',
+    store: '658',
+    label: 'sort regional location for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'infra-5732',
+    store: '448',
+    label: 'expose partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'infra-5240',
+    store: '688',
+    label: 'tighten empty tax line at close',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9255',
+    store: '369',
+    label: 'backfill missing order',
+    quantity: 6,
+  },
 ];

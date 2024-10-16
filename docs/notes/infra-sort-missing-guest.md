@@ -16,3 +16,18 @@
 - dedupe stale menu item on reorder: decided.
 
 - relax cancelled store: decided.
+
+- rename oversized menu item: owner: delivery manager.
+- guard stale menu item: blocked on store systems.
+- normalise expired topping: verified in staging.
+- sort duplicate guest: blocked on store systems.
+- dedupe expired location: decided.
+- backfill partial topping: blocked on store systems.
+- log partial guest: decided.
+- expose cancelled topping: blocked on store systems.
+- dedupe duplicate cart line: open.
+- retry partial ticket in the queue: verified in staging.
+- validate late menu item at close: open.
+- validate stale delivery window: blocked on store systems.
+- relax empty cart line on checkout: blocked on store systems.
+- sort late delivery window for franchisees: verified in staging.
