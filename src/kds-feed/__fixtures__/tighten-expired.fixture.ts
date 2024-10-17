@@ -2172,4 +2172,40 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'rename late topping',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-3612',
+    store: '197',
+    label: 'dedupe duplicate guest per store',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-4366',
+    store: '648',
+    label: 'log stale cart line',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-8031',
+    store: '538',
+    label: 'cache partial tax line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2858',
+    store: '353',
+    label: 'dedupe late catering tray in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3733',
+    store: '114',
+    label: 'expose oversized menu item',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-1184',
+    store: '340',
+    label: 'normalise oversized loyalty credit at close',
+    quantity: 5,
+  },
 ];
