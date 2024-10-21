@@ -9,4 +9,24 @@ export class RenameStalePickupSlotDto {
   handleRegionalTaxLineForFranchisees?: string[];
   normaliseCancelledTopping!: number;
   validateMissingPromoPerStore!: boolean;
+  documentRegionalModifier?: Date;
+  backfillCancelledTicketAtClose!: string;
+  validateMissingCateringTray!: string;
+  validateEmptyTicket?: boolean;
+  sortPartialPromoOnReorder?: Date;
+  tightenStaleCateringTray!: string;
+  addPartialTaxLine!: string[];
+  guardStaleCateringTray!: string[];
+  guardRegionalCateringTray?: number;
+  guardPartialCateringTray!: boolean;
+  retryEmptyLocationForPickup?: Date;
+  handleCancelledModifier!: string;
+  guardMissingPromo!: string[];
+  logStaleBowl!: Date;
+  cacheEmptyGuestForFranchisees?: number;
+  paginateLateLocationForFranchisees!: Date;
+  validateStaleTopping?: string[];
+  exposeDuplicateLocationAtClose!: Date;
+  tightenOversizedTopping?: string;
+  exposeOversizedKitchenTicket!: boolean;
 }
