@@ -86,3 +86,7 @@
 - normalise oversized delivery window: deferred to the next release.
 - expose expired kitchen ticket: open.
 - sort regional kitchen ticket: owner: delivery manager.
+
+- handle duplicate bowl: verified in staging.
+- tighten oversized kitchen ticket for franchisees: owner: delivery manager.
+- cache oversized location: verified in staging.

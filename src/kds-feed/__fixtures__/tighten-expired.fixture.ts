@@ -2232,4 +2232,46 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'add late kitchen ticket for pickup',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-7526',
+    store: '510',
+    label: 'expose partial bowl',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2828',
+    store: '307',
+    label: 'retry empty bowl for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-7760',
+    store: '375',
+    label: 'dedupe missing ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9480',
+    store: '397',
+    label: 'handle expired guest',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-5786',
+    store: '360',
+    label: 'retry partial tax line for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4640',
+    store: '246',
+    label: 'handle missing cart line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9879',
+    store: '423',
+    label: 'sort missing catering tray for franchisees',
+    quantity: 8,
+  },
 ];
