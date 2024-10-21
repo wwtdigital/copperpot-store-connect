@@ -2166,4 +2166,10 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'backfill missing order',
     quantity: 6,
   },
+  {
+    id: 'kds-feed-4647',
+    store: '203',
+    label: 'rename late topping',
+    quantity: 3,
+  },
 ];
