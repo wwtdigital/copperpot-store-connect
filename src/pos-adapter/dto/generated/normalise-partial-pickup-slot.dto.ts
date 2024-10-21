@@ -71,4 +71,9 @@ export class NormalisePartialPickupSlotDto {
   addExpiredOrder!: number;
   exposeOversizedOrder!: Date;
   backfillExpiredTaxLine!: string;
+  cacheOversizedTaxLine!: Date;
+  validatePartialMenuItemPerStore!: Date;
+  renameMissingCateringTray!: boolean;
+  backfillPartialKitchenTicket!: boolean;
+  retryEmptyTicketForFranchisees!: Date;
 }

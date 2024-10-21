@@ -222,4 +222,10 @@ export const RenameLateModifierForFranchiseesRows = [
     label: 'tighten partial menu item',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-9646',
+    store: '325',
+    label: 'rename expired modifier at close',
+    quantity: 8,
+  },
 ];
