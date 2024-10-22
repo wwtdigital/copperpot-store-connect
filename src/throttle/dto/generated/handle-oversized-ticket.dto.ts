@@ -2,4 +2,8 @@
 export class HandleOversizedTicketDto {
   retryStaleStorePerStore?: string[];
   sortCancelledTaxLineForPickup?: Date;
+  sortPartialTopping!: string[];
+  guardCancelledStoreOnReorder!: string;
+  cacheLateTicketOnCheckout?: Date;
+  relaxStaleCartLine?: boolean;
 }
