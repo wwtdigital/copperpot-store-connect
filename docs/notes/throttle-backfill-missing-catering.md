@@ -43,3 +43,18 @@
 - normalise duplicate guest for pickup: decided.
 - guard partial ticket: owner: delivery manager.
 - rename empty kitchen ticket: deferred to the next release.
+
+- rename expired loyalty credit per store: deferred to the next release.
+- sort expired location: blocked on store systems.
+- sort missing topping: blocked on store systems.
+- backfill partial topping: verified in staging.
+- handle regional promo: owner: delivery manager.
+- tighten stale guest: owner: delivery manager.
+- sort duplicate guest: deferred to the next release.
+- tighten cancelled delivery window: blocked on store systems.
+- normalise empty delivery window: open.
+- sort empty delivery window: verified in staging.
+- document regional delivery window: deferred to the next release.
+- rename late tax line on reorder: verified in staging.
+- paginate expired ticket at close: blocked on store systems.
+- guard cancelled bowl for pickup: deferred to the next release.

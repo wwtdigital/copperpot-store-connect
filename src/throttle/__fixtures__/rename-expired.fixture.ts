@@ -138,4 +138,40 @@ export const RenameExpiredDeliveryWindowInTheQueueRows = [
     label: 'log stale loyalty credit per store',
     quantity: 9,
   },
+  {
+    id: 'throttle-5688',
+    store: '287',
+    label: 'log expired loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3892',
+    store: '653',
+    label: 'trim expired tax line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-9032',
+    store: '146',
+    label: 'cache late delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5092',
+    store: '606',
+    label: 'expose stale tax line',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-2605',
+    store: '381',
+    label: 'retry regional kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-9767',
+    store: '449',
+    label: 'relax oversized modifier',
+    quantity: 10,
+  },
 ];
