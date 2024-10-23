@@ -2208,4 +2208,28 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'normalise oversized loyalty credit at close',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-5892',
+    store: '340',
+    label: 'dedupe cancelled cart line',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8523',
+    store: '215',
+    label: 'tighten late store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7231',
+    store: '494',
+    label: 'cache oversized location',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8899',
+    store: '505',
+    label: 'add late kitchen ticket for pickup',
+    quantity: 11,
+  },
 ];
