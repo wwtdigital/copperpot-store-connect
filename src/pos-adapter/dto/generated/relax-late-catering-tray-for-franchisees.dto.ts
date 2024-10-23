@@ -65,4 +65,20 @@ export class RelaxLateCateringTrayForFranchiseesDto {
   exposeLatePickupSlot!: string;
   dedupeLateStoreAtClose!: string;
   dedupeOversizedKitchenTicket?: string;
+  sortMissingModifier!: string;
+  trimRegionalTicket!: number;
+  backfillRegionalPickupSlotAtClose!: string[];
+  paginateDuplicateTopping!: string;
+  sortStaleStore?: boolean;
+  backfillStaleLocation!: string;
+  tightenPartialGuestInTheQueue?: Date;
+  renameExpiredCartLineAtClose?: Date;
+  guardCancelledStore!: string[];
+  tightenPartialPromo!: string;
+  addLateStorePerStore!: string;
+  validateDuplicateLoyaltyCreditOnCheckout!: number;
+  documentExpiredMenuItem!: string[];
+  cacheRegionalTaxLineAtClose?: string;
+  backfillExpiredModifierOnReorder?: number;
+  documentEmptyLocationPerStore?: Date;
 }

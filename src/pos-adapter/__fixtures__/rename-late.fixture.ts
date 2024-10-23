@@ -198,4 +198,40 @@ export const RenameLateModifierForFranchiseesRows = [
     label: 'guard cancelled modifier per store',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-4296',
+    store: '290',
+    label: 'sort regional tax line',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6681',
+    store: '372',
+    label: 'add cancelled topping',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-3074',
+    store: '589',
+    label: 'paginate duplicate catering tray on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8025',
+    store: '410',
+    label: 'tighten partial menu item',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9646',
+    store: '325',
+    label: 'rename expired modifier at close',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-9562',
+    store: '158',
+    label: 'backfill duplicate bowl',
+    quantity: 2,
+  },
 ];
