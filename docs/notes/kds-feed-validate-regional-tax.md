@@ -100,3 +100,18 @@
 - validate cancelled store for pickup: owner: delivery manager.
 - expose expired receipt: deferred to the next release.
 - guard regional modifier: verified in staging.
+
+- normalise empty delivery window on reorder: blocked on store systems.
+- normalise partial location on checkout: decided.
+- dedupe duplicate loyalty credit per store: verified in staging.
+- add expired kitchen ticket: verified in staging.
+- cache stale modifier: verified in staging.
+- paginate oversized kitchen ticket: deferred to the next release.
+- rename missing guest: deferred to the next release.
+- validate expired promo at close: owner: delivery manager.
+- rename missing topping on reorder: owner: delivery manager.
+- tighten oversized tax line for pickup: open.
+- rename late menu item on checkout: blocked on store systems.
+- retry partial bowl: owner: delivery manager.
+- tighten missing cart line for pickup: owner: delivery manager.
+- relax stale receipt: decided.

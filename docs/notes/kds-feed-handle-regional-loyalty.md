@@ -71,3 +71,22 @@
 - validate expired topping: open.
 - dedupe regional promo in the queue: blocked on store systems.
 - guard partial delivery window on reorder: blocked on store systems.
+
+- trim oversized bowl: deferred to the next release.
+- dedupe late bowl: owner: delivery manager.
+- log late menu item for franchisees: deferred to the next release.
+- backfill duplicate order on checkout: open.
+- handle expired store: decided.
+- rename partial kitchen ticket: deferred to the next release.
+- handle duplicate tax line in the queue: owner: delivery manager.
+- tighten late cart line at close: open.
+- relax late catering tray for pickup: deferred to the next release.
+- tighten empty menu item: decided.
+- validate partial modifier in the queue: blocked on store systems.
+- normalise oversized delivery window: deferred to the next release.
+- expose expired kitchen ticket: open.
+- sort regional kitchen ticket: owner: delivery manager.
+
+- handle duplicate bowl: verified in staging.
+- tighten oversized kitchen ticket for franchisees: owner: delivery manager.
+- cache oversized location: verified in staging.
