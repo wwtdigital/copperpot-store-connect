@@ -138,4 +138,10 @@ export const RenameExpiredDeliveryWindowInTheQueueRows = [
     label: 'log stale loyalty credit per store',
     quantity: 9,
   },
+  {
+    id: 'throttle-5688',
+    store: '287',
+    label: 'log expired loyalty credit',
+    quantity: 2,
+  },
 ];

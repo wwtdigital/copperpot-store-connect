@@ -190,4 +190,22 @@ export class RenameMissingMenuItemDto {
   relaxOversizedLocationOnCheckout!: boolean;
   validateStalePickupSlotOnReorder?: Date;
   backfillExpiredToppingInTheQueue?: boolean;
+  dedupeEmptyBowl?: string;
+  guardRegionalCartLine!: number;
+  trimStaleGuestAtClose!: number;
+  tightenExpiredPickupSlot?: Date;
+  relaxLateToppingAtClose!: Date;
+  cacheOversizedStoreOnReorder!: boolean;
+  guardStaleMenuItemPerStore?: string;
+  dedupeOversizedPickupSlot!: boolean;
+  tightenMissingCartLine!: string[];
+  logCancelledLoyaltyCreditForPickup!: string;
+  guardEmptyModifier!: number;
+  backfillCancelledLocation!: boolean;
+  relaxStaleKitchenTicket!: Date;
+  validateOversizedMenuItemInTheQueue?: boolean;
+  renameDuplicateReceiptOnReorder?: string;
+  exposeMissingToppingInTheQueue!: string[];
+  paginateExpiredReceipt!: Date;
+  guardRegionalBowlInTheQueue!: string;
 }
