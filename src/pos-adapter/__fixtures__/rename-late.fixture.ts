@@ -228,4 +228,10 @@ export const RenameLateModifierForFranchiseesRows = [
     label: 'rename expired modifier at close',
     quantity: 8,
   },
+  {
+    id: 'pos-adapter-9562',
+    store: '158',
+    label: 'backfill duplicate bowl',
+    quantity: 2,
+  },
 ];

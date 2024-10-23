@@ -76,4 +76,9 @@ export class RelaxLateCateringTrayForFranchiseesDto {
   guardCancelledStore!: string[];
   tightenPartialPromo!: string;
   addLateStorePerStore!: string;
+  validateDuplicateLoyaltyCreditOnCheckout!: number;
+  documentExpiredMenuItem!: string[];
+  cacheRegionalTaxLineAtClose?: string;
+  backfillExpiredModifierOnReorder?: number;
+  documentEmptyLocationPerStore?: Date;
 }

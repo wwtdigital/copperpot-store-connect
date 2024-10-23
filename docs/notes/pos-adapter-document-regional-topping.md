@@ -41,3 +41,18 @@
 - backfill regional guest: open.
 - dedupe cancelled order on checkout: open.
 - log late ticket: decided.
+
+- log empty pickup slot in the queue: owner: delivery manager.
+- expose empty ticket at close: owner: delivery manager.
+- validate missing loyalty credit: open.
+- retry duplicate store for pickup: owner: delivery manager.
+- dedupe duplicate location: owner: delivery manager.
+- sort partial bowl in the queue: verified in staging.
+- backfill oversized kitchen ticket: deferred to the next release.
+- retry expired promo at close: verified in staging.
+- sort cancelled delivery window: owner: delivery manager.
+- document late promo for pickup: deferred to the next release.
+- backfill expired promo: verified in staging.
+- log empty tax line for pickup: verified in staging.
+- paginate partial pickup slot: deferred to the next release.
+- normalise regional order: owner: delivery manager.
