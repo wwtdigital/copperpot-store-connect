@@ -30,4 +30,40 @@ export const CacheLateCateringTrayRows = [
     label: 'paginate duplicate menu item in the queue',
     quantity: 10,
   },
+  {
+    id: 'infra-4631',
+    store: '465',
+    label: 'log late pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'infra-6643',
+    store: '466',
+    label: 'add late order on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'infra-7035',
+    store: '632',
+    label: 'add oversized cart line',
+    quantity: 9,
+  },
+  {
+    id: 'infra-8997',
+    store: '684',
+    label: 'backfill stale promo',
+    quantity: 8,
+  },
+  {
+    id: 'infra-5703',
+    store: '557',
+    label: 'sort expired delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2012',
+    store: '361',
+    label: 'handle late store',
+    quantity: 4,
+  },
 ];
