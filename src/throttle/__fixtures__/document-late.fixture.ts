@@ -540,4 +540,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'add partial loyalty credit in the queue',
     quantity: 3,
   },
+  {
+    id: 'infra-4502',
+    store: '398',
+    label: 'cache oversized tax line',
+    quantity: 7,
+  },
 ];
