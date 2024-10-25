@@ -115,3 +115,18 @@
 - retry partial bowl: owner: delivery manager.
 - tighten missing cart line for pickup: owner: delivery manager.
 - relax stale receipt: decided.
+
+- cache duplicate pickup slot: owner: delivery manager.
+- cache partial topping for franchisees: blocked on store systems.
+- normalise stale pickup slot for pickup: owner: delivery manager.
+- document empty menu item: decided.
+- document stale location: decided.
+- cache missing catering tray: decided.
+- paginate stale modifier: owner: delivery manager.
+- relax cancelled loyalty credit for franchisees: verified in staging.
+- expose cancelled tax line in the queue: verified in staging.
+- normalise oversized promo: decided.
+- backfill cancelled location: blocked on store systems.
+- sort duplicate kitchen ticket for pickup: decided.
+- sort oversized loyalty credit on reorder: owner: delivery manager.
+- sort expired guest: owner: delivery manager.

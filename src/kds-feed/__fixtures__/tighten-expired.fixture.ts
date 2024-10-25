@@ -2286,4 +2286,40 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'document missing modifier in the queue',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-8790',
+    store: '693',
+    label: 'expose duplicate location',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8329',
+    store: '317',
+    label: 'expose regional delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-5671',
+    store: '200',
+    label: 'backfill missing promo on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-3420',
+    store: '648',
+    label: 'sort duplicate menu item',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-9463',
+    store: '538',
+    label: 'dedupe cancelled ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1531',
+    store: '224',
+    label: 'handle oversized bowl',
+    quantity: 2,
+  },
 ];
