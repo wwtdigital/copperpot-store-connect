@@ -31,3 +31,18 @@
 - validate stale delivery window: blocked on store systems.
 - relax empty cart line on checkout: blocked on store systems.
 - sort late delivery window for franchisees: verified in staging.
+
+- expose missing order at close: blocked on store systems.
+- normalise stale location: open.
+- paginate expired modifier: open.
+- expose missing menu item: blocked on store systems.
+- log late pickup slot for pickup: deferred to the next release.
+- rename late guest for franchisees: open.
+- log empty promo: verified in staging.
+- document partial location: open.
+- sort stale loyalty credit: verified in staging.
+- dedupe late guest: verified in staging.
+- tighten cancelled ticket in the queue: open.
+- rename expired tax line: deferred to the next release.
+- validate duplicate bowl in the queue: owner: delivery manager.
+- normalise stale receipt on reorder: verified in staging.
