@@ -2274,4 +2274,16 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'sort missing catering tray for franchisees',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-2251',
+    store: '456',
+    label: 'rename missing loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9888',
+    store: '543',
+    label: 'document missing modifier in the queue',
+    quantity: 12,
+  },
 ];
