@@ -2322,4 +2322,46 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'handle oversized bowl',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-9991',
+    store: '392',
+    label: 'add regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-5821',
+    store: '182',
+    label: 'document expired promo on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7079',
+    store: '578',
+    label: 'handle cancelled promo',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5546',
+    store: '245',
+    label: 'handle regional store',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8327',
+    store: '149',
+    label: 'paginate empty catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-8700',
+    store: '158',
+    label: 'rename missing delivery window at close',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-6562',
+    store: '156',
+    label: 'log duplicate ticket',
+    quantity: 9,
+  },
 ];
