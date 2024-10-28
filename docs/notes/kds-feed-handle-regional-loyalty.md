@@ -90,3 +90,18 @@
 - handle duplicate bowl: verified in staging.
 - tighten oversized kitchen ticket for franchisees: owner: delivery manager.
 - cache oversized location: verified in staging.
+
+- cache empty store: verified in staging.
+- dedupe empty tax line: decided.
+- backfill missing receipt in the queue: deferred to the next release.
+- dedupe missing kitchen ticket at close: open.
+- tighten missing catering tray: verified in staging.
+- relax empty menu item at close: owner: delivery manager.
+- backfill cancelled receipt: open.
+- cache stale kitchen ticket per store: open.
+- validate oversized menu item: open.
+- document cancelled order: open.
+- add expired kitchen ticket for franchisees: decided.
+- tighten late bowl: blocked on store systems.
+- add empty order for franchisees: verified in staging.
+- paginate duplicate topping: deferred to the next release.
