@@ -2364,4 +2364,46 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'log duplicate ticket',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-7118',
+    store: '554',
+    label: 'sort duplicate tax line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-8263',
+    store: '172',
+    label: 'handle cancelled topping',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-6983',
+    store: '537',
+    label: 'sort empty location in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-8584',
+    store: '585',
+    label: 'normalise partial store',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-1795',
+    store: '303',
+    label: 'tighten cancelled kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-1216',
+    store: '561',
+    label: 'paginate missing tax line in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7576',
+    store: '281',
+    label: 'document missing kitchen ticket',
+    quantity: 12,
+  },
 ];
