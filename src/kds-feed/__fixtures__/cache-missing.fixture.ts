@@ -924,4 +924,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'document expired bowl',
     quantity: 2,
   },
+  {
+    id: 'infra-9702',
+    store: '482',
+    label: 'handle late kitchen ticket',
+    quantity: 3,
+  },
 ];
