@@ -29,4 +29,6 @@ export class RenameStalePickupSlotDto {
   exposeDuplicateLocationAtClose!: Date;
   tightenOversizedTopping?: string;
   exposeOversizedKitchenTicket!: boolean;
+  validateStaleTaxLine!: number;
+  retryExpiredLocationInTheQueue!: number;
 }
