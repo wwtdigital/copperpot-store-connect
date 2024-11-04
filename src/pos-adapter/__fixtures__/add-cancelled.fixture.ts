@@ -1,0 +1,123 @@
+/* Fixture rows for pos-adapter tests: add cancelled kitchen ticket. Generated data, not production data. */
+export const AddCancelledKitchenTicketRows = [
+  {
+    id: 'pos-adapter-4068',
+    store: '418',
+    label: 'backfill cancelled loyalty credit for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-5864',
+    store: '480',
+    label: 'cache partial order',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-9425',
+    store: '394',
+    label: 'guard cancelled store',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5045',
+    store: '492',
+    label: 'backfill empty kitchen ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-2341',
+    store: '473',
+    label: 'trim duplicate order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-1894',
+    store: '515',
+    label: 'tighten missing guest',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-8911',
+    store: '488',
+    label: 'handle late catering tray in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-8952',
+    store: '688',
+    label: 'cache stale bowl',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8757',
+    store: '510',
+    label: 'validate duplicate cart line',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9339',
+    store: '320',
+    label: 'paginate oversized topping for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-2277',
+    store: '133',
+    label: 'document partial receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-4263',
+    store: '459',
+    label: 'backfill late tax line',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6597',
+    store: '422',
+    label: 'validate missing menu item',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-2515',
+    store: '261',
+    label: 'guard oversized store',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-6849',
+    store: '590',
+    label: 'rename regional menu item at close',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-1047',
+    store: '463',
+    label: 'validate cancelled cart line',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-6288',
+    store: '291',
+    label: 'dedupe stale cart line',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-6644',
+    store: '690',
+    label: 'rename expired order for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-1039',
+    store: '673',
+    label: 'validate expired kitchen ticket for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-8782',
+    store: '231',
+    label: 'retry empty catering tray in the queue',
+    quantity: 6,
+  },
+];
