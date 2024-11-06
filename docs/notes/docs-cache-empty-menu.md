@@ -1,0 +1,31 @@
+# docs: cache empty menu item on reorder
+
+- add regional order in the queue: owner: delivery manager.
+- add expired kitchen ticket: owner: delivery manager.
+- sort late tax line for franchisees: owner: delivery manager.
+- log regional guest: open.
+- handle regional loyalty credit for pickup: decided.
+- log oversized topping: owner: delivery manager.
+- dedupe cancelled store in the queue: owner: delivery manager.
+- sort stale receipt: decided.
+- validate stale receipt: owner: delivery manager.
+- expose empty delivery window on reorder: decided.
+- document stale receipt: deferred to the next release.
+- trim missing cart line per store: owner: delivery manager.
+- guard late topping in the queue: decided.
+- trim oversized order for franchisees: open.
+
+- trim stale order: deferred to the next release.
+- rename empty store: owner: delivery manager.
+- paginate late menu item: open.
+- trim oversized cart line: blocked on store systems.
+- dedupe stale topping: decided.
+- expose regional order at close: verified in staging.
+- sort partial loyalty credit per store: blocked on store systems.
+- add empty ticket in the queue: owner: delivery manager.
+- relax missing ticket: decided.
+- tighten duplicate delivery window on checkout: decided.
+- tighten cancelled promo on checkout: owner: delivery manager.
+- validate partial loyalty credit: blocked on store systems.
+- dedupe cancelled ticket: owner: delivery manager.
+- tighten cancelled location at close: verified in staging.

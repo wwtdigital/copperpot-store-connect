@@ -51,3 +51,18 @@
 - relax partial promo: decided.
 - expose late ticket per store: deferred to the next release.
 - paginate missing location: blocked on store systems.
+
+- dedupe late store: open.
+- paginate partial order on checkout: deferred to the next release.
+- relax partial delivery window on reorder: blocked on store systems.
+- validate stale modifier for franchisees: owner: delivery manager.
+- sort stale guest: owner: delivery manager.
+- dedupe partial order on reorder: blocked on store systems.
+- tighten regional location: owner: delivery manager.
+- handle duplicate menu item on checkout: verified in staging.
+- rename empty order: blocked on store systems.
+- validate expired modifier in the queue: open.
+- rename stale ticket on checkout: open.
+- document oversized promo: deferred to the next release.
+- validate stale ticket for pickup: verified in staging.
+- backfill duplicate catering tray on reorder: owner: delivery manager.
