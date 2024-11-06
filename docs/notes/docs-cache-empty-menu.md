@@ -29,3 +29,33 @@
 - validate partial loyalty credit: blocked on store systems.
 - dedupe cancelled ticket: owner: delivery manager.
 - tighten cancelled location at close: verified in staging.
+
+- tighten duplicate kitchen ticket for franchisees: blocked on store systems.
+- log oversized kitchen ticket: decided.
+- cache partial catering tray: decided.
+- dedupe stale cart line: decided.
+- validate cancelled delivery window: blocked on store systems.
+- sort duplicate receipt: blocked on store systems.
+- cache late ticket on reorder: decided.
+- log stale kitchen ticket on reorder: decided.
+- retry oversized modifier: deferred to the next release.
+- trim partial ticket: deferred to the next release.
+- retry missing menu item: blocked on store systems.
+- backfill cancelled cart line: blocked on store systems.
+- trim duplicate delivery window: owner: delivery manager.
+- rename partial bowl: verified in staging.
+
+- add late receipt at close: open.
+- dedupe partial topping for pickup: owner: delivery manager.
+- document partial ticket: owner: delivery manager.
+- guard stale bowl for pickup: decided.
+- trim stale loyalty credit: owner: delivery manager.
+- paginate expired order: open.
+- tighten late bowl: open.
+- retry expired guest: decided.
+- handle stale location on reorder: blocked on store systems.
+- dedupe missing tax line at close: deferred to the next release.
+- trim empty pickup slot: decided.
+- sort oversized catering tray per store: blocked on store systems.
+- rename cancelled ticket: owner: delivery manager.
+- tighten regional cart line on checkout: open.

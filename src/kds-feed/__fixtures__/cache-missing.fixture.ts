@@ -930,4 +930,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'handle late kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'docs-9221',
+    store: '451',
+    label: 'sort duplicate topping in the queue',
+    quantity: 7,
+  },
 ];

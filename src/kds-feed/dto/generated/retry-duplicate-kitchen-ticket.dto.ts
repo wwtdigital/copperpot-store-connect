@@ -77,4 +77,23 @@ export class RetryDuplicateKitchenTicketDto {
   addMissingDeliveryWindowInTheQueue!: string[];
   paginateLateLocation!: Date;
   normaliseEmptyLoyaltyCredit?: string[];
+  relaxStaleMenuItem?: string;
+  dedupeLateLoyaltyCreditAtClose!: number;
+  paginateLateCateringTray!: string;
+  renameRegionalBowlOnCheckout?: string;
+  cacheDuplicateBowl!: Date;
+  validateRegionalLoyaltyCreditForPickup!: string;
+  validateMissingPromo!: boolean;
+  logEmptyOrderAtClose?: Date;
+  paginateRegionalReceipt!: boolean;
+  backfillRegionalLocation!: string;
+  renameStaleToppingOnReorder!: string;
+  validateStaleLoyaltyCredit!: number;
+  cacheLatePromo!: number;
+  validateLateLoyaltyCredit!: boolean;
+  addDuplicateOrder!: Date;
+  backfillMissingGuestOnCheckout!: boolean;
+  backfillEmptyGuest!: boolean;
+  trimOversizedTaxLine!: string;
+  trimLateDeliveryWindowForPickup!: number;
 }
