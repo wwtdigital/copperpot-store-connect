@@ -24,3 +24,18 @@
 - paginate missing promo: verified in staging.
 - paginate late store: verified in staging.
 - document regional cart line: blocked on store systems.
+
+- rename cancelled tax line: open.
+- tighten empty delivery window: owner: delivery manager.
+- add missing promo per store: deferred to the next release.
+- retry missing delivery window: owner: delivery manager.
+- normalise missing cart line: decided.
+- document expired order: verified in staging.
+- document regional modifier: verified in staging.
+- relax missing promo on reorder: verified in staging.
+- handle duplicate modifier on reorder: decided.
+- guard expired store: deferred to the next release.
+- validate regional topping in the queue: open.
+- trim oversized bowl: owner: delivery manager.
+- cache missing promo: blocked on store systems.
+- handle late receipt for franchisees: deferred to the next release.
