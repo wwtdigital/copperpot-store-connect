@@ -56,3 +56,14 @@
 - log empty tax line for pickup: verified in staging.
 - paginate partial pickup slot: deferred to the next release.
 - normalise regional order: owner: delivery manager.
+
+- paginate expired pickup slot for pickup: blocked on store systems.
+- add missing promo: open.
+- sort expired delivery window: owner: delivery manager.
+- handle missing catering tray in the queue: open.
+- log duplicate menu item in the queue: decided.
+- paginate missing catering tray on reorder: deferred to the next release.
+- rename stale delivery window: verified in staging.
+- sort expired topping on checkout: verified in staging.
+- add late delivery window: deferred to the next release.
+- tighten cancelled promo on checkout: deferred to the next release.
