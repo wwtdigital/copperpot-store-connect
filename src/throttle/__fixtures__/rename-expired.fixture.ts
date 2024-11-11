@@ -600,4 +600,40 @@ export const RenameExpiredDeliveryWindowInTheQueueRows = [
     label: 'validate expired catering tray in the queue',
     quantity: 12,
   },
+  {
+    id: 'infra-8696',
+    store: '570',
+    label: 'sort cancelled bowl',
+    quantity: 8,
+  },
+  {
+    id: 'infra-5487',
+    store: '291',
+    label: 'retry regional menu item on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'infra-6978',
+    store: '452',
+    label: 'paginate partial location',
+    quantity: 1,
+  },
+  {
+    id: 'infra-8521',
+    store: '582',
+    label: 'retry regional cart line in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3410',
+    store: '351',
+    label: 'dedupe expired catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'infra-3497',
+    store: '101',
+    label: 'document late ticket',
+    quantity: 2,
+  },
 ];
