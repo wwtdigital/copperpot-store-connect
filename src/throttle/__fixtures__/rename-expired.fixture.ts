@@ -630,4 +630,10 @@ export const RenameExpiredDeliveryWindowInTheQueueRows = [
     label: 'dedupe expired catering tray',
     quantity: 5,
   },
+  {
+    id: 'infra-3497',
+    store: '101',
+    label: 'document late ticket',
+    quantity: 2,
+  },
 ];

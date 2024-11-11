@@ -2646,4 +2646,16 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'guard partial receipt',
     quantity: 2,
   },
+  {
+    id: 'infra-9826',
+    store: '286',
+    label: 'add late topping',
+    quantity: 5,
+  },
+  {
+    id: 'infra-3295',
+    store: '312',
+    label: 'dedupe cancelled ticket',
+    quantity: 3,
+  },
 ];
