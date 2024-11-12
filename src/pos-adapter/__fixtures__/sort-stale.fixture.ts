@@ -78,4 +78,52 @@ export const SortStaleToppingRows = [
     label: 'rename missing bowl',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-3995',
+    store: '247',
+    label: 'cache partial store',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-6486',
+    store: '346',
+    label: 'cache empty delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9223',
+    store: '350',
+    label: 'backfill cancelled guest',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-6692',
+    store: '305',
+    label: 'validate missing catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5880',
+    store: '503',
+    label: 'document stale bowl on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-2502',
+    store: '236',
+    label: 'retry missing tax line',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6284',
+    store: '512',
+    label: 'log missing promo for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-8488',
+    store: '184',
+    label: 'sort late promo per store',
+    quantity: 9,
+  },
 ];
