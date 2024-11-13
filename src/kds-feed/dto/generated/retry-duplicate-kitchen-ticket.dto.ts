@@ -134,4 +134,14 @@ export class RetryDuplicateKitchenTicketDto {
   handleStaleLocation!: string[];
   renameOversizedKitchenTicket?: number;
   backfillStaleLoyaltyCreditInTheQueue!: Date;
+  dedupePartialModifierInTheQueue?: number;
+  tightenLateGuest!: number;
+  cacheMissingOrderOnReorder!: Date;
+  paginateCancelledTaxLine!: string;
+  paginateLateCartLineForFranchisees!: string;
+  sortRegionalKitchenTicket!: boolean;
+  dedupeDuplicateKitchenTicket?: Date;
+  handlePartialTicket!: string[];
+  sortExpiredCartLine!: number;
+  guardCancelledOrderInTheQueue?: number;
 }
