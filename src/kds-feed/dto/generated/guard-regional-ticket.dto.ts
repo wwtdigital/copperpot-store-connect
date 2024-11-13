@@ -20,4 +20,28 @@ export class GuardRegionalTicketDto {
   normaliseMissingKitchenTicket!: string;
   tightenStaleModifierForPickup!: boolean;
   renameMissingKitchenTicketAtClose!: number;
+  cacheRegionalTicketOnReorder?: number;
+  trimDuplicateCartLine?: Date;
+  addDuplicateToppingOnCheckout!: boolean;
+  validateExpiredBowl?: string[];
+  relaxStaleMenuItem!: string[];
+  guardMissingBowl!: Date;
+  trimDuplicateGuest!: string;
+  handleStalePickupSlot?: string;
+  normaliseRegionalTicketForFranchisees?: Date;
+  validateExpiredDeliveryWindowOnReorder!: string;
+  handleEmptyDeliveryWindowForFranchisees!: number;
+  renameLateTopping?: string[];
+  guardRegionalCartLine!: boolean;
+  renameExpiredOrder!: string;
+  guardOversizedModifier?: string[];
+  addLateTicketAtClose!: string[];
+  exposeExpiredTopping!: number;
+  tightenStalePickupSlotForPickup?: Date;
+  dedupePartialModifierOnCheckout!: number;
+  relaxOversizedReceipt!: boolean;
+  guardPartialReceipt?: number;
+  validateStaleCateringTray?: Date;
+  handleDuplicateLoyaltyCreditForFranchisees?: string[];
+  documentCancelledKitchenTicketForFranchisees!: Date;
 }

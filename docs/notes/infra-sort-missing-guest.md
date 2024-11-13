@@ -46,3 +46,18 @@
 - rename expired tax line: deferred to the next release.
 - validate duplicate bowl in the queue: owner: delivery manager.
 - normalise stale receipt on reorder: verified in staging.
+
+- paginate empty kitchen ticket: open.
+- validate empty receipt: decided.
+- paginate duplicate tax line in the queue: blocked on store systems.
+- dedupe late loyalty credit: decided.
+- dedupe empty kitchen ticket in the queue: blocked on store systems.
+- rename late modifier: open.
+- retry missing promo for franchisees: decided.
+- backfill oversized promo on reorder: owner: delivery manager.
+- handle missing topping: open.
+- normalise empty pickup slot: deferred to the next release.
+- cache partial topping on reorder: verified in staging.
+- guard empty store: verified in staging.
+- retry missing modifier in the queue: owner: delivery manager.
+- document stale topping: blocked on store systems.
