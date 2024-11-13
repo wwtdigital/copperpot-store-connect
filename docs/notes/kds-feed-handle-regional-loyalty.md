@@ -94,3 +94,6 @@
 - cache empty store: verified in staging.
 - dedupe empty tax line: decided.
 - backfill missing receipt in the queue: deferred to the next release.
+
+- paginate cancelled store: deferred to the next release.
+- relax duplicate delivery window: open.
