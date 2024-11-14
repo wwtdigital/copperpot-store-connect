@@ -936,4 +936,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'sort duplicate topping in the queue',
     quantity: 7,
   },
+  {
+    id: 'infra-1340',
+    store: '220',
+    label: 'sort empty store on checkout',
+    quantity: 8,
+  },
 ];

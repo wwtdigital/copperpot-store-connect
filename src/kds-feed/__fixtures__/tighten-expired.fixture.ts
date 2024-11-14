@@ -2658,4 +2658,58 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'dedupe cancelled ticket',
     quantity: 3,
   },
+  {
+    id: 'infra-8056',
+    store: '443',
+    label: 'backfill regional ticket',
+    quantity: 8,
+  },
+  {
+    id: 'infra-6684',
+    store: '628',
+    label: 'paginate stale guest',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7132',
+    store: '639',
+    label: 'trim oversized topping',
+    quantity: 11,
+  },
+  {
+    id: 'infra-6971',
+    store: '604',
+    label: 'log regional store on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7416',
+    store: '274',
+    label: 'sort cancelled kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'infra-2415',
+    store: '388',
+    label: 'sort late order',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9388',
+    store: '422',
+    label: 'log cancelled kitchen ticket at close',
+    quantity: 11,
+  },
+  {
+    id: 'infra-5059',
+    store: '119',
+    label: 'retry late guest',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2104',
+    store: '275',
+    label: 'handle cancelled ticket on reorder',
+    quantity: 11,
+  },
 ];
