@@ -130,3 +130,18 @@
 - sort duplicate kitchen ticket for pickup: decided.
 - sort oversized loyalty credit on reorder: owner: delivery manager.
 - sort expired guest: owner: delivery manager.
+
+- expose regional tax line: owner: delivery manager.
+- retry cancelled order: owner: delivery manager.
+- retry empty pickup slot at close: verified in staging.
+- trim late topping: blocked on store systems.
+- backfill cancelled order: decided.
+- cache duplicate kitchen ticket: decided.
+- add cancelled catering tray for franchisees: decided.
+- document late guest: deferred to the next release.
+- handle cancelled bowl: owner: delivery manager.
+- paginate empty topping: deferred to the next release.
+- handle missing store: verified in staging.
+- paginate expired ticket for franchisees: decided.
+- cache empty store on reorder: verified in staging.
+- paginate missing modifier on checkout: blocked on store systems.
