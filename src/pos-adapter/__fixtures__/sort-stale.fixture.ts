@@ -198,4 +198,34 @@ export const SortStaleToppingRows = [
     label: 'validate empty modifier',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-3095',
+    store: '165',
+    label: 'validate missing guest',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-4282',
+    store: '282',
+    label: 'guard late menu item on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-3679',
+    store: '259',
+    label: 'paginate missing pickup slot for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8679',
+    store: '374',
+    label: 'expose late tax line',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-7563',
+    store: '266',
+    label: 'relax oversized receipt',
+    quantity: 10,
+  },
 ];
