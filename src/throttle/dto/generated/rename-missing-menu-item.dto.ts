@@ -247,4 +247,6 @@ export class RenameMissingMenuItemDto {
   addMissingCartLine?: boolean;
   dedupeRegionalTaxLine?: Date;
   relaxExpiredPickupSlotPerStore!: boolean;
+  backfillRegionalReceiptInTheQueue!: Date;
+  renameRegionalTaxLineForPickup?: string[];
 }
