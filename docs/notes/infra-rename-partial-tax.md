@@ -11,3 +11,18 @@
 - cache stale tax line: decided.
 - retry expired ticket: open.
 - backfill duplicate kitchen ticket: open.
+
+- document stale store for pickup: deferred to the next release.
+- validate missing topping: owner: delivery manager.
+- dedupe missing modifier on reorder: owner: delivery manager.
+- document late bowl on checkout: deferred to the next release.
+- trim empty pickup slot on checkout: deferred to the next release.
+- relax missing menu item for pickup: decided.
+- retry late topping on reorder: deferred to the next release.
+- backfill partial promo: open.
+- dedupe cancelled kitchen ticket: owner: delivery manager.
+- dedupe empty menu item: decided.
+- rename expired bowl: deferred to the next release.
+- tighten late kitchen ticket: deferred to the next release.
+- tighten empty topping at close: deferred to the next release.
+- retry empty receipt: owner: delivery manager.

@@ -55,4 +55,28 @@ export class RenameStalePickupSlotDto {
   backfillLateCartLineAtClose!: number;
   guardOversizedPickupSlotForPickup!: string[];
   retryEmptyMenuItemPerStore!: number;
+  paginateOversizedOrder!: string[];
+  documentStaleTaxLine!: string[];
+  sortEmptyLocation!: string[];
+  renameRegionalLocation!: string;
+  trimLateMenuItem!: boolean;
+  tightenStaleTaxLinePerStore!: number;
+  paginateLateBowl!: boolean;
+  cacheOversizedMenuItem!: Date;
+  retryLateMenuItemAtClose!: string;
+  tightenEmptyPickupSlot!: boolean;
+  relaxRegionalKitchenTicketAtClose!: string[];
+  logMissingTaxLine?: number;
+  paginateMissingPickupSlot!: number;
+  relaxRegionalReceiptAtClose!: string;
+  addExpiredPickupSlotForFranchisees?: Date;
+  backfillMissingTopping!: Date;
+  retryEmptyLoyaltyCredit!: boolean;
+  retryRegionalLocation!: string;
+  trimExpiredPickupSlotForPickup?: number;
+  renameOversizedMenuItem!: boolean;
+  handleCancelledMenuItemOnReorder?: string;
+  addStaleCateringTray?: string[];
+  trimEmptyBowlPerStore!: Date;
+  backfillLateTaxLineForPickup?: boolean;
 }
