@@ -39,3 +39,5 @@
 - trim oversized bowl: owner: delivery manager.
 - cache missing promo: blocked on store systems.
 - handle late receipt for franchisees: deferred to the next release.
+
+- normalise expired tax line per store: blocked on store systems.
