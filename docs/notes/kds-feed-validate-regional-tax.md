@@ -145,3 +145,18 @@
 - paginate expired ticket for franchisees: decided.
 - cache empty store on reorder: verified in staging.
 - paginate missing modifier on checkout: blocked on store systems.
+
+- relax regional bowl for pickup: decided.
+- trim oversized order: blocked on store systems.
+- tighten stale order: owner: delivery manager.
+- trim oversized order on checkout: blocked on store systems.
+- rename expired guest on reorder: open.
+- document expired menu item for pickup: deferred to the next release.
+- document oversized loyalty credit: deferred to the next release.
+- normalise expired ticket: deferred to the next release.
+- paginate partial guest: decided.
+- cache late delivery window: owner: delivery manager.
+- handle cancelled pickup slot: blocked on store systems.
+- log regional tax line: open.
+- add oversized store on reorder: owner: delivery manager.
+- log oversized location for franchisees: deferred to the next release.

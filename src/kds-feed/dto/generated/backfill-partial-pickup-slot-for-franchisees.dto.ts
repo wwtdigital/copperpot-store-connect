@@ -16,4 +16,28 @@ export class BackfillPartialPickupSlotForFranchiseesDto {
   documentOversizedLoyaltyCredit!: string[];
   cacheOversizedGuest?: string[];
   guardDuplicateTicket?: string;
+  guardDuplicateStoreOnReorder!: number;
+  handleRegionalLoyaltyCredit!: Date;
+  sortLateOrder?: boolean;
+  logEmptyKitchenTicketOnReorder!: string[];
+  dedupeExpiredCateringTrayOnCheckout!: number;
+  addDuplicateMenuItemPerStore!: string;
+  retryPartialOrder!: string[];
+  tightenCancelledLoyaltyCredit?: string[];
+  tightenLateBowl?: boolean;
+  dedupeDuplicateModifierForPickup?: Date;
+  logOversizedCateringTray!: number;
+  relaxExpiredPickupSlot!: number;
+  retryMissingOrderForFranchisees!: boolean;
+  trimStaleToppingPerStore?: number;
+  trimOversizedModifierOnCheckout?: string;
+  logLateOrder!: Date;
+  backfillCancelledTicket?: number;
+  relaxRegionalLocation?: string;
+  cacheStalePromoForPickup?: number;
+  handleStaleTicket!: Date;
+  trimOversizedLocation!: number;
+  backfillExpiredLoyaltyCredit!: boolean;
+  addMissingTicketOnReorder!: Date;
+  relaxEmptyStoreInTheQueue!: Date;
 }

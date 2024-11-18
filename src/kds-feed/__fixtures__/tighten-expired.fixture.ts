@@ -2886,4 +2886,28 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'sort cancelled topping',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-1731',
+    store: '649',
+    label: 'handle regional modifier per store',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-7116',
+    store: '194',
+    label: 'document expired ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-8978',
+    store: '557',
+    label: 'log cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6652',
+    store: '128',
+    label: 'expose missing delivery window',
+    quantity: 6,
+  },
 ];
