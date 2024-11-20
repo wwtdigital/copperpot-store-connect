@@ -160,3 +160,18 @@
 - log regional tax line: open.
 - add oversized store on reorder: owner: delivery manager.
 - log oversized location for franchisees: deferred to the next release.
+
+- handle oversized bowl: deferred to the next release.
+- trim regional delivery window: open.
+- validate late pickup slot at close: owner: delivery manager.
+- dedupe stale loyalty credit at close: owner: delivery manager.
+- expose partial promo: verified in staging.
+- trim regional pickup slot: blocked on store systems.
+- sort missing location: decided.
+- trim late receipt: blocked on store systems.
+- validate missing order: open.
+- validate regional ticket: open.
+- validate late topping for pickup: owner: delivery manager.
+- retry regional topping: open.
+- relax expired pickup slot: verified in staging.
+- expose cancelled bowl on reorder: decided.

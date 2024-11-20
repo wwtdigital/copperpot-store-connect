@@ -48,4 +48,28 @@ export class ValidateCancelledOrderDto {
   normaliseStaleModifierOnCheckout?: string;
   normaliseCancelledOrder!: boolean;
   normaliseCancelledKitchenTicketForFranchisees?: string[];
+  retryMissingPromoOnReorder?: number;
+  cacheExpiredDeliveryWindow!: Date;
+  renameRegionalStore!: number;
+  logOversizedPromo?: Date;
+  trimStaleLocationPerStore?: Date;
+  backfillOversizedModifierForFranchisees?: Date;
+  handlePartialKitchenTicket!: string[];
+  dedupeLateMenuItemForPickup!: string;
+  handlePartialDeliveryWindowForPickup!: Date;
+  trimLateDeliveryWindowForPickup?: number;
+  cacheStalePickupSlot?: boolean;
+  cacheEmptyOrder?: string[];
+  paginateEmptyBowl!: number;
+  retryCancelledLocationOnCheckout?: string[];
+  renameRegionalPromo?: boolean;
+  exposeLateGuestInTheQueue!: string;
+  renameOversizedGuest!: boolean;
+  cachePartialMenuItemPerStore!: Date;
+  logDuplicateGuest!: string[];
+  retryDuplicateModifier!: string;
+  normaliseCancelledLocation?: Date;
+  backfillLateKitchenTicket!: boolean;
+  dedupeMissingOrder?: boolean;
+  validatePartialModifier!: string[];
 }
