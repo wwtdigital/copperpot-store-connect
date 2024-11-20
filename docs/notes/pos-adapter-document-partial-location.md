@@ -41,3 +41,18 @@
 - handle late receipt for franchisees: deferred to the next release.
 
 - normalise expired tax line per store: blocked on store systems.
+
+- relax duplicate kitchen ticket per store: decided.
+- normalise stale bowl for pickup: owner: delivery manager.
+- trim duplicate kitchen ticket at close: blocked on store systems.
+- add partial promo: deferred to the next release.
+- expose regional order: owner: delivery manager.
+- relax oversized delivery window: decided.
+- backfill partial promo per store: blocked on store systems.
+- sort expired delivery window: decided.
+- guard late bowl per store: open.
+- paginate regional receipt: decided.
+- trim oversized guest at close: deferred to the next release.
+- document missing pickup slot: deferred to the next release.
+- paginate cancelled ticket: owner: delivery manager.
+- backfill missing tax line: open.
