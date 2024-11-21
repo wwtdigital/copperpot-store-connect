@@ -168,3 +168,18 @@
 - paginate late store for franchisees: open.
 - relax partial receipt on reorder: decided.
 - relax regional delivery window: owner: delivery manager.
+
+- cache oversized cart line on reorder: open.
+- expose late location on reorder: open.
+- retry regional topping for pickup: deferred to the next release.
+- validate expired promo on checkout: deferred to the next release.
+- log partial guest: open.
+- normalise stale modifier in the queue: open.
+- rename partial catering tray: blocked on store systems.
+- relax oversized delivery window per store: decided.
+- rename late catering tray at close: owner: delivery manager.
+- tighten cancelled order at close: deferred to the next release.
+- validate missing modifier: blocked on store systems.
+- handle partial menu item for franchisees: owner: delivery manager.
+- document cancelled store: blocked on store systems.
+- sort partial catering tray: deferred to the next release.

@@ -130,3 +130,48 @@
 - sort duplicate kitchen ticket for pickup: decided.
 - sort oversized loyalty credit on reorder: owner: delivery manager.
 - sort expired guest: owner: delivery manager.
+
+- expose regional tax line: owner: delivery manager.
+- retry cancelled order: owner: delivery manager.
+- retry empty pickup slot at close: verified in staging.
+- trim late topping: blocked on store systems.
+- backfill cancelled order: decided.
+- cache duplicate kitchen ticket: decided.
+- add cancelled catering tray for franchisees: decided.
+- document late guest: deferred to the next release.
+- handle cancelled bowl: owner: delivery manager.
+- paginate empty topping: deferred to the next release.
+- handle missing store: verified in staging.
+- paginate expired ticket for franchisees: decided.
+- cache empty store on reorder: verified in staging.
+- paginate missing modifier on checkout: blocked on store systems.
+
+- relax regional bowl for pickup: decided.
+- trim oversized order: blocked on store systems.
+- tighten stale order: owner: delivery manager.
+- trim oversized order on checkout: blocked on store systems.
+- rename expired guest on reorder: open.
+- document expired menu item for pickup: deferred to the next release.
+- document oversized loyalty credit: deferred to the next release.
+- normalise expired ticket: deferred to the next release.
+- paginate partial guest: decided.
+- cache late delivery window: owner: delivery manager.
+- handle cancelled pickup slot: blocked on store systems.
+- log regional tax line: open.
+- add oversized store on reorder: owner: delivery manager.
+- log oversized location for franchisees: deferred to the next release.
+
+- handle oversized bowl: deferred to the next release.
+- trim regional delivery window: open.
+- validate late pickup slot at close: owner: delivery manager.
+- dedupe stale loyalty credit at close: owner: delivery manager.
+- expose partial promo: verified in staging.
+- trim regional pickup slot: blocked on store systems.
+- sort missing location: decided.
+- trim late receipt: blocked on store systems.
+- validate missing order: open.
+- validate regional ticket: open.
+- validate late topping for pickup: owner: delivery manager.
+- retry regional topping: open.
+- relax expired pickup slot: verified in staging.
+- expose cancelled bowl on reorder: decided.

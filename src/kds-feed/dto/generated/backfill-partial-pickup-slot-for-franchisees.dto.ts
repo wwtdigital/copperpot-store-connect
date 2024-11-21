@@ -1,0 +1,43 @@
+/* BackfillPartialPickupSlotForFranchiseesDto: shape for backfill partial pickup slot for franchisees. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class BackfillPartialPickupSlotForFranchiseesDto {
+  addMissingTaxLine!: number;
+  tightenEmptyMenuItemForFranchisees?: Date;
+  validateDuplicateReceipt?: string[];
+  dedupeDuplicateDeliveryWindow!: string;
+  tightenOversizedTicket?: Date;
+  exposeLateMenuItemOnCheckout!: string[];
+  dedupeDuplicateMenuItem?: string;
+  guardRegionalBowl!: string;
+  addCancelledOrder?: string[];
+  logPartialModifierOnCheckout!: string[];
+  normaliseCancelledDeliveryWindowOnReorder!: string[];
+  dedupePartialMenuItemAtClose!: string[];
+  trimOversizedPickupSlotForFranchisees!: boolean;
+  documentOversizedLoyaltyCredit!: string[];
+  cacheOversizedGuest?: string[];
+  guardDuplicateTicket?: string;
+  guardDuplicateStoreOnReorder!: number;
+  handleRegionalLoyaltyCredit!: Date;
+  sortLateOrder?: boolean;
+  logEmptyKitchenTicketOnReorder!: string[];
+  dedupeExpiredCateringTrayOnCheckout!: number;
+  addDuplicateMenuItemPerStore!: string;
+  retryPartialOrder!: string[];
+  tightenCancelledLoyaltyCredit?: string[];
+  tightenLateBowl?: boolean;
+  dedupeDuplicateModifierForPickup?: Date;
+  logOversizedCateringTray!: number;
+  relaxExpiredPickupSlot!: number;
+  retryMissingOrderForFranchisees!: boolean;
+  trimStaleToppingPerStore?: number;
+  trimOversizedModifierOnCheckout?: string;
+  logLateOrder!: Date;
+  backfillCancelledTicket?: number;
+  relaxRegionalLocation?: string;
+  cacheStalePromoForPickup?: number;
+  handleStaleTicket!: Date;
+  trimOversizedLocation!: number;
+  backfillExpiredLoyaltyCredit!: boolean;
+  addMissingTicketOnReorder!: Date;
+  relaxEmptyStoreInTheQueue!: Date;
+}
