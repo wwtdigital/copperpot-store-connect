@@ -942,4 +942,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'sort empty store on checkout',
     quantity: 8,
   },
+  {
+    id: 'infra-3507',
+    store: '400',
+    label: 'relax expired bowl for pickup',
+    quantity: 3,
+  },
 ];

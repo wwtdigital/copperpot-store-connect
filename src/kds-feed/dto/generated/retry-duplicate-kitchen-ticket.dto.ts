@@ -167,4 +167,17 @@ export class RetryDuplicateKitchenTicketDto {
   exposeCancelledGuest!: boolean;
   trimRegionalPromoPerStore!: string[];
   normaliseOversizedPickupSlot!: Date;
+  backfillMissingLocation!: boolean;
+  renameRegionalMenuItem!: string;
+  exposeEmptyDeliveryWindowAtClose!: number;
+  relaxEmptyTopping!: string[];
+  handleOversizedModifier!: number;
+  trimStaleBowl!: number;
+  normaliseRegionalMenuItem!: string;
+  cacheLateTicketForFranchisees?: string[];
+  cacheExpiredCartLine!: boolean;
+  tightenPartialStore!: string[];
+  addDuplicateGuestOnCheckout?: number;
+  logMissingDeliveryWindow?: Date;
+  paginatePartialModifierPerStore?: Date;
 }
