@@ -798,4 +798,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'sort regional guest',
     quantity: 9,
   },
+  {
+    id: 'infra-9497',
+    store: '525',
+    label: 'normalise oversized order',
+    quantity: 8,
+  },
 ];
