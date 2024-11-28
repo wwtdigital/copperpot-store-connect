@@ -249,4 +249,12 @@ export class RenameMissingMenuItemDto {
   relaxExpiredPickupSlotPerStore!: boolean;
   backfillRegionalReceiptInTheQueue!: Date;
   renameRegionalTaxLineForPickup?: string[];
+  dedupeEmptyMenuItem?: number;
+  tightenLateOrder!: Date;
+  trimDuplicateTopping?: string[];
+  normalisePartialGuest!: string;
+  retryStaleTicket?: string[];
+  paginateRegionalToppingOnReorder!: boolean;
+  retryMissingStore?: string[];
+  logEmptyDeliveryWindowOnCheckout!: string[];
 }
