@@ -228,4 +228,34 @@ export const SortStaleToppingRows = [
     label: 'relax oversized receipt',
     quantity: 10,
   },
+  {
+    id: 'infra-9278',
+    store: '255',
+    label: 'sort late topping for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'infra-2138',
+    store: '409',
+    label: 'retry duplicate receipt at close',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2811',
+    store: '482',
+    label: 'relax empty location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'infra-5437',
+    store: '120',
+    label: 'expose stale catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'infra-3454',
+    store: '218',
+    label: 'validate cancelled receipt',
+    quantity: 9,
+  },
 ];

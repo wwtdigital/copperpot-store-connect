@@ -792,4 +792,16 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'log expired guest for pickup',
     quantity: 2,
   },
+  {
+    id: 'infra-4587',
+    store: '308',
+    label: 'sort regional guest',
+    quantity: 9,
+  },
+  {
+    id: 'infra-9497',
+    store: '525',
+    label: 'normalise oversized order',
+    quantity: 8,
+  },
 ];
