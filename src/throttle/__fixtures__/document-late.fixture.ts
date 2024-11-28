@@ -786,4 +786,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'expose stale pickup slot for pickup',
     quantity: 7,
   },
+  {
+    id: 'infra-3323',
+    store: '670',
+    label: 'log expired guest for pickup',
+    quantity: 2,
+  },
 ];
