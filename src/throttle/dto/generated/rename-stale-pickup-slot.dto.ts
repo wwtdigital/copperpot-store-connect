@@ -79,4 +79,28 @@ export class RenameStalePickupSlotDto {
   addStaleCateringTray?: string[];
   trimEmptyBowlPerStore!: Date;
   backfillLateTaxLineForPickup?: boolean;
+  relaxEmptyLoyaltyCredit!: string[];
+  trimOversizedTaxLine!: boolean;
+  normaliseLateCateringTray?: string[];
+  logMissingBowlAtClose?: string[];
+  retryCancelledKitchenTicket!: boolean;
+  normaliseMissingReceipt!: string[];
+  cacheMissingBowlInTheQueue!: boolean;
+  handleMissingGuestAtClose?: number;
+  exposeLateReceipt!: number;
+  logLateCateringTrayForPickup!: Date;
+  retryDuplicateStoreOnCheckout?: boolean;
+  logCancelledDeliveryWindow!: boolean;
+  paginateCancelledOrderOnCheckout!: Date;
+  normalisePartialKitchenTicketInTheQueue!: number;
+  logRegionalTaxLineInTheQueue!: number;
+  sortEmptyCateringTrayInTheQueue?: string;
+  exposeCancelledMenuItemAtClose?: string;
+  trimEmptyOrder?: Date;
+  dedupeRegionalTicket!: string;
+  documentRegionalTicket?: number;
+  backfillLateStoreOnReorder!: string[];
+  guardEmptyTopping!: boolean;
+  exposePartialCateringTray!: string;
+  exposePartialLoyaltyCreditInTheQueue!: Date;
 }
