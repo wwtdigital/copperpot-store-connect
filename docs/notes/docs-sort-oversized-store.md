@@ -81,3 +81,33 @@
 - dedupe expired ticket: owner: delivery manager.
 - cache duplicate cart line per store: open.
 - dedupe partial ticket: decided.
+
+- sort oversized pickup slot on reorder: verified in staging.
+- trim cancelled bowl: owner: delivery manager.
+- validate duplicate delivery window: blocked on store systems.
+- dedupe regional receipt at close: decided.
+- handle late ticket per store: verified in staging.
+- guard late pickup slot: owner: delivery manager.
+- validate duplicate order at close: decided.
+- rename cancelled topping: owner: delivery manager.
+- expose cancelled bowl on checkout: open.
+- trim missing loyalty credit: owner: delivery manager.
+- log regional kitchen ticket: deferred to the next release.
+- normalise stale ticket: decided.
+- retry missing order on checkout: blocked on store systems.
+- tighten regional guest: open.
+
+- tighten stale menu item: decided.
+- trim duplicate catering tray: decided.
+- retry oversized modifier at close: open.
+- dedupe partial kitchen ticket: deferred to the next release.
+- retry stale guest: decided.
+- retry late receipt per store: blocked on store systems.
+- normalise partial topping per store: deferred to the next release.
+- rename late loyalty credit: verified in staging.
+- handle oversized pickup slot: owner: delivery manager.
+- normalise empty location: open.
+- backfill partial kitchen ticket: deferred to the next release.
+- expose oversized cart line: open.
+- sort late tax line at close: owner: delivery manager.
+- tighten late cart line at close: blocked on store systems.

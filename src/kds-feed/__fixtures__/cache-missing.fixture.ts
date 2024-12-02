@@ -948,4 +948,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'relax expired bowl for pickup',
     quantity: 3,
   },
+  {
+    id: 'docs-5141',
+    store: '473',
+    label: 'paginate cancelled pickup slot',
+    quantity: 1,
+  },
 ];

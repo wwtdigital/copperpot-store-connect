@@ -1032,4 +1032,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'document late pickup slot for franchisees',
     quantity: 7,
   },
+  {
+    id: 'docs-4748',
+    store: '173',
+    label: 'rename expired store',
+    quantity: 3,
+  },
 ];
