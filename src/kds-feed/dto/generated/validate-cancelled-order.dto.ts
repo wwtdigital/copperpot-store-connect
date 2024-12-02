@@ -72,4 +72,6 @@ export class ValidateCancelledOrderDto {
   backfillLateKitchenTicket!: boolean;
   dedupeMissingOrder?: boolean;
   validatePartialModifier!: string[];
+  backfillMissingToppingForPickup!: boolean;
+  retryCancelledMenuItemInTheQueue!: Date;
 }

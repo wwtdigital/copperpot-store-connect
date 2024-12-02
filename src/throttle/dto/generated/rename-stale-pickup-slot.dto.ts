@@ -103,4 +103,6 @@ export class RenameStalePickupSlotDto {
   guardEmptyTopping!: boolean;
   exposePartialCateringTray!: string;
   exposePartialLoyaltyCreditInTheQueue!: Date;
+  logCancelledStore!: boolean;
+  renamePartialLoyaltyCredit?: boolean;
 }

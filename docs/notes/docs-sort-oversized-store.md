@@ -66,3 +66,18 @@
 - document oversized promo: deferred to the next release.
 - validate stale ticket for pickup: verified in staging.
 - backfill duplicate catering tray on reorder: owner: delivery manager.
+
+- normalise empty kitchen ticket on reorder: blocked on store systems.
+- paginate partial receipt: decided.
+- paginate missing receipt: decided.
+- validate partial cart line at close: owner: delivery manager.
+- tighten oversized ticket for pickup: owner: delivery manager.
+- sort missing promo: decided.
+- tighten oversized tax line: owner: delivery manager.
+- handle late location: decided.
+- add oversized guest for pickup: open.
+- cache stale pickup slot at close: deferred to the next release.
+- handle empty location on checkout: owner: delivery manager.
+- dedupe expired ticket: owner: delivery manager.
+- cache duplicate cart line per store: open.
+- dedupe partial ticket: decided.
