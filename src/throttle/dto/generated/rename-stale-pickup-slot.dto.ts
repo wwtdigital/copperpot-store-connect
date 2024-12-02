@@ -105,4 +105,28 @@ export class RenameStalePickupSlotDto {
   exposePartialLoyaltyCreditInTheQueue!: Date;
   logCancelledStore!: boolean;
   renamePartialLoyaltyCredit?: boolean;
+  logStalePromoAtClose!: string[];
+  exposeRegionalDeliveryWindowAtClose?: string;
+  relaxCancelledBowl!: number;
+  renameExpiredGuest!: string[];
+  relaxEmptyDeliveryWindowPerStore?: string;
+  sortOversizedTaxLinePerStore?: string;
+  trimStaleTaxLine!: number;
+  renameExpiredPickupSlot?: number;
+  paginateRegionalPickupSlot!: string[];
+  paginateStaleOrder!: boolean;
+  relaxDuplicateDeliveryWindowInTheQueue!: boolean;
+  dedupeEmptyModifierForFranchisees!: string;
+  documentMissingBowlAtClose!: string;
+  dedupeCancelledOrderInTheQueue?: string;
+  handleMissingGuest!: Date;
+  validateStaleLoyaltyCredit?: boolean;
+  relaxExpiredCartLine?: string;
+  guardRegionalToppingPerStore?: Date;
+  addEmptyDeliveryWindow?: number;
+  retryPartialLocation?: boolean;
+  backfillLateTicket?: boolean;
+  logPartialLoyaltyCreditInTheQueue!: Date;
+  logEmptyCateringTray?: Date;
+  tightenDuplicateDeliveryWindow!: string[];
 }

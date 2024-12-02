@@ -88,4 +88,27 @@ export class BackfillPartialPickupSlotForFranchiseesDto {
   dedupeRegionalTaxLineForFranchisees?: number;
   logCancelledGuest!: boolean;
   handleEmptyCartLine!: Date;
+  backfillRegionalPromoForFranchisees!: Date;
+  renamePartialCateringTrayForFranchisees?: string[];
+  exposeDuplicateReceipt?: string;
+  renameDuplicateBowl!: string[];
+  exposeCancelledTaxLine!: number;
+  sortStaleOrder!: number;
+  normalisePartialPickupSlot?: boolean;
+  validateOversizedModifier?: number;
+  tightenPartialTaxLineOnReorder!: string[];
+  handleCancelledLocationOnCheckout!: string;
+  sortLateLoyaltyCredit?: boolean;
+  relaxRegionalKitchenTicket?: string;
+  validateCancelledReceipt?: number;
+  validatePartialPickupSlot!: Date;
+  addDuplicateOrder?: boolean;
+  dedupeEmptyPromoOnReorder!: boolean;
+  cacheLateDeliveryWindow!: string;
+  trimLateReceipt!: number;
+  normalisePartialTicket!: string;
+  tightenRegionalLocationInTheQueue!: number;
+  retryMissingPromo!: string;
+  addEmptyPickupSlotAtClose!: string;
+  renameStaleLoyaltyCredit!: string;
 }
