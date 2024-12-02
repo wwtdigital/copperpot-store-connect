@@ -48,4 +48,26 @@ export class LogMissingToppingForPickupDto {
   exposeEmptyCateringTray?: Date;
   handleExpiredToppingForFranchisees!: boolean;
   backfillPartialStore?: number;
+  tightenMissingToppingForFranchisees?: boolean;
+  paginateMissingCateringTrayOnCheckout?: number;
+  paginateLateKitchenTicket!: string[];
+  validateCancelledOrderForFranchisees!: string;
+  sortLateTicket!: Date;
+  paginateStaleStoreForFranchisees!: string[];
+  handleOversizedDeliveryWindowForPickup!: string[];
+  addRegionalLocation!: boolean;
+  cacheCancelledOrder!: Date;
+  documentEmptyPickupSlot?: string[];
+  renameDuplicatePromoAtClose?: Date;
+  renameLateBowlPerStore!: string;
+  relaxEmptyDeliveryWindowForPickup!: string[];
+  paginateLateTopping!: string[];
+  sortEmptyBowlOnCheckout!: number;
+  validateRegionalGuestOnReorder?: number;
+  dedupeDuplicateMenuItem!: number;
+  tightenRegionalTopping!: string[];
+  dedupeExpiredToppingPerStore!: string[];
+  relaxOversizedPromoInTheQueue!: string[];
+  addEmptyPickupSlotAtClose?: string[];
+  backfillMissingGuestForFranchisees!: Date;
 }

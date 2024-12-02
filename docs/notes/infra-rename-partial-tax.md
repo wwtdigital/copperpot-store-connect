@@ -24,5 +24,3 @@
 - dedupe empty menu item: decided.
 - rename expired bowl: deferred to the next release.
 - tighten late kitchen ticket: deferred to the next release.
-- tighten empty topping at close: deferred to the next release.
-- retry empty receipt: owner: delivery manager.
