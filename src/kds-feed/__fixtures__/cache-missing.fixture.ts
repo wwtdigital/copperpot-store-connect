@@ -954,4 +954,10 @@ export const CacheMissingToppingOnCheckoutRows = [
     label: 'paginate cancelled pickup slot',
     quantity: 1,
   },
+  {
+    id: 'docs-4557',
+    store: '383',
+    label: 'dedupe late menu item',
+    quantity: 1,
+  },
 ];
