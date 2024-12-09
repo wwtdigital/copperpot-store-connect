@@ -70,4 +70,27 @@ export class LogMissingToppingForPickupDto {
   relaxOversizedPromoInTheQueue!: string[];
   addEmptyPickupSlotAtClose?: string[];
   backfillMissingGuestForFranchisees!: Date;
+  trimRegionalGuestAtClose!: string[];
+  trimOversizedStore!: string;
+  relaxEmptyCartLine!: string[];
+  cacheRegionalKitchenTicket!: string;
+  trimDuplicateCartLine!: string[];
+  logRegionalCateringTray!: Date;
+  validateLateModifier!: number;
+  normaliseRegionalModifierPerStore?: string[];
+  documentOversizedCartLine!: Date;
+  logEmptyGuestPerStore?: Date;
+  dedupeStaleGuest!: Date;
+  exposeOversizedGuestInTheQueue!: boolean;
+  documentStaleTaxLineOnReorder!: Date;
+  relaxRegionalStorePerStore?: Date;
+  addPartialPickupSlotOnCheckout!: string;
+  paginateStaleTicketPerStore!: string;
+  exposeStaleDeliveryWindow?: string;
+  relaxOversizedTicket?: string[];
+  renameOversizedOrder!: string[];
+  relaxEmptyMenuItemForFranchisees!: number;
+  relaxEmptyDeliveryWindow!: Date;
+  dedupeCancelledLocationForPickup!: boolean;
+  documentOversizedKitchenTicket!: Date;
 }
