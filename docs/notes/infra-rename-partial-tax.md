@@ -24,3 +24,23 @@
 - dedupe empty menu item: decided.
 - rename expired bowl: deferred to the next release.
 - tighten late kitchen ticket: deferred to the next release.
+
+- rename oversized menu item: owner: delivery manager.
+- document late location at close: verified in staging.
+- document cancelled store: decided.
+- relax late store: blocked on store systems.
+- rename duplicate guest in the queue: verified in staging.
+- expose stale tax line for franchisees: blocked on store systems.
+- rename expired modifier: blocked on store systems.
+- rename regional catering tray: open.
+- retry duplicate receipt: deferred to the next release.
+- validate empty guest: blocked on store systems.
+- document expired delivery window on checkout: open.
+- retry duplicate modifier: decided.
+- expose empty bowl: open.
+- relax regional loyalty credit: verified in staging.
+
+- cache empty modifier: decided.
+- sort regional delivery window: open.
+- cache regional topping for pickup: decided.
+- retry stale loyalty credit at close: decided.
