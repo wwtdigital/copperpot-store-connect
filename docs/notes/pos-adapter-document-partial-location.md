@@ -56,3 +56,6 @@
 - document missing pickup slot: deferred to the next release.
 - paginate cancelled ticket: owner: delivery manager.
 - backfill missing tax line: open.
+
+- guard late loyalty credit: verified in staging.
+- document duplicate bowl: owner: delivery manager.

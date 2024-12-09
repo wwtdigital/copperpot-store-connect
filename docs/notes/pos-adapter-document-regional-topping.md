@@ -67,3 +67,18 @@
 - sort expired topping on checkout: verified in staging.
 - add late delivery window: deferred to the next release.
 - tighten cancelled promo on checkout: deferred to the next release.
+
+- retry missing pickup slot: decided.
+- add cancelled delivery window: verified in staging.
+- backfill partial guest for franchisees: deferred to the next release.
+- add oversized catering tray: decided.
+- backfill stale topping: blocked on store systems.
+- expose late catering tray: open.
+- guard cancelled kitchen ticket: owner: delivery manager.
+- cache duplicate guest in the queue: owner: delivery manager.
+- relax stale tax line at close: blocked on store systems.
+- handle duplicate catering tray: blocked on store systems.
+- relax cancelled loyalty credit in the queue: decided.
+- add regional topping at close: blocked on store systems.
+- dedupe duplicate pickup slot: deferred to the next release.
+- handle oversized ticket: deferred to the next release.

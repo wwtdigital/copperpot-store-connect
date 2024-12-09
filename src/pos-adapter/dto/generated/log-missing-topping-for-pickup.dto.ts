@@ -93,4 +93,14 @@ export class LogMissingToppingForPickupDto {
   relaxEmptyDeliveryWindow!: Date;
   dedupeCancelledLocationForPickup!: boolean;
   documentOversizedKitchenTicket!: Date;
+  handleExpiredPromo!: string[];
+  addLateLoyaltyCredit?: Date;
+  renameStalePickupSlot?: Date;
+  tightenStaleKitchenTicket!: string[];
+  exposeCancelledMenuItemForFranchisees?: string[];
+  guardCancelledStore!: Date;
+  retryOversizedTicket?: string;
+  guardDuplicateReceiptOnCheckout!: Date;
+  trimStaleCartLine!: string;
+  documentMissingDeliveryWindow!: string[];
 }
