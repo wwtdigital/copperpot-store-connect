@@ -257,4 +257,28 @@ export class RenameMissingMenuItemDto {
   paginateRegionalToppingOnReorder!: boolean;
   retryMissingStore?: string[];
   logEmptyDeliveryWindowOnCheckout!: string[];
+  addRegionalTicket!: string[];
+  backfillOversizedCateringTrayAtClose!: string[];
+  renameEmptyPromo?: string[];
+  backfillPartialModifierAtClose!: Date;
+  normaliseEmptyOrder!: number;
+  guardMissingOrderInTheQueue!: number;
+  retryPartialGuestInTheQueue!: boolean;
+  sortEmptyTaxLineOnCheckout!: number;
+  relaxEmptyOrderPerStore!: Date;
+  dedupeMissingModifier!: string[];
+  renameOversizedCartLine?: boolean;
+  exposeMissingModifier?: boolean;
+  logMissingToppingPerStore!: number;
+  cacheStaleMenuItemPerStore?: boolean;
+  guardStaleKitchenTicket?: number;
+  normaliseRegionalCateringTray!: string[];
+  guardCancelledGuestForPickup!: boolean;
+  handleRegionalMenuItem?: string[];
+  guardExpiredReceiptPerStore!: string;
+  exposeDuplicateDeliveryWindow!: boolean;
+  cachePartialTaxLine!: string;
+  relaxOversizedTaxLine?: string;
+  documentOversizedModifierOnReorder?: number;
+  tightenExpiredKitchenTicketPerStore!: Date;
 }
