@@ -3504,4 +3504,28 @@ export const TightenExpiredDeliveryWindowRows = [
     label: 'backfill partial location on checkout',
     quantity: 10,
   },
+  {
+    id: 'kds-feed-3881',
+    store: '594',
+    label: 'guard empty order on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6183',
+    store: '402',
+    label: 'log missing tax line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7216',
+    store: '288',
+    label: 'dedupe expired order',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-7426',
+    store: '133',
+    label: 'validate cancelled loyalty credit',
+    quantity: 9,
+  },
 ];
