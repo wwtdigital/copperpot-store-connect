@@ -111,4 +111,6 @@ export class BackfillPartialPickupSlotForFranchiseesDto {
   retryMissingPromo!: string;
   addEmptyPickupSlotAtClose!: string;
   renameStaleLoyaltyCredit!: string;
+  documentCancelledBowlAtClose!: number;
+  dedupeCancelledKitchenTicket!: Date;
 }
