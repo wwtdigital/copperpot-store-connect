@@ -44,3 +44,33 @@
 - sort regional delivery window: open.
 - cache regional topping for pickup: decided.
 - retry stale loyalty credit at close: decided.
+
+- dedupe missing cart line per store: verified in staging.
+- tighten empty bowl: deferred to the next release.
+- cache duplicate topping: open.
+- paginate stale guest per store: verified in staging.
+- backfill expired kitchen ticket on checkout: open.
+- trim empty cart line for franchisees: blocked on store systems.
+- dedupe expired kitchen ticket: verified in staging.
+- retry oversized modifier on checkout: decided.
+- expose oversized tax line: blocked on store systems.
+- trim expired ticket for franchisees: deferred to the next release.
+- validate cancelled catering tray: decided.
+- handle missing topping: deferred to the next release.
+- log missing pickup slot for pickup: decided.
+- paginate empty pickup slot in the queue: open.
+
+- cache empty cart line on checkout: open.
+- sort empty bowl: decided.
+- validate oversized modifier for pickup: verified in staging.
+- log empty tax line: open.
+- relax late tax line: decided.
+- retry duplicate ticket per store: blocked on store systems.
+- dedupe duplicate topping: decided.
+- sort late order: open.
+- tighten expired tax line on reorder: blocked on store systems.
+- document cancelled ticket at close: blocked on store systems.
+- log regional tax line per store: deferred to the next release.
+- document late order on reorder: blocked on store systems.
+- handle partial topping: owner: delivery manager.
+- document cancelled modifier on reorder: open.

@@ -19,3 +19,18 @@
 - paginate empty pickup slot: open.
 - trim expired guest: decided.
 - dedupe stale order: open.
+
+- cache late receipt: verified in staging.
+- sort stale ticket: owner: delivery manager.
+- dedupe late order: owner: delivery manager.
+- rename regional kitchen ticket: verified in staging.
+- trim cancelled receipt: verified in staging.
+- handle empty pickup slot: verified in staging.
+- add partial ticket: open.
+- paginate missing ticket: blocked on store systems.
+- add cancelled store: deferred to the next release.
+- handle partial ticket: open.
+- backfill regional bowl: blocked on store systems.
+- dedupe cancelled catering tray per store: blocked on store systems.
+- validate cancelled tax line on reorder: decided.
+- document partial order for pickup: owner: delivery manager.
