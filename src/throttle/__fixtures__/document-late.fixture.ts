@@ -1260,4 +1260,46 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'sort oversized ticket',
     quantity: 2,
   },
+  {
+    id: 'throttle-9507',
+    store: '399',
+    label: 'tighten stale menu item',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-3874',
+    store: '585',
+    label: 'rename regional menu item',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-7664',
+    store: '444',
+    label: 'tighten late bowl',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-7288',
+    store: '137',
+    label: 'guard partial modifier',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-6692',
+    store: '407',
+    label: 'guard partial loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-5262',
+    store: '111',
+    label: 'retry cancelled guest',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-1488',
+    store: '289',
+    label: 'validate missing cart line',
+    quantity: 2,
+  },
 ];

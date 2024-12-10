@@ -54,3 +54,7 @@
 - paginate duplicate guest per store: deferred to the next release.
 - dedupe stale guest on reorder: decided.
 - guard duplicate menu item on checkout: decided.
+
+- retry regional ticket: deferred to the next release.
+- validate duplicate delivery window: deferred to the next release.
+- rename late modifier on reorder: decided.
