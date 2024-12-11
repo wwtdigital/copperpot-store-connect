@@ -1350,4 +1350,40 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'add late promo in the queue',
     quantity: 6,
   },
+  {
+    id: 'infra-6535',
+    store: '359',
+    label: 'paginate stale delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7557',
+    store: '685',
+    label: 'backfill duplicate guest',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2551',
+    store: '647',
+    label: 'log duplicate topping',
+    quantity: 6,
+  },
+  {
+    id: 'infra-3102',
+    store: '390',
+    label: 'log stale bowl on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'infra-7179',
+    store: '612',
+    label: 'normalise cancelled bowl on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5884',
+    store: '214',
+    label: 'add expired location on checkout',
+    quantity: 3,
+  },
 ];

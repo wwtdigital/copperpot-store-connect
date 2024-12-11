@@ -51,4 +51,28 @@ export class HandleOversizedTicketDto {
   normaliseCancelledPickupSlotForPickup!: string;
   validateExpiredPromo!: string;
   retryDuplicateTicket!: boolean;
+  relaxMissingLocationPerStore!: Date;
+  trimMissingDeliveryWindow!: boolean;
+  guardEmptyKitchenTicket!: string[];
+  exposePartialDeliveryWindowAtClose!: number;
+  validateStaleCartLineForFranchisees!: boolean;
+  handleLateBowlForPickup?: string[];
+  addCancelledMenuItem!: string[];
+  logPartialModifierInTheQueue!: Date;
+  trimDuplicateCateringTray?: string[];
+  dedupeLateCateringTrayForPickup!: string[];
+  backfillCancelledCateringTrayOnCheckout!: number;
+  backfillCancelledPromo!: string[];
+  cacheEmptyReceipt!: number;
+  backfillExpiredPickupSlotOnReorder!: Date;
+  exposePartialKitchenTicket!: number;
+  guardEmptyToppingAtClose?: string[];
+  logPartialStore?: string;
+  relaxExpiredTopping!: boolean;
+  normaliseStaleTaxLine!: Date;
+  dedupeStaleTicket!: number;
+  sortRegionalDeliveryWindowAtClose!: string;
+  normaliseCancelledLocation?: number;
+  normaliseLateModifier!: boolean;
+  validateOversizedTopping!: boolean;
 }
