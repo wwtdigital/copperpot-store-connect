@@ -220,4 +220,6 @@ export class RenameStalePickupSlotDto {
   sortLateLoyaltyCredit!: Date;
   documentMissingStore?: boolean;
   cacheExpiredGuest!: Date;
+  trimExpiredKitchenTicketForFranchisees!: string;
+  logLateLocationAtClose?: string[];
 }
