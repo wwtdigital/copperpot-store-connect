@@ -281,4 +281,28 @@ export class RenameMissingMenuItemDto {
   relaxOversizedTaxLine?: string;
   documentOversizedModifierOnReorder?: number;
   tightenExpiredKitchenTicketPerStore!: Date;
+  addPartialStore?: Date;
+  trimRegionalLoyaltyCredit?: number;
+  dedupeExpiredMenuItem?: string;
+  backfillStaleModifier!: Date;
+  normaliseDuplicateMenuItemAtClose!: string[];
+  documentCancelledReceipt?: number;
+  tightenMissingPromo?: string;
+  retryDuplicateReceiptForFranchisees!: Date;
+  handleMissingPickupSlot!: boolean;
+  relaxDuplicateTicket!: string;
+  addOversizedTopping?: string;
+  renameDuplicatePickupSlot!: number;
+  renamePartialMenuItemOnReorder!: Date;
+  handleStaleMenuItemInTheQueue!: string;
+  addMissingReceiptAtClose?: boolean;
+  validateMissingPickupSlotAtClose!: boolean;
+  normaliseDuplicateReceipt?: number;
+  validateLateToppingOnCheckout!: string;
+  logRegionalToppingAtClose!: string;
+  guardOversizedKitchenTicket!: string[];
+  trimPartialLoyaltyCredit!: Date;
+  trimMissingStore!: string;
+  backfillMissingMenuItem!: boolean;
+  sortExpiredLocationOnReorder!: string;
 }

@@ -175,4 +175,28 @@ export class RenameStalePickupSlotDto {
   renameDuplicateDeliveryWindowOnReorder!: Date;
   normaliseStalePromo?: string;
   paginateStaleBowl!: Date;
+  handleEmptyTaxLine?: number;
+  tightenPartialBowl!: Date;
+  trimEmptyKitchenTicket!: string[];
+  guardCancelledStoreAtClose!: number;
+  retryStaleMenuItem!: Date;
+  validateStaleBowlInTheQueue!: boolean;
+  tightenLateGuestForPickup!: string[];
+  documentCancelledTicket?: number;
+  relaxPartialPickupSlot!: string;
+  relaxRegionalModifier!: boolean;
+  paginateMissingMenuItem?: boolean;
+  trimStaleLoyaltyCreditOnCheckout!: Date;
+  documentRegionalDeliveryWindowForPickup!: Date;
+  normaliseRegionalMenuItem!: boolean;
+  paginateStaleTopping!: string[];
+  renameOversizedTaxLine!: Date;
+  retryRegionalKitchenTicket!: boolean;
+  sortCancelledCateringTray!: string[];
+  validateExpiredTicket!: number;
+  relaxOversizedBowl!: boolean;
+  backfillRegionalLocation!: string;
+  retryRegionalDeliveryWindow?: Date;
+  tightenPartialDeliveryWindow!: Date;
+  retryExpiredTopping!: string;
 }

@@ -27,4 +27,28 @@ export class HandleOversizedTicketDto {
   validateRegionalPickupSlot!: boolean;
   validateExpiredDeliveryWindow!: string[];
   sortExpiredTicketAtClose!: Date;
+  logOversizedCateringTrayPerStore!: string[];
+  cachePartialKitchenTicket!: number;
+  relaxPartialReceipt!: boolean;
+  backfillRegionalKitchenTicketAtClose!: boolean;
+  handleExpiredReceipt!: number;
+  guardMissingTaxLine!: number;
+  renameDuplicateToppingOnCheckout!: number;
+  validateOversizedGuestForFranchisees!: number;
+  logMissingStoreInTheQueue?: string;
+  paginateDuplicateDeliveryWindowInTheQueue!: string;
+  logMissingStoreOnCheckout?: Date;
+  retryRegionalGuestOnCheckout!: boolean;
+  trimRegionalGuest?: boolean;
+  logLateLocationPerStore!: Date;
+  normaliseEmptyLocationOnReorder!: string[];
+  tightenLatePromo!: string[];
+  dedupeEmptyPromo?: boolean;
+  trimRegionalCartLine!: boolean;
+  sortLateDeliveryWindow!: number;
+  cacheOversizedDeliveryWindow!: boolean;
+  cacheMissingPickupSlot!: number;
+  normaliseCancelledPickupSlotForPickup!: string;
+  validateExpiredPromo!: string;
+  retryDuplicateTicket!: boolean;
 }
