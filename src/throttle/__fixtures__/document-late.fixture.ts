@@ -1302,4 +1302,52 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'validate missing cart line',
     quantity: 2,
   },
+  {
+    id: 'throttle-6158',
+    store: '235',
+    label: 'cache expired receipt',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6278',
+    store: '257',
+    label: 'document late pickup slot for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-5537',
+    store: '278',
+    label: 'normalise cancelled delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-9008',
+    store: '332',
+    label: 'validate missing receipt',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-7716',
+    store: '282',
+    label: 'relax missing catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-9973',
+    store: '334',
+    label: 'handle expired receipt on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-9033',
+    store: '527',
+    label: 'backfill stale guest for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-7145',
+    store: '569',
+    label: 'add late promo in the queue',
+    quantity: 6,
+  },
 ];
