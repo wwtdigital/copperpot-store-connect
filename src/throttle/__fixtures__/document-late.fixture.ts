@@ -1452,4 +1452,46 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'retry cancelled bowl on checkout',
     quantity: 12,
   },
+  {
+    id: 'infra-8386',
+    store: '651',
+    label: 'cache oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'infra-4699',
+    store: '301',
+    label: 'rename empty menu item for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'infra-2238',
+    store: '296',
+    label: 'dedupe cancelled receipt on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'infra-9474',
+    store: '503',
+    label: 'sort empty topping',
+    quantity: 7,
+  },
+  {
+    id: 'infra-8075',
+    store: '261',
+    label: 'dedupe duplicate catering tray at close',
+    quantity: 5,
+  },
+  {
+    id: 'infra-2032',
+    store: '293',
+    label: 'relax late catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7857',
+    store: '690',
+    label: 'tighten regional ticket',
+    quantity: 6,
+  },
 ];

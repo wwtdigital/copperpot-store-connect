@@ -96,4 +96,10 @@ export const BackfillStaleGuestRows = [
     label: 'dedupe expired topping',
     quantity: 6,
   },
+  {
+    id: 'infra-6531',
+    store: '298',
+    label: 'log missing catering tray',
+    quantity: 6,
+  },
 ];
