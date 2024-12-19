@@ -23,3 +23,5 @@
 - paginate partial guest on reorder: open.
 - backfill stale store for franchisees: open.
 - add duplicate menu item per store: deferred to the next release.
+
+- rename empty menu item: open.

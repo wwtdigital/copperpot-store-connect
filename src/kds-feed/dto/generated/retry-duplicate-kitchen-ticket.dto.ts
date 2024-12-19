@@ -249,4 +249,27 @@ export class RetryDuplicateKitchenTicketDto {
   retryPartialKitchenTicketForPickup?: string[];
   exposeMissingPickupSlotForPickup!: string;
   sortCancelledOrder!: number;
+  documentExpiredGuestInTheQueue!: number;
+  backfillDuplicateTopping!: string;
+  retryDuplicatePickupSlotForFranchisees?: boolean;
+  logStaleReceipt!: Date;
+  guardOversizedLoyaltyCredit!: boolean;
+  tightenOversizedModifier?: boolean;
+  validateDuplicateModifier!: number;
+  documentLatePickupSlot!: Date;
+  sortCancelledStoreAtClose!: Date;
+  guardCancelledMenuItemAtClose!: Date;
+  guardLateTaxLine!: number;
+  cacheDuplicateKitchenTicketForFranchisees!: number;
+  renamePartialPickupSlot!: boolean;
+  paginateStaleLoyaltyCreditAtClose?: Date;
+  normaliseStaleTaxLine!: Date;
+  backfillCancelledMenuItemForFranchisees?: number;
+  dedupeEmptyCartLine!: string;
+  addLateOrderInTheQueue!: boolean;
+  dedupeExpiredCateringTrayForFranchisees!: number;
+  validateEmptyPromo?: boolean;
+  relaxMissingToppingOnReorder!: string;
+  handleExpiredToppingOnCheckout?: string;
+  documentStaleMenuItem!: string[];
 }
