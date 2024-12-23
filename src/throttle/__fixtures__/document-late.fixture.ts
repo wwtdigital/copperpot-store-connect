@@ -1656,4 +1656,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'validate duplicate bowl on reorder',
     quantity: 2,
   },
+  {
+    id: 'throttle-3850',
+    store: '316',
+    label: 'add missing pickup slot',
+    quantity: 11,
+  },
 ];

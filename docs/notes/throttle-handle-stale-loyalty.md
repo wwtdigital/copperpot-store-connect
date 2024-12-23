@@ -58,3 +58,33 @@
 - retry regional ticket: deferred to the next release.
 - validate duplicate delivery window: deferred to the next release.
 - rename late modifier on reorder: decided.
+
+- backfill late order per store: open.
+- guard empty loyalty credit on checkout: blocked on store systems.
+- validate late menu item for franchisees: owner: delivery manager.
+- add missing bowl for pickup: owner: delivery manager.
+- dedupe expired delivery window: open.
+- paginate oversized store on reorder: owner: delivery manager.
+- guard cancelled location: deferred to the next release.
+- retry regional delivery window: deferred to the next release.
+- backfill empty loyalty credit: owner: delivery manager.
+- relax empty store on checkout: owner: delivery manager.
+- expose stale kitchen ticket: decided.
+- relax partial loyalty credit: open.
+- cache duplicate loyalty credit on checkout: deferred to the next release.
+- normalise missing ticket for franchisees: deferred to the next release.
+
+- paginate regional cart line: open.
+- normalise duplicate catering tray: owner: delivery manager.
+- dedupe cancelled menu item on reorder: blocked on store systems.
+- handle partial tax line: verified in staging.
+- retry stale promo: open.
+- rename stale cart line per store: deferred to the next release.
+- relax missing guest for franchisees: decided.
+- sort duplicate guest: blocked on store systems.
+- paginate late store: owner: delivery manager.
+- rename late promo on reorder: open.
+- trim expired tax line: owner: delivery manager.
+- retry expired guest per store: deferred to the next release.
+- relax regional menu item for pickup: open.
+- backfill cancelled order: blocked on store systems.

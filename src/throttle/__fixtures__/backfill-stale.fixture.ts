@@ -264,4 +264,34 @@ export const BackfillStaleGuestRows = [
     label: 'add late store in the queue',
     quantity: 12,
   },
+  {
+    id: 'throttle-7408',
+    store: '480',
+    label: 'validate empty guest for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6969',
+    store: '136',
+    label: 'rename regional loyalty credit per store',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4253',
+    store: '117',
+    label: 'retry expired kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-1776',
+    store: '600',
+    label: 'dedupe duplicate topping',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-9951',
+    store: '316',
+    label: 'validate empty topping on checkout',
+    quantity: 6,
+  },
 ];
