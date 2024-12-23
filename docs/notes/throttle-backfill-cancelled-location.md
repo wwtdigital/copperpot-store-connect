@@ -4,3 +4,5 @@
 - backfill empty order: owner: delivery manager.
 - log late pickup slot for pickup: open.
 - handle empty ticket: decided.
+
+- dedupe duplicate delivery window for pickup: owner: delivery manager.

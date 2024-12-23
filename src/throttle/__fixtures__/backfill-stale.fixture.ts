@@ -168,4 +168,22 @@ export const BackfillStaleGuestRows = [
     label: 'validate stale order',
     quantity: 2,
   },
+  {
+    id: 'throttle-1682',
+    store: '115',
+    label: 'trim cancelled promo',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-9079',
+    store: '251',
+    label: 'cache late modifier in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-2239',
+    store: '269',
+    label: 'document late catering tray on reorder',
+    quantity: 11,
+  },
 ];

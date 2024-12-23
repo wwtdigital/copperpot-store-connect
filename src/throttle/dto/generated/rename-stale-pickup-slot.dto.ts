@@ -199,4 +199,25 @@ export class RenameStalePickupSlotDto {
   retryRegionalDeliveryWindow?: Date;
   tightenPartialDeliveryWindow!: Date;
   retryExpiredTopping!: string;
+  dedupeOversizedKitchenTicket!: string;
+  paginateEmptyLoyaltyCreditForPickup?: Date;
+  sortMissingCateringTray!: string[];
+  paginateExpiredOrderInTheQueue!: string[];
+  retryOversizedLocation!: Date;
+  handleExpiredCateringTrayPerStore!: number;
+  logDuplicateKitchenTicketInTheQueue!: Date;
+  addEmptyOrder?: number;
+  retryEmptyOrder!: number;
+  sortEmptyCateringTray?: boolean;
+  retryRegionalLoyaltyCredit!: string[];
+  renameLateKitchenTicket?: number;
+  addStaleMenuItem!: number;
+  cacheRegionalTicketOnReorder!: string;
+  sortDuplicatePickupSlot?: string;
+  addRegionalTaxLine!: string;
+  renameOversizedDeliveryWindow!: Date;
+  dedupeExpiredStore!: number;
+  sortLateLoyaltyCredit!: Date;
+  documentMissingStore?: boolean;
+  cacheExpiredGuest!: Date;
 }
