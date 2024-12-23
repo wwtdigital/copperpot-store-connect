@@ -244,4 +244,6 @@ export class RenameStalePickupSlotDto {
   backfillMissingTaxLine!: string[];
   addLateReceipt!: boolean;
   backfillOversizedModifierPerStore!: Date;
+  exposePartialBowl!: string[];
+  logLateLoyaltyCredit?: string;
 }
