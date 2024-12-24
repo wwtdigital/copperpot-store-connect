@@ -329,4 +329,6 @@ export class RenameMissingMenuItemDto {
   trimMissingReceipt?: Date;
   cacheRegionalTopping!: string[];
   relaxMissingPromo?: string;
+  exposePartialMenuItemAtClose!: string[];
+  dedupeDuplicateStore!: boolean;
 }
