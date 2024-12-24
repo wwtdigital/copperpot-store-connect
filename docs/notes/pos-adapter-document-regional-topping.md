@@ -82,3 +82,18 @@
 - add regional topping at close: blocked on store systems.
 - dedupe duplicate pickup slot: deferred to the next release.
 - handle oversized ticket: deferred to the next release.
+
+- sort cancelled cart line in the queue: owner: delivery manager.
+- guard empty bowl on checkout: open.
+- guard stale ticket on checkout: blocked on store systems.
+- tighten regional delivery window: owner: delivery manager.
+- tighten empty tax line: verified in staging.
+- rename empty loyalty credit at close: decided.
+- log late loyalty credit per store: deferred to the next release.
+- document cancelled menu item per store: blocked on store systems.
+- add missing ticket: deferred to the next release.
+- backfill expired delivery window: owner: delivery manager.
+- paginate stale promo per store: deferred to the next release.
+- sort stale guest: open.
+- tighten expired receipt in the queue: open.
+- cache expired ticket for franchisees: owner: delivery manager.

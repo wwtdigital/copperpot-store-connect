@@ -6,4 +6,17 @@ export class DocumentPartialLocationAtCloseDto {
   logExpiredGuest!: string[];
   addRegionalLocation?: number;
   addStaleDeliveryWindowInTheQueue?: string[];
+  validateCancelledCateringTrayAtClose!: boolean;
+  validateDuplicateOrderOnCheckout!: string[];
+  renameOversizedGuest!: number;
+  paginateEmptyTicketOnReorder!: number;
+  addMissingStore?: Date;
+  trimExpiredBowl!: boolean;
+  dedupePartialGuestOnReorder!: string;
+  paginateStaleLoyaltyCredit?: boolean;
+  documentMissingPromo!: number;
+  addEmptyPromo?: number;
+  normaliseStaleKitchenTicketOnReorder!: number;
+  retryOversizedStoreForFranchisees?: string;
+  documentRegionalLoyaltyCreditForPickup!: number;
 }
