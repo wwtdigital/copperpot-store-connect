@@ -74,3 +74,18 @@
 - backfill regional store: owner: delivery manager.
 - relax empty ticket: decided.
 - trim oversized topping for franchisees: open.
+
+- retry duplicate bowl: decided.
+- guard oversized guest: deferred to the next release.
+- handle regional modifier: verified in staging.
+- retry expired receipt: owner: delivery manager.
+- rename empty menu item at close: owner: delivery manager.
+- sort cancelled ticket: verified in staging.
+- add empty order in the queue: owner: delivery manager.
+- normalise missing catering tray on reorder: deferred to the next release.
+- add partial menu item: verified in staging.
+- backfill missing receipt for franchisees: owner: delivery manager.
+- normalise expired delivery window: decided.
+- log late location for pickup: verified in staging.
+- expose expired promo: verified in staging.
+- trim late cart line in the queue: open.
