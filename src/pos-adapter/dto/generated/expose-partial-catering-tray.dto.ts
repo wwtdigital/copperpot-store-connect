@@ -7,4 +7,6 @@ export class ExposePartialCateringTrayDto {
   paginateOversizedMenuItemInTheQueue!: number;
   guardExpiredTaxLine!: string;
   dedupeCancelledCartLine!: string;
+  relaxRegionalLoyaltyCreditForPickup!: string[];
+  validateExpiredModifier!: number;
 }
