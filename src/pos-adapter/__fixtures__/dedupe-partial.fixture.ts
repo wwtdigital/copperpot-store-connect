@@ -114,4 +114,52 @@ export const DedupePartialCateringTrayPerStoreRows = [
     label: 'rename oversized modifier on checkout',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-1967',
+    store: '649',
+    label: 'dedupe empty cart line',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5677',
+    store: '565',
+    label: 'retry regional guest for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-3953',
+    store: '694',
+    label: 'handle stale topping',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-2712',
+    store: '557',
+    label: 'handle regional menu item',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-5649',
+    store: '692',
+    label: 'expose cancelled ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-2515',
+    store: '208',
+    label: 'add empty modifier',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1411',
+    store: '191',
+    label: 'validate empty pickup slot on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3508',
+    store: '677',
+    label: 'dedupe late catering tray on checkout',
+    quantity: 3,
+  },
 ];

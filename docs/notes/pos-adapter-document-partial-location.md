@@ -89,3 +89,18 @@
 - log late location for pickup: verified in staging.
 - expose expired promo: verified in staging.
 - trim late cart line in the queue: open.
+
+- tighten regional store on checkout: decided.
+- log stale bowl: verified in staging.
+- rename empty menu item on reorder: verified in staging.
+- document late promo: verified in staging.
+- add regional catering tray: owner: delivery manager.
+- sort expired topping on reorder: blocked on store systems.
+- retry duplicate order at close: owner: delivery manager.
+- dedupe cancelled order: deferred to the next release.
+- handle regional loyalty credit: verified in staging.
+- log missing kitchen ticket: decided.
+- rename empty bowl: open.
+- relax duplicate receipt in the queue: deferred to the next release.
+- validate late guest: open.
+- normalise late location: open.
