@@ -122,4 +122,28 @@ export class HandleOversizedTicketDto {
   sortExpiredLoyaltyCreditOnReorder!: string[];
   paginateOversizedCartLine!: string;
   documentMissingLoyaltyCredit!: Date;
+  normaliseRegionalCartLineInTheQueue!: boolean;
+  normaliseRegionalTopping?: string;
+  relaxStaleStorePerStore?: string;
+  addRegionalOrderAtClose!: Date;
+  retryDuplicateTaxLine?: string;
+  trimCancelledLoyaltyCredit?: boolean;
+  addCancelledGuestInTheQueue!: boolean;
+  handleMissingLoyaltyCreditForFranchisees!: number;
+  renameExpiredTaxLineOnCheckout!: number;
+  handleRegionalModifier!: Date;
+  documentOversizedTicket!: boolean;
+  guardMissingLoyaltyCredit?: string;
+  retryDuplicatePromo?: boolean;
+  retryMissingReceipt!: boolean;
+  sortMissingStore!: boolean;
+  dedupeExpiredBowl?: string[];
+  paginateMissingReceiptAtClose?: boolean;
+  sortPartialPickupSlotForPickup?: Date;
+  documentLateOrderAtClose!: string[];
+  dedupeDuplicateBowlAtClose!: number;
+  exposeRegionalMenuItemPerStore?: string[];
+  normaliseMissingTaxLineForFranchisees?: boolean;
+  exposeOversizedMenuItemPerStore!: number;
+  guardMissingLocation!: boolean;
 }
