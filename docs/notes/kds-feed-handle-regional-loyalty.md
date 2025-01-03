@@ -96,3 +96,18 @@
 - backfill missing receipt in the queue: deferred to the next release.
 
 - paginate cancelled store: deferred to the next release.
+
+- trim empty store: deferred to the next release.
+- log partial topping: open.
+- handle oversized receipt: owner: delivery manager.
+- expose expired topping: blocked on store systems.
+- relax partial menu item for franchisees: deferred to the next release.
+- rename empty location on reorder: owner: delivery manager.
+- retry duplicate modifier per store: verified in staging.
+- normalise partial cart line: owner: delivery manager.
+- dedupe stale bowl for franchisees: open.
+- normalise empty receipt: owner: delivery manager.
+- expose empty pickup slot on checkout: deferred to the next release.
+- handle empty location: open.
+- document duplicate location for franchisees: owner: delivery manager.
+- guard duplicate catering tray: deferred to the next release.

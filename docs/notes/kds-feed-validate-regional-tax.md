@@ -175,3 +175,7 @@
 - retry regional topping: open.
 - relax expired pickup slot: verified in staging.
 - expose cancelled bowl on reorder: decided.
+
+- sort missing catering tray per store: deferred to the next release.
+- trim cancelled receipt in the queue: verified in staging.
+- paginate empty location: decided.
