@@ -378,4 +378,10 @@ export const BackfillStaleGuestRows = [
     label: 'relax oversized cart line',
     quantity: 3,
   },
+  {
+    id: 'infra-3619',
+    store: '194',
+    label: 'add oversized order',
+    quantity: 2,
+  },
 ];

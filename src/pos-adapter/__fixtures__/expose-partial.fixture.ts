@@ -126,4 +126,10 @@ export const ExposePartialTicketRows = [
     label: 'handle partial promo',
     quantity: 8,
   },
+  {
+    id: 'infra-7594',
+    store: '410',
+    label: 'relax duplicate order',
+    quantity: 6,
+  },
 ];
