@@ -1,0 +1,123 @@
+/* Fixture rows for pos-adapter tests: expose partial ticket. Generated data, not production data. */
+export const ExposePartialTicketRows = [
+  {
+    id: 'pos-adapter-5824',
+    store: '229',
+    label: 'backfill stale kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9706',
+    store: '393',
+    label: 'normalise regional tax line',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4615',
+    store: '407',
+    label: 'expose stale cart line',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-5750',
+    store: '200',
+    label: 'log missing bowl for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8840',
+    store: '398',
+    label: 'tighten expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-4884',
+    store: '516',
+    label: 'sort expired delivery window on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1742',
+    store: '105',
+    label: 'validate expired ticket',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-5519',
+    store: '101',
+    label: 'guard oversized order',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-2189',
+    store: '385',
+    label: 'trim expired loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-2386',
+    store: '201',
+    label: 'paginate duplicate guest per store',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-1256',
+    store: '393',
+    label: 'rename expired catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5945',
+    store: '401',
+    label: 'relax missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-5455',
+    store: '481',
+    label: 'paginate late catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5081',
+    store: '178',
+    label: 'rename oversized tax line for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-3068',
+    store: '441',
+    label: 'document late delivery window on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-1341',
+    store: '624',
+    label: 'handle oversized kitchen ticket on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4039',
+    store: '464',
+    label: 'retry expired promo for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-2629',
+    store: '425',
+    label: 'rename regional location for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-5283',
+    store: '660',
+    label: 'expose cancelled receipt for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2606',
+    store: '106',
+    label: 'paginate missing menu item per store',
+    quantity: 6,
+  },
+];

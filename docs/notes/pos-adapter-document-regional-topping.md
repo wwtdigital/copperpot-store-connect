@@ -97,3 +97,33 @@
 - sort stale guest: open.
 - tighten expired receipt in the queue: open.
 - cache expired ticket for franchisees: owner: delivery manager.
+
+- sort duplicate topping: deferred to the next release.
+- rename regional promo: open.
+- relax cancelled modifier in the queue: owner: delivery manager.
+- document late ticket: deferred to the next release.
+- backfill oversized menu item: open.
+- cache regional bowl: deferred to the next release.
+- paginate empty kitchen ticket for pickup: blocked on store systems.
+- cache regional promo: blocked on store systems.
+- retry stale delivery window per store: owner: delivery manager.
+- rename cancelled catering tray: open.
+- cache expired loyalty credit: owner: delivery manager.
+- sort empty delivery window on reorder: verified in staging.
+- validate regional promo for pickup: open.
+- paginate expired menu item in the queue: blocked on store systems.
+
+- trim cancelled loyalty credit per store: blocked on store systems.
+- validate late menu item at close: deferred to the next release.
+- trim partial bowl per store: owner: delivery manager.
+- handle missing receipt on checkout: decided.
+- rename missing tax line: verified in staging.
+- log regional kitchen ticket for franchisees: open.
+- log regional tax line for pickup: owner: delivery manager.
+- retry late tax line: blocked on store systems.
+- document partial loyalty credit at close: decided.
+- paginate regional ticket: decided.
+- handle cancelled receipt per store: owner: delivery manager.
+- log duplicate delivery window: verified in staging.
+- relax oversized bowl per store: decided.
+- tighten duplicate loyalty credit: verified in staging.
