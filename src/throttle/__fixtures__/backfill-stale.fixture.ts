@@ -384,4 +384,58 @@ export const BackfillStaleGuestRows = [
     label: 'add oversized order',
     quantity: 2,
   },
+  {
+    id: 'throttle-9320',
+    store: '256',
+    label: 'log duplicate tax line',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-9811',
+    store: '139',
+    label: 'backfill empty bowl',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1123',
+    store: '556',
+    label: 'dedupe empty receipt on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-8859',
+    store: '312',
+    label: 'sort regional menu item',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-7504',
+    store: '519',
+    label: 'trim regional promo',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-3910',
+    store: '492',
+    label: 'retry partial tax line',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-5748',
+    store: '538',
+    label: 'guard empty promo',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9648',
+    store: '609',
+    label: 'guard late delivery window for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-2465',
+    store: '502',
+    label: 'sort oversized store per store',
+    quantity: 4,
+  },
 ];
