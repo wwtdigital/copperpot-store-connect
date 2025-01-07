@@ -138,4 +138,22 @@ export class BackfillPartialPickupSlotForFranchiseesDto {
   cacheOversizedTicket!: number;
   guardRegionalDeliveryWindow!: string[];
   trimStaleGuest!: string[];
+  backfillOversizedCartLine?: string[];
+  relaxDuplicateTicket!: string;
+  addExpiredDeliveryWindow!: string;
+  sortEmptyTicket!: Date;
+  validateOversizedDeliveryWindow!: string;
+  sortEmptyTicketForFranchisees!: Date;
+  handleStaleKitchenTicket!: boolean;
+  guardOversizedModifierAtClose?: string;
+  cachePartialTicketForPickup!: string[];
+  handleStaleModifier?: string[];
+  renameMissingGuest?: Date;
+  tightenEmptyTopping!: Date;
+  dedupeStaleLocation!: string[];
+  logMissingModifier!: string;
+  tightenExpiredModifierForFranchisees!: string[];
+  validateLatePromo!: boolean;
+  backfillExpiredLocation!: number;
+  exposeRegionalLocationOnReorder?: string;
 }

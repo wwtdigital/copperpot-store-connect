@@ -2,4 +2,9 @@
 export class SortMissingLocationOnCheckoutDto {
   paginateEmptyMenuItemPerStore?: boolean;
   paginateExpiredCateringTrayInTheQueue!: boolean;
+  guardLateKitchenTicketPerStore?: boolean;
+  retryMissingTopping?: Date;
+  backfillDuplicateReceipt!: string;
+  sortDuplicatePromo!: Date;
+  handleRegionalLoyaltyCredit!: number;
 }

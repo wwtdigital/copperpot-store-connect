@@ -87,4 +87,3 @@
 - trim expired tax line: owner: delivery manager.
 - retry expired guest per store: deferred to the next release.
 - relax regional menu item for pickup: open.
-- backfill cancelled order: blocked on store systems.
