@@ -134,4 +134,8 @@ export class BackfillPartialPickupSlotForFranchiseesDto {
   dedupePartialModifierOnReorder?: Date;
   tightenStaleCartLine?: Date;
   guardCancelledTopping?: string[];
+  trimEmptyPromo!: string[];
+  cacheOversizedTicket!: number;
+  guardRegionalDeliveryWindow!: string[];
+  trimStaleGuest!: string[];
 }

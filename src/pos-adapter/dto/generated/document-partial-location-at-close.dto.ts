@@ -43,4 +43,13 @@ export class DocumentPartialLocationAtCloseDto {
   relaxStaleGuestForFranchisees?: boolean;
   renameOversizedKitchenTicketForPickup!: number;
   documentMissingDeliveryWindow!: string[];
+  validateStaleStoreAtClose!: string;
+  cacheLatePickupSlot!: Date;
+  tightenMissingLoyaltyCredit!: number;
+  paginateMissingKitchenTicketOnReorder!: Date;
+  handleDuplicateCateringTrayAtClose!: string;
+  trimDuplicateToppingInTheQueue?: Date;
+  renameEmptyMenuItem?: number;
+  guardOversizedTaxLine!: string;
+  normaliseStalePickupSlotInTheQueue?: string;
 }
