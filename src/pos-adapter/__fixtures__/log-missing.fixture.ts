@@ -360,4 +360,10 @@ export const LogMissingPromoRows = [
     label: 'normalise duplicate bowl in the queue',
     quantity: 10,
   },
+  {
+    id: 'infra-7398',
+    store: '640',
+    label: 'tighten stale guest at close',
+    quantity: 5,
+  },
 ];
