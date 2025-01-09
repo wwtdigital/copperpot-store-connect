@@ -120,4 +120,16 @@ export const ExposePartialTicketRows = [
     label: 'paginate missing menu item per store',
     quantity: 6,
   },
+  {
+    id: 'infra-2603',
+    store: '288',
+    label: 'handle partial promo',
+    quantity: 8,
+  },
+  {
+    id: 'infra-7594',
+    store: '410',
+    label: 'relax duplicate order',
+    quantity: 6,
+  },
 ];

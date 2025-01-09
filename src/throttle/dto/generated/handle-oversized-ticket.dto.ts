@@ -146,4 +146,12 @@ export class HandleOversizedTicketDto {
   normaliseMissingTaxLineForFranchisees?: boolean;
   exposeOversizedMenuItemPerStore!: number;
   guardMissingLocation!: boolean;
+  documentDuplicateTaxLine!: string;
+  cacheDuplicateCateringTray!: boolean;
+  documentDuplicateToppingForPickup!: Date;
+  renameLateTaxLine!: boolean;
+  dedupeExpiredOrder!: string[];
+  relaxOversizedLocationOnReorder!: Date;
+  renameEmptyCateringTray?: string;
+  renameLateReceipt!: boolean;
 }
