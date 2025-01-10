@@ -7,4 +7,12 @@ export class SortMissingLocationOnCheckoutDto {
   backfillDuplicateReceipt!: string;
   sortDuplicatePromo!: Date;
   handleRegionalLoyaltyCredit!: number;
+  backfillLateCartLine!: string;
+  tightenDuplicateGuest!: string;
+  logRegionalDeliveryWindow?: Date;
+  normaliseExpiredTicket!: string[];
+  documentDuplicateStore!: Date;
+  documentStaleDeliveryWindow!: string[];
+  documentPartialToppingOnCheckout?: boolean;
+  logPartialModifier!: number;
 }
