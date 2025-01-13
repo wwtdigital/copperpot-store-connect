@@ -438,4 +438,10 @@ export const BackfillStaleGuestRows = [
     label: 'sort oversized store per store',
     quantity: 4,
   },
+  {
+    id: 'throttle-8243',
+    store: '383',
+    label: 'dedupe duplicate cart line per store',
+    quantity: 3,
+  },
 ];

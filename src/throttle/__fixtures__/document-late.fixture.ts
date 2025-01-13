@@ -1722,4 +1722,28 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'backfill regional tax line',
     quantity: 1,
   },
+  {
+    id: 'throttle-5068',
+    store: '385',
+    label: 'add missing tax line for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-1472',
+    store: '560',
+    label: 'guard regional menu item for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-8226',
+    store: '353',
+    label: 'sort partial receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5656',
+    store: '402',
+    label: 'log duplicate receipt',
+    quantity: 3,
+  },
 ];
