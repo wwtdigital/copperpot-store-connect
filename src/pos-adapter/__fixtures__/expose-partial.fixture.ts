@@ -168,4 +168,10 @@ export const ExposePartialTicketRows = [
     label: 'handle expired tax line on reorder',
     quantity: 10,
   },
+  {
+    id: 'docs-6299',
+    store: '300',
+    label: 'handle late topping',
+    quantity: 4,
+  },
 ];

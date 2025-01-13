@@ -444,4 +444,46 @@ export const BackfillStaleGuestRows = [
     label: 'dedupe duplicate cart line per store',
     quantity: 3,
   },
+  {
+    id: 'docs-4040',
+    store: '227',
+    label: 'retry missing order at close',
+    quantity: 2,
+  },
+  {
+    id: 'docs-9501',
+    store: '348',
+    label: 'retry oversized tax line for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5955',
+    store: '586',
+    label: 'log oversized ticket',
+    quantity: 12,
+  },
+  {
+    id: 'docs-3932',
+    store: '302',
+    label: 'document regional ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9146',
+    store: '303',
+    label: 'paginate missing order',
+    quantity: 9,
+  },
+  {
+    id: 'docs-5241',
+    store: '496',
+    label: 'cache partial tax line on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6475',
+    store: '608',
+    label: 'trim oversized location',
+    quantity: 3,
+  },
 ];
