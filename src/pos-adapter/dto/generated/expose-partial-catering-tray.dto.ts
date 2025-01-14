@@ -13,4 +13,6 @@ export class ExposePartialCateringTrayDto {
   handleMissingTaxLine!: string[];
   relaxEmptyLocationPerStore!: string;
   trimEmptyBowl!: number;
+  trimStaleMenuItem?: Date;
+  sortLateOrderForPickup?: number;
 }
