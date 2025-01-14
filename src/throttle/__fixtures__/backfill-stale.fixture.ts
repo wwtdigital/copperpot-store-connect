@@ -486,4 +486,22 @@ export const BackfillStaleGuestRows = [
     label: 'trim oversized location',
     quantity: 3,
   },
+  {
+    id: 'docs-6416',
+    store: '539',
+    label: 'log partial receipt on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'docs-3637',
+    store: '555',
+    label: 'retry missing topping',
+    quantity: 2,
+  },
+  {
+    id: 'docs-1471',
+    store: '104',
+    label: 'relax missing location on reorder',
+    quantity: 11,
+  },
 ];
