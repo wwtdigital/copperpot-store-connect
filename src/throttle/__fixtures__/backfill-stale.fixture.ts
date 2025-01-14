@@ -510,4 +510,28 @@ export const BackfillStaleGuestRows = [
     label: 'sort duplicate pickup slot',
     quantity: 8,
   },
+  {
+    id: 'throttle-4716',
+    store: '167',
+    label: 'trim oversized modifier',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3018',
+    store: '644',
+    label: 'handle empty receipt',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-4721',
+    store: '632',
+    label: 'dedupe empty promo',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-9571',
+    store: '553',
+    label: 'validate cancelled order',
+    quantity: 5,
+  },
 ];
