@@ -52,3 +52,11 @@
 
 - backfill late cart line: verified in staging.
 - rename stale guest on checkout: deferred to the next release.
+
+- rename stale menu item on reorder: owner: delivery manager.
+- normalise missing cart line: open.
+- validate missing cart line: open.
+- paginate expired tax line: deferred to the next release.
+- paginate stale pickup slot: owner: delivery manager.
+- sort regional modifier: open.
+- dedupe regional store: owner: delivery manager.

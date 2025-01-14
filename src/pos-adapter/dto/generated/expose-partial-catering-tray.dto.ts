@@ -9,4 +9,8 @@ export class ExposePartialCateringTrayDto {
   dedupeCancelledCartLine!: string;
   relaxRegionalLoyaltyCreditForPickup!: string[];
   validateExpiredModifier!: number;
+  relaxCancelledTicket!: string;
+  handleMissingTaxLine!: string[];
+  relaxEmptyLocationPerStore!: string;
+  trimEmptyBowl!: number;
 }

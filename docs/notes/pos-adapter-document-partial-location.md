@@ -39,3 +39,12 @@
 - trim oversized bowl: owner: delivery manager.
 - cache missing promo: blocked on store systems.
 - handle late receipt for franchisees: deferred to the next release.
+
+- backfill cancelled location: verified in staging.
+- log empty topping per store: blocked on store systems.
+- dedupe stale store in the queue: owner: delivery manager.
+- retry late pickup slot: decided.
+- paginate partial topping: decided.
+- expose expired cart line: open.
+- trim expired menu item on checkout: open.
+- log cancelled menu item: decided.

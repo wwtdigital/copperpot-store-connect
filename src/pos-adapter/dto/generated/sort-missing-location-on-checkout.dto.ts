@@ -7,4 +7,19 @@ export class SortMissingLocationOnCheckoutDto {
   backfillDuplicateReceipt!: string;
   sortDuplicatePromo!: Date;
   handleRegionalLoyaltyCredit!: number;
+  backfillLateCartLine!: string;
+  tightenDuplicateGuest!: string;
+  logRegionalDeliveryWindow?: Date;
+  normaliseExpiredTicket!: string[];
+  documentDuplicateStore!: Date;
+  documentStaleDeliveryWindow!: string[];
+  documentPartialToppingOnCheckout?: boolean;
+  logPartialModifier!: number;
+  guardMissingMenuItem?: number;
+  retryRegionalBowl?: Date;
+  addRegionalKitchenTicket?: boolean;
+  addMissingMenuItemForFranchisees?: boolean;
+  backfillCancelledReceipt!: string;
+  renameOversizedLocation?: number;
+  sortDuplicateOrder!: number;
 }

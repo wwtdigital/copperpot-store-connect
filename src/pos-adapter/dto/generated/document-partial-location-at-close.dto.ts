@@ -52,4 +52,11 @@ export class DocumentPartialLocationAtCloseDto {
   renameEmptyMenuItem?: number;
   guardOversizedTaxLine!: string;
   normaliseStalePickupSlotInTheQueue?: string;
+  backfillLatePickupSlotForFranchisees!: string;
+  logRegionalDeliveryWindow!: string;
+  validateCancelledKitchenTicketInTheQueue!: string[];
+  normaliseRegionalLoyaltyCreditForPickup!: Date;
+  renameDuplicateBowlOnCheckout!: Date;
+  documentEmptyLocationAtClose?: boolean;
+  addRegionalCartLine?: string;
 }

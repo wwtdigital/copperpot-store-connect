@@ -366,4 +366,16 @@ export const LogMissingPromoRows = [
     label: 'tighten stale guest at close',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-2543',
+    store: '582',
+    label: 'backfill expired pickup slot per store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4506',
+    store: '636',
+    label: 'normalise duplicate bowl for pickup',
+    quantity: 5,
+  },
 ];

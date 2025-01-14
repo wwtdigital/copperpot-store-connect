@@ -132,4 +132,10 @@ export const ExposePartialTicketRows = [
     label: 'relax duplicate order',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-9707',
+    store: '398',
+    label: 'trim expired guest',
+    quantity: 10,
+  },
 ];
