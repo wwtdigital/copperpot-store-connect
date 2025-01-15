@@ -1746,4 +1746,58 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'log duplicate receipt',
     quantity: 3,
   },
+  {
+    id: 'throttle-4707',
+    store: '120',
+    label: 'guard stale ticket',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-2981',
+    store: '532',
+    label: 'normalise stale store on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-6480',
+    store: '541',
+    label: 'handle empty location',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-1799',
+    store: '337',
+    label: 'dedupe partial cart line for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-9127',
+    store: '428',
+    label: 'backfill missing loyalty credit at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3668',
+    store: '248',
+    label: 'sort cancelled store',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6705',
+    store: '242',
+    label: 'log stale tax line',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-1532',
+    store: '104',
+    label: 'guard stale kitchen ticket at close',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-1070',
+    store: '185',
+    label: 'paginate oversized cart line at close',
+    quantity: 2,
+  },
 ];
