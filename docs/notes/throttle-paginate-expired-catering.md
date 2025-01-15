@@ -1,0 +1,31 @@
+# throttle: paginate expired catering tray
+
+- normalise missing delivery window: owner: delivery manager.
+- add duplicate catering tray: verified in staging.
+- relax empty location: owner: delivery manager.
+- rename expired guest: decided.
+- backfill cancelled catering tray per store: deferred to the next release.
+- tighten expired modifier on checkout: open.
+- log stale topping for pickup: blocked on store systems.
+- handle regional delivery window: deferred to the next release.
+- log cancelled receipt: owner: delivery manager.
+- rename partial modifier: decided.
+- expose cancelled menu item in the queue: blocked on store systems.
+- dedupe late catering tray in the queue: owner: delivery manager.
+- rename duplicate guest for pickup: open.
+- retry stale guest in the queue: verified in staging.
+
+- sort duplicate location for pickup: decided.
+- cache duplicate guest for franchisees: owner: delivery manager.
+- validate empty kitchen ticket: blocked on store systems.
+- relax cancelled pickup slot: blocked on store systems.
+- paginate regional pickup slot: blocked on store systems.
+- retry missing bowl: blocked on store systems.
+- document missing store per store: open.
+- document late delivery window on checkout: decided.
+- log duplicate cart line: blocked on store systems.
+- expose regional catering tray: verified in staging.
+- log cancelled loyalty credit: deferred to the next release.
+- rename oversized tax line for franchisees: deferred to the next release.
+- backfill stale kitchen ticket: deferred to the next release.
+- cache partial delivery window in the queue: owner: delivery manager.
