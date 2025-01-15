@@ -1836,4 +1836,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'trim stale catering tray',
     quantity: 11,
   },
+  {
+    id: 'docs-6850',
+    store: '265',
+    label: 'retry expired bowl on reorder',
+    quantity: 3,
+  },
 ];
