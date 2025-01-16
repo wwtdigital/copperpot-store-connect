@@ -1800,4 +1800,40 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'paginate oversized cart line at close',
     quantity: 2,
   },
+  {
+    id: 'docs-5181',
+    store: '311',
+    label: 'expose late promo',
+    quantity: 2,
+  },
+  {
+    id: 'docs-9189',
+    store: '300',
+    label: 'log oversized modifier in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'docs-7816',
+    store: '367',
+    label: 'cache partial loyalty credit on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-4565',
+    store: '591',
+    label: 'document cancelled kitchen ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'docs-2281',
+    store: '669',
+    label: 'guard oversized cart line',
+    quantity: 7,
+  },
+  {
+    id: 'docs-6787',
+    store: '310',
+    label: 'trim stale catering tray',
+    quantity: 11,
+  },
 ];

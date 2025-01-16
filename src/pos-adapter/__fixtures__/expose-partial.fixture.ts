@@ -138,4 +138,34 @@ export const ExposePartialTicketRows = [
     label: 'trim expired guest',
     quantity: 10,
   },
+  {
+    id: 'docs-8080',
+    store: '332',
+    label: 'guard stale delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'docs-3589',
+    store: '663',
+    label: 'document missing menu item in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'docs-9418',
+    store: '126',
+    label: 'normalise partial delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'docs-4732',
+    store: '630',
+    label: 'cache late pickup slot for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'docs-2683',
+    store: '127',
+    label: 'handle expired tax line on reorder',
+    quantity: 10,
+  },
 ];
