@@ -111,3 +111,21 @@
 - expose oversized cart line: open.
 - sort late tax line at close: owner: delivery manager.
 - tighten late cart line at close: blocked on store systems.
+
+- validate duplicate loyalty credit: owner: delivery manager.
+- tighten stale catering tray for franchisees: open.
+
+- trim stale guest: blocked on store systems.
+- handle regional ticket: owner: delivery manager.
+- cache cancelled catering tray: verified in staging.
+- dedupe regional order: open.
+- trim regional store: decided.
+- backfill missing store: decided.
+- retry cancelled catering tray: decided.
+- normalise partial guest: verified in staging.
+- document duplicate pickup slot at close: decided.
+- dedupe oversized ticket: deferred to the next release.
+- relax missing kitchen ticket: verified in staging.
+- document duplicate bowl per store: open.
+- log empty store: decided.
+- document cancelled store on checkout: decided.

@@ -154,4 +154,27 @@ export class HandleOversizedTicketDto {
   relaxOversizedLocationOnReorder!: Date;
   renameEmptyCateringTray?: string;
   renameLateReceipt!: boolean;
+  renameOversizedGuest!: Date;
+  retryRegionalCateringTrayForPickup!: boolean;
+  handleLateModifier!: string;
+  normaliseOversizedBowlForFranchisees?: string;
+  addPartialKitchenTicketPerStore?: Date;
+  trimDuplicatePromoOnCheckout?: number;
+  relaxOversizedKitchenTicketForPickup?: number;
+  addDuplicateModifier!: boolean;
+  normaliseRegionalModifierPerStore?: Date;
+  logExpiredKitchenTicketOnReorder!: string[];
+  documentExpiredOrder!: string[];
+  validatePartialGuestOnCheckout?: boolean;
+  exposePartialLoyaltyCredit!: number;
+  trimCancelledPickupSlot!: number;
+  exposeMissingTicket?: string[];
+  paginateCancelledPromoAtClose!: string;
+  trimPartialModifierAtClose?: string;
+  relaxExpiredReceipt!: string;
+  exposeDuplicateKitchenTicket!: boolean;
+  paginateEmptyKitchenTicket!: number;
+  relaxDuplicateGuest!: string;
+  validateOversizedMenuItem!: number;
+  handleLateMenuItem?: string;
 }

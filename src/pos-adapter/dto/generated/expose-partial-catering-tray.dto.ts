@@ -15,4 +15,6 @@ export class ExposePartialCateringTrayDto {
   trimEmptyBowl!: number;
   trimStaleMenuItem?: Date;
   sortLateOrderForPickup?: number;
+  relaxDuplicateLocationOnCheckout!: number;
+  dedupeOversizedModifierAtClose?: number;
 }
