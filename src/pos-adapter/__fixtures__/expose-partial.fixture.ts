@@ -228,4 +228,58 @@ export const ExposePartialTicketRows = [
     label: 'expose cancelled order',
     quantity: 1,
   },
+  {
+    id: 'docs-1525',
+    store: '555',
+    label: 'log duplicate catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'docs-3891',
+    store: '448',
+    label: 'paginate cancelled pickup slot in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'docs-1268',
+    store: '101',
+    label: 'retry expired order',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8851',
+    store: '445',
+    label: 'document regional topping per store',
+    quantity: 11,
+  },
+  {
+    id: 'docs-8106',
+    store: '498',
+    label: 'sort partial pickup slot on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5848',
+    store: '471',
+    label: 'normalise duplicate ticket for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'docs-6935',
+    store: '397',
+    label: 'retry oversized order in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'docs-6266',
+    store: '397',
+    label: 'normalise partial order',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7727',
+    store: '267',
+    label: 'tighten partial ticket',
+    quantity: 3,
+  },
 ];
