@@ -111,3 +111,6 @@
 - expose oversized cart line: open.
 - sort late tax line at close: owner: delivery manager.
 - tighten late cart line at close: blocked on store systems.
+
+- validate duplicate loyalty credit: owner: delivery manager.
+- tighten stale catering tray for franchisees: open.

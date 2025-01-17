@@ -174,4 +174,58 @@ export const ExposePartialTicketRows = [
     label: 'handle late topping',
     quantity: 4,
   },
+  {
+    id: 'docs-5540',
+    store: '660',
+    label: 'retry regional bowl',
+    quantity: 9,
+  },
+  {
+    id: 'docs-3042',
+    store: '461',
+    label: 'normalise empty bowl',
+    quantity: 12,
+  },
+  {
+    id: 'docs-3682',
+    store: '466',
+    label: 'handle partial kitchen ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7194',
+    store: '474',
+    label: 'trim empty location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-6893',
+    store: '234',
+    label: 'paginate duplicate guest at close',
+    quantity: 11,
+  },
+  {
+    id: 'docs-8523',
+    store: '223',
+    label: 'guard expired receipt in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5958',
+    store: '611',
+    label: 'paginate cancelled ticket',
+    quantity: 1,
+  },
+  {
+    id: 'docs-3948',
+    store: '406',
+    label: 'normalise regional order in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'docs-5294',
+    store: '621',
+    label: 'expose cancelled order',
+    quantity: 1,
+  },
 ];
