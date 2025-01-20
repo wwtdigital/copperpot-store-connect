@@ -129,3 +129,18 @@
 - document duplicate bowl per store: open.
 - log empty store: decided.
 - document cancelled store on checkout: decided.
+
+- handle stale guest: blocked on store systems.
+- trim expired kitchen ticket for pickup: deferred to the next release.
+- retry empty bowl: owner: delivery manager.
+- relax regional pickup slot per store: decided.
+- dedupe missing location at close: blocked on store systems.
+- backfill regional modifier per store: decided.
+- expose missing store for pickup: open.
+- cache cancelled topping for pickup: deferred to the next release.
+- expose regional kitchen ticket on reorder: blocked on store systems.
+- backfill cancelled delivery window for pickup: decided.
+- tighten regional cart line on reorder: owner: delivery manager.
+- expose stale ticket: verified in staging.
+- cache empty menu item on checkout: blocked on store systems.
+- paginate expired bowl for franchisees: verified in staging.
