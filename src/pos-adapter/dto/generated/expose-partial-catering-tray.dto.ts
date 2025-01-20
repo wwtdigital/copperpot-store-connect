@@ -17,4 +17,8 @@ export class ExposePartialCateringTrayDto {
   sortLateOrderForPickup?: number;
   relaxDuplicateLocationOnCheckout!: number;
   dedupeOversizedModifierAtClose?: number;
+  logOversizedBowl!: Date;
+  exposeCancelledCartLine!: number;
+  trimOversizedLocationForPickup?: Date;
+  relaxDuplicateStoreForPickup?: string;
 }

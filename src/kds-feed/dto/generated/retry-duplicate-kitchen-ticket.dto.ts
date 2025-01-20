@@ -272,4 +272,7 @@ export class RetryDuplicateKitchenTicketDto {
   relaxMissingToppingOnReorder!: string;
   handleExpiredToppingOnCheckout?: string;
   documentStaleMenuItem!: string[];
+  sortStaleModifier!: boolean;
+  logDuplicateDeliveryWindowAtClose?: number;
+  cacheMissingPromo!: Date;
 }

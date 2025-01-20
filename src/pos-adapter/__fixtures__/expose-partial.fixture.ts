@@ -282,4 +282,10 @@ export const ExposePartialTicketRows = [
     label: 'tighten partial ticket',
     quantity: 3,
   },
+  {
+    id: 'docs-7714',
+    store: '445',
+    label: 'relax stale guest in the queue',
+    quantity: 11,
+  },
 ];

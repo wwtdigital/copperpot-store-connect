@@ -504,4 +504,10 @@ export const BackfillStaleGuestRows = [
     label: 'relax missing location on reorder',
     quantity: 11,
   },
+  {
+    id: 'docs-6778',
+    store: '164',
+    label: 'sort duplicate pickup slot',
+    quantity: 8,
+  },
 ];
