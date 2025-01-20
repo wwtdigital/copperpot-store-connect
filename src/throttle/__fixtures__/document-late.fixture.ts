@@ -1842,4 +1842,10 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'retry expired bowl on reorder',
     quantity: 3,
   },
+  {
+    id: 'docs-4386',
+    store: '652',
+    label: 'paginate expired kitchen ticket on checkout',
+    quantity: 8,
+  },
 ];
