@@ -540,4 +540,52 @@ export const BackfillStaleGuestRows = [
     label: 'validate missing catering tray in the queue',
     quantity: 8,
   },
+  {
+    id: 'throttle-6208',
+    store: '546',
+    label: 'tighten expired loyalty credit in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-8676',
+    store: '588',
+    label: 'trim missing tax line',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-1297',
+    store: '408',
+    label: 'retry late topping',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-8224',
+    store: '473',
+    label: 'cache stale cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9110',
+    store: '614',
+    label: 'trim late receipt at close',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-8114',
+    store: '264',
+    label: 'expose duplicate kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-2542',
+    store: '141',
+    label: 'trim duplicate catering tray in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-5415',
+    store: '562',
+    label: 'log oversized bowl',
+    quantity: 8,
+  },
 ];
