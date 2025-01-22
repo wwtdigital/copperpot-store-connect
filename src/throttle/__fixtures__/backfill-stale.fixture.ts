@@ -534,4 +534,10 @@ export const BackfillStaleGuestRows = [
     label: 'validate cancelled order',
     quantity: 5,
   },
+  {
+    id: 'throttle-2329',
+    store: '465',
+    label: 'validate missing catering tray in the queue',
+    quantity: 8,
+  },
 ];

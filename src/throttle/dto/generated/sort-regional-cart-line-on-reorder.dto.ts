@@ -24,4 +24,12 @@ export class SortRegionalCartLineOnReorderDto {
   paginateExpiredBowl!: string[];
   dedupeRegionalLocationPerStore!: string;
   validateDuplicateLocationAtClose!: Date;
+  dedupeStaleTicket?: boolean;
+  tightenLateTaxLine!: string[];
+  logLateLocation?: number;
+  retryLateTicketForFranchisees!: number;
+  retryExpiredKitchenTicketOnCheckout?: Date;
+  documentMissingModifier!: string[];
+  trimDuplicateOrderOnReorder!: Date;
+  handleStaleGuest?: string[];
 }
