@@ -1848,4 +1848,52 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'paginate expired kitchen ticket on checkout',
     quantity: 8,
   },
+  {
+    id: 'throttle-1386',
+    store: '306',
+    label: 'paginate late cart line',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-2177',
+    store: '261',
+    label: 'log stale menu item',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-1061',
+    store: '403',
+    label: 'cache missing pickup slot per store',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-4492',
+    store: '488',
+    label: 'normalise empty catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-4243',
+    store: '402',
+    label: 'dedupe regional order',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-4482',
+    store: '234',
+    label: 'document empty kitchen ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-3365',
+    store: '224',
+    label: 'paginate expired tax line',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-9066',
+    store: '528',
+    label: 'tighten expired pickup slot',
+    quantity: 10,
+  },
 ];
