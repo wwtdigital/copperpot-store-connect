@@ -81,4 +81,28 @@ export class DocumentPartialLocationAtCloseDto {
   trimPartialReceipt!: number;
   tightenMissingDeliveryWindowOnCheckout!: string[];
   retryEmptyPickupSlot!: boolean;
+  documentStaleTicketInTheQueue!: string[];
+  sortEmptyDeliveryWindow!: string;
+  relaxDuplicateCartLine?: string[];
+  paginateDuplicateCartLine!: string[];
+  cacheStaleLocation!: string;
+  relaxEmptyStoreOnCheckout?: number;
+  handleRegionalModifier!: string[];
+  backfillStaleCartLine!: number;
+  paginateMissingPromoForFranchisees!: string;
+  renameMissingMenuItem!: string;
+  cacheMissingLoyaltyCredit!: Date;
+  tightenStaleReceipt!: boolean;
+  retryRegionalTaxLineInTheQueue!: string;
+  documentStaleModifierOnCheckout!: number;
+  handleExpiredPickupSlot!: Date;
+  exposeExpiredPickupSlotOnReorder!: string[];
+  sortMissingBowl!: number;
+  backfillLateMenuItemForFranchisees?: string;
+  trimCancelledPromo!: boolean;
+  documentStaleOrderForFranchisees?: Date;
+  cacheExpiredDeliveryWindowInTheQueue!: string[];
+  trimDuplicateGuest!: Date;
+  tightenCancelledLoyaltyCreditAtClose?: string[];
+  tightenLateLocation!: string;
 }
