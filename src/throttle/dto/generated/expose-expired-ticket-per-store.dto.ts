@@ -28,4 +28,28 @@ export class ExposeExpiredTicketPerStoreDto {
   sortStaleKitchenTicket!: string;
   sortRegionalTaxLine!: number;
   exposeOversizedGuestAtClose!: Date;
+  paginateRegionalTaxLinePerStore?: Date;
+  renamePartialStore?: number;
+  documentEmptyMenuItemPerStore?: boolean;
+  handleStaleGuest!: Date;
+  cachePartialModifierAtClose!: boolean;
+  documentCancelledLocationOnReorder!: boolean;
+  validateExpiredTicket?: number;
+  addExpiredLocation!: boolean;
+  trimStaleDeliveryWindowAtClose!: string[];
+  trimExpiredCateringTrayPerStore!: boolean;
+  backfillEmptyDeliveryWindow?: boolean;
+  backfillEmptyCateringTray!: number;
+  exposeExpiredMenuItemPerStore!: string[];
+  trimPartialPickupSlot?: number;
+  retryDuplicateKitchenTicket!: boolean;
+  guardCancelledBowlForFranchisees!: Date;
+  dedupeCancelledBowl!: string;
+  backfillExpiredKitchenTicketInTheQueue!: string;
+  backfillLateToppingInTheQueue!: string;
+  trimStaleLoyaltyCredit!: string[];
+  addLatePromoPerStore?: string;
+  dedupeExpiredTaxLine!: Date;
+  relaxEmptyGuest?: boolean;
+  cacheMissingModifier?: number;
 }

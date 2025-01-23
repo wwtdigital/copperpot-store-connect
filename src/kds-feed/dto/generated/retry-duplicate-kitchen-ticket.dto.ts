@@ -275,4 +275,28 @@ export class RetryDuplicateKitchenTicketDto {
   sortStaleModifier!: boolean;
   logDuplicateDeliveryWindowAtClose?: number;
   cacheMissingPromo!: Date;
+  handleDuplicateMenuItem!: string;
+  dedupeOversizedPromo?: Date;
+  handleOversizedToppingAtClose!: number;
+  normaliseMissingLoyaltyCredit?: string;
+  handleStaleTaxLineForFranchisees!: string;
+  relaxMissingToppingForPickup!: number;
+  handleExpiredTaxLine?: string[];
+  logEmptyGuest?: Date;
+  handleCancelledPromo!: number;
+  addExpiredCartLineAtClose!: Date;
+  tightenDuplicateKitchenTicket!: Date;
+  guardStaleReceiptInTheQueue!: boolean;
+  sortExpiredTaxLine!: string[];
+  logLateGuest!: Date;
+  tightenEmptyLoyaltyCredit!: number;
+  cacheCancelledGuest!: number;
+  retryCancelledBowl!: number;
+  addOversizedPromo!: string[];
+  handleStaleCateringTrayPerStore?: Date;
+  guardStaleGuest?: Date;
+  exposePartialCateringTrayForPickup!: string[];
+  retryRegionalModifier!: string;
+  renameLateTaxLine!: string[];
+  relaxEmptyLoyaltyCredit!: string;
 }

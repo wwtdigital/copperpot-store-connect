@@ -32,4 +32,17 @@ export class SortRegionalCartLineOnReorderDto {
   documentMissingModifier!: string[];
   trimDuplicateOrderOnReorder!: Date;
   handleStaleGuest?: string[];
+  retryLateLoyaltyCredit!: number;
+  guardCancelledKitchenTicketPerStore!: boolean;
+  logLateOrder?: string[];
+  handleLateMenuItem!: string[];
+  backfillCancelledLoyaltyCreditAtClose!: string;
+  addEmptyPickupSlotForPickup!: string[];
+  tightenStaleLocation!: Date;
+  relaxEmptyDeliveryWindowInTheQueue?: string;
+  documentExpiredLoyaltyCredit!: number;
+  exposeEmptyTaxLineOnCheckout!: boolean;
+  paginateDuplicateToppingAtClose!: Date;
+  trimStaleLocationAtClose!: boolean;
+  normalisePartialMenuItem!: number;
 }
