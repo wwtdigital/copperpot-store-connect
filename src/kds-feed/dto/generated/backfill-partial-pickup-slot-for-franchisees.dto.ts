@@ -156,4 +156,8 @@ export class BackfillPartialPickupSlotForFranchiseesDto {
   validateLatePromo!: boolean;
   backfillExpiredLocation!: number;
   exposeRegionalLocationOnReorder?: string;
+  logDuplicateTaxLineAtClose!: Date;
+  exposeEmptyTaxLine!: string;
+  documentMissingToppingAtClose!: number;
+  tightenStaleReceiptOnCheckout?: Date;
 }

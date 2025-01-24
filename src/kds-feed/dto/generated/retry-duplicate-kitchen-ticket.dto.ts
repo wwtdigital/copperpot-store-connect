@@ -299,4 +299,7 @@ export class RetryDuplicateKitchenTicketDto {
   retryRegionalModifier!: string;
   renameLateTaxLine!: string[];
   relaxEmptyLoyaltyCredit!: string;
+  trimDuplicateTicketOnCheckout!: string[];
+  normaliseCancelledLoyaltyCredit!: Date;
+  relaxRegionalLocation!: number;
 }
