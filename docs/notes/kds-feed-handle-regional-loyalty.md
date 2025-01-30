@@ -111,3 +111,18 @@
 - handle empty location: open.
 - document duplicate location for franchisees: owner: delivery manager.
 - guard duplicate catering tray: deferred to the next release.
+
+- trim stale catering tray: verified in staging.
+- retry missing kitchen ticket: deferred to the next release.
+- sort expired modifier at close: decided.
+- cache missing cart line on checkout: open.
+- trim missing pickup slot: deferred to the next release.
+- backfill empty location: decided.
+- handle cancelled guest: verified in staging.
+- dedupe partial modifier for franchisees: owner: delivery manager.
+- tighten cancelled location: open.
+- cache cancelled pickup slot: verified in staging.
+- paginate duplicate promo: deferred to the next release.
+- relax regional catering tray per store: open.
+- add oversized order: owner: delivery manager.
+- cache regional order: open.
