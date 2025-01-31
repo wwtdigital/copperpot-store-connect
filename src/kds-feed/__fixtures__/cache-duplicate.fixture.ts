@@ -30,4 +30,28 @@ export const CacheDuplicateCartLineForFranchiseesRows = [
     label: 'rename partial kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-4158',
+    store: '635',
+    label: 'retry partial loyalty credit on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-1984',
+    store: '697',
+    label: 'relax cancelled tax line at close',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9483',
+    store: '360',
+    label: 'expose duplicate bowl per store',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-9467',
+    store: '462',
+    label: 'guard empty delivery window per store',
+    quantity: 7,
+  },
 ];

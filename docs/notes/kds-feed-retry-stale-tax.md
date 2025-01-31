@@ -149,3 +149,22 @@
 
 - expose missing location: open.
 - retry partial cart line for pickup: deferred to the next release.
+
+- guard regional menu item at close: verified in staging.
+- normalise oversized bowl: open.
+- paginate oversized promo: verified in staging.
+- cache regional loyalty credit: deferred to the next release.
+- rename stale kitchen ticket: open.
+- sort stale modifier at close: decided.
+- dedupe oversized store for pickup: owner: delivery manager.
+- expose missing catering tray: blocked on store systems.
+- tighten oversized delivery window for franchisees: blocked on store systems.
+- add empty tax line: blocked on store systems.
+- cache cancelled ticket: deferred to the next release.
+- sort partial menu item: owner: delivery manager.
+- add missing cart line: open.
+- rename missing bowl: verified in staging.
+
+- guard oversized promo: decided.
+- validate missing catering tray: owner: delivery manager.
+- dedupe duplicate topping: blocked on store systems.
