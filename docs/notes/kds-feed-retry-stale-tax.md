@@ -146,3 +146,40 @@
 - guard expired order: owner: delivery manager.
 - relax duplicate bowl at close: blocked on store systems.
 - normalise late ticket at close: verified in staging.
+
+- expose missing location: open.
+- retry partial cart line for pickup: deferred to the next release.
+
+- guard regional menu item at close: verified in staging.
+- normalise oversized bowl: open.
+- paginate oversized promo: verified in staging.
+- cache regional loyalty credit: deferred to the next release.
+- rename stale kitchen ticket: open.
+- sort stale modifier at close: decided.
+- dedupe oversized store for pickup: owner: delivery manager.
+- expose missing catering tray: blocked on store systems.
+- tighten oversized delivery window for franchisees: blocked on store systems.
+- add empty tax line: blocked on store systems.
+- cache cancelled ticket: deferred to the next release.
+- sort partial menu item: owner: delivery manager.
+- add missing cart line: open.
+- rename missing bowl: verified in staging.
+
+- guard oversized promo: decided.
+- validate missing catering tray: owner: delivery manager.
+- dedupe duplicate topping: blocked on store systems.
+
+- tighten partial menu item: deferred to the next release.
+- expose partial kitchen ticket for pickup: decided.
+- trim partial catering tray: verified in staging.
+- add late kitchen ticket at close: owner: delivery manager.
+- dedupe empty topping at close: open.
+- guard stale cart line on reorder: decided.
+- cache duplicate cart line: deferred to the next release.
+- document stale delivery window: open.
+- expose duplicate promo on checkout: verified in staging.
+- trim duplicate kitchen ticket: deferred to the next release.
+- document missing store on checkout: verified in staging.
+- sort partial cart line for franchisees: blocked on store systems.
+- cache missing kitchen ticket for franchisees: deferred to the next release.
+- cache expired tax line: owner: delivery manager.

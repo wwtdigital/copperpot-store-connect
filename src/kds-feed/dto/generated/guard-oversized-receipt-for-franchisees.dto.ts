@@ -11,4 +11,27 @@ export class GuardOversizedReceiptForFranchiseesDto {
   relaxStaleLocationInTheQueue?: Date;
   documentMissingKitchenTicket?: string;
   retryOversizedModifier?: string;
+  normaliseRegionalBowlForPickup!: string;
+  addCancelledReceiptForFranchisees?: string;
+  paginateExpiredTaxLineForPickup!: string[];
+  normaliseEmptyReceiptForFranchisees!: boolean;
+  cachePartialLoyaltyCredit?: Date;
+  validateLateCateringTrayAtClose!: string;
+  renameRegionalToppingForPickup?: Date;
+  handleCancelledPickupSlotForPickup!: string[];
+  backfillLatePickupSlot!: boolean;
+  normalisePartialDeliveryWindowInTheQueue!: Date;
+  trimDuplicateModifierPerStore?: boolean;
+  renameCancelledReceipt!: string;
+  handleExpiredTopping?: string[];
+  relaxLateKitchenTicket!: Date;
+  guardRegionalCartLine!: boolean;
+  paginateEmptyCartLine!: string;
+  tightenOversizedDeliveryWindow!: string[];
+  addEmptyCateringTray!: number;
+  logRegionalReceipt!: number;
+  addPartialTicketAtClose!: string;
+  paginateLatePickupSlot!: string[];
+  sortCancelledDeliveryWindowForPickup?: number;
+  dedupeCancelledLocationForPickup!: boolean;
 }
