@@ -146,3 +146,6 @@
 - guard expired order: owner: delivery manager.
 - relax duplicate bowl at close: blocked on store systems.
 - normalise late ticket at close: verified in staging.
+
+- expose missing location: open.
+- retry partial cart line for pickup: deferred to the next release.
