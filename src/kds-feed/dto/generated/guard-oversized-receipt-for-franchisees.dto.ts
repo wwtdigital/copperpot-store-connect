@@ -32,4 +32,6 @@ export class GuardOversizedReceiptForFranchiseesDto {
   logRegionalReceipt!: number;
   addPartialTicketAtClose!: string;
   paginateLatePickupSlot!: string[];
+  sortCancelledDeliveryWindowForPickup?: number;
+  dedupeCancelledLocationForPickup!: boolean;
 }

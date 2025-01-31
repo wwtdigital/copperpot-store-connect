@@ -168,3 +168,18 @@
 - guard oversized promo: decided.
 - validate missing catering tray: owner: delivery manager.
 - dedupe duplicate topping: blocked on store systems.
+
+- tighten partial menu item: deferred to the next release.
+- expose partial kitchen ticket for pickup: decided.
+- trim partial catering tray: verified in staging.
+- add late kitchen ticket at close: owner: delivery manager.
+- dedupe empty topping at close: open.
+- guard stale cart line on reorder: decided.
+- cache duplicate cart line: deferred to the next release.
+- document stale delivery window: open.
+- expose duplicate promo on checkout: verified in staging.
+- trim duplicate kitchen ticket: deferred to the next release.
+- document missing store on checkout: verified in staging.
+- sort partial cart line for franchisees: blocked on store systems.
+- cache missing kitchen ticket for franchisees: deferred to the next release.
+- cache expired tax line: owner: delivery manager.

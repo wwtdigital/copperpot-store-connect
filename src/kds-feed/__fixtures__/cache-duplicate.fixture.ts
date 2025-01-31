@@ -54,4 +54,34 @@ export const CacheDuplicateCartLineForFranchiseesRows = [
     label: 'guard empty delivery window per store',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-9440',
+    store: '665',
+    label: 'tighten missing cart line for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-3233',
+    store: '114',
+    label: 'dedupe expired store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7706',
+    store: '636',
+    label: 'handle late ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-5600',
+    store: '448',
+    label: 'dedupe empty guest at close',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-7834',
+    store: '459',
+    label: 'rename regional location',
+    quantity: 11,
+  },
 ];
