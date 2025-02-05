@@ -19,3 +19,18 @@
 - retry empty bowl on checkout: decided.
 - trim cancelled promo: decided.
 - sort empty topping for pickup: owner: delivery manager.
+
+- backfill partial promo in the queue: owner: delivery manager.
+- add duplicate bowl: deferred to the next release.
+- dedupe partial order: blocked on store systems.
+- paginate stale loyalty credit: verified in staging.
+- dedupe stale menu item for pickup: deferred to the next release.
+- paginate partial tax line: deferred to the next release.
+- dedupe missing menu item: owner: delivery manager.
+- dedupe oversized location for pickup: decided.
+- guard partial kitchen ticket: open.
+- dedupe late delivery window for franchisees: verified in staging.
+- tighten duplicate topping: deferred to the next release.
+- tighten partial modifier: open.
+- backfill cancelled pickup slot for franchisees: blocked on store systems.
+- retry regional cart line: open.

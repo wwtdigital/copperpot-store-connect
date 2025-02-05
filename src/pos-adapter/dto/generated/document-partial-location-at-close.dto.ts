@@ -128,4 +128,28 @@ export class DocumentPartialLocationAtCloseDto {
   dedupeLateStore!: string;
   sortCancelledStoreOnCheckout!: boolean;
   guardOversizedMenuItem?: boolean;
+  trimPartialOrder!: Date;
+  sortOversizedLocationPerStore!: boolean;
+  logDuplicateDeliveryWindow!: string[];
+  guardLateTicketOnReorder!: string[];
+  exposeStaleReceipt!: boolean;
+  backfillLateCateringTrayOnCheckout!: Date;
+  documentCancelledLoyaltyCredit!: string;
+  tightenRegionalLocation?: string;
+  trimOversizedPromoForPickup!: string;
+  validateStaleGuest!: boolean;
+  logStaleStorePerStore?: string[];
+  validateLateDeliveryWindow?: string;
+  paginateRegionalTopping?: Date;
+  documentStalePickupSlot!: boolean;
+  documentDuplicateTaxLine?: number;
+  backfillCancelledTicket!: string;
+  tightenExpiredGuestOnCheckout?: string[];
+  normaliseMissingReceiptOnCheckout!: boolean;
+  tightenLateTaxLine!: Date;
+  exposeMissingTaxLine!: Date;
+  logOversizedReceiptForPickup!: Date;
+  handleMissingBowl!: Date;
+  paginateDuplicateReceiptOnReorder!: string[];
+  sortEmptyKitchenTicketPerStore?: string[];
 }
