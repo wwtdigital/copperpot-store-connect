@@ -45,4 +45,28 @@ export class SortRegionalCartLineOnReorderDto {
   paginateDuplicateToppingAtClose!: Date;
   trimStaleLocationAtClose!: boolean;
   normalisePartialMenuItem!: number;
+  dedupeCancelledCartLine!: string[];
+  guardOversizedKitchenTicket!: string[];
+  dedupeStaleReceipt!: string;
+  paginateDuplicateMenuItemForPickup!: Date;
+  tightenEmptyCartLineInTheQueue!: Date;
+  trimCancelledOrderAtClose!: Date;
+  renameEmptyPromoInTheQueue?: string[];
+  documentLateOrder?: boolean;
+  documentLateCateringTrayAtClose!: string[];
+  paginateCancelledGuest?: Date;
+  backfillMissingTaxLine!: boolean;
+  sortRegionalGuestAtClose?: string;
+  guardDuplicateTaxLineForFranchisees!: boolean;
+  trimStaleGuestOnReorder!: string[];
+  backfillPartialPickupSlot!: string[];
+  sortPartialGuest!: Date;
+  trimOversizedLocation!: boolean;
+  exposeLateTopping!: Date;
+  exposeMissingOrder!: Date;
+  paginateRegionalDeliveryWindow!: string;
+  normaliseDuplicateMenuItem!: boolean;
+  tightenLatePromo!: string;
+  relaxDuplicateMenuItemForFranchisees!: boolean;
+  backfillCancelledModifier!: boolean;
 }

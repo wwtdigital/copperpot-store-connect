@@ -21,4 +21,28 @@ export class ExposePartialCateringTrayDto {
   exposeCancelledCartLine!: number;
   trimOversizedLocationForPickup?: Date;
   relaxDuplicateStoreForPickup?: string;
+  sortPartialTicket!: number;
+  cacheStalePromo!: Date;
+  tightenRegionalGuestInTheQueue?: number;
+  dedupeLatePromo!: number;
+  paginateMissingOrder!: boolean;
+  trimMissingTaxLine!: string;
+  handleOversizedOrder!: boolean;
+  relaxPartialTicket!: Date;
+  tightenStaleMenuItem!: boolean;
+  retryEmptyReceiptOnCheckout!: boolean;
+  handlePartialDeliveryWindow!: boolean;
+  documentCancelledPickupSlot!: boolean;
+  exposeLateDeliveryWindow?: number;
+  normalisePartialStore!: string[];
+  validateCancelledDeliveryWindowAtClose!: number;
+  normaliseOversizedTicketForFranchisees?: Date;
+  documentPartialReceipt!: number;
+  documentMissingToppingForPickup!: boolean;
+  cacheDuplicateCateringTray!: string[];
+  logEmptyLocation!: number;
+  backfillStaleStorePerStore!: string;
+  paginatePartialPickupSlotForPickup?: string;
+  paginateLateCartLine!: string;
+  relaxRegionalTaxLine!: Date;
 }

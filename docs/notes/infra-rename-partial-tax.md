@@ -74,3 +74,18 @@
 - document late order on reorder: blocked on store systems.
 - handle partial topping: owner: delivery manager.
 - document cancelled modifier on reorder: open.
+
+- dedupe oversized catering tray: open.
+- log partial bowl: verified in staging.
+- expose empty modifier: verified in staging.
+- retry oversized tax line on checkout: decided.
+- trim partial ticket for pickup: deferred to the next release.
+- backfill expired store on reorder: verified in staging.
+- guard empty delivery window on reorder: decided.
+- backfill cancelled loyalty credit on checkout: decided.
+- retry empty modifier for franchisees: blocked on store systems.
+- add partial topping: owner: delivery manager.
+- handle expired guest in the queue: open.
+- cache regional menu item: blocked on store systems.
+- backfill late bowl: decided.
+- dedupe stale tax line: blocked on store systems.
