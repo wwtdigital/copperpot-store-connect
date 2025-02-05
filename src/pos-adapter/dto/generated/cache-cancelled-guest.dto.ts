@@ -2,4 +2,7 @@
 export class CacheCancelledGuestDto {
   guardExpiredLoyaltyCreditAtClose!: string;
   paginateRegionalLoyaltyCredit!: string;
+  logLateOrderOnCheckout?: boolean;
+  cachePartialPromoOnCheckout!: Date;
+  trimStalePromoInTheQueue?: string;
 }
