@@ -1,0 +1,123 @@
+/* Fixture rows for throttle tests: validate missing ticket per store. Generated data, not production data. */
+export const ValidateMissingTicketPerStoreRows = [
+  {
+    id: 'throttle-6920',
+    store: '650',
+    label: 'document stale ticket at close',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-2772',
+    store: '150',
+    label: 'trim empty location',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-3683',
+    store: '325',
+    label: 'dedupe expired ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-6113',
+    store: '667',
+    label: 'document empty order',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-9743',
+    store: '310',
+    label: 'sort expired location',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-5923',
+    store: '490',
+    label: 'relax duplicate modifier for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-6376',
+    store: '548',
+    label: 'sort duplicate order',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1123',
+    store: '497',
+    label: 'retry cancelled receipt for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5674',
+    store: '313',
+    label: 'backfill missing order',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-1686',
+    store: '450',
+    label: 'document oversized guest at close',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-3873',
+    store: '457',
+    label: 'cache missing bowl for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9143',
+    store: '265',
+    label: 'validate duplicate pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3311',
+    store: '520',
+    label: 'dedupe partial location',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1128',
+    store: '222',
+    label: 'add oversized promo',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-1978',
+    store: '601',
+    label: 'cache empty store',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-5742',
+    store: '166',
+    label: 'log cancelled ticket per store',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7305',
+    store: '116',
+    label: 'paginate stale receipt in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-4056',
+    store: '576',
+    label: 'guard late topping on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-9289',
+    store: '514',
+    label: 'expose cancelled topping at close',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-8146',
+    store: '365',
+    label: 'rename oversized promo',
+    quantity: 6,
+  },
+];
