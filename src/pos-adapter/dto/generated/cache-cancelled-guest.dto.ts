@@ -5,4 +5,20 @@ export class CacheCancelledGuestDto {
   logLateOrderOnCheckout?: boolean;
   cachePartialPromoOnCheckout!: Date;
   trimStalePromoInTheQueue?: string;
+  relaxRegionalDeliveryWindowInTheQueue!: number;
+  relaxCancelledStoreOnCheckout?: Date;
+  validateDuplicateLocationOnReorder?: number;
+  validateMissingCartLine!: string[];
+  backfillPartialToppingOnReorder!: string[];
+  tightenStaleModifier!: boolean;
+  trimExpiredPromo!: Date;
+  exposeRegionalPickupSlotForPickup?: number;
+  exposeRegionalLocationOnReorder?: Date;
+  renameExpiredModifierOnReorder?: string[];
+  trimEmptyTaxLinePerStore?: number;
+  guardCancelledPromo!: number;
+  backfillMissingTaxLine!: string;
+  renameEmptyTaxLine?: number;
+  retryStaleOrderOnCheckout?: number;
+  documentDuplicateCateringTray?: boolean;
 }

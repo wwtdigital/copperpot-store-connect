@@ -89,3 +89,18 @@
 - cache regional menu item: blocked on store systems.
 - backfill late bowl: decided.
 - dedupe stale tax line: blocked on store systems.
+
+- paginate oversized order: blocked on store systems.
+- normalise oversized location on reorder: deferred to the next release.
+- trim regional order: verified in staging.
+- tighten missing loyalty credit for franchisees: owner: delivery manager.
+- trim stale tax line: decided.
+- add oversized topping at close: verified in staging.
+- cache late tax line: owner: delivery manager.
+- sort stale ticket: open.
+- handle expired promo: deferred to the next release.
+- rename stale pickup slot: decided.
+- handle missing ticket on reorder: owner: delivery manager.
+- dedupe oversized delivery window: owner: delivery manager.
+- rename duplicate guest: verified in staging.
+- backfill empty topping at close: owner: delivery manager.
