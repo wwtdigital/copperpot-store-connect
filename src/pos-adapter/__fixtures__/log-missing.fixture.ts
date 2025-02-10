@@ -768,4 +768,34 @@ export const LogMissingPromoRows = [
     label: 'retry empty receipt',
     quantity: 12,
   },
+  {
+    id: 'infra-7101',
+    store: '491',
+    label: 'relax expired menu item',
+    quantity: 4,
+  },
+  {
+    id: 'infra-6493',
+    store: '335',
+    label: 'add cancelled menu item per store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-5812',
+    store: '380',
+    label: 'cache stale pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4291',
+    store: '505',
+    label: 'normalise missing receipt per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4235',
+    store: '396',
+    label: 'guard regional delivery window for pickup',
+    quantity: 1,
+  },
 ];
