@@ -21,4 +21,13 @@ export class CacheCancelledGuestDto {
   renameEmptyTaxLine?: number;
   retryStaleOrderOnCheckout?: number;
   documentDuplicateCateringTray?: boolean;
+  sortLateTopping?: string[];
+  trimExpiredDeliveryWindow!: boolean;
+  paginateLateTopping!: Date;
+  sortExpiredReceiptOnReorder!: string[];
+  validatePartialGuest!: number;
+  paginateEmptyTicket!: Date;
+  addOversizedTicketForFranchisees!: Date;
+  paginateCancelledMenuItem!: number;
+  tightenPartialPromoPerStore!: string;
 }

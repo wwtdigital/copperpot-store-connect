@@ -127,3 +127,18 @@
 - log duplicate delivery window: verified in staging.
 - relax oversized bowl per store: decided.
 - tighten duplicate loyalty credit: verified in staging.
+
+- paginate cancelled tax line: blocked on store systems.
+- retry expired delivery window: open.
+- rename duplicate ticket on reorder: open.
+- normalise regional bowl for pickup: deferred to the next release.
+- add duplicate delivery window on checkout: owner: delivery manager.
+- dedupe partial kitchen ticket in the queue: decided.
+- add missing receipt at close: decided.
+- trim oversized catering tray: deferred to the next release.
+- retry stale topping: blocked on store systems.
+- expose oversized pickup slot: blocked on store systems.
+- sort empty receipt: owner: delivery manager.
+- handle stale bowl: owner: delivery manager.
+- document late delivery window at close: verified in staging.
+- backfill late order: deferred to the next release.
