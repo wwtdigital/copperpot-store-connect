@@ -102,3 +102,7 @@
 - validate stale guest per store: blocked on store systems.
 - rename duplicate catering tray: open.
 - log cancelled topping on checkout: blocked on store systems.
+
+- validate expired modifier for franchisees: verified in staging.
+- relax expired catering tray: blocked on store systems.
+- document duplicate cart line on reorder: verified in staging.

@@ -2136,4 +2136,28 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'rename oversized topping for franchisees',
     quantity: 9,
   },
+  {
+    id: 'throttle-9677',
+    store: '192',
+    label: 'retry regional menu item',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-2164',
+    store: '448',
+    label: 'sort cancelled order',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-3725',
+    store: '151',
+    label: 'handle cancelled pickup slot at close',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-2314',
+    store: '466',
+    label: 'paginate expired order',
+    quantity: 1,
+  },
 ];
