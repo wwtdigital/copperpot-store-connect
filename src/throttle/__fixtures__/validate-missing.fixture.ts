@@ -270,4 +270,10 @@ export const ValidateMissingTicketPerStoreRows = [
     label: 'validate expired loyalty credit',
     quantity: 4,
   },
+  {
+    id: 'throttle-7367',
+    store: '362',
+    label: 'expose regional kitchen ticket',
+    quantity: 5,
+  },
 ];
