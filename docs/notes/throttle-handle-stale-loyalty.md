@@ -87,3 +87,18 @@
 - trim expired tax line: owner: delivery manager.
 - retry expired guest per store: deferred to the next release.
 - relax regional menu item for pickup: open.
+
+- paginate empty guest: blocked on store systems.
+- log duplicate modifier at close: decided.
+- relax late topping: blocked on store systems.
+- backfill expired tax line: open.
+- paginate cancelled order in the queue: blocked on store systems.
+- expose partial tax line: deferred to the next release.
+- handle empty store: deferred to the next release.
+- dedupe partial promo at close: deferred to the next release.
+- add duplicate loyalty credit: verified in staging.
+- tighten missing order on checkout: owner: delivery manager.
+- backfill stale pickup slot: owner: delivery manager.
+- validate stale guest per store: blocked on store systems.
+- rename duplicate catering tray: open.
+- log cancelled topping on checkout: blocked on store systems.
