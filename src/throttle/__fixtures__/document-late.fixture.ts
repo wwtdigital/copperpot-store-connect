@@ -2274,4 +2274,28 @@ export const DocumentLateCartLineOnCheckoutRows = [
     label: 'dedupe cancelled ticket',
     quantity: 8,
   },
+  {
+    id: 'infra-6747',
+    store: '215',
+    label: 'retry missing tax line on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'infra-5087',
+    store: '579',
+    label: 'paginate expired order',
+    quantity: 12,
+  },
+  {
+    id: 'infra-2749',
+    store: '109',
+    label: 'log oversized bowl',
+    quantity: 1,
+  },
+  {
+    id: 'infra-2435',
+    store: '405',
+    label: 'backfill empty guest',
+    quantity: 5,
+  },
 ];

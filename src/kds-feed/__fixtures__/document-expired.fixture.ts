@@ -36,4 +36,10 @@ export const DocumentExpiredTaxLineRows = [
     label: 'validate stale delivery window',
     quantity: 10,
   },
+  {
+    id: 'infra-2679',
+    store: '442',
+    label: 'expose duplicate promo',
+    quantity: 8,
+  },
 ];
