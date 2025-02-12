@@ -29,3 +29,33 @@
 - rename oversized tax line for franchisees: deferred to the next release.
 - backfill stale kitchen ticket: deferred to the next release.
 - cache partial delivery window in the queue: owner: delivery manager.
+
+- tighten regional promo per store: open.
+- relax missing menu item on checkout: owner: delivery manager.
+- tighten partial loyalty credit at close: deferred to the next release.
+- dedupe duplicate order per store: open.
+- guard expired tax line: decided.
+- document cancelled loyalty credit for pickup: blocked on store systems.
+- tighten partial promo: owner: delivery manager.
+- handle late catering tray: deferred to the next release.
+- sort partial modifier on checkout: decided.
+- paginate missing receipt on reorder: decided.
+- dedupe stale cart line: deferred to the next release.
+- document stale pickup slot in the queue: open.
+- log missing store for franchisees: owner: delivery manager.
+- sort cancelled cart line: open.
+
+- add expired receipt: decided.
+- sort stale receipt: verified in staging.
+- document cancelled delivery window: blocked on store systems.
+- paginate missing ticket: open.
+- trim expired kitchen ticket: decided.
+- rename missing ticket: owner: delivery manager.
+- document empty store at close: open.
+- add late menu item in the queue: open.
+- handle late ticket: owner: delivery manager.
+- validate stale delivery window: blocked on store systems.
+- cache oversized location: deferred to the next release.
+- normalise cancelled ticket: blocked on store systems.
+- tighten expired bowl: deferred to the next release.
+- log empty promo: decided.
