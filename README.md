@@ -67,6 +67,12 @@ The devcontainer (`.devcontainer/devcontainer.json`) runs `npm run setup` on cre
 
 Releases are tags. A tag is promoted to the stores in three stages (pilot, region, all), each a cohort behind a health gate, defined in `infra/` and planned by `.github/workflows/deploy-promote.yml`; the apply runs from the fleet operator's console. `docs/release.md` is the procedure, including rollback (`scripts/rollback.sh`).
 
+## Operations
+
+`docs/runbooks/` has one runbook per paging alert: [stalled KDS feed](docs/runbooks/stalled-kds-feed.md), [throttle misfire](docs/runbooks/throttle-misfire.md), [POS adapter backlog](docs/runbooks/pos-adapter-backlog.md). The index lists what fires each alert and where to look. `SECURITY.md` has the reporting address and the triage service levels.
+
+Coverage is gated at 70 (`vitest.config.ts`); a change that drops under it fails the pipeline.
+
 ## Environment variables
 
 Every variable the service reads is listed in `.env.example` with its default and a comment; `npm run setup` copies it to `.env`. The ones that matter in a store:

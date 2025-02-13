@@ -4,6 +4,7 @@ Kept by release. Each `v*` tag has a section; the promotion tooling reads the to
 
 ## Unreleased
 
+- Runbooks for `KdsFeedStalled`, `ThrottleMisfire` and `PosAdapterBacklog` under `docs/runbooks/`; coverage gated at 70; `SECURITY.md` with the triage service levels.
 - Fleet promotion in Terraform (`infra/`): pilot, region, all, each behind a health gate; the tag-triggered workflow plans every stage and records the release marker; `scripts/rollback.sh`.
 - CI on the host's workflows; the reusable `ci-template.yml` for the other Store Systems repositories.
 - Change template, code owners, weekly dependency updates.

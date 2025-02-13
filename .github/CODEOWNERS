@@ -10,3 +10,5 @@
 /infra/                     @wwtdigital/store-systems @wwtdigital/platform
 /scripts/                   @wwtdigital/store-systems @wwtdigital/platform
 /docs/release.md            @wwtdigital/store-systems @wwtdigital/platform
+/docs/runbooks/             @wwtdigital/store-systems
+/SECURITY.md                @wwtdigital/store-systems @wwtdigital/platform-security
