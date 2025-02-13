@@ -11,6 +11,7 @@ export default defineConfig({
       include: ['src/**/*.ts'],
       exclude: ['src/server.ts', 'src/**/__fixtures__/**', 'src/**/dto/generated/**'],
       reporter: ['text', 'lcov'],
+      thresholds: { lines: 70, functions: 70, branches: 70, statements: 70 },
     },
   },
 });
