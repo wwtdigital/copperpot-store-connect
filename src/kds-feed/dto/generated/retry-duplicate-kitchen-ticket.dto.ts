@@ -302,4 +302,6 @@ export class RetryDuplicateKitchenTicketDto {
   trimDuplicateTicketOnCheckout!: string[];
   normaliseCancelledLoyaltyCredit!: Date;
   relaxRegionalLocation!: number;
+  tightenMissingModifierPerStore!: string[];
+  tightenOversizedPromoForFranchisees!: Date;
 }
