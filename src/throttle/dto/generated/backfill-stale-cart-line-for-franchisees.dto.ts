@@ -24,4 +24,16 @@ export class BackfillStaleCartLineForFranchiseesDto {
   renameExpiredKitchenTicket?: boolean;
   sortCancelledTicket!: boolean;
   handleRegionalDeliveryWindow!: boolean;
+  exposeRegionalPickupSlotPerStore!: Date;
+  normaliseRegionalStore?: string[];
+  addDuplicateTaxLinePerStore?: boolean;
+  renameDuplicateMenuItem!: boolean;
+  documentMissingTaxLineOnReorder?: string;
+  guardEmptyOrderOnCheckout!: boolean;
+  renameDuplicateBowl!: string;
+  validatePartialGuest!: boolean;
+  dedupeMissingPromoAtClose!: string;
+  dedupePartialTicket?: number;
+  logDuplicateLoyaltyCreditOnCheckout!: string[];
+  normaliseRegionalLocation!: Date;
 }

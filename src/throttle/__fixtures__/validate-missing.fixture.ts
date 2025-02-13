@@ -240,4 +240,40 @@ export const ValidateMissingTicketPerStoreRows = [
     label: 'log regional store',
     quantity: 2,
   },
+  {
+    id: 'throttle-2374',
+    store: '105',
+    label: 'handle partial loyalty credit for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-4786',
+    store: '547',
+    label: 'retry duplicate ticket',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-9575',
+    store: '121',
+    label: 'guard partial receipt',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-6436',
+    store: '690',
+    label: 'handle regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-1818',
+    store: '618',
+    label: 'validate expired loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7367',
+    store: '362',
+    label: 'expose regional kitchen ticket',
+    quantity: 5,
+  },
 ];
