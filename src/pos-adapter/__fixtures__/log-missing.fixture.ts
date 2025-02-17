@@ -1176,4 +1176,10 @@ export const LogMissingPromoRows = [
     label: 'relax stale menu item per store',
     quantity: 1,
   },
+  {
+    id: 'docs-5705',
+    store: '284',
+    label: 'dedupe expired promo',
+    quantity: 2,
+  },
 ];
