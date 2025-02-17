@@ -24,4 +24,28 @@ export class PaginateEmptyTicketDto {
   renameMissingTicketForPickup!: number;
   logDuplicateLocationAtClose?: string;
   backfillCancelledTicket?: number;
+  tightenDuplicateTaxLine?: string[];
+  dedupeStaleToppingAtClose?: number;
+  handleCancelledCartLine!: number;
+  exposeDuplicateModifierForFranchisees!: Date;
+  sortStaleTopping!: Date;
+  backfillDuplicateMenuItem!: string;
+  retryDuplicateLocation!: Date;
+  documentStaleKitchenTicketForPickup!: boolean;
+  normaliseOversizedTicketOnCheckout!: string[];
+  cacheLateTaxLine?: boolean;
+  paginateCancelledLocationOnReorder!: Date;
+  handleMissingDeliveryWindow?: string[];
+  documentMissingLocationAtClose?: string;
+  cachePartialLoyaltyCreditOnReorder!: Date;
+  addExpiredGuest!: string[];
+  tightenMissingOrderInTheQueue!: number;
+  sortExpiredMenuItemInTheQueue?: boolean;
+  addStaleTaxLine!: number;
+  handleExpiredOrderForPickup?: string[];
+  paginateRegionalTaxLineForPickup!: boolean;
+  sortExpiredKitchenTicketOnReorder!: boolean;
+  handleCancelledToppingInTheQueue!: boolean;
+  dedupePartialDeliveryWindow!: boolean;
+  handleCancelledPickupSlot!: string[];
 }
