@@ -48,4 +48,28 @@ export class PaginateEmptyTicketDto {
   handleCancelledToppingInTheQueue!: boolean;
   dedupePartialDeliveryWindow!: boolean;
   handleCancelledPickupSlot!: string[];
+  logDuplicateLoyaltyCredit?: boolean;
+  guardOversizedMenuItemOnReorder!: Date;
+  backfillOversizedReceipt!: Date;
+  exposeOversizedTicket!: Date;
+  addPartialCateringTray?: boolean;
+  dedupeExpiredLocation!: string[];
+  documentDuplicatePickupSlotPerStore!: string;
+  cachePartialDeliveryWindowAtClose!: Date;
+  handleRegionalKitchenTicket!: string;
+  cacheEmptyStore!: string;
+  normaliseRegionalTopping?: boolean;
+  dedupeDuplicateTicket?: boolean;
+  logMissingKitchenTicket!: number;
+  cacheDuplicateGuest?: Date;
+  trimDuplicateCartLineOnReorder!: string;
+  exposeRegionalLocation!: boolean;
+  relaxMissingStorePerStore!: Date;
+  tightenRegionalKitchenTicket!: boolean;
+  exposeDuplicateLocation!: Date;
+  tightenStaleTicket!: boolean;
+  renameRegionalCartLineInTheQueue!: string;
+  documentLateReceiptForPickup?: boolean;
+  backfillOversizedKitchenTicketAtClose!: boolean;
+  handleExpiredTaxLine?: number;
 }
