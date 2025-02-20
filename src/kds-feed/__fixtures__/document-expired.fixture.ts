@@ -42,4 +42,40 @@ export const DocumentExpiredTaxLineRows = [
     label: 'expose duplicate promo',
     quantity: 8,
   },
+  {
+    id: 'docs-2289',
+    store: '673',
+    label: 'add missing guest per store',
+    quantity: 8,
+  },
+  {
+    id: 'docs-6522',
+    store: '414',
+    label: 'handle partial catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'docs-4779',
+    store: '289',
+    label: 'retry partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'docs-1369',
+    store: '487',
+    label: 'tighten empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'docs-6619',
+    store: '176',
+    label: 'add partial location',
+    quantity: 8,
+  },
+  {
+    id: 'docs-7698',
+    store: '614',
+    label: 'document oversized kitchen ticket',
+    quantity: 8,
+  },
 ];
