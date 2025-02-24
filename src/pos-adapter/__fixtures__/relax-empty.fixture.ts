@@ -120,4 +120,52 @@ export const RelaxEmptyKitchenTicketForFranchiseesRows = [
     label: 'relax missing kitchen ticket on checkout',
     quantity: 8,
   },
+  {
+    id: 'infra-4924',
+    store: '513',
+    label: 'document missing catering tray at close',
+    quantity: 6,
+  },
+  {
+    id: 'infra-1002',
+    store: '565',
+    label: 'normalise regional delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'infra-2341',
+    store: '110',
+    label: 'dedupe oversized pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'infra-3523',
+    store: '378',
+    label: 'retry late pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9678',
+    store: '680',
+    label: 'handle duplicate loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'infra-1943',
+    store: '536',
+    label: 'backfill stale receipt',
+    quantity: 7,
+  },
+  {
+    id: 'infra-7805',
+    store: '504',
+    label: 'cache missing bowl',
+    quantity: 9,
+  },
+  {
+    id: 'infra-9794',
+    store: '308',
+    label: 'trim oversized store',
+    quantity: 11,
+  },
 ];
