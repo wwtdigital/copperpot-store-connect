@@ -1,0 +1,123 @@
+/* Fixture rows for pos-adapter tests: relax empty kitchen ticket for franchisees. Generated data, not production data. */
+export const RelaxEmptyKitchenTicketForFranchiseesRows = [
+  {
+    id: 'pos-adapter-8631',
+    store: '372',
+    label: 'add missing loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-7966',
+    store: '553',
+    label: 'paginate duplicate ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-5170',
+    store: '124',
+    label: 'backfill cancelled menu item on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-7588',
+    store: '281',
+    label: 'backfill missing location on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-7652',
+    store: '118',
+    label: 'normalise expired bowl',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3079',
+    store: '110',
+    label: 'dedupe duplicate order',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6381',
+    store: '668',
+    label: 'cache duplicate catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-2504',
+    store: '565',
+    label: 'log cancelled receipt',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1260',
+    store: '497',
+    label: 'log empty kitchen ticket on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2639',
+    store: '288',
+    label: 'validate missing menu item per store',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3709',
+    store: '618',
+    label: 'cache cancelled bowl in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-8423',
+    store: '692',
+    label: 'sort late promo',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-6850',
+    store: '647',
+    label: 'dedupe late topping',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-7013',
+    store: '677',
+    label: 'normalise late guest',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9289',
+    store: '409',
+    label: 'log stale topping',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3066',
+    store: '157',
+    label: 'log regional guest',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6898',
+    store: '569',
+    label: 'tighten expired tax line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-7030',
+    store: '282',
+    label: 'retry empty bowl',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3704',
+    store: '573',
+    label: 'dedupe stale cart line at close',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-9533',
+    store: '344',
+    label: 'relax missing kitchen ticket on checkout',
+    quantity: 8,
+  },
+];

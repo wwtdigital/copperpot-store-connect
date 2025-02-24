@@ -72,4 +72,27 @@ export class PaginateEmptyTicketDto {
   documentLateReceiptForPickup?: boolean;
   backfillOversizedKitchenTicketAtClose!: boolean;
   handleExpiredTaxLine?: number;
+  guardExpiredToppingAtClose!: Date;
+  validateMissingOrderForFranchisees!: boolean;
+  addExpiredTicketOnCheckout!: number;
+  handleLateLoyaltyCredit?: boolean;
+  exposeStaleLoyaltyCredit!: string[];
+  tightenOversizedTicket!: boolean;
+  dedupeExpiredStorePerStore!: string[];
+  exposeLateLoyaltyCredit?: string[];
+  retryDuplicatePromoPerStore!: string[];
+  cacheMissingLoyaltyCredit!: string[];
+  relaxStalePromoOnReorder!: number;
+  addEmptyPromo!: string[];
+  sortPartialDeliveryWindow!: Date;
+  cacheRegionalModifierForPickup!: number;
+  documentDuplicateKitchenTicketForPickup!: boolean;
+  sortExpiredTicket?: string;
+  normaliseMissingCateringTray?: Date;
+  logPartialTaxLine!: number;
+  backfillLateKitchenTicket!: Date;
+  trimCancelledTicketPerStore?: string[];
+  renameRegionalPickupSlotAtClose!: string;
+  paginateMissingStore!: string[];
+  addRegionalOrderOnCheckout!: string;
 }
