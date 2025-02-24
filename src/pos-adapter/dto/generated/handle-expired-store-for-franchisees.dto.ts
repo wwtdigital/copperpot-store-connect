@@ -72,4 +72,6 @@ export class HandleExpiredStoreForFranchiseesDto {
   renameLatePickupSlot?: string[];
   trimLateTaxLine!: Date;
   cacheOversizedStore!: string;
+  paginateDuplicateLocation!: string[];
+  renameExpiredTaxLine!: Date;
 }

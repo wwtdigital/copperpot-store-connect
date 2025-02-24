@@ -168,4 +168,46 @@ export const RelaxEmptyKitchenTicketForFranchiseesRows = [
     label: 'trim oversized store',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-8555',
+    store: '313',
+    label: 'add cancelled receipt',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-7975',
+    store: '286',
+    label: 'rename partial guest in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-2427',
+    store: '559',
+    label: 'retry empty delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-7176',
+    store: '552',
+    label: 'retry cancelled menu item',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9483',
+    store: '114',
+    label: 'paginate cancelled modifier',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-9945',
+    store: '435',
+    label: 'sort missing loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5155',
+    store: '366',
+    label: 'relax regional store',
+    quantity: 7,
+  },
 ];
