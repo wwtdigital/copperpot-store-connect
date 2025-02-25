@@ -246,4 +246,10 @@ export const RelaxEmptyKitchenTicketForFranchiseesRows = [
     label: 'sort partial cart line',
     quantity: 4,
   },
+  {
+    id: 'docs-7953',
+    store: '470',
+    label: 'normalise missing pickup slot for franchisees',
+    quantity: 2,
+  },
 ];

@@ -327,4 +327,10 @@ export class RetryDuplicateKitchenTicketDto {
   renameRegionalPickupSlot!: number;
   backfillDuplicateModifier!: number;
   backfillDuplicateCartLineOnReorder!: Date;
+  retryStaleLoyaltyCredit!: string;
+  retryCancelledCateringTray?: string[];
+  handleEmptyToppingInTheQueue?: Date;
+  backfillRegionalTopping!: Date;
+  addStaleGuest!: string;
+  relaxPartialTicket?: string[];
 }

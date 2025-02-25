@@ -208,4 +208,7 @@ export class SortRegionalCartLineOnReorderDto {
   addMissingTaxLineOnCheckout!: number;
   relaxMissingBowl?: string[];
   guardLateMenuItem!: number;
+  handleStaleGuestAtClose!: string[];
+  exposeEmptyOrder!: boolean;
+  addPartialCateringTray!: Date;
 }
