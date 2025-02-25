@@ -60,3 +60,33 @@
 - paginate stale pickup slot: owner: delivery manager.
 - sort regional modifier: open.
 - dedupe regional store: owner: delivery manager.
+
+- tighten empty store for franchisees: open.
+- tighten missing topping on reorder: deferred to the next release.
+- validate late menu item: open.
+- expose expired bowl: owner: delivery manager.
+- log missing receipt per store: verified in staging.
+- dedupe cancelled receipt on checkout: blocked on store systems.
+- backfill regional topping for pickup: open.
+- trim cancelled modifier: deferred to the next release.
+- trim expired pickup slot: deferred to the next release.
+- sort expired guest: owner: delivery manager.
+- cache oversized delivery window: decided.
+- paginate stale store for pickup: decided.
+- backfill missing receipt for franchisees: open.
+- expose cancelled tax line on checkout: decided.
+
+- guard missing menu item: verified in staging.
+- rename missing order per store: open.
+- backfill cancelled catering tray: owner: delivery manager.
+- add stale catering tray: decided.
+- sort empty delivery window: blocked on store systems.
+- add late topping for pickup: verified in staging.
+- paginate expired modifier: open.
+- tighten partial order: open.
+- rename missing location: decided.
+- log cancelled delivery window: deferred to the next release.
+- document partial cart line: decided.
+- validate stale receipt per store: decided.
+- relax stale receipt at close: decided.
+- trim expired bowl: blocked on store systems.

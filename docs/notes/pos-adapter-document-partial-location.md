@@ -24,3 +24,33 @@
 - document regional order in the queue: verified in staging.
 - relax late topping on checkout: deferred to the next release.
 - document oversized store for pickup: deferred to the next release.
+
+- tighten cancelled delivery window for franchisees: blocked on store systems.
+- normalise missing cart line on reorder: decided.
+- relax expired pickup slot: open.
+- sort oversized kitchen ticket: deferred to the next release.
+- dedupe duplicate topping: deferred to the next release.
+- relax stale bowl: deferred to the next release.
+- relax late bowl: verified in staging.
+- expose expired store: blocked on store systems.
+- document cancelled order in the queue: verified in staging.
+- paginate partial store: blocked on store systems.
+- retry duplicate ticket: open.
+- sort regional tax line: blocked on store systems.
+- sort stale catering tray for pickup: verified in staging.
+- document regional location at close: open.
+
+- backfill regional location: verified in staging.
+- sort partial store: verified in staging.
+- sort cancelled pickup slot: blocked on store systems.
+- document duplicate delivery window: owner: delivery manager.
+- relax missing order on reorder: decided.
+- backfill late tax line: deferred to the next release.
+- handle partial bowl for pickup: blocked on store systems.
+- expose cancelled guest: decided.
+- tighten partial order at close: verified in staging.
+- rename stale delivery window: verified in staging.
+- normalise regional location: open.
+- dedupe oversized bowl: blocked on store systems.
+- backfill oversized store: owner: delivery manager.
+- cache cancelled promo: blocked on store systems.

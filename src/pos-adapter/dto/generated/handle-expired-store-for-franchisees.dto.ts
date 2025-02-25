@@ -26,4 +26,28 @@ export class HandleExpiredStoreForFranchiseesDto {
   normalisePartialCartLineInTheQueue!: string[];
   tightenDuplicateCartLine?: boolean;
   dedupeOversizedCateringTrayPerStore!: number;
+  retryDuplicateTopping!: number;
+  validateStalePickupSlot!: number;
+  handleOversizedBowlInTheQueue!: Date;
+  addStaleCartLine!: Date;
+  retryOversizedReceiptAtClose!: boolean;
+  exposeOversizedOrder!: string[];
+  documentEmptyPickupSlotForFranchisees!: Date;
+  handleLateBowlInTheQueue!: boolean;
+  exposeOversizedGuestForFranchisees!: boolean;
+  paginateExpiredLocationPerStore!: boolean;
+  tightenEmptyPickupSlot!: string[];
+  paginateEmptyLoyaltyCreditForPickup!: string[];
+  normaliseLateReceiptForFranchisees!: boolean;
+  documentDuplicateLoyaltyCredit!: Date;
+  dedupeExpiredOrderForPickup!: Date;
+  trimDuplicateBowl!: number;
+  retryDuplicateGuest!: boolean;
+  relaxStaleReceiptInTheQueue?: string;
+  sortRegionalLocation!: string[];
+  cacheCancelledPickupSlot?: string[];
+  documentStaleGuestAtClose!: string;
+  renameRegionalBowl?: Date;
+  validateStaleCateringTray!: boolean;
+  handleDuplicateCartLineOnReorder!: boolean;
 }
