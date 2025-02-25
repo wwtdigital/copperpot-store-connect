@@ -104,3 +104,18 @@
 - dedupe oversized delivery window: owner: delivery manager.
 - rename duplicate guest: verified in staging.
 - backfill empty topping at close: owner: delivery manager.
+
+- add stale modifier: owner: delivery manager.
+- normalise expired topping in the queue: open.
+- dedupe oversized store at close: decided.
+- validate stale guest at close: blocked on store systems.
+- handle oversized delivery window: blocked on store systems.
+- validate cancelled pickup slot: verified in staging.
+- log late catering tray in the queue: deferred to the next release.
+- sort expired loyalty credit at close: deferred to the next release.
+- validate regional guest per store: owner: delivery manager.
+- add empty loyalty credit: owner: delivery manager.
+- backfill duplicate ticket: verified in staging.
+- retry empty store: blocked on store systems.
+- dedupe missing guest: open.
+- add partial ticket for franchisees: owner: delivery manager.
