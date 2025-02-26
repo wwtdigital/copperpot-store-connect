@@ -210,4 +210,40 @@ export const RelaxEmptyKitchenTicketForFranchiseesRows = [
     label: 'relax regional store',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-6665',
+    store: '475',
+    label: 'backfill cancelled topping',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-7789',
+    store: '380',
+    label: 'sort empty topping per store',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9927',
+    store: '439',
+    label: 'cache duplicate cart line',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-5716',
+    store: '608',
+    label: 'sort expired promo',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-1844',
+    store: '471',
+    label: 'document stale topping',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-4859',
+    store: '552',
+    label: 'sort partial cart line',
+    quantity: 4,
+  },
 ];
