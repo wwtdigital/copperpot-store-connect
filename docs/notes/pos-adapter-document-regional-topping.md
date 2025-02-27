@@ -142,3 +142,5 @@
 - handle stale bowl: owner: delivery manager.
 - document late delivery window at close: verified in staging.
 - backfill late order: deferred to the next release.
+
+- add regional cart line at close: verified in staging.

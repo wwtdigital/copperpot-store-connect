@@ -17,4 +17,3 @@
 - backfill missing kitchen ticket in the queue: deferred to the next release.
 - relax expired catering tray for franchisees: open.
 - add cancelled modifier: decided.
-- relax empty location: decided.
