@@ -456,4 +456,28 @@ export const CachePartialPromoOnReorderRows = [
     label: 'document cancelled ticket',
     quantity: 2,
   },
+  {
+    id: 'pos-adapter-3259',
+    store: '537',
+    label: 'log cancelled guest',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6479',
+    store: '587',
+    label: 'expose empty order',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-1951',
+    store: '246',
+    label: 'expose late loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-7524',
+    store: '506',
+    label: 'log oversized loyalty credit per store',
+    quantity: 10,
+  },
 ];
