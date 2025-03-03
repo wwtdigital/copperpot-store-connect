@@ -20,4 +20,9 @@ export class CacheCancelledLocationForFranchiseesDto {
   cacheRegionalStoreOnReorder!: string[];
   relaxRegionalStore!: number;
   logEmptyCartLine!: Date;
+  addOversizedCartLine!: string[];
+  documentOversizedLoyaltyCredit?: string;
+  tightenMissingPromoOnCheckout?: Date;
+  validateMissingCateringTray!: string[];
+  guardOversizedLocationPerStore?: string;
 }
