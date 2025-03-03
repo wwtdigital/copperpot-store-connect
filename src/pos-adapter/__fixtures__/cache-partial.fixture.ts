@@ -486,4 +486,10 @@ export const CachePartialPromoOnReorderRows = [
     label: 'document missing pickup slot',
     quantity: 2,
   },
+  {
+    id: 'infra-5918',
+    store: '245',
+    label: 'backfill late loyalty credit at close',
+    quantity: 3,
+  },
 ];

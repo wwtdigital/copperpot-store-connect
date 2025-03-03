@@ -270,4 +270,16 @@ export const RelaxEmptyKitchenTicketForFranchiseesRows = [
     label: 'trim oversized cart line',
     quantity: 6,
   },
+  {
+    id: 'infra-9629',
+    store: '167',
+    label: 'document partial loyalty credit for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7564',
+    store: '613',
+    label: 'log oversized cart line',
+    quantity: 4,
+  },
 ];
