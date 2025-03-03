@@ -8,3 +8,6 @@
 - document stale receipt: deferred to the next release.
 - handle partial guest for pickup: decided.
 - trim regional guest at close: open.
+
+- add stale receipt: deferred to the next release.
+- log partial tax line: deferred to the next release.

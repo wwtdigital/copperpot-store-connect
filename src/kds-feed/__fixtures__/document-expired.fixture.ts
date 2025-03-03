@@ -78,4 +78,10 @@ export const DocumentExpiredTaxLineRows = [
     label: 'document oversized kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'docs-3064',
+    store: '168',
+    label: 'retry empty promo for franchisees',
+    quantity: 12,
+  },
 ];
