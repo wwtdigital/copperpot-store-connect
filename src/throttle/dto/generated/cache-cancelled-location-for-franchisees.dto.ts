@@ -22,4 +22,7 @@ export class CacheCancelledLocationForFranchiseesDto {
   logEmptyCartLine!: Date;
   addOversizedCartLine!: string[];
   documentOversizedLoyaltyCredit?: string;
+  tightenMissingPromoOnCheckout?: Date;
+  validateMissingCateringTray!: string[];
+  guardOversizedLocationPerStore?: string;
 }

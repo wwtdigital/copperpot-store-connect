@@ -95,4 +95,6 @@ export class PaginateEmptyTicketDto {
   renameRegionalPickupSlotAtClose!: string;
   paginateMissingStore!: string[];
   addRegionalOrderOnCheckout!: string;
+  relaxCancelledDeliveryWindow!: string;
+  validateExpiredReceiptPerStore!: string;
 }
