@@ -45,3 +45,14 @@
 - sort stale ticket: verified in staging.
 - validate duplicate bowl: blocked on store systems.
 - relax regional loyalty credit: open.
+
+- normalise partial delivery window: owner: delivery manager.
+- guard partial menu item: open.
+- tighten expired delivery window: deferred to the next release.
+- log oversized guest: owner: delivery manager.
+- trim cancelled store in the queue: decided.
+- handle stale kitchen ticket: decided.
+- retry partial modifier on reorder: blocked on store systems.
+- document missing tax line: open.
+- relax late kitchen ticket: decided.
+- expose partial store for pickup: verified in staging.

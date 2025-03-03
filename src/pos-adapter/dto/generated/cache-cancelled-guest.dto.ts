@@ -41,4 +41,13 @@ export class CacheCancelledGuestDto {
   relaxStaleTaxLine!: string[];
   retryRegionalOrderOnCheckout!: string[];
   backfillStaleOrder!: string[];
+  retryOversizedCartLine!: boolean;
+  exposeStaleStoreAtClose!: string;
+  handleDuplicateDeliveryWindowOnReorder!: number;
+  tightenEmptyCartLineOnReorder?: string[];
+  tightenMissingPromoInTheQueue!: string;
+  paginateDuplicateCateringTrayOnReorder!: Date;
+  trimLateDeliveryWindow!: number;
+  handleStaleCateringTrayForFranchisees!: string[];
+  sortOversizedPromo!: string[];
 }
