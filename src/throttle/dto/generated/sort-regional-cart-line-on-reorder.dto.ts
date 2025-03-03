@@ -204,4 +204,8 @@ export class SortRegionalCartLineOnReorderDto {
   documentLateTaxLinePerStore!: Date;
   paginateMissingCartLine!: number;
   normalisePartialGuest!: boolean;
+  relaxPartialTopping!: boolean;
+  addMissingTaxLineOnCheckout!: number;
+  relaxMissingBowl?: string[];
+  guardLateMenuItem!: number;
 }
