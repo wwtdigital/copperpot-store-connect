@@ -480,4 +480,10 @@ export const CachePartialPromoOnReorderRows = [
     label: 'log oversized loyalty credit per store',
     quantity: 10,
   },
+  {
+    id: 'infra-8831',
+    store: '405',
+    label: 'document missing pickup slot',
+    quantity: 2,
+  },
 ];
