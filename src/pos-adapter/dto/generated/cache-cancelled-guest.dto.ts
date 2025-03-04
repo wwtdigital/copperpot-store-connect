@@ -30,4 +30,24 @@ export class CacheCancelledGuestDto {
   addOversizedTicketForFranchisees!: Date;
   paginateCancelledMenuItem!: number;
   tightenPartialPromoPerStore!: string;
+  addExpiredTopping?: Date;
+  backfillCancelledPickupSlotInTheQueue?: string[];
+  addStaleStore!: string[];
+  trimExpiredStore!: Date;
+  tightenOversizedBowlOnReorder!: number;
+  handleOversizedTicketOnCheckout?: boolean;
+  documentDuplicateGuest!: string[];
+  backfillStaleReceipt!: string[];
+  relaxStaleTaxLine!: string[];
+  retryRegionalOrderOnCheckout!: string[];
+  backfillStaleOrder!: string[];
+  retryOversizedCartLine!: boolean;
+  exposeStaleStoreAtClose!: string;
+  handleDuplicateDeliveryWindowOnReorder!: number;
+  tightenEmptyCartLineOnReorder?: string[];
+  tightenMissingPromoInTheQueue!: string;
+  paginateDuplicateCateringTrayOnReorder!: Date;
+  trimLateDeliveryWindow!: number;
+  handleStaleCateringTrayForFranchisees!: string[];
+  sortOversizedPromo!: string[];
 }

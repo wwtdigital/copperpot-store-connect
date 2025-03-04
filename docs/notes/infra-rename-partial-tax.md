@@ -119,3 +119,15 @@
 - retry empty store: blocked on store systems.
 - dedupe missing guest: open.
 - add partial ticket for franchisees: owner: delivery manager.
+
+- tighten duplicate bowl for pickup: owner: delivery manager.
+- document expired bowl on checkout: verified in staging.
+- add missing loyalty credit per store: deferred to the next release.
+- expose empty guest: deferred to the next release.
+- document expired topping per store: open.
+- document late tax line per store: owner: delivery manager.
+- trim expired promo: deferred to the next release.
+- sort late delivery window: blocked on store systems.
+- sort late topping per store: decided.
+- normalise missing loyalty credit: open.
+- add expired location: blocked on store systems.

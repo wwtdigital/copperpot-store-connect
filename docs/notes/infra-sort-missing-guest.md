@@ -34,3 +34,25 @@
 - tighten partial modifier: open.
 - backfill cancelled pickup slot for franchisees: blocked on store systems.
 - retry regional cart line: open.
+
+- relax empty loyalty credit for pickup: deferred to the next release.
+- validate cancelled kitchen ticket: open.
+- retry missing bowl for pickup: open.
+- relax missing order for pickup: decided.
+- handle missing loyalty credit: owner: delivery manager.
+- log partial delivery window on checkout: open.
+- relax missing promo on checkout: decided.
+- sort stale ticket: verified in staging.
+- validate duplicate bowl: blocked on store systems.
+- relax regional loyalty credit: open.
+
+- normalise partial delivery window: owner: delivery manager.
+- guard partial menu item: open.
+- tighten expired delivery window: deferred to the next release.
+- log oversized guest: owner: delivery manager.
+- trim cancelled store in the queue: decided.
+- handle stale kitchen ticket: decided.
+- retry partial modifier on reorder: blocked on store systems.
+- document missing tax line: open.
+- relax late kitchen ticket: decided.
+- expose partial store for pickup: verified in staging.

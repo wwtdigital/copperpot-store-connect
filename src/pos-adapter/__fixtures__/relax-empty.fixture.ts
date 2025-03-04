@@ -252,4 +252,34 @@ export const RelaxEmptyKitchenTicketForFranchiseesRows = [
     label: 'normalise missing pickup slot for franchisees',
     quantity: 2,
   },
+  {
+    id: 'infra-4282',
+    store: '130',
+    label: 'guard late menu item on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9381',
+    store: '320',
+    label: 'backfill regional modifier',
+    quantity: 10,
+  },
+  {
+    id: 'infra-3687',
+    store: '621',
+    label: 'trim oversized cart line',
+    quantity: 6,
+  },
+  {
+    id: 'infra-9629',
+    store: '167',
+    label: 'document partial loyalty credit for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7564',
+    store: '613',
+    label: 'log oversized cart line',
+    quantity: 4,
+  },
 ];
