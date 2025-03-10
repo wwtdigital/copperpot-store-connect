@@ -179,3 +179,5 @@
 - sort missing catering tray per store: deferred to the next release.
 - trim cancelled receipt in the queue: verified in staging.
 - paginate empty location: decided.
+
+- tighten cancelled tax line: blocked on store systems.
