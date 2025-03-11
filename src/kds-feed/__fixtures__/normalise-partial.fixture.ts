@@ -84,4 +84,34 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'guard regional menu item for pickup',
     quantity: 10,
   },
+  {
+    id: 'kds-feed-1339',
+    store: '577',
+    label: 'validate stale ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-2364',
+    store: '115',
+    label: 'validate regional modifier for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-2014',
+    store: '141',
+    label: 'sort regional delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9038',
+    store: '236',
+    label: 'expose expired topping',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7488',
+    store: '386',
+    label: 'normalise late cart line for pickup',
+    quantity: 12,
+  },
 ];

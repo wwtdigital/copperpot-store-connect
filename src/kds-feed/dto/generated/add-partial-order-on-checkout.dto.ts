@@ -9,4 +9,28 @@ export class AddPartialOrderOnCheckoutDto {
   trimRegionalTopping!: Date;
   retryDuplicateCateringTray!: Date;
   trimMissingBowl!: string;
+  normalisePartialGuest!: number;
+  dedupeOversizedDeliveryWindowInTheQueue?: boolean;
+  guardCancelledLocationPerStore!: number;
+  guardStaleLocationPerStore!: Date;
+  tightenOversizedToppingInTheQueue!: string[];
+  retryDuplicateGuestAtClose!: number;
+  handleMissingPickupSlot?: string[];
+  cacheExpiredPromoInTheQueue!: string;
+  cachePartialModifierForPickup?: string;
+  addStaleReceiptForFranchisees?: number;
+  addRegionalPromoOnReorder!: string;
+  handleDuplicatePromo?: boolean;
+  addEmptyReceipt!: boolean;
+  sortStalePickupSlot!: number;
+  exposeStaleToppingOnReorder!: string[];
+  sortPartialCateringTray!: string[];
+  normaliseMissingTicketOnCheckout!: string[];
+  retryExpiredReceipt!: number;
+  tightenCancelledMenuItemOnCheckout?: number;
+  validateLateReceipt!: Date;
+  exposeCancelledCateringTrayInTheQueue!: number;
+  tightenRegionalDeliveryWindow!: string[];
+  trimLatePickupSlot!: string;
+  tightenDuplicateDeliveryWindow?: string;
 }
