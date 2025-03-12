@@ -74,4 +74,28 @@ export class HandleExpiredStoreForFranchiseesDto {
   cacheOversizedStore!: string;
   paginateDuplicateLocation!: string[];
   renameExpiredTaxLine!: Date;
+  validateStaleTopping!: Date;
+  paginateOversizedDeliveryWindowAtClose!: string;
+  sortEmptyGuest?: boolean;
+  normalisePartialOrder!: boolean;
+  documentLateLoyaltyCredit!: string[];
+  handlePartialModifier!: string[];
+  relaxDuplicateTopping!: string;
+  cacheExpiredOrderPerStore!: string;
+  backfillCancelledStore!: Date;
+  sortDuplicateStore!: boolean;
+  logStaleStore?: Date;
+  normalisePartialPickupSlot!: number;
+  addOversizedModifier!: string;
+  trimExpiredLocation!: number;
+  renameOversizedMenuItem?: string[];
+  renameRegionalTicket?: Date;
+  documentRegionalBowl!: boolean;
+  logDuplicateTaxLineForFranchisees!: string[];
+  normalisePartialDeliveryWindow!: string[];
+  guardEmptyLocationOnCheckout!: number;
+  normalisePartialBowl?: number;
+  normaliseLateOrderOnReorder!: boolean;
+  sortPartialPromo!: number;
+  relaxEmptyLocation?: number;
 }
