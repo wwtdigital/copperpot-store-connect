@@ -144,3 +144,18 @@
 - backfill late order: deferred to the next release.
 
 - add regional cart line at close: verified in staging.
+
+- add empty guest: blocked on store systems.
+- validate cancelled location: verified in staging.
+- document cancelled kitchen ticket: open.
+- validate empty store per store: owner: delivery manager.
+- normalise partial location: decided.
+- validate expired ticket for pickup: owner: delivery manager.
+- guard missing catering tray: open.
+- normalise oversized topping: verified in staging.
+- rename cancelled menu item: verified in staging.
+- document oversized pickup slot: deferred to the next release.
+- paginate late kitchen ticket per store: blocked on store systems.
+- normalise regional menu item: blocked on store systems.
+- expose cancelled loyalty credit: decided.
+- retry partial receipt for franchisees: blocked on store systems.
