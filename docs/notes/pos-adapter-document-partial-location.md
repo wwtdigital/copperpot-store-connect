@@ -54,3 +54,8 @@
 - dedupe oversized bowl: blocked on store systems.
 - backfill oversized store: owner: delivery manager.
 - cache cancelled promo: blocked on store systems.
+
+- trim missing catering tray for pickup: open.
+- handle duplicate receipt for franchisees: verified in staging.
+- rename regional pickup slot: blocked on store systems.
+- relax stale store: open.
