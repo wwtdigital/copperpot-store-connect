@@ -333,4 +333,11 @@ export class RetryDuplicateKitchenTicketDto {
   backfillRegionalTopping!: Date;
   addStaleGuest!: string;
   relaxPartialTicket?: string[];
+  sortOversizedGuest!: boolean;
+  validateMissingMenuItem?: string[];
+  documentExpiredToppingPerStore!: string;
+  trimExpiredPickupSlot!: boolean;
+  trimRegionalLoyaltyCredit!: boolean;
+  tightenStaleCateringTrayForPickup?: Date;
+  trimExpiredCateringTrayOnCheckout!: number;
 }

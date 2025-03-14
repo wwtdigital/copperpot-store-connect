@@ -179,3 +179,20 @@
 - sort missing catering tray per store: deferred to the next release.
 - trim cancelled receipt in the queue: verified in staging.
 - paginate empty location: decided.
+
+- tighten cancelled tax line: blocked on store systems.
+
+- retry regional modifier per store: open.
+- cache partial order on reorder: blocked on store systems.
+- paginate partial menu item on checkout: verified in staging.
+- add duplicate kitchen ticket on reorder: blocked on store systems.
+- retry partial pickup slot in the queue: open.
+- guard oversized location: decided.
+- add regional guest: deferred to the next release.
+- expose stale loyalty credit on reorder: deferred to the next release.
+- validate late pickup slot: owner: delivery manager.
+- relax partial modifier: owner: delivery manager.
+- relax oversized ticket on checkout: decided.
+- backfill cancelled store: verified in staging.
+- trim stale menu item for pickup: owner: delivery manager.
+- validate stale menu item: owner: delivery manager.
