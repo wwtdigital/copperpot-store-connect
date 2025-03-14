@@ -54,4 +54,28 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'document duplicate loyalty credit per store',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-4432',
+    store: '441',
+    label: 'expose partial modifier on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9652',
+    store: '339',
+    label: 'trim empty delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-5790',
+    store: '677',
+    label: 'sort expired promo',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-8243',
+    store: '216',
+    label: 'sort partial catering tray',
+    quantity: 9,
+  },
 ];
