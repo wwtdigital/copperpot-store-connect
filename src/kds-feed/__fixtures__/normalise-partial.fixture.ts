@@ -24,4 +24,34 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'handle expired cart line',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-6673',
+    store: '639',
+    label: 'validate late kitchen ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-6403',
+    store: '390',
+    label: 'add duplicate ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2737',
+    store: '639',
+    label: 'normalise oversized delivery window on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-8816',
+    store: '569',
+    label: 'log cancelled modifier per store',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9367',
+    store: '696',
+    label: 'document duplicate loyalty credit per store',
+    quantity: 12,
+  },
 ];
