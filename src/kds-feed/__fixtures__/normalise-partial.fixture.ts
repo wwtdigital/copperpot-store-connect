@@ -114,4 +114,46 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'normalise late cart line for pickup',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-3418',
+    store: '362',
+    label: 'backfill missing cart line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-4915',
+    store: '238',
+    label: 'handle oversized pickup slot per store',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-1237',
+    store: '172',
+    label: 'expose missing receipt',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-3981',
+    store: '406',
+    label: 'tighten late kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1391',
+    store: '466',
+    label: 'tighten late location',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3196',
+    store: '122',
+    label: 'cache duplicate catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-1756',
+    store: '373',
+    label: 'tighten oversized tax line per store',
+    quantity: 5,
+  },
 ];
