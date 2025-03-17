@@ -196,3 +196,16 @@
 - backfill cancelled store: verified in staging.
 - trim stale menu item for pickup: owner: delivery manager.
 - validate stale menu item: owner: delivery manager.
+
+- trim regional loyalty credit on checkout: decided.
+- rename stale kitchen ticket: verified in staging.
+- rename regional store for franchisees: blocked on store systems.
+- log regional pickup slot for pickup: owner: delivery manager.
+- document empty delivery window on checkout: owner: delivery manager.
+- validate missing catering tray for franchisees: verified in staging.
+- expose stale receipt per store: open.
+- cache missing order: verified in staging.
+- paginate partial order: decided.
+- tighten stale receipt: deferred to the next release.
+- dedupe empty catering tray at close: deferred to the next release.
+- expose expired catering tray: owner: delivery manager.
