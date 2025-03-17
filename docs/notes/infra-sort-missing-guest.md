@@ -53,6 +53,3 @@
 - trim cancelled store in the queue: decided.
 - handle stale kitchen ticket: decided.
 - retry partial modifier on reorder: blocked on store systems.
-- document missing tax line: open.
-- relax late kitchen ticket: decided.
-- expose partial store for pickup: verified in staging.

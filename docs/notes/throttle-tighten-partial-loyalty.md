@@ -17,3 +17,18 @@
 - backfill missing kitchen ticket in the queue: deferred to the next release.
 - relax expired catering tray for franchisees: open.
 - add cancelled modifier: decided.
+
+- handle expired location: open.
+- log empty catering tray per store: verified in staging.
+- cache duplicate location: open.
+- guard missing delivery window: verified in staging.
+- relax partial delivery window: blocked on store systems.
+- expose cancelled guest: decided.
+- expose expired cart line for franchisees: open.
+- normalise partial bowl: decided.
+- tighten late guest for franchisees: decided.
+- normalise stale menu item in the queue: open.
+- rename empty promo on checkout: deferred to the next release.
+- trim cancelled loyalty credit: blocked on store systems.
+- sort cancelled catering tray in the queue: verified in staging.
+- retry missing delivery window: blocked on store systems.
