@@ -78,4 +78,10 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'sort partial catering tray',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-9954',
+    store: '248',
+    label: 'guard regional menu item for pickup',
+    quantity: 10,
+  },
 ];
