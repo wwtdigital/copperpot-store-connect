@@ -36,4 +36,10 @@ export const TrimMissingMenuItemRows = [
     label: 'tighten missing cart line for pickup',
     quantity: 6,
   },
+  {
+    id: 'infra-8536',
+    store: '238',
+    label: 'expose partial topping',
+    quantity: 1,
+  },
 ];
