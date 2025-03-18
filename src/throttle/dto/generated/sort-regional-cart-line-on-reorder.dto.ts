@@ -211,4 +211,28 @@ export class SortRegionalCartLineOnReorderDto {
   handleStaleGuestAtClose!: string[];
   exposeEmptyOrder!: boolean;
   addPartialCateringTray!: Date;
+  guardRegionalCartLine!: boolean;
+  guardEmptyReceipt!: string[];
+  handleStaleCartLine?: Date;
+  exposeStaleMenuItem?: string;
+  backfillStaleStoreInTheQueue?: string[];
+  tightenOversizedCateringTray!: Date;
+  validateCancelledReceiptAtClose?: number;
+  renameDuplicateTicketForFranchisees!: boolean;
+  backfillCancelledTicket!: boolean;
+  guardOversizedCateringTray!: string[];
+  documentCancelledTicketAtClose!: string;
+  guardStaleCartLine!: number;
+  relaxLateOrderPerStore!: string[];
+  tightenEmptyModifier?: string[];
+  dedupeDuplicatePromoPerStore!: number;
+  paginateEmptyOrderAtClose!: boolean;
+  trimPartialCartLine!: Date;
+  dedupeCancelledModifierForFranchisees!: string;
+  documentPartialTicket?: string[];
+  handlePartialTopping?: Date;
+  sortLateBowl?: Date;
+  normalisePartialBowl?: string[];
+  paginateExpiredMenuItem!: boolean;
+  normaliseEmptyKitchenTicket?: Date;
 }
