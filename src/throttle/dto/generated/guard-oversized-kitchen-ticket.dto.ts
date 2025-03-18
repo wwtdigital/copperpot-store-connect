@@ -7,4 +7,22 @@ export class GuardOversizedKitchenTicketDto {
   cacheCancelledLocation?: Date;
   exposeDuplicateModifierInTheQueue?: boolean;
   paginatePartialReceipt!: boolean;
+  relaxCancelledDeliveryWindowOnCheckout?: boolean;
+  relaxMissingDeliveryWindowAtClose!: string;
+  sortPartialDeliveryWindow!: string[];
+  trimEmptyCateringTray?: string;
+  addPartialDeliveryWindowInTheQueue!: string;
+  backfillRegionalMenuItem!: boolean;
+  trimDuplicateTaxLine!: number;
+  paginateLateTaxLine!: Date;
+  cacheDuplicatePromo!: string;
+  dedupeDuplicatePickupSlotForFranchisees!: number;
+  paginateLateKitchenTicket!: string[];
+  validateDuplicateTaxLineOnReorder!: Date;
+  exposeDuplicateTopping!: string[];
+  relaxEmptyMenuItem?: boolean;
+  relaxOversizedDeliveryWindowOnReorder!: number;
+  relaxRegionalModifier!: string[];
+  documentExpiredGuestAtClose!: number;
+  guardRegionalLocation!: string[];
 }
