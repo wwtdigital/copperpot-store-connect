@@ -42,4 +42,28 @@ export const TrimMissingMenuItemRows = [
     label: 'expose partial topping',
     quantity: 1,
   },
+  {
+    id: 'throttle-4315',
+    store: '257',
+    label: 'document regional pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-8300',
+    store: '373',
+    label: 'tighten late cart line',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-5921',
+    store: '128',
+    label: 'dedupe oversized receipt',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4532',
+    store: '325',
+    label: 'expose stale delivery window for pickup',
+    quantity: 12,
+  },
 ];

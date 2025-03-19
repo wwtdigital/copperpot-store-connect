@@ -59,3 +59,18 @@
 - normalise cancelled ticket: blocked on store systems.
 - tighten expired bowl: deferred to the next release.
 - log empty promo: decided.
+
+- normalise partial order on reorder: blocked on store systems.
+- handle late tax line: deferred to the next release.
+- dedupe regional delivery window: open.
+- cache stale kitchen ticket for pickup: blocked on store systems.
+- tighten empty promo: deferred to the next release.
+- normalise late delivery window: verified in staging.
+- retry expired loyalty credit: verified in staging.
+- normalise expired guest: owner: delivery manager.
+- guard expired delivery window: deferred to the next release.
+- guard empty location per store: verified in staging.
+- retry late loyalty credit on checkout: blocked on store systems.
+- relax oversized store at close: decided.
+- paginate empty receipt for pickup: owner: delivery manager.
+- trim regional delivery window on checkout: owner: delivery manager.
