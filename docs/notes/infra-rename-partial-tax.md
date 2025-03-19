@@ -161,3 +161,13 @@
 - relax empty store on checkout: open.
 - rename stale receipt: decided.
 - relax late location for pickup: decided.
+
+- cache partial menu item: deferred to the next release.
+- log stale delivery window on reorder: decided.
+- document late receipt: open.
+- add duplicate menu item: open.
+- cache missing guest: decided.
+- backfill regional ticket: verified in staging.
+- handle partial tax line on reorder: open.
+- rename partial promo at close: deferred to the next release.
+- expose regional receipt for pickup: decided.
