@@ -171,3 +171,18 @@
 - handle partial tax line on reorder: open.
 - rename partial promo at close: deferred to the next release.
 - expose regional receipt for pickup: decided.
+
+- trim oversized kitchen ticket: deferred to the next release.
+- normalise regional delivery window: verified in staging.
+- expose oversized catering tray in the queue: verified in staging.
+- log late loyalty credit: open.
+- trim missing menu item: deferred to the next release.
+- validate oversized ticket: verified in staging.
+- cache missing cart line: decided.
+- handle missing modifier: decided.
+- normalise missing promo at close: owner: delivery manager.
+- retry cancelled delivery window for franchisees: blocked on store systems.
+- paginate expired receipt: verified in staging.
+- retry stale modifier for franchisees: open.
+- normalise cancelled menu item: decided.
+- document late delivery window in the queue: open.
