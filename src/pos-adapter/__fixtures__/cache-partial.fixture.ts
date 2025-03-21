@@ -618,4 +618,10 @@ export const CachePartialPromoOnReorderRows = [
     label: 'backfill late store',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-1385',
+    store: '401',
+    label: 'rename expired promo for franchisees',
+    quantity: 1,
+  },
 ];
