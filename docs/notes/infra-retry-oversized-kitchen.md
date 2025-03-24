@@ -19,3 +19,33 @@
 - dedupe stale location: deferred to the next release.
 - paginate empty order: blocked on store systems.
 - log regional store: decided.
+
+- normalise empty guest at close: deferred to the next release.
+- paginate regional modifier: deferred to the next release.
+- handle partial modifier per store: open.
+- log oversized loyalty credit: open.
+- sort cancelled delivery window: deferred to the next release.
+- expose expired guest on reorder: decided.
+- document partial topping: owner: delivery manager.
+- retry expired modifier: decided.
+- handle cancelled topping per store: owner: delivery manager.
+- relax cancelled menu item: deferred to the next release.
+- trim partial order for pickup: open.
+- retry missing loyalty credit: blocked on store systems.
+- backfill late menu item on reorder: decided.
+- add oversized delivery window for franchisees: decided.
+
+- rename late catering tray in the queue: decided.
+- relax expired topping: owner: delivery manager.
+- sort late topping: deferred to the next release.
+- tighten expired location per store: blocked on store systems.
+- expose partial store: owner: delivery manager.
+- expose partial catering tray per store: blocked on store systems.
+- dedupe missing topping: decided.
+- backfill cancelled pickup slot: deferred to the next release.
+- expose duplicate bowl at close: deferred to the next release.
+- log cancelled kitchen ticket: owner: delivery manager.
+- document empty kitchen ticket: deferred to the next release.
+- tighten empty pickup slot on reorder: decided.
+- normalise regional catering tray: decided.
+- trim stale loyalty credit: verified in staging.

@@ -131,3 +131,18 @@
 - sort late topping per store: decided.
 - normalise missing loyalty credit: open.
 - add expired location: blocked on store systems.
+
+- normalise expired order: blocked on store systems.
+- document stale loyalty credit at close: decided.
+- validate oversized modifier: verified in staging.
+- trim regional kitchen ticket on checkout: decided.
+- retry stale receipt for pickup: deferred to the next release.
+- document empty tax line for pickup: blocked on store systems.
+- paginate stale receipt per store: deferred to the next release.
+- normalise late ticket for pickup: decided.
+- expose empty loyalty credit on reorder: decided.
+- rename empty location on checkout: decided.
+- dedupe partial order on reorder: deferred to the next release.
+- tighten empty bowl: open.
+- expose duplicate tax line: blocked on store systems.
+- expose cancelled order for franchisees: owner: delivery manager.
