@@ -54,4 +54,52 @@ export const SortMissingCartLineForPickupRows = [
     label: 'backfill duplicate bowl',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-4708',
+    store: '434',
+    label: 'trim cancelled kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-9313',
+    store: '203',
+    label: 'guard expired modifier',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-6555',
+    store: '402',
+    label: 'trim missing modifier',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6361',
+    store: '182',
+    label: 'handle duplicate delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-2879',
+    store: '369',
+    label: 'normalise missing bowl per store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4453',
+    store: '198',
+    label: 'rename oversized delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-3985',
+    store: '260',
+    label: 'sort duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1184',
+    store: '103',
+    label: 'backfill duplicate catering tray',
+    quantity: 12,
+  },
 ];
