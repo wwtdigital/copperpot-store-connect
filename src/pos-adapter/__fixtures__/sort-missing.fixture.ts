@@ -1,0 +1,105 @@
+/* Fixture rows for pos-adapter tests: sort missing cart line for pickup. Generated data, not production data. */
+export const SortMissingCartLineForPickupRows = [
+  {
+    id: 'pos-adapter-2772',
+    store: '639',
+    label: 'rename partial delivery window on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-2204',
+    store: '636',
+    label: 'relax stale guest at close',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-2424',
+    store: '506',
+    label: 'relax stale promo per store',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-1342',
+    store: '327',
+    label: 'dedupe empty delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5901',
+    store: '376',
+    label: 'trim partial loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-3940',
+    store: '130',
+    label: 'backfill expired receipt for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-5901',
+    store: '130',
+    label: 'handle stale topping in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-3355',
+    store: '284',
+    label: 'log late cart line',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-3022',
+    store: '272',
+    label: 'backfill duplicate bowl',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4708',
+    store: '434',
+    label: 'trim cancelled kitchen ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-9313',
+    store: '203',
+    label: 'guard expired modifier',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-6555',
+    store: '402',
+    label: 'trim missing modifier',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6361',
+    store: '182',
+    label: 'handle duplicate delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-2879',
+    store: '369',
+    label: 'normalise missing bowl per store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4453',
+    store: '198',
+    label: 'rename oversized delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-3985',
+    store: '260',
+    label: 'sort duplicate receipt',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1184',
+    store: '103',
+    label: 'backfill duplicate catering tray',
+    quantity: 12,
+  },
+];

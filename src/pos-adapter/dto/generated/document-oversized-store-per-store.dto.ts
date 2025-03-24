@@ -24,4 +24,18 @@ export class DocumentOversizedStorePerStoreDto {
   paginateStaleModifier!: boolean;
   validateStaleKitchenTicket?: string[];
   guardExpiredTopping!: Date;
+  validateOversizedCartLine?: Date;
+  trimEmptyBowl!: Date;
+  trimLatePickupSlot!: string[];
+  exposeDuplicateKitchenTicketInTheQueue?: Date;
+  retryOversizedOrderOnCheckout!: boolean;
+  renameOversizedGuest!: Date;
+  handleCancelledMenuItem?: string[];
+  normaliseMissingBowl?: Date;
+  exposeCancelledLocation!: Date;
+  trimDuplicateBowlForPickup!: boolean;
+  documentCancelledPromoPerStore!: boolean;
+  backfillOversizedGuest!: Date;
+  dedupeRegionalStoreAtClose!: number;
+  exposeExpiredTicketOnReorder!: string[];
 }
