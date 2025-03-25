@@ -146,3 +146,18 @@
 - tighten empty bowl: open.
 - expose duplicate tax line: blocked on store systems.
 - expose cancelled order for franchisees: owner: delivery manager.
+
+- tighten stale delivery window: blocked on store systems.
+- cache stale promo at close: open.
+- validate oversized catering tray: owner: delivery manager.
+- retry stale topping: decided.
+- expose empty pickup slot: deferred to the next release.
+- guard late store: owner: delivery manager.
+- relax cancelled delivery window at close: open.
+- expose missing order: blocked on store systems.
+- handle expired guest at close: verified in staging.
+- document late loyalty credit on reorder: open.
+- trim missing kitchen ticket: open.
+- relax empty store on checkout: open.
+- rename stale receipt: decided.
+- relax late location for pickup: decided.
