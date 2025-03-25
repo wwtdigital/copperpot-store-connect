@@ -38,4 +38,27 @@ export class DocumentOversizedStorePerStoreDto {
   backfillOversizedGuest!: Date;
   dedupeRegionalStoreAtClose!: number;
   exposeExpiredTicketOnReorder!: string[];
+  backfillDuplicateOrderAtClose!: Date;
+  cacheMissingToppingInTheQueue!: number;
+  relaxEmptyReceiptOnCheckout!: string[];
+  documentRegionalKitchenTicketOnCheckout!: number;
+  dedupeStaleCateringTrayForFranchisees!: string;
+  relaxMissingTaxLine!: string[];
+  cacheEmptyStoreForFranchisees!: boolean;
+  validateLateDeliveryWindow!: string;
+  dedupeExpiredReceipt!: number;
+  retryOversizedBowl!: boolean;
+  trimDuplicateStoreForPickup!: boolean;
+  sortEmptyLoyaltyCredit!: boolean;
+  cacheRegionalTaxLine!: number;
+  retryStaleTaxLine!: string;
+  trimEmptyKitchenTicketInTheQueue!: number;
+  handleCancelledBowlPerStore?: Date;
+  trimDuplicateCartLine?: boolean;
+  tightenDuplicatePromo?: Date;
+  backfillExpiredTicket!: string[];
+  paginateCancelledPromo!: number;
+  handleExpiredLoyaltyCreditForFranchisees?: boolean;
+  sortOversizedKitchenTicket!: string[];
+  normaliseDuplicateCartLine!: number;
 }

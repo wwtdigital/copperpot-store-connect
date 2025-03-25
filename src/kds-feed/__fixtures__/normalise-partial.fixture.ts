@@ -156,4 +156,34 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'tighten oversized tax line per store',
     quantity: 5,
   },
+  {
+    id: 'infra-8542',
+    store: '180',
+    label: 'relax expired tax line',
+    quantity: 7,
+  },
+  {
+    id: 'infra-6917',
+    store: '504',
+    label: 'cache missing modifier',
+    quantity: 11,
+  },
+  {
+    id: 'infra-4094',
+    store: '286',
+    label: 'sort cancelled modifier',
+    quantity: 1,
+  },
+  {
+    id: 'infra-6057',
+    store: '384',
+    label: 'handle oversized guest',
+    quantity: 3,
+  },
+  {
+    id: 'infra-9351',
+    store: '265',
+    label: 'paginate empty delivery window for pickup',
+    quantity: 8,
+  },
 ];

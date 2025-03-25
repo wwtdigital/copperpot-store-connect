@@ -53,3 +53,33 @@
 - trim cancelled store in the queue: decided.
 - handle stale kitchen ticket: decided.
 - retry partial modifier on reorder: blocked on store systems.
+
+- log duplicate promo: verified in staging.
+- handle oversized kitchen ticket: owner: delivery manager.
+- normalise regional location: verified in staging.
+- add stale location: verified in staging.
+- relax expired store: blocked on store systems.
+- paginate duplicate menu item for pickup: open.
+- backfill expired ticket: owner: delivery manager.
+- relax stale guest: open.
+- tighten cancelled pickup slot: open.
+- backfill partial kitchen ticket on reorder: decided.
+- trim oversized guest: blocked on store systems.
+- dedupe cancelled bowl: open.
+- validate duplicate order: open.
+- paginate missing pickup slot on reorder: open.
+
+- relax expired ticket: open.
+- sort regional promo: blocked on store systems.
+- rename duplicate loyalty credit: verified in staging.
+- log regional location: verified in staging.
+- handle partial pickup slot: blocked on store systems.
+- dedupe missing ticket: decided.
+- tighten expired cart line per store: owner: delivery manager.
+- paginate duplicate location on reorder: owner: delivery manager.
+- validate oversized tax line on checkout: decided.
+- add partial pickup slot on reorder: owner: delivery manager.
+- document cancelled topping: owner: delivery manager.
+- rename regional topping: deferred to the next release.
+- backfill regional ticket: decided.
+- add regional promo per store: owner: delivery manager.
