@@ -186,4 +186,46 @@ export const TrimMissingMenuItemRows = [
     label: 'document cancelled kitchen ticket at close',
     quantity: 4,
   },
+  {
+    id: 'throttle-4278',
+    store: '633',
+    label: 'guard empty order for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-8264',
+    store: '603',
+    label: 'expose late store',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-3770',
+    store: '104',
+    label: 'dedupe late pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-3284',
+    store: '296',
+    label: 'retry partial catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-4762',
+    store: '429',
+    label: 'expose oversized bowl',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-3536',
+    store: '312',
+    label: 'normalise regional topping on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-9058',
+    store: '422',
+    label: 'retry regional promo',
+    quantity: 5,
+  },
 ];
