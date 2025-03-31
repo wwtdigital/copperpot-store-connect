@@ -66,4 +66,13 @@ export class GuardOversizedKitchenTicketDto {
   dedupeOversizedCateringTrayPerStore?: boolean;
   documentEmptyPromoForPickup!: string[];
   trimDuplicateReceiptForFranchisees?: Date;
+  dedupeLateTaxLine?: Date;
+  exposeStaleCartLineInTheQueue!: number;
+  cacheEmptyPromo?: Date;
+  cacheMissingGuest!: number;
+  validateLateCateringTrayForFranchisees!: string[];
+  tightenStaleGuestForPickup!: string[];
+  paginateOversizedCartLine?: boolean;
+  paginateMissingModifierOnCheckout!: boolean;
+  backfillCancelledBowl!: number;
 }
