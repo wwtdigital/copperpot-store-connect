@@ -36,4 +36,10 @@ export const HandleLateGuestRows = [
     label: 'expose expired catering tray for pickup',
     quantity: 9,
   },
+  {
+    id: 'throttle-9930',
+    store: '653',
+    label: 'validate stale topping',
+    quantity: 12,
+  },
 ];
