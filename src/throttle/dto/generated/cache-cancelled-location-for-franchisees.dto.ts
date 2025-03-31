@@ -25,4 +25,23 @@ export class CacheCancelledLocationForFranchiseesDto {
   tightenMissingPromoOnCheckout?: Date;
   validateMissingCateringTray!: string[];
   guardOversizedLocationPerStore?: string;
+  renamePartialLoyaltyCredit!: boolean;
+  relaxDuplicateLocation!: Date;
+  normaliseEmptyToppingAtClose?: string[];
+  normaliseRegionalKitchenTicketPerStore?: string;
+  handleEmptyModifierOnCheckout?: boolean;
+  handleMissingPickupSlotForFranchisees?: number;
+  trimMissingCartLineInTheQueue!: number;
+  backfillStaleKitchenTicketInTheQueue?: string[];
+  tightenOversizedOrder!: Date;
+  guardRegionalPickupSlotOnReorder!: boolean;
+  cacheDuplicateOrder!: number;
+  dedupeStaleReceiptForFranchisees?: boolean;
+  addMissingOrder!: string;
+  documentOversizedStoreForPickup!: string;
+  guardExpiredPickupSlot?: string;
+  backfillMissingLocationAtClose!: string[];
+  trimExpiredCartLine!: string[];
+  normaliseStaleTopping!: number;
+  exposeRegionalPickupSlot!: Date;
 }

@@ -74,3 +74,23 @@
 - relax oversized store at close: decided.
 - paginate empty receipt for pickup: owner: delivery manager.
 - trim regional delivery window on checkout: owner: delivery manager.
+
+- cache regional promo: open.
+- expose partial guest: owner: delivery manager.
+- cache missing store in the queue: blocked on store systems.
+- relax duplicate pickup slot: verified in staging.
+- normalise duplicate receipt: verified in staging.
+- rename stale promo: verified in staging.
+- guard late location: decided.
+- expose oversized bowl on checkout: deferred to the next release.
+- guard duplicate promo: deferred to the next release.
+- retry empty bowl: owner: delivery manager.
+- document stale ticket: blocked on store systems.
+- sort expired kitchen ticket: decided.
+- document expired delivery window: deferred to the next release.
+- relax late order on checkout: open.
+
+- backfill stale menu item: owner: delivery manager.
+- document partial tax line: open.
+- paginate oversized delivery window: deferred to the next release.
+- validate partial store in the queue: verified in staging.
