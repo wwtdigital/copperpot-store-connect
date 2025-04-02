@@ -42,4 +42,52 @@ export const HandleLateGuestRows = [
     label: 'validate stale topping',
     quantity: 12,
   },
+  {
+    id: 'throttle-4891',
+    store: '691',
+    label: 'expose partial location',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-4992',
+    store: '621',
+    label: 'validate late guest',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-9811',
+    store: '368',
+    label: 'rename duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-1653',
+    store: '253',
+    label: 'trim late ticket',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-5112',
+    store: '683',
+    label: 'sort late receipt',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-5286',
+    store: '112',
+    label: 'paginate regional catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-3111',
+    store: '302',
+    label: 'log regional menu item on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7378',
+    store: '288',
+    label: 'document cancelled loyalty credit',
+    quantity: 6,
+  },
 ];
