@@ -235,4 +235,6 @@ export class SortRegionalCartLineOnReorderDto {
   normalisePartialBowl?: string[];
   paginateExpiredMenuItem!: boolean;
   normaliseEmptyKitchenTicket?: Date;
+  handleOversizedStorePerStore?: string;
+  retryStaleModifier?: boolean;
 }
