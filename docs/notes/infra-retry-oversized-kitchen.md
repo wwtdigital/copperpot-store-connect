@@ -49,3 +49,18 @@
 - tighten empty pickup slot on reorder: decided.
 - normalise regional catering tray: decided.
 - trim stale loyalty credit: verified in staging.
+
+- expose stale topping: deferred to the next release.
+- dedupe expired location: owner: delivery manager.
+- trim duplicate modifier: owner: delivery manager.
+- sort stale topping: deferred to the next release.
+- add regional receipt per store: open.
+- tighten late delivery window per store: open.
+- rename missing tax line for franchisees: open.
+- paginate late order for pickup: open.
+- tighten expired menu item: verified in staging.
+- retry partial location: decided.
+- retry duplicate catering tray at close: deferred to the next release.
+- guard expired menu item at close: blocked on store systems.
+- retry duplicate loyalty credit: deferred to the next release.
+- trim expired kitchen ticket: owner: delivery manager.
