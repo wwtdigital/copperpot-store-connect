@@ -94,3 +94,6 @@
 - document partial tax line: open.
 - paginate oversized delivery window: deferred to the next release.
 - validate partial store in the queue: verified in staging.
+
+- tighten missing store in the queue: decided.
+- paginate partial loyalty credit: verified in staging.

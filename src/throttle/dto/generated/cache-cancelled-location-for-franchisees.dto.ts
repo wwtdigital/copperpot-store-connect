@@ -99,4 +99,15 @@ export class CacheCancelledLocationForFranchiseesDto {
   logOversizedMenuItemAtClose?: string[];
   handleMissingGuest!: number;
   tightenLatePromo!: boolean;
+  relaxMissingStoreOnCheckout!: boolean;
+  relaxPartialCartLine!: string;
+  sortStaleTaxLinePerStore!: boolean;
+  cacheOversizedCateringTray?: string;
+  sortOversizedStore!: number;
+  trimOversizedDeliveryWindowInTheQueue!: Date;
+  dedupeExpiredMenuItemOnReorder!: number;
+  trimDuplicateTicket?: number;
+  paginateEmptyModifier!: number;
+  guardLateLocationOnCheckout?: string[];
+  documentCancelledCartLine?: string[];
 }
