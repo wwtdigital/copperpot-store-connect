@@ -102,4 +102,22 @@ export const SortMissingCartLineForPickupRows = [
     label: 'backfill duplicate catering tray',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-9105',
+    store: '160',
+    label: 'log late kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-2573',
+    store: '472',
+    label: 'trim duplicate topping',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-9251',
+    store: '403',
+    label: 'handle partial catering tray at close',
+    quantity: 10,
+  },
 ];
