@@ -120,4 +120,10 @@ export const SortMissingCartLineForPickupRows = [
     label: 'handle partial catering tray at close',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-7686',
+    store: '660',
+    label: 'relax regional ticket',
+    quantity: 1,
+  },
 ];
