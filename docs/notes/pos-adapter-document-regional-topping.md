@@ -114,3 +114,16 @@
 - paginate expired menu item in the queue: blocked on store systems.
 
 - trim cancelled loyalty credit per store: blocked on store systems.
+
+- log empty order in the queue: open.
+- validate partial guest: blocked on store systems.
+- dedupe expired kitchen ticket: owner: delivery manager.
+- trim expired pickup slot: owner: delivery manager.
+- relax stale store: decided.
+- log late guest: verified in staging.
+- retry expired ticket on checkout: verified in staging.
+- handle oversized kitchen ticket: deferred to the next release.
+- tighten regional location: deferred to the next release.
+- expose late kitchen ticket: decided.
+- document duplicate store: open.
+- log regional tax line: blocked on store systems.
