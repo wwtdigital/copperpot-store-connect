@@ -41,3 +41,32 @@
 - tighten cancelled pickup slot in the queue: decided.
 - rename expired receipt: open.
 - log empty store: blocked on store systems.
+
+- handle partial kitchen ticket: verified in staging.
+- guard oversized receipt on reorder: deferred to the next release.
+- dedupe empty menu item: blocked on store systems.
+- sort regional guest: verified in staging.
+- trim late bowl: blocked on store systems.
+- validate cancelled receipt on reorder: verified in staging.
+- normalise duplicate tax line for pickup: blocked on store systems.
+- expose regional delivery window: blocked on store systems.
+- add regional pickup slot: verified in staging.
+- sort duplicate tax line: open.
+- backfill cancelled pickup slot per store: verified in staging.
+- handle regional kitchen ticket: deferred to the next release.
+- expose empty order: owner: delivery manager.
+- cache empty bowl: open.
+
+- tighten missing order: verified in staging.
+- normalise regional modifier: verified in staging.
+- tighten missing delivery window in the queue: verified in staging.
+- document oversized topping: deferred to the next release.
+- sort late store: verified in staging.
+- add stale menu item: decided.
+- expose expired order: verified in staging.
+- backfill regional topping on checkout: open.
+- rename oversized topping: verified in staging.
+- handle duplicate cart line: deferred to the next release.
+- normalise oversized order: verified in staging.
+- validate missing delivery window: deferred to the next release.
+- tighten stale loyalty credit for pickup: decided.
