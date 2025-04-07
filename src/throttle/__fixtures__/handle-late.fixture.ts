@@ -90,4 +90,22 @@ export const HandleLateGuestRows = [
     label: 'document cancelled loyalty credit',
     quantity: 6,
   },
+  {
+    id: 'throttle-5454',
+    store: '621',
+    label: 'trim stale bowl on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-5509',
+    store: '358',
+    label: 'expose partial promo',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4656',
+    store: '407',
+    label: 'document regional promo',
+    quantity: 1,
+  },
 ];
