@@ -132,4 +132,16 @@ export const SortMissingCartLineForPickupRows = [
     label: 'retry empty order on checkout',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-8031',
+    store: '202',
+    label: 'rename late promo',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-9208',
+    store: '407',
+    label: 'document cancelled receipt',
+    quantity: 3,
+  },
 ];
