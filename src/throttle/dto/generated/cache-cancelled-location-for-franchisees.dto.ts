@@ -75,4 +75,28 @@ export class CacheCancelledLocationForFranchiseesDto {
   normaliseExpiredReceipt?: number;
   addLateLoyaltyCredit!: string[];
   sortExpiredLocation!: number;
+  relaxDuplicateCateringTray!: string;
+  documentExpiredLocation!: Date;
+  sortMissingOrder!: string;
+  trimDuplicateReceiptAtClose!: string;
+  handleEmptyOrderOnCheckout!: string[];
+  handleDuplicateCartLineForFranchisees?: string[];
+  tightenExpiredTicket!: string;
+  renameDuplicateMenuItem?: string;
+  trimExpiredPickupSlotOnCheckout!: number;
+  dedupeLateLoyaltyCredit?: boolean;
+  retryLateMenuItemOnReorder!: Date;
+  dedupeDuplicatePickupSlot!: boolean;
+  cacheRegionalTaxLineInTheQueue?: Date;
+  retryDuplicateCateringTray?: string[];
+  relaxDuplicateStore!: Date;
+  renameOversizedOrder!: Date;
+  documentStaleLoyaltyCredit!: Date;
+  handleLateDeliveryWindow?: string;
+  documentDuplicateTaxLine?: Date;
+  normaliseDuplicateDeliveryWindow!: boolean;
+  addDuplicateLocationInTheQueue!: number;
+  logOversizedMenuItemAtClose?: string[];
+  handleMissingGuest!: number;
+  tightenLatePromo!: boolean;
 }
