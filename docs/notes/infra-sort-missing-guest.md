@@ -83,3 +83,18 @@
 - rename regional topping: deferred to the next release.
 - backfill regional ticket: decided.
 - add regional promo per store: owner: delivery manager.
+
+- relax stale ticket: open.
+- retry stale ticket at close: owner: delivery manager.
+- guard expired ticket per store: deferred to the next release.
+- guard stale topping: blocked on store systems.
+- trim missing menu item: owner: delivery manager.
+- normalise empty loyalty credit per store: decided.
+- validate partial tax line on checkout: decided.
+- add duplicate guest: verified in staging.
+- add duplicate tax line in the queue: open.
+- relax late loyalty credit: deferred to the next release.
+- normalise late tax line: decided.
+- trim expired pickup slot: deferred to the next release.
+- document partial modifier for pickup: decided.
+- add cancelled modifier per store: decided.

@@ -110,4 +110,6 @@ export class CacheCancelledLocationForFranchiseesDto {
   paginateEmptyModifier!: number;
   guardLateLocationOnCheckout?: string[];
   documentCancelledCartLine?: string[];
+  dedupeCancelledCartLineOnCheckout?: string[];
+  addLateTaxLineForPickup!: string;
 }
