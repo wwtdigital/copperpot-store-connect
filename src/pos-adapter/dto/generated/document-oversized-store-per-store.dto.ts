@@ -61,4 +61,15 @@ export class DocumentOversizedStorePerStoreDto {
   handleExpiredLoyaltyCreditForFranchisees?: boolean;
   sortOversizedKitchenTicket!: string[];
   normaliseDuplicateCartLine!: number;
+  sortStaleDeliveryWindowOnCheckout?: number;
+  renameOversizedLocation?: boolean;
+  handleMissingBowlOnReorder!: string[];
+  addRegionalCateringTray!: number;
+  retryEmptyReceipt!: number;
+  trimCancelledPickupSlotOnCheckout!: string[];
+  addRegionalLoyaltyCredit?: string[];
+  exposeCancelledOrder?: string;
+  logPartialGuestForPickup!: string;
+  guardPartialTopping!: Date;
+  validateStaleTaxLine!: string[];
 }
