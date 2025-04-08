@@ -59,3 +59,6 @@
 - handle duplicate receipt for franchisees: verified in staging.
 - rename regional pickup slot: blocked on store systems.
 - relax stale store: open.
+
+- expose empty ticket: verified in staging.
+- validate regional bowl: blocked on store systems.
