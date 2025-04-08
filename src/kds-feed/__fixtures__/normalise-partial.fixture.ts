@@ -186,4 +186,58 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'paginate empty delivery window for pickup',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-2834',
+    store: '509',
+    label: 'rename missing pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8284',
+    store: '679',
+    label: 'rename stale order',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-2664',
+    store: '172',
+    label: 'paginate partial loyalty credit for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-2361',
+    store: '188',
+    label: 'sort expired receipt',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7315',
+    store: '651',
+    label: 'retry empty location',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2365',
+    store: '652',
+    label: 'cache duplicate tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-6253',
+    store: '565',
+    label: 'guard missing guest',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5930',
+    store: '609',
+    label: 'backfill partial topping at close',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-9721',
+    store: '360',
+    label: 'tighten stale order on reorder',
+    quantity: 4,
+  },
 ];
