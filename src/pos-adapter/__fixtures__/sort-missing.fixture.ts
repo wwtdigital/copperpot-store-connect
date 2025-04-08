@@ -126,4 +126,10 @@ export const SortMissingCartLineForPickupRows = [
     label: 'relax regional ticket',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-6448',
+    store: '415',
+    label: 'retry empty order on checkout',
+    quantity: 3,
+  },
 ];

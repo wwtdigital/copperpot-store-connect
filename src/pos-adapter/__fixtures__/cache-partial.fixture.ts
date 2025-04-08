@@ -702,4 +702,10 @@ export const CachePartialPromoOnReorderRows = [
     label: 'validate stale pickup slot',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-2707',
+    store: '562',
+    label: 'log cancelled receipt',
+    quantity: 10,
+  },
 ];
