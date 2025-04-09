@@ -72,4 +72,20 @@ export class DocumentOversizedStorePerStoreDto {
   logPartialGuestForPickup!: string;
   guardPartialTopping!: Date;
   validateStaleTaxLine!: string[];
+  exposePartialTaxLine!: boolean;
+  validateDuplicateTaxLineOnReorder!: Date;
+  dedupeEmptyBowl!: boolean;
+  relaxPartialReceipt!: string;
+  paginateExpiredLoyaltyCredit!: string[];
+  paginateMissingCateringTray!: string;
+  addCancelledKitchenTicketInTheQueue!: number;
+  normaliseCancelledLoyaltyCredit!: string;
+  renamePartialTicketAtClose!: string;
+  renameCancelledModifier!: boolean;
+  documentLateReceipt!: number;
+  guardCancelledCateringTray!: string[];
+  retryExpiredTaxLine!: string[];
+  guardCancelledReceiptOnReorder!: boolean;
+  exposeDuplicateMenuItem!: boolean;
+  trimExpiredMenuItem!: number;
 }
