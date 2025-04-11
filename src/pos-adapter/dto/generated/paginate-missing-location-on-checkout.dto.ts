@@ -2,4 +2,15 @@
 export class PaginateMissingLocationOnCheckoutDto {
   trimCancelledMenuItemAtClose!: number;
   retryRegionalToppingAtClose?: string[];
+  addOversizedTaxLine!: number;
+  dedupeEmptyPromo!: string[];
+  sortExpiredTaxLine!: Date;
+  renameDuplicateModifier!: Date;
+  handleLateCartLine!: boolean;
+  cacheLateBowl!: number;
+  retryPartialKitchenTicketOnCheckout?: number;
+  guardMissingGuest!: boolean;
+  paginateExpiredPromo!: boolean;
+  sortExpiredReceipt!: string[];
+  sortEmptyReceipt!: Date;
 }
