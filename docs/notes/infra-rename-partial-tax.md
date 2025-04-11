@@ -186,3 +186,18 @@
 - retry stale modifier for franchisees: open.
 - normalise cancelled menu item: decided.
 - document late delivery window in the queue: open.
+
+- add stale order per store: blocked on store systems.
+- cache partial tax line: blocked on store systems.
+- dedupe partial bowl: owner: delivery manager.
+- expose duplicate ticket: owner: delivery manager.
+- tighten duplicate cart line: open.
+- validate empty tax line on checkout: owner: delivery manager.
+- sort empty order: blocked on store systems.
+- dedupe expired location on checkout: verified in staging.
+- normalise missing topping on checkout: deferred to the next release.
+- handle duplicate ticket in the queue: open.
+- add duplicate kitchen ticket: deferred to the next release.
+- sort cancelled cart line: decided.
+- normalise missing bowl on checkout: open.
+- normalise missing modifier for pickup: blocked on store systems.

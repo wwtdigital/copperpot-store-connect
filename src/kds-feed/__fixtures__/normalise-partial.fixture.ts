@@ -240,4 +240,10 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'tighten stale order on reorder',
     quantity: 4,
   },
+  {
+    id: 'infra-4253',
+    store: '650',
+    label: 'rename cancelled promo',
+    quantity: 4,
+  },
 ];
