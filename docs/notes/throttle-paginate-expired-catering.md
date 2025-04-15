@@ -97,3 +97,18 @@
 
 - tighten missing store in the queue: decided.
 - paginate partial loyalty credit: verified in staging.
+
+- document missing modifier in the queue: owner: delivery manager.
+- sort stale delivery window: decided.
+- rename expired menu item in the queue: open.
+- document partial order: owner: delivery manager.
+- paginate late receipt: blocked on store systems.
+- document missing tax line at close: owner: delivery manager.
+- normalise missing guest: owner: delivery manager.
+- log regional pickup slot: owner: delivery manager.
+- normalise late tax line per store: blocked on store systems.
+- sort partial receipt: open.
+- paginate regional ticket on checkout: owner: delivery manager.
+- handle cancelled location: owner: delivery manager.
+- relax partial pickup slot for pickup: verified in staging.
+- sort stale pickup slot per store: blocked on store systems.

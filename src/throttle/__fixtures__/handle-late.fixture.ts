@@ -108,4 +108,52 @@ export const HandleLateGuestRows = [
     label: 'document regional promo',
     quantity: 1,
   },
+  {
+    id: 'throttle-3523',
+    store: '255',
+    label: 'tighten empty catering tray per store',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4496',
+    store: '165',
+    label: 'rename missing location',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-1276',
+    store: '125',
+    label: 'add expired ticket at close',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-2898',
+    store: '313',
+    label: 'dedupe missing kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-9446',
+    store: '162',
+    label: 'expose expired delivery window at close',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-4767',
+    store: '628',
+    label: 'sort regional loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-2819',
+    store: '548',
+    label: 'sort regional promo',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-8431',
+    store: '229',
+    label: 'dedupe cancelled guest',
+    quantity: 6,
+  },
 ];
