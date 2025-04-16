@@ -112,4 +112,27 @@ export class CacheCancelledLocationForFranchiseesDto {
   documentCancelledCartLine?: string[];
   dedupeCancelledCartLineOnCheckout?: string[];
   addLateTaxLineForPickup!: string;
+  exposeCancelledPickupSlot!: boolean;
+  addDuplicateLoyaltyCredit?: string[];
+  validateOversizedTaxLineForPickup!: string[];
+  retryMissingPickupSlot?: boolean;
+  addCancelledGuest!: string[];
+  paginateEmptyCateringTray!: string;
+  retryRegionalTopping!: string;
+  addLateBowl?: Date;
+  logPartialStoreOnReorder!: string;
+  exposeCancelledDeliveryWindow?: number;
+  dedupePartialLocationOnReorder!: string[];
+  dedupeEmptyDeliveryWindowPerStore!: string[];
+  renameLateStore!: string;
+  cacheExpiredLocationPerStore?: number;
+  normaliseCancelledStoreOnCheckout?: number;
+  normaliseCancelledKitchenTicketInTheQueue!: string;
+  addPartialPromoForFranchisees!: string;
+  tightenLateGuestOnReorder!: Date;
+  documentRegionalToppingPerStore?: boolean;
+  backfillStaleGuest!: string;
+  handleEmptyPromo!: boolean;
+  addDuplicateStoreAtClose!: string;
+  tightenExpiredBowl!: number;
 }
