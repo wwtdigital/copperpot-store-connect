@@ -127,3 +127,7 @@
 - expose late kitchen ticket: decided.
 - document duplicate store: open.
 - log regional tax line: blocked on store systems.
+
+- trim stale tax line: blocked on store systems.
+- backfill regional tax line in the queue: blocked on store systems.
+- document duplicate loyalty credit at close: verified in staging.

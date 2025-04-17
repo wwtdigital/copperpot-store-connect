@@ -774,4 +774,34 @@ export const CachePartialPromoOnReorderRows = [
     label: 'log oversized menu item for pickup',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-6981',
+    store: '580',
+    label: 'rename late store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-7812',
+    store: '453',
+    label: 'relax missing topping',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-4871',
+    store: '297',
+    label: 'guard oversized ticket',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-1876',
+    store: '102',
+    label: 'paginate regional ticket',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3485',
+    store: '516',
+    label: 'handle late loyalty credit',
+    quantity: 12,
+  },
 ];
