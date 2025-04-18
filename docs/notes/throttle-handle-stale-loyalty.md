@@ -70,3 +70,18 @@
 - normalise oversized order: verified in staging.
 - validate missing delivery window: deferred to the next release.
 - tighten stale loyalty credit for pickup: decided.
+
+- add missing bowl in the queue: open.
+- cache oversized order: open.
+- trim partial menu item per store: open.
+- dedupe empty order: decided.
+- document oversized topping: verified in staging.
+- backfill oversized delivery window: decided.
+- add expired store: deferred to the next release.
+- tighten regional receipt on checkout: verified in staging.
+- handle oversized modifier: deferred to the next release.
+- backfill oversized catering tray for pickup: deferred to the next release.
+- validate expired location on checkout: open.
+- validate late cart line: open.
+- normalise expired receipt: verified in staging.
+- backfill late cart line: open.
