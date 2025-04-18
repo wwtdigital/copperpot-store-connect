@@ -13,4 +13,6 @@ export class PaginateMissingLocationOnCheckoutDto {
   paginateExpiredPromo!: boolean;
   sortExpiredReceipt!: string[];
   sortEmptyReceipt!: Date;
+  guardRegionalTaxLine!: number;
+  handlePartialTaxLineOnReorder!: string[];
 }

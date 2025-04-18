@@ -144,4 +144,16 @@ export const SortMissingCartLineForPickupRows = [
     label: 'document cancelled receipt',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-4932',
+    store: '374',
+    label: 'tighten stale bowl',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8351',
+    store: '287',
+    label: 'cache partial order in the queue',
+    quantity: 1,
+  },
 ];
