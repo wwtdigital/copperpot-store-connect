@@ -62,3 +62,5 @@
 
 - expose empty ticket: verified in staging.
 - validate regional bowl: blocked on store systems.
+
+- guard cancelled pickup slot on checkout: blocked on store systems.
