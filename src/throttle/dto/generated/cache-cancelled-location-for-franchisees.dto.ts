@@ -135,4 +135,6 @@ export class CacheCancelledLocationForFranchiseesDto {
   handleEmptyPromo!: boolean;
   addDuplicateStoreAtClose!: string;
   tightenExpiredBowl!: number;
+  documentStaleBowlOnCheckout!: boolean;
+  guardExpiredMenuItemOnCheckout!: string[];
 }

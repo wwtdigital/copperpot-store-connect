@@ -156,4 +156,10 @@ export const AddEmptyReceiptRows = [
     label: 'dedupe cancelled loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'throttle-1261',
+    store: '168',
+    label: 'backfill cancelled kitchen ticket',
+    quantity: 2,
+  },
 ];
