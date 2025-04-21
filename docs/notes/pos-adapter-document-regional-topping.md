@@ -131,3 +131,5 @@
 - trim stale tax line: blocked on store systems.
 - backfill regional tax line in the queue: blocked on store systems.
 - document duplicate loyalty credit at close: verified in staging.
+
+- log expired pickup slot at close: deferred to the next release.

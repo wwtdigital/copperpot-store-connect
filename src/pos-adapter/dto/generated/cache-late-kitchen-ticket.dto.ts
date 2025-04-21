@@ -19,4 +19,6 @@ export class CacheLateKitchenTicketDto {
   trimRegionalCateringTray?: boolean;
   exposeDuplicateBowl?: Date;
   trimExpiredGuest!: string[];
+  relaxOversizedTaxLineOnReorder!: Date;
+  trimEmptyGuest!: number;
 }

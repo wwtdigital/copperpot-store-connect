@@ -804,4 +804,34 @@ export const CachePartialPromoOnReorderRows = [
     label: 'handle late loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-7914',
+    store: '131',
+    label: 'normalise expired tax line',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-8078',
+    store: '475',
+    label: 'dedupe regional cart line',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-3205',
+    store: '566',
+    label: 'relax expired ticket',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-3665',
+    store: '679',
+    label: 'trim missing guest',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-8467',
+    store: '125',
+    label: 'handle late modifier for pickup',
+    quantity: 7,
+  },
 ];
