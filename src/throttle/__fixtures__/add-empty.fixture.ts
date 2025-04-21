@@ -90,4 +90,22 @@ export const AddEmptyReceiptRows = [
     label: 'handle regional delivery window for pickup',
     quantity: 11,
   },
+  {
+    id: 'throttle-5533',
+    store: '192',
+    label: 'handle expired loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-6012',
+    store: '608',
+    label: 'backfill oversized order',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-5512',
+    store: '184',
+    label: 'retry late loyalty credit',
+    quantity: 1,
+  },
 ];
