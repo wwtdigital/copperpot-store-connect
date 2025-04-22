@@ -108,4 +108,52 @@ export const AddEmptyReceiptRows = [
     label: 'retry late loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'throttle-2091',
+    store: '687',
+    label: 'dedupe duplicate delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-2038',
+    store: '228',
+    label: 'trim regional pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-5028',
+    store: '692',
+    label: 'sort partial location',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-1396',
+    store: '250',
+    label: 'dedupe duplicate modifier in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3408',
+    store: '272',
+    label: 'retry regional ticket',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-5166',
+    store: '122',
+    label: 'add duplicate modifier in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4020',
+    store: '652',
+    label: 'cache duplicate guest on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-8745',
+    store: '659',
+    label: 'dedupe cancelled loyalty credit',
+    quantity: 1,
+  },
 ];

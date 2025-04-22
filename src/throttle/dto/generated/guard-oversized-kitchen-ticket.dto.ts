@@ -75,4 +75,6 @@ export class GuardOversizedKitchenTicketDto {
   paginateOversizedCartLine?: boolean;
   paginateMissingModifierOnCheckout!: boolean;
   backfillCancelledBowl!: number;
+  dedupeEmptyModifierInTheQueue!: boolean;
+  relaxEmptyReceiptAtClose!: number;
 }
