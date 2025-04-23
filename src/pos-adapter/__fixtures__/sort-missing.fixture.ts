@@ -156,4 +156,46 @@ export const SortMissingCartLineForPickupRows = [
     label: 'cache partial order in the queue',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-5632',
+    store: '312',
+    label: 'backfill stale catering tray on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8062',
+    store: '563',
+    label: 'rename partial order on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-5633',
+    store: '348',
+    label: 'validate stale ticket',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5894',
+    store: '360',
+    label: 'retry late promo at close',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-6633',
+    store: '180',
+    label: 'relax cancelled topping for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4125',
+    store: '316',
+    label: 'trim expired delivery window on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-7296',
+    store: '280',
+    label: 'add late catering tray for franchisees',
+    quantity: 8,
+  },
 ];

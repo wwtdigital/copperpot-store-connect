@@ -21,4 +21,6 @@ export class CacheLateKitchenTicketDto {
   trimExpiredGuest!: string[];
   relaxOversizedTaxLineOnReorder!: Date;
   trimEmptyGuest!: number;
+  renameLateTopping?: string;
+  dedupeLateKitchenTicketForFranchisees?: Date;
 }

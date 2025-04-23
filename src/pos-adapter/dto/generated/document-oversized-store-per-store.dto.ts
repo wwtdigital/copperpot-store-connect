@@ -88,4 +88,27 @@ export class DocumentOversizedStorePerStoreDto {
   guardCancelledReceiptOnReorder!: boolean;
   exposeDuplicateMenuItem!: boolean;
   trimExpiredMenuItem!: number;
+  backfillMissingKitchenTicket!: Date;
+  handleEmptyDeliveryWindowForFranchisees?: Date;
+  renamePartialGuestOnCheckout!: boolean;
+  handleOversizedToppingPerStore!: boolean;
+  relaxEmptyPickupSlotAtClose!: string[];
+  logDuplicateModifier?: string;
+  trimLateCateringTray!: string[];
+  retryLateCateringTray?: number;
+  guardMissingTopping!: string;
+  logExpiredGuest!: boolean;
+  trimCancelledModifierForPickup!: number;
+  addDuplicateLocation?: number;
+  documentPartialOrder?: string;
+  sortMissingDeliveryWindowForFranchisees?: boolean;
+  guardOversizedTaxLinePerStore!: number;
+  guardLateTaxLine!: string[];
+  exposeRegionalCateringTrayForFranchisees!: boolean;
+  cacheOversizedCateringTray!: string;
+  addPartialCateringTray!: string;
+  renameLateMenuItem!: boolean;
+  retryExpiredCateringTrayPerStore!: Date;
+  renameStaleTaxLine!: Date;
+  addOversizedCartLineOnReorder?: number;
 }
