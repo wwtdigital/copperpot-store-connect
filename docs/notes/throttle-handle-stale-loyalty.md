@@ -85,3 +85,18 @@
 - validate late cart line: open.
 - normalise expired receipt: verified in staging.
 - backfill late cart line: open.
+
+- backfill stale catering tray: blocked on store systems.
+- guard expired receipt: open.
+- relax late kitchen ticket on reorder: open.
+- rename missing receipt: owner: delivery manager.
+- retry oversized modifier: blocked on store systems.
+- paginate missing receipt at close: owner: delivery manager.
+- cache oversized kitchen ticket: owner: delivery manager.
+- handle duplicate pickup slot: verified in staging.
+- tighten late tax line: owner: delivery manager.
+- handle duplicate pickup slot: deferred to the next release.
+- sort duplicate tax line: blocked on store systems.
+- validate stale topping: verified in staging.
+- log oversized guest: deferred to the next release.
+- normalise late kitchen ticket on reorder: decided.

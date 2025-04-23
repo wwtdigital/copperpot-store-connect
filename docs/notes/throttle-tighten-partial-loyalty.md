@@ -32,3 +32,18 @@
 - trim cancelled loyalty credit: blocked on store systems.
 - sort cancelled catering tray in the queue: verified in staging.
 - retry missing delivery window: blocked on store systems.
+
+- dedupe oversized delivery window: owner: delivery manager.
+- handle duplicate catering tray in the queue: verified in staging.
+- log regional location: open.
+- retry partial location: owner: delivery manager.
+- rename empty catering tray per store: open.
+- backfill duplicate modifier: blocked on store systems.
+- relax expired ticket on checkout: blocked on store systems.
+- backfill missing modifier: blocked on store systems.
+- expose expired menu item: deferred to the next release.
+- handle regional cart line at close: owner: delivery manager.
+- validate oversized receipt per store: owner: delivery manager.
+- relax missing delivery window: open.
+- retry regional guest: deferred to the next release.
+- tighten late kitchen ticket: blocked on store systems.
