@@ -23,4 +23,28 @@ export class CacheLateKitchenTicketDto {
   trimEmptyGuest!: number;
   renameLateTopping?: string;
   dedupeLateKitchenTicketForFranchisees?: Date;
+  documentRegionalTaxLine?: Date;
+  cacheOversizedTicket?: string;
+  trimExpiredLoyaltyCredit!: Date;
+  renameLateDeliveryWindow!: Date;
+  relaxDuplicateGuestOnCheckout?: number;
+  validateExpiredPromoAtClose!: string[];
+  backfillExpiredReceipt?: string;
+  trimCancelledDeliveryWindow!: number;
+  documentMissingDeliveryWindow!: number;
+  validateDuplicateLoyaltyCreditForPickup!: string;
+  handleStaleCateringTray!: string;
+  retryDuplicateOrderOnReorder!: Date;
+  tightenDuplicateTicket!: Date;
+  addRegionalCateringTray!: string;
+  tightenExpiredLocationOnCheckout?: string[];
+  tightenStaleBowl!: string;
+  sortRegionalCartLineOnReorder?: boolean;
+  tightenEmptyCartLine?: number;
+  dedupeDuplicateLoyaltyCreditForFranchisees?: boolean;
+  retryPartialTopping!: number;
+  normaliseCancelledStore!: boolean;
+  retryPartialMenuItem!: string[];
+  logMissingCartLine!: Date;
+  exposeEmptyModifier!: Date;
 }

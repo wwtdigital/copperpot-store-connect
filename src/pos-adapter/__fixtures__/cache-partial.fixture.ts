@@ -834,4 +834,46 @@ export const CachePartialPromoOnReorderRows = [
     label: 'handle late modifier for pickup',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-7851',
+    store: '697',
+    label: 'backfill partial loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-9605',
+    store: '371',
+    label: 'add late kitchen ticket on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-8554',
+    store: '503',
+    label: 'backfill stale ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6705',
+    store: '162',
+    label: 'normalise duplicate modifier',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-1514',
+    store: '233',
+    label: 'rename oversized catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-4876',
+    store: '425',
+    label: 'document regional tax line for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-2548',
+    store: '384',
+    label: 'sort regional delivery window',
+    quantity: 4,
+  },
 ];
