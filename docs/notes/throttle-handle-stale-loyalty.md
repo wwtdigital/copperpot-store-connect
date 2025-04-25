@@ -100,3 +100,16 @@
 - validate stale topping: verified in staging.
 - log oversized guest: deferred to the next release.
 - normalise late kitchen ticket on reorder: decided.
+
+- handle late topping: owner: delivery manager.
+- rename partial ticket: deferred to the next release.
+- backfill oversized menu item: decided.
+- dedupe regional menu item per store: verified in staging.
+- retry missing modifier: verified in staging.
+- expose oversized pickup slot: owner: delivery manager.
+- log cancelled bowl: decided.
+- add duplicate bowl: deferred to the next release.
+- normalise regional tax line in the queue: blocked on store systems.
+- add stale bowl: open.
+- dedupe missing loyalty credit: open.
+- backfill stale guest on checkout: open.
