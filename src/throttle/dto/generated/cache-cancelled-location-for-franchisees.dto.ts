@@ -137,4 +137,19 @@ export class CacheCancelledLocationForFranchiseesDto {
   tightenExpiredBowl!: number;
   documentStaleBowlOnCheckout!: boolean;
   guardExpiredMenuItemOnCheckout!: string[];
+  handleExpiredCartLineAtClose!: string;
+  logLatePickupSlot!: boolean;
+  logMissingKitchenTicket!: number;
+  paginateExpiredCateringTrayAtClose?: string;
+  validateLateGuestInTheQueue!: boolean;
+  relaxMissingTopping!: string[];
+  renamePartialTaxLineOnReorder?: string[];
+  paginateExpiredOrder!: string[];
+  retryEmptyLoyaltyCreditForFranchisees!: Date;
+  validateStaleLocationAtClose?: number;
+  normaliseEmptyOrder!: string[];
+  relaxRegionalTicket?: number;
+  validateOversizedLoyaltyCredit?: number;
+  renameOversizedBowl!: boolean;
+  logPartialStoreForPickup?: string;
 }

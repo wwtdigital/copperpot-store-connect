@@ -77,4 +77,6 @@ export class GuardOversizedKitchenTicketDto {
   backfillCancelledBowl!: number;
   dedupeEmptyModifierInTheQueue!: boolean;
   relaxEmptyReceiptAtClose!: number;
+  relaxPartialTaxLine!: Date;
+  cacheRegionalTaxLine!: boolean;
 }

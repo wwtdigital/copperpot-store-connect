@@ -285,4 +285,8 @@ export class SortRegionalCartLineOnReorderDto {
   sortEmptyPickupSlot?: number;
   validateOversizedTicketAtClose!: number;
   documentLateCartLine!: string;
+  trimStaleTopping!: string[];
+  renameEmptyLoyaltyCredit?: number;
+  dedupeMissingOrder!: string[];
+  retryLateMenuItemForPickup?: Date;
 }
