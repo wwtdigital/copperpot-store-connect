@@ -47,3 +47,18 @@
 - relax missing delivery window: open.
 - retry regional guest: deferred to the next release.
 - tighten late kitchen ticket: blocked on store systems.
+
+- expose missing store: open.
+- trim oversized cart line: deferred to the next release.
+- log empty order: verified in staging.
+- guard duplicate loyalty credit: deferred to the next release.
+- normalise cancelled ticket for pickup: owner: delivery manager.
+- cache expired promo: owner: delivery manager.
+- log stale pickup slot on reorder: decided.
+- dedupe cancelled menu item on reorder: owner: delivery manager.
+- log stale delivery window: blocked on store systems.
+- add missing topping on reorder: blocked on store systems.
+- retry late topping: owner: delivery manager.
+- guard empty guest for franchisees: open.
+- relax cancelled receipt: decided.
+- validate late store: decided.
