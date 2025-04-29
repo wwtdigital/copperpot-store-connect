@@ -342,4 +342,34 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'tighten expired location in the queue',
     quantity: 6,
   },
+  {
+    id: 'infra-5177',
+    store: '177',
+    label: 'dedupe expired catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5026',
+    store: '108',
+    label: 'trim empty ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-2442',
+    store: '140',
+    label: 'relax partial catering tray for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'infra-8493',
+    store: '476',
+    label: 'cache expired location for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'infra-3902',
+    store: '455',
+    label: 'cache regional promo',
+    quantity: 10,
+  },
 ];

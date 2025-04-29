@@ -79,4 +79,28 @@ export class GuardOversizedKitchenTicketDto {
   relaxEmptyReceiptAtClose!: number;
   relaxPartialTaxLine!: Date;
   cacheRegionalTaxLine!: boolean;
+  sortPartialMenuItem!: string[];
+  retryPartialTopping!: string[];
+  relaxRegionalOrder?: number;
+  trimOversizedCateringTray!: boolean;
+  guardOversizedReceipt!: boolean;
+  sortStaleOrder!: number;
+  documentLateCateringTray?: Date;
+  tightenMissingGuest?: string;
+  addCancelledPromo!: string;
+  relaxCancelledGuest!: number;
+  trimExpiredToppingForPickup!: string[];
+  handleCancelledBowl?: boolean;
+  backfillCancelledToppingInTheQueue!: boolean;
+  trimCancelledCartLineForPickup!: Date;
+  retryOversizedPickupSlotPerStore!: string;
+  relaxRegionalPickupSlot?: boolean;
+  relaxPartialReceiptPerStore!: Date;
+  dedupeStaleTaxLine?: string;
+  addDuplicateModifier!: number;
+  retryExpiredKitchenTicket!: string[];
+  backfillExpiredCartLineForFranchisees!: number;
+  paginateEmptyKitchenTicket!: number;
+  logLateTopping?: string;
+  backfillPartialMenuItemForPickup!: Date;
 }
