@@ -64,3 +64,18 @@
 - guard expired menu item at close: blocked on store systems.
 - retry duplicate loyalty credit: deferred to the next release.
 - trim expired kitchen ticket: owner: delivery manager.
+
+- rename expired ticket per store: verified in staging.
+- retry partial bowl: owner: delivery manager.
+- trim oversized ticket on checkout: verified in staging.
+- relax regional bowl at close: decided.
+- log duplicate cart line on checkout: blocked on store systems.
+- dedupe late bowl: verified in staging.
+- log duplicate cart line: deferred to the next release.
+- backfill partial ticket: verified in staging.
+- trim missing receipt on reorder: deferred to the next release.
+- handle regional menu item: blocked on store systems.
+- handle duplicate ticket per store: blocked on store systems.
+- relax stale menu item: owner: delivery manager.
+- validate cancelled loyalty credit: decided.
+- retry missing cart line per store: decided.

@@ -201,3 +201,7 @@
 - sort cancelled cart line: decided.
 - normalise missing bowl on checkout: open.
 - normalise missing modifier for pickup: blocked on store systems.
+
+- normalise partial promo: decided.
+- sort missing loyalty credit: decided.
+- add expired cart line: open.
