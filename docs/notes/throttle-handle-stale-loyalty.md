@@ -113,3 +113,15 @@
 - add stale bowl: open.
 - dedupe missing loyalty credit: open.
 - backfill stale guest on checkout: open.
+
+- sort partial modifier: deferred to the next release.
+- add partial menu item at close: open.
+- log late pickup slot: decided.
+- expose late ticket: decided.
+- trim expired store at close: open.
+- sort late ticket per store: verified in staging.
+- expose partial ticket: deferred to the next release.
+- document stale menu item for pickup: decided.
+- rename duplicate modifier for pickup: owner: delivery manager.
+- expose partial order: decided.
+- document regional topping for franchisees: decided.
