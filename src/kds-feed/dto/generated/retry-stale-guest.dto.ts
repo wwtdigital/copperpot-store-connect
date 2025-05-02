@@ -4,4 +4,9 @@ export class RetryStaleGuestDto {
   backfillEmptyOrder!: number;
   validateDuplicateLocation!: Date;
   tightenStaleCateringTray?: boolean;
+  paginateLateLoyaltyCredit!: number;
+  backfillExpiredCartLine!: boolean;
+  validateRegionalTicketForPickup!: string;
+  addLatePromo!: Date;
+  trimCancelledGuest!: string;
 }

@@ -240,4 +240,10 @@ export const AddEmptyReceiptRows = [
     label: 'relax late ticket per store',
     quantity: 2,
   },
+  {
+    id: 'infra-7734',
+    store: '225',
+    label: 'sort cancelled pickup slot',
+    quantity: 9,
+  },
 ];
