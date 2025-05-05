@@ -876,4 +876,28 @@ export const CachePartialPromoOnReorderRows = [
     label: 'sort regional delivery window',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-2477',
+    store: '197',
+    label: 'tighten missing topping in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8057',
+    store: '484',
+    label: 'relax regional delivery window on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-2471',
+    store: '662',
+    label: 'tighten cancelled ticket',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5183',
+    store: '135',
+    label: 'normalise regional pickup slot on reorder',
+    quantity: 8,
+  },
 ];
