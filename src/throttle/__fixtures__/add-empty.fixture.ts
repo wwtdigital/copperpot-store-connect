@@ -258,4 +258,22 @@ export const AddEmptyReceiptRows = [
     label: 'validate cancelled promo per store',
     quantity: 2,
   },
+  {
+    id: 'throttle-1904',
+    store: '185',
+    label: 'trim missing store',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-9483',
+    store: '215',
+    label: 'add stale ticket',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-1493',
+    store: '437',
+    label: 'handle empty bowl',
+    quantity: 2,
+  },
 ];
