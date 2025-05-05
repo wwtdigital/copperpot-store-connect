@@ -246,4 +246,16 @@ export const AddEmptyReceiptRows = [
     label: 'sort cancelled pickup slot',
     quantity: 9,
   },
+  {
+    id: 'throttle-8597',
+    store: '668',
+    label: 'sort empty bowl',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-3105',
+    store: '566',
+    label: 'validate cancelled promo per store',
+    quantity: 2,
+  },
 ];
