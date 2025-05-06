@@ -14,3 +14,18 @@
 - dedupe empty ticket: deferred to the next release.
 - paginate duplicate receipt for franchisees: deferred to the next release.
 - retry expired modifier per store: decided.
+
+- trim stale order for pickup: owner: delivery manager.
+- trim cancelled menu item for franchisees: decided.
+- rename stale menu item for franchisees: verified in staging.
+- retry empty ticket: owner: delivery manager.
+- handle missing receipt: blocked on store systems.
+- paginate missing delivery window: verified in staging.
+- backfill oversized cart line: decided.
+- guard duplicate receipt: decided.
+- backfill stale promo per store: verified in staging.
+- add stale store: blocked on store systems.
+- relax regional kitchen ticket: decided.
+- backfill oversized catering tray: blocked on store systems.
+- retry regional location: decided.
+- expose oversized cart line on checkout: blocked on store systems.
