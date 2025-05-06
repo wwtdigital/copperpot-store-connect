@@ -112,3 +112,13 @@
 - handle cancelled location: owner: delivery manager.
 - relax partial pickup slot for pickup: verified in staging.
 - sort stale pickup slot per store: blocked on store systems.
+
+- add duplicate promo: deferred to the next release.
+- guard expired menu item per store: decided.
+- retry stale order on reorder: verified in staging.
+- retry duplicate cart line in the queue: decided.
+- validate cancelled catering tray: decided.
+- sort oversized store in the queue: verified in staging.
+- document missing bowl: decided.
+- validate regional modifier: deferred to the next release.
+- backfill regional ticket: decided.
