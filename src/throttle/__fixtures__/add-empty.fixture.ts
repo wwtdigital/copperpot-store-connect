@@ -234,4 +234,10 @@ export const AddEmptyReceiptRows = [
     label: 'document late tax line for franchisees',
     quantity: 12,
   },
+  {
+    id: 'infra-2037',
+    store: '339',
+    label: 'relax late ticket per store',
+    quantity: 2,
+  },
 ];
