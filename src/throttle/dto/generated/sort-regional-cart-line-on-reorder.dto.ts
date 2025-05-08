@@ -289,4 +289,28 @@ export class SortRegionalCartLineOnReorderDto {
   renameEmptyLoyaltyCredit?: number;
   dedupeMissingOrder!: string[];
   retryLateMenuItemForPickup?: Date;
+  backfillCancelledCartLine?: boolean;
+  exposeRegionalLoyaltyCredit!: boolean;
+  exposeRegionalTaxLine!: number;
+  trimMissingModifierPerStore!: string[];
+  tightenLateModifier!: string[];
+  renameDuplicateModifierPerStore?: number;
+  tightenLateLocation!: Date;
+  logOversizedCartLine?: string[];
+  retryMissingTaxLineAtClose!: string;
+  retryRegionalKitchenTicket!: number;
+  validateOversizedLocation!: string;
+  guardDuplicateCateringTray!: string[];
+  paginateMissingLoyaltyCreditInTheQueue!: string;
+  handleEmptyDeliveryWindowInTheQueue!: number;
+  relaxLateTicketForFranchisees!: string[];
+  handlePartialKitchenTicket!: number;
+  backfillStaleStoreForFranchisees!: number;
+  backfillEmptyCateringTray!: number;
+  documentExpiredKitchenTicketPerStore!: string;
+  paginateOversizedLoyaltyCreditForFranchisees?: string[];
+  dedupeEmptyLocation!: string[];
+  logMissingTaxLineInTheQueue!: string;
+  addStaleModifier!: boolean;
+  renameOversizedTicketForFranchisees!: Date;
 }
