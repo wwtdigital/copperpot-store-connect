@@ -313,4 +313,26 @@ export class SortRegionalCartLineOnReorderDto {
   logMissingTaxLineInTheQueue!: string;
   addStaleModifier!: boolean;
   renameOversizedTicketForFranchisees!: Date;
+  normalisePartialGuestOnCheckout!: Date;
+  trimLateTaxLineAtClose?: string[];
+  sortPartialLoyaltyCredit!: number;
+  dedupeExpiredGuest?: string[];
+  normaliseEmptyMenuItem!: string[];
+  sortOversizedOrder?: boolean;
+  relaxCancelledStore?: number;
+  dedupeDuplicateModifierForFranchisees!: string;
+  guardOversizedCartLineOnCheckout?: boolean;
+  exposeDuplicateCateringTray?: Date;
+  normaliseExpiredBowl?: string;
+  handleStaleTopping!: number;
+  validateLateLoyaltyCreditPerStore!: Date;
+  sortPartialOrderPerStore!: string;
+  normaliseExpiredPromoPerStore!: boolean;
+  documentDuplicateMenuItem!: boolean;
+  dedupeLateMenuItem!: string[];
+  handleLateTicket!: number;
+  trimRegionalGuest!: string[];
+  documentExpiredCartLine?: Date;
+  tightenPartialKitchenTicketForPickup?: string;
+  trimMissingReceipt!: string;
 }
