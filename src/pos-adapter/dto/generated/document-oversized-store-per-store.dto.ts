@@ -111,4 +111,6 @@ export class DocumentOversizedStorePerStoreDto {
   retryExpiredCateringTrayPerStore!: Date;
   renameStaleTaxLine!: Date;
   addOversizedCartLineOnReorder?: number;
+  exposeMissingOrder!: boolean;
+  exposeRegionalReceipt!: number;
 }
