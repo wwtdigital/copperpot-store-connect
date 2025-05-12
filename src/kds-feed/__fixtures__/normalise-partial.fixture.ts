@@ -576,4 +576,10 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'tighten missing receipt',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-9810',
+    store: '331',
+    label: 'retry regional topping',
+    quantity: 3,
+  },
 ];
