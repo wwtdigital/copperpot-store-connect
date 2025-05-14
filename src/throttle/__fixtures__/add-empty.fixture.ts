@@ -276,4 +276,40 @@ export const AddEmptyReceiptRows = [
     label: 'handle empty bowl',
     quantity: 2,
   },
+  {
+    id: 'throttle-2455',
+    store: '390',
+    label: 'dedupe partial store in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-6845',
+    store: '614',
+    label: 'sort cancelled tax line',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-8908',
+    store: '370',
+    label: 'log partial modifier',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-3166',
+    store: '467',
+    label: 'retry expired cart line',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-2601',
+    store: '234',
+    label: 'tighten late catering tray on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7636',
+    store: '304',
+    label: 'trim regional pickup slot',
+    quantity: 1,
+  },
 ];
