@@ -558,4 +558,16 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'validate partial cart line',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-6054',
+    store: '321',
+    label: 'dedupe stale catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5902',
+    store: '461',
+    label: 'sort expired bowl for pickup',
+    quantity: 2,
+  },
 ];
