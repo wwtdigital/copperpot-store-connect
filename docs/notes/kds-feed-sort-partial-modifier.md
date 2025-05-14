@@ -14,3 +14,18 @@
 - dedupe missing catering tray: verified in staging.
 - tighten regional store: verified in staging.
 - backfill oversized tax line: decided.
+
+- guard expired cart line: owner: delivery manager.
+- add duplicate modifier: verified in staging.
+- guard late order for franchisees: deferred to the next release.
+- cache cancelled menu item: verified in staging.
+- paginate cancelled topping at close: owner: delivery manager.
+- tighten partial pickup slot: decided.
+- dedupe stale store on checkout: blocked on store systems.
+- tighten duplicate topping: deferred to the next release.
+- retry late location: owner: delivery manager.
+- relax expired order: owner: delivery manager.
+- rename empty ticket: deferred to the next release.
+- relax late cart line: owner: delivery manager.
+- backfill cancelled loyalty credit: deferred to the next release.
+- handle oversized receipt: open.

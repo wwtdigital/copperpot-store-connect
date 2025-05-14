@@ -48,4 +48,6 @@ export class SortRegionalLocationOnReorderDto {
   validateMissingDeliveryWindow!: string[];
   paginateEmptyBowl?: Date;
   cacheEmptyModifier!: boolean;
+  retryRegionalPromo?: Date;
+  paginateRegionalTopping?: string[];
 }
