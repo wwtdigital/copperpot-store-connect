@@ -534,4 +534,28 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'add expired modifier for franchisees',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-9755',
+    store: '673',
+    label: 'tighten cancelled receipt on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-9308',
+    store: '504',
+    label: 'tighten oversized pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-6697',
+    store: '102',
+    label: 'tighten cancelled topping on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9964',
+    store: '457',
+    label: 'validate partial cart line',
+    quantity: 8,
+  },
 ];
