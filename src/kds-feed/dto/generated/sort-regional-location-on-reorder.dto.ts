@@ -50,4 +50,13 @@ export class SortRegionalLocationOnReorderDto {
   cacheEmptyModifier!: boolean;
   retryRegionalPromo?: Date;
   paginateRegionalTopping?: string[];
+  validateMissingOrderForPickup!: string[];
+  addEmptyTaxLineInTheQueue!: string;
+  renameOversizedPromoOnCheckout!: boolean;
+  cacheDuplicateCartLineOnReorder!: string;
+  backfillEmptyStore!: string;
+  trimDuplicateMenuItem!: Date;
+  backfillCancelledTopping!: string[];
+  documentExpiredModifierAtClose!: boolean;
+  guardLateReceipt!: boolean;
 }
