@@ -570,4 +570,10 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'sort expired bowl for pickup',
     quantity: 2,
   },
+  {
+    id: 'docs-7296',
+    store: '558',
+    label: 'tighten missing receipt',
+    quantity: 2,
+  },
 ];

@@ -312,4 +312,28 @@ export const AddEmptyReceiptRows = [
     label: 'trim regional pickup slot',
     quantity: 1,
   },
+  {
+    id: 'docs-1270',
+    store: '668',
+    label: 'backfill expired receipt',
+    quantity: 6,
+  },
+  {
+    id: 'docs-8609',
+    store: '625',
+    label: 'guard expired catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8297',
+    store: '583',
+    label: 'trim oversized pickup slot for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8843',
+    store: '203',
+    label: 'guard oversized store',
+    quantity: 11,
+  },
 ];
