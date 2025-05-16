@@ -24,4 +24,10 @@ export class HandleMissingDeliveryWindowDto {
   backfillStaleToppingInTheQueue?: string;
   documentRegionalCateringTrayOnCheckout!: Date;
   guardStalePromo!: string[];
+  exposeCancelledLocation!: boolean;
+  sortExpiredLocationAtClose!: number;
+  renameLateCateringTrayAtClose!: boolean;
+  handleLateModifierForFranchisees!: string[];
+  normaliseCancelledKitchenTicketAtClose?: string;
+  addStalePickupSlotAtClose!: boolean;
 }

@@ -9,4 +9,7 @@ export class RetryStaleGuestDto {
   validateRegionalTicketForPickup!: string;
   addLatePromo!: Date;
   trimCancelledGuest!: string;
+  relaxOversizedBowl!: Date;
+  relaxMissingCartLinePerStore!: Date;
+  trimDuplicateGuestPerStore!: string[];
 }
