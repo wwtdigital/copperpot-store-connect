@@ -55,4 +55,27 @@ export class HandleMissingDeliveryWindowDto {
   sortOversizedLoyaltyCredit?: number;
   paginateLateGuest?: string;
   handleDuplicateDeliveryWindow?: boolean;
+  addRegionalCartLine!: string;
+  paginateLateDeliveryWindowPerStore!: string;
+  backfillStaleTaxLineOnReorder?: string[];
+  sortOversizedReceiptOnCheckout!: string;
+  sortRegionalLoyaltyCredit!: boolean;
+  cacheRegionalOrder!: string[];
+  cachePartialReceipt?: string[];
+  validateRegionalTicketOnCheckout?: Date;
+  renameExpiredLocation!: boolean;
+  sortMissingMenuItem!: boolean;
+  guardExpiredBowl?: number;
+  cacheMissingKitchenTicketInTheQueue!: Date;
+  handleRegionalDeliveryWindow?: string[];
+  dedupeLateTopping?: string;
+  documentMissingCartLine!: Date;
+  handleCancelledPromoAtClose?: string[];
+  validateCancelledTicketInTheQueue!: Date;
+  relaxDuplicateReceipt!: boolean;
+  normaliseEmptyOrderForPickup!: boolean;
+  trimEmptyPromoInTheQueue!: boolean;
+  trimCancelledModifier?: Date;
+  retryCancelledDeliveryWindow!: string[];
+  renameMissingOrderOnReorder!: Date;
 }
