@@ -78,4 +78,28 @@ export class HandleMissingDeliveryWindowDto {
   trimCancelledModifier?: Date;
   retryCancelledDeliveryWindow!: string[];
   renameMissingOrderOnReorder!: Date;
+  guardEmptyLoyaltyCreditOnReorder?: boolean;
+  logExpiredLoyaltyCreditPerStore?: boolean;
+  paginateRegionalPickupSlotAtClose!: number;
+  sortMissingCateringTray?: number;
+  validateExpiredReceipt!: number;
+  normaliseCancelledTicket!: boolean;
+  sortRegionalReceipt?: number;
+  logDuplicateLoyaltyCreditOnCheckout!: number;
+  paginateRegionalCartLine!: Date;
+  relaxPartialTopping!: number;
+  dedupeExpiredDeliveryWindowForPickup!: boolean;
+  logExpiredBowl!: string;
+  normaliseStaleTaxLine!: number;
+  validateRegionalPickupSlot!: Date;
+  exposePartialDeliveryWindowAtClose!: number;
+  cacheLatePickupSlot!: string[];
+  dedupeCancelledLoyaltyCredit!: boolean;
+  validateRegionalPickupSlotAtClose?: string[];
+  renameOversizedPromoAtClose!: Date;
+  relaxCancelledDeliveryWindowPerStore?: boolean;
+  logMissingLocationAtClose!: number;
+  normalisePartialMenuItem!: string;
+  paginateOversizedLoyaltyCreditOnCheckout!: string;
+  addCancelledPickupSlot?: Date;
 }

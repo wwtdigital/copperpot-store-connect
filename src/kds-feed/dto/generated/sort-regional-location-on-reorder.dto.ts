@@ -59,4 +59,23 @@ export class SortRegionalLocationOnReorderDto {
   backfillCancelledTopping!: string[];
   documentExpiredModifierAtClose!: boolean;
   guardLateReceipt!: boolean;
+  handleStalePickupSlotPerStore!: boolean;
+  exposeStaleDeliveryWindowInTheQueue!: Date;
+  logCancelledLocation!: string;
+  paginateExpiredTaxLine!: number;
+  validateExpiredDeliveryWindow!: boolean;
+  addPartialDeliveryWindow?: boolean;
+  cacheLateDeliveryWindowAtClose!: Date;
+  logDuplicateModifier!: string[];
+  backfillEmptyKitchenTicket!: string;
+  validateOversizedReceiptOnCheckout?: Date;
+  guardRegionalReceiptOnReorder!: number;
+  handleLateCateringTrayAtClose!: number;
+  sortExpiredCartLineForPickup?: string;
+  tightenPartialMenuItemForFranchisees?: string;
+  cacheLateReceipt!: string[];
+  retryEmptyLoyaltyCredit?: number;
+  validateStaleCateringTrayOnReorder!: string;
+  paginateMissingTaxLine!: string[];
+  dedupeDuplicateBowl?: boolean;
 }

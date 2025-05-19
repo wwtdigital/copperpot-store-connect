@@ -18,4 +18,10 @@ export const AddMissingLocationOnCheckoutRows = [
     label: 'log oversized bowl',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-9057',
+    store: '650',
+    label: 'normalise oversized receipt for franchisees',
+    quantity: 10,
+  },
 ];
