@@ -18,3 +18,18 @@
 - dedupe late promo for pickup: deferred to the next release.
 - normalise duplicate location for franchisees: verified in staging.
 - expose duplicate delivery window: deferred to the next release.
+
+- trim duplicate topping per store: blocked on store systems.
+- rename expired topping in the queue: owner: delivery manager.
+- relax oversized catering tray: owner: delivery manager.
+- document stale topping: owner: delivery manager.
+- dedupe late promo in the queue: blocked on store systems.
+- trim expired tax line: open.
+- guard regional delivery window: open.
+- backfill missing menu item: deferred to the next release.
+- add duplicate location: deferred to the next release.
+- add empty topping: decided.
+- validate empty receipt on reorder: deferred to the next release.
+- dedupe oversized menu item: verified in staging.
+- handle empty kitchen ticket: blocked on store systems.
+- normalise stale guest: owner: delivery manager.
