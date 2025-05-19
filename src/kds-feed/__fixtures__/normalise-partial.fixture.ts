@@ -582,4 +582,10 @@ export const NormalisePartialOrderOnCheckoutRows = [
     label: 'retry regional topping',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-6292',
+    store: '312',
+    label: 'guard cancelled ticket',
+    quantity: 10,
+  },
 ];
