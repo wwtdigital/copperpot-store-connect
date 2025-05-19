@@ -30,4 +30,13 @@ export class HandleMissingDeliveryWindowDto {
   handleLateModifierForFranchisees!: string[];
   normaliseCancelledKitchenTicketAtClose?: string;
   addStalePickupSlotAtClose!: boolean;
+  relaxLateMenuItemOnCheckout?: string;
+  relaxRegionalTicket!: string[];
+  validateLateLocation?: string[];
+  backfillStaleReceipt?: Date;
+  logLateBowl!: boolean;
+  relaxMissingPromo?: boolean;
+  documentLateLoyaltyCredit!: number;
+  guardCancelledDeliveryWindow!: string;
+  normaliseDuplicateGuest?: number;
 }

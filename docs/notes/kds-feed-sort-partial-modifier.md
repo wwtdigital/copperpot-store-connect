@@ -29,3 +29,29 @@
 - relax late cart line: owner: delivery manager.
 - backfill cancelled loyalty credit: deferred to the next release.
 - handle oversized receipt: open.
+
+- rename stale modifier: deferred to the next release.
+- normalise partial catering tray: blocked on store systems.
+- expose stale modifier: owner: delivery manager.
+- add duplicate ticket: decided.
+- sort stale location: owner: delivery manager.
+- log missing guest: blocked on store systems.
+- rename regional receipt: open.
+- backfill duplicate kitchen ticket: blocked on store systems.
+- cache missing modifier: open.
+- cache late order per store: open.
+- paginate oversized guest: decided.
+- normalise partial guest at close: open.
+- handle stale loyalty credit at close: decided.
+- retry expired bowl per store: blocked on store systems.
+
+- guard oversized menu item for franchisees: decided.
+- cache empty topping for pickup: verified in staging.
+- trim late order per store: owner: delivery manager.
+- sort late pickup slot: deferred to the next release.
+- add duplicate menu item: blocked on store systems.
+- expose duplicate delivery window for franchisees: decided.
+- document regional bowl: blocked on store systems.
+- validate duplicate ticket at close: owner: delivery manager.
+- guard regional bowl: deferred to the next release.
+- retry missing store on checkout: verified in staging.
