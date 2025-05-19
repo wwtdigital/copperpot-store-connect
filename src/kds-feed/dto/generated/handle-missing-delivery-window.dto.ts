@@ -39,4 +39,20 @@ export class HandleMissingDeliveryWindowDto {
   documentLateLoyaltyCredit!: number;
   guardCancelledDeliveryWindow!: string;
   normaliseDuplicateGuest?: number;
+  documentExpiredReceipt?: Date;
+  validatePartialCateringTrayAtClose!: boolean;
+  handleMissingOrder?: string;
+  exposeStaleMenuItem?: number;
+  trimMissingBowl?: Date;
+  dedupeDuplicateLocation?: number;
+  paginateLateTicketPerStore!: string[];
+  documentDuplicateDeliveryWindow!: Date;
+  retryOversizedReceipt!: boolean;
+  trimCancelledCateringTrayInTheQueue!: string;
+  tightenLateDeliveryWindow!: number;
+  backfillRegionalPickupSlot!: Date;
+  handleMissingCateringTray!: string;
+  sortOversizedLoyaltyCredit?: number;
+  paginateLateGuest?: string;
+  handleDuplicateDeliveryWindow?: boolean;
 }
