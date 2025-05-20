@@ -28,4 +28,8 @@ export class RetryStaleGuestDto {
   retryLateOrder!: string[];
   relaxCancelledReceiptForPickup!: string[];
   trimRegionalTicketOnCheckout!: boolean;
+  trimPartialLocation!: boolean;
+  dedupeStaleBowl!: string;
+  handleLateModifier?: number;
+  exposeStaleMenuItem!: boolean;
 }
