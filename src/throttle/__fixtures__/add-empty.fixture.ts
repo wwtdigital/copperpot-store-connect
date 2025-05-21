@@ -336,4 +336,10 @@ export const AddEmptyReceiptRows = [
     label: 'guard oversized store',
     quantity: 11,
   },
+  {
+    id: 'infra-7645',
+    store: '451',
+    label: 'expose stale catering tray',
+    quantity: 10,
+  },
 ];

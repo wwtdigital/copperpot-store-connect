@@ -194,3 +194,18 @@
 - tighten duplicate cart line: open.
 - validate empty tax line on checkout: owner: delivery manager.
 - sort empty order: blocked on store systems.
+
+- sort oversized promo in the queue: decided.
+- sort missing receipt: blocked on store systems.
+- cache empty tax line: owner: delivery manager.
+- tighten late location: open.
+- retry empty pickup slot at close: verified in staging.
+- validate stale cart line: open.
+- sort expired catering tray: verified in staging.
+- tighten regional catering tray for franchisees: deferred to the next release.
+- validate partial cart line per store: verified in staging.
+- expose oversized promo: deferred to the next release.
+- trim partial order: decided.
+- handle regional pickup slot: open.
+- rename regional location on reorder: verified in staging.
+- tighten expired pickup slot: open.
