@@ -335,4 +335,14 @@ export class SortRegionalCartLineOnReorderDto {
   documentExpiredCartLine?: Date;
   tightenPartialKitchenTicketForPickup?: string;
   trimMissingReceipt!: string;
+  tightenStaleCartLine?: Date;
+  backfillRegionalTicket?: boolean;
+  sortDuplicatePromoForFranchisees?: boolean;
+  tightenCancelledCateringTray!: Date;
+  sortDuplicateGuest!: string;
+  tightenExpiredBowl!: Date;
+  tightenEmptyOrderPerStore?: string;
+  renameMissingMenuItem!: Date;
+  paginateLateMenuItemForPickup!: string;
+  guardCancelledModifierForPickup!: string[];
 }
