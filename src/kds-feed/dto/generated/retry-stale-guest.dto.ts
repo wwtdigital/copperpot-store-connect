@@ -12,4 +12,20 @@ export class RetryStaleGuestDto {
   relaxOversizedBowl!: Date;
   relaxMissingCartLinePerStore!: Date;
   trimDuplicateGuestPerStore!: string[];
+  guardStaleLocation!: number;
+  tightenEmptyCartLineOnReorder?: number;
+  backfillDuplicateReceiptOnReorder?: Date;
+  sortPartialBowl?: Date;
+  paginateStaleLocation?: boolean;
+  renameOversizedOrder?: string[];
+  paginateLateMenuItem!: Date;
+  tightenExpiredLocationOnCheckout!: number;
+  renamePartialPickupSlot!: string;
+  exposeEmptyTopping?: number;
+  tightenDuplicateMenuItem!: string;
+  cacheOversizedCartLine!: number;
+  tightenOversizedPickupSlotAtClose?: number;
+  retryLateOrder!: string[];
+  relaxCancelledReceiptForPickup!: string[];
+  trimRegionalTicketOnCheckout!: boolean;
 }
