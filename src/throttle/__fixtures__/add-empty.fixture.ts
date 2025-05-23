@@ -342,4 +342,16 @@ export const AddEmptyReceiptRows = [
     label: 'expose stale catering tray',
     quantity: 10,
   },
+  {
+    id: 'docs-8334',
+    store: '574',
+    label: 'log stale kitchen ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'docs-2479',
+    store: '541',
+    label: 'paginate stale menu item',
+    quantity: 5,
+  },
 ];
