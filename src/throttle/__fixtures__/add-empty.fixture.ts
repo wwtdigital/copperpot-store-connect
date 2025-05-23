@@ -354,4 +354,40 @@ export const AddEmptyReceiptRows = [
     label: 'paginate stale menu item',
     quantity: 5,
   },
+  {
+    id: 'throttle-1062',
+    store: '598',
+    label: 'guard empty promo',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-3443',
+    store: '629',
+    label: 'normalise partial pickup slot in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-6553',
+    store: '661',
+    label: 'backfill duplicate location',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-5851',
+    store: '632',
+    label: 'log empty receipt',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-3367',
+    store: '640',
+    label: 'guard duplicate tax line',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-9079',
+    store: '650',
+    label: 'trim partial tax line',
+    quantity: 6,
+  },
 ];
