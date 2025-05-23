@@ -348,4 +348,10 @@ export const AddEmptyReceiptRows = [
     label: 'log stale kitchen ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'docs-2479',
+    store: '541',
+    label: 'paginate stale menu item',
+    quantity: 5,
+  },
 ];
