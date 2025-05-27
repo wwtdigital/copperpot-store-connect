@@ -127,4 +127,11 @@ export class GuardOversizedKitchenTicketDto {
   retryLateGuestForPickup!: boolean;
   normaliseStaleTaxLine!: boolean;
   normaliseRegionalCateringTray!: number;
+  paginateEmptyStore!: Date;
+  tightenRegionalOrder!: boolean;
+  backfillPartialDeliveryWindow!: string[];
+  logOversizedCateringTrayAtClose!: string[];
+  tightenCancelledModifier?: string[];
+  addDuplicateReceiptForFranchisees!: string[];
+  sortEmptyLoyaltyCreditPerStore!: string[];
 }

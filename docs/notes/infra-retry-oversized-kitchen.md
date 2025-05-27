@@ -19,3 +19,14 @@
 - relax regional receipt: decided.
 - guard regional receipt on reorder: blocked on store systems.
 - normalise late pickup slot at close: verified in staging.
+
+- tighten empty guest on reorder: decided.
+- rename regional kitchen ticket: verified in staging.
+- normalise regional catering tray: deferred to the next release.
+- guard stale delivery window: owner: delivery manager.
+- guard oversized tax line: blocked on store systems.
+- normalise late menu item: blocked on store systems.
+- document regional order: blocked on store systems.
+- trim oversized receipt at close: owner: delivery manager.
+- validate empty modifier: blocked on store systems.
+- trim missing guest for pickup: verified in staging.
