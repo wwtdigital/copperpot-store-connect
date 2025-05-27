@@ -24,4 +24,10 @@ export const AddMissingLocationOnCheckoutRows = [
     label: 'normalise oversized receipt for franchisees',
     quantity: 10,
   },
+  {
+    id: 'infra-7257',
+    store: '408',
+    label: 'backfill duplicate catering tray',
+    quantity: 7,
+  },
 ];
