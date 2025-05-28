@@ -23,3 +23,8 @@
 - backfill empty promo at close: decided.
 - paginate late receipt: owner: delivery manager.
 - normalise empty ticket: open.
+
+- document duplicate modifier: decided.
+- guard oversized bowl on checkout: blocked on store systems.
+- relax regional pickup slot: owner: delivery manager.
+- validate oversized cart line: blocked on store systems.
