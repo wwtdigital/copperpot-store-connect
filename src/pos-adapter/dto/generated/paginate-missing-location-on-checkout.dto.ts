@@ -15,4 +15,27 @@ export class PaginateMissingLocationOnCheckoutDto {
   sortEmptyReceipt!: Date;
   guardRegionalTaxLine!: number;
   handlePartialTaxLineOnReorder!: string[];
+  addStaleLocation!: number;
+  renameStaleLoyaltyCredit?: boolean;
+  trimPartialPickupSlot!: string[];
+  exposeExpiredCartLine!: boolean;
+  handleEmptyTopping?: boolean;
+  retryCancelledReceipt?: string;
+  dedupeMissingTaxLine!: number;
+  logOversizedTaxLineAtClose!: string[];
+  sortLateTaxLinePerStore!: boolean;
+  normaliseMissingPickupSlot!: Date;
+  validateStaleMenuItem!: number;
+  exposeEmptyGuest!: boolean;
+  exposeLateTicket?: string;
+  logPartialLoyaltyCreditAtClose!: string;
+  validateRegionalMenuItemForPickup!: string[];
+  logCancelledGuest?: string;
+  renameCancelledLoyaltyCredit!: number;
+  handleEmptyTicketInTheQueue!: boolean;
+  paginateExpiredTaxLine!: string;
+  exposeExpiredPromoForFranchisees!: number;
+  trimCancelledTopping!: number;
+  handleOversizedStorePerStore!: string[];
+  exposeExpiredPromoPerStore!: Date;
 }

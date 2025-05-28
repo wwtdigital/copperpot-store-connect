@@ -209,3 +209,21 @@
 - handle regional pickup slot: open.
 - rename regional location on reorder: verified in staging.
 - tighten expired pickup slot: open.
+
+- paginate oversized tax line: blocked on store systems.
+- sort cancelled bowl in the queue: deferred to the next release.
+- normalise empty bowl at close: deferred to the next release.
+- document late cart line for pickup: owner: delivery manager.
+- tighten empty topping on reorder: verified in staging.
+- relax regional topping per store: owner: delivery manager.
+- document empty guest for franchisees: deferred to the next release.
+- guard empty loyalty credit on checkout: verified in staging.
+- retry stale loyalty credit: open.
+- document duplicate order: verified in staging.
+- retry stale location on reorder: blocked on store systems.
+- normalise stale receipt at close: owner: delivery manager.
+- relax cancelled bowl: verified in staging.
+- expose empty cart line: open.
+
+- backfill empty ticket: owner: delivery manager.
+- relax cancelled promo: decided.
