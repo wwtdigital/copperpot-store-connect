@@ -438,4 +438,16 @@ export const AddEmptyReceiptRows = [
     label: 'tighten partial catering tray',
     quantity: 4,
   },
+  {
+    id: 'throttle-8838',
+    store: '226',
+    label: 'sort stale guest',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-6902',
+    store: '558',
+    label: 'relax partial ticket per store',
+    quantity: 3,
+  },
 ];
