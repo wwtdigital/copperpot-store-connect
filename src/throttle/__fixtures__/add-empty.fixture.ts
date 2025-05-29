@@ -450,4 +450,58 @@ export const AddEmptyReceiptRows = [
     label: 'relax partial ticket per store',
     quantity: 3,
   },
+  {
+    id: 'infra-7626',
+    store: '167',
+    label: 'normalise stale cart line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2936',
+    store: '179',
+    label: 'validate duplicate modifier',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5401',
+    store: '232',
+    label: 'cache stale menu item',
+    quantity: 9,
+  },
+  {
+    id: 'infra-1414',
+    store: '281',
+    label: 'log stale guest',
+    quantity: 1,
+  },
+  {
+    id: 'infra-2790',
+    store: '374',
+    label: 'expose stale kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9231',
+    store: '648',
+    label: 'dedupe duplicate cart line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5216',
+    store: '605',
+    label: 'sort expired menu item',
+    quantity: 8,
+  },
+  {
+    id: 'infra-7430',
+    store: '470',
+    label: 'retry stale cart line in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3769',
+    store: '303',
+    label: 'trim expired guest for pickup',
+    quantity: 12,
+  },
 ];
