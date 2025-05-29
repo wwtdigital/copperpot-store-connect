@@ -113,4 +113,9 @@ export class DocumentOversizedStorePerStoreDto {
   addOversizedCartLineOnReorder?: number;
   exposeMissingOrder!: boolean;
   exposeRegionalReceipt!: number;
+  backfillRegionalTicket!: boolean;
+  relaxMissingDeliveryWindow?: boolean;
+  validateExpiredOrder?: string;
+  backfillCancelledTaxLine!: Date;
+  normaliseCancelledCartLine!: number;
 }

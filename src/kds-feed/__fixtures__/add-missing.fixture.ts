@@ -30,4 +30,22 @@ export const AddMissingLocationOnCheckoutRows = [
     label: 'backfill duplicate catering tray',
     quantity: 7,
   },
+  {
+    id: 'infra-8525',
+    store: '331',
+    label: 'cache cancelled menu item at close',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2634',
+    store: '233',
+    label: 'normalise missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'infra-4562',
+    store: '231',
+    label: 'cache missing promo',
+    quantity: 6,
+  },
 ];

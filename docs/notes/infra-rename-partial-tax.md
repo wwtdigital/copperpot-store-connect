@@ -222,8 +222,3 @@
 - document duplicate order: verified in staging.
 - retry stale location on reorder: blocked on store systems.
 - normalise stale receipt at close: owner: delivery manager.
-- relax cancelled bowl: verified in staging.
-- expose empty cart line: open.
-
-- backfill empty ticket: owner: delivery manager.
-- relax cancelled promo: decided.
