@@ -390,4 +390,52 @@ export const AddEmptyReceiptRows = [
     label: 'trim partial tax line',
     quantity: 6,
   },
+  {
+    id: 'throttle-6946',
+    store: '376',
+    label: 'log partial delivery window in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-1258',
+    store: '385',
+    label: 'handle regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-2719',
+    store: '317',
+    label: 'add empty tax line',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-9827',
+    store: '280',
+    label: 'relax empty ticket',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-9601',
+    store: '333',
+    label: 'relax partial bowl in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6110',
+    store: '234',
+    label: 'log cancelled tax line',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-6060',
+    store: '687',
+    label: 'cache oversized tax line',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-9116',
+    store: '159',
+    label: 'tighten partial catering tray',
+    quantity: 4,
+  },
 ];
