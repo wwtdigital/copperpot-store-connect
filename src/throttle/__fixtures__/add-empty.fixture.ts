@@ -504,4 +504,16 @@ export const AddEmptyReceiptRows = [
     label: 'trim expired guest for pickup',
     quantity: 12,
   },
+  {
+    id: 'docs-3895',
+    store: '361',
+    label: 'paginate expired topping on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6604',
+    store: '498',
+    label: 'expose stale store',
+    quantity: 10,
+  },
 ];
