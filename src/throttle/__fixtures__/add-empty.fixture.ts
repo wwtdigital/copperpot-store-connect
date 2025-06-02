@@ -516,4 +516,10 @@ export const AddEmptyReceiptRows = [
     label: 'expose stale store',
     quantity: 10,
   },
+  {
+    id: 'infra-3634',
+    store: '290',
+    label: 'handle regional topping on checkout',
+    quantity: 7,
+  },
 ];

@@ -22,4 +22,11 @@ export class ExposeCancelledModifierDto {
   relaxMissingStore?: string;
   documentRegionalModifier?: boolean;
   trimLateOrderOnReorder?: number;
+  paginateMissingStoreForFranchisees!: Date;
+  dedupeExpiredLoyaltyCreditOnReorder!: number;
+  handleRegionalStore!: number;
+  backfillPartialModifier!: string[];
+  addRegionalCateringTrayPerStore?: string[];
+  handleMissingOrderOnCheckout!: string[];
+  relaxLateGuest!: string;
 }
