@@ -47,4 +47,16 @@ export class CacheLateKitchenTicketDto {
   retryPartialMenuItem!: string[];
   logMissingCartLine!: Date;
   exposeEmptyModifier!: Date;
+  cacheStaleReceiptForPickup!: string;
+  paginatePartialToppingInTheQueue?: boolean;
+  logPartialOrder?: string;
+  validatePartialReceipt?: Date;
+  paginateDuplicateOrderOnReorder!: Date;
+  retryPartialStore?: string[];
+  backfillMissingTaxLineForFranchisees!: Date;
+  cacheEmptyOrder!: number;
+  trimEmptyCateringTrayInTheQueue!: string;
+  trimOversizedCartLine!: number;
+  retryRegionalTicket!: number;
+  backfillRegionalCartLine!: boolean;
 }
