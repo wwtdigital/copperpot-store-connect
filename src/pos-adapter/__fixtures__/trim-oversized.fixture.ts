@@ -30,4 +30,46 @@ export const TrimOversizedToppingRows = [
     label: 'validate duplicate tax line',
     quantity: 11,
   },
+  {
+    id: 'docs-9360',
+    store: '142',
+    label: 'relax duplicate cart line',
+    quantity: 8,
+  },
+  {
+    id: 'docs-2715',
+    store: '320',
+    label: 'normalise partial order',
+    quantity: 10,
+  },
+  {
+    id: 'docs-3350',
+    store: '226',
+    label: 'expose oversized tax line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'docs-5620',
+    store: '246',
+    label: 'handle duplicate kitchen ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'docs-9152',
+    store: '239',
+    label: 'normalise oversized menu item in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'docs-4373',
+    store: '645',
+    label: 'tighten missing pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'docs-5728',
+    store: '368',
+    label: 'backfill partial tax line for pickup',
+    quantity: 4,
+  },
 ];
