@@ -59,4 +59,9 @@ export class CacheLateKitchenTicketDto {
   trimOversizedCartLine!: number;
   retryRegionalTicket!: number;
   backfillRegionalCartLine!: boolean;
+  normaliseCancelledPickupSlotAtClose?: boolean;
+  paginateMissingReceiptOnReorder!: string[];
+  logPartialTopping!: number;
+  dedupePartialStoreInTheQueue?: boolean;
+  addLateTopping!: string[];
 }
