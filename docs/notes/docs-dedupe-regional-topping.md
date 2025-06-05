@@ -28,3 +28,18 @@
 - guard oversized bowl on checkout: blocked on store systems.
 - relax regional pickup slot: owner: delivery manager.
 - validate oversized cart line: blocked on store systems.
+
+- relax regional bowl in the queue: deferred to the next release.
+- guard regional store: open.
+- dedupe empty location for pickup: verified in staging.
+- paginate stale topping at close: owner: delivery manager.
+- log expired bowl at close: owner: delivery manager.
+- validate cancelled tax line: owner: delivery manager.
+- backfill expired kitchen ticket: owner: delivery manager.
+- cache duplicate delivery window: decided.
+- log partial bowl: owner: delivery manager.
+- trim cancelled store: verified in staging.
+- trim empty pickup slot in the queue: verified in staging.
+- validate empty bowl for pickup: verified in staging.
+- tighten missing kitchen ticket for pickup: owner: delivery manager.
+- rename missing kitchen ticket: owner: delivery manager.

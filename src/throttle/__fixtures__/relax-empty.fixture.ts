@@ -36,4 +36,22 @@ export const RelaxEmptyStoreRows = [
     label: 'sort missing loyalty credit for pickup',
     quantity: 2,
   },
+  {
+    id: 'docs-8636',
+    store: '614',
+    label: 'guard duplicate topping',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2696',
+    store: '458',
+    label: 'handle duplicate menu item for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'docs-9955',
+    store: '174',
+    label: 'normalise regional cart line',
+    quantity: 7,
+  },
 ];
