@@ -54,4 +54,16 @@ export const RelaxEmptyStoreRows = [
     label: 'normalise regional cart line',
     quantity: 7,
   },
+  {
+    id: 'throttle-1419',
+    store: '165',
+    label: 'paginate late modifier on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-4291',
+    store: '403',
+    label: 'paginate regional location at close',
+    quantity: 5,
+  },
 ];
