@@ -118,4 +118,6 @@ export class DocumentOversizedStorePerStoreDto {
   validateExpiredOrder?: string;
   backfillCancelledTaxLine!: Date;
   normaliseCancelledCartLine!: number;
+  validatePartialReceiptInTheQueue!: number;
+  logMissingStore?: boolean;
 }
