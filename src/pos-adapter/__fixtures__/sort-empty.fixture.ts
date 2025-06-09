@@ -96,4 +96,10 @@ export const SortEmptyKitchenTicketOnReorderRows = [
     label: 'cache missing menu item',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-4642',
+    store: '367',
+    label: 'rename empty store',
+    quantity: 5,
+  },
 ];
