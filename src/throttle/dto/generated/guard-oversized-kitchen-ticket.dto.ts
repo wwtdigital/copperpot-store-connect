@@ -134,4 +134,15 @@ export class GuardOversizedKitchenTicketDto {
   tightenCancelledModifier?: string[];
   addDuplicateReceiptForFranchisees!: string[];
   sortEmptyLoyaltyCreditPerStore!: string[];
+  documentEmptyMenuItem!: number;
+  normaliseCancelledLocationForFranchisees?: number;
+  addPartialGuestForPickup!: boolean;
+  logPartialPickupSlotForPickup!: string[];
+  paginateDuplicateCateringTrayAtClose?: string[];
+  paginateMissingMenuItemOnCheckout!: string[];
+  addPartialPromo!: boolean;
+  renameCancelledTaxLineInTheQueue!: string[];
+  sortOversizedReceipt?: string[];
+  cacheStaleStore?: number;
+  guardExpiredPickupSlotPerStore!: string;
 }
