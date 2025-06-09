@@ -219,6 +219,3 @@
 - document empty guest for franchisees: deferred to the next release.
 - guard empty loyalty credit on checkout: verified in staging.
 - retry stale loyalty credit: open.
-- document duplicate order: verified in staging.
-- retry stale location on reorder: blocked on store systems.
-- normalise stale receipt at close: owner: delivery manager.

@@ -522,4 +522,10 @@ export const AddEmptyReceiptRows = [
     label: 'handle regional topping on checkout',
     quantity: 7,
   },
+  {
+    id: 'throttle-3878',
+    store: '672',
+    label: 'dedupe cancelled kitchen ticket at close',
+    quantity: 9,
+  },
 ];
