@@ -66,4 +66,22 @@ export const RelaxEmptyStoreRows = [
     label: 'paginate regional location at close',
     quantity: 5,
   },
+  {
+    id: 'infra-5390',
+    store: '526',
+    label: 'sort missing order',
+    quantity: 3,
+  },
+  {
+    id: 'infra-1832',
+    store: '324',
+    label: 'handle regional guest',
+    quantity: 12,
+  },
+  {
+    id: 'infra-4520',
+    store: '564',
+    label: 'paginate partial order',
+    quantity: 8,
+  },
 ];

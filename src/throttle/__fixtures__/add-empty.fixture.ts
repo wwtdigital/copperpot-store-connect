@@ -528,4 +528,10 @@ export const AddEmptyReceiptRows = [
     label: 'dedupe cancelled kitchen ticket at close',
     quantity: 9,
   },
+  {
+    id: 'infra-3350',
+    store: '210',
+    label: 'normalise oversized kitchen ticket at close',
+    quantity: 2,
+  },
 ];

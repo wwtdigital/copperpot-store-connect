@@ -30,3 +30,20 @@
 - trim oversized receipt at close: owner: delivery manager.
 - validate empty modifier: blocked on store systems.
 - trim missing guest for pickup: verified in staging.
+
+- tighten cancelled modifier: deferred to the next release.
+- sort cancelled pickup slot for franchisees: verified in staging.
+- expose oversized location on reorder: owner: delivery manager.
+- guard missing guest: owner: delivery manager.
+- trim stale guest at close: deferred to the next release.
+- dedupe duplicate modifier: open.
+- guard missing guest: decided.
+- tighten expired modifier on checkout: verified in staging.
+- log expired tax line: owner: delivery manager.
+- relax missing kitchen ticket: verified in staging.
+- rename cancelled receipt: blocked on store systems.
+- validate missing receipt: blocked on store systems.
+- sort stale loyalty credit on checkout: owner: delivery manager.
+- normalise oversized guest for franchisees: decided.
+
+- relax late bowl: verified in staging.

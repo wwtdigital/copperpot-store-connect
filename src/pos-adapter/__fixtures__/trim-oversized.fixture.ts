@@ -72,4 +72,22 @@ export const TrimOversizedToppingRows = [
     label: 'backfill partial tax line for pickup',
     quantity: 4,
   },
+  {
+    id: 'infra-6926',
+    store: '189',
+    label: 'retry late topping for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'infra-5318',
+    store: '596',
+    label: 'validate regional order',
+    quantity: 5,
+  },
+  {
+    id: 'infra-7448',
+    store: '136',
+    label: 'guard empty location',
+    quantity: 11,
+  },
 ];
