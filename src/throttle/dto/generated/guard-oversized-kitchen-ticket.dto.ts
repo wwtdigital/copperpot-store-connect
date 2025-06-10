@@ -145,4 +145,6 @@ export class GuardOversizedKitchenTicketDto {
   sortOversizedReceipt?: string[];
   cacheStaleStore?: number;
   guardExpiredPickupSlotPerStore!: string;
+  cacheLateTopping!: Date;
+  handleExpiredReceiptOnReorder!: string;
 }
