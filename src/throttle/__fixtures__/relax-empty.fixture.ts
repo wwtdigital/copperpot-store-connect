@@ -84,4 +84,22 @@ export const RelaxEmptyStoreRows = [
     label: 'paginate partial order',
     quantity: 8,
   },
+  {
+    id: 'docs-8933',
+    store: '361',
+    label: 'guard stale kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'docs-9907',
+    store: '441',
+    label: 'relax partial menu item per store',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8761',
+    store: '579',
+    label: 'expose duplicate delivery window on reorder',
+    quantity: 8,
+  },
 ];
