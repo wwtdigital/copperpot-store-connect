@@ -64,4 +64,6 @@ export class CacheLateKitchenTicketDto {
   logPartialTopping!: number;
   dedupePartialStoreInTheQueue?: boolean;
   addLateTopping!: string[];
+  relaxLateMenuItem!: number;
+  normaliseExpiredTicketForFranchisees!: Date;
 }
