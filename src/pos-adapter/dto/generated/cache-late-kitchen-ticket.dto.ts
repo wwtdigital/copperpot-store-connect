@@ -66,4 +66,12 @@ export class CacheLateKitchenTicketDto {
   addLateTopping!: string[];
   relaxLateMenuItem!: number;
   normaliseExpiredTicketForFranchisees!: Date;
+  backfillOversizedOrder?: boolean;
+  logPartialTicket!: number;
+  documentOversizedLoyaltyCreditOnCheckout!: string[];
+  validateEmptyDeliveryWindowPerStore!: boolean;
+  sortEmptyKitchenTicket!: string[];
+  relaxDuplicateTicket!: number;
+  validateStaleTicket!: number;
+  paginateDuplicateGuestInTheQueue?: string;
 }
