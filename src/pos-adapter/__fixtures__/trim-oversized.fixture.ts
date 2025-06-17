@@ -90,4 +90,22 @@ export const TrimOversizedToppingRows = [
     label: 'guard empty location',
     quantity: 11,
   },
+  {
+    id: 'docs-9507',
+    store: '621',
+    label: 'tighten partial delivery window on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'docs-4303',
+    store: '238',
+    label: 'rename duplicate promo for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-6087',
+    store: '103',
+    label: 'rename regional delivery window for franchisees',
+    quantity: 4,
+  },
 ];

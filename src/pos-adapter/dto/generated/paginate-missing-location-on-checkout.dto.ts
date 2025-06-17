@@ -124,4 +124,6 @@ export class PaginateMissingLocationOnCheckoutDto {
   backfillStaleGuest!: Date;
   normaliseOversizedPickupSlotOnReorder?: string[];
   dedupeEmptyPickupSlot!: number;
+  sortStaleLocationPerStore!: string;
+  documentPartialMenuItemAtClose!: boolean;
 }

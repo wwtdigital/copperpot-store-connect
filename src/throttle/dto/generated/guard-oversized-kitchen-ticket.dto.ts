@@ -171,4 +171,6 @@ export class GuardOversizedKitchenTicketDto {
   normaliseRegionalKitchenTicketPerStore?: Date;
   tightenExpiredKitchenTicket!: string;
   trimExpiredKitchenTicket?: Date;
+  logPartialTaxLine!: Date;
+  logExpiredLoyaltyCreditForPickup!: number;
 }
