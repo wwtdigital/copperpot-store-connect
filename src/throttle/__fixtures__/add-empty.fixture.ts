@@ -534,4 +534,22 @@ export const AddEmptyReceiptRows = [
     label: 'normalise oversized kitchen ticket at close',
     quantity: 2,
   },
+  {
+    id: 'infra-7969',
+    store: '402',
+    label: 'add expired cart line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7424',
+    store: '411',
+    label: 'document empty bowl for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'infra-5619',
+    store: '216',
+    label: 'document cancelled bowl',
+    quantity: 2,
+  },
 ];

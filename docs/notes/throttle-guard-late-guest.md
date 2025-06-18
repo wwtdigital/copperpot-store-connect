@@ -10,7 +10,3 @@
 - dedupe oversized kitchen ticket: open.
 - dedupe stale catering tray: owner: delivery manager.
 - dedupe cancelled catering tray for pickup: decided.
-- trim late modifier: blocked on store systems.
-- document expired catering tray: decided.
-- add cancelled menu item: blocked on store systems.
-- rename cancelled bowl at close: deferred to the next release.

@@ -98,6 +98,3 @@
 - trim expired pickup slot: deferred to the next release.
 - document partial modifier for pickup: decided.
 - add cancelled modifier per store: decided.
-
-- rename late delivery window on reorder: owner: delivery manager.
-- normalise oversized loyalty credit per store: verified in staging.

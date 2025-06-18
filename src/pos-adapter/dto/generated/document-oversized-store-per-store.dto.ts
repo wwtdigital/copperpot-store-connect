@@ -120,4 +120,8 @@ export class DocumentOversizedStorePerStoreDto {
   normaliseCancelledCartLine!: number;
   validatePartialReceiptInTheQueue!: number;
   logMissingStore?: boolean;
+  paginateExpiredCateringTray!: string[];
+  dedupeCancelledBowlAtClose!: number;
+  documentExpiredModifier!: number;
+  renameStaleReceipt!: boolean;
 }
