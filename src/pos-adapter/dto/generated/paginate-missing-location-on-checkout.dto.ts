@@ -126,4 +126,20 @@ export class PaginateMissingLocationOnCheckoutDto {
   dedupeEmptyPickupSlot!: number;
   sortStaleLocationPerStore!: string;
   documentPartialMenuItemAtClose!: boolean;
+  trimCancelledPickupSlotPerStore!: Date;
+  retryLateStoreOnCheckout!: boolean;
+  relaxEmptyReceipt!: boolean;
+  normaliseStaleBowl!: string[];
+  tightenStaleMenuItemOnReorder?: string;
+  sortEmptyDeliveryWindow?: string[];
+  guardDuplicatePickupSlot!: string;
+  exposeCancelledModifier!: string;
+  paginateMissingStoreOnReorder!: string;
+  renameStalePickupSlot?: number;
+  dedupeLateCateringTray!: string;
+  renameRegionalTicket!: number;
+  sortDuplicateModifierInTheQueue!: string[];
+  tightenLateLoyaltyCreditInTheQueue!: number;
+  documentExpiredModifierInTheQueue!: boolean;
+  documentEmptyModifier!: string;
 }

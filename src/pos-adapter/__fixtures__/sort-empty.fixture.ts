@@ -102,4 +102,52 @@ export const SortEmptyKitchenTicketOnReorderRows = [
     label: 'rename empty store',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-8889',
+    store: '122',
+    label: 'add oversized topping',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8240',
+    store: '636',
+    label: 'expose duplicate bowl per store',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-7090',
+    store: '369',
+    label: 'expose stale promo',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-5950',
+    store: '464',
+    label: 'normalise regional modifier',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-2340',
+    store: '485',
+    label: 'rename missing order',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-1112',
+    store: '365',
+    label: 'validate expired promo',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-1616',
+    store: '616',
+    label: 'rename cancelled modifier',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-1737',
+    store: '159',
+    label: 'normalise late bowl',
+    quantity: 4,
+  },
 ];
