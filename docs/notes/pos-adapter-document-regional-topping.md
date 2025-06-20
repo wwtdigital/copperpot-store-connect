@@ -133,3 +133,18 @@
 - document duplicate loyalty credit at close: verified in staging.
 
 - log expired pickup slot at close: deferred to the next release.
+
+- dedupe regional pickup slot on reorder: deferred to the next release.
+- retry empty loyalty credit: decided.
+- sort cancelled receipt: verified in staging.
+- handle expired delivery window: verified in staging.
+- guard empty topping: verified in staging.
+- backfill oversized promo on checkout: owner: delivery manager.
+- tighten expired menu item in the queue: open.
+- tighten partial loyalty credit on reorder: open.
+- relax late guest: owner: delivery manager.
+- cache missing tax line: decided.
+- guard stale tax line per store: blocked on store systems.
+- guard oversized tax line for pickup: blocked on store systems.
+- normalise regional modifier: verified in staging.
+- add missing bowl: owner: delivery manager.
