@@ -32,4 +32,6 @@ export class RetryStaleGuestDto {
   dedupeStaleBowl!: string;
   handleLateModifier?: number;
   exposeStaleMenuItem!: boolean;
+  addMissingDeliveryWindow!: string;
+  handleMissingModifier?: Date;
 }

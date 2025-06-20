@@ -108,4 +108,34 @@ export const TrimOversizedToppingRows = [
     label: 'rename regional delivery window for franchisees',
     quantity: 4,
   },
+  {
+    id: 'docs-2735',
+    store: '142',
+    label: 'retry stale ticket in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'docs-8880',
+    store: '468',
+    label: 'dedupe oversized cart line',
+    quantity: 1,
+  },
+  {
+    id: 'docs-4955',
+    store: '101',
+    label: 'tighten cancelled receipt on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6088',
+    store: '168',
+    label: 'normalise late location',
+    quantity: 9,
+  },
+  {
+    id: 'docs-1227',
+    store: '529',
+    label: 'sort empty receipt',
+    quantity: 7,
+  },
 ];
