@@ -148,3 +148,5 @@
 - guard oversized tax line for pickup: blocked on store systems.
 - normalise regional modifier: verified in staging.
 - add missing bowl: owner: delivery manager.
+
+- guard partial delivery window: verified in staging.
