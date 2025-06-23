@@ -138,4 +138,46 @@ export const TrimOversizedToppingRows = [
     label: 'sort empty receipt',
     quantity: 7,
   },
+  {
+    id: 'docs-2422',
+    store: '293',
+    label: 'sort partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6370',
+    store: '638',
+    label: 'expose cancelled tax line',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6440',
+    store: '192',
+    label: 'guard missing catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8733',
+    store: '355',
+    label: 'trim oversized promo',
+    quantity: 4,
+  },
+  {
+    id: 'docs-9727',
+    store: '120',
+    label: 'guard stale kitchen ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'docs-8957',
+    store: '541',
+    label: 'dedupe duplicate bowl',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8808',
+    store: '415',
+    label: 'paginate empty promo at close',
+    quantity: 7,
+  },
 ];
