@@ -150,4 +150,58 @@ export const SortEmptyKitchenTicketOnReorderRows = [
     label: 'normalise late bowl',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-8127',
+    store: '542',
+    label: 'validate empty order',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-8047',
+    store: '670',
+    label: 'add partial guest for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-4235',
+    store: '674',
+    label: 'log cancelled cart line',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8459',
+    store: '350',
+    label: 'relax expired ticket',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9593',
+    store: '296',
+    label: 'add empty cart line per store',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-8466',
+    store: '106',
+    label: 'add cancelled catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-8061',
+    store: '355',
+    label: 'tighten late location per store',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2891',
+    store: '644',
+    label: 'log regional topping per store',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-4527',
+    store: '314',
+    label: 'backfill late kitchen ticket in the queue',
+    quantity: 5,
+  },
 ];
