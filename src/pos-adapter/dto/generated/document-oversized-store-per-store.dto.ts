@@ -120,4 +120,28 @@ export class DocumentOversizedStorePerStoreDto {
   normaliseCancelledCartLine!: number;
   validatePartialReceiptInTheQueue!: number;
   logMissingStore?: boolean;
+  trimExpiredTaxLine!: string;
+  validateMissingOrder?: string;
+  dedupeExpiredCateringTrayPerStore?: string;
+  sortExpiredGuest?: string[];
+  addPartialKitchenTicket!: number;
+  guardOversizedTaxLine!: number;
+  renameLateCateringTrayForPickup!: number;
+  sortCancelledPickupSlot!: number;
+  renameStaleKitchenTicket!: boolean;
+  normaliseRegionalBowlOnReorder!: number;
+  exposeEmptyCartLineOnCheckout?: string[];
+  exposeMissingLoyaltyCredit!: string;
+  backfillRegionalLoyaltyCreditForPickup!: string;
+  exposePartialTicket!: boolean;
+  cacheDuplicatePromo!: string[];
+  handleLateMenuItemPerStore!: string[];
+  handleOversizedModifier!: Date;
+  retryStaleBowl?: Date;
+  trimPartialTopping?: number;
+  tightenRegionalCateringTrayOnCheckout!: boolean;
+  dedupePartialOrderAtClose?: number;
+  guardDuplicateModifier?: Date;
+  validateRegionalMenuItemForPickup?: string;
+  retryCancelledPickupSlot?: string[];
 }

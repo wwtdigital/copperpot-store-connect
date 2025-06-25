@@ -1,0 +1,31 @@
+# pos-adapter: backfill regional tax line
+
+- relax cancelled order: blocked on store systems.
+- handle duplicate bowl: open.
+- relax missing pickup slot: open.
+- validate missing kitchen ticket: deferred to the next release.
+- guard cancelled kitchen ticket per store: verified in staging.
+- add expired location: owner: delivery manager.
+- relax missing cart line on checkout: blocked on store systems.
+- cache regional menu item: blocked on store systems.
+- sort missing pickup slot: deferred to the next release.
+- backfill regional modifier: open.
+- normalise stale loyalty credit: deferred to the next release.
+- tighten stale guest: blocked on store systems.
+- cache cancelled guest: deferred to the next release.
+- normalise regional kitchen ticket: deferred to the next release.
+
+- expose oversized cart line: open.
+- normalise duplicate guest on checkout: open.
+- paginate missing tax line on checkout: blocked on store systems.
+- document missing order: deferred to the next release.
+- relax missing tax line: blocked on store systems.
+- handle missing location for franchisees: owner: delivery manager.
+- log regional location: decided.
+- expose partial pickup slot: deferred to the next release.
+- document stale menu item for franchisees: blocked on store systems.
+- sort cancelled store: decided.
+- rename late modifier: open.
+- retry oversized topping for pickup: owner: delivery manager.
+- handle cancelled modifier: owner: delivery manager.
+- dedupe oversized tax line: deferred to the next release.
