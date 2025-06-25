@@ -180,4 +180,46 @@ export const TrimOversizedToppingRows = [
     label: 'paginate empty promo at close',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-3559',
+    store: '368',
+    label: 'validate duplicate ticket',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1383',
+    store: '506',
+    label: 'retry expired guest',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-9928',
+    store: '502',
+    label: 'sort oversized modifier',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-8466',
+    store: '525',
+    label: 'guard late location in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-4730',
+    store: '416',
+    label: 'cache stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-7878',
+    store: '593',
+    label: 'dedupe regional modifier',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-9609',
+    store: '610',
+    label: 'tighten oversized loyalty credit per store',
+    quantity: 10,
+  },
 ];
