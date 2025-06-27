@@ -142,4 +142,15 @@ export class PaginateMissingLocationOnCheckoutDto {
   tightenLateLoyaltyCreditInTheQueue!: number;
   documentExpiredModifierInTheQueue!: boolean;
   documentEmptyModifier!: string;
+  relaxOversizedDeliveryWindow?: number;
+  retryCancelledPickupSlotInTheQueue?: number;
+  dedupeDuplicateStore?: string;
+  paginateRegionalPickupSlot!: Date;
+  tightenOversizedStore!: number;
+  normaliseEmptyPromo!: boolean;
+  documentCancelledTaxLine!: number;
+  retryEmptyPickupSlotAtClose!: number;
+  handleLateLoyaltyCreditPerStore?: Date;
+  documentOversizedLocationOnCheckout?: string[];
+  tightenDuplicateOrder!: string[];
 }

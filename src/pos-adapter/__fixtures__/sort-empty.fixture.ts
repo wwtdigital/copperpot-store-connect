@@ -204,4 +204,34 @@ export const SortEmptyKitchenTicketOnReorderRows = [
     label: 'backfill late kitchen ticket in the queue',
     quantity: 5,
   },
+  {
+    id: 'docs-8152',
+    store: '577',
+    label: 'guard duplicate delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9760',
+    store: '359',
+    label: 'validate cancelled catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'docs-7259',
+    store: '558',
+    label: 'log partial cart line',
+    quantity: 11,
+  },
+  {
+    id: 'docs-4390',
+    store: '109',
+    label: 'cache empty catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'docs-9206',
+    store: '238',
+    label: 'add cancelled receipt',
+    quantity: 7,
+  },
 ];
