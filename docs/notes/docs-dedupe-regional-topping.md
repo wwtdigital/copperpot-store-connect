@@ -43,3 +43,16 @@
 - validate empty bowl for pickup: verified in staging.
 - tighten missing kitchen ticket for pickup: owner: delivery manager.
 - rename missing kitchen ticket: owner: delivery manager.
+
+- guard missing order: deferred to the next release.
+- handle stale ticket: blocked on store systems.
+- log regional topping: deferred to the next release.
+- log regional guest: verified in staging.
+- handle regional guest on reorder: open.
+- validate regional order at close: blocked on store systems.
+- guard stale cart line: verified in staging.
+- rename duplicate delivery window: verified in staging.
+- relax missing store: open.
+- guard cancelled guest per store: deferred to the next release.
+- backfill stale pickup slot: deferred to the next release.
+- relax duplicate promo: open.
