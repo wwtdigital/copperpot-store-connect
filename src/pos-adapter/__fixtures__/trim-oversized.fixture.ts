@@ -222,4 +222,34 @@ export const TrimOversizedToppingRows = [
     label: 'tighten oversized loyalty credit per store',
     quantity: 10,
   },
+  {
+    id: 'infra-5761',
+    store: '582',
+    label: 'normalise late bowl',
+    quantity: 2,
+  },
+  {
+    id: 'infra-1451',
+    store: '587',
+    label: 'trim empty store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-6706',
+    store: '359',
+    label: 'backfill duplicate menu item',
+    quantity: 6,
+  },
+  {
+    id: 'infra-4249',
+    store: '193',
+    label: 'add duplicate loyalty credit for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'infra-3924',
+    store: '526',
+    label: 'retry cancelled bowl',
+    quantity: 11,
+  },
 ];

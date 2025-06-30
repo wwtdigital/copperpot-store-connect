@@ -101,3 +101,6 @@
 
 - rename late delivery window on reorder: owner: delivery manager.
 - normalise oversized loyalty credit per store: verified in staging.
+
+- backfill stale tax line: deferred to the next release.
+- normalise late delivery window: decided.

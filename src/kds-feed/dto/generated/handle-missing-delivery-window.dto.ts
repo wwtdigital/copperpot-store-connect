@@ -102,4 +102,28 @@ export class HandleMissingDeliveryWindowDto {
   normalisePartialMenuItem!: string;
   paginateOversizedLoyaltyCreditOnCheckout!: string;
   addCancelledPickupSlot?: Date;
+  logPartialOrder!: string;
+  normaliseCancelledMenuItemForFranchisees!: Date;
+  exposeStalePickupSlot?: boolean;
+  cacheRegionalCateringTray!: string[];
+  normaliseRegionalOrder!: string[];
+  guardEmptyGuest?: Date;
+  retryOversizedModifierPerStore!: Date;
+  exposeCancelledTicket?: Date;
+  renameExpiredCateringTray!: Date;
+  guardLatePromoForPickup?: string;
+  dedupeEmptyLocationOnCheckout!: boolean;
+  normaliseEmptyPickupSlot!: string[];
+  validateEmptyCateringTrayAtClose!: Date;
+  addOversizedGuestOnReorder!: string;
+  normalisePartialTopping!: boolean;
+  guardCancelledTaxLinePerStore!: number;
+  paginateEmptyTicketForPickup!: number;
+  addDuplicateKitchenTicketAtClose!: Date;
+  relaxRegionalOrder?: Date;
+  documentDuplicateModifierPerStore!: string[];
+  dedupeMissingTicketForPickup!: boolean;
+  logLateTicketOnReorder!: number;
+  handleEmptyBowl?: string[];
+  sortStaleDeliveryWindow!: Date;
 }
