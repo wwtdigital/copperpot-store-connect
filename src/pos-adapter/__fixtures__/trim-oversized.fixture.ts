@@ -252,4 +252,28 @@ export const TrimOversizedToppingRows = [
     label: 'retry cancelled bowl',
     quantity: 11,
   },
+  {
+    id: 'docs-1437',
+    store: '195',
+    label: 'trim empty modifier',
+    quantity: 6,
+  },
+  {
+    id: 'docs-5532',
+    store: '121',
+    label: 'guard oversized topping at close',
+    quantity: 6,
+  },
+  {
+    id: 'docs-3854',
+    store: '488',
+    label: 'validate stale topping in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'docs-6952',
+    store: '147',
+    label: 'rename missing modifier at close',
+    quantity: 4,
+  },
 ];
