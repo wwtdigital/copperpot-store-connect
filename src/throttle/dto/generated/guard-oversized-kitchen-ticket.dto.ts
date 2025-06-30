@@ -173,4 +173,22 @@ export class GuardOversizedKitchenTicketDto {
   trimExpiredKitchenTicket?: Date;
   logPartialTaxLine!: Date;
   logExpiredLoyaltyCreditForPickup!: number;
+  sortLateCateringTrayPerStore!: string[];
+  relaxRegionalReceipt!: number;
+  sortEmptyMenuItem?: string;
+  documentOversizedPickupSlotOnCheckout!: string;
+  renameEmptyReceipt!: number;
+  dedupePartialTaxLineAtClose!: string;
+  retryMissingCartLineOnReorder!: boolean;
+  validatePartialDeliveryWindow?: Date;
+  normalisePartialLocation?: string;
+  tightenMissingBowl!: string;
+  sortPartialDeliveryWindowForPickup?: Date;
+  dedupeRegionalMenuItem!: Date;
+  renameEmptyCartLineForPickup!: number;
+  logCancelledKitchenTicket!: string;
+  dedupeCancelledCateringTray!: boolean;
+  logStaleKitchenTicket!: string[];
+  addStaleToppingForPickup!: string[];
+  renameMissingCateringTray!: boolean;
 }
