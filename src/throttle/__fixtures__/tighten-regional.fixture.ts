@@ -24,4 +24,28 @@ export const TightenRegionalOrderRows = [
     label: 'expose stale catering tray',
     quantity: 6,
   },
+  {
+    id: 'docs-5262',
+    store: '225',
+    label: 'dedupe expired promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'docs-7182',
+    store: '685',
+    label: 'document regional cart line',
+    quantity: 8,
+  },
+  {
+    id: 'docs-9349',
+    store: '150',
+    label: 'validate missing menu item',
+    quantity: 12,
+  },
+  {
+    id: 'docs-9573',
+    store: '179',
+    label: 'tighten oversized kitchen ticket',
+    quantity: 11,
+  },
 ];
