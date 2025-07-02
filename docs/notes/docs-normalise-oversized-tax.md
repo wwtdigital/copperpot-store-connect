@@ -16,3 +16,5 @@
 - cache expired bowl per store: blocked on store systems.
 
 - tighten duplicate cart line: deferred to the next release.
+
+- add cancelled store: owner: delivery manager.

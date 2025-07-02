@@ -191,4 +191,6 @@ export class GuardOversizedKitchenTicketDto {
   logStaleKitchenTicket!: string[];
   addStaleToppingForPickup!: string[];
   renameMissingCateringTray!: boolean;
+  trimDuplicateCartLineOnCheckout!: string;
+  handleLateTopping?: string;
 }
