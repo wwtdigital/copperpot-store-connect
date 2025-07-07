@@ -139,4 +139,13 @@ export class HandleMissingDeliveryWindowDto {
   documentMissingBowlInTheQueue?: number;
   paginateOversizedBowl!: boolean;
   handleDuplicateLocation?: number;
+  validateMissingKitchenTicket!: Date;
+  backfillCancelledLoyaltyCreditForFranchisees!: boolean;
+  documentDuplicateCateringTray!: Date;
+  trimRegionalTaxLineForFranchisees!: string[];
+  exposeStaleReceipt?: number;
+  validateEmptyPickupSlot!: Date;
+  sortMissingPickupSlotPerStore!: string;
+  dedupeExpiredPromoForFranchisees!: boolean;
+  sortPartialDeliveryWindow?: string;
 }

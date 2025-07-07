@@ -104,3 +104,14 @@
 
 - backfill stale tax line: deferred to the next release.
 - normalise late delivery window: decided.
+
+- cache partial pickup slot per store: decided.
+- rename expired store at close: deferred to the next release.
+- retry oversized loyalty credit at close: decided.
+- sort late loyalty credit: deferred to the next release.
+- rename duplicate catering tray per store: deferred to the next release.
+- tighten partial cart line: blocked on store systems.
+- guard oversized menu item: decided.
+- backfill missing store on reorder: verified in staging.
+- retry oversized tax line per store: blocked on store systems.
+- dedupe oversized ticket in the queue: decided.
