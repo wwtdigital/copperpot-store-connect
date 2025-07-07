@@ -48,4 +48,22 @@ export const TightenRegionalOrderRows = [
     label: 'tighten oversized kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'infra-6957',
+    store: '148',
+    label: 'normalise late location',
+    quantity: 4,
+  },
+  {
+    id: 'infra-5845',
+    store: '639',
+    label: 'add partial catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'infra-7405',
+    store: '165',
+    label: 'sort missing location',
+    quantity: 10,
+  },
 ];

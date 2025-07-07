@@ -126,4 +126,26 @@ export class HandleMissingDeliveryWindowDto {
   logLateTicketOnReorder!: number;
   handleEmptyBowl?: string[];
   sortStaleDeliveryWindow!: Date;
+  renameMissingStoreAtClose?: number;
+  validateCancelledLocation!: Date;
+  trimStaleDeliveryWindow!: boolean;
+  dedupeMissingModifier!: Date;
+  normaliseStaleOrder!: string[];
+  paginateCancelledReceiptInTheQueue?: string;
+  relaxStaleLocationPerStore!: number;
+  sortDuplicateCartLineForPickup?: boolean;
+  guardEmptyTopping?: number;
+  trimRegionalTicket?: string;
+  documentMissingBowlInTheQueue?: number;
+  paginateOversizedBowl!: boolean;
+  handleDuplicateLocation?: number;
+  validateMissingKitchenTicket!: Date;
+  backfillCancelledLoyaltyCreditForFranchisees!: boolean;
+  documentDuplicateCateringTray!: Date;
+  trimRegionalTaxLineForFranchisees!: string[];
+  exposeStaleReceipt?: number;
+  validateEmptyPickupSlot!: Date;
+  sortMissingPickupSlotPerStore!: string;
+  dedupeExpiredPromoForFranchisees!: boolean;
+  sortPartialDeliveryWindow?: string;
 }

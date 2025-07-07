@@ -6,4 +6,16 @@ export const DocumentExpiredStoreRows = [
     label: 'paginate expired menu item on checkout',
     quantity: 11,
   },
+  {
+    id: 'infra-5089',
+    store: '562',
+    label: 'guard missing order at close',
+    quantity: 10,
+  },
+  {
+    id: 'infra-1804',
+    store: '492',
+    label: 'handle stale modifier',
+    quantity: 7,
+  },
 ];
