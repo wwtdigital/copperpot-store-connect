@@ -148,4 +148,12 @@ export class HandleMissingDeliveryWindowDto {
   sortMissingPickupSlotPerStore!: string;
   dedupeExpiredPromoForFranchisees!: boolean;
   sortPartialDeliveryWindow?: string;
+  validateEmptyGuest?: boolean;
+  documentPartialLoyaltyCredit?: string[];
+  renameMissingOrderInTheQueue!: Date;
+  trimEmptyGuest!: string[];
+  addLateBowlForPickup?: Date;
+  guardMissingMenuItem!: boolean;
+  documentPartialBowl!: Date;
+  trimOversizedDeliveryWindow!: string;
 }
