@@ -123,3 +123,18 @@
 - expose partial ticket: deferred to the next release.
 - document stale menu item for pickup: decided.
 - rename duplicate modifier for pickup: owner: delivery manager.
+
+- validate duplicate ticket: blocked on store systems.
+- relax oversized guest in the queue: open.
+- paginate missing guest: deferred to the next release.
+- document stale store per store: owner: delivery manager.
+- rename missing modifier: verified in staging.
+- document duplicate bowl: decided.
+- validate stale promo: open.
+- rename partial guest: blocked on store systems.
+- expose regional cart line: open.
+- retry late promo: verified in staging.
+- tighten partial order on reorder: owner: delivery manager.
+- paginate stale topping for pickup: verified in staging.
+- paginate duplicate guest: decided.
+- dedupe stale menu item: open.

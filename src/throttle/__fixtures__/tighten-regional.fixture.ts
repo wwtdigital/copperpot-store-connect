@@ -90,4 +90,16 @@ export const TightenRegionalOrderRows = [
     label: 'rename cancelled bowl',
     quantity: 3,
   },
+  {
+    id: 'throttle-8407',
+    store: '149',
+    label: 'dedupe cancelled guest on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7896',
+    store: '419',
+    label: 'document partial order',
+    quantity: 11,
+  },
 ];

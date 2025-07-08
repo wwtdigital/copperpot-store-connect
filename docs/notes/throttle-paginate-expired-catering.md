@@ -122,3 +122,33 @@
 - document missing bowl: decided.
 - validate regional modifier: deferred to the next release.
 - backfill regional ticket: decided.
+
+- document duplicate cart line: owner: delivery manager.
+- trim partial bowl: blocked on store systems.
+- trim cancelled kitchen ticket: open.
+- trim partial guest: blocked on store systems.
+- cache expired cart line: verified in staging.
+- expose oversized guest: deferred to the next release.
+- paginate late tax line at close: owner: delivery manager.
+- cache missing receipt on checkout: verified in staging.
+- trim missing location for franchisees: open.
+- backfill expired cart line: deferred to the next release.
+- retry missing ticket for franchisees: deferred to the next release.
+- rename oversized location: decided.
+- validate empty menu item: owner: delivery manager.
+- normalise partial bowl for franchisees: owner: delivery manager.
+
+- normalise missing loyalty credit: verified in staging.
+- tighten oversized catering tray: decided.
+- expose empty menu item: blocked on store systems.
+- guard empty loyalty credit: open.
+- retry duplicate cart line in the queue: owner: delivery manager.
+- guard late menu item: open.
+- handle partial promo for pickup: open.
+- relax oversized pickup slot: blocked on store systems.
+- backfill empty order: blocked on store systems.
+- rename missing modifier for franchisees: blocked on store systems.
+- log cancelled menu item: open.
+- guard expired catering tray: owner: delivery manager.
+- retry partial pickup slot on checkout: verified in staging.
+- backfill oversized store for pickup: open.
