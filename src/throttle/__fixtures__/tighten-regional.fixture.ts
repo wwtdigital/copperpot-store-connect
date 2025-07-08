@@ -66,4 +66,40 @@ export const TightenRegionalOrderRows = [
     label: 'sort missing location',
     quantity: 10,
   },
+  {
+    id: 'throttle-6109',
+    store: '228',
+    label: 'tighten cancelled menu item',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-3799',
+    store: '472',
+    label: 'document regional cart line',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7892',
+    store: '375',
+    label: 'log regional menu item on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-6833',
+    store: '429',
+    label: 'rename cancelled bowl',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-8407',
+    store: '149',
+    label: 'dedupe cancelled guest on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7896',
+    store: '419',
+    label: 'document partial order',
+    quantity: 11,
+  },
 ];
