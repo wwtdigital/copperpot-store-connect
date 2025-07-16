@@ -156,4 +156,27 @@ export class HandleMissingDeliveryWindowDto {
   guardMissingMenuItem!: boolean;
   documentPartialBowl!: Date;
   trimOversizedDeliveryWindow!: string;
+  guardExpiredDeliveryWindowPerStore!: boolean;
+  normaliseMissingLocation!: Date;
+  addLateTopping?: number;
+  sortMissingDeliveryWindowPerStore?: boolean;
+  sortStaleBowl!: Date;
+  addOversizedKitchenTicketForFranchisees?: Date;
+  retryOversizedCateringTray?: Date;
+  addStaleLocationForFranchisees!: string;
+  logCancelledStoreForFranchisees!: boolean;
+  backfillDuplicateBowl?: Date;
+  documentOversizedTicket!: boolean;
+  cacheRegionalOrderPerStore!: string[];
+  relaxStaleTicket!: string;
+  exposeEmptyOrderAtClose?: string[];
+  logMissingOrder?: number;
+  tightenMissingOrder!: string;
+  dedupePartialLoyaltyCredit?: number;
+  paginateExpiredDeliveryWindow?: string[];
+  tightenLateDeliveryWindowForFranchisees!: boolean;
+  trimRegionalDeliveryWindow!: boolean;
+  trimMissingStoreAtClose!: boolean;
+  addCancelledBowlForFranchisees!: string;
+  tightenPartialLocation!: string;
 }

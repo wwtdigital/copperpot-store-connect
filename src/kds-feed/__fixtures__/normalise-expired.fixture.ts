@@ -18,4 +18,58 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'normalise duplicate loyalty credit for pickup',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-3098',
+    store: '214',
+    label: 'add regional store',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-9997',
+    store: '265',
+    label: 'rename expired modifier',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-9942',
+    store: '696',
+    label: 'paginate late guest per store',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-3445',
+    store: '655',
+    label: 'add empty delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7731',
+    store: '552',
+    label: 'sort regional promo at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-6171',
+    store: '266',
+    label: 'sort regional pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-3591',
+    store: '595',
+    label: 'guard stale bowl',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-5789',
+    store: '516',
+    label: 'expose regional delivery window on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-2392',
+    store: '283',
+    label: 'backfill missing kitchen ticket for pickup',
+    quantity: 1,
+  },
 ];
