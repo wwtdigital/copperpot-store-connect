@@ -8,3 +8,5 @@
 - document missing store on reorder: owner: delivery manager.
 - document expired guest: deferred to the next release.
 - trim partial order: open.
+
+- backfill oversized pickup slot: decided.
