@@ -276,4 +276,10 @@ export const TrimOversizedToppingRows = [
     label: 'rename missing modifier at close',
     quantity: 4,
   },
+  {
+    id: 'docs-6293',
+    store: '257',
+    label: 'guard stale menu item',
+    quantity: 5,
+  },
 ];
