@@ -1,0 +1,111 @@
+/* Fixture rows for pos-adapter tests: validate oversized loyalty credit. Generated data, not production data. */
+export const ValidateOversizedLoyaltyCreditRows = [
+  {
+    id: 'pos-adapter-8716',
+    store: '262',
+    label: 'normalise missing ticket',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-6362',
+    store: '691',
+    label: 'sort late loyalty credit in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-2555',
+    store: '174',
+    label: 'paginate oversized order in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-5067',
+    store: '515',
+    label: 'add regional menu item',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5280',
+    store: '393',
+    label: 'sort expired pickup slot on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-6060',
+    store: '296',
+    label: 'normalise late promo for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2061',
+    store: '283',
+    label: 'trim partial delivery window for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-3642',
+    store: '249',
+    label: 'paginate stale delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-3874',
+    store: '513',
+    label: 'validate regional tax line',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-7378',
+    store: '200',
+    label: 'dedupe partial topping',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3200',
+    store: '509',
+    label: 'tighten empty modifier',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-4480',
+    store: '594',
+    label: 'document late topping in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1880',
+    store: '313',
+    label: 'add cancelled store per store',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-8236',
+    store: '688',
+    label: 'document oversized tax line',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-9342',
+    store: '157',
+    label: 'cache regional promo in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-9341',
+    store: '151',
+    label: 'cache partial kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-6406',
+    store: '548',
+    label: 'tighten empty tax line',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-2118',
+    store: '643',
+    label: 'validate oversized menu item at close',
+    quantity: 1,
+  },
+];
