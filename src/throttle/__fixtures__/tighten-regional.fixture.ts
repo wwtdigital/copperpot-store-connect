@@ -102,4 +102,10 @@ export const TightenRegionalOrderRows = [
     label: 'document partial order',
     quantity: 11,
   },
+  {
+    id: 'docs-3355',
+    store: '301',
+    label: 'add cancelled menu item',
+    quantity: 2,
+  },
 ];
