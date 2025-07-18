@@ -72,4 +72,22 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'backfill missing kitchen ticket for pickup',
     quantity: 1,
   },
+  {
+    id: 'docs-1887',
+    store: '419',
+    label: 'paginate duplicate delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2789',
+    store: '369',
+    label: 'paginate late location per store',
+    quantity: 10,
+  },
+  {
+    id: 'docs-4103',
+    store: '217',
+    label: 'trim regional kitchen ticket',
+    quantity: 11,
+  },
 ];

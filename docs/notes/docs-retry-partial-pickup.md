@@ -25,3 +25,18 @@
 - sort cancelled ticket on reorder: owner: delivery manager.
 - validate empty loyalty credit for pickup: decided.
 - paginate duplicate pickup slot: decided.
+
+- add regional receipt: blocked on store systems.
+- guard stale pickup slot for franchisees: verified in staging.
+- document oversized tax line: decided.
+- add late topping on reorder: owner: delivery manager.
+- normalise late tax line on checkout: open.
+- document regional delivery window: deferred to the next release.
+- trim late menu item: decided.
+- log duplicate loyalty credit in the queue: verified in staging.
+- backfill regional promo in the queue: blocked on store systems.
+- retry regional location in the queue: blocked on store systems.
+- add oversized catering tray: open.
+- cache duplicate catering tray for pickup: owner: delivery manager.
+- dedupe cancelled modifier: decided.
+- sort expired receipt per store: decided.

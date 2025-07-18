@@ -153,4 +153,17 @@ export class PaginateMissingLocationOnCheckoutDto {
   handleLateLoyaltyCreditPerStore?: Date;
   documentOversizedLocationOnCheckout?: string[];
   tightenDuplicateOrder!: string[];
+  exposeEmptyOrder!: string[];
+  backfillEmptyLocation!: boolean;
+  logMissingPickupSlot?: string;
+  backfillPartialReceiptOnReorder!: boolean;
+  renameStalePromoOnReorder!: Date;
+  trimExpiredToppingAtClose!: boolean;
+  normaliseRegionalCartLineOnCheckout?: boolean;
+  dedupeExpiredTopping!: Date;
+  relaxDuplicateBowl?: string;
+  renamePartialBowlInTheQueue!: Date;
+  logOversizedTopping?: string;
+  handleMissingPromo!: string[];
+  renamePartialBowl!: string;
 }
