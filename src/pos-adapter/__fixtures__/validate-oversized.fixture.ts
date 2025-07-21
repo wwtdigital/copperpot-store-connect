@@ -108,4 +108,58 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'validate oversized menu item at close',
     quantity: 1,
   },
+  {
+    id: 'docs-3246',
+    store: '381',
+    label: 'add stale location',
+    quantity: 10,
+  },
+  {
+    id: 'docs-4532',
+    store: '441',
+    label: 'normalise oversized bowl',
+    quantity: 2,
+  },
+  {
+    id: 'docs-6066',
+    store: '427',
+    label: 'retry expired location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-8387',
+    store: '247',
+    label: 'rename regional loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'docs-8107',
+    store: '329',
+    label: 'guard regional bowl in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6172',
+    store: '385',
+    label: 'validate expired ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'docs-5941',
+    store: '420',
+    label: 'cache oversized catering tray for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-1178',
+    store: '418',
+    label: 'cache duplicate store on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'docs-8210',
+    store: '523',
+    label: 'cache oversized pickup slot',
+    quantity: 5,
+  },
 ];
