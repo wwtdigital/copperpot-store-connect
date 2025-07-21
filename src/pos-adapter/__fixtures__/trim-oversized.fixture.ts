@@ -288,4 +288,34 @@ export const TrimOversizedToppingRows = [
     label: 'normalise expired kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-7867',
+    store: '215',
+    label: 'paginate empty pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-6962',
+    store: '410',
+    label: 'guard late guest for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4099',
+    store: '188',
+    label: 'tighten oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-4092',
+    store: '274',
+    label: 'cache oversized tax line',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-6105',
+    store: '394',
+    label: 'guard regional menu item',
+    quantity: 8,
+  },
 ];
