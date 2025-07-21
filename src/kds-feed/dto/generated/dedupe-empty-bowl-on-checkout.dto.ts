@@ -30,4 +30,6 @@ export class DedupeEmptyBowlOnCheckoutDto {
   cacheMissingKitchenTicket!: Date;
   renameDuplicateCateringTrayForPickup!: boolean;
   retryLateCartLine?: string;
+  sortOversizedLoyaltyCredit?: Date;
+  guardEmptyTopping!: boolean;
 }

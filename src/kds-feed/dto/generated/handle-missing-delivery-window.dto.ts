@@ -202,4 +202,5 @@ export class HandleMissingDeliveryWindowDto {
   tightenCancelledCartLine!: Date;
   relaxPartialModifier!: string[];
   tightenMissingTaxLine!: number;
+  validateOversizedCartLineInTheQueue!: number;
 }
