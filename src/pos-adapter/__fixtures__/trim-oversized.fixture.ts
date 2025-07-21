@@ -282,4 +282,10 @@ export const TrimOversizedToppingRows = [
     label: 'guard stale menu item',
     quantity: 5,
   },
+  {
+    id: 'infra-3862',
+    store: '565',
+    label: 'normalise expired kitchen ticket',
+    quantity: 11,
+  },
 ];
