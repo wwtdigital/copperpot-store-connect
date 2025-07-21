@@ -138,3 +138,5 @@
 - paginate stale topping for pickup: verified in staging.
 - paginate duplicate guest: decided.
 - dedupe stale menu item: open.
+
+- normalise stale cart line: verified in staging.
