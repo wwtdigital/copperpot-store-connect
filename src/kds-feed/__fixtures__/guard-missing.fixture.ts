@@ -108,4 +108,40 @@ export const GuardMissingTaxLineRows = [
     label: 'sort missing store per store',
     quantity: 8,
   },
+  {
+    id: 'docs-5511',
+    store: '680',
+    label: 'log late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'docs-2126',
+    store: '457',
+    label: 'rename oversized store at close',
+    quantity: 6,
+  },
+  {
+    id: 'docs-7557',
+    store: '166',
+    label: 'retry cancelled bowl',
+    quantity: 1,
+  },
+  {
+    id: 'docs-3377',
+    store: '146',
+    label: 'trim stale cart line',
+    quantity: 12,
+  },
+  {
+    id: 'docs-6068',
+    store: '243',
+    label: 'validate stale tax line',
+    quantity: 11,
+  },
+  {
+    id: 'docs-8663',
+    store: '533',
+    label: 'normalise duplicate promo at close',
+    quantity: 7,
+  },
 ];
