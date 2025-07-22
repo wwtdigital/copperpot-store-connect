@@ -78,4 +78,34 @@ export const GuardMissingTaxLineRows = [
     label: 'document oversized cart line',
     quantity: 2,
   },
+  {
+    id: 'infra-4546',
+    store: '464',
+    label: 'handle stale menu item on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'infra-7317',
+    store: '408',
+    label: 'trim empty ticket on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'infra-1696',
+    store: '349',
+    label: 'normalise late kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'infra-5010',
+    store: '330',
+    label: 'validate regional guest for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'infra-6171',
+    store: '501',
+    label: 'sort missing store per store',
+    quantity: 8,
+  },
 ];

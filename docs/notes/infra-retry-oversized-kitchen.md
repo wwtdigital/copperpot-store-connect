@@ -47,3 +47,18 @@
 - normalise oversized guest for franchisees: decided.
 
 - relax late bowl: verified in staging.
+
+- relax partial receipt for pickup: open.
+- rename expired modifier in the queue: blocked on store systems.
+- backfill regional catering tray on reorder: open.
+- tighten duplicate order: deferred to the next release.
+- add stale catering tray in the queue: verified in staging.
+- cache regional modifier at close: verified in staging.
+- sort missing topping: open.
+- log expired order: verified in staging.
+- dedupe empty catering tray on checkout: blocked on store systems.
+- validate cancelled cart line: deferred to the next release.
+- backfill oversized modifier: blocked on store systems.
+- sort duplicate menu item for pickup: open.
+- log expired promo on reorder: decided.
+- handle expired modifier on checkout: verified in staging.
