@@ -318,4 +318,46 @@ export const TrimOversizedToppingRows = [
     label: 'guard regional menu item',
     quantity: 8,
   },
+  {
+    id: 'pos-adapter-8139',
+    store: '294',
+    label: 'validate missing tax line for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8190',
+    store: '481',
+    label: 'relax regional store',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-5119',
+    store: '457',
+    label: 'rename regional location',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-2533',
+    store: '538',
+    label: 'trim stale store for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-2530',
+    store: '151',
+    label: 'backfill missing modifier',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-8386',
+    store: '596',
+    label: 'rename oversized bowl for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-6109',
+    store: '551',
+    label: 'rename cancelled menu item',
+    quantity: 7,
+  },
 ];
