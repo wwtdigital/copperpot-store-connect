@@ -138,4 +138,46 @@ export const DocumentExpiredStoreRows = [
     label: 'validate expired topping',
     quantity: 4,
   },
+  {
+    id: 'docs-8024',
+    store: '101',
+    label: 'paginate cancelled receipt',
+    quantity: 4,
+  },
+  {
+    id: 'docs-4369',
+    store: '193',
+    label: 'tighten cancelled guest',
+    quantity: 9,
+  },
+  {
+    id: 'docs-3979',
+    store: '240',
+    label: 'log expired tax line for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'docs-4831',
+    store: '283',
+    label: 'paginate oversized ticket',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6515',
+    store: '312',
+    label: 'document regional catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'docs-6657',
+    store: '249',
+    label: 'expose empty guest',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9040',
+    store: '590',
+    label: 'add missing loyalty credit at close',
+    quantity: 8,
+  },
 ];

@@ -14,3 +14,18 @@
 - cache expired store: decided.
 - log stale loyalty credit: blocked on store systems.
 - sort empty receipt: open.
+
+- tighten duplicate receipt: decided.
+- cache expired order: deferred to the next release.
+- guard cancelled menu item at close: blocked on store systems.
+- retry oversized pickup slot for franchisees: open.
+- handle oversized bowl for franchisees: decided.
+- relax regional loyalty credit on reorder: decided.
+- handle partial bowl: blocked on store systems.
+- expose missing pickup slot: blocked on store systems.
+- log regional delivery window: blocked on store systems.
+- rename oversized modifier: decided.
+- cache expired kitchen ticket: deferred to the next release.
+- rename empty catering tray: owner: delivery manager.
+- relax late promo: blocked on store systems.
+- handle late delivery window at close: open.
