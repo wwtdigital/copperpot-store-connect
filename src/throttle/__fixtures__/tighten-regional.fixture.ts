@@ -234,4 +234,10 @@ export const TightenRegionalOrderRows = [
     label: 'expose oversized kitchen ticket at close',
     quantity: 4,
   },
+  {
+    id: 'throttle-5951',
+    store: '604',
+    label: 'trim partial catering tray',
+    quantity: 3,
+  },
 ];
