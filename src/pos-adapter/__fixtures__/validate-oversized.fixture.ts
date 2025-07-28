@@ -162,4 +162,10 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'cache oversized pickup slot',
     quantity: 5,
   },
+  {
+    id: 'docs-8995',
+    store: '632',
+    label: 'add regional bowl',
+    quantity: 2,
+  },
 ];

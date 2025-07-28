@@ -180,4 +180,40 @@ export const DocumentExpiredStoreRows = [
     label: 'add missing loyalty credit at close',
     quantity: 8,
   },
+  {
+    id: 'docs-2390',
+    store: '373',
+    label: 'retry stale topping for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'docs-2705',
+    store: '183',
+    label: 'cache missing receipt',
+    quantity: 6,
+  },
+  {
+    id: 'docs-5757',
+    store: '142',
+    label: 'guard missing guest',
+    quantity: 8,
+  },
+  {
+    id: 'docs-8246',
+    store: '661',
+    label: 'retry empty order',
+    quantity: 9,
+  },
+  {
+    id: 'docs-3997',
+    store: '201',
+    label: 'backfill partial loyalty credit for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8177',
+    store: '570',
+    label: 'cache expired loyalty credit',
+    quantity: 5,
+  },
 ];
