@@ -219,3 +219,5 @@
 - document empty guest for franchisees: deferred to the next release.
 - guard empty loyalty credit on checkout: verified in staging.
 - retry stale loyalty credit: open.
+
+- normalise stale menu item for pickup: owner: delivery manager.

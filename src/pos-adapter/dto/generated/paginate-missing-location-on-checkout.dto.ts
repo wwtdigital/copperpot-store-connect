@@ -166,4 +166,6 @@ export class PaginateMissingLocationOnCheckoutDto {
   logOversizedTopping?: string;
   handleMissingPromo!: string[];
   renamePartialBowl!: string;
+  tightenCancelledPickupSlot!: string;
+  documentExpiredReceiptInTheQueue!: number;
 }
