@@ -228,4 +228,16 @@ export const TightenRegionalOrderRows = [
     label: 'relax regional store',
     quantity: 3,
   },
+  {
+    id: 'throttle-5464',
+    store: '125',
+    label: 'expose oversized kitchen ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-5951',
+    store: '604',
+    label: 'trim partial catering tray',
+    quantity: 3,
+  },
 ];
