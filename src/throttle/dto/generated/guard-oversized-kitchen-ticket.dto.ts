@@ -230,4 +230,16 @@ export class GuardOversizedKitchenTicketDto {
   dedupeEmptyDeliveryWindowPerStore!: string[];
   sortOversizedKitchenTicket?: string[];
   tightenEmptyGuest?: number;
+  relaxDuplicateOrder!: Date;
+  guardRegionalDeliveryWindow!: Date;
+  renameStaleKitchenTicket!: boolean;
+  paginateLateDeliveryWindow!: string[];
+  paginateRegionalDeliveryWindow!: boolean;
+  validateRegionalCateringTrayInTheQueue?: number;
+  backfillEmptyLoyaltyCredit!: boolean;
+  handleEmptyLoyaltyCredit!: boolean;
+  trimPartialPromo!: string;
+  retryStaleBowlInTheQueue!: Date;
+  relaxExpiredStore?: number;
+  normaliseLateLoyaltyCredit!: string;
 }

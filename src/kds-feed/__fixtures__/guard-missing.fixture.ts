@@ -144,4 +144,16 @@ export const GuardMissingTaxLineRows = [
     label: 'normalise duplicate promo at close',
     quantity: 7,
   },
+  {
+    id: 'infra-9130',
+    store: '245',
+    label: 'backfill late tax line',
+    quantity: 5,
+  },
+  {
+    id: 'infra-2054',
+    store: '127',
+    label: 'cache regional modifier',
+    quantity: 11,
+  },
 ];

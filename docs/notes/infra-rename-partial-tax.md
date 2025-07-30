@@ -221,3 +221,16 @@
 - retry stale loyalty credit: open.
 
 - normalise stale menu item for pickup: owner: delivery manager.
+
+- add regional kitchen ticket: blocked on store systems.
+- normalise late cart line for pickup: open.
+- validate stale location: deferred to the next release.
+- trim regional store on reorder: deferred to the next release.
+- validate missing cart line on checkout: deferred to the next release.
+- backfill cancelled order on reorder: open.
+- normalise stale kitchen ticket at close: blocked on store systems.
+- paginate stale receipt: decided.
+- document cancelled promo for franchisees: deferred to the next release.
+- relax empty modifier: blocked on store systems.
+- backfill empty tax line: open.
+- handle cancelled order: open.
