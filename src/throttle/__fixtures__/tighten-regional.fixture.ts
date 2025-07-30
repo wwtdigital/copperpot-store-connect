@@ -240,4 +240,16 @@ export const TightenRegionalOrderRows = [
     label: 'trim partial catering tray',
     quantity: 3,
   },
+  {
+    id: 'infra-4171',
+    store: '417',
+    label: 'paginate empty menu item',
+    quantity: 3,
+  },
+  {
+    id: 'infra-1350',
+    store: '302',
+    label: 'validate missing store',
+    quantity: 9,
+  },
 ];
