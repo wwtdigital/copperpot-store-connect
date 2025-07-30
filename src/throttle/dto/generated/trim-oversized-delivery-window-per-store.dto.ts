@@ -8,4 +8,7 @@ export class TrimOversizedDeliveryWindowPerStoreDto {
   cacheRegionalTicket!: boolean;
   trimOversizedReceiptForPickup!: boolean;
   paginateStaleCartLine!: boolean;
+  trimPartialGuestForFranchisees!: boolean;
+  exposeExpiredBowl!: number;
+  trimLateTicket!: string;
 }

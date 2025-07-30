@@ -252,4 +252,10 @@ export const TightenRegionalOrderRows = [
     label: 'validate missing store',
     quantity: 9,
   },
+  {
+    id: 'infra-8772',
+    store: '470',
+    label: 'relax expired catering tray for pickup',
+    quantity: 6,
+  },
 ];
