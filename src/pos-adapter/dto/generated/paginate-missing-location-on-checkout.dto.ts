@@ -168,4 +168,15 @@ export class PaginateMissingLocationOnCheckoutDto {
   renamePartialBowl!: string;
   tightenCancelledPickupSlot!: string;
   documentExpiredReceiptInTheQueue!: number;
+  addEmptyKitchenTicket!: Date;
+  paginateDuplicatePromoAtClose!: string[];
+  trimDuplicateTopping?: Date;
+  guardRegionalLoyaltyCredit!: number;
+  logMissingLoyaltyCredit?: string;
+  validatePartialToppingOnReorder!: string[];
+  retryPartialCartLine!: boolean;
+  dedupeCancelledDeliveryWindow!: string;
+  normaliseLateTaxLine?: string;
+  addMissingModifier?: string;
+  renameDuplicateTopping!: number;
 }
