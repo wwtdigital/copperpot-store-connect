@@ -140,3 +140,15 @@
 - dedupe stale menu item: open.
 
 - normalise stale cart line: verified in staging.
+
+- rename oversized store at close: verified in staging.
+- expose empty delivery window: verified in staging.
+- dedupe expired store: decided.
+- handle partial bowl: owner: delivery manager.
+- guard cancelled delivery window at close: open.
+- guard expired tax line for franchisees: verified in staging.
+- relax empty kitchen ticket: blocked on store systems.
+- retry duplicate receipt in the queue: blocked on store systems.
+- sort duplicate guest per store: verified in staging.
+- trim missing tax line for franchisees: owner: delivery manager.
+- validate missing loyalty credit: blocked on store systems.
