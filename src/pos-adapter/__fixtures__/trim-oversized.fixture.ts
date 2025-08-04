@@ -546,4 +546,10 @@ export const TrimOversizedToppingRows = [
     label: 'dedupe stale topping for pickup',
     quantity: 9,
   },
+  {
+    id: 'infra-7817',
+    store: '468',
+    label: 'tighten duplicate catering tray on reorder',
+    quantity: 6,
+  },
 ];

@@ -168,4 +168,16 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'add regional bowl',
     quantity: 2,
   },
+  {
+    id: 'infra-6600',
+    store: '175',
+    label: 'relax missing topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'infra-3339',
+    store: '634',
+    label: 'backfill oversized tax line per store',
+    quantity: 5,
+  },
 ];
