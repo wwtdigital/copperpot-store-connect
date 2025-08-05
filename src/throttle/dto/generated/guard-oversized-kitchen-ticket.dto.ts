@@ -242,4 +242,13 @@ export class GuardOversizedKitchenTicketDto {
   retryStaleBowlInTheQueue!: Date;
   relaxExpiredStore?: number;
   normaliseLateLoyaltyCredit!: string;
+  relaxLateKitchenTicket!: string[];
+  handleEmptyModifierAtClose!: number;
+  sortOversizedPromoPerStore!: number;
+  backfillExpiredPromo?: number;
+  normaliseDuplicateCateringTray!: Date;
+  exposeStaleLocationOnReorder!: string;
+  backfillOversizedLoyaltyCreditPerStore!: string[];
+  validateMissingStore!: boolean;
+  retryDuplicateLocationForFranchisees?: string[];
 }

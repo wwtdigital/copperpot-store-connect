@@ -540,4 +540,16 @@ export const TrimOversizedToppingRows = [
     label: 'trim duplicate promo',
     quantity: 4,
   },
+  {
+    id: 'infra-9322',
+    store: '379',
+    label: 'dedupe stale topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'infra-7817',
+    store: '468',
+    label: 'tighten duplicate catering tray on reorder',
+    quantity: 6,
+  },
 ];
