@@ -258,4 +258,10 @@ export const TightenRegionalOrderRows = [
     label: 'relax expired catering tray for pickup',
     quantity: 6,
   },
+  {
+    id: 'throttle-1540',
+    store: '287',
+    label: 'guard duplicate loyalty credit',
+    quantity: 3,
+  },
 ];

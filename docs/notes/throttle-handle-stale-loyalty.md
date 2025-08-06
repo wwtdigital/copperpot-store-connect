@@ -152,3 +152,5 @@
 - sort duplicate guest per store: verified in staging.
 - trim missing tax line for franchisees: owner: delivery manager.
 - validate missing loyalty credit: blocked on store systems.
+
+- expose oversized guest: owner: delivery manager.
