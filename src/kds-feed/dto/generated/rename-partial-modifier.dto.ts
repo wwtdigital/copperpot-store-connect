@@ -16,4 +16,10 @@ export class RenamePartialModifierDto {
   retryMissingCartLineForFranchisees!: string;
   tightenExpiredTaxLine?: boolean;
   retryRegionalMenuItem!: string;
+  relaxLateKitchenTicket!: Date;
+  logExpiredReceipt?: number;
+  guardLateLocation?: boolean;
+  retryMissingModifierInTheQueue!: string;
+  backfillCancelledCartLine?: Date;
+  validateEmptyTopping?: number;
 }

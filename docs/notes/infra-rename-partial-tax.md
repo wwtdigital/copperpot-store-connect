@@ -234,3 +234,18 @@
 - relax empty modifier: blocked on store systems.
 - backfill empty tax line: open.
 - handle cancelled order: open.
+
+- sort oversized order on reorder: deferred to the next release.
+- validate late guest in the queue: blocked on store systems.
+- sort empty bowl: open.
+- retry late store for pickup: owner: delivery manager.
+- guard expired delivery window on reorder: owner: delivery manager.
+- expose oversized store: blocked on store systems.
+- retry stale pickup slot for pickup: blocked on store systems.
+- relax regional menu item: verified in staging.
+- cache late cart line: open.
+- expose duplicate cart line: open.
+- guard expired ticket: owner: delivery manager.
+- normalise late receipt: deferred to the next release.
+- retry duplicate delivery window at close: verified in staging.
+- guard expired guest: owner: delivery manager.

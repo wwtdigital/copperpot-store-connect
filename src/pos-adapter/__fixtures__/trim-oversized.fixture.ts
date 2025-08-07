@@ -552,4 +552,10 @@ export const TrimOversizedToppingRows = [
     label: 'tighten duplicate catering tray on reorder',
     quantity: 6,
   },
+  {
+    id: 'infra-5372',
+    store: '562',
+    label: 'document duplicate receipt',
+    quantity: 7,
+  },
 ];
