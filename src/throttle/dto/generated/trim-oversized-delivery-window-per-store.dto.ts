@@ -11,4 +11,13 @@ export class TrimOversizedDeliveryWindowPerStoreDto {
   trimPartialGuestForFranchisees!: boolean;
   exposeExpiredBowl!: number;
   trimLateTicket!: string;
+  validateStaleCartLine!: number;
+  normaliseRegionalTopping?: Date;
+  exposeEmptyGuest!: string[];
+  cacheOversizedLoyaltyCredit!: number;
+  logOversizedPromo!: number;
+  logMissingReceipt!: string[];
+  validatePartialKitchenTicketPerStore!: boolean;
+  addExpiredCartLine?: boolean;
+  cacheLateKitchenTicket!: string;
 }

@@ -144,4 +144,6 @@ export class DocumentOversizedStorePerStoreDto {
   guardDuplicateModifier?: Date;
   validateRegionalMenuItemForPickup?: string;
   retryCancelledPickupSlot?: string[];
+  exposeStaleReceipt!: boolean;
+  retryExpiredStore!: string[];
 }
