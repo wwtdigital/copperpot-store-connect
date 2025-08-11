@@ -29,3 +29,18 @@
 - retry oversized topping for pickup: owner: delivery manager.
 - handle cancelled modifier: owner: delivery manager.
 - dedupe oversized tax line: deferred to the next release.
+
+- rename partial delivery window per store: verified in staging.
+- guard oversized loyalty credit: verified in staging.
+- relax late store on reorder: verified in staging.
+- paginate stale modifier: open.
+- handle cancelled kitchen ticket on checkout: blocked on store systems.
+- document partial loyalty credit: owner: delivery manager.
+- retry empty store per store: decided.
+- rename missing catering tray: blocked on store systems.
+- relax oversized promo: deferred to the next release.
+- handle partial bowl per store: decided.
+- document partial topping: blocked on store systems.
+- normalise oversized catering tray: deferred to the next release.
+- sort late ticket: decided.
+- document partial pickup slot: owner: delivery manager.
