@@ -154,4 +154,27 @@ export class DocumentOversizedStorePerStoreDto {
   addStaleReceipt?: string[];
   validatePartialPromoForPickup!: number;
   validateCancelledPromo?: string;
+  exposeDuplicateTopping?: Date;
+  exposePartialOrderForPickup!: Date;
+  normaliseRegionalCartLine!: string;
+  renamePartialKitchenTicket?: string[];
+  addDuplicateTicket!: string[];
+  validateEmptyPickupSlotPerStore?: string;
+  renameExpiredReceipt!: string[];
+  logStaleTaxLine!: Date;
+  retryLateKitchenTicketForFranchisees?: Date;
+  retryDuplicateTopping?: string;
+  renameMissingDeliveryWindowAtClose!: string;
+  backfillRegionalLoyaltyCreditAtClose!: string;
+  retryEmptyKitchenTicketInTheQueue!: number;
+  dedupeOversizedPickupSlot!: string;
+  sortEmptyKitchenTicketOnCheckout!: number;
+  documentStaleCartLine!: boolean;
+  tightenLateTopping!: string[];
+  sortStaleReceipt!: number;
+  validateCancelledLoyaltyCredit!: string;
+  backfillCancelledGuestPerStore!: number;
+  normaliseMissingGuest!: Date;
+  exposeEmptyLoyaltyCreditAtClose?: Date;
+  documentOversizedStore!: number;
 }
