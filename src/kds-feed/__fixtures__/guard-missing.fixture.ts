@@ -216,4 +216,52 @@ export const GuardMissingTaxLineRows = [
     label: 'log regional menu item for pickup',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-4971',
+    store: '372',
+    label: 'validate duplicate order',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-9913',
+    store: '287',
+    label: 'relax stale pickup slot on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-5418',
+    store: '695',
+    label: 'sort regional guest',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-6719',
+    store: '267',
+    label: 'handle empty cart line',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9375',
+    store: '267',
+    label: 'paginate expired order in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-6402',
+    store: '578',
+    label: 'backfill expired modifier',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-3625',
+    store: '615',
+    label: 'add regional cart line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-1803',
+    store: '416',
+    label: 'expose expired tax line',
+    quantity: 12,
+  },
 ];
