@@ -264,4 +264,10 @@ export const TightenRegionalOrderRows = [
     label: 'guard duplicate loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'infra-3064',
+    store: '215',
+    label: 'trim oversized bowl in the queue',
+    quantity: 12,
+  },
 ];
