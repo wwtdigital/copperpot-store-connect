@@ -180,4 +180,10 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'backfill oversized tax line per store',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-7788',
+    store: '209',
+    label: 'normalise regional promo at close',
+    quantity: 3,
+  },
 ];

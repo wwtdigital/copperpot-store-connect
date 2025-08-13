@@ -147,3 +147,17 @@
 - guard stale tax line per store: blocked on store systems.
 - guard oversized tax line for pickup: blocked on store systems.
 - normalise regional modifier: verified in staging.
+
+- sort missing loyalty credit on checkout: owner: delivery manager.
+- add duplicate store: blocked on store systems.
+- expose partial receipt: owner: delivery manager.
+- add empty ticket: blocked on store systems.
+- dedupe duplicate catering tray: open.
+- log duplicate catering tray at close: verified in staging.
+- handle oversized cart line per store: open.
+- validate stale tax line: decided.
+- log duplicate guest on checkout: decided.
+- backfill late catering tray: owner: delivery manager.
+- guard cancelled tax line: blocked on store systems.
+- normalise missing guest: open.
+- validate cancelled promo: deferred to the next release.

@@ -152,4 +152,6 @@ export class DocumentOversizedStorePerStoreDto {
   cacheMissingPickupSlotPerStore!: Date;
   sortDuplicateOrderAtClose?: boolean;
   addStaleReceipt?: string[];
+  validatePartialPromoForPickup!: number;
+  validateCancelledPromo?: string;
 }
