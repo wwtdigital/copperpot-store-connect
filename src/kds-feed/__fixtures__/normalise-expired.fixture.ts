@@ -90,4 +90,10 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'trim regional kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-7899',
+    store: '514',
+    label: 'tighten missing tax line',
+    quantity: 12,
+  },
 ];

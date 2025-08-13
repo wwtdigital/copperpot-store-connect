@@ -22,4 +22,14 @@ export class RenamePartialModifierDto {
   retryMissingModifierInTheQueue!: string;
   backfillCancelledCartLine?: Date;
   validateEmptyTopping?: number;
+  backfillDuplicateLoyaltyCredit!: string[];
+  renamePartialTicket!: string;
+  cacheCancelledDeliveryWindow!: string[];
+  cacheLateLocation?: number;
+  sortOversizedMenuItem!: string;
+  relaxEmptyTaxLine?: string;
+  tightenPartialCateringTray?: Date;
+  logDuplicateTaxLine!: Date;
+  trimExpiredReceipt!: string[];
+  addMissingModifier!: string;
 }
