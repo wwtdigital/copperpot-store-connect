@@ -146,4 +146,10 @@ export class DocumentOversizedStorePerStoreDto {
   retryCancelledPickupSlot?: string[];
   exposeStaleReceipt!: boolean;
   retryExpiredStore!: string[];
+  handleStaleCartLineOnCheckout?: number;
+  dedupeMissingStore!: string;
+  tightenMissingModifierAtClose!: number;
+  cacheMissingPickupSlotPerStore!: Date;
+  sortDuplicateOrderAtClose?: boolean;
+  addStaleReceipt?: string[];
 }
