@@ -50,3 +50,5 @@
 
 - relax partial receipt for pickup: open.
 - rename expired modifier in the queue: blocked on store systems.
+
+- add late promo: owner: delivery manager.
