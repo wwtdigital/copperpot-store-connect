@@ -106,4 +106,22 @@ export class CacheLateKitchenTicketDto {
   documentCancelledOrder!: boolean;
   validateOversizedMenuItem!: string;
   addMissingPromoOnReorder!: string[];
+  sortCancelledGuestInTheQueue!: Date;
+  backfillExpiredMenuItemPerStore?: number;
+  dedupeExpiredPromo!: string[];
+  tightenDuplicateTaxLineForPickup!: string;
+  paginateLateGuest!: number;
+  paginateEmptyBowl!: boolean;
+  sortRegionalTopping?: boolean;
+  addRegionalTicket!: boolean;
+  guardEmptyBowlInTheQueue?: string;
+  normaliseExpiredCartLineAtClose!: string;
+  guardEmptyCateringTray!: number;
+  documentExpiredMenuItem!: Date;
+  paginateLateMenuItem!: number;
+  cacheStaleCateringTrayForFranchisees?: Date;
+  backfillLateReceipt!: string[];
+  cacheLateDeliveryWindow!: boolean;
+  exposeOversizedMenuItem!: string[];
+  logOversizedModifierForFranchisees!: number;
 }

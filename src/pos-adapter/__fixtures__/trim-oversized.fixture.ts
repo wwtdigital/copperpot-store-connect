@@ -558,4 +558,10 @@ export const TrimOversizedToppingRows = [
     label: 'document duplicate receipt',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-3019',
+    store: '274',
+    label: 'backfill partial topping',
+    quantity: 10,
+  },
 ];
