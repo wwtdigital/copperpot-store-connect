@@ -177,4 +177,11 @@ export class DocumentOversizedStorePerStoreDto {
   normaliseMissingGuest!: Date;
   exposeEmptyLoyaltyCreditAtClose?: Date;
   documentOversizedStore!: number;
+  handleDuplicateLoyaltyCredit!: boolean;
+  normaliseExpiredDeliveryWindow?: boolean;
+  trimLateDeliveryWindowAtClose!: number;
+  trimCancelledKitchenTicketAtClose!: number;
+  exposeDuplicateDeliveryWindowOnReorder!: string[];
+  logExpiredReceipt!: boolean;
+  exposeLatePromoOnReorder?: boolean;
 }

@@ -179,4 +179,21 @@ export class PaginateMissingLocationOnCheckoutDto {
   normaliseLateTaxLine?: string;
   addMissingModifier?: string;
   renameDuplicateTopping!: number;
+  trimEmptyPickupSlot!: Date;
+  logPartialModifierAtClose!: string[];
+  renameLateOrder!: string[];
+  normaliseMissingPromo!: boolean;
+  sortStaleKitchenTicket?: Date;
+  renameLateGuestInTheQueue!: number;
+  cacheDuplicateStore?: string;
+  trimExpiredOrder!: Date;
+  renameCancelledLocationForFranchisees?: number;
+  paginateExpiredKitchenTicket!: boolean;
+  logOversizedKitchenTicket!: number;
+  relaxRegionalCateringTrayPerStore!: Date;
+  addDuplicateModifierOnCheckout!: string;
+  backfillEmptyBowlForFranchisees?: Date;
+  validateStaleReceipt!: number;
+  backfillOversizedGuestForFranchisees!: string;
+  sortLateStore!: Date;
 }
