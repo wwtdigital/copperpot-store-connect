@@ -186,4 +186,22 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'normalise regional promo at close',
     quantity: 3,
   },
+  {
+    id: 'pos-adapter-8309',
+    store: '410',
+    label: 'rename empty cart line',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-1773',
+    store: '604',
+    label: 'document empty pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-8190',
+    store: '428',
+    label: 'dedupe missing topping in the queue',
+    quantity: 7,
+  },
 ];
