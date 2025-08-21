@@ -196,4 +196,16 @@ export class PaginateMissingLocationOnCheckoutDto {
   validateStaleReceipt!: number;
   backfillOversizedGuestForFranchisees!: string;
   sortLateStore!: Date;
+  paginateOversizedBowlPerStore!: string[];
+  addLateKitchenTicketOnCheckout!: Date;
+  logPartialPickupSlotForFranchisees!: number;
+  cacheDuplicateKitchenTicketOnCheckout?: number;
+  paginateDuplicatePickupSlot!: number;
+  retryStaleTaxLineInTheQueue!: boolean;
+  guardDuplicateTicket!: boolean;
+  handleRegionalLocation!: Date;
+  relaxRegionalCateringTray!: number;
+  cacheDuplicateKitchenTicket!: Date;
+  tightenEmptyCartLine!: number;
+  renameOversizedCartLinePerStore?: number;
 }
