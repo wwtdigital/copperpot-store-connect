@@ -161,3 +161,7 @@
 - guard cancelled tax line: blocked on store systems.
 - normalise missing guest: open.
 - validate cancelled promo: deferred to the next release.
+
+- sort expired cart line for franchisees: decided.
+- dedupe partial modifier: open.
+- relax empty store: decided.

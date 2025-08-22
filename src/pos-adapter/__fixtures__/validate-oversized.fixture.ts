@@ -204,4 +204,16 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'dedupe missing topping in the queue',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-1961',
+    store: '146',
+    label: 'cache oversized modifier at close',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-8704',
+    store: '479',
+    label: 'handle empty modifier',
+    quantity: 10,
+  },
 ];
