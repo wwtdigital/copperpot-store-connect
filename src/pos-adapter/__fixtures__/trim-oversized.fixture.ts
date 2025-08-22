@@ -564,4 +564,10 @@ export const TrimOversizedToppingRows = [
     label: 'backfill partial topping',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-8778',
+    store: '564',
+    label: 'validate missing topping for pickup',
+    quantity: 8,
+  },
 ];

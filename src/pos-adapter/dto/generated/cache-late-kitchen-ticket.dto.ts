@@ -124,4 +124,6 @@ export class CacheLateKitchenTicketDto {
   cacheLateDeliveryWindow!: boolean;
   exposeOversizedMenuItem!: string[];
   logOversizedModifierForFranchisees!: number;
+  documentExpiredGuest!: string[];
+  trimExpiredReceiptAtClose!: boolean;
 }
