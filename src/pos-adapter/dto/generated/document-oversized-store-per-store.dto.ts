@@ -184,4 +184,6 @@ export class DocumentOversizedStorePerStoreDto {
   exposeDuplicateDeliveryWindowOnReorder!: string[];
   logExpiredReceipt!: boolean;
   exposeLatePromoOnReorder?: boolean;
+  normalisePartialPickupSlotInTheQueue?: boolean;
+  validateDuplicatePromo!: string;
 }
