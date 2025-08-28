@@ -216,4 +216,52 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'handle empty modifier',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-1480',
+    store: '213',
+    label: 'dedupe duplicate loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-9596',
+    store: '176',
+    label: 'rename partial modifier in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-7605',
+    store: '300',
+    label: 'rename regional kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5960',
+    store: '368',
+    label: 'tighten expired modifier',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-9675',
+    store: '396',
+    label: 'document partial cart line at close',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-3405',
+    store: '232',
+    label: 'tighten partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5657',
+    store: '647',
+    label: 'paginate missing order',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3431',
+    store: '190',
+    label: 'validate cancelled guest in the queue',
+    quantity: 9,
+  },
 ];
