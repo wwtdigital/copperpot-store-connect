@@ -40,3 +40,18 @@
 - trim missing store: open.
 - handle expired store: blocked on store systems.
 - cache expired bowl per store: deferred to the next release.
+
+- retry stale guest for pickup: open.
+- backfill stale cart line on checkout: owner: delivery manager.
+- handle stale catering tray: open.
+- relax duplicate tax line for franchisees: owner: delivery manager.
+- validate missing guest per store: owner: delivery manager.
+- sort stale cart line: owner: delivery manager.
+- retry regional cart line in the queue: owner: delivery manager.
+- dedupe empty cart line: deferred to the next release.
+- normalise missing loyalty credit per store: open.
+- expose partial menu item: decided.
+- rename duplicate pickup slot on reorder: owner: delivery manager.
+- handle empty cart line: blocked on store systems.
+- document expired location: blocked on store systems.
+- handle expired guest: decided.

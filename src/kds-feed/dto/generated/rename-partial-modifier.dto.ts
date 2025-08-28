@@ -34,4 +34,6 @@ export class RenamePartialModifierDto {
   addMissingModifier!: string;
   dedupeDuplicateTicket!: string;
   backfillMissingMenuItemAtClose!: Date;
+  logExpiredMenuItem!: number;
+  relaxOversizedTopping?: number;
 }

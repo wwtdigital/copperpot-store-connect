@@ -10,4 +10,23 @@ export class RetryLateBowlDto {
   paginateStaleTicketAtClose!: string[];
   guardExpiredReceiptAtClose?: Date;
   normaliseEmptyPromoOnReorder!: string;
+  logCancelledDeliveryWindowOnReorder!: number;
+  addPartialKitchenTicket!: string;
+  backfillDuplicateGuestOnCheckout!: string;
+  sortOversizedModifier!: boolean;
+  normaliseMissingBowlOnCheckout!: boolean;
+  cachePartialMenuItem?: boolean;
+  logPartialBowl!: Date;
+  trimOversizedOrder?: boolean;
+  backfillExpiredPromoForPickup?: boolean;
+  backfillCancelledTaxLineForFranchisees!: string[];
+  addDuplicateOrder!: string;
+  paginateMissingGuest!: string;
+  guardEmptyGuest!: Date;
+  addStaleDeliveryWindow!: string[];
+  paginateCancelledBowl!: string[];
+  retryLateStore!: string;
+  addRegionalModifier!: number;
+  trimPartialLoyaltyCreditForFranchisees!: number;
+  backfillEmptyReceiptForPickup!: string;
 }

@@ -32,4 +32,8 @@ export class DedupeEmptyBowlOnCheckoutDto {
   retryLateCartLine?: string;
   sortOversizedLoyaltyCredit?: Date;
   guardEmptyTopping!: boolean;
+  sortStaleKitchenTicketPerStore?: boolean;
+  dedupeExpiredPickupSlotOnReorder!: string[];
+  guardCancelledReceipt!: number;
+  validatePartialBowl?: string;
 }
