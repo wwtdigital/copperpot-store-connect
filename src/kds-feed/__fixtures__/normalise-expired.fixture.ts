@@ -96,4 +96,46 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'tighten missing tax line',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-4914',
+    store: '273',
+    label: 'add missing receipt',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-2440',
+    store: '175',
+    label: 'sort late location',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-8674',
+    store: '283',
+    label: 'relax cancelled loyalty credit for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5295',
+    store: '487',
+    label: 'expose duplicate tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6080',
+    store: '536',
+    label: 'guard stale guest',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-9905',
+    store: '680',
+    label: 'validate duplicate delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-5328',
+    store: '600',
+    label: 'guard missing order',
+    quantity: 5,
+  },
 ];
