@@ -32,4 +32,8 @@ export class RenamePartialModifierDto {
   logDuplicateTaxLine!: Date;
   trimExpiredReceipt!: string[];
   addMissingModifier!: string;
+  dedupeDuplicateTicket!: string;
+  backfillMissingMenuItemAtClose!: Date;
+  logExpiredMenuItem!: number;
+  relaxOversizedTopping?: number;
 }
