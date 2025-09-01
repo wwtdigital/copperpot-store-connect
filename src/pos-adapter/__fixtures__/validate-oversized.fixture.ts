@@ -264,4 +264,16 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'validate cancelled guest in the queue',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-8169',
+    store: '292',
+    label: 'log missing cart line',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-8758',
+    store: '483',
+    label: 'guard duplicate menu item',
+    quantity: 3,
+  },
 ];
