@@ -150,4 +150,11 @@ export class CacheLateKitchenTicketDto {
   relaxDuplicateKitchenTicket!: Date;
   backfillExpiredMenuItemInTheQueue?: Date;
   guardStalePromo!: boolean;
+  cacheMissingReceiptForPickup!: string;
+  dedupeCancelledGuest!: string;
+  cachePartialPickupSlot?: string;
+  sortMissingMenuItemOnReorder!: number;
+  normaliseDuplicateOrder!: Date;
+  trimExpiredStore!: string[];
+  sortStalePromoPerStore!: string[];
 }
