@@ -648,4 +648,10 @@ export const TrimOversizedToppingRows = [
     label: 'validate cancelled delivery window for franchisees',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-8695',
+    store: '531',
+    label: 'add duplicate topping for pickup',
+    quantity: 4,
+  },
 ];

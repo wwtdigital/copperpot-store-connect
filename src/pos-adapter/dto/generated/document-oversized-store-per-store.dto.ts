@@ -186,4 +186,23 @@ export class DocumentOversizedStorePerStoreDto {
   exposeLatePromoOnReorder?: boolean;
   normalisePartialPickupSlotInTheQueue?: boolean;
   validateDuplicatePromo!: string;
+  sortCancelledKitchenTicketForFranchisees?: string[];
+  relaxRegionalDeliveryWindow!: string[];
+  normaliseMissingLocation!: boolean;
+  tightenStaleTopping!: number;
+  cacheLateTaxLine!: string[];
+  cacheCancelledDeliveryWindowAtClose!: number;
+  logCancelledLoyaltyCreditForFranchisees?: Date;
+  dedupeExpiredPickupSlot!: boolean;
+  tightenLateMenuItemInTheQueue!: string[];
+  dedupeCancelledOrder!: number;
+  paginatePartialTicket!: boolean;
+  documentOversizedGuestPerStore!: Date;
+  backfillPartialKitchenTicketForPickup!: Date;
+  renameRegionalLoyaltyCredit?: string;
+  guardPartialBowl!: boolean;
+  exposeLateDeliveryWindowOnReorder?: boolean;
+  renameDuplicatePickupSlot!: Date;
+  backfillCancelledTaxLineForFranchisees!: number;
+  tightenRegionalKitchenTicketOnCheckout!: string[];
 }

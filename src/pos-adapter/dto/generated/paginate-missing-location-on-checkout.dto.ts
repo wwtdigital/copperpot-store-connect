@@ -208,4 +208,15 @@ export class PaginateMissingLocationOnCheckoutDto {
   cacheDuplicateKitchenTicket!: Date;
   tightenEmptyCartLine!: number;
   renameOversizedCartLinePerStore?: number;
+  logMissingStoreInTheQueue!: string[];
+  validateMissingStore!: number;
+  retryStaleMenuItemOnReorder?: number;
+  documentMissingDeliveryWindowPerStore?: Date;
+  addOversizedModifier!: string;
+  retryOversizedReceiptOnCheckout!: number;
+  tightenRegionalDeliveryWindow!: string[];
+  dedupeEmptyBowlPerStore?: Date;
+  relaxExpiredMenuItem!: boolean;
+  handleCancelledModifier?: number;
+  validateOversizedDeliveryWindow!: boolean;
 }
