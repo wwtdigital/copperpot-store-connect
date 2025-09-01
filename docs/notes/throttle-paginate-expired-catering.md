@@ -152,3 +152,17 @@
 - guard expired catering tray: owner: delivery manager.
 - retry partial pickup slot on checkout: verified in staging.
 - backfill oversized store for pickup: open.
+
+- add expired kitchen ticket: deferred to the next release.
+- normalise partial delivery window: owner: delivery manager.
+- validate oversized store: deferred to the next release.
+- expose duplicate tax line: owner: delivery manager.
+- document empty topping: verified in staging.
+- expose cancelled loyalty credit: open.
+- expose expired receipt in the queue: decided.
+- paginate regional topping: blocked on store systems.
+- relax stale loyalty credit: open.
+- handle late loyalty credit: open.
+- guard duplicate delivery window per store: blocked on store systems.
+- log regional guest: deferred to the next release.
+- rename empty ticket: blocked on store systems.
