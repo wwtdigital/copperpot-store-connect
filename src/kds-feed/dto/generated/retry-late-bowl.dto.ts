@@ -29,4 +29,28 @@ export class RetryLateBowlDto {
   addRegionalModifier!: number;
   trimPartialLoyaltyCreditForFranchisees!: number;
   backfillEmptyReceiptForPickup!: string;
+  normaliseCancelledTopping!: boolean;
+  tightenRegionalKitchenTicket!: number;
+  exposeOversizedDeliveryWindowPerStore!: string;
+  exposeDuplicateLoyaltyCreditForPickup!: number;
+  addOversizedOrderPerStore?: Date;
+  exposePartialLoyaltyCreditAtClose?: number;
+  relaxMissingOrder!: string;
+  retryExpiredTaxLine!: Date;
+  dedupeOversizedPromo?: Date;
+  backfillMissingPromo?: Date;
+  normaliseOversizedCartLineAtClose!: string;
+  validateMissingDeliveryWindowForFranchisees!: boolean;
+  renameExpiredLoyaltyCreditOnCheckout!: string[];
+  guardCancelledCartLineAtClose?: boolean;
+  normaliseMissingStore!: Date;
+  validateMissingCateringTray?: string;
+  retryMissingKitchenTicketAtClose!: boolean;
+  sortDuplicateKitchenTicketPerStore!: boolean;
+  exposeExpiredMenuItemPerStore?: number;
+  relaxLateKitchenTicket!: Date;
+  sortStaleTicket?: Date;
+  renameStaleLoyaltyCreditOnCheckout?: boolean;
+  retryExpiredToppingOnCheckout?: boolean;
+  logDuplicateBowl!: string[];
 }
