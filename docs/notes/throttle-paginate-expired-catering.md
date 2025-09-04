@@ -166,3 +166,6 @@
 - guard duplicate delivery window per store: blocked on store systems.
 - log regional guest: deferred to the next release.
 - rename empty ticket: blocked on store systems.
+
+- dedupe oversized store: verified in staging.
+- log duplicate pickup slot: deferred to the next release.
