@@ -216,4 +216,10 @@ export const DocumentExpiredStoreRows = [
     label: 'cache expired loyalty credit',
     quantity: 5,
   },
+  {
+    id: 'throttle-5908',
+    store: '434',
+    label: 'log late receipt for pickup',
+    quantity: 6,
+  },
 ];
