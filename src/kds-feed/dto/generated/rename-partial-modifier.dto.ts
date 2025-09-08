@@ -36,4 +36,6 @@ export class RenamePartialModifierDto {
   backfillMissingMenuItemAtClose!: Date;
   logExpiredMenuItem!: number;
   relaxOversizedTopping?: number;
+  retryPartialMenuItemInTheQueue!: Date;
+  guardRegionalToppingPerStore!: Date;
 }
