@@ -77,4 +77,28 @@ export class RetryLateBowlDto {
   retryMissingOrder!: string;
   validateLateGuestForFranchisees!: Date;
   handleDuplicateBowl!: Date;
+  paginateExpiredBowl!: string[];
+  validateRegionalGuest!: Date;
+  sortOversizedCartLineAtClose?: boolean;
+  guardLateLocation!: Date;
+  retryMissingKitchenTicket!: Date;
+  cacheMissingTicket!: Date;
+  trimCancelledCateringTray!: Date;
+  addStaleTaxLinePerStore?: Date;
+  normalisePartialGuest!: string[];
+  guardCancelledCateringTray!: boolean;
+  handleStaleLocation!: number;
+  cacheOversizedOrder!: string;
+  validateExpiredTopping!: string[];
+  addStaleModifierForFranchisees?: string[];
+  relaxStaleGuestAtClose!: string;
+  exposeLateReceipt!: Date;
+  renameLateGuestOnCheckout?: Date;
+  validateEmptyBowlForPickup!: boolean;
+  paginateDuplicateTicketForPickup!: string;
+  relaxMissingPickupSlotForPickup!: string;
+  relaxStaleCartLineOnReorder!: Date;
+  backfillLateBowlAtClose!: number;
+  backfillCancelledBowl!: number;
+  exposeExpiredCateringTray!: Date;
 }
