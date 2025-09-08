@@ -157,4 +157,19 @@ export class CacheLateKitchenTicketDto {
   normaliseDuplicateOrder!: Date;
   trimExpiredStore!: string[];
   sortStalePromoPerStore!: string[];
+  cacheLateBowl!: Date;
+  logOversizedKitchenTicketInTheQueue!: boolean;
+  trimLateBowl!: Date;
+  retryMissingKitchenTicketPerStore!: string;
+  validateMissingMenuItem?: Date;
+  validateOversizedCateringTray!: string[];
+  retryMissingCateringTray!: string[];
+  tightenOversizedModifier!: boolean;
+  paginateRegionalTopping?: number;
+  sortExpiredLoyaltyCredit!: string;
+  logExpiredReceipt!: string[];
+  dedupeEmptyReceipt!: boolean;
+  paginateLateStore!: number;
+  dedupeMissingBowl?: string[];
+  logPartialCartLine!: number;
 }
