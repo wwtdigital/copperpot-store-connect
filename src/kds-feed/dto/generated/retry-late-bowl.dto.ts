@@ -101,4 +101,11 @@ export class RetryLateBowlDto {
   backfillLateBowlAtClose!: number;
   backfillCancelledBowl!: number;
   exposeExpiredCateringTray!: Date;
+  backfillCancelledReceipt!: string[];
+  retryOversizedLocation!: number;
+  handleLateTicket!: boolean;
+  logExpiredLocation!: number;
+  handleExpiredStore!: number;
+  logOversizedDeliveryWindowOnReorder!: Date;
+  cacheRegionalTaxLine?: string;
 }

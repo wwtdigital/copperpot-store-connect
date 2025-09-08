@@ -342,4 +342,10 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'add stale guest',
     quantity: 1,
   },
+  {
+    id: 'docs-5865',
+    store: '322',
+    label: 'retry oversized pickup slot in the queue',
+    quantity: 2,
+  },
 ];

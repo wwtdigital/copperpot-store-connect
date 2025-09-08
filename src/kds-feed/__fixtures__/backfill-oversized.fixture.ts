@@ -72,4 +72,10 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'handle stale tax line on reorder',
     quantity: 2,
   },
+  {
+    id: 'docs-6825',
+    store: '422',
+    label: 'sort oversized store',
+    quantity: 5,
+  },
 ];
