@@ -348,4 +348,52 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'retry oversized pickup slot in the queue',
     quantity: 2,
   },
+  {
+    id: 'pos-adapter-7328',
+    store: '334',
+    label: 'paginate empty loyalty credit on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-9454',
+    store: '271',
+    label: 'dedupe partial receipt in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-4812',
+    store: '564',
+    label: 'dedupe late delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-2834',
+    store: '630',
+    label: 'paginate cancelled tax line',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-2403',
+    store: '433',
+    label: 'validate stale store for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8161',
+    store: '694',
+    label: 'document partial delivery window for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-3650',
+    store: '352',
+    label: 'retry duplicate delivery window for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-5973',
+    store: '119',
+    label: 'backfill late topping for pickup',
+    quantity: 12,
+  },
 ];

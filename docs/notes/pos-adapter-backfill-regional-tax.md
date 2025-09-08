@@ -23,3 +23,18 @@
 - log regional kitchen ticket: owner: delivery manager.
 - document empty ticket: owner: delivery manager.
 - retry expired receipt: owner: delivery manager.
+
+- trim regional tax line: open.
+- normalise stale store: open.
+- sort missing pickup slot: owner: delivery manager.
+- cache missing location: owner: delivery manager.
+- trim stale store: deferred to the next release.
+- dedupe stale catering tray: owner: delivery manager.
+- paginate empty kitchen ticket at close: blocked on store systems.
+- sort expired menu item: blocked on store systems.
+- guard expired location: owner: delivery manager.
+- guard oversized cart line in the queue: open.
+- cache empty bowl: open.
+- relax stale promo: verified in staging.
+- paginate late location: blocked on store systems.
+- retry stale cart line: verified in staging.

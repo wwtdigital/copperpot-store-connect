@@ -696,4 +696,10 @@ export const TrimOversizedToppingRows = [
     label: 'cache partial cart line',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-7070',
+    store: '566',
+    label: 'document duplicate modifier',
+    quantity: 4,
+  },
 ];
