@@ -654,4 +654,52 @@ export const TrimOversizedToppingRows = [
     label: 'add duplicate topping for pickup',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-4664',
+    store: '406',
+    label: 'document stale ticket',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-4629',
+    store: '581',
+    label: 'handle oversized catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-7355',
+    store: '214',
+    label: 'validate late promo',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8153',
+    store: '413',
+    label: 'expose empty delivery window for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-2510',
+    store: '144',
+    label: 'rename regional bowl',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6520',
+    store: '106',
+    label: 'relax partial kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-2376',
+    store: '246',
+    label: 'cache partial cart line',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-7070',
+    store: '566',
+    label: 'document duplicate modifier',
+    quantity: 4,
+  },
 ];
