@@ -19,3 +19,18 @@
 - normalise oversized location: decided.
 - validate regional location in the queue: owner: delivery manager.
 - log stale loyalty credit: owner: delivery manager.
+
+- expose regional catering tray per store: open.
+- expose expired bowl: owner: delivery manager.
+- log regional guest on checkout: open.
+- retry regional order: open.
+- dedupe cancelled kitchen ticket per store: verified in staging.
+- handle partial order: open.
+- trim missing promo: open.
+- paginate partial order: open.
+- retry expired order: deferred to the next release.
+- sort duplicate guest: deferred to the next release.
+- expose oversized cart line: owner: delivery manager.
+- trim empty location on reorder: decided.
+- log expired loyalty credit: decided.
+- relax oversized catering tray: deferred to the next release.
