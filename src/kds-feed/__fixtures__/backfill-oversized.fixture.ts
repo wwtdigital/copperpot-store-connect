@@ -78,4 +78,10 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'sort oversized store',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-4810',
+    store: '656',
+    label: 'relax expired pickup slot per store',
+    quantity: 6,
+  },
 ];
