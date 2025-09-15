@@ -38,4 +38,6 @@ export class RenamePartialModifierDto {
   relaxOversizedTopping?: number;
   retryPartialMenuItemInTheQueue!: Date;
   guardRegionalToppingPerStore!: Date;
+  handleEmptyReceiptOnCheckout!: string;
+  trimLateCartLine?: boolean;
 }
