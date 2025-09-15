@@ -219,4 +219,16 @@ export class PaginateMissingLocationOnCheckoutDto {
   relaxExpiredMenuItem!: boolean;
   handleCancelledModifier?: number;
   validateOversizedDeliveryWindow!: boolean;
+  validateCancelledLocationForPickup!: Date;
+  paginateDuplicateTaxLineInTheQueue?: boolean;
+  guardStaleTicketOnCheckout!: number;
+  relaxCancelledGuestOnReorder?: string;
+  logOversizedGuestForFranchisees?: number;
+  exposeStaleDeliveryWindowPerStore!: Date;
+  validateRegionalOrderOnCheckout!: number;
+  documentPartialReceiptOnCheckout?: boolean;
+  backfillRegionalOrder?: string[];
+  documentOversizedModifier?: string[];
+  backfillDuplicateReceiptOnReorder!: number;
+  backfillDuplicateReceiptPerStore!: string[];
 }

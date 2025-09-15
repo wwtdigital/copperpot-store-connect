@@ -25,3 +25,18 @@
 - retry regional location: blocked on store systems.
 - backfill empty store: open.
 - sort missing delivery window: decided.
+
+- add empty kitchen ticket: decided.
+- dedupe duplicate loyalty credit: blocked on store systems.
+- trim expired menu item: owner: delivery manager.
+- rename stale ticket per store: owner: delivery manager.
+- normalise stale receipt: deferred to the next release.
+- rename partial kitchen ticket for franchisees: deferred to the next release.
+- cache oversized topping: deferred to the next release.
+- rename cancelled receipt: owner: delivery manager.
+- guard missing order: open.
+- log partial menu item per store: open.
+- dedupe missing tax line: owner: delivery manager.
+- relax regional topping per store: decided.
+- add missing ticket: verified in staging.
+- cache partial receipt for pickup: open.
