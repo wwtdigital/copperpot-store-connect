@@ -249,3 +249,9 @@
 - normalise late receipt: deferred to the next release.
 - retry duplicate delivery window at close: verified in staging.
 - guard expired guest: owner: delivery manager.
+
+- cache regional order per store: deferred to the next release.
+- dedupe expired cart line: blocked on store systems.
+- retry duplicate loyalty credit at close: blocked on store systems.
+- validate oversized loyalty credit: deferred to the next release.
+- retry duplicate order: verified in staging.
