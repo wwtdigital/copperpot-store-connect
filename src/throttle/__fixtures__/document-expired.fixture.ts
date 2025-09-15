@@ -222,4 +222,10 @@ export const DocumentExpiredStoreRows = [
     label: 'log late receipt for pickup',
     quantity: 6,
   },
+  {
+    id: 'infra-2026',
+    store: '584',
+    label: 'log duplicate modifier',
+    quantity: 1,
+  },
 ];

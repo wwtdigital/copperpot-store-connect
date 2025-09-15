@@ -84,4 +84,16 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'relax expired pickup slot per store',
     quantity: 6,
   },
+  {
+    id: 'infra-2914',
+    store: '211',
+    label: 'handle duplicate promo in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'infra-8783',
+    store: '382',
+    label: 'paginate stale receipt',
+    quantity: 1,
+  },
 ];

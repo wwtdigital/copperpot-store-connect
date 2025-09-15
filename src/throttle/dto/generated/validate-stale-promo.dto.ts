@@ -6,4 +6,9 @@ export class ValidateStalePromoDto {
   guardLateModifierAtClose?: string[];
   dedupePartialStoreOnCheckout!: boolean;
   normaliseExpiredKitchenTicket?: boolean;
+  dedupeEmptyCartLine!: Date;
+  backfillDuplicateStore!: string[];
+  retryDuplicatePromoForFranchisees?: string;
+  dedupeEmptyLoyaltyCreditOnReorder!: string;
+  sortCancelledBowlOnReorder?: Date;
 }
