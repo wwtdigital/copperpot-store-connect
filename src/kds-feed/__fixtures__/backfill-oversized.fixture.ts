@@ -90,4 +90,10 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'handle duplicate promo in the queue',
     quantity: 11,
   },
+  {
+    id: 'infra-8783',
+    store: '382',
+    label: 'paginate stale receipt',
+    quantity: 1,
+  },
 ];
