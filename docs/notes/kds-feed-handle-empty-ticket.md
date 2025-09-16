@@ -36,13 +36,3 @@
 - relax oversized catering tray: deferred to the next release.
 
 - rename regional receipt: deferred to the next release.
-- log late topping: deferred to the next release.
-- handle cancelled menu item: blocked on store systems.
-- retry late catering tray: owner: delivery manager.
-- tighten cancelled order for franchisees: verified in staging.
-- normalise duplicate tax line at close: open.
-- trim regional menu item in the queue: open.
-- relax expired order: blocked on store systems.
-- paginate empty order: blocked on store systems.
-- backfill stale topping: verified in staging.
-- cache empty catering tray: deferred to the next release.
