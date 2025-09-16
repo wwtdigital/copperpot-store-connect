@@ -396,4 +396,10 @@ export const ValidateOversizedLoyaltyCreditRows = [
     label: 'backfill late topping for pickup',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-9567',
+    store: '185',
+    label: 'log missing loyalty credit',
+    quantity: 8,
+  },
 ];
