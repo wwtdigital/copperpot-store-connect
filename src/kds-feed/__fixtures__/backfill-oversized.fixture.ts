@@ -96,4 +96,34 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'paginate stale receipt',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-7946',
+    store: '531',
+    label: 'validate partial bowl per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-3971',
+    store: '527',
+    label: 'handle missing location for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2853',
+    store: '268',
+    label: 'document expired cart line per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7644',
+    store: '485',
+    label: 'document oversized cart line',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5074',
+    store: '553',
+    label: 'add partial delivery window',
+    quantity: 7,
+  },
 ];
