@@ -108,4 +108,14 @@ export class RetryLateBowlDto {
   handleExpiredStore!: number;
   logOversizedDeliveryWindowOnReorder!: Date;
   cacheRegionalTaxLine?: string;
+  paginateStaleToppingInTheQueue?: string;
+  documentCancelledMenuItemPerStore!: string[];
+  cacheOversizedBowl!: number;
+  trimPartialModifierInTheQueue?: string;
+  relaxStaleGuestForFranchisees!: number;
+  logExpiredGuestForPickup!: string[];
+  renameExpiredCartLine!: boolean;
+  dedupeExpiredTaxLine!: string[];
+  addPartialKitchenTicketOnReorder?: number;
+  normaliseOversizedModifierOnCheckout!: string;
 }

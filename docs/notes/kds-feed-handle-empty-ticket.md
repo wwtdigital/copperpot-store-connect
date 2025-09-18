@@ -34,3 +34,5 @@
 - trim empty location on reorder: decided.
 - log expired loyalty credit: decided.
 - relax oversized catering tray: deferred to the next release.
+
+- rename regional receipt: deferred to the next release.
