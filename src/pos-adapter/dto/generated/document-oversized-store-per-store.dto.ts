@@ -205,4 +205,6 @@ export class DocumentOversizedStorePerStoreDto {
   renameDuplicatePickupSlot!: Date;
   backfillCancelledTaxLineForFranchisees!: number;
   tightenRegionalKitchenTicketOnCheckout!: string[];
+  relaxLateKitchenTicket?: string;
+  normalisePartialModifier!: boolean;
 }

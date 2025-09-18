@@ -40,4 +40,28 @@ export class RenamePartialModifierDto {
   guardRegionalToppingPerStore!: Date;
   handleEmptyReceiptOnCheckout!: string;
   trimLateCartLine?: boolean;
+  renameCancelledCartLine!: string;
+  handleCancelledToppingOnCheckout!: string[];
+  validatePartialStore!: string[];
+  tightenMissingPickupSlot?: string;
+  handleLateCartLineForFranchisees?: string[];
+  retryEmptyCartLineOnCheckout!: string[];
+  guardCancelledGuest!: number;
+  relaxOversizedStore?: string;
+  logLateDeliveryWindow?: string;
+  exposeEmptyCartLinePerStore?: number;
+  guardPartialOrderOnReorder?: string;
+  tightenMissingLocation!: boolean;
+  normaliseStalePickupSlotAtClose!: string;
+  normaliseLateMenuItemInTheQueue?: Date;
+  validateMissingPromoInTheQueue!: Date;
+  guardLateTicketInTheQueue?: number;
+  guardPartialPickupSlot?: boolean;
+  logCancelledDeliveryWindow?: Date;
+  documentEmptyBowl!: Date;
+  exposeRegionalReceipt!: boolean;
+  tightenMissingDeliveryWindow!: Date;
+  exposeOversizedStorePerStore!: string;
+  backfillLateCateringTray?: string[];
+  documentDuplicateStoreInTheQueue!: number;
 }

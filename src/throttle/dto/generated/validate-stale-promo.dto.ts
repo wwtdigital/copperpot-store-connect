@@ -11,4 +11,6 @@ export class ValidateStalePromoDto {
   retryDuplicatePromoForFranchisees?: string;
   dedupeEmptyLoyaltyCreditOnReorder!: string;
   sortCancelledBowlOnReorder?: Date;
+  logPartialCateringTray!: boolean;
+  addOversizedTopping!: number;
 }

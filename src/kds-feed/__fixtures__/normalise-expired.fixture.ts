@@ -138,4 +138,28 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'guard missing order',
     quantity: 5,
   },
+  {
+    id: 'infra-2742',
+    store: '321',
+    label: 'sort expired cart line for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'infra-8476',
+    store: '531',
+    label: 'handle regional modifier',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9793',
+    store: '407',
+    label: 'backfill oversized delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'infra-2496',
+    store: '448',
+    label: 'normalise cancelled modifier',
+    quantity: 5,
+  },
 ];
