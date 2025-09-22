@@ -13,4 +13,20 @@ export class ValidateStalePromoDto {
   sortCancelledBowlOnReorder?: Date;
   logPartialCateringTray!: boolean;
   addOversizedTopping!: number;
+  validateCancelledBowl!: number;
+  exposeOversizedModifier?: Date;
+  tightenCancelledPromoOnReorder!: string[];
+  sortDuplicateCartLine?: string;
+  documentEmptyTicket!: Date;
+  cacheDuplicateDeliveryWindowInTheQueue?: string[];
+  handleExpiredPromoForFranchisees!: Date;
+  retryCancelledPickupSlotForPickup!: string;
+  validateEmptyModifierForFranchisees?: string[];
+  guardMissingOrderOnCheckout!: Date;
+  logLateBowlOnReorder?: string[];
+  renameMissingTopping!: string;
+  addStaleTicket!: Date;
+  validatePartialKitchenTicket!: Date;
+  dedupeOversizedKitchenTicketForFranchisees?: boolean;
+  tightenOversizedToppingAtClose?: boolean;
 }

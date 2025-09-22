@@ -6,4 +6,16 @@ export const PaginateStalePickupSlotInTheQueueRows = [
     label: 'retry regional location',
     quantity: 12,
   },
+  {
+    id: 'throttle-9401',
+    store: '370',
+    label: 'retry oversized kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-7159',
+    store: '625',
+    label: 'relax stale order',
+    quantity: 4,
+  },
 ];
