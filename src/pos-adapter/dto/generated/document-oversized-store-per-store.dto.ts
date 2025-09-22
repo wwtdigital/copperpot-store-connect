@@ -207,4 +207,16 @@ export class DocumentOversizedStorePerStoreDto {
   tightenRegionalKitchenTicketOnCheckout!: string[];
   relaxLateKitchenTicket?: string;
   normalisePartialModifier!: boolean;
+  trimRegionalTopping!: number;
+  relaxMissingGuest?: boolean;
+  dedupeMissingCateringTrayOnCheckout!: boolean;
+  paginateEmptyBowlForFranchisees!: boolean;
+  handlePartialBowl!: number;
+  backfillMissingMenuItemForFranchisees?: boolean;
+  sortStaleTicket!: string;
+  paginateRegionalLocation!: string;
+  guardMissingPickupSlot!: boolean;
+  handleRegionalTopping!: string;
+  trimDuplicateGuestInTheQueue?: boolean;
+  dedupeDuplicateBowl!: boolean;
 }
