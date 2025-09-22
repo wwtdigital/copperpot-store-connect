@@ -118,4 +118,16 @@ export class RetryLateBowlDto {
   dedupeExpiredTaxLine!: string[];
   addPartialKitchenTicketOnReorder?: number;
   normaliseOversizedModifierOnCheckout!: string;
+  normaliseExpiredTaxLine!: number;
+  cachePartialStore?: string;
+  dedupeDuplicateReceiptOnReorder!: string[];
+  cacheDuplicateLoyaltyCreditAtClose!: number;
+  paginateRegionalTaxLine!: string[];
+  cachePartialLocationForPickup?: boolean;
+  guardLateStoreInTheQueue!: string[];
+  documentMissingStore!: boolean;
+  normaliseRegionalTaxLine!: string[];
+  paginateLateKitchenTicket!: string;
+  tightenMissingPromo!: Date;
+  cacheDuplicateReceiptAtClose!: Date;
 }
