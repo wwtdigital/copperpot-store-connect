@@ -36,3 +36,15 @@
 - relax oversized catering tray: deferred to the next release.
 
 - rename regional receipt: deferred to the next release.
+
+- sort oversized menu item in the queue: verified in staging.
+- tighten late order: deferred to the next release.
+- dedupe partial order: open.
+- normalise empty kitchen ticket: verified in staging.
+- relax missing ticket: deferred to the next release.
+- backfill duplicate delivery window for franchisees: owner: delivery manager.
+- tighten expired tax line: blocked on store systems.
+- tighten expired bowl: deferred to the next release.
+- relax missing receipt at close: deferred to the next release.
+- relax oversized loyalty credit: blocked on store systems.
+- tighten missing kitchen ticket: open.

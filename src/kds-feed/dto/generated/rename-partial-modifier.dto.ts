@@ -64,4 +64,6 @@ export class RenamePartialModifierDto {
   exposeOversizedStorePerStore!: string;
   backfillLateCateringTray?: string[];
   documentDuplicateStoreInTheQueue!: number;
+  relaxLateGuest!: Date;
+  retryExpiredLoyaltyCreditForPickup!: number;
 }
