@@ -49,9 +49,3 @@
 - sort stale cart line: owner: delivery manager.
 - retry regional cart line in the queue: owner: delivery manager.
 - dedupe empty cart line: deferred to the next release.
-- normalise missing loyalty credit per store: open.
-- expose partial menu item: decided.
-- rename duplicate pickup slot on reorder: owner: delivery manager.
-- handle empty cart line: blocked on store systems.
-- document expired location: blocked on store systems.
-- handle expired guest: decided.

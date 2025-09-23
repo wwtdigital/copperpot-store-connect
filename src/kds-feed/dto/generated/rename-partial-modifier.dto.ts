@@ -66,4 +66,10 @@ export class RenamePartialModifierDto {
   documentDuplicateStoreInTheQueue!: number;
   relaxLateGuest!: Date;
   retryExpiredLoyaltyCreditForPickup!: number;
+  tightenMissingReceipt!: boolean;
+  renameExpiredGuest!: string;
+  guardCancelledMenuItemAtClose!: string[];
+  documentOversizedPromo?: Date;
+  addRegionalModifier!: string;
+  retryStaleLoyaltyCredit!: Date;
 }
