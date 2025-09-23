@@ -18,4 +18,16 @@ export const PaginateStalePickupSlotInTheQueueRows = [
     label: 'relax stale order',
     quantity: 4,
   },
+  {
+    id: 'infra-4017',
+    store: '290',
+    label: 'expose missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'infra-4927',
+    store: '296',
+    label: 'add empty promo for pickup',
+    quantity: 10,
+  },
 ];
