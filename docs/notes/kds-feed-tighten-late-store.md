@@ -14,3 +14,18 @@
 - paginate stale guest at close: verified in staging.
 - retry expired bowl: owner: delivery manager.
 - validate regional catering tray: verified in staging.
+
+- retry stale guest: open.
+- rename expired ticket: deferred to the next release.
+- handle stale store: open.
+- log late menu item in the queue: owner: delivery manager.
+- add regional loyalty credit: open.
+- paginate late order for pickup: open.
+- dedupe expired guest for franchisees: deferred to the next release.
+- dedupe duplicate cart line: deferred to the next release.
+- handle oversized location at close: open.
+- cache empty bowl: deferred to the next release.
+- relax missing guest: owner: delivery manager.
+- backfill stale guest: owner: delivery manager.
+- dedupe partial store: open.
+- cache stale catering tray per store: verified in staging.
