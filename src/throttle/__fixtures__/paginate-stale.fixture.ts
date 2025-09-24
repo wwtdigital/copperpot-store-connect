@@ -30,4 +30,10 @@ export const PaginateStalePickupSlotInTheQueueRows = [
     label: 'add empty promo for pickup',
     quantity: 10,
   },
+  {
+    id: 'infra-1155',
+    store: '691',
+    label: 'guard oversized location',
+    quantity: 2,
+  },
 ];

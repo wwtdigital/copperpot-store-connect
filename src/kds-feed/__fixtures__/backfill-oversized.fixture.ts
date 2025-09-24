@@ -144,4 +144,16 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'guard late topping',
     quantity: 11,
   },
+  {
+    id: 'infra-2144',
+    store: '316',
+    label: 'retry partial tax line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5525',
+    store: '626',
+    label: 'add cancelled ticket for franchisees',
+    quantity: 10,
+  },
 ];
