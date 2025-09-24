@@ -14,4 +14,12 @@ export class SortRegionalMenuItemDto {
   paginateDuplicateMenuItemOnReorder!: number;
   handleDuplicateGuest!: boolean;
   tightenDuplicatePromoForFranchisees!: Date;
+  dedupePartialGuestPerStore!: number;
+  retryOversizedCateringTray!: number;
+  cacheCancelledTaxLine?: string[];
+  paginateRegionalTaxLineInTheQueue?: number;
+  logCancelledLoyaltyCreditInTheQueue!: string;
+  renameEmptyModifierInTheQueue!: number;
+  trimStaleTaxLine?: Date;
+  tightenRegionalCateringTray!: Date;
 }
