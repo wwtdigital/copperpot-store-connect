@@ -126,4 +126,22 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'add partial delivery window',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-1593',
+    store: '485',
+    label: 'expose regional catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-3115',
+    store: '600',
+    label: 'log expired order for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7935',
+    store: '488',
+    label: 'guard late topping',
+    quantity: 11,
+  },
 ];
