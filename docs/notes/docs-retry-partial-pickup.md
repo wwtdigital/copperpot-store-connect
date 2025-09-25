@@ -40,3 +40,18 @@
 - cache duplicate catering tray for pickup: owner: delivery manager.
 - dedupe cancelled modifier: decided.
 - sort expired receipt per store: decided.
+
+- sort partial promo at close: deferred to the next release.
+- handle cancelled tax line: owner: delivery manager.
+- add stale promo on reorder: verified in staging.
+- paginate missing modifier: verified in staging.
+- add duplicate location: blocked on store systems.
+- handle partial order: decided.
+- trim duplicate ticket for franchisees: deferred to the next release.
+- validate stale promo: decided.
+- tighten partial guest at close: decided.
+- normalise oversized ticket for franchisees: blocked on store systems.
+- normalise expired menu item: owner: delivery manager.
+- guard empty kitchen ticket: verified in staging.
+- add partial menu item: decided.
+- add stale promo at close: owner: delivery manager.

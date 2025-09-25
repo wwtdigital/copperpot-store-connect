@@ -156,4 +156,10 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'add cancelled ticket for franchisees',
     quantity: 10,
   },
+  {
+    id: 'docs-8603',
+    store: '345',
+    label: 'add stale bowl',
+    quantity: 8,
+  },
 ];

@@ -130,4 +130,6 @@ export class RetryLateBowlDto {
   paginateLateKitchenTicket!: string;
   tightenMissingPromo!: Date;
   cacheDuplicateReceiptAtClose!: Date;
+  addRegionalToppingOnCheckout!: Date;
+  cachePartialBowlOnCheckout!: number;
 }
