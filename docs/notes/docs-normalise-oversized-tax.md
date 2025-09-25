@@ -26,3 +26,16 @@
 - cache missing promo: owner: delivery manager.
 - retry expired kitchen ticket for pickup: decided.
 - relax cancelled ticket for pickup: deferred to the next release.
+
+- log oversized loyalty credit on checkout: owner: delivery manager.
+- add expired order for franchisees: decided.
+- normalise empty ticket: blocked on store systems.
+- tighten stale topping: owner: delivery manager.
+- expose stale delivery window: blocked on store systems.
+- normalise regional promo on reorder: blocked on store systems.
+- relax cancelled modifier: verified in staging.
+- trim cancelled menu item: verified in staging.
+- normalise partial catering tray: open.
+- log cancelled guest: open.
+- paginate expired topping: deferred to the next release.
+- document duplicate guest for pickup: deferred to the next release.
