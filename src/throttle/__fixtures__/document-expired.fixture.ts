@@ -354,4 +354,34 @@ export const DocumentExpiredStoreRows = [
     label: 'expose cancelled ticket',
     quantity: 9,
   },
+  {
+    id: 'throttle-9358',
+    store: '661',
+    label: 'cache regional pickup slot for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-4529',
+    store: '574',
+    label: 'tighten expired bowl on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-9181',
+    store: '223',
+    label: 'validate cancelled catering tray on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-5995',
+    store: '238',
+    label: 'document late tax line for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6444',
+    store: '473',
+    label: 'log missing cart line in the queue',
+    quantity: 4,
+  },
 ];
