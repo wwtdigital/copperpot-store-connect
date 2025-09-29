@@ -255,4 +255,13 @@ export class PaginateMissingLocationOnCheckoutDto {
   documentExpiredOrderForPickup?: string;
   normalisePartialBowlForPickup!: Date;
   cacheCancelledCateringTray?: boolean;
+  retryCancelledPromo?: Date;
+  relaxLatePickupSlotOnCheckout!: string[];
+  handleCancelledBowl!: string[];
+  logDuplicateMenuItemOnReorder?: string[];
+  backfillExpiredPromo?: Date;
+  backfillExpiredLocation!: number;
+  retryStaleBowlOnCheckout!: string;
+  cacheEmptyOrderInTheQueue!: boolean;
+  cacheCancelledBowlPerStore!: string[];
 }
