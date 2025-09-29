@@ -312,4 +312,46 @@ export const DocumentExpiredStoreRows = [
     label: 'trim missing order on reorder',
     quantity: 10,
   },
+  {
+    id: 'throttle-1800',
+    store: '595',
+    label: 'tighten expired menu item',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-3799',
+    store: '120',
+    label: 'tighten expired location per store',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-8500',
+    store: '627',
+    label: 'rename empty promo per store',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-5471',
+    store: '133',
+    label: 'guard stale kitchen ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-7401',
+    store: '518',
+    label: 'cache stale catering tray in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-1193',
+    store: '353',
+    label: 'dedupe late guest for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-6901',
+    store: '198',
+    label: 'expose cancelled ticket',
+    quantity: 9,
+  },
 ];

@@ -154,3 +154,7 @@
 - validate missing loyalty credit: blocked on store systems.
 
 - expose oversized guest: owner: delivery manager.
+
+- retry partial receipt in the queue: owner: delivery manager.
+- relax missing modifier: blocked on store systems.
+- tighten oversized bowl: decided.
