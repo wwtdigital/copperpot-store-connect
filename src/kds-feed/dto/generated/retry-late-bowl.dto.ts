@@ -167,4 +167,8 @@ export class RetryLateBowlDto {
   tightenStaleModifier?: Date;
   cacheStaleModifier!: string[];
   handleEmptyLoyaltyCredit!: string[];
+  tightenDuplicateLocation?: string;
+  guardExpiredPromoOnReorder!: Date;
+  normaliseDuplicateBowlInTheQueue!: number;
+  sortCancelledPickupSlotInTheQueue!: Date;
 }

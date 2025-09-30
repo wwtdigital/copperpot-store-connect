@@ -162,4 +162,10 @@ export const BackfillOversizedPickupSlotRows = [
     label: 'add stale bowl',
     quantity: 8,
   },
+  {
+    id: 'docs-8498',
+    store: '699',
+    label: 'guard partial promo',
+    quantity: 2,
+  },
 ];
