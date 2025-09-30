@@ -154,3 +154,22 @@
 - validate missing loyalty credit: blocked on store systems.
 
 - expose oversized guest: owner: delivery manager.
+
+- retry partial receipt in the queue: owner: delivery manager.
+- relax missing modifier: blocked on store systems.
+- tighten oversized bowl: decided.
+
+- sort cancelled menu item on reorder: open.
+- rename duplicate topping: verified in staging.
+- document partial order: blocked on store systems.
+- tighten missing loyalty credit: deferred to the next release.
+- rename expired guest in the queue: owner: delivery manager.
+- validate oversized menu item: verified in staging.
+- retry duplicate order: deferred to the next release.
+- log missing tax line: deferred to the next release.
+- trim regional topping: owner: delivery manager.
+- rename oversized location for pickup: open.
+- add late delivery window: verified in staging.
+- backfill cancelled receipt: deferred to the next release.
+- document empty modifier for pickup: blocked on store systems.
+- dedupe missing menu item for pickup: blocked on store systems.
