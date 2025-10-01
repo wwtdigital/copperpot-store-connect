@@ -822,4 +822,16 @@ export const TrimOversizedToppingRows = [
     label: 'expose missing kitchen ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-2069',
+    store: '200',
+    label: 'validate empty bowl for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-5590',
+    store: '109',
+    label: 'handle oversized location',
+    quantity: 2,
+  },
 ];
