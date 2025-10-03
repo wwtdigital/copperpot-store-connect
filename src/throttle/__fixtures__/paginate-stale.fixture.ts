@@ -222,4 +222,28 @@ export const PaginateStalePickupSlotInTheQueueRows = [
     label: 'tighten cancelled catering tray for franchisees',
     quantity: 12,
   },
+  {
+    id: 'throttle-8639',
+    store: '359',
+    label: 'retry missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-5006',
+    store: '374',
+    label: 'sort expired loyalty credit per store',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-1540',
+    store: '557',
+    label: 'backfill duplicate store',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-2582',
+    store: '651',
+    label: 'expose stale delivery window in the queue',
+    quantity: 5,
+  },
 ];
