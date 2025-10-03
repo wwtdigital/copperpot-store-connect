@@ -21,4 +21,16 @@ export class SortEmptyCartLineDto {
   normaliseStaleOrderOnCheckout?: number;
   normaliseStaleTopping!: number;
   renameExpiredStoreForPickup!: number;
+  exposeMissingCartLine?: Date;
+  trimMissingReceipt?: string;
+  normaliseMissingLoyaltyCredit!: boolean;
+  handleMissingOrder?: string;
+  backfillStaleBowl?: boolean;
+  exposeOversizedPromo!: Date;
+  paginateCancelledStore!: number;
+  validateLateCartLineForFranchisees!: string;
+  renameDuplicateGuestForPickup?: number;
+  relaxOversizedTaxLine!: boolean;
+  backfillEmptyCartLine!: boolean;
+  sortCancelledDeliveryWindow!: string;
 }
