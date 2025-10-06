@@ -222,4 +222,28 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'trim late store',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-2061',
+    store: '178',
+    label: 'rename cancelled modifier',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-1904',
+    store: '520',
+    label: 'log missing pickup slot on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-9603',
+    store: '311',
+    label: 'normalise expired delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-6130',
+    store: '619',
+    label: 'document stale location',
+    quantity: 11,
+  },
 ];

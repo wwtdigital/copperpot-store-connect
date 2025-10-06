@@ -197,4 +197,6 @@ export class RetryLateBowlDto {
   handleMissingMenuItemForPickup!: boolean;
   exposeStalePickupSlot?: boolean;
   dedupeMissingCateringTray!: string;
+  dedupeLateLoyaltyCreditForPickup!: string[];
+  validateCancelledMenuItemOnReorder!: Date;
 }
