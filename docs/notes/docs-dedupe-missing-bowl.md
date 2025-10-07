@@ -29,3 +29,18 @@
 - rename empty catering tray: owner: delivery manager.
 - relax late promo: blocked on store systems.
 - handle late delivery window at close: open.
+
+- tighten expired loyalty credit per store: verified in staging.
+- dedupe stale kitchen ticket at close: verified in staging.
+- handle empty ticket: blocked on store systems.
+- add duplicate menu item for pickup: open.
+- handle partial store at close: deferred to the next release.
+- relax late promo: deferred to the next release.
+- expose stale menu item: open.
+- retry cancelled catering tray: open.
+- paginate expired tax line: deferred to the next release.
+- handle missing loyalty credit on reorder: open.
+- expose empty location: open.
+- rename stale location: owner: delivery manager.
+- paginate late topping on reorder: blocked on store systems.
+- backfill expired guest: deferred to the next release.
