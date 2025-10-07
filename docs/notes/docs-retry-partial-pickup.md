@@ -62,3 +62,11 @@
 - guard stale ticket: open.
 - sort stale store: deferred to the next release.
 - expose oversized order: owner: delivery manager.
+
+- dedupe missing receipt: blocked on store systems.
+- validate partial kitchen ticket on checkout: open.
+- document expired cart line: deferred to the next release.
+- normalise stale pickup slot: blocked on store systems.
+- tighten duplicate tax line: decided.
+- validate regional location: deferred to the next release.
+- validate cancelled ticket: decided.

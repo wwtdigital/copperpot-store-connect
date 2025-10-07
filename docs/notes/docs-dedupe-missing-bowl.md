@@ -44,3 +44,18 @@
 - rename stale location: owner: delivery manager.
 - paginate late topping on reorder: blocked on store systems.
 - backfill expired guest: deferred to the next release.
+
+- document missing store: verified in staging.
+- expose empty promo for pickup: decided.
+- trim partial kitchen ticket for franchisees: owner: delivery manager.
+- paginate cancelled bowl: verified in staging.
+- backfill oversized loyalty credit: decided.
+- validate empty loyalty credit: decided.
+- normalise oversized delivery window per store: deferred to the next release.
+- log stale promo: decided.
+- paginate partial pickup slot: open.
+- relax regional store on reorder: verified in staging.
+- retry missing modifier: owner: delivery manager.
+- backfill stale pickup slot: verified in staging.
+- document missing guest: open.
+- dedupe expired location per store: blocked on store systems.
