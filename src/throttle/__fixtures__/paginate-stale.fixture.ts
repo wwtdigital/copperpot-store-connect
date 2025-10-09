@@ -246,4 +246,10 @@ export const PaginateStalePickupSlotInTheQueueRows = [
     label: 'expose stale delivery window in the queue',
     quantity: 5,
   },
+  {
+    id: 'infra-3108',
+    store: '687',
+    label: 'retry late ticket at close',
+    quantity: 4,
+  },
 ];
