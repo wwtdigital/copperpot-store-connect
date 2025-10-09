@@ -33,4 +33,13 @@ export class SortEmptyCartLineDto {
   relaxOversizedTaxLine!: boolean;
   backfillEmptyCartLine!: boolean;
   sortCancelledDeliveryWindow!: string;
+  addOversizedOrder!: string[];
+  validateRegionalGuest!: Date;
+  validateExpiredCartLine!: string;
+  guardDuplicateMenuItem?: number;
+  tightenOversizedReceipt?: string;
+  relaxStalePromoOnReorder!: number;
+  trimStaleMenuItemPerStore?: string;
+  backfillCancelledGuestAtClose!: Date;
+  tightenStaleTicketInTheQueue?: number;
 }

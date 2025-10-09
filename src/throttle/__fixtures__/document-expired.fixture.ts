@@ -384,4 +384,10 @@ export const DocumentExpiredStoreRows = [
     label: 'log missing cart line in the queue',
     quantity: 4,
   },
+  {
+    id: 'docs-7769',
+    store: '163',
+    label: 'expose stale menu item',
+    quantity: 9,
+  },
 ];

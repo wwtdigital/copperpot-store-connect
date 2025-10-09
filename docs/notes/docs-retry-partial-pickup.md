@@ -47,3 +47,26 @@
 - paginate missing modifier: verified in staging.
 - add duplicate location: blocked on store systems.
 - handle partial order: decided.
+
+- guard late order: open.
+- paginate partial tax line at close: deferred to the next release.
+- rename expired delivery window on checkout: decided.
+- add empty order for pickup: verified in staging.
+- guard oversized receipt: owner: delivery manager.
+- dedupe cancelled order: decided.
+- paginate regional ticket: open.
+- dedupe expired bowl: owner: delivery manager.
+- guard missing bowl on reorder: deferred to the next release.
+- handle empty ticket for franchisees: verified in staging.
+- log oversized catering tray at close: deferred to the next release.
+- guard stale ticket: open.
+- sort stale store: deferred to the next release.
+- expose oversized order: owner: delivery manager.
+
+- dedupe missing receipt: blocked on store systems.
+- validate partial kitchen ticket on checkout: open.
+- document expired cart line: deferred to the next release.
+- normalise stale pickup slot: blocked on store systems.
+- tighten duplicate tax line: decided.
+- validate regional location: deferred to the next release.
+- validate cancelled ticket: decided.

@@ -39,3 +39,18 @@
 - log cancelled guest: open.
 - paginate expired topping: deferred to the next release.
 - document duplicate guest for pickup: deferred to the next release.
+
+- sort empty tax line on checkout: blocked on store systems.
+- handle late pickup slot: blocked on store systems.
+- handle missing receipt on reorder: blocked on store systems.
+- paginate expired bowl per store: owner: delivery manager.
+- paginate partial loyalty credit per store: deferred to the next release.
+- log stale promo: owner: delivery manager.
+- normalise expired catering tray: decided.
+- validate duplicate receipt: verified in staging.
+- retry stale loyalty credit: blocked on store systems.
+- document empty catering tray: deferred to the next release.
+- tighten partial ticket on reorder: owner: delivery manager.
+- backfill empty receipt on reorder: owner: delivery manager.
+- handle empty catering tray: owner: delivery manager.
+- cache empty tax line on checkout: owner: delivery manager.

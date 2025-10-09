@@ -216,4 +216,10 @@ export const PaginateStalePickupSlotInTheQueueRows = [
     label: 'sort regional order in the queue',
     quantity: 12,
   },
+  {
+    id: 'docs-7316',
+    store: '640',
+    label: 'tighten cancelled catering tray for franchisees',
+    quantity: 12,
+  },
 ];
