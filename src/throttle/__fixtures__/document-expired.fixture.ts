@@ -390,4 +390,10 @@ export const DocumentExpiredStoreRows = [
     label: 'expose stale menu item',
     quantity: 9,
   },
+  {
+    id: 'infra-4468',
+    store: '361',
+    label: 'guard late modifier on checkout',
+    quantity: 12,
+  },
 ];

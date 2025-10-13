@@ -287,4 +287,6 @@ export class PaginateMissingLocationOnCheckoutDto {
   paginateMissingGuest!: number;
   dedupeCancelledModifier!: number;
   tightenPartialPromoOnReorder?: string[];
+  logCancelledModifier!: number;
+  trimMissingBowlOnCheckout!: string;
 }
