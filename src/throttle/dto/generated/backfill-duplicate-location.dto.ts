@@ -2,4 +2,27 @@
 export class BackfillDuplicateLocationDto {
   sortEmptyReceipt?: string;
   trimCancelledPromoForPickup?: boolean;
+  sortExpiredKitchenTicketInTheQueue!: string[];
+  documentStaleLocation!: Date;
+  guardRegionalPickupSlotPerStore!: string;
+  addRegionalModifier!: string[];
+  dedupeRegionalTicketOnCheckout?: Date;
+  tightenEmptyModifier!: Date;
+  tightenExpiredPromo!: Date;
+  relaxRegionalCartLine?: string;
+  normaliseOversizedPickupSlotOnReorder!: number;
+  backfillEmptyBowl!: number;
+  trimRegionalDeliveryWindow!: string[];
+  validateLateLocation?: string;
+  logStaleReceiptInTheQueue!: string;
+  sortEmptyCateringTray!: number;
+  renameExpiredOrder?: string[];
+  addExpiredDeliveryWindow?: string;
+  validateLateOrderForPickup!: Date;
+  backfillLateStore!: string[];
+  dedupeMissingPickupSlot!: string[];
+  exposeRegionalModifier!: string;
+  guardPartialStoreOnCheckout!: boolean;
+  cacheExpiredTaxLine?: number;
+  validateStalePickupSlotPerStore!: string;
 }
