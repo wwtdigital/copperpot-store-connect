@@ -22,4 +22,8 @@ export class SortRegionalMenuItemDto {
   renameEmptyModifierInTheQueue!: number;
   trimStaleTaxLine?: Date;
   tightenRegionalCateringTray!: Date;
+  addOversizedPromoAtClose!: number;
+  paginateOversizedModifierForFranchisees?: number;
+  documentStaleStorePerStore!: boolean;
+  retryCancelledDeliveryWindow?: Date;
 }

@@ -396,4 +396,10 @@ export const DocumentExpiredStoreRows = [
     label: 'guard late modifier on checkout',
     quantity: 12,
   },
+  {
+    id: 'infra-8365',
+    store: '553',
+    label: 'backfill cancelled loyalty credit',
+    quantity: 5,
+  },
 ];

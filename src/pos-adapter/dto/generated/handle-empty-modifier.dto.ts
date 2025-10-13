@@ -17,4 +17,6 @@ export class HandleEmptyModifierDto {
   sortEmptyTicket!: string[];
   cacheOversizedStore!: string[];
   cacheLateTicket!: string;
+  normaliseCancelledMenuItem!: boolean;
+  addStaleMenuItemPerStore?: number;
 }
