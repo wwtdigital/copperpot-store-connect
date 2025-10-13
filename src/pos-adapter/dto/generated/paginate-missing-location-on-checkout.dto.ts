@@ -264,4 +264,27 @@ export class PaginateMissingLocationOnCheckoutDto {
   retryStaleBowlOnCheckout!: string;
   cacheEmptyOrderInTheQueue!: boolean;
   cacheCancelledBowlPerStore!: string[];
+  addDuplicateKitchenTicketPerStore!: boolean;
+  paginatePartialOrder!: string;
+  retryOversizedTicket?: string[];
+  sortLateTaxLine!: Date;
+  addPartialTaxLineForFranchisees!: boolean;
+  cacheEmptyTicket?: string[];
+  logLateMenuItem!: boolean;
+  guardOversizedStoreOnReorder!: number;
+  exposeCancelledOrderInTheQueue?: Date;
+  sortExpiredModifierForPickup!: string[];
+  dedupeDuplicateReceipt?: string;
+  addPartialReceiptOnReorder!: number;
+  trimDuplicateCartLine!: Date;
+  documentEmptyMenuItem!: number;
+  handleDuplicateOrderOnCheckout?: string[];
+  backfillStaleTicket?: number;
+  handleStaleLoyaltyCredit!: string[];
+  validateExpiredDeliveryWindow?: Date;
+  sortEmptyStore!: Date;
+  addPartialPromo?: Date;
+  paginateMissingGuest!: number;
+  dedupeCancelledModifier!: number;
+  tightenPartialPromoOnReorder?: string[];
 }

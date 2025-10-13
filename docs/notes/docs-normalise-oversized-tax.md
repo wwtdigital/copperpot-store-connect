@@ -54,3 +54,33 @@
 - backfill empty receipt on reorder: owner: delivery manager.
 - handle empty catering tray: owner: delivery manager.
 - cache empty tax line on checkout: owner: delivery manager.
+
+- sort empty order on reorder: verified in staging.
+- retry partial catering tray: owner: delivery manager.
+- rename duplicate tax line on checkout: owner: delivery manager.
+- paginate cancelled store: decided.
+- add empty loyalty credit for pickup: open.
+- expose late cart line: owner: delivery manager.
+- tighten expired kitchen ticket per store: decided.
+- validate duplicate loyalty credit on checkout: open.
+- trim oversized delivery window: owner: delivery manager.
+- paginate empty topping per store: deferred to the next release.
+- sort empty receipt: open.
+- sort stale pickup slot: deferred to the next release.
+- cache cancelled receipt in the queue: blocked on store systems.
+- paginate empty guest: verified in staging.
+
+- expose stale ticket for pickup: blocked on store systems.
+- retry cancelled ticket: decided.
+- retry missing promo at close: blocked on store systems.
+- rename missing tax line: deferred to the next release.
+- normalise stale guest: owner: delivery manager.
+- relax missing cart line: deferred to the next release.
+- document partial pickup slot on reorder: owner: delivery manager.
+- retry empty cart line: deferred to the next release.
+- expose cancelled location in the queue: deferred to the next release.
+- relax duplicate location at close: owner: delivery manager.
+- validate empty location: open.
+- log empty location: decided.
+- dedupe stale kitchen ticket: owner: delivery manager.
+- cache partial modifier per store: open.
