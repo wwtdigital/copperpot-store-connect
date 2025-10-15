@@ -14,3 +14,8 @@
 - relax stale ticket per store: owner: delivery manager.
 - expose expired order: open.
 - backfill empty topping: verified in staging.
+
+- log missing modifier: blocked on store systems.
+- rename partial kitchen ticket on checkout: verified in staging.
+- add oversized ticket on checkout: blocked on store systems.
+- expose missing store: open.

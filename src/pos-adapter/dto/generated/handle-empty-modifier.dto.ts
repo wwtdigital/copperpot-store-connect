@@ -15,4 +15,8 @@ export class HandleEmptyModifierDto {
   addDuplicateTicket!: boolean;
   backfillCancelledModifierForPickup!: Date;
   sortEmptyTicket!: string[];
+  cacheOversizedStore!: string[];
+  cacheLateTicket!: string;
+  normaliseCancelledMenuItem!: boolean;
+  addStaleMenuItemPerStore?: number;
 }
