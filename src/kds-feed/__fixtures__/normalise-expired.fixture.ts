@@ -330,4 +330,34 @@ export const NormaliseExpiredLoyaltyCreditOnReorderRows = [
     label: 'relax duplicate store on checkout',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-6135',
+    store: '180',
+    label: 'trim stale catering tray on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-3060',
+    store: '606',
+    label: 'validate missing tax line',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-7900',
+    store: '402',
+    label: 'normalise empty kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-7180',
+    store: '668',
+    label: 'trim stale promo',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-7674',
+    store: '694',
+    label: 'backfill expired guest for pickup',
+    quantity: 11,
+  },
 ];
