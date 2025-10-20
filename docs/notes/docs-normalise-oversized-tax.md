@@ -84,3 +84,5 @@
 - log empty location: decided.
 - dedupe stale kitchen ticket: owner: delivery manager.
 - cache partial modifier per store: open.
+
+- relax regional store per store: blocked on store systems.
