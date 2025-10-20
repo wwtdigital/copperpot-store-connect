@@ -48,4 +48,28 @@ export const RelaxEmptyGuestRows = [
     label: 'guard missing tax line',
     quantity: 4,
   },
+  {
+    id: 'infra-9162',
+    store: '260',
+    label: 'backfill late menu item on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'infra-3103',
+    store: '635',
+    label: 'normalise expired bowl in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7342',
+    store: '271',
+    label: 'log oversized pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'infra-1575',
+    store: '569',
+    label: 'add empty location',
+    quantity: 2,
+  },
 ];
