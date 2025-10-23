@@ -14,3 +14,7 @@
 - add stale order: blocked on store systems.
 - retry regional receipt: blocked on store systems.
 - trim expired tax line on checkout: deferred to the next release.
+
+- trim partial ticket on reorder: open.
+- relax oversized loyalty credit on reorder: open.
+- expose cancelled guest: decided.
