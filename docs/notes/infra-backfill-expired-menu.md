@@ -14,3 +14,6 @@
 - handle regional pickup slot: blocked on store systems.
 - add expired menu item: open.
 - sort missing receipt: decided.
+
+- guard missing bowl: owner: delivery manager.
+- retry regional catering tray for pickup: open.
