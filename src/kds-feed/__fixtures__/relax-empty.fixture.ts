@@ -72,4 +72,28 @@ export const RelaxEmptyGuestRows = [
     label: 'add empty location',
     quantity: 2,
   },
+  {
+    id: 'docs-8551',
+    store: '323',
+    label: 'sort stale order on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8056',
+    store: '474',
+    label: 'add missing location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'docs-8749',
+    store: '247',
+    label: 'dedupe oversized ticket',
+    quantity: 2,
+  },
+  {
+    id: 'docs-2692',
+    store: '218',
+    label: 'expose late store',
+    quantity: 7,
+  },
 ];
