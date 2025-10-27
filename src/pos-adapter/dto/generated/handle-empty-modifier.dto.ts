@@ -19,4 +19,14 @@ export class HandleEmptyModifierDto {
   cacheLateTicket!: string;
   normaliseCancelledMenuItem!: boolean;
   addStaleMenuItemPerStore?: number;
+  guardCancelledDeliveryWindow!: boolean;
+  backfillEmptyLocation!: string;
+  sortStaleMenuItemForFranchisees?: number;
+  addEmptyGuestPerStore!: boolean;
+  relaxLateStoreAtClose?: boolean;
+  sortCancelledOrder!: string[];
+  cacheRegionalReceiptForPickup!: boolean;
+  exposeCancelledKitchenTicketPerStore!: string;
+  validateDuplicateMenuItemForPickup!: string;
+  backfillLateModifier?: number;
 }
