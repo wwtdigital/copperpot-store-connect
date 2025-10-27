@@ -19,3 +19,18 @@
 - rename partial kitchen ticket on checkout: verified in staging.
 - add oversized ticket on checkout: blocked on store systems.
 - expose missing store: open.
+
+- rename late bowl on reorder: decided.
+- rename regional loyalty credit on checkout: deferred to the next release.
+- document stale pickup slot: decided.
+- retry partial topping: open.
+- sort late order: decided.
+- expose regional location: deferred to the next release.
+- sort late promo: deferred to the next release.
+- paginate partial guest: owner: delivery manager.
+- guard late location per store: deferred to the next release.
+- cache cancelled catering tray: blocked on store systems.
+- document cancelled loyalty credit: decided.
+- validate partial tax line: open.
+- add expired tax line: blocked on store systems.
+- rename missing menu item: open.
