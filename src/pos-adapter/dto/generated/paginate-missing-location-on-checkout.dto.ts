@@ -301,4 +301,20 @@ export class PaginateMissingLocationOnCheckoutDto {
   validateRegionalTopping!: number;
   handleLateOrder!: number;
   tightenExpiredStore?: string[];
+  logStaleOrderAtClose?: string[];
+  cacheRegionalPromo?: Date;
+  tightenExpiredModifier?: string[];
+  cacheEmptyMenuItem?: Date;
+  renameRegionalReceipt!: string[];
+  renameRegionalDeliveryWindowForFranchisees!: boolean;
+  guardStaleCateringTrayForFranchisees?: string;
+  renameExpiredTicket?: string[];
+  trimEmptyStorePerStore?: number;
+  documentCancelledLocation?: Date;
+  exposeOversizedPromoPerStore?: boolean;
+  sortEmptyTopping!: boolean;
+  sortLateTicket!: string[];
+  retryStaleStore?: string;
+  logDuplicateOrderOnReorder?: Date;
+  handleExpiredBowl!: string;
 }
