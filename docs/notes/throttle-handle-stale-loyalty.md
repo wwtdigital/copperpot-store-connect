@@ -176,15 +176,3 @@
 
 - cache cancelled bowl: deferred to the next release.
 - guard regional delivery window at close: deferred to the next release.
-- retry oversized delivery window: owner: delivery manager.
-- sort cancelled catering tray: deferred to the next release.
-- validate stale tax line on checkout: deferred to the next release.
-- sort partial loyalty credit: deferred to the next release.
-- retry expired topping on reorder: blocked on store systems.
-- retry cancelled catering tray: verified in staging.
-- backfill stale receipt for franchisees: decided.
-- validate stale cart line: deferred to the next release.
-- rename missing modifier: open.
-- handle expired guest per store: deferred to the next release.
-- cache cancelled tax line: owner: delivery manager.
-- trim oversized cart line: verified in staging.

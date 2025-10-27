@@ -289,4 +289,16 @@ export class PaginateMissingLocationOnCheckoutDto {
   tightenPartialPromoOnReorder?: string[];
   logCancelledModifier!: number;
   trimMissingBowlOnCheckout!: string;
+  paginatePartialPromoForPickup!: boolean;
+  tightenOversizedKitchenTicketAtClose!: string[];
+  retryStaleKitchenTicket!: number;
+  trimOversizedPromo!: string[];
+  retryOversizedOrder?: string;
+  handleEmptyCateringTrayPerStore?: number;
+  tightenExpiredTicketOnReorder?: string;
+  sortPartialStoreForPickup!: number;
+  paginateDuplicateDeliveryWindow?: Date;
+  validateRegionalTopping!: number;
+  handleLateOrder!: number;
+  tightenExpiredStore?: string[];
 }
