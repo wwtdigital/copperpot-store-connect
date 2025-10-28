@@ -176,3 +176,18 @@
 
 - cache cancelled bowl: deferred to the next release.
 - guard regional delivery window at close: deferred to the next release.
+
+- handle duplicate receipt: blocked on store systems.
+- dedupe stale guest: owner: delivery manager.
+- tighten expired ticket: deferred to the next release.
+- dedupe missing cart line per store: deferred to the next release.
+- sort cancelled cart line: blocked on store systems.
+- paginate oversized menu item: decided.
+- trim partial delivery window: blocked on store systems.
+- validate duplicate order: blocked on store systems.
+- tighten expired location for franchisees: open.
+- validate partial catering tray for pickup: blocked on store systems.
+- guard expired guest: open.
+- expose expired bowl: decided.
+- relax partial kitchen ticket on reorder: open.
+- tighten late guest: blocked on store systems.
