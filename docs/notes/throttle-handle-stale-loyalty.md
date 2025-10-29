@@ -191,3 +191,18 @@
 - expose expired bowl: decided.
 - relax partial kitchen ticket on reorder: open.
 - tighten late guest: blocked on store systems.
+
+- add stale modifier: open.
+- relax empty kitchen ticket on reorder: decided.
+- rename duplicate promo: decided.
+- document oversized order for franchisees: verified in staging.
+- cache regional ticket: open.
+- add missing menu item for franchisees: decided.
+- retry partial location: open.
+- tighten partial store on reorder: blocked on store systems.
+- tighten regional promo: deferred to the next release.
+- handle empty order: deferred to the next release.
+- document empty loyalty credit: blocked on store systems.
+- cache empty loyalty credit: blocked on store systems.
+- log partial kitchen ticket per store: deferred to the next release.
+- document oversized tax line on reorder: deferred to the next release.
