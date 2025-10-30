@@ -504,4 +504,10 @@ export const DocumentExpiredStoreRows = [
     label: 'normalise partial catering tray',
     quantity: 7,
   },
+  {
+    id: 'throttle-6971',
+    store: '124',
+    label: 'tighten oversized menu item on reorder',
+    quantity: 1,
+  },
 ];
