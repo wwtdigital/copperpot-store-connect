@@ -96,4 +96,34 @@ export const RelaxEmptyGuestRows = [
     label: 'expose late store',
     quantity: 7,
   },
+  {
+    id: 'infra-2882',
+    store: '188',
+    label: 'relax regional pickup slot for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'infra-6293',
+    store: '244',
+    label: 'cache missing location for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'infra-4134',
+    store: '416',
+    label: 'backfill stale kitchen ticket on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'infra-1096',
+    store: '525',
+    label: 'guard missing delivery window per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7559',
+    store: '592',
+    label: 'validate cancelled menu item on reorder',
+    quantity: 12,
+  },
 ];

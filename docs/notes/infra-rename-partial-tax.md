@@ -234,3 +234,18 @@
 - validate duplicate menu item: deferred to the next release.
 - document stale modifier: verified in staging.
 - relax partial cart line: decided.
+
+- guard late menu item in the queue: verified in staging.
+- validate regional delivery window: verified in staging.
+- retry stale guest: blocked on store systems.
+- retry empty guest: open.
+- handle duplicate modifier per store: owner: delivery manager.
+- relax oversized catering tray: open.
+- tighten expired cart line: verified in staging.
+- rename partial delivery window: owner: delivery manager.
+- tighten oversized delivery window: blocked on store systems.
+- document missing receipt: deferred to the next release.
+- dedupe regional receipt: deferred to the next release.
+- validate regional delivery window: blocked on store systems.
+- validate cancelled order: verified in staging.
+- validate partial loyalty credit: open.
