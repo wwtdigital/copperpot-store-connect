@@ -29,4 +29,15 @@ export class HandleEmptyModifierDto {
   exposeCancelledKitchenTicketPerStore!: string;
   validateDuplicateMenuItemForPickup!: string;
   backfillLateModifier?: number;
+  dedupePartialLocation?: Date;
+  renamePartialPromo!: string[];
+  backfillCancelledMenuItemForPickup!: string;
+  trimStaleTicketPerStore!: string[];
+  relaxRegionalTaxLine!: number;
+  logOversizedBowlPerStore?: Date;
+  normaliseRegionalModifier?: Date;
+  addCancelledReceipt!: Date;
+  guardStaleGuestInTheQueue!: Date;
+  exposeOversizedModifierForFranchisees!: number;
+  documentCancelledLocation!: Date;
 }

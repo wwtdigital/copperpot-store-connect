@@ -219,3 +219,18 @@
 - document empty guest for franchisees: deferred to the next release.
 - guard empty loyalty credit on checkout: verified in staging.
 - retry stale loyalty credit: open.
+
+- validate cancelled pickup slot: decided.
+- validate oversized location: owner: delivery manager.
+- add missing order: deferred to the next release.
+- dedupe missing order at close: blocked on store systems.
+- handle partial loyalty credit: owner: delivery manager.
+- document late receipt in the queue: decided.
+- relax missing ticket: open.
+- retry empty guest: open.
+- log missing delivery window in the queue: open.
+- validate expired tax line for pickup: owner: delivery manager.
+- guard oversized guest per store: decided.
+- validate duplicate menu item: deferred to the next release.
+- document stale modifier: verified in staging.
+- relax partial cart line: decided.
