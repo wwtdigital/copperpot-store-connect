@@ -66,4 +66,10 @@ export const RetryPartialTaxLineRows = [
     label: 'tighten empty ticket',
     quantity: 10,
   },
+  {
+    id: 'infra-8751',
+    store: '609',
+    label: 'cache stale guest',
+    quantity: 12,
+  },
 ];
