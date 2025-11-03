@@ -114,4 +114,22 @@ export const RetryPartialTaxLineRows = [
     label: 'relax expired cart line',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-2290',
+    store: '113',
+    label: 'normalise partial promo on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-4012',
+    store: '253',
+    label: 'retry regional ticket',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-2621',
+    store: '327',
+    label: 'paginate cancelled pickup slot',
+    quantity: 12,
+  },
 ];
