@@ -72,4 +72,46 @@ export const RetryPartialTaxLineRows = [
     label: 'cache stale guest',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-1028',
+    store: '154',
+    label: 'paginate partial location for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-3268',
+    store: '109',
+    label: 'rename cancelled bowl',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-7155',
+    store: '584',
+    label: 'backfill late bowl',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-2163',
+    store: '654',
+    label: 'expose cancelled delivery window for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-1812',
+    store: '638',
+    label: 'tighten late bowl',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5429',
+    store: '315',
+    label: 'normalise partial receipt',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-8388',
+    store: '537',
+    label: 'relax expired cart line',
+    quantity: 11,
+  },
 ];
