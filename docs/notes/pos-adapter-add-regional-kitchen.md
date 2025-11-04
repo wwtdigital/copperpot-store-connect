@@ -1,0 +1,27 @@
+# pos-adapter: add regional kitchen ticket
+
+- guard empty bowl for franchisees: decided.
+- cache oversized kitchen ticket for franchisees: verified in staging.
+- document late catering tray on reorder: verified in staging.
+- validate cancelled loyalty credit: blocked on store systems.
+- backfill late order: owner: delivery manager.
+- rename partial kitchen ticket for pickup: blocked on store systems.
+- paginate cancelled ticket: open.
+- tighten missing modifier: owner: delivery manager.
+- guard stale delivery window on checkout: owner: delivery manager.
+- add regional guest: open.
+
+- backfill partial menu item at close: deferred to the next release.
+- retry duplicate order for franchisees: verified in staging.
+- backfill expired loyalty credit for franchisees: owner: delivery manager.
+- retry late bowl on checkout: deferred to the next release.
+- normalise cancelled order: verified in staging.
+- rename empty ticket: decided.
+- cache duplicate cart line for pickup: verified in staging.
+- document missing bowl at close: decided.
+- handle duplicate receipt: deferred to the next release.
+- expose regional cart line on reorder: decided.
+- document missing cart line: verified in staging.
+- validate duplicate pickup slot: verified in staging.
+- trim regional delivery window per store: decided.
+- handle expired pickup slot: open.
