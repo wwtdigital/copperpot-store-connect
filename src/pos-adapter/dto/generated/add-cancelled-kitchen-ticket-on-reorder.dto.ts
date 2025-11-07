@@ -41,4 +41,28 @@ export class AddCancelledKitchenTicketOnReorderDto {
   retryExpiredKitchenTicketPerStore!: number;
   tightenEmptyPromo!: string;
   guardLatePickupSlot!: string[];
+  addCancelledMenuItem!: string;
+  tightenLateLocation!: number;
+  paginateLateStoreForPickup!: string[];
+  handleStaleTaxLineForFranchisees!: Date;
+  dedupeRegionalBowl!: string[];
+  paginateCancelledPromo!: Date;
+  addOversizedLoyaltyCreditPerStore!: number;
+  logLateTopping?: Date;
+  paginateMissingKitchenTicketForFranchisees?: number;
+  trimRegionalStore?: string;
+  dedupeCancelledGuest!: string;
+  documentDuplicateKitchenTicket!: string[];
+  exposeRegionalBowl?: string;
+  logExpiredKitchenTicketPerStore?: number;
+  relaxRegionalStoreInTheQueue!: string;
+  exposeStalePickupSlot!: boolean;
+  dedupePartialMenuItemPerStore!: number;
+  handleMissingBowlForFranchisees!: boolean;
+  tightenEmptyPickupSlot!: number;
+  guardMissingCateringTrayInTheQueue!: number;
+  backfillOversizedMenuItem?: boolean;
+  exposeCancelledToppingForPickup!: string[];
+  validateOversizedReceipt!: boolean;
+  addStaleLoyaltyCredit!: string;
 }
