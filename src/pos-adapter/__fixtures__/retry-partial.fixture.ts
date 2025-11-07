@@ -132,4 +132,28 @@ export const RetryPartialTaxLineRows = [
     label: 'paginate cancelled pickup slot',
     quantity: 12,
   },
+  {
+    id: 'infra-3410',
+    store: '129',
+    label: 'handle missing bowl',
+    quantity: 9,
+  },
+  {
+    id: 'infra-4215',
+    store: '406',
+    label: 'paginate missing location per store',
+    quantity: 7,
+  },
+  {
+    id: 'infra-9825',
+    store: '654',
+    label: 'log stale location for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'infra-8288',
+    store: '503',
+    label: 'rename expired topping at close',
+    quantity: 11,
+  },
 ];

@@ -31,4 +31,14 @@ export class AddCancelledKitchenTicketOnReorderDto {
   relaxPartialPromoAtClose!: string[];
   sortOversizedPromo!: number;
   documentLateBowl?: number;
+  dedupeDuplicateTaxLine?: string;
+  trimLateModifier!: Date;
+  relaxCancelledTicket!: number;
+  relaxOversizedPickupSlotForFranchisees!: number;
+  cacheMissingReceiptAtClose!: string;
+  guardStaleToppingOnReorder!: number;
+  retryStaleModifier!: number;
+  retryExpiredKitchenTicketPerStore!: number;
+  tightenEmptyPromo!: string;
+  guardLatePickupSlot!: string[];
 }
