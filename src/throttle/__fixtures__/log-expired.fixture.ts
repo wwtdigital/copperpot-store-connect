@@ -174,4 +174,10 @@ export const LogExpiredToppingPerStoreRows = [
     label: 'validate duplicate loyalty credit at close',
     quantity: 3,
   },
+  {
+    id: 'throttle-6777',
+    store: '123',
+    label: 'normalise partial modifier',
+    quantity: 11,
+  },
 ];
