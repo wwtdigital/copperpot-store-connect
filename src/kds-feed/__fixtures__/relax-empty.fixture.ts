@@ -138,4 +138,10 @@ export const RelaxEmptyGuestRows = [
     label: 'add partial loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'docs-9469',
+    store: '108',
+    label: 'rename empty store',
+    quantity: 4,
+  },
 ];
