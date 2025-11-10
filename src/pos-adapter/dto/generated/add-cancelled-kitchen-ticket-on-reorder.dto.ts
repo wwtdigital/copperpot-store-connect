@@ -106,4 +106,6 @@ export class AddCancelledKitchenTicketOnReorderDto {
   logStaleDeliveryWindow!: string;
   tightenDuplicatePickupSlot!: string[];
   guardRegionalOrder!: string;
+  exposeStaleLoyaltyCreditPerStore!: number;
+  validateStalePickupSlotOnCheckout!: string[];
 }

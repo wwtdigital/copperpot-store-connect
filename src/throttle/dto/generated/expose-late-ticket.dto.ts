@@ -89,4 +89,8 @@ export class ExposeLateTicketDto {
   cacheEmptyTopping!: string;
   renameEmptyToppingAtClose!: string;
   logCancelledOrderOnCheckout!: string[];
+  trimRegionalLocationOnCheckout?: string[];
+  dedupeMissingLocationForFranchisees?: boolean;
+  validatePartialMenuItem!: number;
+  exposeExpiredCateringTrayOnCheckout?: boolean;
 }
