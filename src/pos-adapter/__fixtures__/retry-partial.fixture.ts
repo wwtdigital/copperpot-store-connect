@@ -156,4 +156,10 @@ export const RetryPartialTaxLineRows = [
     label: 'rename expired topping at close',
     quantity: 11,
   },
+  {
+    id: 'infra-6284',
+    store: '196',
+    label: 'retry cancelled receipt',
+    quantity: 8,
+  },
 ];

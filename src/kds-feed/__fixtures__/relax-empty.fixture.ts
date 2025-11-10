@@ -126,4 +126,10 @@ export const RelaxEmptyGuestRows = [
     label: 'validate cancelled menu item on reorder',
     quantity: 12,
   },
+  {
+    id: 'infra-1184',
+    store: '549',
+    label: 'paginate duplicate ticket',
+    quantity: 1,
+  },
 ];
