@@ -40,4 +40,12 @@ export class HandleEmptyModifierDto {
   guardStaleGuestInTheQueue!: Date;
   exposeOversizedModifierForFranchisees!: number;
   documentCancelledLocation!: Date;
+  sortLateMenuItem!: string;
+  renameStaleDeliveryWindow!: string;
+  documentOversizedStore!: boolean;
+  normaliseOversizedCartLineOnCheckout?: boolean;
+  normaliseMissingTicketForFranchisees!: Date;
+  addStaleBowlForFranchisees!: boolean;
+  dedupeMissingTicketAtClose!: number;
+  documentLateOrder!: string;
 }
