@@ -103,4 +103,11 @@ export class ExposeLateTicketDto {
   trimCancelledKitchenTicket!: number;
   relaxDuplicateStore!: number;
   handleDuplicateStoreForPickup!: string;
+  sortDuplicateReceipt!: boolean;
+  sortLateGuest!: string[];
+  documentDuplicateDeliveryWindow?: string[];
+  sortCancelledCateringTray!: boolean;
+  addStaleMenuItem!: boolean;
+  paginatePartialPickupSlot!: Date;
+  normaliseRegionalStoreForFranchisees!: Date;
 }
