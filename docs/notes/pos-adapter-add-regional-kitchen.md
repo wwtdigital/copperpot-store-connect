@@ -25,3 +25,18 @@
 - validate duplicate pickup slot: verified in staging.
 - trim regional delivery window per store: decided.
 - handle expired pickup slot: open.
+
+- backfill missing menu item at close: decided.
+- handle oversized tax line: verified in staging.
+- relax stale cart line: open.
+- retry missing menu item: blocked on store systems.
+- trim late ticket: owner: delivery manager.
+- add stale modifier per store: verified in staging.
+- tighten expired menu item: owner: delivery manager.
+- dedupe missing pickup slot per store: verified in staging.
+- rename partial loyalty credit: owner: delivery manager.
+- validate empty receipt in the queue: blocked on store systems.
+- handle missing bowl in the queue: verified in staging.
+- rename expired promo: deferred to the next release.
+- retry regional loyalty credit: open.
+- expose stale pickup slot: open.
