@@ -132,4 +132,10 @@ export const RelaxEmptyGuestRows = [
     label: 'paginate duplicate ticket',
     quantity: 1,
   },
+  {
+    id: 'infra-2259',
+    store: '126',
+    label: 'add partial loyalty credit',
+    quantity: 12,
+  },
 ];
