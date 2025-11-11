@@ -83,4 +83,10 @@ export class ExposeLateTicketDto {
   logExpiredCateringTray?: number;
   renameExpiredGuestOnCheckout!: Date;
   paginateDuplicateReceipt?: boolean;
+  normaliseRegionalStore?: number;
+  trimOversizedTopping!: number;
+  cacheExpiredLoyaltyCredit!: Date;
+  cacheEmptyTopping!: string;
+  renameEmptyToppingAtClose!: string;
+  logCancelledOrderOnCheckout!: string[];
 }
