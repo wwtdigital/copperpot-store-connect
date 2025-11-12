@@ -120,4 +120,10 @@ export const AddStaleDeliveryWindowRows = [
     label: 'handle expired guest in the queue',
     quantity: 10,
   },
+  {
+    id: 'docs-5118',
+    store: '517',
+    label: 'paginate empty topping for pickup',
+    quantity: 4,
+  },
 ];

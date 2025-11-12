@@ -144,4 +144,10 @@ export const RelaxEmptyGuestRows = [
     label: 'rename empty store',
     quantity: 4,
   },
+  {
+    id: 'docs-9005',
+    store: '109',
+    label: 'cache stale modifier',
+    quantity: 3,
+  },
 ];
