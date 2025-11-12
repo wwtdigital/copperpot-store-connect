@@ -162,4 +162,16 @@ export const LogExpiredToppingPerStoreRows = [
     label: 'log late kitchen ticket on reorder',
     quantity: 3,
   },
+  {
+    id: 'docs-6211',
+    store: '282',
+    label: 'retry cancelled kitchen ticket on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-8880',
+    store: '116',
+    label: 'validate duplicate loyalty credit at close',
+    quantity: 3,
+  },
 ];
