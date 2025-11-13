@@ -93,4 +93,21 @@ export class ExposeLateTicketDto {
   dedupeMissingLocationForFranchisees?: boolean;
   validatePartialMenuItem!: number;
   exposeExpiredCateringTrayOnCheckout?: boolean;
+  exposeDuplicateTopping!: Date;
+  addDuplicateDeliveryWindow!: number;
+  trimLateBowlPerStore?: string;
+  exposeLateBowlOnReorder?: string[];
+  sortEmptyBowl?: string;
+  cacheCancelledTicket?: boolean;
+  exposeMissingPromoForFranchisees!: boolean;
+  trimCancelledKitchenTicket!: number;
+  relaxDuplicateStore!: number;
+  handleDuplicateStoreForPickup!: string;
+  sortDuplicateReceipt!: boolean;
+  sortLateGuest!: string[];
+  documentDuplicateDeliveryWindow?: string[];
+  sortCancelledCateringTray!: boolean;
+  addStaleMenuItem!: boolean;
+  paginatePartialPickupSlot!: Date;
+  normaliseRegionalStoreForFranchisees!: Date;
 }
