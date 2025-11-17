@@ -306,4 +306,34 @@ export const RetryPartialTaxLineRows = [
     label: 'normalise regional store',
     quantity: 2,
   },
+  {
+    id: 'infra-2612',
+    store: '442',
+    label: 'rename regional promo',
+    quantity: 8,
+  },
+  {
+    id: 'infra-1996',
+    store: '113',
+    label: 'rename stale tax line',
+    quantity: 4,
+  },
+  {
+    id: 'infra-5805',
+    store: '577',
+    label: 'backfill cancelled tax line',
+    quantity: 1,
+  },
+  {
+    id: 'infra-1229',
+    store: '227',
+    label: 'retry empty modifier in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'infra-3794',
+    store: '263',
+    label: 'expose cancelled catering tray in the queue',
+    quantity: 10,
+  },
 ];
