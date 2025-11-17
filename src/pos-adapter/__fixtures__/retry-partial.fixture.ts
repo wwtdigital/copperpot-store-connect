@@ -294,4 +294,16 @@ export const RetryPartialTaxLineRows = [
     label: 'expose cancelled tax line on checkout',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-6167',
+    store: '571',
+    label: 'validate duplicate topping',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-3920',
+    store: '501',
+    label: 'normalise regional store',
+    quantity: 2,
+  },
 ];
