@@ -48,4 +48,15 @@ export class HandleEmptyModifierDto {
   addStaleBowlForFranchisees!: boolean;
   dedupeMissingTicketAtClose!: number;
   documentLateOrder!: string;
+  handleStaleTaxLineForFranchisees!: Date;
+  paginateMissingPickupSlot!: Date;
+  retryLateModifierForFranchisees!: number;
+  tightenMissingKitchenTicketForFranchisees!: string[];
+  exposeStaleCartLine!: string;
+  paginateExpiredPickupSlotOnCheckout!: Date;
+  retryLateCartLine?: string;
+  guardStaleTaxLineForFranchisees!: Date;
+  paginateOversizedBowl?: string;
+  tightenDuplicateBowl!: number;
+  renameRegionalTaxLine!: Date;
 }

@@ -282,4 +282,28 @@ export const RetryPartialTaxLineRows = [
     label: 'validate missing topping for franchisees',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-4614',
+    store: '248',
+    label: 'sort partial bowl per store',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-7542',
+    store: '394',
+    label: 'expose cancelled tax line on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-6167',
+    store: '571',
+    label: 'validate duplicate topping',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-3920',
+    store: '501',
+    label: 'normalise regional store',
+    quantity: 2,
+  },
 ];
