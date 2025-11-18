@@ -108,4 +108,6 @@ export class AddCancelledKitchenTicketOnReorderDto {
   guardRegionalOrder!: string;
   exposeStaleLoyaltyCreditPerStore!: number;
   validateStalePickupSlotOnCheckout!: string[];
+  cacheRegionalReceiptAtClose!: string;
+  backfillRegionalModifier!: string[];
 }
