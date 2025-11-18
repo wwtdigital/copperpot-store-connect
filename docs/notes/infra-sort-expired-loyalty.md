@@ -25,3 +25,18 @@
 - backfill oversized store at close: open.
 - add stale tax line for pickup: verified in staging.
 - retry late cart line on reorder: owner: delivery manager.
+
+- backfill duplicate ticket: blocked on store systems.
+- validate empty promo: blocked on store systems.
+- normalise oversized loyalty credit: deferred to the next release.
+- dedupe duplicate store for pickup: blocked on store systems.
+- trim expired delivery window: owner: delivery manager.
+- validate missing store: deferred to the next release.
+- retry late ticket for pickup: deferred to the next release.
+- relax partial loyalty credit for franchisees: owner: delivery manager.
+- normalise regional modifier: blocked on store systems.
+- tighten expired topping on checkout: verified in staging.
+- trim oversized loyalty credit: decided.
+- guard partial guest: deferred to the next release.
+- sort missing ticket per store: blocked on store systems.
+- cache duplicate catering tray: owner: delivery manager.

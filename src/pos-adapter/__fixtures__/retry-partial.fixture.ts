@@ -336,4 +336,16 @@ export const RetryPartialTaxLineRows = [
     label: 'expose cancelled catering tray in the queue',
     quantity: 10,
   },
+  {
+    id: 'infra-4496',
+    store: '182',
+    label: 'normalise stale cart line for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'infra-3135',
+    store: '590',
+    label: 'cache empty modifier in the queue',
+    quantity: 5,
+  },
 ];
