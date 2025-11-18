@@ -150,4 +150,28 @@ export const RelaxEmptyGuestRows = [
     label: 'cache stale modifier',
     quantity: 3,
   },
+  {
+    id: 'infra-4971',
+    store: '450',
+    label: 'add missing menu item',
+    quantity: 6,
+  },
+  {
+    id: 'infra-3280',
+    store: '442',
+    label: 'trim missing topping',
+    quantity: 3,
+  },
+  {
+    id: 'infra-2279',
+    store: '248',
+    label: 'log expired receipt for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2567',
+    store: '656',
+    label: 'trim stale menu item on reorder',
+    quantity: 3,
+  },
 ];
