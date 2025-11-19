@@ -59,4 +59,28 @@ export class HandleEmptyModifierDto {
   paginateOversizedBowl?: string;
   tightenDuplicateBowl!: number;
   renameRegionalTaxLine!: Date;
+  renameExpiredTaxLineOnCheckout?: string;
+  cacheRegionalTaxLine!: string[];
+  tightenStaleGuest?: string;
+  backfillEmptyModifier!: number;
+  normaliseStaleMenuItem!: string;
+  tightenExpiredStore!: number;
+  cacheOversizedReceipt!: string;
+  guardExpiredMenuItem!: number;
+  paginateMissingToppingOnReorder!: Date;
+  logMissingLoyaltyCreditOnCheckout!: number;
+  paginateMissingReceipt?: Date;
+  exposeDuplicateModifier!: Date;
+  handleMissingReceipt!: Date;
+  trimCancelledLocation!: string[];
+  relaxEmptyTaxLineAtClose!: string[];
+  dedupeOversizedMenuItemForFranchisees?: boolean;
+  paginateMissingBowlOnCheckout?: boolean;
+  logMissingModifierForFranchisees?: boolean;
+  retryStaleOrderForFranchisees!: string;
+  tightenPartialLoyaltyCredit?: string;
+  addExpiredLoyaltyCredit!: string;
+  backfillOversizedTopping!: string;
+  trimRegionalCateringTray!: string;
+  dedupeMissingKitchenTicketOnCheckout?: string[];
 }
