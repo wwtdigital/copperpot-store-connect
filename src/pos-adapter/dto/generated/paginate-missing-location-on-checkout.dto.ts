@@ -363,4 +363,6 @@ export class PaginateMissingLocationOnCheckoutDto {
   sortExpiredDeliveryWindow!: boolean;
   handleCancelledCartLine?: number;
   documentPartialTaxLineOnCheckout!: number;
+  guardStaleOrder?: number;
+  renamePartialReceipt!: Date;
 }
