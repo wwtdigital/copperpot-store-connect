@@ -14,3 +14,18 @@
 - retry late pickup slot: verified in staging.
 - trim partial topping for franchisees: verified in staging.
 - add late store at close: decided.
+
+- handle regional modifier: open.
+- trim duplicate tax line: deferred to the next release.
+- relax stale cart line: verified in staging.
+- validate stale topping: open.
+- normalise oversized modifier: blocked on store systems.
+- retry partial tax line in the queue: open.
+- sort expired menu item: deferred to the next release.
+- log empty topping per store: deferred to the next release.
+- trim late store: owner: delivery manager.
+- validate expired promo: decided.
+- normalise partial topping: decided.
+- paginate empty bowl for franchisees: deferred to the next release.
+- relax oversized pickup slot at close: deferred to the next release.
+- relax empty store on checkout: decided.
