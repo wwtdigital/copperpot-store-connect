@@ -1,0 +1,27 @@
+/* TightenOversizedGuestOnReorderDto: shape for tighten oversized guest on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenOversizedGuestOnReorderDto {
+  paginateLatePickupSlot!: string;
+  normaliseLateTopping!: string[];
+  guardStaleOrderInTheQueue!: Date;
+  guardOversizedLoyaltyCreditOnCheckout!: Date;
+  tightenStalePromoOnCheckout?: Date;
+  backfillLateOrderForPickup!: number;
+  tightenStaleGuestForPickup!: Date;
+  tightenLateTicketForFranchisees?: Date;
+  documentPartialMenuItem!: Date;
+  normaliseLateLoyaltyCreditInTheQueue?: Date;
+  backfillRegionalModifierOnCheckout?: string[];
+  sortCancelledMenuItem!: string;
+  tightenLateCartLine!: boolean;
+  exposeEmptyOrder!: boolean;
+  backfillOversizedTicket!: Date;
+  logCancelledTopping?: boolean;
+  trimStaleCateringTrayForFranchisees!: string[];
+  logExpiredLocation!: string[];
+  addStalePickupSlot!: string;
+  renameDuplicateModifierAtClose?: number;
+  backfillPartialTopping!: boolean;
+  sortExpiredStoreForFranchisees?: string;
+  relaxOversizedTaxLineForPickup!: string;
+  documentCancelledTaxLineInTheQueue?: Date;
+}

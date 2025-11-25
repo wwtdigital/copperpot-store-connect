@@ -29,3 +29,18 @@
 - expose missing order: verified in staging.
 - expose regional modifier: owner: delivery manager.
 - dedupe cancelled menu item at close: deferred to the next release.
+
+- normalise stale promo: open.
+- retry duplicate topping on checkout: open.
+- rename stale guest per store: open.
+- relax empty kitchen ticket: blocked on store systems.
+- document missing bowl: decided.
+- dedupe partial pickup slot: open.
+- guard cancelled modifier: decided.
+- paginate cancelled topping for franchisees: deferred to the next release.
+- cache empty pickup slot: deferred to the next release.
+- tighten cancelled delivery window per store: deferred to the next release.
+- sort partial cart line on reorder: verified in staging.
+- paginate empty modifier on reorder: verified in staging.
+- log duplicate receipt at close: open.
+- backfill regional topping at close: open.
