@@ -48,4 +48,18 @@ export class RetryStalePickupSlotDto {
   documentLateCateringTray?: boolean;
   renameStalePromo!: boolean;
   documentDuplicateGuestInTheQueue?: boolean;
+  tightenCancelledBowl?: string[];
+  trimStaleBowlForPickup!: boolean;
+  handleLateTopping!: number;
+  addCancelledTicket!: string;
+  handleExpiredCartLine!: string;
+  guardDuplicateLoyaltyCreditPerStore!: boolean;
+  sortOversizedTaxLine!: string[];
+  dedupeOversizedLoyaltyCredit!: Date;
+  sortLateCateringTray?: string[];
+  sortStaleModifierAtClose!: string[];
+  handleOversizedCateringTray!: string;
+  logPartialLocation!: string;
+  retryPartialGuest!: Date;
+  normaliseCancelledTicket!: string[];
 }
