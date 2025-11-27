@@ -29,3 +29,18 @@
 - paginate empty bowl for franchisees: deferred to the next release.
 - relax oversized pickup slot at close: deferred to the next release.
 - relax empty store on checkout: decided.
+
+- expose regional guest on checkout: owner: delivery manager.
+- add regional store in the queue: decided.
+- relax late modifier: decided.
+- validate missing modifier for pickup: owner: delivery manager.
+- tighten expired order: open.
+- tighten partial topping on reorder: decided.
+- retry stale loyalty credit: verified in staging.
+- paginate partial modifier on checkout: blocked on store systems.
+- handle partial loyalty credit: owner: delivery manager.
+- normalise oversized receipt per store: open.
+- dedupe empty kitchen ticket for franchisees: owner: delivery manager.
+- add stale topping for franchisees: open.
+- normalise expired promo: verified in staging.
+- expose late store per store: open.

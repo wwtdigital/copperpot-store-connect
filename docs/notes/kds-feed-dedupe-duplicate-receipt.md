@@ -44,3 +44,6 @@
 - paginate empty modifier on reorder: verified in staging.
 - log duplicate receipt at close: open.
 - backfill regional topping at close: open.
+
+- dedupe partial promo: decided.
+- add empty delivery window on checkout: decided.

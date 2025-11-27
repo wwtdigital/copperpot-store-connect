@@ -174,4 +174,22 @@ export const RelaxEmptyGuestRows = [
     label: 'trim stale menu item on reorder',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-8964',
+    store: '297',
+    label: 'log late promo',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-1682',
+    store: '633',
+    label: 'log oversized receipt in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-4208',
+    store: '699',
+    label: 'cache duplicate receipt on reorder',
+    quantity: 11,
+  },
 ];
