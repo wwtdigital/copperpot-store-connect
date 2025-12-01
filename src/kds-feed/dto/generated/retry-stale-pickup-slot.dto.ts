@@ -62,4 +62,15 @@ export class RetryStalePickupSlotDto {
   logPartialLocation!: string;
   retryPartialGuest!: Date;
   normaliseCancelledTicket!: string[];
+  retryLateGuest?: string;
+  exposeOversizedLocation!: string[];
+  normaliseEmptyPickupSlot!: string;
+  logLateTicketPerStore?: number;
+  backfillStaleLoyaltyCredit!: number;
+  trimCancelledStore!: boolean;
+  trimRegionalGuest?: Date;
+  backfillPartialTopping!: string[];
+  cacheExpiredDeliveryWindow!: string;
+  renameStaleOrderOnReorder!: string[];
+  normaliseStalePromoInTheQueue?: Date;
 }
