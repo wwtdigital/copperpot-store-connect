@@ -134,4 +134,28 @@ export class ExposeLateTicketDto {
   tightenExpiredReceipt?: string[];
   tightenStaleKitchenTicketOnCheckout!: string;
   dedupeEmptyKitchenTicketPerStore!: Date;
+  guardDuplicateGuestInTheQueue!: boolean;
+  validateEmptyLoyaltyCreditOnCheckout?: Date;
+  paginateCancelledReceiptPerStore?: Date;
+  cacheLateTopping!: string;
+  renameOversizedGuestOnCheckout!: boolean;
+  validateCancelledTaxLineForFranchisees?: Date;
+  validateStaleBowlPerStore?: string[];
+  normaliseLateTaxLine!: Date;
+  renameOversizedTicket!: boolean;
+  trimEmptyLoyaltyCredit!: number;
+  handleEmptyPromo!: number;
+  handleMissingOrder!: boolean;
+  renamePartialCateringTray!: string[];
+  tightenEmptyCateringTray!: Date;
+  relaxStaleKitchenTicket!: string;
+  guardDuplicateTaxLine!: number;
+  renameExpiredKitchenTicket!: number;
+  documentOversizedTaxLine!: string;
+  relaxRegionalOrderForFranchisees!: string[];
+  logMissingPickupSlot!: string;
+  dedupeDuplicateMenuItem!: boolean;
+  handleLateMenuItem!: boolean;
+  retryOversizedGuestForPickup?: number;
+  tightenMissingKitchenTicket?: string;
 }

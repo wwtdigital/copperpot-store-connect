@@ -73,4 +73,6 @@ export class RetryStalePickupSlotDto {
   cacheExpiredDeliveryWindow!: string;
   renameStaleOrderOnReorder!: string[];
   normaliseStalePromoInTheQueue?: Date;
+  handleCancelledMenuItem!: boolean;
+  addExpiredCateringTray!: number;
 }
