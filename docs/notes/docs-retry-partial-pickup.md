@@ -70,3 +70,33 @@
 - tighten duplicate tax line: decided.
 - validate regional location: deferred to the next release.
 - validate cancelled ticket: decided.
+
+- retry stale location: open.
+- trim expired tax line for franchisees: blocked on store systems.
+- add stale catering tray: verified in staging.
+- rename cancelled receipt: blocked on store systems.
+- document duplicate promo: verified in staging.
+- guard cancelled topping per store: verified in staging.
+- sort expired catering tray: decided.
+- backfill expired catering tray: blocked on store systems.
+- rename late receipt: owner: delivery manager.
+- add regional loyalty credit: decided.
+- expose cancelled receipt: decided.
+- log missing kitchen ticket: decided.
+- document oversized location for franchisees: deferred to the next release.
+- cache duplicate tax line for franchisees: owner: delivery manager.
+
+- log missing promo per store: verified in staging.
+- trim duplicate bowl: decided.
+- paginate expired kitchen ticket: deferred to the next release.
+- retry cancelled modifier: open.
+- dedupe regional order for franchisees: deferred to the next release.
+- trim empty ticket: verified in staging.
+- handle empty tax line: deferred to the next release.
+- validate stale receipt: blocked on store systems.
+- guard oversized store in the queue: verified in staging.
+- expose oversized store on checkout: owner: delivery manager.
+- tighten cancelled loyalty credit at close: blocked on store systems.
+- dedupe duplicate modifier per store: blocked on store systems.
+- relax cancelled topping: deferred to the next release.
+- rename regional receipt for franchisees: deferred to the next release.

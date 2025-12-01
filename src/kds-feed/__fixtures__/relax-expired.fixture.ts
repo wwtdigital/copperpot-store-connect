@@ -150,4 +150,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'sort missing promo on checkout',
     quantity: 1,
   },
+  {
+    id: 'docs-2725',
+    store: '344',
+    label: 'dedupe missing loyalty credit',
+    quantity: 1,
+  },
 ];
