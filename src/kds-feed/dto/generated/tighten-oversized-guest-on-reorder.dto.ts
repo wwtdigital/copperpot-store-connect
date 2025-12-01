@@ -24,4 +24,28 @@ export class TightenOversizedGuestOnReorderDto {
   sortExpiredStoreForFranchisees?: string;
   relaxOversizedTaxLineForPickup!: string;
   documentCancelledTaxLineInTheQueue?: Date;
+  tightenDuplicateGuest!: boolean;
+  trimOversizedLoyaltyCreditPerStore!: string[];
+  relaxLateTicket?: Date;
+  tightenExpiredPromo!: boolean;
+  guardPartialBowlForFranchisees!: string;
+  trimRegionalToppingAtClose!: string;
+  exposeLateModifierInTheQueue!: Date;
+  dedupeExpiredCartLineAtClose?: Date;
+  normalisePartialStore!: string[];
+  documentCancelledGuestForFranchisees!: boolean;
+  relaxEmptyCartLinePerStore?: boolean;
+  logEmptyKitchenTicketInTheQueue!: string[];
+  logLateReceipt!: string[];
+  logRegionalMenuItem!: string;
+  cacheEmptyKitchenTicketPerStore!: boolean;
+  trimLateBowl!: number;
+  relaxStaleModifierAtClose!: string;
+  documentEmptyLocationAtClose?: Date;
+  tightenRegionalOrderForPickup?: Date;
+  documentOversizedTaxLineForPickup?: number;
+  renameCancelledReceipt?: string[];
+  sortEmptyMenuItem?: Date;
+  dedupeCancelledKitchenTicket!: number;
+  dedupePartialKitchenTicket?: string[];
 }
