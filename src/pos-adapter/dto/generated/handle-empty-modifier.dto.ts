@@ -83,4 +83,15 @@ export class HandleEmptyModifierDto {
   backfillOversizedTopping!: string;
   trimRegionalCateringTray!: string;
   dedupeMissingKitchenTicketOnCheckout?: string[];
+  validateRegionalReceipt?: number;
+  paginateEmptyLoyaltyCredit?: Date;
+  tightenStaleDeliveryWindowOnCheckout!: boolean;
+  logCancelledCateringTrayOnCheckout!: string[];
+  sortRegionalOrder?: boolean;
+  exposeLateCartLine?: boolean;
+  backfillCancelledOrderInTheQueue!: Date;
+  exposeRegionalModifierOnCheckout!: string[];
+  guardStaleModifier!: boolean;
+  backfillMissingTaxLinePerStore!: string[];
+  logRegionalCateringTrayOnReorder!: number;
 }
