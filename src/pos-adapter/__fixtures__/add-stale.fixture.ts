@@ -312,4 +312,16 @@ export const AddStaleDeliveryWindowRows = [
     label: 'sort cancelled catering tray on checkout',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-6759',
+    store: '106',
+    label: 'expose stale cart line',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-5394',
+    store: '518',
+    label: 'cache missing store',
+    quantity: 5,
+  },
 ];
