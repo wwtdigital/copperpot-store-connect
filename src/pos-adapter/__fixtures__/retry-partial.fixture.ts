@@ -690,4 +690,10 @@ export const RetryPartialTaxLineRows = [
     label: 'normalise cancelled receipt for pickup',
     quantity: 3,
   },
+  {
+    id: 'docs-6339',
+    store: '328',
+    label: 'document duplicate location',
+    quantity: 9,
+  },
 ];

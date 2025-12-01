@@ -365,4 +365,10 @@ export class PaginateMissingLocationOnCheckoutDto {
   documentPartialTaxLineOnCheckout!: number;
   guardStaleOrder?: number;
   renamePartialReceipt!: Date;
+  normaliseCancelledPickupSlot!: Date;
+  tightenExpiredPromo!: string;
+  guardLateLocation!: boolean;
+  addLateLocation!: number;
+  dedupeExpiredBowlForFranchisees!: string;
+  relaxEmptyModifierOnReorder!: Date;
 }
