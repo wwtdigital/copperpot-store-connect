@@ -234,4 +234,22 @@ export const PaginateMissingReceiptRows = [
     label: 'log oversized bowl',
     quantity: 4,
   },
+  {
+    id: 'throttle-5239',
+    store: '471',
+    label: 'document empty bowl for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-1854',
+    store: '594',
+    label: 'relax missing catering tray per store',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-4799',
+    store: '562',
+    label: 'paginate missing catering tray on checkout',
+    quantity: 11,
+  },
 ];

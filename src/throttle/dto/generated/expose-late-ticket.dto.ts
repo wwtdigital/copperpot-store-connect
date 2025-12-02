@@ -110,4 +110,28 @@ export class ExposeLateTicketDto {
   addStaleMenuItem!: boolean;
   paginatePartialPickupSlot!: Date;
   normaliseRegionalStoreForFranchisees!: Date;
+  handleOversizedTaxLine?: boolean;
+  relaxCancelledPickupSlotForPickup?: string[];
+  normalisePartialTaxLine!: string;
+  handleOversizedMenuItemAtClose!: boolean;
+  paginateMissingCateringTray?: boolean;
+  exposeLateReceiptForPickup!: number;
+  relaxPartialCartLineInTheQueue?: string;
+  paginatePartialKitchenTicket!: string;
+  paginateCancelledKitchenTicketInTheQueue!: string[];
+  trimEmptyPickupSlot!: number;
+  validatePartialOrder!: string;
+  validateEmptyLocationOnReorder!: boolean;
+  addRegionalPickupSlotOnCheckout!: string;
+  exposeLateDeliveryWindowOnReorder!: number;
+  backfillLateBowl!: Date;
+  addStalePickupSlotForFranchisees?: Date;
+  logCancelledDeliveryWindow!: Date;
+  trimRegionalGuestPerStore?: string[];
+  paginatePartialLocationForFranchisees?: string;
+  documentLateLoyaltyCredit!: string;
+  backfillDuplicateTaxLine!: Date;
+  tightenExpiredReceipt?: string[];
+  tightenStaleKitchenTicketOnCheckout!: string;
+  dedupeEmptyKitchenTicketPerStore!: Date;
 }
