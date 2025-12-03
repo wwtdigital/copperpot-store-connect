@@ -22,4 +22,26 @@ export class LogDuplicateDeliveryWindowForPickupDto {
   retryCancelledCartLine!: boolean;
   handleLateGuestForPickup!: string[];
   retryStaleMenuItem?: string;
+  documentPartialKitchenTicket!: number;
+  normaliseLateMenuItem!: boolean;
+  dedupeRegionalReceiptPerStore!: string[];
+  addPartialPickupSlot!: boolean;
+  documentOversizedMenuItem!: string[];
+  retryPartialPickupSlot!: number;
+  handleOversizedTicket!: boolean;
+  addCancelledPromo?: Date;
+  relaxMissingDeliveryWindow!: string;
+  trimMissingLocationPerStore!: Date;
+  relaxMissingKitchenTicket?: boolean;
+  sortOversizedGuestOnCheckout?: boolean;
+  addEmptyTicket!: boolean;
+  normaliseRegionalGuest?: boolean;
+  handleCancelledPickupSlot!: string;
+  tightenOversizedGuest!: string[];
+  paginateLateLocationPerStore?: number;
+  cacheLateLocation!: Date;
+  handleExpiredGuest?: string;
+  tightenLateCateringTray!: string[];
+  guardMissingKitchenTicketPerStore!: Date;
+  logMissingTaxLine?: string[];
 }
