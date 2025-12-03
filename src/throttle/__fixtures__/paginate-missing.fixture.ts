@@ -252,4 +252,28 @@ export const PaginateMissingReceiptRows = [
     label: 'paginate missing catering tray on checkout',
     quantity: 11,
   },
+  {
+    id: 'docs-2561',
+    store: '165',
+    label: 'log late modifier',
+    quantity: 2,
+  },
+  {
+    id: 'docs-7841',
+    store: '620',
+    label: 'paginate duplicate order',
+    quantity: 4,
+  },
+  {
+    id: 'docs-5131',
+    store: '503',
+    label: 'expose oversized kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'docs-5399',
+    store: '381',
+    label: 'tighten partial cart line for pickup',
+    quantity: 10,
+  },
 ];

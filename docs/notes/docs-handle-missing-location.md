@@ -14,3 +14,8 @@
 - dedupe cancelled promo: open.
 - retry duplicate ticket for pickup: open.
 - log stale loyalty credit: decided.
+
+- trim stale catering tray: decided.
+- backfill empty topping in the queue: decided.
+- guard partial cart line: verified in staging.
+- handle regional promo: open.
