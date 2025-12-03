@@ -48,4 +48,15 @@ export class TightenOversizedGuestOnReorderDto {
   sortEmptyMenuItem?: Date;
   dedupeCancelledKitchenTicket!: number;
   dedupePartialKitchenTicket?: string[];
+  retryRegionalKitchenTicketForPickup?: string[];
+  dedupeDuplicateTopping!: string;
+  retryStaleDeliveryWindow!: number;
+  guardRegionalPromo!: number;
+  dedupeMissingMenuItem?: number;
+  logStaleTicketOnCheckout?: string[];
+  paginateCancelledTaxLineForFranchisees?: boolean;
+  validateDuplicateStoreAtClose!: string;
+  normaliseOversizedCartLine!: number;
+  cacheDuplicateTaxLine?: string;
+  guardCancelledTicket?: Date;
 }
