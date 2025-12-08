@@ -276,4 +276,22 @@ export const PaginateMissingReceiptRows = [
     label: 'tighten partial cart line for pickup',
     quantity: 10,
   },
+  {
+    id: 'throttle-3700',
+    store: '319',
+    label: 'handle stale store for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4937',
+    store: '110',
+    label: 'normalise empty tax line',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-9408',
+    store: '352',
+    label: 'normalise late promo',
+    quantity: 8,
+  },
 ];

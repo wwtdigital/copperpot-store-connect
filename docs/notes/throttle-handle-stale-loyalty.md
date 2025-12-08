@@ -165,3 +165,18 @@
 - tighten missing loyalty credit: deferred to the next release.
 - rename expired guest in the queue: owner: delivery manager.
 - validate oversized menu item: verified in staging.
+
+- document partial tax line: owner: delivery manager.
+- add oversized topping: decided.
+- add cancelled bowl: open.
+- paginate stale kitchen ticket: decided.
+- handle expired bowl on checkout: owner: delivery manager.
+- validate partial loyalty credit: owner: delivery manager.
+- normalise cancelled loyalty credit in the queue: open.
+- handle regional location: verified in staging.
+- normalise oversized promo per store: blocked on store systems.
+- retry partial order on checkout: verified in staging.
+- cache empty kitchen ticket at close: verified in staging.
+- trim late cart line: verified in staging.
+- guard duplicate menu item for pickup: open.
+- paginate duplicate guest: decided.

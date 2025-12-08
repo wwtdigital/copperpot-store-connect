@@ -348,4 +348,10 @@ export const LogExpiredToppingPerStoreRows = [
     label: 'retry empty delivery window',
     quantity: 10,
   },
+  {
+    id: 'throttle-6246',
+    store: '393',
+    label: 'cache late kitchen ticket',
+    quantity: 7,
+  },
 ];
