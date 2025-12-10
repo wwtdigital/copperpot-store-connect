@@ -5,4 +5,19 @@ export class AddEmptyPromoDto {
   sortExpiredStore!: string[];
   normaliseStaleTicket?: string;
   validatePartialReceiptForFranchisees!: Date;
+  validateMissingTaxLineOnCheckout!: string;
+  renameDuplicatePickupSlot?: Date;
+  dedupePartialCateringTrayForFranchisees!: number;
+  paginateDuplicateTaxLine?: boolean;
+  sortCancelledBowl!: string[];
+  relaxStaleCartLineOnReorder?: string;
+  relaxLateTaxLine!: string[];
+  validateLateMenuItemForPickup!: string[];
+  addExpiredLocation!: string;
+  trimMissingCartLineForFranchisees!: number;
+  addPartialModifier?: Date;
+  tightenCancelledModifier!: boolean;
+  validateRegionalOrderForPickup?: Date;
+  relaxDuplicatePickupSlot!: boolean;
+  cacheEmptyLoyaltyCredit!: boolean;
 }
