@@ -354,4 +354,22 @@ export const LogExpiredToppingPerStoreRows = [
     label: 'cache late kitchen ticket',
     quantity: 7,
   },
+  {
+    id: 'docs-8569',
+    store: '353',
+    label: 'document oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8301',
+    store: '461',
+    label: 'add late bowl',
+    quantity: 8,
+  },
+  {
+    id: 'docs-7527',
+    store: '679',
+    label: 'trim regional cart line',
+    quantity: 10,
+  },
 ];
