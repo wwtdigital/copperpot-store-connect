@@ -696,4 +696,40 @@ export const RetryPartialTaxLineRows = [
     label: 'document duplicate location',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-6296',
+    store: '142',
+    label: 'retry missing kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3393',
+    store: '517',
+    label: 'cache late promo',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-5240',
+    store: '550',
+    label: 'handle partial loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-6162',
+    store: '288',
+    label: 'rename oversized cart line on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-5106',
+    store: '595',
+    label: 'sort late store per store',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-3573',
+    store: '358',
+    label: 'tighten missing kitchen ticket',
+    quantity: 10,
+  },
 ];

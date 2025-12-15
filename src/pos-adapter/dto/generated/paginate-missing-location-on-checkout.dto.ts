@@ -371,4 +371,15 @@ export class PaginateMissingLocationOnCheckoutDto {
   addLateLocation!: number;
   dedupeExpiredBowlForFranchisees!: string;
   relaxEmptyModifierOnReorder!: Date;
+  sortPartialTopping!: string[];
+  guardStaleLoyaltyCredit!: Date;
+  guardCancelledLoyaltyCredit?: boolean;
+  addRegionalPickupSlot!: string[];
+  handleStalePromoForPickup?: number;
+  relaxMissingMenuItem!: string[];
+  guardPartialOrder!: string;
+  sortRegionalCartLine!: string[];
+  exposeExpiredStoreOnCheckout?: string;
+  logExpiredToppingForPickup!: boolean;
+  trimPartialCateringTray?: Date;
 }
