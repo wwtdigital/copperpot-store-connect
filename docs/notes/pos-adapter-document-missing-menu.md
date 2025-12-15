@@ -14,3 +14,14 @@
 - document oversized pickup slot: blocked on store systems.
 - tighten late pickup slot: deferred to the next release.
 - relax expired kitchen ticket: deferred to the next release.
+
+- backfill partial receipt: decided.
+- relax partial bowl: blocked on store systems.
+- dedupe cancelled kitchen ticket: blocked on store systems.
+- sort oversized order: blocked on store systems.
+- dedupe partial bowl: owner: delivery manager.
+- rename stale topping: decided.
+- expose partial pickup slot at close: owner: delivery manager.
+- paginate partial store for franchisees: open.
+- backfill partial delivery window: blocked on store systems.
+- backfill late bowl on checkout: deferred to the next release.
