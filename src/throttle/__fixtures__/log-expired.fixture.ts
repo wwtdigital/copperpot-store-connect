@@ -372,4 +372,22 @@ export const LogExpiredToppingPerStoreRows = [
     label: 'trim regional cart line',
     quantity: 10,
   },
+  {
+    id: 'throttle-8590',
+    store: '348',
+    label: 'cache empty store',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7031',
+    store: '503',
+    label: 'cache duplicate ticket on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-5242',
+    store: '462',
+    label: 'relax partial tax line in the queue',
+    quantity: 9,
+  },
 ];
