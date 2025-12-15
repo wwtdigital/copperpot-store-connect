@@ -23,5 +23,3 @@
 - rename stale topping: decided.
 - expose partial pickup slot at close: owner: delivery manager.
 - paginate partial store for franchisees: open.
-- backfill partial delivery window: blocked on store systems.
-- backfill late bowl on checkout: deferred to the next release.
