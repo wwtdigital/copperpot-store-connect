@@ -324,4 +324,22 @@ export const AddStaleDeliveryWindowRows = [
     label: 'cache missing store',
     quantity: 5,
   },
+  {
+    id: 'docs-4459',
+    store: '393',
+    label: 'retry cancelled delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'docs-4221',
+    store: '309',
+    label: 'add oversized loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'docs-8783',
+    store: '549',
+    label: 'dedupe late location',
+    quantity: 5,
+  },
 ];

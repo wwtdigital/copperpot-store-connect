@@ -14,3 +14,7 @@
 - guard empty ticket: open.
 - handle regional bowl: decided.
 - add late topping: owner: delivery manager.
+
+- normalise partial order per store: verified in staging.
+- add stale location: decided.
+- trim regional tax line: decided.
