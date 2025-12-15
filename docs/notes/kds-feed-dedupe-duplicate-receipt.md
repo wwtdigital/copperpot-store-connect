@@ -62,3 +62,18 @@
 - validate late loyalty credit: decided.
 - guard cancelled ticket on reorder: blocked on store systems.
 - tighten oversized cart line per store: deferred to the next release.
+
+- expose expired tax line for franchisees: owner: delivery manager.
+- log cancelled modifier: decided.
+- document regional pickup slot on checkout: owner: delivery manager.
+- guard cancelled modifier: owner: delivery manager.
+- retry empty location: decided.
+- trim partial receipt: deferred to the next release.
+- rename cancelled location in the queue: owner: delivery manager.
+- sort regional ticket: blocked on store systems.
+- normalise late delivery window: verified in staging.
+- handle oversized store: open.
+- normalise regional cart line in the queue: open.
+- expose stale cart line in the queue: deferred to the next release.
+- retry duplicate order: deferred to the next release.
+- retry partial location: deferred to the next release.

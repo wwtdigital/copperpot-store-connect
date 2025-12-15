@@ -80,4 +80,23 @@ export class TightenOversizedGuestOnReorderDto {
   handleLateCateringTray?: string;
   retryDuplicateCartLine!: Date;
   exposePartialBowl!: number;
+  cacheLateTicketAtClose?: boolean;
+  renameMissingKitchenTicketOnCheckout!: string;
+  relaxOversizedOrder!: string[];
+  dedupeCancelledGuest?: boolean;
+  backfillCancelledTicket!: boolean;
+  trimStalePromoOnReorder!: string;
+  dedupeRegionalTicketOnReorder!: string[];
+  retryCancelledLocationOnReorder!: string[];
+  retryEmptyModifier!: string;
+  logMissingTopping?: string;
+  handleLateBowlForFranchisees!: Date;
+  normaliseMissingGuestOnReorder!: boolean;
+  tightenDuplicatePickupSlot!: string[];
+  renameEmptyLoyaltyCredit!: string;
+  trimPartialLoyaltyCredit!: number;
+  addStaleReceipt?: boolean;
+  sortEmptyGuest?: string;
+  cachePartialCartLine!: Date;
+  logEmptyTicket!: Date;
 }
