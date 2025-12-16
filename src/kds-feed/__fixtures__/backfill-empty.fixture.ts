@@ -18,4 +18,22 @@ export const BackfillEmptyCateringTrayRows = [
     label: 'handle cancelled cart line',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-9497',
+    store: '619',
+    label: 'validate cancelled store on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-2460',
+    store: '146',
+    label: 'document oversized store on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-1500',
+    store: '338',
+    label: 'add empty pickup slot for pickup',
+    quantity: 11,
+  },
 ];

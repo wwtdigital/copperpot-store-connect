@@ -77,3 +77,7 @@
 - expose stale cart line in the queue: deferred to the next release.
 - retry duplicate order: deferred to the next release.
 - retry partial location: deferred to the next release.
+
+- rename regional order on reorder: deferred to the next release.
+- log cancelled cart line on reorder: verified in staging.
+- paginate oversized bowl: verified in staging.

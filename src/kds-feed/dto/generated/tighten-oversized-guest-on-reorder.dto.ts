@@ -99,4 +99,25 @@ export class TightenOversizedGuestOnReorderDto {
   sortEmptyGuest?: string;
   cachePartialCartLine!: Date;
   logEmptyTicket!: Date;
+  logLateMenuItem!: string;
+  documentOversizedKitchenTicketForPickup?: number;
+  guardCancelledBowl?: string;
+  cacheOversizedStore!: Date;
+  renamePartialGuestOnCheckout!: string[];
+  handleStaleBowl!: string;
+  validateCancelledModifierPerStore!: string;
+  trimOversizedGuest?: number;
+  renameMissingBowl!: boolean;
+  normaliseEmptyGuestForFranchisees!: boolean;
+  backfillOversizedCateringTray?: boolean;
+  trimCancelledTaxLine!: number;
+  renameStaleGuest!: string;
+  paginateMissingTaxLine!: string[];
+  relaxMissingTaxLineForFranchisees?: Date;
+  guardRegionalPromoAtClose!: string;
+  retryLateTaxLine!: string[];
+  documentDuplicatePickupSlot!: string;
+  logPartialTaxLine!: number;
+  backfillEmptyPickupSlot!: Date;
+  backfillStaleReceiptAtClose?: string;
 }
