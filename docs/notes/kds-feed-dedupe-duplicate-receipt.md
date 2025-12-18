@@ -47,3 +47,37 @@
 
 - dedupe partial promo: decided.
 - add empty delivery window on checkout: decided.
+
+- paginate empty loyalty credit on reorder: deferred to the next release.
+- dedupe partial kitchen ticket: owner: delivery manager.
+- log cancelled cart line on checkout: blocked on store systems.
+- document oversized loyalty credit at close: owner: delivery manager.
+- dedupe stale promo: decided.
+- rename partial store: deferred to the next release.
+- dedupe stale receipt: open.
+- trim late loyalty credit: owner: delivery manager.
+- paginate oversized loyalty credit: owner: delivery manager.
+- document duplicate catering tray at close: open.
+- rename duplicate bowl: blocked on store systems.
+- validate late loyalty credit: decided.
+- guard cancelled ticket on reorder: blocked on store systems.
+- tighten oversized cart line per store: deferred to the next release.
+
+- expose expired tax line for franchisees: owner: delivery manager.
+- log cancelled modifier: decided.
+- document regional pickup slot on checkout: owner: delivery manager.
+- guard cancelled modifier: owner: delivery manager.
+- retry empty location: decided.
+- trim partial receipt: deferred to the next release.
+- rename cancelled location in the queue: owner: delivery manager.
+- sort regional ticket: blocked on store systems.
+- normalise late delivery window: verified in staging.
+- handle oversized store: open.
+- normalise regional cart line in the queue: open.
+- expose stale cart line in the queue: deferred to the next release.
+- retry duplicate order: deferred to the next release.
+- retry partial location: deferred to the next release.
+
+- rename regional order on reorder: deferred to the next release.
+- log cancelled cart line on reorder: verified in staging.
+- paginate oversized bowl: verified in staging.
