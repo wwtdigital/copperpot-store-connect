@@ -156,4 +156,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'dedupe missing loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-7580',
+    store: '319',
+    label: 'tighten regional kitchen ticket on checkout',
+    quantity: 5,
+  },
 ];

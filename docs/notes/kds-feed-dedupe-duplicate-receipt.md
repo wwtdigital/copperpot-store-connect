@@ -47,3 +47,18 @@
 
 - dedupe partial promo: decided.
 - add empty delivery window on checkout: decided.
+
+- paginate empty loyalty credit on reorder: deferred to the next release.
+- dedupe partial kitchen ticket: owner: delivery manager.
+- log cancelled cart line on checkout: blocked on store systems.
+- document oversized loyalty credit at close: owner: delivery manager.
+- dedupe stale promo: decided.
+- rename partial store: deferred to the next release.
+- dedupe stale receipt: open.
+- trim late loyalty credit: owner: delivery manager.
+- paginate oversized loyalty credit: owner: delivery manager.
+- document duplicate catering tray at close: open.
+- rename duplicate bowl: blocked on store systems.
+- validate late loyalty credit: decided.
+- guard cancelled ticket on reorder: blocked on store systems.
+- tighten oversized cart line per store: deferred to the next release.

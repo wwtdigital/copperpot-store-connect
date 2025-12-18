@@ -59,4 +59,25 @@ export class TightenOversizedGuestOnReorderDto {
   normaliseOversizedCartLine!: number;
   cacheDuplicateTaxLine?: string;
   guardCancelledTicket?: Date;
+  exposeRegionalStore!: boolean;
+  logDuplicateCartLineInTheQueue!: string[];
+  documentDuplicatePromo?: number;
+  paginateExpiredCartLine?: Date;
+  guardCancelledCartLine?: string[];
+  backfillCancelledPromo!: boolean;
+  handleStalePromo?: string[];
+  normaliseRegionalCartLine?: boolean;
+  documentRegionalKitchenTicketOnCheckout!: boolean;
+  cacheDuplicatePromo!: number;
+  backfillStaleMenuItemAtClose!: boolean;
+  normaliseDuplicateKitchenTicket!: boolean;
+  handleMissingKitchenTicket?: Date;
+  tightenOversizedCartLinePerStore!: boolean;
+  normaliseLateStoreForPickup!: Date;
+  documentCancelledToppingOnCheckout!: number;
+  addPartialPromo?: string[];
+  backfillExpiredBowlForFranchisees?: boolean;
+  handleLateCateringTray?: string;
+  retryDuplicateCartLine!: Date;
+  exposePartialBowl!: number;
 }
