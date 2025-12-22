@@ -228,4 +228,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'guard duplicate ticket for pickup',
     quantity: 2,
   },
+  {
+    id: 'infra-8679',
+    store: '421',
+    label: 'paginate cancelled cart line',
+    quantity: 3,
+  },
 ];

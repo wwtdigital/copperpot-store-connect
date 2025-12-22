@@ -366,4 +366,22 @@ export const AddStaleDeliveryWindowRows = [
     label: 'backfill missing modifier per store',
     quantity: 1,
   },
+  {
+    id: 'infra-3424',
+    store: '665',
+    label: 'relax cancelled cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'infra-3892',
+    store: '432',
+    label: 'handle regional menu item',
+    quantity: 11,
+  },
+  {
+    id: 'infra-3906',
+    store: '377',
+    label: 'handle duplicate catering tray',
+    quantity: 12,
+  },
 ];
