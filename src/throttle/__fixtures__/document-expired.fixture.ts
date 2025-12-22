@@ -66,4 +66,16 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'retry empty tax line',
     quantity: 7,
   },
+  {
+    id: 'throttle-7793',
+    store: '685',
+    label: 'log regional menu item',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-2396',
+    store: '369',
+    label: 'normalise partial order for pickup',
+    quantity: 6,
+  },
 ];
