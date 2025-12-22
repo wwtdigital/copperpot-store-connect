@@ -19,3 +19,7 @@
 - backfill empty topping in the queue: decided.
 - guard partial cart line: verified in staging.
 - handle regional promo: open.
+
+- sort partial menu item: decided.
+- handle empty bowl for pickup: deferred to the next release.
+- normalise cancelled order in the queue: decided.

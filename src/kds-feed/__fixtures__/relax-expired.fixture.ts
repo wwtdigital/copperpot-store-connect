@@ -162,4 +162,52 @@ export const RelaxExpiredCartLineRows = [
     label: 'tighten regional kitchen ticket on checkout',
     quantity: 5,
   },
+  {
+    id: 'docs-7972',
+    store: '518',
+    label: 'cache oversized catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'docs-3236',
+    store: '441',
+    label: 'trim missing topping',
+    quantity: 3,
+  },
+  {
+    id: 'docs-3396',
+    store: '101',
+    label: 'document cancelled store',
+    quantity: 1,
+  },
+  {
+    id: 'docs-9901',
+    store: '666',
+    label: 'expose regional modifier',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6302',
+    store: '517',
+    label: 'cache cancelled promo',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5887',
+    store: '178',
+    label: 'normalise empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'docs-8046',
+    store: '208',
+    label: 'guard missing store',
+    quantity: 5,
+  },
+  {
+    id: 'docs-8887',
+    store: '604',
+    label: 'add partial bowl',
+    quantity: 9,
+  },
 ];

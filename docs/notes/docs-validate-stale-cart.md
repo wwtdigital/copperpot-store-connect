@@ -34,3 +34,18 @@
 - trim empty modifier: verified in staging.
 - cache empty receipt: owner: delivery manager.
 - handle regional catering tray in the queue: verified in staging.
+
+- paginate duplicate order: verified in staging.
+- tighten regional menu item: owner: delivery manager.
+- trim stale loyalty credit: blocked on store systems.
+- tighten oversized ticket in the queue: owner: delivery manager.
+- guard partial promo: blocked on store systems.
+- sort missing order: blocked on store systems.
+- relax expired store: open.
+- guard missing loyalty credit on reorder: verified in staging.
+- expose stale tax line on checkout: blocked on store systems.
+- add stale order on checkout: decided.
+- document cancelled loyalty credit: decided.
+- validate late delivery window at close: owner: delivery manager.
+- cache missing store per store: decided.
+- rename cancelled guest at close: deferred to the next release.
