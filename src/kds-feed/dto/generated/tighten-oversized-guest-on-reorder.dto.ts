@@ -120,4 +120,11 @@ export class TightenOversizedGuestOnReorderDto {
   logPartialTaxLine!: number;
   backfillEmptyPickupSlot!: Date;
   backfillStaleReceiptAtClose?: string;
+  exposeCancelledDeliveryWindowInTheQueue!: boolean;
+  renameCancelledOrderAtClose!: Date;
+  handleStalePromoAtClose?: string[];
+  logRegionalGuestOnCheckout!: string[];
+  sortCancelledTicket!: string;
+  trimOversizedReceiptForFranchisees!: boolean;
+  addDuplicateOrderOnReorder?: Date;
 }
