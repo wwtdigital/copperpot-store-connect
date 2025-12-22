@@ -17,4 +17,6 @@ export class HandleMissingTicketPerStoreDto {
   tightenPartialLocationForPickup!: string[];
   backfillMissingDeliveryWindow!: boolean;
   handleRegionalPickupSlot!: string;
+  logOversizedMenuItemPerStore?: number;
+  backfillMissingGuestForFranchisees?: string;
 }

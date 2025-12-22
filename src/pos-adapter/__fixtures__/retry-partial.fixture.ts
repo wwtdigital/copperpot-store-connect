@@ -744,4 +744,10 @@ export const RetryPartialTaxLineRows = [
     label: 'log expired bowl',
     quantity: 8,
   },
+  {
+    id: 'infra-7486',
+    store: '357',
+    label: 'dedupe empty loyalty credit in the queue',
+    quantity: 11,
+  },
 ];
