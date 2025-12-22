@@ -342,4 +342,28 @@ export const AddStaleDeliveryWindowRows = [
     label: 'dedupe late location',
     quantity: 5,
   },
+  {
+    id: 'docs-3381',
+    store: '221',
+    label: 'retry expired tax line',
+    quantity: 12,
+  },
+  {
+    id: 'docs-9748',
+    store: '475',
+    label: 'normalise cancelled catering tray per store',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5641',
+    store: '213',
+    label: 'add empty topping',
+    quantity: 7,
+  },
+  {
+    id: 'docs-4551',
+    store: '282',
+    label: 'backfill missing modifier per store',
+    quantity: 1,
+  },
 ];
