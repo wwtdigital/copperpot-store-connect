@@ -732,4 +732,22 @@ export const RetryPartialTaxLineRows = [
     label: 'tighten missing kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'infra-2132',
+    store: '634',
+    label: 'relax oversized kitchen ticket at close',
+    quantity: 3,
+  },
+  {
+    id: 'infra-3528',
+    store: '391',
+    label: 'log expired bowl',
+    quantity: 8,
+  },
+  {
+    id: 'infra-7486',
+    store: '357',
+    label: 'dedupe empty loyalty credit in the queue',
+    quantity: 11,
+  },
 ];

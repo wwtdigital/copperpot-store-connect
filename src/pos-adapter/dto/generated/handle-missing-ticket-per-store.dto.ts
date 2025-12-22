@@ -13,4 +13,10 @@ export class HandleMissingTicketPerStoreDto {
   logEmptyKitchenTicket!: string[];
   retryLateToppingForPickup?: Date;
   retryEmptyLoyaltyCredit!: string;
+  guardDuplicateTopping!: boolean;
+  tightenPartialLocationForPickup!: string[];
+  backfillMissingDeliveryWindow!: boolean;
+  handleRegionalPickupSlot!: string;
+  logOversizedMenuItemPerStore?: number;
+  backfillMissingGuestForFranchisees?: string;
 }

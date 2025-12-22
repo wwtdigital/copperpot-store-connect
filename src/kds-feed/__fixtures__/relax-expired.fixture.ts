@@ -210,4 +210,28 @@ export const RelaxExpiredCartLineRows = [
     label: 'add partial bowl',
     quantity: 9,
   },
+  {
+    id: 'infra-6412',
+    store: '420',
+    label: 'tighten partial ticket',
+    quantity: 5,
+  },
+  {
+    id: 'infra-9260',
+    store: '334',
+    label: 'backfill expired menu item in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'infra-6330',
+    store: '527',
+    label: 'guard duplicate ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'infra-8679',
+    store: '421',
+    label: 'paginate cancelled cart line',
+    quantity: 3,
+  },
 ];
