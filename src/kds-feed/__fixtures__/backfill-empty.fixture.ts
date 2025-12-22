@@ -84,4 +84,10 @@ export const BackfillEmptyCateringTrayRows = [
     label: 'expose missing ticket',
     quantity: 12,
   },
+  {
+    id: 'docs-3490',
+    store: '609',
+    label: 'dedupe late location per store',
+    quantity: 8,
+  },
 ];
