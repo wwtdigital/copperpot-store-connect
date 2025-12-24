@@ -234,4 +234,22 @@ export const RelaxExpiredCartLineRows = [
     label: 'paginate cancelled cart line',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-8910',
+    store: '472',
+    label: 'expose missing location',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-4359',
+    store: '409',
+    label: 'validate late menu item in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-6229',
+    store: '461',
+    label: 'sort empty promo in the queue',
+    quantity: 10,
+  },
 ];
