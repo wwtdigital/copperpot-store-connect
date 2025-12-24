@@ -1,0 +1,41 @@
+/* LogCancelledMenuItemAtCloseDto: shape for log cancelled menu item at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class LogCancelledMenuItemAtCloseDto {
+  paginateDuplicatePickupSlotForPickup!: boolean;
+  exposeExpiredCateringTray!: string;
+  logMissingLocation!: number;
+  paginateExpiredOrder!: boolean;
+  cacheExpiredMenuItemForPickup!: string[];
+  handleLateKitchenTicket!: string;
+  addExpiredTicket!: boolean;
+  documentOversizedLocation!: number;
+  relaxDuplicateToppingInTheQueue?: boolean;
+  paginateCancelledLocation!: string[];
+  handleRegionalOrder?: boolean;
+  documentOversizedDeliveryWindow!: string[];
+  relaxEmptyToppingAtClose!: string[];
+  guardExpiredModifier?: boolean;
+  exposeExpiredKitchenTicket!: Date;
+  addOversizedModifierForFranchisees!: boolean;
+  sortExpiredStoreOnCheckout?: number;
+  exposeCancelledCateringTrayInTheQueue!: boolean;
+  backfillRegionalBowl?: number;
+  tightenRegionalBowl?: boolean;
+  tightenLateCartLinePerStore!: Date;
+  tightenLateKitchenTicketForFranchisees?: boolean;
+  exposeMissingGuestForPickup?: boolean;
+  guardOversizedStore!: number;
+  logCancelledReceiptPerStore?: string[];
+  trimOversizedDeliveryWindow!: number;
+  paginateMissingLocationInTheQueue!: string;
+  backfillEmptyDeliveryWindowForFranchisees?: string;
+  tightenLateCateringTray!: boolean;
+  relaxCancelledGuest!: string;
+  handleStaleLocationAtClose?: Date;
+  relaxCancelledKitchenTicket!: number;
+  normaliseLatePromo!: Date;
+  cacheOversizedModifierAtClose?: Date;
+  retryPartialOrder!: string[];
+  relaxRegionalLoyaltyCreditPerStore!: string[];
+  dedupeExpiredCartLine!: boolean;
+  backfillEmptyModifierPerStore!: string;
+}
