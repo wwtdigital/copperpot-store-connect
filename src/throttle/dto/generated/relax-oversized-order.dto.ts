@@ -58,4 +58,11 @@ export class RelaxOversizedOrderDto {
   documentMissingTaxLineOnReorder!: number;
   cacheEmptyPromo!: boolean;
   dedupePartialLocation?: string;
+  guardMissingLocation!: string;
+  handleRegionalPromo!: string;
+  normaliseDuplicateCartLineForFranchisees?: Date;
+  logDuplicateModifierPerStore!: string[];
+  logLateTopping!: Date;
+  handleCancelledTicketOnReorder?: string;
+  sortEmptyCartLine!: Date;
 }
