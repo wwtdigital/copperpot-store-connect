@@ -84,4 +84,34 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'sort late menu item in the queue',
     quantity: 6,
   },
+  {
+    id: 'throttle-6901',
+    store: '199',
+    label: 'document cancelled promo at close',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-5571',
+    store: '596',
+    label: 'add duplicate promo',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-6188',
+    store: '517',
+    label: 'paginate stale loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-6898',
+    store: '407',
+    label: 'trim empty topping on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-2569',
+    store: '492',
+    label: 'document missing loyalty credit',
+    quantity: 1,
+  },
 ];
