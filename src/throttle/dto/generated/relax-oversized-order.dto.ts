@@ -63,4 +63,6 @@ export class RelaxOversizedOrderDto {
   normaliseDuplicateCartLineForFranchisees?: Date;
   logDuplicateModifierPerStore!: string[];
   logLateTopping!: Date;
+  handleCancelledTicketOnReorder?: string;
+  sortEmptyCartLine!: Date;
 }
