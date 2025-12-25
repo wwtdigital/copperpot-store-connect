@@ -78,4 +78,10 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'normalise partial order for pickup',
     quantity: 6,
   },
+  {
+    id: 'throttle-1242',
+    store: '156',
+    label: 'sort late menu item in the queue',
+    quantity: 6,
+  },
 ];
