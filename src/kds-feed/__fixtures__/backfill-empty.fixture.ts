@@ -336,4 +336,22 @@ export const BackfillEmptyCateringTrayRows = [
     label: 'paginate oversized menu item on reorder',
     quantity: 9,
   },
+  {
+    id: 'docs-9704',
+    store: '604',
+    label: 'validate stale bowl',
+    quantity: 9,
+  },
+  {
+    id: 'docs-6821',
+    store: '100',
+    label: 'retry cancelled topping on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'docs-8984',
+    store: '411',
+    label: 'tighten stale order',
+    quantity: 9,
+  },
 ];

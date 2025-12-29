@@ -18,3 +18,33 @@
 - normalise partial order per store: verified in staging.
 - add stale location: decided.
 - trim regional tax line: decided.
+
+- validate oversized delivery window: owner: delivery manager.
+- guard duplicate modifier: verified in staging.
+- expose regional pickup slot per store: blocked on store systems.
+- guard late topping for pickup: decided.
+- trim expired pickup slot for pickup: decided.
+- relax regional location: open.
+- log empty cart line per store: blocked on store systems.
+- rename expired guest: open.
+- retry stale kitchen ticket: verified in staging.
+- log empty kitchen ticket: blocked on store systems.
+- sort cancelled promo: deferred to the next release.
+- rename empty pickup slot: open.
+- retry regional tax line: verified in staging.
+- guard partial tax line: owner: delivery manager.
+
+- guard regional modifier: open.
+- dedupe regional loyalty credit for franchisees: blocked on store systems.
+- sort partial kitchen ticket: decided.
+- paginate stale kitchen ticket for pickup: decided.
+- sort stale catering tray: owner: delivery manager.
+- add empty kitchen ticket: deferred to the next release.
+- validate partial order: owner: delivery manager.
+- expose partial bowl: decided.
+- dedupe duplicate ticket: owner: delivery manager.
+- sort duplicate menu item: decided.
+- retry missing bowl: owner: delivery manager.
+- relax missing bowl: deferred to the next release.
+- handle stale kitchen ticket: blocked on store systems.
+- dedupe stale loyalty credit: open.
