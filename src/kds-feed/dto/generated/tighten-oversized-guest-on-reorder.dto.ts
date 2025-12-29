@@ -127,4 +127,28 @@ export class TightenOversizedGuestOnReorderDto {
   sortCancelledTicket!: string;
   trimOversizedReceiptForFranchisees!: boolean;
   addDuplicateOrderOnReorder?: Date;
+  exposeDuplicateCateringTray?: string[];
+  backfillStaleMenuItem!: string[];
+  handleDuplicateBowl?: boolean;
+  relaxDuplicateLoyaltyCreditInTheQueue!: string;
+  normaliseCancelledToppingForPickup!: boolean;
+  sortCancelledModifier?: string;
+  cacheLateOrder!: boolean;
+  guardRegionalStore!: number;
+  exposeStaleDeliveryWindow!: string;
+  normaliseOversizedCateringTray?: string;
+  backfillStaleTicketAtClose!: string[];
+  cacheRegionalLoyaltyCredit!: number;
+  relaxDuplicateTicketInTheQueue!: number;
+  exposeRegionalGuest?: string;
+  sortDuplicatePickupSlot?: number;
+  paginateOversizedCateringTrayOnReorder?: string;
+  guardRegionalBowlOnCheckout!: string[];
+  paginateCancelledPromo!: number;
+  renameRegionalPromoForPickup?: string[];
+  exposeEmptyStoreInTheQueue!: string;
+  guardStaleMenuItem?: Date;
+  sortLateDeliveryWindowPerStore!: boolean;
+  relaxMissingLoyaltyCredit?: string;
+  retryStaleKitchenTicket!: string;
 }

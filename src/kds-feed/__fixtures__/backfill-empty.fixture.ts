@@ -354,4 +354,34 @@ export const BackfillEmptyCateringTrayRows = [
     label: 'tighten stale order',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-3493',
+    store: '641',
+    label: 'relax partial cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-4488',
+    store: '662',
+    label: 'retry partial pickup slot in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-7336',
+    store: '415',
+    label: 'dedupe partial promo',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5464',
+    store: '357',
+    label: 'validate missing ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-8950',
+    store: '594',
+    label: 'add stale store',
+    quantity: 11,
+  },
 ];
