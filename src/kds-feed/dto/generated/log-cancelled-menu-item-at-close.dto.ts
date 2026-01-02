@@ -38,4 +38,20 @@ export class LogCancelledMenuItemAtCloseDto {
   relaxRegionalLoyaltyCreditPerStore!: string[];
   dedupeExpiredCartLine!: boolean;
   backfillEmptyModifierPerStore!: string;
+  dedupeExpiredCateringTrayForPickup!: boolean;
+  backfillMissingTaxLine!: Date;
+  documentRegionalStoreForFranchisees?: number;
+  handleExpiredGuest!: Date;
+  normaliseDuplicateDeliveryWindow!: string;
+  relaxMissingPromo!: string;
+  renameDuplicateLoyaltyCredit!: boolean;
+  sortOversizedCateringTrayForPickup!: string;
+  guardExpiredDeliveryWindow?: number;
+  relaxLateLocation!: string;
+  logDuplicateMenuItem!: number;
+  normaliseLateOrderForFranchisees?: Date;
+  normaliseExpiredBowlAtClose!: boolean;
+  cacheExpiredPromo!: number;
+  handleOversizedStore?: boolean;
+  relaxLateCartLine?: boolean;
 }

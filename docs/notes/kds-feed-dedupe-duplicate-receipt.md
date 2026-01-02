@@ -83,18 +83,3 @@
 - paginate oversized bowl: verified in staging.
 
 - handle late kitchen ticket for pickup: verified in staging.
-- normalise empty modifier at close: blocked on store systems.
-- document regional kitchen ticket: deferred to the next release.
-- tighten oversized receipt: blocked on store systems.
-- normalise partial order: owner: delivery manager.
-- expose expired location: deferred to the next release.
-- guard oversized pickup slot: owner: delivery manager.
-- validate empty promo for franchisees: owner: delivery manager.
-- dedupe partial cart line for pickup: decided.
-- document regional ticket for franchisees: blocked on store systems.
-- tighten regional ticket on reorder: blocked on store systems.
-- add partial guest: decided.
-- document missing modifier on reorder: owner: delivery manager.
-- guard duplicate ticket for pickup: deferred to the next release.
-
-- tighten regional location at close: verified in staging.
