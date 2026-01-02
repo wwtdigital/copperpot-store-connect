@@ -81,3 +81,5 @@
 - rename regional order on reorder: deferred to the next release.
 - log cancelled cart line on reorder: verified in staging.
 - paginate oversized bowl: verified in staging.
+
+- handle late kitchen ticket for pickup: verified in staging.
