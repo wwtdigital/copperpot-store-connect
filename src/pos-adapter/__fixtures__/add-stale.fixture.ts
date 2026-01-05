@@ -384,4 +384,10 @@ export const AddStaleDeliveryWindowRows = [
     label: 'handle duplicate catering tray',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-4613',
+    store: '135',
+    label: 'cache cancelled cart line in the queue',
+    quantity: 10,
+  },
 ];
