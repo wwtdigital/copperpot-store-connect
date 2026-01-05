@@ -23,3 +23,18 @@
 - rename stale topping: decided.
 - expose partial pickup slot at close: owner: delivery manager.
 - paginate partial store for franchisees: open.
+
+- handle oversized location: verified in staging.
+- backfill partial cart line per store: decided.
+- handle empty ticket on reorder: owner: delivery manager.
+- backfill partial pickup slot: open.
+- retry missing menu item for franchisees: blocked on store systems.
+- expose duplicate kitchen ticket: verified in staging.
+- retry late ticket: verified in staging.
+- retry missing delivery window per store: blocked on store systems.
+- cache partial menu item at close: blocked on store systems.
+- cache duplicate tax line per store: verified in staging.
+- dedupe partial ticket: deferred to the next release.
+- backfill empty receipt at close: verified in staging.
+- relax late receipt: open.
+- sort expired ticket per store: open.
