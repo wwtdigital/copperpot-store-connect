@@ -312,4 +312,28 @@ export const RelaxExpiredCartLineRows = [
     label: 'add regional loyalty credit',
     quantity: 11,
   },
+  {
+    id: 'docs-2321',
+    store: '375',
+    label: 'expose duplicate tax line on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-9204',
+    store: '382',
+    label: 'dedupe stale menu item',
+    quantity: 1,
+  },
+  {
+    id: 'docs-8540',
+    store: '101',
+    label: 'handle cancelled kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'docs-9405',
+    store: '632',
+    label: 'dedupe missing loyalty credit for pickup',
+    quantity: 1,
+  },
 ];
