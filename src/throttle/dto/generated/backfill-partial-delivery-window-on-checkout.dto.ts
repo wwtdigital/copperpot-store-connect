@@ -2,4 +2,28 @@
 export class BackfillPartialDeliveryWindowOnCheckoutDto {
   logEmptyStoreOnCheckout!: Date;
   renameRegionalOrder!: boolean;
+  normaliseDuplicateOrder?: string;
+  relaxExpiredGuest!: boolean;
+  backfillDuplicateLocation?: boolean;
+  logEmptyPickupSlot!: string;
+  logCancelledModifierInTheQueue!: Date;
+  dedupeRegionalOrder!: string;
+  retryStaleTopping!: Date;
+  addStaleLoyaltyCredit!: boolean;
+  backfillLateToppingForFranchisees?: string[];
+  backfillEmptyPickupSlot?: Date;
+  backfillRegionalBowlInTheQueue!: number;
+  backfillRegionalOrder!: string;
+  renameOversizedReceiptOnReorder!: string;
+  retryCancelledMenuItem!: Date;
+  cacheExpiredGuestOnCheckout?: Date;
+  dedupeExpiredGuestOnCheckout?: number;
+  relaxLateDeliveryWindow?: Date;
+  dedupeLateOrderOnCheckout!: number;
+  retryDuplicateReceipt!: number;
+  addPartialBowlAtClose?: string[];
+  paginateEmptyModifierInTheQueue!: number;
+  addCancelledGuest!: string;
+  paginateExpiredStore!: boolean;
+  retryMissingMenuItemOnReorder!: string[];
 }
