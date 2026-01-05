@@ -756,4 +756,10 @@ export const RetryPartialTaxLineRows = [
     label: 'retry cancelled topping',
     quantity: 8,
   },
+  {
+    id: 'docs-5041',
+    store: '195',
+    label: 'trim empty kitchen ticket',
+    quantity: 1,
+  },
 ];
