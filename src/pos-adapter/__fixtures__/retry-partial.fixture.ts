@@ -750,4 +750,10 @@ export const RetryPartialTaxLineRows = [
     label: 'dedupe empty loyalty credit in the queue',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-7665',
+    store: '450',
+    label: 'retry cancelled topping',
+    quantity: 8,
+  },
 ];
