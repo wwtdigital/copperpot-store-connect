@@ -38,3 +38,11 @@
 - log expired ticket on reorder: blocked on store systems.
 - handle missing menu item on checkout: owner: delivery manager.
 - relax late receipt: decided.
+
+- relax stale bowl at close: verified in staging.
+- cache expired guest: owner: delivery manager.
+- backfill duplicate kitchen ticket at close: owner: delivery manager.
+- backfill partial topping: owner: delivery manager.
+- retry oversized promo: blocked on store systems.
+- tighten oversized topping on reorder: verified in staging.
+- document empty modifier per store: blocked on store systems.

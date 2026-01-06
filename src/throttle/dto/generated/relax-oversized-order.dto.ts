@@ -65,4 +65,16 @@ export class RelaxOversizedOrderDto {
   logLateTopping!: Date;
   handleCancelledTicketOnReorder?: string;
   sortEmptyCartLine!: Date;
+  trimMissingPickupSlot!: string;
+  documentOversizedCartLineOnReorder!: boolean;
+  retryCancelledTicket?: number;
+  validateExpiredMenuItemForPickup!: Date;
+  logRegionalTopping!: string;
+  cacheRegionalStoreForPickup!: string;
+  relaxEmptyTopping!: Date;
+  guardStaleLocation?: number;
+  sortRegionalLoyaltyCredit?: string;
+  addPartialGuest!: string;
+  tightenCancelledCateringTray!: string[];
+  paginateEmptyTopping!: boolean;
 }

@@ -31,4 +31,9 @@ export class BackfillPartialDeliveryWindowOnCheckoutDto {
   addLateModifier!: Date;
   normaliseDuplicateCateringTray!: boolean;
   retryOversizedGuest!: string;
+  relaxExpiredMenuItem!: number;
+  retryPartialCateringTrayPerStore!: Date;
+  normaliseMissingKitchenTicketInTheQueue?: string[];
+  dedupeStaleOrder!: number;
+  normalisePartialLoyaltyCreditPerStore!: string;
 }
