@@ -23,3 +23,26 @@
 - sort partial menu item: decided.
 - handle empty bowl for pickup: deferred to the next release.
 - normalise cancelled order in the queue: decided.
+
+- guard stale order: blocked on store systems.
+- tighten cancelled delivery window in the queue: blocked on store systems.
+- retry expired receipt for pickup: blocked on store systems.
+- paginate regional cart line for franchisees: deferred to the next release.
+- dedupe missing tax line for pickup: open.
+- backfill cancelled order for pickup: deferred to the next release.
+- normalise duplicate catering tray per store: decided.
+- paginate partial pickup slot: deferred to the next release.
+- log regional tax line: verified in staging.
+- document empty receipt: owner: delivery manager.
+- trim duplicate guest: blocked on store systems.
+- log expired ticket on reorder: blocked on store systems.
+- handle missing menu item on checkout: owner: delivery manager.
+- relax late receipt: decided.
+
+- relax stale bowl at close: verified in staging.
+- cache expired guest: owner: delivery manager.
+- backfill duplicate kitchen ticket at close: owner: delivery manager.
+- backfill partial topping: owner: delivery manager.
+- retry oversized promo: blocked on store systems.
+- tighten oversized topping on reorder: verified in staging.
+- document empty modifier per store: blocked on store systems.

@@ -390,4 +390,10 @@ export const AddStaleDeliveryWindowRows = [
     label: 'cache cancelled cart line in the queue',
     quantity: 10,
   },
+  {
+    id: 'docs-3069',
+    store: '591',
+    label: 'dedupe late modifier at close',
+    quantity: 5,
+  },
 ];

@@ -26,4 +26,14 @@ export class BackfillPartialDeliveryWindowOnCheckoutDto {
   addCancelledGuest!: string;
   paginateExpiredStore!: boolean;
   retryMissingMenuItemOnReorder!: string[];
+  normaliseCancelledCateringTray!: number;
+  documentExpiredTaxLine!: string;
+  addLateModifier!: Date;
+  normaliseDuplicateCateringTray!: boolean;
+  retryOversizedGuest!: string;
+  relaxExpiredMenuItem!: number;
+  retryPartialCateringTrayPerStore!: Date;
+  normaliseMissingKitchenTicketInTheQueue?: string[];
+  dedupeStaleOrder!: number;
+  normalisePartialLoyaltyCreditPerStore!: string;
 }
