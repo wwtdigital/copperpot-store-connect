@@ -114,4 +114,10 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'document missing loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'docs-6126',
+    store: '195',
+    label: 'trim expired menu item',
+    quantity: 11,
+  },
 ];

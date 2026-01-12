@@ -46,3 +46,5 @@
 - retry oversized promo: blocked on store systems.
 - tighten oversized topping on reorder: verified in staging.
 - document empty modifier per store: blocked on store systems.
+
+- document late pickup slot in the queue: deferred to the next release.

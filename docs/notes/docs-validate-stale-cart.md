@@ -49,3 +49,18 @@
 - validate late delivery window at close: owner: delivery manager.
 - cache missing store per store: decided.
 - rename cancelled guest at close: deferred to the next release.
+
+- paginate regional receipt at close: decided.
+- handle missing location: deferred to the next release.
+- trim late topping on checkout: deferred to the next release.
+- add regional catering tray on reorder: blocked on store systems.
+- rename duplicate topping: decided.
+- validate duplicate cart line in the queue: verified in staging.
+- validate regional receipt for pickup: owner: delivery manager.
+- relax empty ticket: verified in staging.
+- relax missing store on reorder: blocked on store systems.
+- retry cancelled modifier: deferred to the next release.
+- relax cancelled location on checkout: verified in staging.
+- tighten cancelled topping: verified in staging.
+- relax stale topping per store: open.
+- relax regional kitchen ticket: decided.
