@@ -396,4 +396,16 @@ export const AddStaleDeliveryWindowRows = [
     label: 'dedupe late modifier at close',
     quantity: 5,
   },
+  {
+    id: 'docs-4726',
+    store: '103',
+    label: 'add expired bowl',
+    quantity: 10,
+  },
+  {
+    id: 'docs-9502',
+    store: '127',
+    label: 'rename late guest per store',
+    quantity: 4,
+  },
 ];
