@@ -762,4 +762,16 @@ export const RetryPartialTaxLineRows = [
     label: 'trim empty kitchen ticket',
     quantity: 1,
   },
+  {
+    id: 'infra-2966',
+    store: '232',
+    label: 'sort empty menu item at close',
+    quantity: 6,
+  },
+  {
+    id: 'infra-3078',
+    store: '374',
+    label: 'trim expired ticket',
+    quantity: 11,
+  },
 ];
