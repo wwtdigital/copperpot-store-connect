@@ -456,4 +456,10 @@ export const BackfillEmptyCateringTrayRows = [
     label: 'validate oversized guest',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-7994',
+    store: '519',
+    label: 'rename duplicate topping',
+    quantity: 11,
+  },
 ];
