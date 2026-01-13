@@ -36,4 +36,18 @@ export class BackfillPartialDeliveryWindowOnCheckoutDto {
   normaliseMissingKitchenTicketInTheQueue?: string[];
   dedupeStaleOrder!: number;
   normalisePartialLoyaltyCreditPerStore!: string;
+  normaliseOversizedBowlForPickup?: number;
+  handleRegionalOrder?: string[];
+  renameCancelledOrder!: boolean;
+  relaxDuplicateTaxLine!: Date;
+  retryStaleTaxLineForPickup?: string;
+  tightenRegionalLocation!: string;
+  backfillRegionalTaxLineForPickup?: string;
+  logEmptyTopping!: Date;
+  trimRegionalLocation!: string[];
+  handleMissingOrderOnReorder!: string;
+  retryStaleMenuItemForFranchisees!: number;
+  addLatePickupSlotInTheQueue!: boolean;
+  addLateCartLine!: boolean;
+  relaxDuplicateOrderOnReorder?: string;
 }

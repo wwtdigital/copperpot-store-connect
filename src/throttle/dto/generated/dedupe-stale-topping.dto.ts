@@ -10,4 +10,11 @@ export class DedupeStaleToppingDto {
   retryDuplicateTopping!: boolean;
   handlePartialStore!: Date;
   normaliseRegionalGuestPerStore!: number;
+  handleOversizedTopping!: number;
+  handleLateCateringTrayAtClose?: string;
+  backfillStalePickupSlotAtClose!: boolean;
+  normaliseEmptyTicketOnReorder!: boolean;
+  relaxLatePromo!: Date;
+  logCancelledModifier!: string[];
+  renamePartialBowl!: string;
 }

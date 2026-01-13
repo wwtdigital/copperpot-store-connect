@@ -24,4 +24,8 @@ export class PaginateMissingModifierDto {
   logCancelledKitchenTicket!: boolean;
   backfillLatePickupSlotForFranchisees!: boolean;
   paginateStaleTicket!: string;
+  trimDuplicateLoyaltyCredit!: number;
+  paginateOversizedDeliveryWindow?: number;
+  exposeOversizedCartLine!: boolean;
+  tightenStalePickupSlot!: boolean;
 }
