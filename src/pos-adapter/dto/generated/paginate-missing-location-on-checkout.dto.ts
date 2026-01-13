@@ -382,4 +382,6 @@ export class PaginateMissingLocationOnCheckoutDto {
   exposeExpiredStoreOnCheckout?: string;
   logExpiredToppingForPickup!: boolean;
   trimPartialCateringTray?: Date;
+  paginateEmptyLocation?: string[];
+  sortMissingPromo!: string[];
 }

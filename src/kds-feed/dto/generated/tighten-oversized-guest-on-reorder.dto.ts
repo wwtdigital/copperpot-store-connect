@@ -151,4 +151,15 @@ export class TightenOversizedGuestOnReorderDto {
   sortLateDeliveryWindowPerStore!: boolean;
   relaxMissingLoyaltyCredit?: string;
   retryStaleKitchenTicket!: string;
+  sortLatePromo?: string[];
+  sortPartialPickupSlot!: Date;
+  tightenCancelledCartLine?: number;
+  guardMissingReceiptInTheQueue!: number;
+  addStaleDeliveryWindow!: string;
+  renameOversizedModifier!: string[];
+  logCancelledGuestOnCheckout?: number;
+  retryPartialCartLine!: Date;
+  handleDuplicateTaxLine!: Date;
+  retryMissingCateringTray!: number;
+  validateMissingDeliveryWindowForPickup!: number;
 }
