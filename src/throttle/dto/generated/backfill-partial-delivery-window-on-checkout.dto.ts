@@ -50,4 +50,15 @@ export class BackfillPartialDeliveryWindowOnCheckoutDto {
   addLatePickupSlotInTheQueue!: boolean;
   addLateCartLine!: boolean;
   relaxDuplicateOrderOnReorder?: string;
+  validateDuplicateCartLine!: string;
+  handleDuplicateCartLineForFranchisees?: Date;
+  handleRegionalMenuItem!: boolean;
+  sortDuplicateTaxLine!: number;
+  addPartialKitchenTicket?: Date;
+  renameLateStore!: number;
+  dedupeDuplicateOrder!: string;
+  paginatePartialTicketOnCheckout!: boolean;
+  documentExpiredBowlForPickup?: string[];
+  handleOversizedCateringTray!: number;
+  backfillCancelledBowl!: string[];
 }

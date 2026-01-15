@@ -120,4 +120,16 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'trim expired menu item',
     quantity: 11,
   },
+  {
+    id: 'throttle-7663',
+    store: '402',
+    label: 'log cancelled cart line at close',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-3445',
+    store: '268',
+    label: 'trim expired guest',
+    quantity: 3,
+  },
 ];
