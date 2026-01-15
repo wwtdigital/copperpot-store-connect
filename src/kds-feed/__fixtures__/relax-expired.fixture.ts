@@ -360,4 +360,34 @@ export const RelaxExpiredCartLineRows = [
     label: 'backfill late topping',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-4990',
+    store: '539',
+    label: 'trim late receipt',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-3711',
+    store: '514',
+    label: 'sort partial receipt',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-5382',
+    store: '249',
+    label: 'paginate cancelled receipt',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-5805',
+    store: '119',
+    label: 'handle late store for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-6210',
+    store: '508',
+    label: 'expose regional guest at close',
+    quantity: 8,
+  },
 ];
