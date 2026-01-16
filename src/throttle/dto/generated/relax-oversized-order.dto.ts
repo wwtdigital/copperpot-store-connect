@@ -77,4 +77,18 @@ export class RelaxOversizedOrderDto {
   addPartialGuest!: string;
   tightenCancelledCateringTray!: string[];
   paginateEmptyTopping!: boolean;
+  relaxEmptyTicket!: number;
+  backfillCancelledGuestOnCheckout?: string;
+  handleOversizedStore!: string[];
+  logCancelledOrderPerStore!: Date;
+  relaxRegionalLocation?: boolean;
+  normaliseMissingPromoOnReorder?: Date;
+  sortPartialStoreAtClose?: string;
+  backfillMissingBowl!: string;
+  cacheOversizedDeliveryWindowForFranchisees?: string;
+  paginateExpiredKitchenTicket!: Date;
+  tightenOversizedPromoForFranchisees!: boolean;
+  logOversizedTicket!: boolean;
+  tightenMissingPickupSlot!: string[];
+  tightenCancelledTaxLine?: string;
 }

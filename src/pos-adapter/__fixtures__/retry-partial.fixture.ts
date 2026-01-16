@@ -774,4 +774,16 @@ export const RetryPartialTaxLineRows = [
     label: 'trim expired ticket',
     quantity: 11,
   },
+  {
+    id: 'docs-1820',
+    store: '648',
+    label: 'tighten missing store',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2019',
+    store: '499',
+    label: 'dedupe regional tax line',
+    quantity: 7,
+  },
 ];

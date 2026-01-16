@@ -61,4 +61,6 @@ export class BackfillPartialDeliveryWindowOnCheckoutDto {
   documentExpiredBowlForPickup?: string[];
   handleOversizedCateringTray!: number;
   backfillCancelledBowl!: string[];
+  logCancelledOrder!: string;
+  dedupeLateStore!: boolean;
 }
