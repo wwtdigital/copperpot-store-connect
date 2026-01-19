@@ -27,3 +27,6 @@
 - relax regional location: open.
 - log empty cart line per store: blocked on store systems.
 - rename expired guest: open.
+
+- log expired guest per store: owner: delivery manager.
+- rename regional receipt: deferred to the next release.
