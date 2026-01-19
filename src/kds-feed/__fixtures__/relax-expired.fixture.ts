@@ -336,4 +336,28 @@ export const RelaxExpiredCartLineRows = [
     label: 'dedupe missing loyalty credit for pickup',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-2599',
+    store: '658',
+    label: 'tighten stale modifier on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9552',
+    store: '189',
+    label: 'normalise oversized order',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-4058',
+    store: '334',
+    label: 'sort stale promo',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-7304',
+    store: '574',
+    label: 'backfill late topping',
+    quantity: 12,
+  },
 ];

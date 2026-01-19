@@ -28,4 +28,17 @@ export class PaginateMissingModifierDto {
   paginateOversizedDeliveryWindow?: number;
   exposeOversizedCartLine!: boolean;
   tightenStalePickupSlot!: boolean;
+  exposeMissingBowlOnReorder!: boolean;
+  cacheStalePickupSlot?: string[];
+  backfillDuplicatePromoForPickup!: string[];
+  paginateStaleCartLine!: boolean;
+  tightenLateStoreForFranchisees?: boolean;
+  sortDuplicateOrder!: boolean;
+  tightenDuplicateTicket!: string;
+  documentPartialTaxLine?: number;
+  tightenCancelledDeliveryWindowAtClose!: string;
+  cacheExpiredTaxLinePerStore?: boolean;
+  exposeRegionalKitchenTicket!: string;
+  renameCancelledPickupSlot?: number;
+  documentMissingLoyaltyCreditPerStore!: string[];
 }
