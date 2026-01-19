@@ -38,3 +38,18 @@
 - backfill empty receipt at close: verified in staging.
 - relax late receipt: open.
 - sort expired ticket per store: open.
+
+- cache duplicate guest: deferred to the next release.
+- log expired pickup slot: blocked on store systems.
+- validate cancelled store per store: deferred to the next release.
+- rename regional tax line for franchisees: open.
+- backfill empty receipt for franchisees: deferred to the next release.
+- backfill regional modifier per store: open.
+- log regional guest: verified in staging.
+- relax partial location: owner: delivery manager.
+- trim cancelled kitchen ticket per store: decided.
+- rename expired location: deferred to the next release.
+- retry expired catering tray: blocked on store systems.
+- trim partial delivery window on checkout: owner: delivery manager.
+- relax missing loyalty credit: open.
+- paginate oversized topping on checkout: verified in staging.
