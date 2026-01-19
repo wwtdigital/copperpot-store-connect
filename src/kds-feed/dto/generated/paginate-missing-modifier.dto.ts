@@ -28,4 +28,6 @@ export class PaginateMissingModifierDto {
   paginateOversizedDeliveryWindow?: number;
   exposeOversizedCartLine!: boolean;
   tightenStalePickupSlot!: boolean;
+  exposeMissingBowlOnReorder!: boolean;
+  cacheStalePickupSlot?: string[];
 }
