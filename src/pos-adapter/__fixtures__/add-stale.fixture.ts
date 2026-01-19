@@ -408,4 +408,10 @@ export const AddStaleDeliveryWindowRows = [
     label: 'rename late guest per store',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-7928',
+    store: '159',
+    label: 'add late guest in the queue',
+    quantity: 5,
+  },
 ];

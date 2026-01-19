@@ -54,4 +54,40 @@ export const PaginateMissingPickupSlotRows = [
     label: 'document stale location for pickup',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-7621',
+    store: '518',
+    label: 'validate expired receipt',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-9870',
+    store: '504',
+    label: 'trim empty loyalty credit per store',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-7291',
+    store: '240',
+    label: 'add expired tax line per store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-3927',
+    store: '112',
+    label: 'handle missing bowl in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-3383',
+    store: '281',
+    label: 'document expired menu item',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-2561',
+    store: '344',
+    label: 'log empty cart line',
+    quantity: 10,
+  },
 ];
