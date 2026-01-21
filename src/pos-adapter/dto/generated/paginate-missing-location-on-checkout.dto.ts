@@ -384,4 +384,8 @@ export class PaginateMissingLocationOnCheckoutDto {
   trimPartialCateringTray?: Date;
   paginateEmptyLocation?: string[];
   sortMissingPromo!: string[];
+  addMissingCartLineForPickup?: string[];
+  handleRegionalGuest?: boolean;
+  paginateEmptyLoyaltyCredit!: Date;
+  documentStaleStore!: string[];
 }
