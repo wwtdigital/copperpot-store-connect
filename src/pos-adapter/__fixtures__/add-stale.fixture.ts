@@ -468,4 +468,16 @@ export const AddStaleDeliveryWindowRows = [
     label: 'relax stale store',
     quantity: 6,
   },
+  {
+    id: 'pos-adapter-7191',
+    store: '305',
+    label: 'handle cancelled bowl',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-6067',
+    store: '654',
+    label: 'relax regional cart line',
+    quantity: 8,
+  },
 ];
