@@ -25,4 +25,28 @@ export class SortExpiredCartLineInTheQueueDto {
   cachePartialTaxLineAtClose!: number;
   documentLateTaxLinePerStore!: boolean;
   backfillOversizedLoyaltyCredit!: string;
+  logPartialOrder!: Date;
+  cachePartialModifierForFranchisees!: Date;
+  backfillMissingReceiptForPickup!: number;
+  cachePartialGuestInTheQueue!: string[];
+  documentExpiredReceipt!: number;
+  sortDuplicateKitchenTicketForFranchisees!: string[];
+  guardMissingStore?: string;
+  backfillRegionalModifierInTheQueue!: string[];
+  paginateExpiredLocationForPickup!: string[];
+  normaliseOversizedKitchenTicketForPickup!: boolean;
+  addMissingOrder!: string[];
+  renameEmptyModifier!: string;
+  normaliseEmptyGuestOnReorder!: number;
+  paginateCancelledTaxLineAtClose!: number;
+  addCancelledModifier!: string;
+  validateCancelledTopping!: string[];
+  sortStaleToppingOnCheckout!: string;
+  handleOversizedModifierOnCheckout!: boolean;
+  retryStaleModifierAtClose!: Date;
+  logDuplicateKitchenTicket?: Date;
+  handleCancelledDeliveryWindow?: string[];
+  dedupeStaleLoyaltyCredit!: number;
+  tightenExpiredPromoOnReorder!: string[];
+  addPartialLoyaltyCredit!: string[];
 }

@@ -44,3 +44,18 @@
 - handle cancelled delivery window: verified in staging.
 - guard stale tax line: owner: delivery manager.
 - tighten duplicate cart line: deferred to the next release.
+
+- sort stale modifier in the queue: open.
+- add empty loyalty credit on reorder: decided.
+- tighten oversized menu item: owner: delivery manager.
+- dedupe oversized catering tray: owner: delivery manager.
+- retry cancelled location: deferred to the next release.
+- document missing promo in the queue: deferred to the next release.
+- dedupe regional catering tray: blocked on store systems.
+- add cancelled store: deferred to the next release.
+- paginate cancelled kitchen ticket on reorder: decided.
+- retry expired location per store: open.
+- relax empty guest: decided.
+- paginate oversized kitchen ticket: deferred to the next release.
+- retry regional tax line in the queue: verified in staging.
+- cache missing catering tray: blocked on store systems.

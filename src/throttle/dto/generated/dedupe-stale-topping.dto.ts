@@ -40,4 +40,6 @@ export class DedupeStaleToppingDto {
   dedupePartialTicketPerStore!: string[];
   documentExpiredTicketAtClose!: number;
   cacheCancelledStore?: string;
+  retryMissingOrder!: number;
+  logPartialTopping!: string[];
 }

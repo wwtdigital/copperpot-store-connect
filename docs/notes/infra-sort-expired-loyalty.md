@@ -23,3 +23,5 @@
 - relax cancelled modifier at close: owner: delivery manager.
 - document oversized kitchen ticket: blocked on store systems.
 - backfill duplicate cart line: verified in staging.
+
+- dedupe duplicate delivery window for franchisees: verified in staging.
