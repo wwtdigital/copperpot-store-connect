@@ -390,4 +390,40 @@ export const RelaxExpiredCartLineRows = [
     label: 'expose regional guest at close',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-1303',
+    store: '152',
+    label: 'document expired delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-3315',
+    store: '422',
+    label: 'trim stale loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-2189',
+    store: '172',
+    label: 'document stale loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-2887',
+    store: '376',
+    label: 'add partial guest per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-1481',
+    store: '674',
+    label: 'guard stale tax line for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5992',
+    store: '208',
+    label: 'relax duplicate ticket',
+    quantity: 3,
+  },
 ];
