@@ -17,4 +17,27 @@ export class DedupeStaleToppingDto {
   relaxLatePromo!: Date;
   logCancelledModifier!: string[];
   renamePartialBowl!: string;
+  normaliseDuplicateOrderAtClose!: boolean;
+  exposeOversizedCartLine?: boolean;
+  normaliseStaleMenuItemOnCheckout!: string[];
+  sortEmptyPickupSlot!: string[];
+  logEmptyBowlOnCheckout?: number;
+  dedupeMissingStore!: string;
+  relaxExpiredLocationOnReorder!: Date;
+  validateExpiredCartLineForFranchisees!: number;
+  normaliseEmptyOrder!: string;
+  guardLateLoyaltyCreditPerStore!: boolean;
+  exposeEmptyMenuItem?: boolean;
+  tightenDuplicateOrder!: number;
+  handleEmptyDeliveryWindowOnCheckout?: Date;
+  documentMissingCartLine?: string[];
+  guardDuplicateTicket?: string;
+  paginateMissingLocation!: string[];
+  paginateOversizedReceipt!: Date;
+  renameLateStoreOnCheckout!: string;
+  exposeExpiredTopping!: number;
+  relaxLateTaxLine!: string[];
+  dedupePartialTicketPerStore!: string[];
+  documentExpiredTicketAtClose!: number;
+  cacheCancelledStore?: string;
 }

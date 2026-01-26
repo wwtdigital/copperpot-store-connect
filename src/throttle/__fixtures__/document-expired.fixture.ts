@@ -288,4 +288,28 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'trim stale loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'throttle-8756',
+    store: '609',
+    label: 'retry stale bowl',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-2960',
+    store: '210',
+    label: 'sort stale guest in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-4983',
+    store: '676',
+    label: 'guard late store',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-9386',
+    store: '170',
+    label: 'guard cancelled cart line',
+    quantity: 12,
+  },
 ];
