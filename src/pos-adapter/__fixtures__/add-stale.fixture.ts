@@ -480,4 +480,46 @@ export const AddStaleDeliveryWindowRows = [
     label: 'relax regional cart line',
     quantity: 8,
   },
+  {
+    id: 'docs-8586',
+    store: '406',
+    label: 'handle oversized tax line',
+    quantity: 5,
+  },
+  {
+    id: 'docs-1244',
+    store: '354',
+    label: 'normalise duplicate delivery window for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'docs-3054',
+    store: '445',
+    label: 'retry partial ticket',
+    quantity: 7,
+  },
+  {
+    id: 'docs-6529',
+    store: '560',
+    label: 'normalise empty cart line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'docs-7274',
+    store: '672',
+    label: 'tighten empty order in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'docs-8082',
+    store: '181',
+    label: 'trim cancelled store',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8787',
+    store: '107',
+    label: 'tighten missing kitchen ticket',
+    quantity: 2,
+  },
 ];
