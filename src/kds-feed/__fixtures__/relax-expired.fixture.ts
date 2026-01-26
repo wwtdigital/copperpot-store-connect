@@ -426,4 +426,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'relax duplicate ticket',
     quantity: 3,
   },
+  {
+    id: 'kds-feed-8690',
+    store: '375',
+    label: 'retry late catering tray per store',
+    quantity: 2,
+  },
 ];
