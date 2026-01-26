@@ -6,6 +6,3 @@
 - backfill missing tax line: owner: delivery manager.
 - retry oversized ticket in the queue: blocked on store systems.
 - guard oversized guest per store: open.
-- backfill late kitchen ticket: owner: delivery manager.
-- rename expired guest per store: deferred to the next release.
-- tighten stale location per store: verified in staging.
