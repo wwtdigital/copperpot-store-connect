@@ -258,4 +258,34 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'cache partial pickup slot on reorder',
     quantity: 1,
   },
+  {
+    id: 'throttle-1232',
+    store: '671',
+    label: 'validate empty order per store',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-2621',
+    store: '124',
+    label: 'log duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-7713',
+    store: '579',
+    label: 'retry late kitchen ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4746',
+    store: '497',
+    label: 'normalise partial ticket',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-7069',
+    store: '264',
+    label: 'trim stale loyalty credit',
+    quantity: 8,
+  },
 ];
