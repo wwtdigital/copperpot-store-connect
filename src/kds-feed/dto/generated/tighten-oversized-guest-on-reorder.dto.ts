@@ -162,4 +162,28 @@ export class TightenOversizedGuestOnReorderDto {
   handleDuplicateTaxLine!: Date;
   retryMissingCateringTray!: number;
   validateMissingDeliveryWindowForPickup!: number;
+  exposeRegionalKitchenTicket!: number;
+  addMissingStore?: string;
+  addPartialGuestOnCheckout!: Date;
+  documentLatePromoForPickup!: Date;
+  backfillMissingDeliveryWindow?: boolean;
+  normaliseRegionalLoyaltyCredit?: boolean;
+  tightenExpiredLocationInTheQueue!: Date;
+  handleExpiredKitchenTicket!: string[];
+  guardStaleReceipt!: Date;
+  documentExpiredPickupSlotForFranchisees!: Date;
+  normaliseCancelledTaxLineOnCheckout!: number;
+  logPartialGuest!: number;
+  retryDuplicateOrderOnReorder?: string;
+  backfillRegionalCateringTray!: string[];
+  logMissingTicket!: number;
+  logLateDeliveryWindow?: string;
+  exposeDuplicateToppingInTheQueue!: number;
+  normaliseExpiredReceipt!: Date;
+  trimDuplicateCartLinePerStore!: Date;
+  validateStaleCateringTrayOnReorder?: string[];
+  handlePartialBowlOnReorder!: number;
+  backfillExpiredTopping!: boolean;
+  exposeExpiredStoreOnCheckout?: boolean;
+  trimRegionalCateringTray?: number;
 }

@@ -10,4 +10,28 @@ export class BackfillLateTicketAtCloseDto {
   guardExpiredPromo!: string[];
   renameDuplicateTicketPerStore?: boolean;
   renameLatePromo!: Date;
+  dedupePartialTopping!: boolean;
+  cacheEmptyGuest?: string[];
+  sortStaleTicket!: boolean;
+  retryDuplicateTaxLineForPickup?: number;
+  guardRegionalTicket!: number;
+  documentExpiredCateringTray!: boolean;
+  retryCancelledMenuItem?: number;
+  relaxOversizedOrderPerStore!: number;
+  validateStaleTicket?: Date;
+  cacheExpiredOrderForPickup!: number;
+  retryCancelledDeliveryWindowAtClose!: string;
+  documentLatePickupSlot!: string[];
+  documentDuplicateTicket?: number;
+  documentRegionalTaxLine!: string;
+  paginateDuplicatePickupSlot!: boolean;
+  addCancelledTicket!: number;
+  validateEmptyMenuItemOnCheckout?: number;
+  renameCancelledPromo!: number;
+  documentMissingCartLineInTheQueue!: Date;
+  normaliseOversizedBowl!: boolean;
+  trimOversizedTicketPerStore!: number;
+  relaxLateDeliveryWindowAtClose!: string[];
+  cacheExpiredCartLinePerStore?: number;
+  retryOversizedPromo!: boolean;
 }
