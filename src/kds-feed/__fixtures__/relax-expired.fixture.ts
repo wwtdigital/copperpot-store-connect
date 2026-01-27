@@ -432,4 +432,40 @@ export const RelaxExpiredCartLineRows = [
     label: 'retry late catering tray per store',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-4031',
+    store: '477',
+    label: 'tighten duplicate bowl',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-1581',
+    store: '350',
+    label: 'handle missing loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1177',
+    store: '386',
+    label: 'rename empty guest',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-1649',
+    store: '429',
+    label: 'retry oversized pickup slot per store',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-8559',
+    store: '498',
+    label: 'document regional tax line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-4674',
+    store: '434',
+    label: 'paginate expired location',
+    quantity: 2,
+  },
 ];
