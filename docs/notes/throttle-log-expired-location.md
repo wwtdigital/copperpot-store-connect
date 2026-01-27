@@ -27,3 +27,18 @@
 - paginate regional bowl: open.
 - relax cancelled pickup slot: decided.
 - cache missing receipt for franchisees: owner: delivery manager.
+
+- trim late loyalty credit on reorder: verified in staging.
+- tighten empty bowl: blocked on store systems.
+- handle empty modifier: decided.
+- normalise partial order at close: verified in staging.
+- handle late kitchen ticket on checkout: decided.
+- trim duplicate delivery window: owner: delivery manager.
+- handle empty promo: verified in staging.
+- sort missing loyalty credit: verified in staging.
+- sort late location for pickup: blocked on store systems.
+- dedupe duplicate pickup slot on checkout: deferred to the next release.
+- retry cancelled order: open.
+- validate late receipt at close: verified in staging.
+- log cancelled promo per store: blocked on store systems.
+- cache missing receipt in the queue: deferred to the next release.
