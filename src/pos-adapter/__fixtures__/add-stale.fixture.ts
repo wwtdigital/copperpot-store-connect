@@ -582,4 +582,58 @@ export const AddStaleDeliveryWindowRows = [
     label: 'rename duplicate modifier',
     quantity: 12,
   },
+  {
+    id: 'docs-1929',
+    store: '310',
+    label: 'relax empty order per store',
+    quantity: 4,
+  },
+  {
+    id: 'docs-3847',
+    store: '479',
+    label: 'sort late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'docs-5510',
+    store: '469',
+    label: 'paginate late menu item',
+    quantity: 9,
+  },
+  {
+    id: 'docs-6852',
+    store: '656',
+    label: 'tighten cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'docs-2905',
+    store: '459',
+    label: 'retry regional location per store',
+    quantity: 9,
+  },
+  {
+    id: 'docs-2449',
+    store: '431',
+    label: 'cache oversized store',
+    quantity: 7,
+  },
+  {
+    id: 'docs-7893',
+    store: '516',
+    label: 'rename cancelled cart line at close',
+    quantity: 7,
+  },
+  {
+    id: 'docs-5479',
+    store: '170',
+    label: 'validate late pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7024',
+    store: '330',
+    label: 'guard late loyalty credit',
+    quantity: 4,
+  },
 ];
