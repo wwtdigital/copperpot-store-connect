@@ -672,4 +672,40 @@ export const AddStaleDeliveryWindowRows = [
     label: 'retry partial catering tray in the queue',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-4346',
+    store: '604',
+    label: 'normalise partial order',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-3746',
+    store: '418',
+    label: 'rename late promo',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-9212',
+    store: '361',
+    label: 'normalise empty promo',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-6665',
+    store: '211',
+    label: 'handle duplicate location',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-3874',
+    store: '217',
+    label: 'normalise expired modifier per store',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-3357',
+    store: '465',
+    label: 'relax empty tax line',
+    quantity: 7,
+  },
 ];
