@@ -14,3 +14,48 @@
 - backfill expired order: deferred to the next release.
 - log empty ticket: decided.
 - relax oversized modifier for pickup: deferred to the next release.
+
+- expose empty promo per store: blocked on store systems.
+- add duplicate store: open.
+- sort oversized receipt: verified in staging.
+- guard duplicate promo on checkout: verified in staging.
+- paginate cancelled store: decided.
+- log late delivery window: deferred to the next release.
+- retry partial cart line: verified in staging.
+- relax partial cart line: verified in staging.
+- add cancelled topping: decided.
+- paginate expired menu item: verified in staging.
+- backfill cancelled tax line: blocked on store systems.
+- validate expired order: decided.
+- add expired modifier on reorder: owner: delivery manager.
+- relax expired ticket: deferred to the next release.
+
+- expose cancelled order: owner: delivery manager.
+- guard missing kitchen ticket for franchisees: verified in staging.
+- trim expired receipt on checkout: decided.
+- tighten stale promo on reorder: open.
+- dedupe duplicate menu item on reorder: deferred to the next release.
+- trim partial location on checkout: owner: delivery manager.
+- trim missing ticket on reorder: verified in staging.
+- expose expired menu item: decided.
+- sort regional tax line in the queue: verified in staging.
+- tighten cancelled bowl: verified in staging.
+- add late loyalty credit in the queue: verified in staging.
+- handle cancelled delivery window: verified in staging.
+- guard stale tax line: owner: delivery manager.
+- tighten duplicate cart line: deferred to the next release.
+
+- sort stale modifier in the queue: open.
+- add empty loyalty credit on reorder: decided.
+- tighten oversized menu item: owner: delivery manager.
+- dedupe oversized catering tray: owner: delivery manager.
+- retry cancelled location: deferred to the next release.
+- document missing promo in the queue: deferred to the next release.
+- dedupe regional catering tray: blocked on store systems.
+- add cancelled store: deferred to the next release.
+- paginate cancelled kitchen ticket on reorder: decided.
+- retry expired location per store: open.
+- relax empty guest: decided.
+- paginate oversized kitchen ticket: deferred to the next release.
+- retry regional tax line in the queue: verified in staging.
+- cache missing catering tray: blocked on store systems.
