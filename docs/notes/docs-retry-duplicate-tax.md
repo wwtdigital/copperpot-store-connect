@@ -1,0 +1,46 @@
+# docs: retry duplicate tax line
+
+- trim cancelled location: deferred to the next release.
+- trim late guest: blocked on store systems.
+- tighten stale loyalty credit: blocked on store systems.
+- relax partial location: decided.
+- normalise duplicate pickup slot in the queue: blocked on store systems.
+- rename missing ticket on checkout: open.
+- cache empty ticket on checkout: verified in staging.
+- rename regional delivery window at close: open.
+- relax missing guest: owner: delivery manager.
+- normalise cancelled location: deferred to the next release.
+- log partial topping: open.
+- log duplicate bowl: open.
+- relax duplicate tax line: open.
+- rename regional kitchen ticket on reorder: decided.
+
+- trim empty tax line in the queue: decided.
+- sort stale delivery window for franchisees: verified in staging.
+- add duplicate delivery window: blocked on store systems.
+- handle late location at close: blocked on store systems.
+- relax late bowl: blocked on store systems.
+- validate cancelled location: verified in staging.
+- paginate empty bowl: blocked on store systems.
+- dedupe empty menu item: verified in staging.
+- normalise regional location: owner: delivery manager.
+- normalise missing order on checkout: open.
+- rename late delivery window at close: owner: delivery manager.
+- paginate missing catering tray: deferred to the next release.
+- log stale modifier: decided.
+- dedupe cancelled tax line for franchisees: owner: delivery manager.
+
+- document expired kitchen ticket: owner: delivery manager.
+- log partial cart line at close: deferred to the next release.
+- sort stale ticket: decided.
+- validate empty store: open.
+- sort late catering tray: owner: delivery manager.
+- relax duplicate topping: open.
+- paginate duplicate store: blocked on store systems.
+- expose late menu item: decided.
+- normalise regional modifier: deferred to the next release.
+- paginate missing tax line: open.
+- validate oversized delivery window for pickup: deferred to the next release.
+- retry empty location: verified in staging.
+- tighten stale modifier on checkout: owner: delivery manager.
+- cache duplicate delivery window: open.
