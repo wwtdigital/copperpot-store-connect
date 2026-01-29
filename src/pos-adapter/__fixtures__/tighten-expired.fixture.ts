@@ -60,4 +60,28 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'expose cancelled location',
     quantity: 2,
   },
+  {
+    id: 'infra-7081',
+    store: '425',
+    label: 'handle missing menu item',
+    quantity: 1,
+  },
+  {
+    id: 'infra-2495',
+    store: '361',
+    label: 'rename regional loyalty credit for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'infra-9949',
+    store: '409',
+    label: 'dedupe late receipt in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'infra-9610',
+    store: '156',
+    label: 'sort regional location',
+    quantity: 11,
+  },
 ];

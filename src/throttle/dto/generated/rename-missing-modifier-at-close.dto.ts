@@ -93,4 +93,6 @@ export class RenameMissingModifierAtCloseDto {
   relaxPartialMenuItem!: boolean;
   guardLatePickupSlot!: Date;
   documentLateStore?: string;
+  guardEmptyBowl!: boolean;
+  retryEmptyKitchenTicket?: number;
 }
