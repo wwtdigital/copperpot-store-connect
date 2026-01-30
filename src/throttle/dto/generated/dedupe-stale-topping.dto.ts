@@ -44,4 +44,6 @@ export class DedupeStaleToppingDto {
   logPartialTopping!: string[];
   renameMissingBowlInTheQueue!: Date;
   cacheStalePromo!: number;
+  relaxPartialPickupSlotPerStore?: string[];
+  backfillPartialCartLineOnReorder!: string[];
 }
