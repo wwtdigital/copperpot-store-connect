@@ -636,4 +636,10 @@ export const AddStaleDeliveryWindowRows = [
     label: 'guard late loyalty credit',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-6915',
+    store: '307',
+    label: 'paginate cancelled promo',
+    quantity: 7,
+  },
 ];
