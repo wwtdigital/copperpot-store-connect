@@ -42,4 +42,6 @@ export class DedupeStaleToppingDto {
   cacheCancelledStore?: string;
   retryMissingOrder!: number;
   logPartialTopping!: string[];
+  renameMissingBowlInTheQueue!: Date;
+  cacheStalePromo!: number;
 }

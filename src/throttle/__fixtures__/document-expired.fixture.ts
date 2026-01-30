@@ -312,4 +312,28 @@ export const DocumentExpiredCateringTrayRows = [
     label: 'guard cancelled cart line',
     quantity: 12,
   },
+  {
+    id: 'throttle-7755',
+    store: '649',
+    label: 'expose regional catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-2023',
+    store: '146',
+    label: 'trim missing loyalty credit at close',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-5480',
+    store: '647',
+    label: 'relax oversized tax line',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-6586',
+    store: '180',
+    label: 'validate oversized pickup slot for franchisees',
+    quantity: 7,
+  },
 ];

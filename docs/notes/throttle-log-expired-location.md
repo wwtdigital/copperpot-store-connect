@@ -42,3 +42,5 @@
 - validate late receipt at close: verified in staging.
 - log cancelled promo per store: blocked on store systems.
 - cache missing receipt in the queue: deferred to the next release.
+
+- add regional loyalty credit per store: owner: delivery manager.
