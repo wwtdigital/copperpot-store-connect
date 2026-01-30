@@ -14,3 +14,18 @@
 - paginate late loyalty credit: verified in staging.
 - expose duplicate pickup slot in the queue: decided.
 - sort stale delivery window: owner: delivery manager.
+
+- document cancelled order for pickup: verified in staging.
+- backfill partial ticket on reorder: open.
+- guard expired location: verified in staging.
+- log duplicate topping: open.
+- rename late cart line: deferred to the next release.
+- document regional promo: verified in staging.
+- handle stale topping for franchisees: verified in staging.
+- validate stale order on checkout: deferred to the next release.
+- expose expired location in the queue: decided.
+- add partial order: decided.
+- document duplicate ticket for franchisees: verified in staging.
+- tighten stale menu item on checkout: verified in staging.
+- rename empty menu item: open.
+- add regional location: decided.

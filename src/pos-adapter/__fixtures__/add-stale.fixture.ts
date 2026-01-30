@@ -666,4 +666,10 @@ export const AddStaleDeliveryWindowRows = [
     label: 'document stale bowl',
     quantity: 10,
   },
+  {
+    id: 'pos-adapter-4740',
+    store: '570',
+    label: 'retry partial catering tray in the queue',
+    quantity: 7,
+  },
 ];

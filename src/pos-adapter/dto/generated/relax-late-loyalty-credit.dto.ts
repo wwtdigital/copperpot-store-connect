@@ -13,4 +13,6 @@ export class RelaxLateLoyaltyCreditDto {
   exposePartialKitchenTicket?: string[];
   documentDuplicateTicket?: string;
   renameOversizedBowlOnReorder!: Date;
+  logPartialKitchenTicketInTheQueue!: Date;
+  backfillEmptyGuest!: string[];
 }
