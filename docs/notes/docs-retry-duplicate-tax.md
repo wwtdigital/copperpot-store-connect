@@ -44,3 +44,33 @@
 - retry empty location: verified in staging.
 - tighten stale modifier on checkout: owner: delivery manager.
 - cache duplicate delivery window: open.
+
+- sort empty loyalty credit for pickup: owner: delivery manager.
+- relax expired catering tray: open.
+- normalise empty menu item per store: owner: delivery manager.
+- paginate missing guest: deferred to the next release.
+- relax cancelled receipt: owner: delivery manager.
+- log regional location per store: owner: delivery manager.
+- add oversized store: verified in staging.
+- validate stale tax line: owner: delivery manager.
+- cache stale tax line: deferred to the next release.
+- rename partial kitchen ticket: deferred to the next release.
+- retry cancelled ticket: blocked on store systems.
+- dedupe late order on checkout: owner: delivery manager.
+- tighten partial topping: decided.
+- expose stale pickup slot: blocked on store systems.
+
+- tighten regional tax line: verified in staging.
+- guard late ticket: decided.
+- handle regional bowl: deferred to the next release.
+- expose cancelled delivery window: owner: delivery manager.
+- rename partial receipt: deferred to the next release.
+- tighten oversized promo: decided.
+- retry empty tax line: decided.
+- normalise expired delivery window: decided.
+- normalise expired menu item: open.
+- dedupe stale delivery window: verified in staging.
+- paginate late guest: deferred to the next release.
+- rename expired pickup slot: open.
+- log missing delivery window for franchisees: deferred to the next release.
+- validate empty catering tray: blocked on store systems.
