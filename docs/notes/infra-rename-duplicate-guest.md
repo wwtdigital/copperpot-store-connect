@@ -53,9 +53,3 @@
 - document missing promo in the queue: deferred to the next release.
 - dedupe regional catering tray: blocked on store systems.
 - add cancelled store: deferred to the next release.
-- paginate cancelled kitchen ticket on reorder: decided.
-- retry expired location per store: open.
-- relax empty guest: decided.
-- paginate oversized kitchen ticket: deferred to the next release.
-- retry regional tax line in the queue: verified in staging.
-- cache missing catering tray: blocked on store systems.

@@ -49,4 +49,11 @@ export class SortExpiredCartLineInTheQueueDto {
   dedupeStaleLoyaltyCredit!: number;
   tightenExpiredPromoOnReorder!: string[];
   addPartialLoyaltyCredit!: string[];
+  handlePartialBowlOnReorder!: number;
+  documentRegionalOrder!: Date;
+  retryLateGuest!: number;
+  tightenRegionalOrderInTheQueue!: boolean;
+  retryExpiredModifierPerStore?: string[];
+  handleStaleStoreInTheQueue!: boolean;
+  logDuplicateOrder?: Date;
 }
