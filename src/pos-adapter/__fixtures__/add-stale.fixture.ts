@@ -642,4 +642,28 @@ export const AddStaleDeliveryWindowRows = [
     label: 'paginate cancelled promo',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-1820',
+    store: '321',
+    label: 'dedupe duplicate location',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-1320',
+    store: '665',
+    label: 'backfill empty bowl',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-6772',
+    store: '398',
+    label: 'normalise regional kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8025',
+    store: '631',
+    label: 'document stale bowl',
+    quantity: 10,
+  },
 ];
