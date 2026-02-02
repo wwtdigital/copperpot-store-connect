@@ -53,3 +53,18 @@
 - trim partial delivery window on checkout: owner: delivery manager.
 - relax missing loyalty credit: open.
 - paginate oversized topping on checkout: verified in staging.
+
+- sort cancelled pickup slot: verified in staging.
+- add duplicate store: deferred to the next release.
+- add late loyalty credit: deferred to the next release.
+- expose stale topping: verified in staging.
+- handle missing bowl: deferred to the next release.
+- guard regional menu item: open.
+- guard expired tax line in the queue: owner: delivery manager.
+- retry missing location at close: blocked on store systems.
+- log late pickup slot for pickup: open.
+- trim empty location at close: blocked on store systems.
+- paginate regional catering tray on checkout: decided.
+- relax duplicate location for pickup: decided.
+- sort expired topping per store: blocked on store systems.
+- retry stale bowl: decided.
