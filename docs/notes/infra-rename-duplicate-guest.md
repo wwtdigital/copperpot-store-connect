@@ -53,3 +53,33 @@
 - document missing promo in the queue: deferred to the next release.
 - dedupe regional catering tray: blocked on store systems.
 - add cancelled store: deferred to the next release.
+
+- handle stale ticket at close: deferred to the next release.
+- guard expired store: open.
+- log duplicate catering tray for pickup: open.
+- sort cancelled pickup slot for franchisees: owner: delivery manager.
+- guard missing kitchen ticket: open.
+- paginate cancelled location for franchisees: open.
+- backfill expired guest: decided.
+- relax expired receipt in the queue: decided.
+- expose oversized cart line: decided.
+- dedupe expired pickup slot: blocked on store systems.
+- document partial location per store: owner: delivery manager.
+- cache expired order: verified in staging.
+- rename partial modifier in the queue: blocked on store systems.
+- cache partial cart line per store: owner: delivery manager.
+
+- log cancelled bowl: owner: delivery manager.
+- sort late modifier in the queue: decided.
+- rename empty order: owner: delivery manager.
+- add regional ticket in the queue: open.
+- retry missing pickup slot: open.
+- handle empty menu item at close: owner: delivery manager.
+- cache empty delivery window: open.
+- backfill oversized kitchen ticket: verified in staging.
+- cache missing pickup slot: deferred to the next release.
+- trim empty delivery window: open.
+- handle duplicate receipt: deferred to the next release.
+- validate empty cart line at close: open.
+- cache oversized topping: owner: delivery manager.
+- dedupe stale delivery window: blocked on store systems.
