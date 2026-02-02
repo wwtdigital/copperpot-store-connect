@@ -84,4 +84,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'sort regional location',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-9414',
+    store: '598',
+    label: 'document regional store for pickup',
+    quantity: 5,
+  },
 ];
