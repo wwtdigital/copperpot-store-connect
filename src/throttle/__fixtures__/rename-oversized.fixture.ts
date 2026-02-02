@@ -60,4 +60,28 @@ export const RenameOversizedLoyaltyCreditInTheQueueRows = [
     label: 'backfill partial tax line on reorder',
     quantity: 5,
   },
+  {
+    id: 'infra-7806',
+    store: '368',
+    label: 'validate late topping',
+    quantity: 7,
+  },
+  {
+    id: 'infra-8782',
+    store: '460',
+    label: 'expose duplicate ticket',
+    quantity: 2,
+  },
+  {
+    id: 'infra-5903',
+    store: '153',
+    label: 'relax oversized store per store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6919',
+    store: '422',
+    label: 'trim cancelled cart line',
+    quantity: 9,
+  },
 ];
