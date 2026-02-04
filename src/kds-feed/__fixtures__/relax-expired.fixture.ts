@@ -474,4 +474,34 @@ export const RelaxExpiredCartLineRows = [
     label: 'add late kitchen ticket for franchisees',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-5692',
+    store: '602',
+    label: 'validate empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-8446',
+    store: '626',
+    label: 'validate duplicate bowl',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-1862',
+    store: '645',
+    label: 'normalise regional cart line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-1643',
+    store: '662',
+    label: 'guard oversized catering tray for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6465',
+    store: '366',
+    label: 'cache stale guest',
+    quantity: 8,
+  },
 ];
