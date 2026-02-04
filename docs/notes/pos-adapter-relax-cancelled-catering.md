@@ -22,3 +22,18 @@
 - trim duplicate loyalty credit: verified in staging.
 - document stale tax line in the queue: owner: delivery manager.
 - expose expired bowl: verified in staging.
+
+- log partial cart line: open.
+- tighten expired loyalty credit: blocked on store systems.
+- retry cancelled tax line: deferred to the next release.
+- relax empty kitchen ticket per store: owner: delivery manager.
+- dedupe expired catering tray: decided.
+- expose regional ticket: open.
+- guard empty loyalty credit: verified in staging.
+- expose late bowl for pickup: blocked on store systems.
+- expose expired order: open.
+- expose expired kitchen ticket on reorder: blocked on store systems.
+- cache empty delivery window in the queue: blocked on store systems.
+- cache empty pickup slot: deferred to the next release.
+- document stale loyalty credit: deferred to the next release.
+- paginate late kitchen ticket: deferred to the next release.
