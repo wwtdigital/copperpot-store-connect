@@ -90,4 +90,34 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'document regional store for pickup',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-4166',
+    store: '188',
+    label: 'paginate empty receipt',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-4778',
+    store: '692',
+    label: 'tighten regional cart line per store',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-2939',
+    store: '390',
+    label: 'add duplicate catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-8491',
+    store: '137',
+    label: 'retry partial kitchen ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'pos-adapter-7186',
+    store: '234',
+    label: 'log expired catering tray',
+    quantity: 9,
+  },
 ];

@@ -68,3 +68,6 @@
 - relax duplicate location for pickup: decided.
 - sort expired topping per store: blocked on store systems.
 - retry stale bowl: decided.
+
+- sort stale delivery window: decided.
+- log regional promo on checkout: owner: delivery manager.
