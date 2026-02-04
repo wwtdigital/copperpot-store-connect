@@ -468,4 +468,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'paginate expired location',
     quantity: 2,
   },
+  {
+    id: 'infra-2696',
+    store: '676',
+    label: 'add late kitchen ticket for franchisees',
+    quantity: 11,
+  },
 ];

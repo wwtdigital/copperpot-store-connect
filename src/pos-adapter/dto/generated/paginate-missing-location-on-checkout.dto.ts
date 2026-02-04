@@ -388,4 +388,12 @@ export class PaginateMissingLocationOnCheckoutDto {
   handleRegionalGuest?: boolean;
   paginateEmptyLoyaltyCredit!: Date;
   documentStaleStore!: string[];
+  tightenLateBowl?: Date;
+  tightenRegionalLocationForPickup!: boolean;
+  sortMissingLocation?: string;
+  normaliseStalePickupSlot?: number;
+  sortLateCartLine?: Date;
+  guardCancelledGuest!: Date;
+  logStaleBowlOnReorder!: number;
+  validateOversizedTopping!: string[];
 }

@@ -83,3 +83,6 @@
 - validate empty cart line at close: open.
 - cache oversized topping: owner: delivery manager.
 - dedupe stale delivery window: blocked on store systems.
+
+- rename duplicate catering tray per store: deferred to the next release.
+- backfill expired pickup slot: deferred to the next release.
