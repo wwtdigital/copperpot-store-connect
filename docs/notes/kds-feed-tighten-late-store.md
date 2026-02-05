@@ -23,3 +23,18 @@
 - dedupe stale store: owner: delivery manager.
 - handle regional modifier: verified in staging.
 - guard oversized menu item: verified in staging.
+
+- paginate late guest at close: owner: delivery manager.
+- tighten regional tax line for pickup: deferred to the next release.
+- backfill duplicate bowl: owner: delivery manager.
+- guard empty location: decided.
+- add missing ticket for franchisees: owner: delivery manager.
+- dedupe empty tax line: deferred to the next release.
+- rename duplicate pickup slot on checkout: deferred to the next release.
+- dedupe missing tax line for pickup: owner: delivery manager.
+- sort oversized order for franchisees: deferred to the next release.
+- add oversized bowl: deferred to the next release.
+- validate late pickup slot: decided.
+- retry regional receipt: open.
+- tighten regional pickup slot: verified in staging.
+- handle cancelled modifier: verified in staging.
