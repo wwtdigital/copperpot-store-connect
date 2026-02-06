@@ -71,3 +71,7 @@
 
 - sort stale delivery window: decided.
 - log regional promo on checkout: owner: delivery manager.
+
+- add missing pickup slot on checkout: owner: delivery manager.
+- expose empty ticket: verified in staging.
+- add oversized receipt on reorder: open.
