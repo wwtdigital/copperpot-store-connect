@@ -24,4 +24,23 @@ export class ExposeLateDeliveryWindowDto {
   validateLateDeliveryWindow!: string;
   backfillRegionalCartLine?: boolean;
   retryStaleCartLineInTheQueue!: string;
+  retryPartialCateringTrayOnReorder?: string;
+  addDuplicateCartLineAtClose!: string[];
+  relaxPartialDeliveryWindow!: Date;
+  guardOversizedDeliveryWindow?: string;
+  renameMissingModifierOnReorder!: string;
+  handleRegionalPromo?: boolean;
+  exposePartialModifierOnCheckout!: string[];
+  paginateRegionalModifier!: Date;
+  retryPartialToppingOnCheckout?: boolean;
+  sortMissingKitchenTicket?: Date;
+  retryPartialTaxLinePerStore!: string[];
+  logDuplicateModifier!: string;
+  retryStaleBowl!: string[];
+  relaxCancelledOrderPerStore?: string;
+  paginateCancelledTicket?: string;
+  tightenStaleOrderPerStore!: Date;
+  addStaleTaxLinePerStore!: string;
+  normaliseLateStore!: string[];
+  cacheLateTaxLineOnReorder!: boolean;
 }
