@@ -504,4 +504,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'cache stale guest',
     quantity: 8,
   },
+  {
+    id: 'kds-feed-9022',
+    store: '429',
+    label: 'handle late menu item',
+    quantity: 9,
+  },
 ];
