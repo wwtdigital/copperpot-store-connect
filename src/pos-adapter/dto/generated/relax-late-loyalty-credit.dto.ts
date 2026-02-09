@@ -15,4 +15,8 @@ export class RelaxLateLoyaltyCreditDto {
   renameOversizedBowlOnReorder!: Date;
   logPartialKitchenTicketInTheQueue!: Date;
   backfillEmptyGuest!: string[];
+  dedupeStaleReceipt!: boolean;
+  normaliseLateTopping?: boolean;
+  validateDuplicateLocation?: boolean;
+  logPartialStoreOnCheckout?: boolean;
 }

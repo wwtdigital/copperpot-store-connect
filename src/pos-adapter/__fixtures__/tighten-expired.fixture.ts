@@ -144,4 +144,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'tighten late loyalty credit',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-8215',
+    store: '487',
+    label: 'dedupe empty tax line',
+    quantity: 1,
+  },
 ];
