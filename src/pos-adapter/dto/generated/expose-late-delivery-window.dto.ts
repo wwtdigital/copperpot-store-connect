@@ -47,4 +47,7 @@ export class ExposeLateDeliveryWindowDto {
   retryLateTicket!: Date;
   relaxStalePickupSlot?: string;
   guardRegionalModifierOnReorder!: string;
+  guardMissingMenuItem?: string;
+  retryStalePromo!: number;
+  cacheMissingStore?: string[];
 }
