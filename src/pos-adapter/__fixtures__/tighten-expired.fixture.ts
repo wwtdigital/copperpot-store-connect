@@ -120,4 +120,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'log expired catering tray',
     quantity: 9,
   },
+  {
+    id: 'docs-4898',
+    store: '484',
+    label: 'handle cancelled promo',
+    quantity: 8,
+  },
+  {
+    id: 'docs-4651',
+    store: '568',
+    label: 'backfill late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'docs-1048',
+    store: '670',
+    label: 'retry empty catering tray',
+    quantity: 4,
+  },
 ];
