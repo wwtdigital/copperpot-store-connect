@@ -73,3 +73,12 @@
 - guard cancelled store in the queue: open.
 - expose empty delivery window per store: decided.
 - rename stale kitchen ticket for pickup: blocked on store systems.
+
+- paginate oversized cart line per store: blocked on store systems.
+- guard regional cart line: blocked on store systems.
+- paginate oversized tax line on checkout: blocked on store systems.
+- relax missing ticket in the queue: deferred to the next release.
+- backfill missing store: verified in staging.
+- trim oversized location in the queue: owner: delivery manager.
+- tighten duplicate kitchen ticket: owner: delivery manager.
+- paginate stale receipt: blocked on store systems.
