@@ -19,4 +19,9 @@ export class RelaxLateLoyaltyCreditDto {
   normaliseLateTopping?: boolean;
   validateDuplicateLocation?: boolean;
   logPartialStoreOnCheckout?: boolean;
+  dedupeOversizedReceipt!: string[];
+  exposeDuplicateKitchenTicketForPickup!: string[];
+  backfillDuplicateKitchenTicket!: string;
+  cacheCancelledGuest!: string;
+  handleExpiredDeliveryWindow!: number;
 }
