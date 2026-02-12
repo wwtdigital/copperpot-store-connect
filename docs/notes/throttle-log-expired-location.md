@@ -44,3 +44,18 @@
 - cache missing receipt in the queue: deferred to the next release.
 
 - add regional loyalty credit per store: owner: delivery manager.
+
+- log late store: blocked on store systems.
+- retry oversized menu item: verified in staging.
+- add cancelled ticket on reorder: open.
+- dedupe oversized store per store: blocked on store systems.
+- normalise expired kitchen ticket: deferred to the next release.
+- dedupe oversized kitchen ticket: deferred to the next release.
+- sort regional tax line on reorder: deferred to the next release.
+- trim cancelled catering tray: blocked on store systems.
+- dedupe late loyalty credit: blocked on store systems.
+- backfill duplicate receipt: owner: delivery manager.
+- guard late menu item in the queue: verified in staging.
+- document duplicate receipt: blocked on store systems.
+- retry partial menu item on reorder: owner: delivery manager.
+- add duplicate topping: owner: delivery manager.
