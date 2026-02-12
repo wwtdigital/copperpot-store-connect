@@ -138,4 +138,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'retry empty catering tray',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-8938',
+    store: '697',
+    label: 'tighten late loyalty credit',
+    quantity: 5,
+  },
 ];
