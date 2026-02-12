@@ -43,4 +43,8 @@ export class ExposeLateDeliveryWindowDto {
   addStaleTaxLinePerStore!: string;
   normaliseLateStore!: string[];
   cacheLateTaxLineOnReorder!: boolean;
+  trimRegionalKitchenTicket!: boolean;
+  retryLateTicket!: Date;
+  relaxStalePickupSlot?: string;
+  guardRegionalModifierOnReorder!: string;
 }
