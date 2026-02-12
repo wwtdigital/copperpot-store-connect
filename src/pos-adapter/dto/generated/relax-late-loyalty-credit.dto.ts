@@ -15,4 +15,13 @@ export class RelaxLateLoyaltyCreditDto {
   renameOversizedBowlOnReorder!: Date;
   logPartialKitchenTicketInTheQueue!: Date;
   backfillEmptyGuest!: string[];
+  dedupeStaleReceipt!: boolean;
+  normaliseLateTopping?: boolean;
+  validateDuplicateLocation?: boolean;
+  logPartialStoreOnCheckout?: boolean;
+  dedupeOversizedReceipt!: string[];
+  exposeDuplicateKitchenTicketForPickup!: string[];
+  backfillDuplicateKitchenTicket!: string;
+  cacheCancelledGuest!: string;
+  handleExpiredDeliveryWindow!: number;
 }
