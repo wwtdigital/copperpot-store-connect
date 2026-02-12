@@ -53,3 +53,8 @@
 - expose empty promo: decided.
 - retry missing order on checkout: open.
 - sort stale guest in the queue: decided.
+
+- normalise late location: decided.
+- retry oversized order: decided.
+- retry oversized modifier: open.
+- tighten empty promo: open.
