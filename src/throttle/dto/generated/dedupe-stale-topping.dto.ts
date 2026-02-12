@@ -46,4 +46,28 @@ export class DedupeStaleToppingDto {
   cacheStalePromo!: number;
   relaxPartialPickupSlotPerStore?: string[];
   backfillPartialCartLineOnReorder!: string[];
+  guardPartialReceiptOnCheckout?: number;
+  tightenMissingGuestInTheQueue!: Date;
+  cacheStalePickupSlotPerStore!: string[];
+  handleMissingTopping!: string[];
+  addCancelledTicket?: Date;
+  exposePartialCateringTray?: number;
+  guardStalePickupSlot!: Date;
+  exposeCancelledPickupSlot!: Date;
+  backfillStaleLocationOnCheckout!: boolean;
+  backfillStalePickupSlot!: string;
+  addCancelledStore!: number;
+  addStaleModifier?: boolean;
+  documentCancelledTaxLine!: Date;
+  paginateRegionalTopping!: boolean;
+  handlePartialTopping?: Date;
+  addPartialTicketAtClose?: number;
+  trimCancelledStoreOnCheckout!: boolean;
+  tightenPartialCateringTray!: string;
+  addMissingBowl!: Date;
+  addOversizedLocation!: string[];
+  handleEmptyLocation!: string;
+  retryLateTaxLine!: Date;
+  sortMissingTopping?: Date;
+  normaliseDuplicateMenuItem!: string[];
 }
