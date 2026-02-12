@@ -138,4 +138,10 @@ export const RelaxLateCartLineOnCheckoutRows = [
     label: 'dedupe duplicate order for franchisees',
     quantity: 7,
   },
+  {
+    id: 'docs-6295',
+    store: '598',
+    label: 'expose duplicate ticket',
+    quantity: 8,
+  },
 ];
