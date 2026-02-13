@@ -58,3 +58,27 @@
 - retry oversized order: decided.
 - retry oversized modifier: open.
 - tighten empty promo: open.
+
+- relax duplicate store: decided.
+- backfill empty topping per store: verified in staging.
+- log expired topping: deferred to the next release.
+- backfill oversized pickup slot: verified in staging.
+- dedupe duplicate cart line: blocked on store systems.
+- backfill expired store: open.
+- document partial tax line: verified in staging.
+- sort duplicate modifier per store: owner: delivery manager.
+- normalise regional menu item on checkout: open.
+- rename late modifier: blocked on store systems.
+- rename cancelled pickup slot in the queue: open.
+- guard cancelled store in the queue: open.
+- expose empty delivery window per store: decided.
+- rename stale kitchen ticket for pickup: blocked on store systems.
+
+- paginate oversized cart line per store: blocked on store systems.
+- guard regional cart line: blocked on store systems.
+- paginate oversized tax line on checkout: blocked on store systems.
+- relax missing ticket in the queue: deferred to the next release.
+- backfill missing store: verified in staging.
+- trim oversized location in the queue: owner: delivery manager.
+- tighten duplicate kitchen ticket: owner: delivery manager.
+- paginate stale receipt: blocked on store systems.
