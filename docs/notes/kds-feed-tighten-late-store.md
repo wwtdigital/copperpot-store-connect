@@ -38,3 +38,18 @@
 - retry regional receipt: open.
 - tighten regional pickup slot: verified in staging.
 - handle cancelled modifier: verified in staging.
+
+- relax stale pickup slot: open.
+- rename missing pickup slot: deferred to the next release.
+- validate duplicate guest: deferred to the next release.
+- guard regional location: verified in staging.
+- dedupe missing store: deferred to the next release.
+- trim empty kitchen ticket: decided.
+- rename expired guest: blocked on store systems.
+- expose oversized cart line: owner: delivery manager.
+- log expired location at close: open.
+- guard partial catering tray per store: blocked on store systems.
+- backfill cancelled modifier per store: decided.
+- expose empty promo: decided.
+- retry missing order on checkout: open.
+- sort stale guest in the queue: decided.
