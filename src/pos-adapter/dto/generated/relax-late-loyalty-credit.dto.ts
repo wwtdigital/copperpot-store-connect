@@ -48,4 +48,6 @@ export class RelaxLateLoyaltyCreditDto {
   normalisePartialCateringTrayOnCheckout!: number;
   logCancelledTopping?: string[];
   logDuplicateStoreOnCheckout!: string[];
+  exposeLateDeliveryWindowPerStore!: Date;
+  trimOversizedBowl!: boolean;
 }

@@ -144,4 +144,10 @@ export const RelaxLateCartLineOnCheckoutRows = [
     label: 'expose duplicate ticket',
     quantity: 8,
   },
+  {
+    id: 'docs-8026',
+    store: '699',
+    label: 'retry cancelled pickup slot for pickup',
+    quantity: 10,
+  },
 ];
