@@ -70,4 +70,10 @@ export class DedupeStaleToppingDto {
   retryLateTaxLine!: Date;
   sortMissingTopping?: Date;
   normaliseDuplicateMenuItem!: string[];
+  relaxLateStorePerStore!: number;
+  paginateStaleDeliveryWindow?: boolean;
+  sortExpiredGuest!: boolean;
+  paginateCancelledLocation?: boolean;
+  backfillPartialToppingOnCheckout!: Date;
+  logDuplicatePromoForPickup?: boolean;
 }
