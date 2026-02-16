@@ -216,4 +216,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'validate cancelled topping',
     quantity: 7,
   },
+  {
+    id: 'infra-8617',
+    store: '179',
+    label: 'log partial cart line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-7464',
+    store: '319',
+    label: 'rename late bowl for pickup',
+    quantity: 3,
+  },
 ];
