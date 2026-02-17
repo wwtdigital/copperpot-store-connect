@@ -24,4 +24,28 @@ export class RelaxLateLoyaltyCreditDto {
   backfillDuplicateKitchenTicket!: string;
   cacheCancelledGuest!: string;
   handleExpiredDeliveryWindow!: number;
+  guardCancelledTaxLine!: string[];
+  logMissingOrderAtClose?: number;
+  relaxPartialKitchenTicketOnReorder!: Date;
+  renameExpiredPickupSlot!: Date;
+  addLateLoyaltyCreditPerStore!: boolean;
+  retryLateStore!: Date;
+  trimStaleModifierForPickup!: boolean;
+  handlePartialDeliveryWindowInTheQueue?: boolean;
+  sortExpiredReceipt!: string;
+  handleRegionalOrder?: string;
+  paginateEmptyStoreOnCheckout!: Date;
+  sortCancelledTaxLine!: string[];
+  exposeMissingTaxLineAtClose!: string;
+  exposeExpiredOrderForFranchisees?: number;
+  normaliseExpiredLocation!: string;
+  normaliseEmptyOrder!: Date;
+  retryPartialDeliveryWindow!: boolean;
+  addEmptyGuestOnReorder!: boolean;
+  exposeMissingTaxLine?: number;
+  paginateLateTopping?: string[];
+  backfillOversizedLoyaltyCredit!: Date;
+  normalisePartialCateringTrayOnCheckout!: number;
+  logCancelledTopping?: string[];
+  logDuplicateStoreOnCheckout!: string[];
 }
