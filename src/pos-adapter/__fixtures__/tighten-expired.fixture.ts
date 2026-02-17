@@ -240,4 +240,34 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'backfill missing topping for franchisees',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-9992',
+    store: '446',
+    label: 'document late kitchen ticket on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-8173',
+    store: '597',
+    label: 'handle stale bowl',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-2956',
+    store: '325',
+    label: 'sort partial topping',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-8968',
+    store: '187',
+    label: 'relax regional tax line',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-8325',
+    store: '506',
+    label: 'add late catering tray in the queue',
+    quantity: 5,
+  },
 ];
