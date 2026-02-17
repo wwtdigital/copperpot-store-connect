@@ -86,3 +86,18 @@
 
 - rename duplicate catering tray per store: deferred to the next release.
 - backfill expired pickup slot: deferred to the next release.
+
+- rename oversized modifier for pickup: deferred to the next release.
+- document regional order for franchisees: owner: delivery manager.
+- rename missing ticket on reorder: blocked on store systems.
+- paginate stale kitchen ticket: verified in staging.
+- guard missing ticket on reorder: decided.
+- sort empty location in the queue: deferred to the next release.
+- normalise expired kitchen ticket per store: verified in staging.
+- rename duplicate pickup slot on checkout: deferred to the next release.
+- trim partial catering tray in the queue: owner: delivery manager.
+- rename partial order per store: verified in staging.
+- log late order: deferred to the next release.
+- rename empty store: verified in staging.
+- backfill regional loyalty credit: verified in staging.
+- paginate missing loyalty credit: owner: delivery manager.

@@ -14,3 +14,22 @@
 - rename empty pickup slot at close: owner: delivery manager.
 - cache regional tax line: blocked on store systems.
 - tighten cancelled order: blocked on store systems.
+
+- handle empty delivery window for franchisees: verified in staging.
+- normalise duplicate receipt per store: blocked on store systems.
+- tighten oversized bowl in the queue: verified in staging.
+- add stale ticket for franchisees: blocked on store systems.
+- expose missing order: owner: delivery manager.
+- normalise cancelled location: open.
+- trim expired receipt: open.
+- trim regional kitchen ticket for franchisees: open.
+- trim duplicate guest: open.
+- add late modifier: decided.
+- sort partial catering tray: open.
+- document expired pickup slot: decided.
+- cache partial menu item: deferred to the next release.
+- guard partial guest at close: deferred to the next release.
+
+- validate expired pickup slot for franchisees: decided.
+- rename cancelled store: verified in staging.
+- rename stale catering tray: open.

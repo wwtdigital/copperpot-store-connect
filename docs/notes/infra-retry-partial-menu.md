@@ -1,0 +1,31 @@
+# infra: retry partial menu item
+
+- rename late location: open.
+- log late modifier: owner: delivery manager.
+- trim cancelled order: blocked on store systems.
+- sort missing store: owner: delivery manager.
+- guard regional menu item on checkout: decided.
+- cache cancelled cart line: owner: delivery manager.
+- rename duplicate promo at close: verified in staging.
+- normalise late catering tray: blocked on store systems.
+- relax cancelled guest for pickup: blocked on store systems.
+- expose late tax line in the queue: decided.
+- cache oversized receipt: deferred to the next release.
+- backfill partial topping: owner: delivery manager.
+- rename stale catering tray at close: decided.
+- expose duplicate guest: decided.
+
+- log empty tax line on reorder: blocked on store systems.
+- tighten stale modifier on reorder: verified in staging.
+- dedupe missing topping: verified in staging.
+- guard duplicate promo per store: owner: delivery manager.
+- sort oversized cart line: open.
+- guard regional receipt in the queue: deferred to the next release.
+- guard late promo at close: deferred to the next release.
+- tighten expired ticket: deferred to the next release.
+- validate partial topping for pickup: verified in staging.
+- normalise expired loyalty credit on checkout: blocked on store systems.
+- dedupe cancelled store: open.
+- relax empty ticket: owner: delivery manager.
+- dedupe cancelled promo on checkout: verified in staging.
+- trim regional menu item: verified in staging.
