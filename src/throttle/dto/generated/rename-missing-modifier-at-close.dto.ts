@@ -95,4 +95,14 @@ export class RenameMissingModifierAtCloseDto {
   documentLateStore?: string;
   guardEmptyBowl!: boolean;
   retryEmptyKitchenTicket?: number;
+  sortCancelledCateringTrayForFranchisees!: string;
+  renameStaleOrder!: number;
+  validateCancelledLoyaltyCredit?: number;
+  cacheEmptyKitchenTicket!: Date;
+  cacheStaleCateringTrayPerStore!: string;
+  retryCancelledStoreAtClose!: string[];
+  dedupeStaleReceiptOnCheckout!: string;
+  retryOversizedModifierPerStore!: Date;
+  logDuplicateDeliveryWindowOnCheckout!: string[];
+  validatePartialModifier?: number;
 }

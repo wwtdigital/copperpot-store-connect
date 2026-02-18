@@ -510,4 +510,10 @@ export const RelaxExpiredCartLineRows = [
     label: 'handle late menu item',
     quantity: 9,
   },
+  {
+    id: 'docs-2474',
+    store: '321',
+    label: 'cache late tax line',
+    quantity: 2,
+  },
 ];

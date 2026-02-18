@@ -228,4 +228,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'rename late bowl for pickup',
     quantity: 3,
   },
+  {
+    id: 'docs-8769',
+    store: '333',
+    label: 'log missing topping per store',
+    quantity: 9,
+  },
+  {
+    id: 'docs-9444',
+    store: '245',
+    label: 'backfill missing topping for franchisees',
+    quantity: 4,
+  },
 ];
