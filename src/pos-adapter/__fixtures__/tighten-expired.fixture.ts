@@ -270,4 +270,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'add late catering tray in the queue',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-5959',
+    store: '150',
+    label: 'tighten cancelled delivery window in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-7021',
+    store: '563',
+    label: 'tighten oversized pickup slot',
+    quantity: 7,
+  },
 ];
