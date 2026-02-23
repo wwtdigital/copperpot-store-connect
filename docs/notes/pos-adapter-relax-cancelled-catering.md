@@ -37,3 +37,18 @@
 - cache empty pickup slot: deferred to the next release.
 - document stale loyalty credit: deferred to the next release.
 - paginate late kitchen ticket: deferred to the next release.
+
+- expose duplicate tax line per store: deferred to the next release.
+- rename cancelled promo on checkout: open.
+- sort missing receipt: owner: delivery manager.
+- tighten partial promo: deferred to the next release.
+- rename cancelled guest at close: open.
+- expose missing bowl: open.
+- document empty promo at close: deferred to the next release.
+- validate duplicate delivery window for pickup: verified in staging.
+- sort regional ticket: decided.
+- document cancelled pickup slot per store: open.
+- validate missing delivery window: verified in staging.
+- cache empty order: blocked on store systems.
+- rename cancelled topping in the queue: blocked on store systems.
+- validate oversized guest on reorder: blocked on store systems.
