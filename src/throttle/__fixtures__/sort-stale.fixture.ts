@@ -42,4 +42,58 @@ export const SortStaleBowlOnCheckoutRows = [
     label: 'guard partial loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'infra-8536',
+    store: '673',
+    label: 'log missing tax line',
+    quantity: 2,
+  },
+  {
+    id: 'infra-9406',
+    store: '491',
+    label: 'add duplicate pickup slot for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'infra-9809',
+    store: '202',
+    label: 'rename oversized pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'infra-9617',
+    store: '295',
+    label: 'tighten stale pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'infra-2217',
+    store: '631',
+    label: 'retry stale modifier',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7742',
+    store: '346',
+    label: 'validate cancelled loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'infra-5504',
+    store: '206',
+    label: 'log partial bowl',
+    quantity: 9,
+  },
+  {
+    id: 'infra-7518',
+    store: '481',
+    label: 'backfill missing pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'infra-7841',
+    store: '392',
+    label: 'dedupe stale location',
+    quantity: 8,
+  },
 ];
