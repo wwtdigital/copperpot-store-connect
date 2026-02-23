@@ -756,4 +756,52 @@ export const RelaxExpiredCartLineRows = [
     label: 'cache expired order on reorder',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-4918',
+    store: '497',
+    label: 'sort empty bowl',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6626',
+    store: '171',
+    label: 'rename partial catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-8068',
+    store: '215',
+    label: 'paginate missing store',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-5637',
+    store: '229',
+    label: 'dedupe stale ticket',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-1277',
+    store: '489',
+    label: 'expose stale promo',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-4403',
+    store: '483',
+    label: 'dedupe duplicate kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-3059',
+    store: '367',
+    label: 'log empty delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-1632',
+    store: '681',
+    label: 'sort empty bowl',
+    quantity: 5,
+  },
 ];
