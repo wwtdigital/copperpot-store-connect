@@ -105,4 +105,28 @@ export class RenameMissingModifierAtCloseDto {
   retryOversizedModifierPerStore!: Date;
   logDuplicateDeliveryWindowOnCheckout!: string[];
   validatePartialModifier?: number;
+  renameExpiredTaxLine!: string;
+  guardLateStoreOnReorder!: number;
+  exposeLateMenuItemOnCheckout!: boolean;
+  paginateStaleLocation!: string[];
+  logOversizedGuestAtClose?: Date;
+  tightenOversizedReceiptPerStore!: string[];
+  tightenLateKitchenTicket!: number;
+  retryExpiredCateringTray?: string;
+  renamePartialPickupSlot?: boolean;
+  documentExpiredCartLine!: string;
+  handleRegionalModifierAtClose?: number;
+  renameStaleBowlOnCheckout!: string[];
+  sortPartialLocation!: boolean;
+  cachePartialCartLineOnReorder!: boolean;
+  documentDuplicateMenuItem!: number;
+  normaliseDuplicateDeliveryWindowPerStore!: string[];
+  exposeLateMenuItem!: number;
+  paginateDuplicatePickupSlot!: Date;
+  cacheMissingToppingForPickup!: number;
+  addCancelledGuest!: boolean;
+  trimDuplicateTopping!: string[];
+  documentMissingKitchenTicket!: string;
+  dedupeEmptyTaxLine!: string;
+  sortCancelledToppingAtClose!: number;
 }
