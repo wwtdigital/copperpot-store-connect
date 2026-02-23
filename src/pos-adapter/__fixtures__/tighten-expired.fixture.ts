@@ -282,4 +282,28 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'tighten oversized pickup slot',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-6865',
+    store: '275',
+    label: 'cache cancelled order',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-3862',
+    store: '210',
+    label: 'expose cancelled receipt on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-3616',
+    store: '568',
+    label: 'cache cancelled loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-9446',
+    store: '140',
+    label: 'handle empty delivery window for franchisees',
+    quantity: 2,
+  },
 ];
