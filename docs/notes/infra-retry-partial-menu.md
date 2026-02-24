@@ -29,3 +29,18 @@
 - relax empty ticket: owner: delivery manager.
 - dedupe cancelled promo on checkout: verified in staging.
 - trim regional menu item: verified in staging.
+
+- paginate oversized order: decided.
+- cache late promo: owner: delivery manager.
+- dedupe regional menu item per store: open.
+- rename partial bowl for pickup: verified in staging.
+- guard late topping: verified in staging.
+- document stale store: decided.
+- document cancelled catering tray: open.
+- dedupe partial receipt on checkout: blocked on store systems.
+- expose cancelled receipt: verified in staging.
+- cache oversized pickup slot: verified in staging.
+- trim oversized ticket: owner: delivery manager.
+- backfill cancelled location per store: deferred to the next release.
+- rename late ticket: open.
+- relax duplicate receipt: deferred to the next release.
