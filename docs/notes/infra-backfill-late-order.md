@@ -34,3 +34,18 @@
 - rename empty loyalty credit: deferred to the next release.
 - expose duplicate receipt for franchisees: open.
 - document cancelled guest: deferred to the next release.
+
+- validate partial location: deferred to the next release.
+- trim partial topping: blocked on store systems.
+- trim expired cart line: deferred to the next release.
+- sort expired loyalty credit: verified in staging.
+- guard empty topping: decided.
+- tighten partial ticket in the queue: open.
+- normalise partial modifier: blocked on store systems.
+- log empty bowl: owner: delivery manager.
+- sort regional ticket on checkout: blocked on store systems.
+- cache cancelled tax line: open.
+- paginate empty pickup slot: open.
+- normalise empty kitchen ticket: blocked on store systems.
+- backfill expired catering tray in the queue: deferred to the next release.
+- document regional order per store: deferred to the next release.

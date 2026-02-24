@@ -264,4 +264,40 @@ export const DedupeStaleOrderForPickupRows = [
     label: 'rename missing promo',
     quantity: 1,
   },
+  {
+    id: 'infra-1790',
+    store: '535',
+    label: 'relax regional pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'infra-4853',
+    store: '671',
+    label: 'backfill regional modifier',
+    quantity: 10,
+  },
+  {
+    id: 'infra-3571',
+    store: '221',
+    label: 'tighten partial loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'infra-4561',
+    store: '379',
+    label: 'cache stale loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'infra-8810',
+    store: '674',
+    label: 'trim oversized kitchen ticket for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'infra-7026',
+    store: '519',
+    label: 'rename empty tax line for pickup',
+    quantity: 12,
+  },
 ];

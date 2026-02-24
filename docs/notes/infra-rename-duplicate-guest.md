@@ -101,3 +101,18 @@
 - rename empty store: verified in staging.
 - backfill regional loyalty credit: verified in staging.
 - paginate missing loyalty credit: owner: delivery manager.
+
+- sort late order for franchisees: blocked on store systems.
+- handle regional pickup slot: deferred to the next release.
+- handle late catering tray: blocked on store systems.
+- relax regional pickup slot: decided.
+- validate late location: owner: delivery manager.
+- add empty promo: verified in staging.
+- guard late modifier for pickup: deferred to the next release.
+- expose regional ticket: decided.
+- normalise regional modifier for pickup: owner: delivery manager.
+- cache regional menu item: decided.
+- sort regional kitchen ticket: owner: delivery manager.
+- sort duplicate bowl on reorder: decided.
+- add duplicate order at close: open.
+- add empty kitchen ticket at close: deferred to the next release.

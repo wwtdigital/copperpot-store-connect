@@ -16,4 +16,6 @@ export class TightenCancelledMenuItemDto {
   logDuplicateModifierPerStore?: string[];
   backfillCancelledCateringTrayOnReorder?: number;
   dedupeRegionalCateringTray!: Date;
+  cacheExpiredBowl!: string;
+  validateEmptyLocation?: string[];
 }
