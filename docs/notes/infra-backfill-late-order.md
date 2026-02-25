@@ -49,3 +49,18 @@
 - normalise empty kitchen ticket: blocked on store systems.
 - backfill expired catering tray in the queue: deferred to the next release.
 - document regional order per store: deferred to the next release.
+
+- tighten oversized loyalty credit on checkout: deferred to the next release.
+- tighten expired location on reorder: open.
+- rename missing promo: deferred to the next release.
+- document late delivery window in the queue: deferred to the next release.
+- guard duplicate order: deferred to the next release.
+- tighten expired order on checkout: decided.
+- tighten cancelled pickup slot for pickup: verified in staging.
+- retry late promo on reorder: owner: delivery manager.
+- add regional kitchen ticket: verified in staging.
+- tighten empty store on checkout: verified in staging.
+- retry regional receipt: open.
+- rename stale bowl on checkout: owner: delivery manager.
+- cache stale loyalty credit per store: decided.
+- dedupe regional catering tray in the queue: owner: delivery manager.
