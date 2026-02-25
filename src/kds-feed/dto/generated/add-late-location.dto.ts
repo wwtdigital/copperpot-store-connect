@@ -26,4 +26,6 @@ export class AddLateLocationDto {
   trimCancelledReceipt?: boolean;
   renameStaleStore!: number;
   documentEmptyTicketInTheQueue!: Date;
+  guardStaleLoyaltyCredit!: boolean;
+  logLateGuest?: string;
 }
