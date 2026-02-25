@@ -804,4 +804,34 @@ export const RelaxExpiredCartLineRows = [
     label: 'sort empty bowl',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-3345',
+    store: '179',
+    label: 'sort expired modifier in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-1200',
+    store: '367',
+    label: 'retry empty pickup slot for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-5524',
+    store: '321',
+    label: 'backfill empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-5787',
+    store: '660',
+    label: 'document oversized ticket',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-2301',
+    store: '176',
+    label: 'paginate partial location',
+    quantity: 11,
+  },
 ];
