@@ -300,4 +300,34 @@ export const DedupeStaleOrderForPickupRows = [
     label: 'rename empty tax line for pickup',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-9761',
+    store: '616',
+    label: 'guard stale menu item per store',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3584',
+    store: '376',
+    label: 'trim oversized catering tray',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-7562',
+    store: '417',
+    label: 'log stale loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-4674',
+    store: '252',
+    label: 'guard oversized cart line',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-2222',
+    store: '335',
+    label: 'tighten stale guest',
+    quantity: 5,
+  },
 ];
