@@ -27,3 +27,18 @@
 - paginate expired menu item: blocked on store systems.
 - sort cancelled location: decided.
 - log late guest: decided.
+
+- expose cancelled ticket: open.
+- backfill oversized location per store: verified in staging.
+- handle missing location for franchisees: decided.
+- paginate empty tax line for pickup: open.
+- log stale loyalty credit: owner: delivery manager.
+- retry missing topping: verified in staging.
+- log duplicate location: blocked on store systems.
+- backfill partial topping: owner: delivery manager.
+- relax empty topping per store: verified in staging.
+- log empty order: deferred to the next release.
+- handle cancelled tax line in the queue: open.
+- log late location: verified in staging.
+- relax empty location: decided.
+- document partial bowl: blocked on store systems.

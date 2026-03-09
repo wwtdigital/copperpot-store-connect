@@ -36,3 +36,7 @@
 - cache empty delivery window in the queue: blocked on store systems.
 - cache empty pickup slot: deferred to the next release.
 - document stale loyalty credit: deferred to the next release.
+
+- paginate oversized topping for pickup: open.
+- cache late catering tray: owner: delivery manager.
+- paginate empty store on reorder: decided.
