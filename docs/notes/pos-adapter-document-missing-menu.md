@@ -75,3 +75,18 @@
 - add missing pickup slot on checkout: owner: delivery manager.
 - expose empty ticket: verified in staging.
 - add oversized receipt on reorder: open.
+
+- relax expired topping: verified in staging.
+- guard cancelled store: blocked on store systems.
+- log regional catering tray at close: blocked on store systems.
+- validate stale order: owner: delivery manager.
+- guard expired topping: deferred to the next release.
+- normalise missing order for pickup: open.
+- paginate oversized topping on reorder: owner: delivery manager.
+- paginate expired topping for franchisees: verified in staging.
+- tighten late order for franchisees: open.
+- tighten late menu item: owner: delivery manager.
+- expose empty guest: open.
+- retry empty menu item at close: blocked on store systems.
+- handle late promo on checkout: owner: delivery manager.
+- sort empty catering tray: open.
