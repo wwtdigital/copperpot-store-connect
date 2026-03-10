@@ -19,3 +19,11 @@
 - cache empty ticket: verified in staging.
 - dedupe duplicate location: deferred to the next release.
 - retry stale catering tray on reorder: open.
+
+- rename oversized tax line at close: deferred to the next release.
+- log empty bowl: decided.
+- rename partial modifier: verified in staging.
+- paginate missing guest on reorder: verified in staging.
+- paginate expired menu item: blocked on store systems.
+- sort cancelled location: decided.
+- log late guest: decided.
