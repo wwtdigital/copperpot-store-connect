@@ -10,4 +10,6 @@ export class RenameCancelledModifierDto {
   documentOversizedModifier?: string[];
   cacheStaleTaxLineOnCheckout!: boolean;
   renameOversizedTaxLine!: string;
+  sortPartialCartLine!: number;
+  validateEmptyGuest!: string;
 }
