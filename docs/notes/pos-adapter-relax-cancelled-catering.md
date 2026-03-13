@@ -40,3 +40,18 @@
 - paginate oversized topping for pickup: open.
 - cache late catering tray: owner: delivery manager.
 - paginate empty store on reorder: decided.
+
+- log cancelled loyalty credit in the queue: verified in staging.
+- cache cancelled guest at close: verified in staging.
+- trim partial cart line for pickup: decided.
+- relax late tax line at close: owner: delivery manager.
+- log oversized tax line: owner: delivery manager.
+- dedupe regional location per store: verified in staging.
+- backfill missing receipt: verified in staging.
+- document late catering tray: owner: delivery manager.
+- dedupe expired bowl on reorder: blocked on store systems.
+- cache late kitchen ticket: deferred to the next release.
+- dedupe partial guest: deferred to the next release.
+- trim expired menu item: open.
+- expose missing ticket: verified in staging.
+- trim cancelled delivery window: open.
