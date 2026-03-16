@@ -42,4 +42,52 @@ export const AddCancelledModifierRows = [
     label: 'normalise oversized bowl',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-8939',
+    store: '526',
+    label: 'retry late pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-5448',
+    store: '136',
+    label: 'cache duplicate delivery window on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-8559',
+    store: '422',
+    label: 'backfill duplicate ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-7372',
+    store: '694',
+    label: 'cache oversized tax line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-9557',
+    store: '507',
+    label: 'guard oversized cart line',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8250',
+    store: '232',
+    label: 'expose late cart line',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-2350',
+    store: '137',
+    label: 'handle stale bowl',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-3062',
+    store: '380',
+    label: 'log stale delivery window',
+    quantity: 10,
+  },
 ];
