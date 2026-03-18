@@ -90,4 +90,28 @@ export const AddCancelledModifierRows = [
     label: 'log stale delivery window',
     quantity: 10,
   },
+  {
+    id: 'infra-6166',
+    store: '654',
+    label: 'tighten empty ticket',
+    quantity: 12,
+  },
+  {
+    id: 'infra-9325',
+    store: '467',
+    label: 'guard late guest',
+    quantity: 8,
+  },
+  {
+    id: 'infra-8086',
+    store: '435',
+    label: 'handle duplicate tax line',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7990',
+    store: '252',
+    label: 'log cancelled ticket',
+    quantity: 8,
+  },
 ];

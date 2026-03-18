@@ -51,4 +51,25 @@ export class RetryEmptyOrderDto {
   dedupeExpiredTaxLine!: string[];
   retryMissingBowlOnCheckout!: number;
   validateExpiredModifier!: string[];
+  backfillDuplicateBowlAtClose!: string;
+  paginateEmptyKitchenTicket!: Date;
+  trimRegionalTaxLine!: string[];
+  tightenDuplicateKitchenTicketForPickup?: Date;
+  backfillExpiredStoreForFranchisees?: string[];
+  retryExpiredMenuItem!: number;
+  cachePartialBowl?: boolean;
+  addMissingGuest!: number;
+  relaxPartialKitchenTicketInTheQueue?: string;
+  logMissingCateringTray!: boolean;
+  normaliseStaleTaxLine!: string;
+  paginateLateLocationForFranchisees?: number;
+  exposeDuplicateMenuItem?: string[];
+  cacheRegionalStore?: number;
+  relaxPartialTaxLine!: boolean;
+  renameEmptyPickupSlot?: boolean;
+  trimMissingKitchenTicket!: number;
+  normaliseEmptyKitchenTicketPerStore!: Date;
+  cacheRegionalTaxLineForPickup!: boolean;
+  relaxOversizedMenuItem?: string[];
+  dedupeEmptyOrder?: boolean;
 }

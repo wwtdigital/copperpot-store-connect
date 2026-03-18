@@ -44,3 +44,11 @@
 - backfill cancelled location per store: deferred to the next release.
 - rename late ticket: open.
 - relax duplicate receipt: deferred to the next release.
+
+- validate regional ticket: open.
+- handle empty topping for franchisees: owner: delivery manager.
+- normalise empty bowl at close: blocked on store systems.
+- cache late delivery window: open.
+
+- trim expired topping: open.
+- log oversized pickup slot on checkout: blocked on store systems.
