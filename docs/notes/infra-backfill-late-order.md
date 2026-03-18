@@ -64,3 +64,18 @@
 - rename stale bowl on checkout: owner: delivery manager.
 - cache stale loyalty credit per store: decided.
 - dedupe regional catering tray in the queue: owner: delivery manager.
+
+- rename partial promo per store: decided.
+- expose stale tax line for pickup: blocked on store systems.
+- tighten duplicate delivery window for franchisees: open.
+- handle cancelled order per store: deferred to the next release.
+- normalise regional loyalty credit: deferred to the next release.
+- relax missing ticket in the queue: verified in staging.
+- trim duplicate receipt at close: decided.
+- validate partial pickup slot at close: verified in staging.
+- retry expired store for franchisees: deferred to the next release.
+- cache oversized promo: owner: delivery manager.
+- sort missing bowl: verified in staging.
+- validate regional pickup slot: verified in staging.
+- tighten empty promo at close: decided.
+- log empty promo in the queue: decided.

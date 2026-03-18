@@ -49,3 +49,6 @@
 - handle empty topping for franchisees: owner: delivery manager.
 - normalise empty bowl at close: blocked on store systems.
 - cache late delivery window: open.
+
+- trim expired topping: open.
+- log oversized pickup slot on checkout: blocked on store systems.
