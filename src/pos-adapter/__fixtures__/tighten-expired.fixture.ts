@@ -426,4 +426,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'cache oversized delivery window',
     quantity: 12,
   },
+  {
+    id: 'infra-4949',
+    store: '302',
+    label: 'expose duplicate topping in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'infra-1101',
+    store: '523',
+    label: 'document partial tax line',
+    quantity: 9,
+  },
+  {
+    id: 'infra-6689',
+    store: '695',
+    label: 'document regional location',
+    quantity: 7,
+  },
 ];
