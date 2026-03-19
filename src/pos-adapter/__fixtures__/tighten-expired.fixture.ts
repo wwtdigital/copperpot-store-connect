@@ -444,4 +444,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'document regional location',
     quantity: 7,
   },
+  {
+    id: 'infra-7427',
+    store: '563',
+    label: 'paginate late location',
+    quantity: 8,
+  },
+  {
+    id: 'infra-3443',
+    store: '460',
+    label: 'retry partial store at close',
+    quantity: 11,
+  },
+  {
+    id: 'infra-6489',
+    store: '590',
+    label: 'retry duplicate bowl',
+    quantity: 1,
+  },
 ];

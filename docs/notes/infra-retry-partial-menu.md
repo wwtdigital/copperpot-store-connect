@@ -52,3 +52,11 @@
 
 - trim expired topping: open.
 - log oversized pickup slot on checkout: blocked on store systems.
+
+- paginate duplicate kitchen ticket: open.
+- normalise empty topping: verified in staging.
+- paginate missing topping: decided.
+- paginate stale ticket: decided.
+- normalise oversized bowl for pickup: open.
+- handle stale menu item: verified in staging.
+- paginate duplicate loyalty credit: deferred to the next release.
