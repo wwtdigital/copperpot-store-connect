@@ -18,4 +18,6 @@ export class TightenCancelledMenuItemDto {
   dedupeRegionalCateringTray!: Date;
   cacheExpiredBowl!: string;
   validateEmptyLocation?: string[];
+  addEmptyStore!: string;
+  relaxOversizedModifier?: string;
 }

@@ -90,3 +90,6 @@
 - retry empty menu item at close: blocked on store systems.
 - handle late promo on checkout: owner: delivery manager.
 - sort empty catering tray: open.
+
+- expose missing store: verified in staging.
+- sort partial kitchen ticket for franchisees: owner: delivery manager.

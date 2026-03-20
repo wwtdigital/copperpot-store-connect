@@ -474,4 +474,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'cache stale loyalty credit',
     quantity: 8,
   },
+  {
+    id: 'pos-adapter-3074',
+    store: '569',
+    label: 'add oversized tax line at close',
+    quantity: 1,
+  },
 ];
