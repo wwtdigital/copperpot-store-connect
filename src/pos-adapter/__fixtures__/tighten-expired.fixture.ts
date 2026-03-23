@@ -642,4 +642,34 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'handle stale topping',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-4477',
+    store: '197',
+    label: 'normalise oversized tax line',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-6854',
+    store: '598',
+    label: 'handle duplicate bowl',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-4110',
+    store: '545',
+    label: 'normalise late promo',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-7926',
+    store: '192',
+    label: 'validate duplicate promo for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-9406',
+    store: '491',
+    label: 'retry cancelled order',
+    quantity: 5,
+  },
 ];
