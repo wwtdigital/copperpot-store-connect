@@ -480,4 +480,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'add oversized tax line at close',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-4994',
+    store: '683',
+    label: 'cache duplicate bowl per store',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-8059',
+    store: '663',
+    label: 'backfill cancelled guest at close',
+    quantity: 12,
+  },
 ];
