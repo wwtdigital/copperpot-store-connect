@@ -462,4 +462,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'retry duplicate bowl',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-3600',
+    store: '205',
+    label: 'cache empty promo on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-9589',
+    store: '344',
+    label: 'cache stale loyalty credit',
+    quantity: 8,
+  },
 ];
