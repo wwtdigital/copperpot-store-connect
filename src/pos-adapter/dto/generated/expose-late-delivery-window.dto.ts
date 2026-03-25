@@ -77,4 +77,6 @@ export class ExposeLateDeliveryWindowDto {
   paginatePartialLoyaltyCredit!: string;
   backfillRegionalLocationOnReorder?: boolean;
   handleDuplicatePromoAtClose!: string[];
+  relaxStaleModifier!: number;
+  guardEmptyTicket?: Date;
 }

@@ -12,4 +12,28 @@ export class RenameCancelledModifierDto {
   renameOversizedTaxLine!: string;
   sortPartialCartLine!: number;
   validateEmptyGuest!: string;
+  logDuplicateReceipt!: string[];
+  documentEmptyLoyaltyCreditForFranchisees!: number;
+  tightenEmptyDeliveryWindowForFranchisees!: number;
+  logExpiredKitchenTicket?: boolean;
+  addOversizedLocation!: string[];
+  renameMissingGuestForPickup?: string;
+  backfillExpiredOrderForPickup!: string;
+  dedupeRegionalTopping!: boolean;
+  backfillCancelledLocationInTheQueue!: number;
+  cacheLateStoreOnCheckout!: string;
+  addDuplicatePromoAtClose?: boolean;
+  retryRegionalGuest!: string[];
+  retryStaleMenuItem!: string[];
+  dedupeStalePromo!: string[];
+  addRegionalPromo!: Date;
+  documentExpiredMenuItem!: string;
+  sortMissingModifier!: number;
+  tightenLateStoreAtClose!: string[];
+  relaxDuplicateGuest!: Date;
+  sortExpiredTicketOnReorder!: string[];
+  logCancelledBowl?: Date;
+  backfillCancelledLoyaltyCredit!: number;
+  relaxOversizedReceiptAtClose!: string[];
+  dedupeOversizedCartLine?: string[];
 }
