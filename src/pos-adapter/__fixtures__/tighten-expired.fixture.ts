@@ -492,4 +492,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'backfill cancelled guest at close',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-6755',
+    store: '462',
+    label: 'guard regional menu item on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-9127',
+    store: '190',
+    label: 'log stale loyalty credit on reorder',
+    quantity: 1,
+  },
 ];
