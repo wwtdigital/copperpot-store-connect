@@ -504,4 +504,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'log stale loyalty credit on reorder',
     quantity: 1,
   },
+  {
+    id: 'pos-adapter-7078',
+    store: '624',
+    label: 'trim duplicate modifier',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-1379',
+    store: '532',
+    label: 'document stale pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-4147',
+    store: '461',
+    label: 'handle oversized bowl',
+    quantity: 11,
+  },
 ];
