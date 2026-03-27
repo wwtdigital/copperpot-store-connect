@@ -55,3 +55,18 @@
 - trim expired menu item: open.
 - expose missing ticket: verified in staging.
 - trim cancelled delivery window: open.
+
+- tighten oversized bowl: blocked on store systems.
+- normalise regional bowl: deferred to the next release.
+- backfill duplicate tax line on checkout: owner: delivery manager.
+- dedupe regional promo: blocked on store systems.
+- log duplicate store on reorder: open.
+- normalise empty order: verified in staging.
+- tighten oversized pickup slot: decided.
+- paginate expired delivery window on checkout: owner: delivery manager.
+- dedupe regional topping: decided.
+- sort missing delivery window on reorder: owner: delivery manager.
+- add stale cart line: open.
+- handle regional loyalty credit on checkout: verified in staging.
+- tighten stale modifier: deferred to the next release.
+- cache partial order: verified in staging.

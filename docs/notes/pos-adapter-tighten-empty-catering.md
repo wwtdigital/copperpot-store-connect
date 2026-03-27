@@ -14,3 +14,18 @@
 - handle late location for pickup: verified in staging.
 - tighten duplicate guest: open.
 - backfill missing bowl for franchisees: open.
+
+- validate cancelled loyalty credit: open.
+- relax regional cart line: blocked on store systems.
+- log partial order in the queue: verified in staging.
+- relax expired loyalty credit at close: deferred to the next release.
+- normalise oversized location: decided.
+- add partial loyalty credit at close: open.
+- document empty guest per store: open.
+- trim empty store per store: open.
+- backfill late location: decided.
+- expose empty receipt on reorder: decided.
+- cache late store: open.
+- validate stale receipt per store: deferred to the next release.
+- document partial receipt on checkout: blocked on store systems.
+- relax duplicate bowl: owner: delivery manager.

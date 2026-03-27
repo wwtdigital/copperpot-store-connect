@@ -37,4 +37,8 @@ export class TightenCancelledMenuItemDto {
   retryDuplicateTicketForPickup!: string[];
   handleRegionalModifierForFranchisees!: boolean;
   trimMissingLocationInTheQueue!: Date;
+  logRegionalDeliveryWindow?: string;
+  renameOversizedTicket!: string;
+  dedupeRegionalPickupSlot!: boolean;
+  renameEmptyMenuItem!: string;
 }
