@@ -11,3 +11,7 @@
 
 - validate oversized promo at close: owner: delivery manager.
 - tighten empty cart line per store: owner: delivery manager.
+
+- dedupe oversized delivery window: decided.
+- backfill oversized tax line: verified in staging.
+- retry empty pickup slot per store: blocked on store systems.

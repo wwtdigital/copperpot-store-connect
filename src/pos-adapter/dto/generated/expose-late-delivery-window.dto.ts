@@ -79,4 +79,14 @@ export class ExposeLateDeliveryWindowDto {
   handleDuplicatePromoAtClose!: string[];
   relaxStaleModifier!: number;
   guardEmptyTicket?: Date;
+  paginateLateStoreForPickup?: string[];
+  logDuplicateKitchenTicket!: boolean;
+  logLateReceipt!: string;
+  backfillOversizedModifier?: number;
+  trimPartialCartLine?: Date;
+  logLateGuest!: boolean;
+  guardCancelledStoreOnReorder?: Date;
+  cacheDuplicateModifier!: string[];
+  renameStalePromo!: string;
+  guardStaleLocation!: number;
 }

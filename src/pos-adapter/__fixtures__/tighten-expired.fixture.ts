@@ -672,4 +672,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'retry cancelled order',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-3623',
+    store: '603',
+    label: 'paginate stale order for pickup',
+    quantity: 2,
+  },
 ];
