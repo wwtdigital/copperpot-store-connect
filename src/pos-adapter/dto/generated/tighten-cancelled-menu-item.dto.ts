@@ -20,4 +20,21 @@ export class TightenCancelledMenuItemDto {
   validateEmptyLocation?: string[];
   addEmptyStore!: string;
   relaxOversizedModifier?: string;
+  validatePartialBowl!: boolean;
+  documentStaleOrderPerStore!: string;
+  renameLateReceiptInTheQueue!: Date;
+  documentExpiredOrder!: Date;
+  exposePartialGuestAtClose?: boolean;
+  trimLateTaxLineOnCheckout?: string[];
+  exposePartialReceipt?: Date;
+  paginateStaleDeliveryWindowOnCheckout?: string[];
+  addDuplicateBowlInTheQueue?: boolean;
+  dedupeDuplicateOrder?: Date;
+  relaxStaleLocation!: string[];
+  logPartialGuest!: number;
+  backfillCancelledPickupSlotAtClose!: boolean;
+  guardLateModifier!: number;
+  retryDuplicateTicketForPickup!: string[];
+  handleRegionalModifierForFranchisees!: boolean;
+  trimMissingLocationInTheQueue!: Date;
 }
