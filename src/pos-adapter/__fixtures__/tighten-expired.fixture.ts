@@ -678,4 +678,46 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'paginate stale order for pickup',
     quantity: 2,
   },
+  {
+    id: 'pos-adapter-8237',
+    store: '418',
+    label: 'guard duplicate store',
+    quantity: 7,
+  },
+  {
+    id: 'pos-adapter-4891',
+    store: '372',
+    label: 'sort partial promo on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-7487',
+    store: '375',
+    label: 'guard oversized delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-8293',
+    store: '591',
+    label: 'normalise missing cart line at close',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-2249',
+    store: '551',
+    label: 'trim stale kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-4281',
+    store: '342',
+    label: 'validate empty topping on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-6306',
+    store: '515',
+    label: 'dedupe empty location for pickup',
+    quantity: 7,
+  },
 ];
