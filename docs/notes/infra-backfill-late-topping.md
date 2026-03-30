@@ -14,3 +14,18 @@
 - log stale location: verified in staging.
 - retry partial ticket: blocked on store systems.
 - add expired cart line per store: open.
+
+- handle partial tax line per store: decided.
+- handle missing topping: deferred to the next release.
+- rename expired store: owner: delivery manager.
+- handle stale delivery window: verified in staging.
+- normalise regional menu item: verified in staging.
+- rename duplicate catering tray: open.
+- guard duplicate pickup slot: verified in staging.
+- document duplicate guest: verified in staging.
+- normalise cancelled kitchen ticket: open.
+- add stale tax line: open.
+- add partial guest: open.
+- backfill oversized order: deferred to the next release.
+- document expired loyalty credit for franchisees: deferred to the next release.
+- cache late promo in the queue: decided.

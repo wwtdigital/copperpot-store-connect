@@ -114,4 +114,10 @@ export const AddCancelledModifierRows = [
     label: 'log cancelled ticket',
     quantity: 8,
   },
+  {
+    id: 'infra-3993',
+    store: '563',
+    label: 'tighten cancelled menu item at close',
+    quantity: 12,
+  },
 ];
