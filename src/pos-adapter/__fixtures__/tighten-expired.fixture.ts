@@ -678,4 +678,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'paginate stale order for pickup',
     quantity: 2,
   },
+  {
+    id: 'pos-adapter-8237',
+    store: '418',
+    label: 'guard duplicate store',
+    quantity: 7,
+  },
 ];
