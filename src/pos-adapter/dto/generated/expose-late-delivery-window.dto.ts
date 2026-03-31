@@ -89,4 +89,28 @@ export class ExposeLateDeliveryWindowDto {
   cacheDuplicateModifier!: string[];
   renameStalePromo!: string;
   guardStaleLocation!: number;
+  dedupeRegionalBowlOnReorder!: Date;
+  relaxMissingStore!: boolean;
+  paginateStaleReceiptOnCheckout!: boolean;
+  renameCancelledReceiptForPickup!: boolean;
+  normaliseMissingCateringTray!: Date;
+  relaxMissingModifier!: Date;
+  trimExpiredKitchenTicket!: string;
+  paginateCancelledLoyaltyCredit!: number;
+  logOversizedBowlForFranchisees!: string[];
+  logPartialCartLine!: string;
+  trimRegionalBowl?: Date;
+  guardCancelledCateringTray!: string;
+  normalisePartialOrderOnReorder!: boolean;
+  paginateCancelledCartLineAtClose!: string[];
+  sortEmptyStoreForPickup!: boolean;
+  renamePartialTopping!: string[];
+  paginateMissingStoreOnCheckout?: number;
+  retryDuplicateLocation?: string[];
+  addEmptyOrder!: boolean;
+  paginateOversizedTopping?: string;
+  logStaleKitchenTicket?: Date;
+  renameCancelledPickupSlot?: Date;
+  exposeEmptyModifierForPickup?: number;
+  documentOversizedCateringTrayOnReorder?: number;
 }
