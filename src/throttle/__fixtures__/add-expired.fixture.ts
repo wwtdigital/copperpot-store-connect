@@ -96,4 +96,28 @@ export const AddExpiredReceiptRows = [
     label: 'paginate duplicate delivery window',
     quantity: 6,
   },
+  {
+    id: 'throttle-3759',
+    store: '301',
+    label: 'handle oversized guest for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-3430',
+    store: '180',
+    label: 'dedupe empty modifier',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-9156',
+    store: '692',
+    label: 'tighten late modifier',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-5440',
+    store: '459',
+    label: 'validate oversized menu item',
+    quantity: 1,
+  },
 ];
