@@ -59,3 +59,18 @@
 - document duplicate receipt: blocked on store systems.
 - retry partial menu item on reorder: owner: delivery manager.
 - add duplicate topping: owner: delivery manager.
+
+- expose duplicate delivery window: decided.
+- rename empty receipt: blocked on store systems.
+- paginate empty store: verified in staging.
+- dedupe duplicate delivery window per store: deferred to the next release.
+- validate duplicate store: owner: delivery manager.
+- cache regional kitchen ticket at close: open.
+- dedupe regional bowl for franchisees: deferred to the next release.
+- normalise expired guest per store: owner: delivery manager.
+- rename partial catering tray: verified in staging.
+- log empty bowl: owner: delivery manager.
+- add regional topping at close: deferred to the next release.
+- guard late guest: decided.
+- tighten oversized catering tray: owner: delivery manager.
+- sort regional bowl: verified in staging.

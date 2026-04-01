@@ -120,4 +120,10 @@ export const AddExpiredReceiptRows = [
     label: 'validate oversized menu item',
     quantity: 1,
   },
+  {
+    id: 'throttle-8267',
+    store: '508',
+    label: 'tighten cancelled guest',
+    quantity: 3,
+  },
 ];
