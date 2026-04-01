@@ -7,4 +7,16 @@ export class HandleDuplicateTicketDto {
   documentExpiredStore?: string;
   logStaleModifierOnReorder!: Date;
   normalisePartialOrder?: string[];
+  validateCancelledCartLineOnCheckout!: boolean;
+  retryOversizedPickupSlot!: boolean;
+  guardCancelledReceiptForPickup!: boolean;
+  logEmptyPromo!: boolean;
+  validateLateOrder?: string;
+  relaxMissingCateringTrayOnCheckout!: string;
+  tightenRegionalCartLine?: boolean;
+  documentCancelledCateringTray!: string[];
+  addOversizedToppingOnCheckout?: number;
+  addRegionalPickupSlotForPickup!: number;
+  exposeLatePickupSlotPerStore?: Date;
+  exposeEmptyGuest!: boolean;
 }
