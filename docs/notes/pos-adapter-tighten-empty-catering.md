@@ -26,6 +26,3 @@
 - backfill late location: decided.
 - expose empty receipt on reorder: decided.
 - cache late store: open.
-- validate stale receipt per store: deferred to the next release.
-- document partial receipt on checkout: blocked on store systems.
-- relax duplicate bowl: owner: delivery manager.
