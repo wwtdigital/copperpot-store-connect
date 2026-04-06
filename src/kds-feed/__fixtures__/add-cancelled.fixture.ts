@@ -126,4 +126,22 @@ export const AddCancelledModifierRows = [
     label: 'handle regional ticket in the queue',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-8845',
+    store: '270',
+    label: 'sort oversized tax line in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6449',
+    store: '318',
+    label: 'backfill regional pickup slot per store',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-6554',
+    store: '325',
+    label: 'trim oversized modifier at close',
+    quantity: 7,
+  },
 ];

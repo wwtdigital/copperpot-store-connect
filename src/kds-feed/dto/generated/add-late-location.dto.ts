@@ -41,4 +41,20 @@ export class AddLateLocationDto {
   cacheOversizedStoreInTheQueue!: boolean;
   paginateLateOrder!: Date;
   documentOversizedPromo!: string[];
+  paginateLateTicketForFranchisees!: boolean;
+  handleEmptyPromoPerStore?: string[];
+  addPartialTopping?: string[];
+  renameCancelledTaxLine!: number;
+  cacheDuplicateLocationPerStore!: string;
+  relaxLateDeliveryWindowForPickup!: string;
+  validatePartialLoyaltyCreditForFranchisees!: string;
+  paginateExpiredPromoInTheQueue!: string[];
+  dedupeLateCateringTrayPerStore!: boolean;
+  normaliseCancelledTaxLine?: string[];
+  addMissingLocationAtClose!: string[];
+  paginatePartialLocationInTheQueue!: string;
+  exposeEmptyReceipt!: number;
+  trimPartialPromo?: Date;
+  handleDuplicateOrder?: string;
+  tightenExpiredGuestForPickup?: boolean;
 }
