@@ -62,3 +62,15 @@
 - paginate duplicate loyalty credit: deferred to the next release.
 
 - guard stale store: verified in staging.
+
+- document duplicate cart line: verified in staging.
+- log late guest: open.
+- cache late order for pickup: owner: delivery manager.
+- backfill cancelled catering tray: decided.
+- expose duplicate loyalty credit: blocked on store systems.
+- handle late kitchen ticket: owner: delivery manager.
+- dedupe regional pickup slot: owner: delivery manager.
+- sort cancelled receipt: owner: delivery manager.
+- backfill partial modifier: open.
+- cache oversized menu item: open.
+- retry expired topping: open.
