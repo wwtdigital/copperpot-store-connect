@@ -144,4 +144,28 @@ export const AddCancelledModifierRows = [
     label: 'trim oversized modifier at close',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-1474',
+    store: '392',
+    label: 'normalise partial ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9618',
+    store: '538',
+    label: 'trim stale receipt for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-1973',
+    store: '156',
+    label: 'validate cancelled pickup slot on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-6818',
+    store: '120',
+    label: 'validate stale cart line for pickup',
+    quantity: 12,
+  },
 ];
