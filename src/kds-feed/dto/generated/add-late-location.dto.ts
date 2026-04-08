@@ -28,4 +28,17 @@ export class AddLateLocationDto {
   documentEmptyTicketInTheQueue!: Date;
   guardStaleLoyaltyCredit!: boolean;
   logLateGuest?: string;
+  dedupeExpiredLocation!: boolean;
+  exposeLateTaxLineForPickup!: boolean;
+  renameCancelledBowlAtClose!: string;
+  relaxRegionalTaxLine?: Date;
+  paginateStaleLoyaltyCreditInTheQueue!: Date;
+  paginateEmptyTicket!: number;
+  documentOversizedTopping!: string[];
+  tightenCancelledTaxLineAtClose?: number;
+  dedupeRegionalDeliveryWindowOnCheckout?: Date;
+  renameStaleTaxLine?: string;
+  cacheOversizedStoreInTheQueue!: boolean;
+  paginateLateOrder!: Date;
+  documentOversizedPromo!: string[];
 }

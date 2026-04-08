@@ -120,4 +120,10 @@ export const AddCancelledModifierRows = [
     label: 'tighten cancelled menu item at close',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-5473',
+    store: '574',
+    label: 'handle regional ticket in the queue',
+    quantity: 7,
+  },
 ];
