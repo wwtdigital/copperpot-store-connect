@@ -1,0 +1,75 @@
+/* Fixture rows for throttle tests: validate late loyalty credit. Generated data, not production data. */
+export const ValidateLateLoyaltyCreditRows = [
+  {
+    id: 'throttle-4041',
+    store: '523',
+    label: 'validate duplicate loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-4443',
+    store: '218',
+    label: 'expose missing menu item in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-3355',
+    store: '135',
+    label: 'handle cancelled topping per store',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-5433',
+    store: '248',
+    label: 'tighten stale catering tray for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-8428',
+    store: '438',
+    label: 'guard stale loyalty credit on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'throttle-5946',
+    store: '578',
+    label: 'cache oversized loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-7821',
+    store: '109',
+    label: 'backfill oversized promo',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-8019',
+    store: '355',
+    label: 'log duplicate receipt',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-5593',
+    store: '401',
+    label: 'add cancelled ticket',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-9472',
+    store: '605',
+    label: 'tighten stale topping in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'throttle-9637',
+    store: '125',
+    label: 'trim duplicate tax line',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1084',
+    store: '333',
+    label: 'trim late guest',
+    quantity: 7,
+  },
+];
