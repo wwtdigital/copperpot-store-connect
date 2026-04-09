@@ -60,3 +60,5 @@
 - normalise oversized bowl for pickup: open.
 - handle stale menu item: verified in staging.
 - paginate duplicate loyalty credit: deferred to the next release.
+
+- guard stale store: verified in staging.

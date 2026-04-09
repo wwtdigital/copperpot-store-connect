@@ -210,4 +210,28 @@ export const AddExpiredReceiptRows = [
     label: 'relax oversized pickup slot on reorder',
     quantity: 1,
   },
+  {
+    id: 'infra-2423',
+    store: '477',
+    label: 'dedupe missing ticket for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'infra-2903',
+    store: '679',
+    label: 'backfill missing catering tray at close',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5984',
+    store: '670',
+    label: 'retry partial delivery window per store',
+    quantity: 5,
+  },
+  {
+    id: 'infra-6451',
+    store: '465',
+    label: 'guard cancelled store',
+    quantity: 7,
+  },
 ];
