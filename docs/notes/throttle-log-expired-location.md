@@ -74,3 +74,18 @@
 - guard late guest: decided.
 - tighten oversized catering tray: owner: delivery manager.
 - sort regional bowl: verified in staging.
+
+- validate cancelled pickup slot: decided.
+- rename late loyalty credit: verified in staging.
+- retry late promo: deferred to the next release.
+- normalise missing tax line on checkout: decided.
+- sort empty bowl: verified in staging.
+- sort missing pickup slot for pickup: deferred to the next release.
+- add partial store: owner: delivery manager.
+- rename expired order: deferred to the next release.
+- trim stale receipt for pickup: verified in staging.
+- rename missing topping: open.
+- rename missing pickup slot: deferred to the next release.
+- retry stale modifier: decided.
+- backfill regional kitchen ticket in the queue: owner: delivery manager.
+- backfill regional modifier on reorder: owner: delivery manager.
