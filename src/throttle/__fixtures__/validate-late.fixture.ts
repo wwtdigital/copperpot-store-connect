@@ -78,4 +78,28 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'normalise expired menu item',
     quantity: 9,
   },
+  {
+    id: 'throttle-3578',
+    store: '537',
+    label: 'validate cancelled delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-5521',
+    store: '489',
+    label: 'validate cancelled delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-8788',
+    store: '331',
+    label: 'expose regional menu item',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-4209',
+    store: '247',
+    label: 'relax duplicate loyalty credit',
+    quantity: 10,
+  },
 ];
