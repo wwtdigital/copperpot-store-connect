@@ -71,3 +71,18 @@
 - rename late modifier: blocked on store systems.
 - rename cancelled pickup slot in the queue: open.
 - guard cancelled store in the queue: open.
+
+- retry duplicate store: decided.
+- sort cancelled store for franchisees: open.
+- rename missing topping for pickup: decided.
+- guard duplicate ticket: open.
+- add oversized pickup slot: deferred to the next release.
+- log duplicate kitchen ticket on checkout: decided.
+- dedupe missing delivery window for franchisees: blocked on store systems.
+- tighten partial promo: deferred to the next release.
+- cache stale ticket on checkout: decided.
+- handle expired topping: blocked on store systems.
+- dedupe empty location in the queue: open.
+- add late pickup slot: open.
+- log oversized store: open.
+- dedupe cancelled delivery window on reorder: blocked on store systems.
