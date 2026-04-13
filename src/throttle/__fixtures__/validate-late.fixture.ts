@@ -72,4 +72,10 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'trim late guest',
     quantity: 7,
   },
+  {
+    id: 'infra-1351',
+    store: '674',
+    label: 'normalise expired menu item',
+    quantity: 9,
+  },
 ];
