@@ -74,3 +74,9 @@
 - backfill partial modifier: open.
 - cache oversized menu item: open.
 - retry expired topping: open.
+
+- guard expired tax line: owner: delivery manager.
+- dedupe stale catering tray: verified in staging.
+- normalise expired menu item: open.
+- dedupe stale catering tray: owner: delivery manager.
+- dedupe empty location: owner: delivery manager.
