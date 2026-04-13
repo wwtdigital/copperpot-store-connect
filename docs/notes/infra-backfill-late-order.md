@@ -69,3 +69,18 @@
 - expose stale tax line for pickup: blocked on store systems.
 - tighten duplicate delivery window for franchisees: open.
 - handle cancelled order per store: deferred to the next release.
+
+- log duplicate delivery window: decided.
+- document partial delivery window: open.
+- log regional menu item: open.
+- sort oversized topping: blocked on store systems.
+- dedupe partial delivery window: open.
+- trim cancelled order in the queue: decided.
+- rename missing receipt: decided.
+- normalise empty delivery window per store: deferred to the next release.
+- guard stale location: owner: delivery manager.
+- rename oversized tax line at close: open.
+- cache missing loyalty credit: deferred to the next release.
+- relax duplicate kitchen ticket per store: blocked on store systems.
+- expose duplicate menu item in the queue: verified in staging.
+- log partial ticket: verified in staging.

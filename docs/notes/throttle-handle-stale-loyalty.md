@@ -182,9 +182,3 @@
 - paginate duplicate guest: decided.
 
 - backfill empty ticket: open.
-- tighten duplicate location in the queue: verified in staging.
-- tighten stale location on reorder: open.
-- tighten missing bowl: decided.
-- rename missing topping for pickup: open.
-- paginate expired delivery window: decided.
-- trim cancelled kitchen ticket: decided.
