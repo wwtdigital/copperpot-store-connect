@@ -84,3 +84,7 @@
 - relax duplicate kitchen ticket per store: blocked on store systems.
 - expose duplicate menu item in the queue: verified in staging.
 - log partial ticket: verified in staging.
+
+- backfill duplicate guest: open.
+- relax oversized receipt: open.
+- guard oversized loyalty credit: blocked on store systems.
