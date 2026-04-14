@@ -168,4 +168,28 @@ export const AddCancelledModifierRows = [
     label: 'validate stale cart line for pickup',
     quantity: 12,
   },
+  {
+    id: 'kds-feed-6620',
+    store: '338',
+    label: 'add oversized loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-4145',
+    store: '559',
+    label: 'rename expired cart line',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-4256',
+    store: '245',
+    label: 'sort partial location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-4492',
+    store: '251',
+    label: 'sort regional topping at close',
+    quantity: 9,
+  },
 ];
