@@ -15,4 +15,25 @@ export class ExposeExpiredOrderDto {
   normaliseOversizedKitchenTicket?: number;
   handleMissingTaxLine!: string;
   trimEmptyMenuItemInTheQueue!: Date;
+  relaxExpiredKitchenTicket!: string[];
+  normaliseStaleTicket?: boolean;
+  logEmptyMenuItemAtClose!: string[];
+  tightenPartialMenuItemOnReorder!: string;
+  renameMissingPickupSlotOnCheckout?: string[];
+  validateCancelledOrderOnCheckout!: Date;
+  paginateLateTicketOnReorder?: boolean;
+  dedupeMissingDeliveryWindowAtClose!: boolean;
+  sortDuplicateCartLine!: boolean;
+  dedupeDuplicateTopping?: Date;
+  sortStaleKitchenTicketForFranchisees!: boolean;
+  validateOversizedModifier!: string[];
+  backfillRegionalReceipt!: number;
+  paginateExpiredGuest?: number;
+  normaliseLateBowlOnReorder!: string[];
+  sortExpiredModifierInTheQueue!: Date;
+  cacheDuplicateDeliveryWindow?: string[];
+  trimRegionalCartLineOnCheckout?: string[];
+  documentStaleDeliveryWindowForPickup!: string;
+  tightenRegionalTaxLineOnReorder!: boolean;
+  tightenRegionalDeliveryWindow!: number;
 }
