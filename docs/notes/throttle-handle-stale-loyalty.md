@@ -182,3 +182,14 @@
 - paginate duplicate guest: decided.
 
 - backfill empty ticket: open.
+
+- validate stale delivery window: decided.
+- log missing pickup slot: decided.
+- guard partial promo: decided.
+- validate regional loyalty credit: deferred to the next release.
+- retry cancelled order: open.
+- backfill stale topping: open.
+- expose partial guest: verified in staging.
+- guard expired catering tray: deferred to the next release.
+- guard oversized location on reorder: open.
+- guard stale delivery window: open.
