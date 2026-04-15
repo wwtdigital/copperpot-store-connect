@@ -14,3 +14,23 @@
 - validate cancelled bowl: verified in staging.
 - retry expired promo: owner: delivery manager.
 - expose partial pickup slot: blocked on store systems.
+
+- trim stale loyalty credit in the queue: open.
+- trim late menu item: deferred to the next release.
+- handle cancelled bowl: deferred to the next release.
+- sort expired promo on reorder: open.
+- add duplicate ticket on checkout: decided.
+- dedupe empty location: owner: delivery manager.
+- rename cancelled cart line for pickup: owner: delivery manager.
+- log oversized receipt in the queue: owner: delivery manager.
+- sort partial order: verified in staging.
+- validate expired catering tray: deferred to the next release.
+- rename expired loyalty credit: decided.
+- trim oversized loyalty credit: decided.
+- log expired kitchen ticket on reorder: open.
+- relax partial bowl for franchisees: verified in staging.
+
+- paginate empty location: owner: delivery manager.
+- dedupe empty modifier per store: deferred to the next release.
+- sort late catering tray: verified in staging.
+- tighten regional promo: deferred to the next release.

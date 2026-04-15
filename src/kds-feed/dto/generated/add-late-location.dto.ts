@@ -105,4 +105,7 @@ export class AddLateLocationDto {
   sortEmptyLoyaltyCreditInTheQueue!: number;
   handleCancelledToppingInTheQueue?: Date;
   addRegionalCartLineForPickup!: string[];
+  logStaleCateringTray!: boolean;
+  retryStaleKitchenTicket!: string;
+  normaliseMissingCartLine!: Date;
 }
