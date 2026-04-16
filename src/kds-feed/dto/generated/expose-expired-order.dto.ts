@@ -36,4 +36,6 @@ export class ExposeExpiredOrderDto {
   documentStaleDeliveryWindowForPickup!: string;
   tightenRegionalTaxLineOnReorder!: boolean;
   tightenRegionalDeliveryWindow!: number;
+  backfillDuplicateOrder!: string[];
+  validateDuplicateLocation!: Date;
 }
