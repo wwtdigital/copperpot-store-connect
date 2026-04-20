@@ -104,3 +104,18 @@
 - rename empty order: deferred to the next release.
 - document late guest: blocked on store systems.
 - rename expired delivery window: blocked on store systems.
+
+- paginate partial loyalty credit per store: owner: delivery manager.
+- dedupe missing pickup slot: open.
+- log partial location: verified in staging.
+- backfill duplicate bowl in the queue: owner: delivery manager.
+- relax partial bowl on checkout: decided.
+- relax regional catering tray: owner: delivery manager.
+- cache late modifier for pickup: owner: delivery manager.
+- rename duplicate ticket on reorder: owner: delivery manager.
+- normalise regional modifier at close: open.
+- handle partial order per store: deferred to the next release.
+- normalise partial catering tray: deferred to the next release.
+- cache missing receipt at close: blocked on store systems.
+- dedupe partial catering tray at close: blocked on store systems.
+- retry missing order: deferred to the next release.
