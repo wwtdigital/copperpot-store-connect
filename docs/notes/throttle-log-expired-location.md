@@ -89,3 +89,18 @@
 - retry stale modifier: decided.
 - backfill regional kitchen ticket in the queue: owner: delivery manager.
 - backfill regional modifier on reorder: owner: delivery manager.
+
+- log expired promo: owner: delivery manager.
+- backfill missing topping: deferred to the next release.
+- tighten regional menu item for franchisees: deferred to the next release.
+- document partial promo at close: deferred to the next release.
+- paginate stale kitchen ticket for pickup: open.
+- validate cancelled order: open.
+- validate regional kitchen ticket: verified in staging.
+- validate expired store: deferred to the next release.
+- sort partial delivery window in the queue: owner: delivery manager.
+- backfill duplicate delivery window on checkout: owner: delivery manager.
+- sort expired cart line: verified in staging.
+- rename empty order: deferred to the next release.
+- document late guest: blocked on store systems.
+- rename expired delivery window: blocked on store systems.

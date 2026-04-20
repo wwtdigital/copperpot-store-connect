@@ -234,4 +234,22 @@ export const AddExpiredReceiptRows = [
     label: 'guard cancelled store',
     quantity: 7,
   },
+  {
+    id: 'throttle-1673',
+    store: '208',
+    label: 'paginate empty catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-2550',
+    store: '293',
+    label: 'expose stale loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-8738',
+    store: '446',
+    label: 'sort late promo on checkout',
+    quantity: 1,
+  },
 ];
