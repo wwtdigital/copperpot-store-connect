@@ -193,3 +193,18 @@
 - guard expired catering tray: deferred to the next release.
 - guard oversized location on reorder: open.
 - guard stale delivery window: open.
+
+- rename late bowl: owner: delivery manager.
+- backfill partial promo for franchisees: decided.
+- dedupe regional bowl for pickup: open.
+- expose duplicate loyalty credit for pickup: decided.
+- validate empty modifier for pickup: open.
+- dedupe oversized location for franchisees: decided.
+- paginate cancelled bowl at close: blocked on store systems.
+- paginate duplicate menu item at close: deferred to the next release.
+- add empty loyalty credit: verified in staging.
+- guard late modifier: open.
+- guard expired menu item per store: deferred to the next release.
+- normalise missing menu item: open.
+- cache late ticket: owner: delivery manager.
+- document late topping for pickup: open.

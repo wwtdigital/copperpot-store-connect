@@ -11,4 +11,8 @@ export class AddEmptyTicketForFranchiseesDto {
   backfillDuplicateOrderInTheQueue?: string[];
   normaliseExpiredOrderOnReorder?: string;
   paginateExpiredModifierPerStore?: string[];
+  documentRegionalStore?: boolean;
+  normaliseDuplicateCartLine!: number;
+  exposeMissingDeliveryWindow!: boolean;
+  exposeExpiredStoreInTheQueue!: number;
 }

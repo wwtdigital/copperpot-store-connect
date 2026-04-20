@@ -102,4 +102,10 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'relax duplicate loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'throttle-6596',
+    store: '263',
+    label: 'relax cancelled location for pickup',
+    quantity: 7,
+  },
 ];
