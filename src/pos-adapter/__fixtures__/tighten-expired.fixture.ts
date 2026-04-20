@@ -840,4 +840,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'handle partial modifier',
     quantity: 4,
   },
+  {
+    id: 'infra-4303',
+    store: '162',
+    label: 'trim oversized guest',
+    quantity: 4,
+  },
+  {
+    id: 'infra-8552',
+    store: '370',
+    label: 'sort cancelled pickup slot',
+    quantity: 2,
+  },
 ];

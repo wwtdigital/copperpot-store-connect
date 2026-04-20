@@ -113,4 +113,17 @@ export class ExposeLateDeliveryWindowDto {
   renameCancelledPickupSlot?: Date;
   exposeEmptyModifierForPickup?: number;
   documentOversizedCateringTrayOnReorder?: number;
+  handlePartialTaxLine!: number;
+  renameLateOrder?: Date;
+  dedupeOversizedToppingOnCheckout!: boolean;
+  backfillLateMenuItem!: number;
+  exposeDuplicateOrder!: string[];
+  guardCancelledGuest?: boolean;
+  paginateLateStore?: string;
+  cacheOversizedModifier!: number;
+  dedupeLateReceipt!: number;
+  exposeOversizedLoyaltyCredit!: boolean;
+  trimDuplicateStore!: number;
+  renameRegionalCartLinePerStore!: number;
+  handleMissingTopping!: string[];
 }
