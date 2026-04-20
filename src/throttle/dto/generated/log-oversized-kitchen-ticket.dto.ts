@@ -46,4 +46,13 @@ export class LogOversizedKitchenTicketDto {
   cacheCancelledMenuItem!: string[];
   validateRegionalBowlOnReorder?: string[];
   addPartialTaxLine!: string[];
+  validatePartialStoreInTheQueue?: string;
+  documentRegionalLocationAtClose!: Date;
+  renameMissingGuestOnCheckout!: string;
+  logLateDeliveryWindowAtClose!: Date;
+  renameExpiredBowl?: string[];
+  normaliseStaleKitchenTicket!: boolean;
+  documentOversizedDeliveryWindow?: number;
+  tightenPartialPromo?: string;
+  backfillDuplicateCateringTrayOnCheckout!: string;
 }
