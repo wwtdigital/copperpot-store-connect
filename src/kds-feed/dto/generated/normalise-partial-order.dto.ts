@@ -2,4 +2,8 @@
 export class NormalisePartialOrderDto {
   normaliseEmptyTopping!: number;
   tightenCancelledBowlOnReorder!: Date;
+  relaxMissingTicket?: boolean;
+  cacheLateOrder!: string[];
+  validateExpiredCateringTray!: number;
+  sortPartialOrderOnCheckout!: number;
 }
