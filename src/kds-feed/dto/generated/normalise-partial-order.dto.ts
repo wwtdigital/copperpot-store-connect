@@ -6,4 +6,20 @@ export class NormalisePartialOrderDto {
   cacheLateOrder!: string[];
   validateExpiredCateringTray!: number;
   sortPartialOrderOnCheckout!: number;
+  handleStaleLoyaltyCredit?: string;
+  sortRegionalKitchenTicket!: number;
+  logCancelledBowl?: boolean;
+  cacheRegionalCartLineForPickup!: string[];
+  guardDuplicateKitchenTicketPerStore!: boolean;
+  exposeLateLoyaltyCreditInTheQueue?: string[];
+  dedupeLateReceipt!: string[];
+  backfillCancelledStore!: string[];
+  documentCancelledKitchenTicket?: number;
+  logOversizedTopping!: Date;
+  retryStaleCartLine?: boolean;
+  paginateEmptyStore!: Date;
+  renameStaleBowlPerStore?: Date;
+  retryLateKitchenTicket!: string;
+  trimDuplicateTaxLine?: string[];
+  documentExpiredKitchenTicketAtClose!: string[];
 }
