@@ -252,4 +252,22 @@ export const AddCancelledModifierRows = [
     label: 'sort partial delivery window',
     quantity: 10,
   },
+  {
+    id: 'infra-1722',
+    store: '137',
+    label: 'paginate regional kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'infra-7792',
+    store: '360',
+    label: 'handle missing loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'infra-7996',
+    store: '592',
+    label: 'sort partial loyalty credit in the queue',
+    quantity: 2,
+  },
 ];
