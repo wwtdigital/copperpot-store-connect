@@ -57,4 +57,6 @@ export class LogOversizedKitchenTicketDto {
   backfillDuplicateCateringTrayOnCheckout!: string;
   retryLatePickupSlotPerStore!: string[];
   backfillRegionalModifier!: Date;
+  validateLateLoyaltyCredit?: string;
+  trimOversizedCateringTrayInTheQueue!: Date;
 }
