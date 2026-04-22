@@ -38,4 +38,6 @@ export class ExposeExpiredOrderDto {
   tightenRegionalDeliveryWindow!: number;
   backfillDuplicateOrder!: string[];
   validateDuplicateLocation!: Date;
+  normaliseMissingPickupSlotOnCheckout!: string[];
+  addEmptyOrder!: Date;
 }

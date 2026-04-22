@@ -210,4 +210,22 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'sort stale bowl on reorder',
     quantity: 10,
   },
+  {
+    id: 'infra-5941',
+    store: '568',
+    label: 'sort empty topping',
+    quantity: 5,
+  },
+  {
+    id: 'infra-4604',
+    store: '532',
+    label: 'normalise late location in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'infra-5691',
+    store: '200',
+    label: 'sort cancelled topping',
+    quantity: 3,
+  },
 ];
