@@ -19,4 +19,28 @@ export class HandleDuplicateTicketDto {
   addRegionalPickupSlotForPickup!: number;
   exposeLatePickupSlotPerStore?: Date;
   exposeEmptyGuest!: boolean;
+  validateLateLocationOnCheckout!: number;
+  sortExpiredPickupSlot!: number;
+  exposeDuplicateMenuItem?: Date;
+  guardLateReceiptForPickup!: string[];
+  retryOversizedLocation!: Date;
+  logRegionalDeliveryWindow!: string[];
+  backfillLateCateringTray!: string;
+  logPartialPromo!: Date;
+  renameExpiredModifierForFranchisees?: Date;
+  paginateMissingStore!: number;
+  backfillLateBowl!: string;
+  guardDuplicateReceiptOnReorder!: string;
+  documentPartialLocationForFranchisees?: boolean;
+  cacheLateBowlAtClose!: string[];
+  retryLateOrder!: number;
+  paginateStaleTaxLineForPickup!: number;
+  documentExpiredLocation!: string;
+  paginateDuplicateOrderAtClose?: string[];
+  trimDuplicateDeliveryWindow!: number;
+  documentDuplicateToppingAtClose!: number;
+  exposeMissingMenuItem!: string[];
+  normaliseDuplicateBowl?: boolean;
+  dedupeOversizedPickupSlot!: Date;
+  addRegionalModifierOnReorder!: Date;
 }
