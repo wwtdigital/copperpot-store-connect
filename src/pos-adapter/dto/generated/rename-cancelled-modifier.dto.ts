@@ -36,4 +36,6 @@ export class RenameCancelledModifierDto {
   backfillCancelledLoyaltyCredit!: number;
   relaxOversizedReceiptAtClose!: string[];
   dedupeOversizedCartLine?: string[];
+  handleLatePromo!: string;
+  renameStaleCateringTray!: string;
 }

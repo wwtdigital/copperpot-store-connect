@@ -102,4 +102,16 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'dedupe regional store',
     quantity: 3,
   },
+  {
+    id: 'infra-3925',
+    store: '269',
+    label: 'relax stale delivery window for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'infra-4601',
+    store: '294',
+    label: 'handle duplicate modifier',
+    quantity: 5,
+  },
 ];

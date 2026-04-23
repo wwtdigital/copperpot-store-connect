@@ -852,4 +852,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'sort cancelled pickup slot',
     quantity: 2,
   },
+  {
+    id: 'infra-8132',
+    store: '412',
+    label: 'sort late location at close',
+    quantity: 9,
+  },
+  {
+    id: 'infra-7408',
+    store: '681',
+    label: 'dedupe stale guest',
+    quantity: 9,
+  },
+  {
+    id: 'infra-1195',
+    store: '152',
+    label: 'rename cancelled tax line in the queue',
+    quantity: 12,
+  },
 ];
