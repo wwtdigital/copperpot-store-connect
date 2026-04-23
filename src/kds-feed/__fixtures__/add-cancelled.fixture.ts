@@ -270,4 +270,22 @@ export const AddCancelledModifierRows = [
     label: 'sort partial loyalty credit in the queue',
     quantity: 2,
   },
+  {
+    id: 'docs-1335',
+    store: '699',
+    label: 'trim duplicate tax line',
+    quantity: 7,
+  },
+  {
+    id: 'docs-3295',
+    store: '382',
+    label: 'trim late topping at close',
+    quantity: 4,
+  },
+  {
+    id: 'docs-3296',
+    store: '436',
+    label: 'guard regional cart line',
+    quantity: 7,
+  },
 ];
