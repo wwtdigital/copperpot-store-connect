@@ -15,4 +15,6 @@ export class AddEmptyTicketForFranchiseesDto {
   normaliseDuplicateCartLine!: number;
   exposeMissingDeliveryWindow!: boolean;
   exposeExpiredStoreInTheQueue!: number;
+  trimExpiredDeliveryWindowInTheQueue!: string;
+  exposeMissingKitchenTicketForFranchisees?: string[];
 }
