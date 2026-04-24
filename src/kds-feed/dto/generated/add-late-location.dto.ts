@@ -108,4 +108,24 @@ export class AddLateLocationDto {
   logStaleCateringTray!: boolean;
   retryStaleKitchenTicket!: string;
   normaliseMissingCartLine!: Date;
+  tightenCancelledTicket!: string;
+  normaliseExpiredOrder!: boolean;
+  retryRegionalLocation?: number;
+  backfillOversizedMenuItem!: boolean;
+  dedupeRegionalPromo?: string[];
+  sortRegionalTopping!: string;
+  tightenStaleKitchenTicket?: number;
+  renameOversizedCartLineOnReorder!: boolean;
+  addDuplicateTicketAtClose!: boolean;
+  paginateDuplicateOrder!: string[];
+  backfillDuplicateKitchenTicketPerStore!: Date;
+  normaliseLateKitchenTicket!: string;
+  documentRegionalLocation?: number;
+  paginateDuplicateCartLineOnReorder?: string[];
+  backfillDuplicateLoyaltyCreditAtClose!: Date;
+  dedupeEmptyCateringTray!: string;
+  trimMissingTicket!: string[];
+  normalisePartialOrderOnReorder!: string;
+  logMissingDeliveryWindowPerStore!: Date;
+  handlePartialReceipt!: string;
 }

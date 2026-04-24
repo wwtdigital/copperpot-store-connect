@@ -34,3 +34,18 @@
 - dedupe empty modifier per store: deferred to the next release.
 - sort late catering tray: verified in staging.
 - tighten regional promo: deferred to the next release.
+
+- expose missing loyalty credit on reorder: owner: delivery manager.
+- tighten expired location: decided.
+- sort stale tax line on checkout: decided.
+- dedupe duplicate receipt: owner: delivery manager.
+- rename expired topping: deferred to the next release.
+- sort stale tax line: owner: delivery manager.
+- backfill oversized modifier: decided.
+- tighten stale guest for franchisees: deferred to the next release.
+- document duplicate delivery window: deferred to the next release.
+- normalise duplicate store on reorder: verified in staging.
+- validate stale store: decided.
+- backfill stale ticket: blocked on store systems.
+- backfill regional topping for pickup: decided.
+- expose oversized tax line: decided.

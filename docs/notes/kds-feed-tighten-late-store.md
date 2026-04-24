@@ -86,3 +86,18 @@
 - add late pickup slot: open.
 - log oversized store: open.
 - dedupe cancelled delivery window on reorder: blocked on store systems.
+
+- log stale order: open.
+- paginate empty pickup slot: blocked on store systems.
+- handle stale modifier at close: open.
+- expose stale kitchen ticket: blocked on store systems.
+- retry expired cart line: open.
+- tighten duplicate ticket: owner: delivery manager.
+- validate expired catering tray: deferred to the next release.
+- trim duplicate location on reorder: open.
+- normalise expired tax line in the queue: open.
+- paginate duplicate guest: blocked on store systems.
+- guard missing order: verified in staging.
+- rename late bowl in the queue: open.
+- backfill regional catering tray: deferred to the next release.
+- cache regional bowl: owner: delivery manager.

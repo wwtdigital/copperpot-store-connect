@@ -17,3 +17,20 @@
 - trim duplicate tax line on checkout: verified in staging.
 - handle cancelled delivery window: verified in staging.
 - expose late guest for franchisees: owner: delivery manager.
+
+- retry expired bowl: owner: delivery manager.
+- normalise stale loyalty credit: deferred to the next release.
+- relax cancelled tax line: deferred to the next release.
+- rename partial modifier: deferred to the next release.
+- add regional modifier: decided.
+- expose cancelled ticket on checkout: verified in staging.
+- dedupe regional promo on checkout: blocked on store systems.
+- handle expired delivery window at close: decided.
+- document stale kitchen ticket: open.
+- add stale guest: blocked on store systems.
+- expose oversized order: open.
+- trim cancelled menu item: deferred to the next release.
+- cache stale menu item on checkout: open.
+- retry duplicate loyalty credit: decided.
+
+- cache oversized loyalty credit: open.

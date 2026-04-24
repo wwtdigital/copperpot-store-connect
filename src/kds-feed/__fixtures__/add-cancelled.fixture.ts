@@ -288,4 +288,10 @@ export const AddCancelledModifierRows = [
     label: 'guard regional cart line',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-1733',
+    store: '685',
+    label: 'rename late menu item in the queue',
+    quantity: 7,
+  },
 ];
