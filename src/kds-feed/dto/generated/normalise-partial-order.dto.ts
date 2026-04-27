@@ -22,4 +22,18 @@ export class NormalisePartialOrderDto {
   retryLateKitchenTicket!: string;
   trimDuplicateTaxLine?: string[];
   documentExpiredKitchenTicketAtClose!: string[];
+  backfillLateDeliveryWindowForFranchisees?: boolean;
+  guardOversizedLocationOnReorder?: number;
+  sortOversizedBowlInTheQueue!: string;
+  dedupeExpiredDeliveryWindow!: number;
+  sortMissingPickupSlot!: string;
+  tightenDuplicateCateringTrayOnCheckout!: string;
+  sortOversizedPickupSlot!: string;
+  renameExpiredTaxLine!: number;
+  sortPartialPickupSlotForPickup?: boolean;
+  addLateTaxLineForFranchisees!: number;
+  sortMissingTopping!: Date;
+  normaliseExpiredReceipt!: boolean;
+  validateOversizedCateringTrayForPickup!: boolean;
+  guardDuplicateLoyaltyCreditForPickup!: Date;
 }

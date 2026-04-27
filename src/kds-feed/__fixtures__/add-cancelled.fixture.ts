@@ -294,4 +294,22 @@ export const AddCancelledModifierRows = [
     label: 'rename late menu item in the queue',
     quantity: 7,
   },
+  {
+    id: 'docs-1042',
+    store: '218',
+    label: 'backfill regional catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'docs-1928',
+    store: '283',
+    label: 'log oversized pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'docs-7462',
+    store: '204',
+    label: 'normalise stale kitchen ticket for franchisees',
+    quantity: 9,
+  },
 ];
