@@ -252,4 +252,10 @@ export const AddExpiredReceiptRows = [
     label: 'sort late promo on checkout',
     quantity: 1,
   },
+  {
+    id: 'docs-7484',
+    store: '176',
+    label: 'log expired cart line',
+    quantity: 3,
+  },
 ];
