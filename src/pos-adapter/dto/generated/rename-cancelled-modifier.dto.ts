@@ -38,4 +38,6 @@ export class RenameCancelledModifierDto {
   dedupeOversizedCartLine?: string[];
   handleLatePromo!: string;
   renameStaleCateringTray!: string;
+  tightenPartialGuestForFranchisees!: string[];
+  handlePartialBowl?: Date;
 }
