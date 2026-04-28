@@ -138,4 +138,40 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'guard cancelled cart line',
     quantity: 4,
   },
+  {
+    id: 'pos-adapter-7555',
+    store: '336',
+    label: 'rename cancelled tax line per store',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-4500',
+    store: '136',
+    label: 'backfill expired modifier',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-9791',
+    store: '433',
+    label: 'relax oversized loyalty credit for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-5683',
+    store: '507',
+    label: 'paginate empty delivery window at close',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-2421',
+    store: '163',
+    label: 'expose oversized receipt per store',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-5822',
+    store: '536',
+    label: 'add partial ticket for pickup',
+    quantity: 11,
+  },
 ];
