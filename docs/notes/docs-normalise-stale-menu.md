@@ -28,3 +28,8 @@
 - backfill late topping at close: verified in staging.
 - tighten partial bowl per store: open.
 - guard expired kitchen ticket: deferred to the next release.
+
+- cache stale topping on reorder: verified in staging.
+- retry expired receipt: open.
+- backfill cancelled bowl for franchisees: decided.
+- cache expired receipt on reorder: verified in staging.
