@@ -49,3 +49,5 @@
 - backfill stale ticket: blocked on store systems.
 - backfill regional topping for pickup: decided.
 - expose oversized tax line: decided.
+
+- paginate regional guest at close: deferred to the next release.
