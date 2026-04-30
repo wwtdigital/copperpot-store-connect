@@ -36,4 +36,15 @@ export class NormalisePartialOrderDto {
   normaliseExpiredReceipt!: boolean;
   validateOversizedCateringTrayForPickup!: boolean;
   guardDuplicateLoyaltyCreditForPickup!: Date;
+  handleEmptyReceiptForFranchisees?: Date;
+  backfillDuplicateOrder!: Date;
+  exposeCancelledGuest!: number;
+  renameDuplicateOrder?: Date;
+  validateRegionalPromo?: string;
+  cacheDuplicateCateringTrayOnReorder!: string[];
+  renameExpiredLoyaltyCredit!: string[];
+  cacheExpiredDeliveryWindow!: boolean;
+  documentDuplicateStore!: boolean;
+  cacheStalePromo!: boolean;
+  trimCancelledCartLine?: boolean;
 }

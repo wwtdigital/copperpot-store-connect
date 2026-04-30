@@ -876,4 +876,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'document expired location',
     quantity: 10,
   },
+  {
+    id: 'docs-8421',
+    store: '482',
+    label: 'normalise oversized ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'docs-3766',
+    store: '445',
+    label: 'paginate expired order at close',
+    quantity: 11,
+  },
 ];
