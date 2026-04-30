@@ -47,4 +47,11 @@ export class NormalisePartialOrderDto {
   documentDuplicateStore!: boolean;
   cacheStalePromo!: boolean;
   trimCancelledCartLine?: boolean;
+  validateRegionalTaxLine!: Date;
+  normaliseLateReceipt!: string[];
+  guardRegionalModifierOnReorder!: string;
+  retryStaleCartLineForPickup!: boolean;
+  guardLateMenuItemOnReorder!: string[];
+  cacheMissingTopping!: Date;
+  backfillPartialOrderAtClose!: number;
 }
