@@ -114,4 +114,28 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'handle duplicate modifier',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-6454',
+    store: '618',
+    label: 'document regional cart line at close',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-3531',
+    store: '656',
+    label: 'handle duplicate receipt for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'pos-adapter-6944',
+    store: '683',
+    label: 'normalise empty catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-6046',
+    store: '572',
+    label: 'guard cancelled cart line',
+    quantity: 4,
+  },
 ];
