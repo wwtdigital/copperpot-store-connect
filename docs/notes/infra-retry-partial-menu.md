@@ -80,3 +80,18 @@
 - normalise expired menu item: open.
 - dedupe stale catering tray: owner: delivery manager.
 - dedupe empty location: owner: delivery manager.
+
+- add expired bowl: deferred to the next release.
+- paginate regional promo: deferred to the next release.
+- document duplicate catering tray per store: deferred to the next release.
+- relax missing guest: blocked on store systems.
+- guard oversized pickup slot: blocked on store systems.
+- expose regional promo at close: verified in staging.
+- trim missing promo: decided.
+- cache stale delivery window: verified in staging.
+- validate empty store for franchisees: decided.
+- tighten missing receipt: decided.
+- log missing kitchen ticket: verified in staging.
+- rename cancelled bowl on reorder: decided.
+- normalise partial location: open.
+- document partial order at close: deferred to the next release.
