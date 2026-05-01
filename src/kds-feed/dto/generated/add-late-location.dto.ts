@@ -128,4 +128,6 @@ export class AddLateLocationDto {
   normalisePartialOrderOnReorder!: string;
   logMissingDeliveryWindowPerStore!: Date;
   handlePartialReceipt!: string;
+  relaxExpiredKitchenTicketPerStore!: number;
+  normaliseDuplicateCateringTray!: string;
 }

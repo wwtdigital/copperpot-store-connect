@@ -870,4 +870,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'rename cancelled tax line in the queue',
     quantity: 12,
   },
+  {
+    id: 'docs-6407',
+    store: '677',
+    label: 'document expired location',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8421',
+    store: '482',
+    label: 'normalise oversized ticket at close',
+    quantity: 10,
+  },
+  {
+    id: 'docs-3766',
+    store: '445',
+    label: 'paginate expired order at close',
+    quantity: 11,
+  },
 ];

@@ -228,4 +228,16 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'sort cancelled topping',
     quantity: 3,
   },
+  {
+    id: 'docs-8090',
+    store: '597',
+    label: 'document regional receipt for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'docs-1485',
+    store: '197',
+    label: 'guard expired store on checkout',
+    quantity: 7,
+  },
 ];

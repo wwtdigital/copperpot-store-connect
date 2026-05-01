@@ -59,4 +59,6 @@ export class LogOversizedKitchenTicketDto {
   backfillRegionalModifier!: Date;
   validateLateLoyaltyCredit?: string;
   trimOversizedCateringTrayInTheQueue!: Date;
+  renamePartialTicket?: string[];
+  renameMissingReceiptAtClose!: number;
 }

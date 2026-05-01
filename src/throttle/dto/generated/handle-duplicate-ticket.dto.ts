@@ -43,4 +43,6 @@ export class HandleDuplicateTicketDto {
   normaliseDuplicateBowl?: boolean;
   dedupeOversizedPickupSlot!: Date;
   addRegionalModifierOnReorder!: Date;
+  guardRegionalLocation?: string;
+  cacheLateKitchenTicketAtClose!: Date;
 }
