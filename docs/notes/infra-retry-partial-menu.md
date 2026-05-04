@@ -95,3 +95,18 @@
 - rename cancelled bowl on reorder: decided.
 - normalise partial location: open.
 - document partial order at close: deferred to the next release.
+
+- trim regional guest at close: owner: delivery manager.
+- backfill expired promo: verified in staging.
+- expose cancelled catering tray at close: open.
+- dedupe empty store: verified in staging.
+- trim cancelled tax line on checkout: blocked on store systems.
+- handle partial cart line: blocked on store systems.
+- validate missing store: blocked on store systems.
+- expose empty location: blocked on store systems.
+- sort missing receipt: open.
+- document missing pickup slot: deferred to the next release.
+- guard missing topping: verified in staging.
+- add expired receipt: blocked on store systems.
+- dedupe regional cart line on reorder: verified in staging.
+- handle stale tax line on reorder: blocked on store systems.

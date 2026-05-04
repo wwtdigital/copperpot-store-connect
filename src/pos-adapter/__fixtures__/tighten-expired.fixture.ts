@@ -954,4 +954,22 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'rename expired pickup slot',
     quantity: 6,
   },
+  {
+    id: 'infra-7468',
+    store: '468',
+    label: 'relax stale ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6315',
+    store: '592',
+    label: 'rename expired order on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7392',
+    store: '104',
+    label: 'tighten regional guest',
+    quantity: 12,
+  },
 ];
