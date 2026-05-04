@@ -258,4 +258,22 @@ export const AddExpiredReceiptRows = [
     label: 'log expired cart line',
     quantity: 3,
   },
+  {
+    id: 'docs-8789',
+    store: '680',
+    label: 'validate expired loyalty credit at close',
+    quantity: 5,
+  },
+  {
+    id: 'docs-5921',
+    store: '462',
+    label: 'sort oversized loyalty credit per store',
+    quantity: 6,
+  },
+  {
+    id: 'docs-8713',
+    store: '430',
+    label: 'backfill partial bowl',
+    quantity: 1,
+  },
 ];

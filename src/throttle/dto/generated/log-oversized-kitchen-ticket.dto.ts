@@ -61,4 +61,18 @@ export class LogOversizedKitchenTicketDto {
   trimOversizedCateringTrayInTheQueue!: Date;
   renamePartialTicket?: string[];
   renameMissingReceiptAtClose!: number;
+  handleExpiredCartLineAtClose!: Date;
+  exposeStaleDeliveryWindowForFranchisees?: string;
+  renameEmptyBowl!: string[];
+  dedupeOversizedCateringTray?: boolean;
+  paginateDuplicatePickupSlot!: string;
+  addStaleModifier!: boolean;
+  logMissingDeliveryWindow!: string[];
+  logCancelledTicketForPickup?: boolean;
+  cacheCancelledReceiptOnReorder!: number;
+  relaxOversizedOrderForPickup?: Date;
+  exposeDuplicateMenuItemPerStore!: boolean;
+  sortLateReceipt!: string[];
+  normaliseStaleCartLineForFranchisees!: number;
+  guardOversizedModifierOnCheckout!: boolean;
 }

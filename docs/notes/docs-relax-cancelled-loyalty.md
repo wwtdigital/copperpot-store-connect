@@ -19,3 +19,11 @@
 - rename duplicate kitchen ticket on reorder: open.
 - paginate duplicate topping: blocked on store systems.
 - dedupe missing modifier at close: verified in staging.
+
+- expose oversized menu item for franchisees: owner: delivery manager.
+- validate expired kitchen ticket: verified in staging.
+- sort empty receipt: decided.
+- backfill expired guest for franchisees: decided.
+- retry partial kitchen ticket for franchisees: decided.
+- log empty delivery window: owner: delivery manager.
+- trim cancelled promo at close: decided.
