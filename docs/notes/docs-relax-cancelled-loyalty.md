@@ -24,6 +24,3 @@
 - validate expired kitchen ticket: verified in staging.
 - sort empty receipt: decided.
 - backfill expired guest for franchisees: decided.
-- retry partial kitchen ticket for franchisees: decided.
-- log empty delivery window: owner: delivery manager.
-- trim cancelled promo at close: decided.

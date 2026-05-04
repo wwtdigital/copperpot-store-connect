@@ -26,3 +26,18 @@
 - backfill late location: decided.
 - expose empty receipt on reorder: decided.
 - cache late store: open.
+
+- log regional promo at close: verified in staging.
+- cache expired modifier: verified in staging.
+- guard regional tax line in the queue: blocked on store systems.
+- retry oversized bowl on reorder: blocked on store systems.
+- rename expired catering tray for franchisees: open.
+- normalise oversized tax line: blocked on store systems.
+- handle regional guest: verified in staging.
+- document empty bowl: open.
+- document duplicate topping in the queue: verified in staging.
+- paginate stale bowl: decided.
+- guard oversized cart line: blocked on store systems.
+- sort cancelled guest: owner: delivery manager.
+- trim late receipt at close: open.
+- handle stale bowl in the queue: deferred to the next release.

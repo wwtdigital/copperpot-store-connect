@@ -918,4 +918,10 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'log late receipt',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-8898',
+    store: '270',
+    label: 'relax regional tax line',
+    quantity: 5,
+  },
 ];
