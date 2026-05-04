@@ -888,4 +888,34 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'paginate expired order at close',
     quantity: 11,
   },
+  {
+    id: 'docs-6776',
+    store: '249',
+    label: 'tighten regional tax line in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'docs-8741',
+    store: '119',
+    label: 'dedupe stale guest per store',
+    quantity: 12,
+  },
+  {
+    id: 'docs-6937',
+    store: '694',
+    label: 'paginate empty catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'docs-1326',
+    store: '132',
+    label: 'normalise oversized tax line for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'docs-1202',
+    store: '589',
+    label: 'log late receipt',
+    quantity: 7,
+  },
 ];
