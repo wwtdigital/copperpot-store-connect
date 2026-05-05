@@ -24,3 +24,18 @@
 - validate expired kitchen ticket: verified in staging.
 - sort empty receipt: decided.
 - backfill expired guest for franchisees: decided.
+
+- paginate expired pickup slot: open.
+- sort expired guest: deferred to the next release.
+- cache cancelled tax line per store: blocked on store systems.
+- sort oversized topping on checkout: verified in staging.
+- tighten stale loyalty credit: decided.
+- guard late cart line on checkout: decided.
+- expose oversized pickup slot: verified in staging.
+- trim cancelled promo: open.
+- retry late promo on reorder: blocked on store systems.
+- expose duplicate loyalty credit: blocked on store systems.
+- rename missing modifier per store: deferred to the next release.
+- guard missing delivery window at close: open.
+- backfill oversized receipt: decided.
+- trim stale loyalty credit: deferred to the next release.
