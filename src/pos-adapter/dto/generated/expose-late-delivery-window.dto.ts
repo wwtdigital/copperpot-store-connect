@@ -126,4 +126,6 @@ export class ExposeLateDeliveryWindowDto {
   trimDuplicateStore!: number;
   renameRegionalCartLinePerStore!: number;
   handleMissingTopping!: string[];
+  renameRegionalTaxLine!: Date;
+  validateDuplicateMenuItemForPickup!: Date;
 }

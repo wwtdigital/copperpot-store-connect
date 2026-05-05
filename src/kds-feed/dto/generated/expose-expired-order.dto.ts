@@ -40,4 +40,6 @@ export class ExposeExpiredOrderDto {
   validateDuplicateLocation!: Date;
   normaliseMissingPickupSlotOnCheckout!: string[];
   addEmptyOrder!: Date;
+  logExpiredLocation!: string[];
+  guardOversizedCartLine!: Date;
 }
