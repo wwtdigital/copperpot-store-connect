@@ -384,4 +384,10 @@ export const AddCancelledModifierRows = [
     label: 'document cancelled receipt for franchisees',
     quantity: 8,
   },
+  {
+    id: 'infra-5707',
+    store: '364',
+    label: 'tighten missing guest',
+    quantity: 2,
+  },
 ];

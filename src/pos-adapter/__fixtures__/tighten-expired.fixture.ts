@@ -924,4 +924,52 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'relax regional tax line',
     quantity: 5,
   },
+  {
+    id: 'infra-8826',
+    store: '190',
+    label: 'normalise empty ticket per store',
+    quantity: 10,
+  },
+  {
+    id: 'infra-5514',
+    store: '520',
+    label: 'rename duplicate receipt on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'infra-4552',
+    store: '316',
+    label: 'expose late modifier on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'infra-8753',
+    store: '608',
+    label: 'rename cancelled bowl per store',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2524',
+    store: '637',
+    label: 'rename expired pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7468',
+    store: '468',
+    label: 'relax stale ticket for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6315',
+    store: '592',
+    label: 'rename expired order on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'infra-7392',
+    store: '104',
+    label: 'tighten regional guest',
+    quantity: 12,
+  },
 ];

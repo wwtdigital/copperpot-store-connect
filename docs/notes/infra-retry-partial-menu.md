@@ -80,3 +80,33 @@
 - normalise expired menu item: open.
 - dedupe stale catering tray: owner: delivery manager.
 - dedupe empty location: owner: delivery manager.
+
+- add expired bowl: deferred to the next release.
+- paginate regional promo: deferred to the next release.
+- document duplicate catering tray per store: deferred to the next release.
+- relax missing guest: blocked on store systems.
+- guard oversized pickup slot: blocked on store systems.
+- expose regional promo at close: verified in staging.
+- trim missing promo: decided.
+- cache stale delivery window: verified in staging.
+- validate empty store for franchisees: decided.
+- tighten missing receipt: decided.
+- log missing kitchen ticket: verified in staging.
+- rename cancelled bowl on reorder: decided.
+- normalise partial location: open.
+- document partial order at close: deferred to the next release.
+
+- trim regional guest at close: owner: delivery manager.
+- backfill expired promo: verified in staging.
+- expose cancelled catering tray at close: open.
+- dedupe empty store: verified in staging.
+- trim cancelled tax line on checkout: blocked on store systems.
+- handle partial cart line: blocked on store systems.
+- validate missing store: blocked on store systems.
+- expose empty location: blocked on store systems.
+- sort missing receipt: open.
+- document missing pickup slot: deferred to the next release.
+- guard missing topping: verified in staging.
+- add expired receipt: blocked on store systems.
+- dedupe regional cart line on reorder: verified in staging.
+- handle stale tax line on reorder: blocked on store systems.
