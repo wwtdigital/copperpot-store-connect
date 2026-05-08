@@ -1038,4 +1038,16 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'retry partial tax line',
     quantity: 7,
   },
+  {
+    id: 'pos-adapter-5836',
+    store: '169',
+    label: 'guard regional guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'pos-adapter-9066',
+    store: '466',
+    label: 'sort expired promo at close',
+    quantity: 3,
+  },
 ];

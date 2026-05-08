@@ -40,4 +40,6 @@ export class RenameCancelledModifierDto {
   renameStaleCateringTray!: string;
   tightenPartialGuestForFranchisees!: string[];
   handlePartialBowl?: Date;
+  validateExpiredModifier!: Date;
+  backfillMissingLoyaltyCredit?: boolean;
 }
