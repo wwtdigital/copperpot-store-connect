@@ -50,3 +50,14 @@
 - trim partial catering tray: open.
 - cache partial guest: blocked on store systems.
 - guard oversized kitchen ticket in the queue: verified in staging.
+
+- validate partial loyalty credit: decided.
+- log stale modifier for franchisees: verified in staging.
+- rename expired delivery window on reorder: verified in staging.
+- trim partial location: owner: delivery manager.
+- validate late menu item at close: owner: delivery manager.
+- trim duplicate topping: decided.
+- document oversized tax line: open.
+- rename regional delivery window for pickup: verified in staging.
+- document partial catering tray: open.
+- trim cancelled store: verified in staging.

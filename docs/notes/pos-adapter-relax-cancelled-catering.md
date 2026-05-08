@@ -70,3 +70,18 @@
 - handle regional loyalty credit on checkout: verified in staging.
 - tighten stale modifier: deferred to the next release.
 - cache partial order: verified in staging.
+
+- retry oversized ticket in the queue: blocked on store systems.
+- expose regional order on checkout: decided.
+- rename oversized modifier: deferred to the next release.
+- expose cancelled order for pickup: blocked on store systems.
+- add cancelled bowl in the queue: blocked on store systems.
+- retry oversized bowl: decided.
+- normalise duplicate cart line for pickup: verified in staging.
+- guard partial loyalty credit: deferred to the next release.
+- log duplicate loyalty credit on reorder: decided.
+- handle expired delivery window: owner: delivery manager.
+- trim missing menu item per store: deferred to the next release.
+- cache empty modifier at close: open.
+- add expired location on reorder: open.
+- trim late store for franchisees: verified in staging.
