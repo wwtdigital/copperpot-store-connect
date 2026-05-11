@@ -48,4 +48,10 @@ export class RenameCancelledModifierDto {
   validateLateLoyaltyCreditForPickup?: string;
   documentOversizedKitchenTicket?: string[];
   paginateCancelledStore!: boolean;
+  trimExpiredPromo?: string;
+  sortStaleReceipt?: number;
+  documentRegionalOrder!: string;
+  dedupeExpiredLocation!: boolean;
+  handleOversizedToppingForFranchisees!: number;
+  paginateCancelledStoreForPickup?: number;
 }

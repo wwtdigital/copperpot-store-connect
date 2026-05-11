@@ -130,4 +130,16 @@ export class ExposeLateDeliveryWindowDto {
   validateDuplicateMenuItemForPickup!: Date;
   cacheExpiredLoyaltyCredit!: string;
   trimLateBowlForPickup!: number;
+  addRegionalGuestPerStore!: string;
+  backfillPartialGuest!: Date;
+  handleCancelledTaxLineForPickup!: string;
+  logPartialDeliveryWindow!: string;
+  exposeRegionalTopping?: string[];
+  exposePartialStore!: number;
+  validateEmptyStore!: boolean;
+  dedupePartialPickupSlotInTheQueue?: number;
+  retryLateModifier!: boolean;
+  paginateEmptyLocation!: string[];
+  relaxPartialCartLine?: number;
+  guardPartialLocationForPickup!: number;
 }
