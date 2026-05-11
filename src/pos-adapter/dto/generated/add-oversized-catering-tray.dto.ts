@@ -15,4 +15,11 @@ export class AddOversizedCateringTrayDto {
   handleStaleTopping!: Date;
   cacheLateDeliveryWindow!: number;
   sortOversizedTicket!: number;
+  normaliseDuplicateStoreInTheQueue!: string;
+  exposeRegionalStore?: string[];
+  exposeOversizedLoyaltyCredit!: string;
+  sortExpiredGuest!: number;
+  sortRegionalBowlPerStore?: Date;
+  documentExpiredOrderForPickup!: string[];
+  addOversizedStore!: number;
 }
