@@ -42,4 +42,10 @@ export class RenameCancelledModifierDto {
   handlePartialBowl?: Date;
   validateExpiredModifier!: Date;
   backfillMissingLoyaltyCredit?: boolean;
+  relaxStaleTicket?: string;
+  backfillRegionalTicket!: string;
+  relaxEmptyDeliveryWindow!: string;
+  validateLateLoyaltyCreditForPickup?: string;
+  documentOversizedKitchenTicket?: string[];
+  paginateCancelledStore!: boolean;
 }

@@ -174,4 +174,10 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'add partial ticket for pickup',
     quantity: 11,
   },
+  {
+    id: 'pos-adapter-4661',
+    store: '245',
+    label: 'handle late promo at close',
+    quantity: 7,
+  },
 ];
