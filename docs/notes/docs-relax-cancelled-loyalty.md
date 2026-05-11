@@ -39,3 +39,18 @@
 - guard missing delivery window at close: open.
 - backfill oversized receipt: decided.
 - trim stale loyalty credit: deferred to the next release.
+
+- expose regional location for pickup: deferred to the next release.
+- sort cancelled bowl on checkout: decided.
+- retry stale modifier per store: deferred to the next release.
+- guard partial menu item: open.
+- tighten partial pickup slot: decided.
+- paginate partial receipt on reorder: verified in staging.
+- sort cancelled menu item: decided.
+- rename partial loyalty credit: verified in staging.
+- cache regional order: verified in staging.
+- sort stale store: verified in staging.
+- rename cancelled catering tray: decided.
+- document regional kitchen ticket at close: blocked on store systems.
+- validate expired topping at close: owner: delivery manager.
+- handle missing topping: decided.

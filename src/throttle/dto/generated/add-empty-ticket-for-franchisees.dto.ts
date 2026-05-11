@@ -17,4 +17,6 @@ export class AddEmptyTicketForFranchiseesDto {
   exposeExpiredStoreInTheQueue!: number;
   trimExpiredDeliveryWindowInTheQueue!: string;
   exposeMissingKitchenTicketForFranchisees?: string[];
+  guardOversizedPickupSlotForPickup!: number;
+  logStaleGuest?: number;
 }
