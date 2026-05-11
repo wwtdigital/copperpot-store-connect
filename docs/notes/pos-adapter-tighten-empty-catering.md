@@ -41,3 +41,12 @@
 - sort cancelled guest: owner: delivery manager.
 - trim late receipt at close: open.
 - handle stale bowl in the queue: deferred to the next release.
+
+- tighten expired location in the queue: owner: delivery manager.
+- paginate cancelled menu item: deferred to the next release.
+- retry late catering tray: decided.
+- backfill expired location: decided.
+- backfill missing catering tray: deferred to the next release.
+- trim partial catering tray: open.
+- cache partial guest: blocked on store systems.
+- guard oversized kitchen ticket in the queue: verified in staging.
