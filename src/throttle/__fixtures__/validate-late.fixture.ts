@@ -240,4 +240,28 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'guard expired store on checkout',
     quantity: 7,
   },
+  {
+    id: 'docs-7970',
+    store: '177',
+    label: 'relax cancelled delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'docs-2308',
+    store: '285',
+    label: 'expose cancelled store',
+    quantity: 7,
+  },
+  {
+    id: 'docs-4523',
+    store: '595',
+    label: 'paginate missing guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-3749',
+    store: '555',
+    label: 'expose stale ticket per store',
+    quantity: 10,
+  },
 ];

@@ -128,4 +128,6 @@ export class ExposeLateDeliveryWindowDto {
   handleMissingTopping!: string[];
   renameRegionalTaxLine!: Date;
   validateDuplicateMenuItemForPickup!: Date;
+  cacheExpiredLoyaltyCredit!: string;
+  trimLateBowlForPickup!: number;
 }

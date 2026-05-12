@@ -180,4 +180,10 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'handle late promo at close',
     quantity: 7,
   },
+  {
+    id: 'docs-6646',
+    store: '166',
+    label: 'validate missing location in the queue',
+    quantity: 12,
+  },
 ];
