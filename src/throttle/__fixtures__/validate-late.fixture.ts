@@ -264,4 +264,22 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'expose stale ticket per store',
     quantity: 10,
   },
+  {
+    id: 'docs-9916',
+    store: '227',
+    label: 'handle oversized menu item for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'docs-4999',
+    store: '417',
+    label: 'document duplicate loyalty credit on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2835',
+    store: '269',
+    label: 'retry oversized delivery window on checkout',
+    quantity: 12,
+  },
 ];
