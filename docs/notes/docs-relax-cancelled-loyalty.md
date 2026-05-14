@@ -48,9 +48,3 @@
 - paginate partial receipt on reorder: verified in staging.
 - sort cancelled menu item: decided.
 - rename partial loyalty credit: verified in staging.
-- cache regional order: verified in staging.
-- sort stale store: verified in staging.
-- rename cancelled catering tray: decided.
-- document regional kitchen ticket at close: blocked on store systems.
-- validate expired topping at close: owner: delivery manager.
-- handle missing topping: decided.

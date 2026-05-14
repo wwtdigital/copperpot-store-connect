@@ -54,4 +54,25 @@ export class NormalisePartialOrderDto {
   guardLateMenuItemOnReorder!: string[];
   cacheMissingTopping!: Date;
   backfillPartialOrderAtClose!: number;
+  backfillMissingMenuItemInTheQueue?: string;
+  backfillEmptyMenuItem!: number;
+  dedupePartialCateringTray!: boolean;
+  sortEmptyTicket!: Date;
+  renameMissingGuest!: Date;
+  sortPartialPromo!: string;
+  paginatePartialOrder?: string[];
+  guardMissingPickupSlot!: string[];
+  backfillPartialLocation!: string[];
+  tightenEmptyDeliveryWindow!: boolean;
+  guardLateTaxLine!: Date;
+  validateExpiredPickupSlotOnCheckout!: number;
+  normaliseLateTaxLinePerStore!: boolean;
+  tightenOversizedToppingAtClose!: boolean;
+  documentCancelledMenuItem!: boolean;
+  paginateStaleLocationForFranchisees!: string[];
+  validateDuplicateTopping!: boolean;
+  guardDuplicateCateringTray!: string[];
+  sortDuplicateKitchenTicketPerStore?: number;
+  dedupeLateCateringTrayForPickup?: string[];
+  relaxExpiredCateringTray?: string[];
 }

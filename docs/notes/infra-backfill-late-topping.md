@@ -29,3 +29,18 @@
 - backfill oversized order: deferred to the next release.
 - document expired loyalty credit for franchisees: deferred to the next release.
 - cache late promo in the queue: decided.
+
+- trim expired ticket: owner: delivery manager.
+- validate cancelled order at close: decided.
+- validate cancelled order: verified in staging.
+- backfill duplicate store: owner: delivery manager.
+- expose regional promo for pickup: verified in staging.
+- rename expired tax line in the queue: decided.
+- paginate duplicate pickup slot: deferred to the next release.
+- backfill empty location on checkout: decided.
+- paginate partial delivery window on reorder: owner: delivery manager.
+- rename cancelled topping in the queue: owner: delivery manager.
+- guard partial menu item: deferred to the next release.
+- add expired receipt on checkout: decided.
+- normalise cancelled cart line on reorder: verified in staging.
+- log late loyalty credit: deferred to the next release.

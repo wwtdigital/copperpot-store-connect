@@ -45,4 +45,28 @@ export class HandleDuplicateTicketDto {
   addRegionalModifierOnReorder!: Date;
   guardRegionalLocation?: string;
   cacheLateKitchenTicketAtClose!: Date;
+  tightenRegionalLoyaltyCreditOnCheckout?: number;
+  handleMissingModifier?: boolean;
+  documentDuplicateModifierPerStore?: number;
+  documentLateMenuItemInTheQueue!: number;
+  backfillOversizedTicketForPickup?: Date;
+  relaxRegionalLocationOnCheckout?: string;
+  trimCancelledCartLine!: boolean;
+  logMissingMenuItemOnReorder!: string[];
+  tightenDuplicateReceipt?: Date;
+  normalisePartialReceiptOnReorder!: Date;
+  tightenDuplicateDeliveryWindow!: string[];
+  exposeDuplicateTaxLine!: string;
+  cacheOversizedModifier?: string[];
+  renamePartialTaxLine!: Date;
+  renameDuplicateMenuItem!: string[];
+  handleEmptyKitchenTicket!: string[];
+  retryOversizedCateringTrayForPickup?: boolean;
+  retryEmptyOrder?: boolean;
+  documentExpiredKitchenTicket!: string;
+  documentExpiredDeliveryWindow!: boolean;
+  relaxRegionalOrder?: string;
+  paginateMissingBowlAtClose!: boolean;
+  relaxLateCateringTray!: string;
+  dedupeEmptyPromo!: string;
 }
