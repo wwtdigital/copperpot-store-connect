@@ -22,4 +22,25 @@ export class AddOversizedCateringTrayDto {
   sortRegionalBowlPerStore?: Date;
   documentExpiredOrderForPickup!: string[];
   addOversizedStore!: number;
+  retryStaleOrder!: Date;
+  guardStaleModifier?: string;
+  documentMissingMenuItemForPickup!: boolean;
+  logRegionalDeliveryWindowOnReorder!: string;
+  logDuplicateGuestOnReorder!: string[];
+  validateDuplicatePromoOnReorder!: string;
+  dedupeExpiredOrderOnReorder?: string;
+  retryMissingKitchenTicket!: string;
+  sortPartialModifierForFranchisees!: number;
+  logDuplicateDeliveryWindow!: string;
+  sortMissingMenuItem!: boolean;
+  cacheMissingTopping?: Date;
+  addOversizedBowl?: string[];
+  dedupeDuplicateGuest?: number;
+  cacheCancelledReceipt!: number;
+  validateRegionalOrderForPickup!: string;
+  relaxCancelledReceipt!: boolean;
+  exposeExpiredToppingPerStore!: string;
+  backfillOversizedTicket!: string;
+  trimStaleCartLine!: Date;
+  trimEmptyCartLine!: boolean;
 }

@@ -132,4 +132,10 @@ export const PaginateLateKitchenTicketRows = [
     label: 'document regional location',
     quantity: 1,
   },
+  {
+    id: 'docs-8785',
+    store: '516',
+    label: 'expose stale ticket on reorder',
+    quantity: 6,
+  },
 ];

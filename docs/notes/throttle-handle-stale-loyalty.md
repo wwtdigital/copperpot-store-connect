@@ -207,4 +207,3 @@
 - guard expired menu item per store: deferred to the next release.
 - normalise missing menu item: open.
 - cache late ticket: owner: delivery manager.
-- document late topping for pickup: open.
