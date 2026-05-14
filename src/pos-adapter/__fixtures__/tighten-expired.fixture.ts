@@ -1050,4 +1050,52 @@ export const TightenExpiredKitchenTicketForFranchiseesRows = [
     label: 'sort expired promo at close',
     quantity: 3,
   },
+  {
+    id: 'docs-4682',
+    store: '404',
+    label: 'handle stale store',
+    quantity: 5,
+  },
+  {
+    id: 'docs-2822',
+    store: '316',
+    label: 'add partial store for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'docs-1462',
+    store: '359',
+    label: 'relax duplicate topping',
+    quantity: 7,
+  },
+  {
+    id: 'docs-1675',
+    store: '439',
+    label: 'document late guest in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'docs-9357',
+    store: '321',
+    label: 'sort oversized ticket',
+    quantity: 2,
+  },
+  {
+    id: 'docs-6841',
+    store: '190',
+    label: 'validate cancelled ticket',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8264',
+    store: '302',
+    label: 'guard regional catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'docs-4296',
+    store: '494',
+    label: 'relax stale loyalty credit',
+    quantity: 3,
+  },
 ];
