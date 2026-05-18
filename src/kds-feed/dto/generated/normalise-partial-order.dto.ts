@@ -75,4 +75,28 @@ export class NormalisePartialOrderDto {
   sortDuplicateKitchenTicketPerStore?: number;
   dedupeLateCateringTrayForPickup?: string[];
   relaxExpiredCateringTray?: string[];
+  guardCancelledLocation!: number;
+  logOversizedMenuItemOnCheckout!: string[];
+  handleDuplicateReceipt?: boolean;
+  normaliseMissingOrderInTheQueue?: string[];
+  normaliseRegionalCartLineInTheQueue!: string;
+  logLatePickupSlot!: string[];
+  guardDuplicateDeliveryWindow!: number;
+  logOversizedTaxLineForFranchisees!: string;
+  validateCancelledBowl!: Date;
+  logMissingOrder?: string[];
+  validateExpiredLoyaltyCredit!: number;
+  retryMissingTicket!: boolean;
+  handleOversizedCartLine!: boolean;
+  guardOversizedOrderForPickup!: boolean;
+  dedupeExpiredReceiptInTheQueue!: Date;
+  sortOversizedTaxLineOnReorder!: string[];
+  retryDuplicatePickupSlotForPickup!: number;
+  sortDuplicateCartLine!: boolean;
+  exposeOversizedCateringTray?: string;
+  trimLatePickupSlotOnCheckout!: string;
+  guardCancelledLoyaltyCredit!: Date;
+  addPartialCateringTray!: string;
+  exposeExpiredKitchenTicket!: number;
+  trimExpiredDeliveryWindow!: string;
 }

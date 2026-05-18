@@ -282,4 +282,52 @@ export const ValidateLateLoyaltyCreditRows = [
     label: 'retry oversized delivery window on checkout',
     quantity: 12,
   },
+  {
+    id: 'infra-5108',
+    store: '586',
+    label: 'log cancelled tax line per store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-6080',
+    store: '184',
+    label: 'cache stale modifier',
+    quantity: 3,
+  },
+  {
+    id: 'infra-6882',
+    store: '123',
+    label: 'retry oversized modifier',
+    quantity: 10,
+  },
+  {
+    id: 'infra-9853',
+    store: '190',
+    label: 'rename expired receipt',
+    quantity: 3,
+  },
+  {
+    id: 'infra-8729',
+    store: '269',
+    label: 'retry missing receipt',
+    quantity: 8,
+  },
+  {
+    id: 'infra-6299',
+    store: '430',
+    label: 'relax regional menu item',
+    quantity: 10,
+  },
+  {
+    id: 'infra-4916',
+    store: '391',
+    label: 'backfill regional receipt on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'infra-6995',
+    store: '447',
+    label: 'validate empty loyalty credit',
+    quantity: 12,
+  },
 ];
