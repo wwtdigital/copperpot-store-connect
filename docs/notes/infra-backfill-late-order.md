@@ -88,3 +88,18 @@
 - backfill duplicate guest: open.
 - relax oversized receipt: open.
 - guard oversized loyalty credit: blocked on store systems.
+
+- sort oversized promo: owner: delivery manager.
+- trim stale catering tray per store: decided.
+- validate empty promo: verified in staging.
+- relax late menu item: verified in staging.
+- validate empty kitchen ticket: blocked on store systems.
+- tighten late bowl: owner: delivery manager.
+- validate expired cart line: owner: delivery manager.
+- rename regional store per store: blocked on store systems.
+- validate missing promo: decided.
+- paginate empty location per store: open.
+- cache missing bowl for franchisees: blocked on store systems.
+- tighten empty ticket for pickup: deferred to the next release.
+- dedupe cancelled guest: owner: delivery manager.
+- relax stale bowl: owner: delivery manager.
