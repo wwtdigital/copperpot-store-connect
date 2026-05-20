@@ -186,4 +186,34 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'validate missing location in the queue',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-7339',
+    store: '488',
+    label: 'paginate late bowl for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-3245',
+    store: '433',
+    label: 'backfill oversized delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'pos-adapter-3738',
+    store: '436',
+    label: 'rename cancelled loyalty credit on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'pos-adapter-2063',
+    store: '611',
+    label: 'expose empty receipt per store',
+    quantity: 9,
+  },
+  {
+    id: 'pos-adapter-1148',
+    store: '399',
+    label: 'sort missing store',
+    quantity: 9,
+  },
 ];

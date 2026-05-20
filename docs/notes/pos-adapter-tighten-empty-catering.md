@@ -61,3 +61,16 @@
 - rename regional delivery window for pickup: verified in staging.
 - document partial catering tray: open.
 - trim cancelled store: verified in staging.
+
+- add cancelled topping: verified in staging.
+- paginate partial receipt: blocked on store systems.
+- trim empty kitchen ticket: owner: delivery manager.
+- cache late tax line: owner: delivery manager.
+- guard cancelled tax line for pickup: blocked on store systems.
+- handle empty store on reorder: blocked on store systems.
+- backfill cancelled location for franchisees: blocked on store systems.
+- document oversized guest: deferred to the next release.
+- rename partial delivery window: open.
+- backfill late bowl per store: decided.
+- retry regional topping for franchisees: owner: delivery manager.
+- paginate late receipt: verified in staging.

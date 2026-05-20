@@ -15,3 +15,8 @@
 - dedupe oversized delivery window: decided.
 - backfill oversized tax line: verified in staging.
 - retry empty pickup slot per store: blocked on store systems.
+
+- log stale order: decided.
+- handle regional store: verified in staging.
+- relax late menu item: blocked on store systems.
+- cache stale cart line: deferred to the next release.
