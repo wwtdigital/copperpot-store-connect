@@ -1,0 +1,75 @@
+/* Fixture rows for kds-feed tests: add regional tax line for franchisees. Generated data, not production data. */
+export const AddRegionalTaxLineForFranchiseesRows = [
+  {
+    id: 'kds-feed-1606',
+    store: '616',
+    label: 'tighten duplicate promo',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-8347',
+    store: '464',
+    label: 'cache partial store on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-3174',
+    store: '630',
+    label: 'tighten missing order',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-6972',
+    store: '566',
+    label: 'relax late store',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-7800',
+    store: '679',
+    label: 'paginate oversized modifier per store',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4673',
+    store: '246',
+    label: 'expose partial guest',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-7120',
+    store: '416',
+    label: 'guard cancelled store',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-5068',
+    store: '694',
+    label: 'add missing delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9264',
+    store: '412',
+    label: 'document empty ticket',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-7731',
+    store: '661',
+    label: 'paginate late delivery window for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-3254',
+    store: '329',
+    label: 'rename regional store in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-2347',
+    store: '359',
+    label: 'retry partial promo',
+    quantity: 10,
+  },
+];
