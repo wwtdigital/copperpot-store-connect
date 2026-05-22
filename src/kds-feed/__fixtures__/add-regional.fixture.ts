@@ -72,4 +72,58 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'retry partial promo',
     quantity: 10,
   },
+  {
+    id: 'kds-feed-7137',
+    store: '135',
+    label: 'validate regional guest in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-2649',
+    store: '697',
+    label: 'add late catering tray at close',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-7625',
+    store: '179',
+    label: 'rename cancelled bowl per store',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-6818',
+    store: '450',
+    label: 'guard stale guest',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-9571',
+    store: '365',
+    label: 'trim empty topping',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-1297',
+    store: '406',
+    label: 'sort oversized menu item for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-8211',
+    store: '632',
+    label: 'normalise expired location per store',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-9664',
+    store: '598',
+    label: 'normalise missing topping',
+    quantity: 6,
+  },
+  {
+    id: 'kds-feed-2793',
+    store: '321',
+    label: 'normalise duplicate kitchen ticket',
+    quantity: 3,
+  },
 ];
