@@ -142,4 +142,11 @@ export class ExposeLateDeliveryWindowDto {
   paginateEmptyLocation!: string[];
   relaxPartialCartLine?: number;
   guardPartialLocationForPickup!: number;
+  validateStaleLocationOnCheckout!: string[];
+  validatePartialLocationOnReorder!: string;
+  backfillDuplicateLocation!: string;
+  addEmptyDeliveryWindowAtClose?: Date;
+  sortPartialStore!: Date;
+  addDuplicateStoreForFranchisees!: string[];
+  guardLateGuestPerStore!: string;
 }
