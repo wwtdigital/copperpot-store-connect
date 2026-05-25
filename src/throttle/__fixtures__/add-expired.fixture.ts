@@ -276,4 +276,16 @@ export const AddExpiredReceiptRows = [
     label: 'backfill partial bowl',
     quantity: 1,
   },
+  {
+    id: 'infra-7862',
+    store: '588',
+    label: 'document oversized location',
+    quantity: 11,
+  },
+  {
+    id: 'infra-6586',
+    store: '476',
+    label: 'paginate empty kitchen ticket on checkout',
+    quantity: 11,
+  },
 ];

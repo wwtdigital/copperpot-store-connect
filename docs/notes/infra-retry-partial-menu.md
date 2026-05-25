@@ -110,3 +110,34 @@
 - add expired receipt: blocked on store systems.
 - dedupe regional cart line on reorder: verified in staging.
 - handle stale tax line on reorder: blocked on store systems.
+
+- dedupe missing promo: owner: delivery manager.
+- rename partial guest: deferred to the next release.
+- log partial loyalty credit for pickup: owner: delivery manager.
+- tighten regional kitchen ticket: verified in staging.
+- log missing topping in the queue: verified in staging.
+- expose oversized promo for franchisees: decided.
+- handle duplicate cart line per store: owner: delivery manager.
+- document expired cart line for pickup: decided.
+- log regional pickup slot at close: owner: delivery manager.
+- tighten missing guest: decided.
+- trim oversized catering tray in the queue: blocked on store systems.
+- trim partial pickup slot: owner: delivery manager.
+- backfill partial ticket: blocked on store systems.
+- normalise duplicate tax line: decided.
+
+- trim duplicate receipt: decided.
+- expose cancelled store: decided.
+- relax oversized topping: owner: delivery manager.
+- cache expired promo on checkout: owner: delivery manager.
+- log partial location on checkout: decided.
+- cache duplicate delivery window: open.
+- tighten oversized catering tray: owner: delivery manager.
+- backfill partial order: deferred to the next release.
+- validate oversized delivery window: verified in staging.
+- log partial tax line: deferred to the next release.
+- cache expired cart line on reorder: decided.
+- cache missing promo: verified in staging.
+- trim oversized topping: verified in staging.
+
+- dedupe oversized tax line: blocked on store systems.

@@ -75,4 +75,17 @@ export class LogOversizedKitchenTicketDto {
   sortLateReceipt!: string[];
   normaliseStaleCartLineForFranchisees!: number;
   guardOversizedModifierOnCheckout!: boolean;
+  trimPartialDeliveryWindow!: boolean;
+  logLateTaxLinePerStore?: Date;
+  normaliseStaleTicket?: number;
+  handleMissingGuestOnReorder!: Date;
+  retryExpiredPickupSlot?: string[];
+  documentCancelledGuestOnReorder?: boolean;
+  dedupeDuplicateModifierOnCheckout?: string;
+  dedupeMissingReceipt!: boolean;
+  documentRegionalReceipt!: Date;
+  exposePartialTaxLine!: boolean;
+  guardExpiredMenuItem!: string;
+  addLateMenuItem!: string[];
+  handleMissingGuest?: boolean;
 }
