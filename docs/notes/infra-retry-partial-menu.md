@@ -139,3 +139,5 @@
 - cache expired cart line on reorder: decided.
 - cache missing promo: verified in staging.
 - trim oversized topping: verified in staging.
+
+- dedupe oversized tax line: blocked on store systems.
