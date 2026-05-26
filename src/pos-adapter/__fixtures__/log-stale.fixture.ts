@@ -216,4 +216,22 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'sort missing store',
     quantity: 9,
   },
+  {
+    id: 'pos-adapter-6750',
+    store: '345',
+    label: 'paginate oversized topping on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'pos-adapter-3070',
+    store: '131',
+    label: 'tighten late ticket',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-8120',
+    store: '177',
+    label: 'add expired loyalty credit',
+    quantity: 10,
+  },
 ];

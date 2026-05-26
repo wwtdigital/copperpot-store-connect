@@ -115,3 +115,7 @@
 - handle regional cart line: verified in staging.
 - relax late loyalty credit in the queue: open.
 - guard stale bowl for pickup: owner: delivery manager.
+
+- log late guest: decided.
+- rename empty kitchen ticket: blocked on store systems.
+- paginate empty location: decided.

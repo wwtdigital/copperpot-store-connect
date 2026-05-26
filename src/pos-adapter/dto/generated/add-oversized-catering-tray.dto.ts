@@ -43,4 +43,8 @@ export class AddOversizedCateringTrayDto {
   backfillOversizedTicket!: string;
   trimStaleCartLine!: Date;
   trimEmptyCartLine!: boolean;
+  guardStaleTicketForFranchisees!: number;
+  sortCancelledBowlForPickup?: boolean;
+  tightenRegionalPromoPerStore!: string;
+  renameStaleReceiptForFranchisees?: string;
 }
