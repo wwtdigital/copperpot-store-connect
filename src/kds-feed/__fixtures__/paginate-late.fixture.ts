@@ -222,4 +222,40 @@ export const PaginateLateKitchenTicketRows = [
     label: 'sort empty menu item',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-1568',
+    store: '129',
+    label: 'validate duplicate order',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-4638',
+    store: '640',
+    label: 'log duplicate delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-6742',
+    store: '118',
+    label: 'add partial store for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-8954',
+    store: '631',
+    label: 'handle regional modifier',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-4176',
+    store: '424',
+    label: 'document late cart line',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-5856',
+    store: '581',
+    label: 'normalise cancelled location',
+    quantity: 5,
+  },
 ];

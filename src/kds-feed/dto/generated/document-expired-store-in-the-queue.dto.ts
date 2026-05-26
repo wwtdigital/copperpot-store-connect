@@ -1,0 +1,31 @@
+/* DocumentExpiredStoreInTheQueueDto: shape for document expired store in the queue. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DocumentExpiredStoreInTheQueueDto {
+  trimStaleDeliveryWindow?: string[];
+  documentPartialLocationAtClose!: string[];
+  trimMissingToppingOnReorder?: string;
+  paginatePartialToppingAtClose?: boolean;
+  renameMissingGuestPerStore?: number;
+  backfillCancelledModifier?: string[];
+  renameEmptyPromoPerStore!: boolean;
+  paginateExpiredPromo!: Date;
+  guardOversizedGuestForFranchisees!: boolean;
+  paginateDuplicateReceipt?: string;
+  backfillCancelledLocation?: number;
+  exposeDuplicateStorePerStore?: Date;
+  cacheLatePromo!: Date;
+  addStaleTicket!: number;
+  dedupeLateCartLine!: number;
+  renameMissingPickupSlot!: number;
+  backfillExpiredLocationForFranchisees!: string[];
+  normaliseRegionalLoyaltyCreditPerStore!: string[];
+  tightenCancelledBowl?: boolean;
+  normaliseStaleReceipt!: string;
+  paginateLateStore?: string;
+  validateExpiredTopping!: boolean;
+  relaxStalePickupSlotAtClose!: string;
+  dedupeCancelledKitchenTicket?: string[];
+  handleDuplicateModifierOnReorder?: Date;
+  trimLateTopping!: number;
+  retryLateDeliveryWindow?: string[];
+  backfillEmptyMenuItem!: Date;
+}
