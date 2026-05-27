@@ -119,3 +119,18 @@
 - log late guest: decided.
 - rename empty kitchen ticket: blocked on store systems.
 - paginate empty location: decided.
+
+- tighten expired promo at close: open.
+- dedupe regional location: deferred to the next release.
+- trim duplicate pickup slot for franchisees: open.
+- expose partial menu item: decided.
+- add cancelled guest on reorder: blocked on store systems.
+- sort late kitchen ticket in the queue: open.
+- sort cancelled kitchen ticket for pickup: deferred to the next release.
+- sort missing store for pickup: open.
+- trim partial kitchen ticket: owner: delivery manager.
+- rename partial tax line: decided.
+- add partial store in the queue: verified in staging.
+- relax expired modifier: verified in staging.
+- add duplicate topping: owner: delivery manager.
+- document stale tax line in the queue: open.

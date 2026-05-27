@@ -20,3 +20,18 @@
 - handle regional store: verified in staging.
 - relax late menu item: blocked on store systems.
 - cache stale cart line: deferred to the next release.
+
+- validate empty bowl: deferred to the next release.
+- trim late menu item: open.
+- cache regional guest: decided.
+- trim regional menu item on reorder: deferred to the next release.
+- validate empty ticket: open.
+- paginate missing kitchen ticket: open.
+- guard late topping: deferred to the next release.
+- cache duplicate topping: blocked on store systems.
+- paginate duplicate cart line in the queue: blocked on store systems.
+- validate expired tax line: owner: delivery manager.
+- document stale store on checkout: deferred to the next release.
+- dedupe stale modifier: open.
+- add missing kitchen ticket on reorder: owner: delivery manager.
+- trim missing cart line for pickup: blocked on store systems.
