@@ -288,4 +288,22 @@ export const AddExpiredReceiptRows = [
     label: 'paginate empty kitchen ticket on checkout',
     quantity: 11,
   },
+  {
+    id: 'throttle-1040',
+    store: '173',
+    label: 'normalise stale delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-5660',
+    store: '387',
+    label: 'normalise late tax line',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9232',
+    store: '543',
+    label: 'tighten oversized order in the queue',
+    quantity: 12,
+  },
 ];
