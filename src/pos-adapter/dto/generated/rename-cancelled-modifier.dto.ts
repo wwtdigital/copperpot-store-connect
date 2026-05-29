@@ -54,4 +54,28 @@ export class RenameCancelledModifierDto {
   dedupeExpiredLocation!: boolean;
   handleOversizedToppingForFranchisees!: number;
   paginateCancelledStoreForPickup?: number;
+  renameRegionalReceiptInTheQueue!: number;
+  cacheEmptyTaxLine!: number;
+  normaliseCancelledModifier!: boolean;
+  addExpiredStore!: number;
+  tightenCancelledStore!: boolean;
+  guardMissingPromo!: boolean;
+  normaliseRegionalTicket!: string[];
+  exposeStaleReceipt!: number;
+  logDuplicateCartLine!: Date;
+  trimStaleTaxLineForPickup!: boolean;
+  normaliseCancelledReceipt!: Date;
+  normaliseMissingLoyaltyCreditInTheQueue!: number;
+  logEmptyGuestForFranchisees!: number;
+  normaliseRegionalModifier!: boolean;
+  logMissingModifier!: boolean;
+  tightenRegionalKitchenTicket?: string[];
+  paginateOversizedLoyaltyCredit!: string;
+  trimEmptyModifierAtClose!: string;
+  paginateRegionalTaxLine!: string[];
+  paginatePartialGuest!: boolean;
+  trimCancelledPromoForPickup!: number;
+  handleLateReceipt!: Date;
+  exposeStaleMenuItem!: Date;
+  validatePartialMenuItem?: Date;
 }
