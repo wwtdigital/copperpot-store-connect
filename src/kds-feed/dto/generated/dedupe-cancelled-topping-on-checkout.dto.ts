@@ -5,4 +5,17 @@ export class DedupeCancelledToppingOnCheckoutDto {
   normaliseMissingCateringTrayOnCheckout!: boolean;
   relaxStaleGuest!: number;
   relaxOversizedCateringTray!: number;
+  addRegionalGuest!: Date;
+  tightenCancelledDeliveryWindow?: string;
+  cachePartialMenuItem!: number;
+  handleStaleGuestInTheQueue!: Date;
+  sortLateKitchenTicket?: string;
+  retryCancelledStoreAtClose!: number;
+  validateExpiredDeliveryWindow!: string;
+  retryOversizedLoyaltyCredit!: string[];
+  backfillMissingMenuItem?: string[];
+  dedupeMissingBowlOnReorder!: boolean;
+  paginateStaleTicketPerStore!: number;
+  normaliseExpiredToppingInTheQueue!: number;
+  exposeMissingReceipt?: string;
 }

@@ -282,4 +282,16 @@ export const PaginateLateKitchenTicketRows = [
     label: 'backfill regional location',
     quantity: 1,
   },
+  {
+    id: 'kds-feed-7598',
+    store: '509',
+    label: 'log stale topping',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-7374',
+    store: '352',
+    label: 'cache oversized modifier for franchisees',
+    quantity: 4,
+  },
 ];
