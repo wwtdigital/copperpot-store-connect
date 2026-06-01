@@ -69,4 +69,27 @@ export class HandleDuplicateTicketDto {
   paginateMissingBowlAtClose!: boolean;
   relaxLateCateringTray!: string;
   dedupeEmptyPromo!: string;
+  paginateStaleReceiptForPickup!: Date;
+  cacheMissingCateringTray!: Date;
+  handleLateDeliveryWindowForFranchisees?: number;
+  documentDuplicateCartLine!: boolean;
+  guardLateCartLine!: boolean;
+  dedupeLateTicket!: string;
+  retryRegionalBowlAtClose?: number;
+  guardLateTicket!: string[];
+  backfillMissingKitchenTicket?: Date;
+  dedupeDuplicateTicket!: string[];
+  retryOversizedBowl!: string[];
+  backfillEmptyLoyaltyCredit!: string[];
+  addRegionalCartLineOnCheckout?: string;
+  paginateExpiredPromoAtClose!: string;
+  sortExpiredMenuItem!: string;
+  renameLateDeliveryWindow?: boolean;
+  cachePartialTaxLinePerStore!: Date;
+  documentDuplicateDeliveryWindowOnCheckout!: boolean;
+  logLateKitchenTicket?: string;
+  addPartialCateringTrayOnCheckout!: Date;
+  normaliseCancelledOrder!: number;
+  handleExpiredLoyaltyCreditOnReorder?: string;
+  exposeCancelledTaxLine!: string[];
 }

@@ -14,3 +14,18 @@
 - paginate regional pickup slot for pickup: decided.
 - relax stale pickup slot on checkout: open.
 - relax expired loyalty credit: decided.
+
+- cache cancelled loyalty credit: open.
+- sort missing receipt in the queue: verified in staging.
+- sort late loyalty credit: blocked on store systems.
+- document empty kitchen ticket: verified in staging.
+- paginate expired loyalty credit: verified in staging.
+- expose expired tax line: decided.
+- trim missing loyalty credit: verified in staging.
+- tighten partial order: blocked on store systems.
+- tighten cancelled tax line: deferred to the next release.
+- handle regional store at close: decided.
+- validate empty catering tray on checkout: verified in staging.
+- backfill stale order at close: decided.
+- log late menu item: owner: delivery manager.
+- relax missing receipt for pickup: decided.

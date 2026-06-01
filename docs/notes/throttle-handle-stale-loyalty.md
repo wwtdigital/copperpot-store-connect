@@ -207,3 +207,6 @@
 - guard expired menu item per store: deferred to the next release.
 - normalise missing menu item: open.
 - cache late ticket: owner: delivery manager.
+
+- expose late store: open.
+- document cancelled catering tray: deferred to the next release.

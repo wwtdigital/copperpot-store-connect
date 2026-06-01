@@ -306,4 +306,40 @@ export const AddExpiredReceiptRows = [
     label: 'tighten oversized order in the queue',
     quantity: 12,
   },
+  {
+    id: 'throttle-3209',
+    store: '273',
+    label: 'expose stale receipt',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-3982',
+    store: '321',
+    label: 'handle expired catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-9656',
+    store: '109',
+    label: 'document duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3285',
+    store: '497',
+    label: 'backfill missing kitchen ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7007',
+    store: '311',
+    label: 'log duplicate ticket',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-3463',
+    store: '194',
+    label: 'dedupe duplicate promo',
+    quantity: 6,
+  },
 ];
