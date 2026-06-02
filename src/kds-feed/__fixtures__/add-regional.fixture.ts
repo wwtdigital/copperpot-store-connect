@@ -210,4 +210,34 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'cache oversized promo at close',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-4182',
+    store: '159',
+    label: 'dedupe late promo on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-2915',
+    store: '346',
+    label: 'handle cancelled promo for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'kds-feed-3756',
+    store: '654',
+    label: 'paginate cancelled store',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-5147',
+    store: '422',
+    label: 'guard cancelled pickup slot at close',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-5062',
+    store: '455',
+    label: 'retry oversized kitchen ticket',
+    quantity: 11,
+  },
 ];

@@ -18,4 +18,6 @@ export class DedupeCancelledToppingOnCheckoutDto {
   paginateStaleTicketPerStore!: number;
   normaliseExpiredToppingInTheQueue!: number;
   exposeMissingReceipt?: string;
+  relaxLateKitchenTicket!: number;
+  backfillMissingCartLinePerStore?: string[];
 }
