@@ -594,4 +594,52 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'guard expired loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-4009',
+    store: '224',
+    label: 'log empty bowl for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'pos-adapter-9297',
+    store: '649',
+    label: 'expose duplicate catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-5971',
+    store: '355',
+    label: 'backfill stale modifier in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-1955',
+    store: '690',
+    label: 'add duplicate receipt',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-3082',
+    store: '213',
+    label: 'trim expired modifier in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'pos-adapter-7795',
+    store: '492',
+    label: 'sort empty location',
+    quantity: 6,
+  },
+  {
+    id: 'pos-adapter-8742',
+    store: '643',
+    label: 'dedupe cancelled kitchen ticket on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'pos-adapter-4846',
+    store: '347',
+    label: 'retry expired promo for pickup',
+    quantity: 4,
+  },
 ];
