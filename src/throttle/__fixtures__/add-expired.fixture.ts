@@ -288,4 +288,58 @@ export const AddExpiredReceiptRows = [
     label: 'paginate empty kitchen ticket on checkout',
     quantity: 11,
   },
+  {
+    id: 'throttle-1040',
+    store: '173',
+    label: 'normalise stale delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-5660',
+    store: '387',
+    label: 'normalise late tax line',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-9232',
+    store: '543',
+    label: 'tighten oversized order in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-3209',
+    store: '273',
+    label: 'expose stale receipt',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-3982',
+    store: '321',
+    label: 'handle expired catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-9656',
+    store: '109',
+    label: 'document duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'throttle-3285',
+    store: '497',
+    label: 'backfill missing kitchen ticket at close',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-7007',
+    store: '311',
+    label: 'log duplicate ticket',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-3463',
+    store: '194',
+    label: 'dedupe duplicate promo',
+    quantity: 6,
+  },
 ];

@@ -1,0 +1,31 @@
+# throttle: cache cancelled store for pickup
+
+- tighten cancelled location on checkout: deferred to the next release.
+- trim cancelled cart line in the queue: open.
+- expose regional kitchen ticket: open.
+- backfill duplicate ticket: owner: delivery manager.
+- paginate missing order: owner: delivery manager.
+- handle partial topping for franchisees: deferred to the next release.
+- backfill stale tax line for franchisees: open.
+- validate duplicate topping: deferred to the next release.
+- trim cancelled menu item on checkout: blocked on store systems.
+- add regional ticket: deferred to the next release.
+- expose partial ticket: decided.
+- paginate regional pickup slot for pickup: decided.
+- relax stale pickup slot on checkout: open.
+- relax expired loyalty credit: decided.
+
+- cache cancelled loyalty credit: open.
+- sort missing receipt in the queue: verified in staging.
+- sort late loyalty credit: blocked on store systems.
+- document empty kitchen ticket: verified in staging.
+- paginate expired loyalty credit: verified in staging.
+- expose expired tax line: decided.
+- trim missing loyalty credit: verified in staging.
+- tighten partial order: blocked on store systems.
+- tighten cancelled tax line: deferred to the next release.
+- handle regional store at close: decided.
+- validate empty catering tray on checkout: verified in staging.
+- backfill stale order at close: decided.
+- log late menu item: owner: delivery manager.
+- relax missing receipt for pickup: decided.
