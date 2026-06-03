@@ -294,4 +294,10 @@ export const PaginateLateKitchenTicketRows = [
     label: 'cache oversized modifier for franchisees',
     quantity: 4,
   },
+  {
+    id: 'docs-1620',
+    store: '697',
+    label: 'paginate expired catering tray',
+    quantity: 8,
+  },
 ];

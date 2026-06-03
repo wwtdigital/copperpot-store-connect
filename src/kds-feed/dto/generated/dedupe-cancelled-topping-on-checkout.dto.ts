@@ -20,4 +20,15 @@ export class DedupeCancelledToppingOnCheckoutDto {
   exposeMissingReceipt?: string;
   relaxLateKitchenTicket!: number;
   backfillMissingCartLinePerStore?: string[];
+  exposeEmptyCateringTrayOnCheckout?: string;
+  guardCancelledPickupSlotForFranchisees!: Date;
+  paginatePartialStoreInTheQueue!: Date;
+  logLateLoyaltyCreditInTheQueue!: number;
+  addLateLoyaltyCredit?: Date;
+  backfillPartialLocationForPickup!: string;
+  documentOversizedDeliveryWindowOnReorder!: boolean;
+  relaxPartialModifier!: string[];
+  renameLateCateringTray!: string;
+  handleEmptyToppingOnCheckout!: string;
+  addStaleStore?: string;
 }

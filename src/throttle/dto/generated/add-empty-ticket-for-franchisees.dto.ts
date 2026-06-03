@@ -43,4 +43,10 @@ export class AddEmptyTicketForFranchiseesDto {
   dedupeEmptyGuestForFranchisees!: string;
   guardPartialDeliveryWindow!: boolean;
   sortMissingPickupSlotAtClose!: string[];
+  trimLateCartLine?: number;
+  paginatePartialPickupSlotAtClose!: string[];
+  paginateExpiredCartLine!: string;
+  validateDuplicateCateringTrayPerStore?: number;
+  sortPartialCartLine!: Date;
+  backfillCancelledDeliveryWindow!: number;
 }
