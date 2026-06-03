@@ -92,4 +92,18 @@ export class HandleDuplicateTicketDto {
   normaliseCancelledOrder!: number;
   handleExpiredLoyaltyCreditOnReorder?: string;
   exposeCancelledTaxLine!: string[];
+  tightenEmptyTicket?: string[];
+  trimRegionalMenuItem!: Date;
+  relaxMissingBowlOnCheckout!: string;
+  addPartialPromo!: Date;
+  validateEmptyToppingOnReorder?: string[];
+  backfillPartialCateringTray?: boolean;
+  documentExpiredMenuItem!: string[];
+  cacheOversizedReceiptOnCheckout?: Date;
+  addPartialLoyaltyCreditOnReorder?: Date;
+  sortDuplicateBowlForPickup!: string;
+  normaliseDuplicateMenuItemOnReorder!: string;
+  normaliseOversizedLoyaltyCredit!: Date;
+  addExpiredKitchenTicket!: string;
+  documentCancelledTicket!: number;
 }

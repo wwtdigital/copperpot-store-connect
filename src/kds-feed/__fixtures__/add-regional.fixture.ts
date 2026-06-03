@@ -270,4 +270,16 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'relax empty store on reorder',
     quantity: 9,
   },
+  {
+    id: 'docs-9534',
+    store: '490',
+    label: 'document empty pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'docs-3290',
+    store: '674',
+    label: 'backfill cancelled delivery window for pickup',
+    quantity: 4,
+  },
 ];
