@@ -141,3 +141,22 @@
 - trim oversized topping: verified in staging.
 
 - dedupe oversized tax line: blocked on store systems.
+
+- paginate missing menu item: decided.
+- paginate late modifier for franchisees: open.
+- relax empty tax line for franchisees: open.
+- rename empty store: owner: delivery manager.
+- guard partial store: blocked on store systems.
+- handle stale topping: owner: delivery manager.
+- rename duplicate order per store: owner: delivery manager.
+- cache partial bowl: blocked on store systems.
+- normalise partial topping: verified in staging.
+- guard empty catering tray: open.
+- relax cancelled receipt: decided.
+- log oversized promo for franchisees: deferred to the next release.
+- handle oversized bowl at close: owner: delivery manager.
+- relax duplicate modifier: blocked on store systems.
+
+- trim late store: verified in staging.
+- document regional loyalty credit at close: open.
+- guard duplicate kitchen ticket: owner: delivery manager.

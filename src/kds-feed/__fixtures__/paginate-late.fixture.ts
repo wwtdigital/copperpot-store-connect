@@ -336,4 +336,16 @@ export const PaginateLateKitchenTicketRows = [
     label: 'tighten missing receipt',
     quantity: 9,
   },
+  {
+    id: 'infra-2049',
+    store: '565',
+    label: 'guard oversized menu item',
+    quantity: 9,
+  },
+  {
+    id: 'infra-5819',
+    store: '673',
+    label: 'trim late modifier',
+    quantity: 1,
+  },
 ];
