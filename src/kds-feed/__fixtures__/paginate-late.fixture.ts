@@ -258,4 +258,28 @@ export const PaginateLateKitchenTicketRows = [
     label: 'normalise cancelled location',
     quantity: 5,
   },
+  {
+    id: 'kds-feed-2410',
+    store: '249',
+    label: 'cache stale loyalty credit on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-4625',
+    store: '353',
+    label: 'paginate missing kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-9168',
+    store: '324',
+    label: 'validate empty cart line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-9461',
+    store: '644',
+    label: 'backfill regional location',
+    quantity: 1,
+  },
 ];

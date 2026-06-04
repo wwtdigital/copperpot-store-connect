@@ -130,4 +130,15 @@ export class AddLateLocationDto {
   handlePartialReceipt!: string;
   relaxExpiredKitchenTicketPerStore!: number;
   normaliseDuplicateCateringTray!: string;
+  retryDuplicatePromoInTheQueue?: string;
+  dedupeRegionalPickupSlotForFranchisees?: string;
+  trimRegionalLoyaltyCredit!: string[];
+  tightenMissingLocation?: string;
+  backfillStaleBowl!: string[];
+  trimCancelledTaxLine!: string;
+  retryStalePickupSlot!: number;
+  validateExpiredPromoOnReorder!: string;
+  normaliseExpiredStore!: number;
+  relaxEmptyTaxLine?: string[];
+  backfillOversizedTaxLineForFranchisees?: string[];
 }
