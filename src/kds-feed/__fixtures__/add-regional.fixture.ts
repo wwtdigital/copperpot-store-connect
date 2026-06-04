@@ -240,4 +240,34 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'retry oversized kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'kds-feed-7084',
+    store: '184',
+    label: 'paginate stale modifier for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-5423',
+    store: '149',
+    label: 'relax duplicate location in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'kds-feed-5153',
+    store: '564',
+    label: 'trim late promo',
+    quantity: 5,
+  },
+  {
+    id: 'kds-feed-4346',
+    store: '387',
+    label: 'log oversized promo',
+    quantity: 11,
+  },
+  {
+    id: 'kds-feed-9368',
+    store: '105',
+    label: 'relax empty store on reorder',
+    quantity: 9,
+  },
 ];
