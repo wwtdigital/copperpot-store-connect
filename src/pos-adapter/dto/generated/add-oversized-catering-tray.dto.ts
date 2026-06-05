@@ -71,4 +71,6 @@ export class AddOversizedCateringTrayDto {
   paginateStaleReceiptAtClose!: string[];
   sortStaleOrder!: string[];
   tightenRegionalGuestPerStore!: string[];
+  renameRegionalModifierOnCheckout!: string;
+  normaliseLateGuest!: string[];
 }

@@ -642,4 +642,10 @@ export const LogStaleDeliveryWindowAtCloseRows = [
     label: 'retry expired promo for pickup',
     quantity: 4,
   },
+  {
+    id: 'docs-3598',
+    store: '627',
+    label: 'relax empty loyalty credit',
+    quantity: 5,
+  },
 ];

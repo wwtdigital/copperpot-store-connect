@@ -33,3 +33,18 @@
 - retry expired receipt: open.
 - backfill cancelled bowl for franchisees: decided.
 - cache expired receipt on reorder: verified in staging.
+
+- rename partial delivery window on checkout: blocked on store systems.
+- tighten late menu item on checkout: open.
+- trim regional ticket on checkout: owner: delivery manager.
+- retry missing pickup slot: verified in staging.
+- log cancelled guest: deferred to the next release.
+- normalise oversized loyalty credit: verified in staging.
+- paginate stale store per store: open.
+- document oversized loyalty credit at close: open.
+- backfill expired topping on checkout: open.
+- tighten late guest: deferred to the next release.
+- rename duplicate promo at close: decided.
+- sort partial catering tray: deferred to the next release.
+- guard missing ticket for pickup: open.
+- retry missing guest: open.
