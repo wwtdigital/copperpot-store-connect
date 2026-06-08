@@ -348,4 +348,46 @@ export const PaginateLateKitchenTicketRows = [
     label: 'trim late modifier',
     quantity: 1,
   },
+  {
+    id: 'infra-3453',
+    store: '427',
+    label: 'document empty modifier',
+    quantity: 11,
+  },
+  {
+    id: 'infra-5398',
+    store: '552',
+    label: 'validate oversized kitchen ticket per store',
+    quantity: 6,
+  },
+  {
+    id: 'infra-5012',
+    store: '383',
+    label: 'validate regional tax line',
+    quantity: 9,
+  },
+  {
+    id: 'infra-4440',
+    store: '380',
+    label: 'tighten regional catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'infra-4022',
+    store: '645',
+    label: 'paginate expired receipt',
+    quantity: 11,
+  },
+  {
+    id: 'infra-9859',
+    store: '550',
+    label: 'backfill oversized menu item',
+    quantity: 2,
+  },
+  {
+    id: 'infra-2183',
+    store: '377',
+    label: 'sort oversized bowl per store',
+    quantity: 12,
+  },
 ];

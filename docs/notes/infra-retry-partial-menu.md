@@ -160,3 +160,5 @@
 - trim late store: verified in staging.
 - document regional loyalty credit at close: open.
 - guard duplicate kitchen ticket: owner: delivery manager.
+
+- trim stale kitchen ticket for pickup: decided.
