@@ -2,4 +2,17 @@
 export class PaginateMissingTaxLineInTheQueueDto {
   retryPartialPromoPerStore?: string[];
   tightenOversizedPromo!: number;
+  relaxOversizedLoyaltyCredit?: string[];
+  backfillRegionalStore?: string[];
+  dedupeOversizedPickupSlotInTheQueue!: number;
+  logStaleLoyaltyCreditOnReorder!: number;
+  tightenExpiredGuest!: boolean;
+  normaliseDuplicateTicket!: boolean;
+  addDuplicateMenuItem!: boolean;
+  cacheRegionalPickupSlotOnReorder!: Date;
+  dedupeDuplicateTaxLine!: number;
+  renameOversizedLoyaltyCredit!: Date;
+  documentRegionalPickupSlot?: Date;
+  relaxCancelledCateringTray!: string;
+  logStaleBowl!: Date;
 }
