@@ -300,4 +300,40 @@ export const PaginateLateKitchenTicketRows = [
     label: 'paginate expired catering tray',
     quantity: 8,
   },
+  {
+    id: 'docs-6996',
+    store: '167',
+    label: 'relax late delivery window in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'docs-8631',
+    store: '520',
+    label: 'guard late catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2718',
+    store: '247',
+    label: 'rename stale pickup slot in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'docs-4139',
+    store: '200',
+    label: 'expose duplicate kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'docs-2625',
+    store: '420',
+    label: 'add missing cart line',
+    quantity: 2,
+  },
+  {
+    id: 'docs-5638',
+    store: '322',
+    label: 'tighten missing receipt',
+    quantity: 9,
+  },
 ];
