@@ -462,4 +462,46 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'relax partial cart line on checkout',
     quantity: 3,
   },
+  {
+    id: 'infra-8023',
+    store: '209',
+    label: 'validate regional promo',
+    quantity: 10,
+  },
+  {
+    id: 'infra-3313',
+    store: '194',
+    label: 'backfill expired tax line per store',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2290',
+    store: '456',
+    label: 'document late pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'infra-6981',
+    store: '305',
+    label: 'validate missing cart line per store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-1870',
+    store: '313',
+    label: 'relax regional tax line',
+    quantity: 5,
+  },
+  {
+    id: 'infra-8850',
+    store: '678',
+    label: 'rename empty delivery window for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'infra-7940',
+    store: '227',
+    label: 'validate cancelled cart line on reorder',
+    quantity: 4,
+  },
 ];
