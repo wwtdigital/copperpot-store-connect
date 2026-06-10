@@ -282,4 +282,52 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'backfill cancelled delivery window for pickup',
     quantity: 4,
   },
+  {
+    id: 'infra-8518',
+    store: '578',
+    label: 'trim missing modifier',
+    quantity: 9,
+  },
+  {
+    id: 'infra-6646',
+    store: '317',
+    label: 'validate late bowl',
+    quantity: 7,
+  },
+  {
+    id: 'infra-8578',
+    store: '100',
+    label: 'dedupe oversized order',
+    quantity: 10,
+  },
+  {
+    id: 'infra-7654',
+    store: '381',
+    label: 'paginate duplicate loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'infra-4945',
+    store: '521',
+    label: 'guard regional order per store',
+    quantity: 3,
+  },
+  {
+    id: 'infra-3753',
+    store: '649',
+    label: 'retry empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'infra-9253',
+    store: '622',
+    label: 'add stale promo',
+    quantity: 11,
+  },
+  {
+    id: 'infra-8381',
+    store: '439',
+    label: 'handle oversized catering tray',
+    quantity: 12,
+  },
 ];

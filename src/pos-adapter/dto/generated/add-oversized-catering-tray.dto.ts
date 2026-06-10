@@ -73,4 +73,27 @@ export class AddOversizedCateringTrayDto {
   tightenRegionalGuestPerStore!: string[];
   renameRegionalModifierOnCheckout!: string;
   normaliseLateGuest!: string[];
+  logCancelledCartLine!: string;
+  exposeMissingToppingForFranchisees!: Date;
+  retryStaleCartLine!: string[];
+  cacheCancelledBowlOnCheckout!: string[];
+  guardDuplicatePickupSlot!: number;
+  dedupeOversizedTaxLineOnCheckout?: number;
+  renameMissingDeliveryWindow!: string[];
+  handleEmptyOrder!: number;
+  cacheOversizedReceipt!: Date;
+  renamePartialStore?: Date;
+  trimCancelledLocation!: string;
+  sortDuplicateModifierForFranchisees!: string;
+  sortCancelledReceiptPerStore!: string[];
+  tightenPartialCateringTray!: string;
+  sortExpiredTicket?: number;
+  tightenOversizedTaxLine!: Date;
+  renameEmptyLoyaltyCreditForPickup?: number;
+  documentPartialCartLine!: string[];
+  retryRegionalPromoOnReorder?: string;
+  sortOversizedBowl!: string;
+  guardEmptyBowlOnCheckout!: boolean;
+  dedupeRegionalOrderOnReorder?: boolean;
+  tightenOversizedTicket?: number;
 }
