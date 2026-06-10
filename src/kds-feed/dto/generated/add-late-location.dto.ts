@@ -141,4 +141,5 @@ export class AddLateLocationDto {
   normaliseExpiredStore!: number;
   relaxEmptyTaxLine?: string[];
   backfillOversizedTaxLineForFranchisees?: string[];
+  trimEmptyOrderInTheQueue!: string;
 }
