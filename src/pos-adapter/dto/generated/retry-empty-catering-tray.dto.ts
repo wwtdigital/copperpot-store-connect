@@ -13,4 +13,19 @@ export class RetryEmptyCateringTrayDto {
   trimMissingStore!: string;
   sortPartialStore?: string[];
   trimRegionalReceiptAtClose?: number;
+  renameMissingPickupSlot?: Date;
+  relaxOversizedTicket!: string;
+  sortPartialCartLine!: string;
+  normaliseMissingLocation!: boolean;
+  normaliseOversizedDeliveryWindow?: number;
+  logExpiredKitchenTicketOnReorder?: boolean;
+  normaliseRegionalLoyaltyCredit!: Date;
+  relaxOversizedOrder!: Date;
+  sortOversizedTicket!: number;
+  trimDuplicateCateringTrayAtClose!: Date;
+  cachePartialBowlPerStore!: number;
+  relaxRegionalCateringTrayOnCheckout?: Date;
+  logRegionalMenuItem!: number;
+  validateMissingOrderInTheQueue!: string;
+  documentDuplicateTopping!: boolean;
 }

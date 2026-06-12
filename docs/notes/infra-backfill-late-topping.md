@@ -44,3 +44,12 @@
 - add expired receipt on checkout: decided.
 - normalise cancelled cart line on reorder: verified in staging.
 - log late loyalty credit: deferred to the next release.
+
+- trim regional ticket: verified in staging.
+- dedupe stale delivery window: owner: delivery manager.
+- expose regional promo: open.
+- retry partial topping on checkout: owner: delivery manager.
+- dedupe oversized promo: owner: delivery manager.
+- cache late topping on checkout: blocked on store systems.
+- relax stale receipt: open.
+- normalise expired ticket: verified in staging.
