@@ -106,4 +106,6 @@ export class HandleDuplicateTicketDto {
   normaliseOversizedLoyaltyCredit!: Date;
   addExpiredKitchenTicket!: string;
   documentCancelledTicket!: number;
+  tightenDuplicateOrder!: string;
+  backfillStaleKitchenTicketForPickup?: string[];
 }

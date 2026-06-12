@@ -330,4 +330,52 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'handle oversized catering tray',
     quantity: 12,
   },
+  {
+    id: 'infra-4025',
+    store: '530',
+    label: 'handle stale catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'infra-3390',
+    store: '231',
+    label: 'document regional tax line on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'infra-1186',
+    store: '623',
+    label: 'sort oversized modifier',
+    quantity: 1,
+  },
+  {
+    id: 'infra-4219',
+    store: '379',
+    label: 'guard expired store',
+    quantity: 1,
+  },
+  {
+    id: 'infra-7457',
+    store: '639',
+    label: 'rename cancelled catering tray per store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-8412',
+    store: '582',
+    label: 'paginate cancelled store',
+    quantity: 12,
+  },
+  {
+    id: 'infra-2347',
+    store: '406',
+    label: 'backfill missing tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'infra-3359',
+    store: '149',
+    label: 'paginate regional loyalty credit',
+    quantity: 1,
+  },
 ];
