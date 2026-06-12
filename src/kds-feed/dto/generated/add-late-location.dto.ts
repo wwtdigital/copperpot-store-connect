@@ -142,4 +142,11 @@ export class AddLateLocationDto {
   relaxEmptyTaxLine?: string[];
   backfillOversizedTaxLineForFranchisees?: string[];
   trimEmptyOrderInTheQueue!: string;
+  exposeOversizedDeliveryWindowForFranchisees!: Date;
+  retryCancelledMenuItem!: string[];
+  validateEmptyReceiptAtClose!: string;
+  exposeOversizedModifierPerStore?: number;
+  paginateEmptyBowlAtClose!: boolean;
+  addMissingDeliveryWindowPerStore?: string[];
+  cacheRegionalCateringTray!: string[];
 }

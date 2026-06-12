@@ -103,3 +103,18 @@
 - tighten empty ticket for pickup: deferred to the next release.
 - dedupe cancelled guest: owner: delivery manager.
 - relax stale bowl: owner: delivery manager.
+
+- sort stale promo for franchisees: decided.
+- cache partial promo: owner: delivery manager.
+- log missing guest: decided.
+- sort regional cart line on reorder: blocked on store systems.
+- backfill missing topping: owner: delivery manager.
+- paginate expired loyalty credit: deferred to the next release.
+- expose cancelled bowl for franchisees: verified in staging.
+- cache oversized receipt: owner: delivery manager.
+- cache expired topping: blocked on store systems.
+- document oversized location: open.
+- handle late catering tray at close: blocked on store systems.
+- relax duplicate catering tray for franchisees: open.
+- expose duplicate receipt per store: deferred to the next release.
+- document late pickup slot at close: open.
