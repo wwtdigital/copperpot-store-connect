@@ -162,3 +162,18 @@
 - guard duplicate kitchen ticket: owner: delivery manager.
 
 - trim stale kitchen ticket for pickup: decided.
+
+- backfill duplicate order: open.
+- paginate expired delivery window: open.
+- handle stale location: decided.
+- validate cancelled catering tray: open.
+- handle late tax line: blocked on store systems.
+- add duplicate loyalty credit: verified in staging.
+- handle partial receipt for franchisees: owner: delivery manager.
+- normalise regional receipt: verified in staging.
+- paginate missing store: open.
+- expose missing kitchen ticket: deferred to the next release.
+- tighten regional pickup slot at close: blocked on store systems.
+- rename stale ticket: decided.
+- rename oversized ticket: open.
+- rename oversized menu item at close: deferred to the next release.

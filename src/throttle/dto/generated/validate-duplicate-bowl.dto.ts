@@ -24,4 +24,6 @@ export class ValidateDuplicateBowlDto {
   renameRegionalReceipt!: Date;
   dedupeEmptyPromoInTheQueue!: string[];
   guardExpiredOrder!: string[];
+  handleDuplicateTopping!: string;
+  tightenDuplicateStoreForFranchisees!: Date;
 }
