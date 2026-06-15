@@ -53,3 +53,9 @@
 - cache late topping on checkout: blocked on store systems.
 - relax stale receipt: open.
 - normalise expired ticket: verified in staging.
+
+- tighten stale kitchen ticket on checkout: blocked on store systems.
+- paginate stale ticket: verified in staging.
+- validate regional cart line: open.
+- handle stale order: decided.
+- relax oversized loyalty credit: deferred to the next release.
