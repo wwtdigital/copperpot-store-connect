@@ -108,4 +108,6 @@ export class HandleDuplicateTicketDto {
   documentCancelledTicket!: number;
   tightenDuplicateOrder!: string;
   backfillStaleKitchenTicketForPickup?: string[];
+  tightenOversizedGuest!: Date;
+  handleEmptyMenuItemPerStore!: string[];
 }

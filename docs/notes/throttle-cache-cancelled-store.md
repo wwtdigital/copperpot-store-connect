@@ -29,3 +29,18 @@
 - backfill stale order at close: decided.
 - log late menu item: owner: delivery manager.
 - relax missing receipt for pickup: decided.
+
+- guard oversized promo: deferred to the next release.
+- log oversized menu item: owner: delivery manager.
+- paginate duplicate delivery window for franchisees: decided.
+- paginate partial store: deferred to the next release.
+- relax regional modifier on reorder: open.
+- dedupe regional modifier: owner: delivery manager.
+- dedupe late delivery window for franchisees: owner: delivery manager.
+- log empty promo: verified in staging.
+- add stale location: verified in staging.
+- trim duplicate pickup slot for pickup: blocked on store systems.
+- paginate regional cart line: decided.
+- validate expired receipt: verified in staging.
+- sort expired tax line: blocked on store systems.
+- expose empty tax line: open.
