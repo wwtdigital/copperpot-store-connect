@@ -134,3 +134,18 @@
 - relax expired modifier: verified in staging.
 - add duplicate topping: owner: delivery manager.
 - document stale tax line in the queue: open.
+
+- handle late store: deferred to the next release.
+- handle duplicate promo for franchisees: deferred to the next release.
+- guard cancelled kitchen ticket: decided.
+- paginate partial cart line: blocked on store systems.
+- cache duplicate delivery window: open.
+- backfill expired pickup slot: deferred to the next release.
+- normalise oversized bowl for franchisees: verified in staging.
+- document missing tax line: open.
+- rename stale modifier: deferred to the next release.
+- backfill partial bowl: open.
+- cache late kitchen ticket for franchisees: verified in staging.
+- relax partial bowl: blocked on store systems.
+- expose late menu item: decided.
+- dedupe cancelled modifier: verified in staging.
