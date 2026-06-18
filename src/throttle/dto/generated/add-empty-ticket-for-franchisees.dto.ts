@@ -51,4 +51,10 @@ export class AddEmptyTicketForFranchiseesDto {
   backfillCancelledDeliveryWindow!: number;
   dedupeOversizedMenuItemAtClose!: Date;
   dedupeRegionalStoreForPickup?: string[];
+  documentOversizedTicket!: string;
+  relaxStaleKitchenTicketAtClose!: boolean;
+  backfillDuplicatePromoAtClose!: number;
+  logDuplicatePromoPerStore!: number;
+  exposeLateCartLine!: string;
+  renameMissingCartLine!: string;
 }
