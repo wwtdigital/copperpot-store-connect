@@ -14,3 +14,33 @@
 - dedupe missing modifier on checkout: decided.
 - sort missing loyalty credit: verified in staging.
 - paginate duplicate topping: open.
+
+- log empty store: deferred to the next release.
+- log missing modifier: owner: delivery manager.
+- log late catering tray per store: decided.
+- guard regional ticket: verified in staging.
+- normalise regional order on checkout: deferred to the next release.
+- expose duplicate loyalty credit per store: blocked on store systems.
+- paginate empty order: owner: delivery manager.
+- relax regional guest for pickup: owner: delivery manager.
+- relax duplicate loyalty credit: open.
+- validate duplicate store for pickup: deferred to the next release.
+- paginate late modifier: blocked on store systems.
+- expose oversized kitchen ticket on checkout: decided.
+- dedupe stale ticket: verified in staging.
+- add missing order for pickup: owner: delivery manager.
+
+- relax empty tax line: blocked on store systems.
+- log regional menu item on checkout: open.
+- rename empty pickup slot: decided.
+- handle late menu item: deferred to the next release.
+- document empty menu item per store: open.
+- retry empty location: owner: delivery manager.
+- relax cancelled delivery window: blocked on store systems.
+- sort missing tax line: open.
+- cache cancelled tax line in the queue: open.
+- guard missing receipt: verified in staging.
+- log partial order for franchisees: decided.
+- normalise partial guest on reorder: decided.
+- guard cancelled catering tray: owner: delivery manager.
+- paginate missing guest on checkout: blocked on store systems.
