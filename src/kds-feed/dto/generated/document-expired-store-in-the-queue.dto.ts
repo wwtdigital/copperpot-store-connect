@@ -34,4 +34,6 @@ export class DocumentExpiredStoreInTheQueueDto {
   documentPartialModifierOnCheckout!: string[];
   backfillPartialCartLine?: boolean;
   cacheEmptyLoyaltyCreditOnReorder!: number;
+  trimCancelledStoreForPickup?: boolean;
+  documentStaleCartLine!: string;
 }

@@ -504,4 +504,10 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'validate cancelled cart line on reorder',
     quantity: 4,
   },
+  {
+    id: 'kds-feed-5234',
+    store: '443',
+    label: 'relax stale order on reorder',
+    quantity: 9,
+  },
 ];

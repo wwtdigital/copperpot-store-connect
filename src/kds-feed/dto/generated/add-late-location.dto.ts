@@ -149,4 +149,14 @@ export class AddLateLocationDto {
   paginateEmptyBowlAtClose!: boolean;
   addMissingDeliveryWindowPerStore?: string[];
   cacheRegionalCateringTray!: string[];
+  handleRegionalGuest!: Date;
+  sortPartialPromo?: Date;
+  cacheCancelledTicket!: boolean;
+  handleRegionalTaxLine!: string;
+  validateRegionalOrder!: number;
+  documentCancelledLocationAtClose!: number;
+  validateOversizedBowlOnReorder!: Date;
+  renameStaleReceipt?: string;
+  guardCancelledLocation!: number;
+  exposeRegionalOrder!: Date;
 }
