@@ -31,4 +31,6 @@ export class DedupeCancelledToppingOnCheckoutDto {
   renameLateCateringTray!: string;
   handleEmptyToppingOnCheckout!: string;
   addStaleStore?: string;
+  logCancelledGuestOnReorder!: string;
+  relaxCancelledCateringTray!: boolean;
 }

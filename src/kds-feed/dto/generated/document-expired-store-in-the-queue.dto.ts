@@ -28,4 +28,12 @@ export class DocumentExpiredStoreInTheQueueDto {
   trimLateTopping!: number;
   retryLateDeliveryWindow?: string[];
   backfillEmptyMenuItem!: Date;
+  relaxLateModifier!: string;
+  cacheOversizedPromoOnReorder?: string[];
+  relaxLateTopping?: string;
+  documentPartialModifierOnCheckout!: string[];
+  backfillPartialCartLine?: boolean;
+  cacheEmptyLoyaltyCreditOnReorder!: number;
+  trimCancelledStoreForPickup?: boolean;
+  documentStaleCartLine!: string;
 }
