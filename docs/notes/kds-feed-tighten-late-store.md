@@ -101,3 +101,11 @@
 - rename late bowl in the queue: open.
 - backfill regional catering tray: deferred to the next release.
 - cache regional bowl: owner: delivery manager.
+
+- sort stale ticket on checkout: owner: delivery manager.
+- guard empty cart line at close: open.
+- guard stale topping on reorder: decided.
+- backfill missing promo: open.
+- handle late menu item: blocked on store systems.
+- document duplicate cart line: owner: delivery manager.
+- rename stale loyalty credit: decided.
