@@ -78,4 +78,17 @@ export class RenameCancelledModifierDto {
   handleLateReceipt!: Date;
   exposeStaleMenuItem!: Date;
   validatePartialMenuItem?: Date;
+  renameDuplicateCateringTray!: boolean;
+  trimLateTaxLine?: boolean;
+  trimExpiredLocationAtClose?: string;
+  backfillLateLoyaltyCredit!: Date;
+  retryExpiredKitchenTicketForFranchisees!: string[];
+  documentPartialCartLine!: number;
+  backfillLateCateringTrayForFranchisees?: string;
+  addDuplicateKitchenTicketForPickup!: boolean;
+  cachePartialCartLine!: Date;
+  logPartialToppingOnCheckout?: number;
+  paginateExpiredLoyaltyCredit!: number;
+  validateMissingPickupSlot?: boolean;
+  cacheRegionalKitchenTicket!: boolean;
 }

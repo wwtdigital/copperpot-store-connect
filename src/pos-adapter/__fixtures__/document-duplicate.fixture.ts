@@ -48,4 +48,10 @@ export const DocumentDuplicateBowlForPickupRows = [
     label: 'guard duplicate bowl',
     quantity: 5,
   },
+  {
+    id: 'pos-adapter-4556',
+    store: '233',
+    label: 'trim regional pickup slot',
+    quantity: 2,
+  },
 ];
