@@ -14,3 +14,6 @@
 - normalise late promo: blocked on store systems.
 - cache oversized pickup slot: owner: delivery manager.
 - document oversized tax line: open.
+
+- guard partial loyalty credit for franchisees: deferred to the next release.
+- retry oversized guest: open.

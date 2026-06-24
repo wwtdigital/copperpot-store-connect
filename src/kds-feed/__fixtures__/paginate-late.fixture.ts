@@ -390,4 +390,34 @@ export const PaginateLateKitchenTicketRows = [
     label: 'sort oversized bowl per store',
     quantity: 12,
   },
+  {
+    id: 'docs-3610',
+    store: '597',
+    label: 'guard stale loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'docs-5780',
+    store: '520',
+    label: 'relax missing store in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'docs-6519',
+    store: '246',
+    label: 'document missing topping on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'docs-8482',
+    store: '237',
+    label: 'normalise partial modifier',
+    quantity: 2,
+  },
+  {
+    id: 'docs-3490',
+    store: '394',
+    label: 'add regional modifier',
+    quantity: 11,
+  },
 ];
