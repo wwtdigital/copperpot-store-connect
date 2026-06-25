@@ -120,4 +120,18 @@ export class AddOversizedCateringTrayDto {
   normaliseRegionalLocation!: boolean;
   relaxOversizedTaxLineOnCheckout!: Date;
   logCancelledCateringTray?: string;
+  cacheEmptyCateringTray?: Date;
+  retryCancelledCateringTray!: string[];
+  exposeMissingPromo!: boolean;
+  sortExpiredModifierForPickup!: Date;
+  logMissingPromo?: string;
+  cacheStaleTaxLineOnCheckout!: string;
+  validateEmptyPromoInTheQueue?: string;
+  tightenDuplicateDeliveryWindow?: string;
+  tightenStaleCartLine!: string;
+  paginateStaleTaxLine?: boolean;
+  normaliseOversizedModifier!: string;
+  backfillExpiredBowlOnCheckout!: number;
+  dedupeStaleLocationInTheQueue!: Date;
+  validateRegionalMenuItemOnReorder!: string[];
 }
