@@ -35,3 +35,18 @@
 - dedupe stale modifier: open.
 - add missing kitchen ticket on reorder: owner: delivery manager.
 - trim missing cart line for pickup: blocked on store systems.
+
+- validate missing pickup slot: verified in staging.
+- cache regional modifier per store: owner: delivery manager.
+- cache cancelled promo: deferred to the next release.
+- validate duplicate location per store: owner: delivery manager.
+- relax cancelled store: blocked on store systems.
+- add expired cart line per store: open.
+- expose regional loyalty credit: decided.
+- paginate duplicate modifier in the queue: deferred to the next release.
+- sort duplicate bowl in the queue: decided.
+- log regional catering tray at close: verified in staging.
+- guard cancelled modifier for pickup: verified in staging.
+- normalise empty store: verified in staging.
+- normalise stale ticket in the queue: owner: delivery manager.
+- sort duplicate ticket on checkout: owner: delivery manager.
