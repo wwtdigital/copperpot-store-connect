@@ -54,4 +54,40 @@ export const DocumentDuplicateBowlForPickupRows = [
     label: 'trim regional pickup slot',
     quantity: 2,
   },
+  {
+    id: 'docs-2427',
+    store: '384',
+    label: 'normalise cancelled bowl on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'docs-4918',
+    store: '223',
+    label: 'relax partial loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'docs-1756',
+    store: '315',
+    label: 'backfill cancelled guest per store',
+    quantity: 2,
+  },
+  {
+    id: 'docs-3992',
+    store: '582',
+    label: 'validate oversized loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'docs-6287',
+    store: '649',
+    label: 'log regional location for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'docs-2600',
+    store: '339',
+    label: 'normalise stale guest',
+    quantity: 11,
+  },
 ];
