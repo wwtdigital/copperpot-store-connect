@@ -34,3 +34,18 @@
 - retry duplicate loyalty credit: decided.
 
 - cache oversized loyalty credit: open.
+
+- add partial delivery window at close: verified in staging.
+- tighten late order in the queue: owner: delivery manager.
+- cache empty catering tray for pickup: owner: delivery manager.
+- log cancelled guest per store: deferred to the next release.
+- sort missing loyalty credit for pickup: deferred to the next release.
+- document duplicate loyalty credit: blocked on store systems.
+- add cancelled tax line: verified in staging.
+- guard empty modifier: open.
+- rename duplicate catering tray: blocked on store systems.
+- paginate duplicate cart line in the queue: blocked on store systems.
+- add oversized tax line for franchisees: open.
+- guard duplicate order per store: deferred to the next release.
+- cache empty guest: open.
+- tighten oversized tax line on checkout: open.
