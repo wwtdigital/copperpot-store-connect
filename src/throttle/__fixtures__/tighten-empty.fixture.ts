@@ -18,4 +18,22 @@ export const TightenEmptyReceiptRows = [
     label: 'dedupe late topping in the queue',
     quantity: 2,
   },
+  {
+    id: 'throttle-8062',
+    store: '662',
+    label: 'sort oversized ticket',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-7884',
+    store: '342',
+    label: 'dedupe cancelled location for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'throttle-7164',
+    store: '137',
+    label: 'paginate duplicate menu item per store',
+    quantity: 2,
+  },
 ];

@@ -210,3 +210,5 @@
 
 - expose late store: open.
 - document cancelled catering tray: deferred to the next release.
+
+- tighten oversized store: decided.
