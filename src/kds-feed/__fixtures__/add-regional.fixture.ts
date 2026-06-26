@@ -534,4 +534,10 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'handle partial kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'docs-1821',
+    store: '224',
+    label: 'normalise oversized location',
+    quantity: 3,
+  },
 ];

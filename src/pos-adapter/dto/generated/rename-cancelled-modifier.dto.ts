@@ -91,4 +91,11 @@ export class RenameCancelledModifierDto {
   paginateExpiredLoyaltyCredit!: number;
   validateMissingPickupSlot?: boolean;
   cacheRegionalKitchenTicket!: boolean;
+  trimOversizedToppingAtClose!: number;
+  dedupeMissingGuestForFranchisees!: Date;
+  paginateEmptyLocation!: boolean;
+  normaliseOversizedTaxLineOnReorder!: boolean;
+  guardLateStoreOnCheckout?: boolean;
+  exposeEmptyTopping!: string[];
+  tightenExpiredReceiptAtClose!: number;
 }
