@@ -654,4 +654,28 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'validate expired tax line per store',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-7636',
+    store: '164',
+    label: 'handle stale pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-5215',
+    store: '504',
+    label: 'paginate expired guest for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-7332',
+    store: '354',
+    label: 'expose partial pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-1564',
+    store: '262',
+    label: 'guard regional ticket in the queue',
+    quantity: 7,
+  },
 ];

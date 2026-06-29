@@ -49,3 +49,8 @@
 - guard duplicate order per store: deferred to the next release.
 - cache empty guest: open.
 - tighten oversized tax line on checkout: open.
+
+- trim partial cart line at close: open.
+- dedupe missing menu item: verified in staging.
+- normalise partial ticket on reorder: verified in staging.
+- guard cancelled pickup slot: owner: delivery manager.
