@@ -159,4 +159,12 @@ export class AddLateLocationDto {
   renameStaleReceipt?: string;
   guardCancelledLocation!: number;
   exposeRegionalOrder!: Date;
+  guardMissingBowlAtClose?: string[];
+  documentStaleOrderInTheQueue!: Date;
+  documentMissingMenuItem!: boolean;
+  dedupeDuplicateBowlOnCheckout!: string;
+  dedupeExpiredPickupSlot!: string[];
+  retryRegionalReceiptAtClose?: string[];
+  renameCancelledReceipt!: string;
+  relaxCancelledReceipt?: number;
 }

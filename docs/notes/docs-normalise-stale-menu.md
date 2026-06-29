@@ -39,3 +39,5 @@
 - trim regional ticket on checkout: owner: delivery manager.
 - retry missing pickup slot: verified in staging.
 - log cancelled guest: deferred to the next release.
+
+- document empty promo on checkout: deferred to the next release.

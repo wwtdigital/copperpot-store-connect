@@ -47,4 +47,18 @@ export class ValidateDuplicateBowlDto {
   relaxStaleLocation?: boolean;
   handleExpiredCartLine!: Date;
   cacheExpiredModifier!: string[];
+  trimPartialStore!: string[];
+  dedupeStaleBowlForPickup?: boolean;
+  relaxMissingPromoForPickup!: string[];
+  addCancelledGuest!: boolean;
+  normaliseExpiredPromo!: number;
+  documentExpiredTopping?: Date;
+  validateMissingLocation!: string[];
+  normaliseCancelledCateringTray?: boolean;
+  guardPartialCartLineAtClose?: number;
+  dedupeStaleLoyaltyCreditForFranchisees!: boolean;
+  dedupeExpiredReceipt!: string[];
+  tightenLateCateringTrayOnCheckout?: string;
+  normaliseEmptyMenuItem!: Date;
+  addCancelledBowlForFranchisees?: string[];
 }

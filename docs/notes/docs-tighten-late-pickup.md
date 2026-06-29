@@ -17,3 +17,15 @@
 
 - guard partial loyalty credit for franchisees: deferred to the next release.
 - retry oversized guest: open.
+
+- dedupe late modifier: deferred to the next release.
+- cache empty receipt: verified in staging.
+- expose partial catering tray per store: open.
+- expose missing store for franchisees: decided.
+- normalise expired kitchen ticket in the queue: deferred to the next release.
+- add partial ticket for franchisees: open.
+- add regional catering tray for pickup: owner: delivery manager.
+- backfill empty pickup slot: decided.
+- add regional receipt per store: owner: delivery manager.
+- dedupe partial order: open.
+- relax stale catering tray for franchisees: deferred to the next release.
