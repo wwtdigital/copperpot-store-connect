@@ -90,4 +90,10 @@ export const DocumentDuplicateBowlForPickupRows = [
     label: 'normalise stale guest',
     quantity: 11,
   },
+  {
+    id: 'docs-9949',
+    store: '579',
+    label: 'validate regional ticket',
+    quantity: 7,
+  },
 ];

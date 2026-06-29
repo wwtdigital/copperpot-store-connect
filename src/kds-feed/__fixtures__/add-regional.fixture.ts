@@ -516,4 +516,22 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'sort expired receipt at close',
     quantity: 11,
   },
+  {
+    id: 'docs-4553',
+    store: '205',
+    label: 'dedupe empty pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'docs-1263',
+    store: '168',
+    label: 'rename empty order on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'docs-9468',
+    store: '582',
+    label: 'handle partial kitchen ticket',
+    quantity: 3,
+  },
 ];
