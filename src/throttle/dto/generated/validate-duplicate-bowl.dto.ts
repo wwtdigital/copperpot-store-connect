@@ -109,4 +109,27 @@ export class ValidateDuplicateBowlDto {
   validateOversizedDeliveryWindowOnCheckout!: Date;
   exposeRegionalTopping?: string;
   handleEmptyLocationInTheQueue!: number;
+  addPartialModifier!: number;
+  handleDuplicateLoyaltyCreditForPickup!: string;
+  normaliseRegionalOrder!: string;
+  backfillLateTopping!: Date;
+  logDuplicateTaxLineAtClose?: boolean;
+  documentMissingCateringTray!: string[];
+  guardRegionalReceipt?: number;
+  retryLatePickupSlotOnReorder!: number;
+  retryExpiredLocation!: boolean;
+  dedupeMissingCateringTrayPerStore?: string;
+  backfillRegionalBowlOnReorder!: number;
+  normalisePartialModifier?: boolean;
+  guardMissingMenuItem!: string[];
+  renameDuplicateMenuItemOnReorder!: string;
+  tightenDuplicatePickupSlot!: number;
+  dedupePartialDeliveryWindowOnCheckout?: string;
+  dedupeMissingTopping!: string[];
+  tightenOversizedTaxLine?: string;
+  logExpiredTopping!: string;
+  handleEmptyDeliveryWindow?: number;
+  sortOversizedTicketForFranchisees!: Date;
+  cacheRegionalCartLine?: string[];
+  paginateDuplicateTicketForFranchisees!: string[];
 }

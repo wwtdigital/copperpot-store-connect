@@ -90,4 +90,28 @@ export class AddEmptyTicketForFranchiseesDto {
   backfillLateReceiptForFranchisees!: string[];
   trimCancelledCateringTrayPerStore?: number;
   backfillRegionalTaxLine?: number;
+  sortStaleGuest!: string[];
+  relaxMissingTopping?: number;
+  addOversizedCateringTrayOnCheckout!: boolean;
+  documentCancelledCartLineInTheQueue!: string[];
+  exposeMissingPickupSlot?: string;
+  relaxPartialLoyaltyCreditInTheQueue!: boolean;
+  retryExpiredStoreOnReorder?: boolean;
+  tightenDuplicateCateringTray?: string[];
+  cacheLateOrder!: number;
+  normaliseDuplicateTicket!: Date;
+  tightenCancelledDeliveryWindow!: string;
+  paginateMissingLocationInTheQueue!: string;
+  documentMissingOrder?: number;
+  dedupePartialLocation?: Date;
+  documentPartialLoyaltyCreditPerStore!: number;
+  normaliseExpiredKitchenTicket!: string[];
+  guardEmptyToppingAtClose!: string[];
+  backfillEmptyPickupSlot!: string;
+  tightenMissingLoyaltyCredit!: Date;
+  logMissingDeliveryWindow!: number;
+  logRegionalCartLine?: string;
+  paginateEmptyPickupSlotOnCheckout?: boolean;
+  cacheOversizedOrder!: number;
+  sortEmptyLoyaltyCredit?: Date;
 }
