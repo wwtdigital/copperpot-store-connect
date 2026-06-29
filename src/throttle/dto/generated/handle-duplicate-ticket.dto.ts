@@ -110,4 +110,28 @@ export class HandleDuplicateTicketDto {
   backfillStaleKitchenTicketForPickup?: string[];
   tightenOversizedGuest!: Date;
   handleEmptyMenuItemPerStore!: string[];
+  paginateDuplicateLoyaltyCredit!: string[];
+  dedupeMissingReceiptForPickup!: Date;
+  sortEmptyGuest!: string;
+  relaxExpiredTicket!: string;
+  paginateMissingLocationPerStore!: number;
+  guardMissingReceipt!: string[];
+  cacheExpiredDeliveryWindow!: Date;
+  validateStaleGuest?: number;
+  documentDuplicateModifier!: string;
+  logPartialPromoForFranchisees!: number;
+  handleExpiredToppingOnCheckout!: string[];
+  dedupeExpiredDeliveryWindow!: number;
+  sortOversizedMenuItemForFranchisees!: Date;
+  backfillMissingOrder?: string;
+  validateCancelledPickupSlotAtClose!: string;
+  trimEmptyTaxLine!: string;
+  tightenLateModifier!: number;
+  exposeOversizedKitchenTicket?: string[];
+  documentMissingLocation!: string[];
+  trimDuplicateKitchenTicket!: string[];
+  retryDuplicateMenuItem!: number;
+  handleMissingOrderOnReorder!: Date;
+  backfillMissingPromoOnReorder!: number;
+  addCancelledTicket!: string;
 }

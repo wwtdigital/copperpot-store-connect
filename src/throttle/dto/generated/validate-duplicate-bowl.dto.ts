@@ -26,4 +26,25 @@ export class ValidateDuplicateBowlDto {
   guardExpiredOrder!: string[];
   handleDuplicateTopping!: string;
   tightenDuplicateStoreForFranchisees!: Date;
+  guardPartialLoyaltyCreditForFranchisees?: number;
+  validatePartialTopping!: number;
+  handleEmptyModifier?: boolean;
+  paginateMissingReceipt!: string;
+  normalisePartialGuestInTheQueue!: number;
+  tightenOversizedMenuItemPerStore?: string;
+  guardExpiredStoreForFranchisees!: Date;
+  validateMissingTaxLine?: number;
+  addStaleModifier!: string;
+  renameStaleTicketOnReorder!: Date;
+  validateEmptyDeliveryWindow!: Date;
+  guardRegionalModifier!: number;
+  paginateDuplicateModifier!: Date;
+  retryDuplicateBowlForFranchisees?: string[];
+  validateRegionalPromo?: Date;
+  renameExpiredMenuItem!: Date;
+  logPartialToppingOnReorder?: string;
+  documentOversizedTopping!: number;
+  relaxStaleLocation?: boolean;
+  handleExpiredCartLine!: Date;
+  cacheExpiredModifier!: string[];
 }

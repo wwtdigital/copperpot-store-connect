@@ -57,4 +57,28 @@ export class AddEmptyTicketForFranchiseesDto {
   logDuplicatePromoPerStore!: number;
   exposeLateCartLine!: string;
   renameMissingCartLine!: string;
+  validateOversizedModifierInTheQueue!: string;
+  validateLateCartLineOnCheckout!: string[];
+  exposeOversizedBowlPerStore!: number;
+  dedupeRegionalCateringTray?: string[];
+  guardLateLocation?: boolean;
+  tightenStaleTicketInTheQueue!: string;
+  validateExpiredDeliveryWindowOnCheckout!: number;
+  cacheLateCateringTray!: string[];
+  normalisePartialStoreForFranchisees?: boolean;
+  renameEmptyModifierOnReorder!: string[];
+  renameEmptyCateringTrayForFranchisees!: boolean;
+  exposePartialStore!: number;
+  normaliseRegionalModifierOnReorder!: string[];
+  backfillDuplicateTicketInTheQueue?: string[];
+  tightenOversizedModifierInTheQueue!: boolean;
+  handleEmptyLoyaltyCredit!: number;
+  documentStaleLocation!: string;
+  renameMissingCartLineInTheQueue?: Date;
+  tightenPartialBowlInTheQueue!: Date;
+  cacheMissingMenuItem!: number;
+  backfillEmptyGuest!: string[];
+  addRegionalModifier!: string[];
+  addCancelledToppingOnReorder!: string;
+  sortCancelledCartLinePerStore?: string[];
 }
