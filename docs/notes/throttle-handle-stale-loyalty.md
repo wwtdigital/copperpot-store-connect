@@ -212,3 +212,22 @@
 - document cancelled catering tray: deferred to the next release.
 
 - tighten oversized store: decided.
+
+- paginate missing tax line: owner: delivery manager.
+- trim late catering tray: open.
+- normalise expired guest on reorder: open.
+- rename stale guest for franchisees: verified in staging.
+- normalise expired pickup slot at close: open.
+- tighten oversized promo: owner: delivery manager.
+- add stale kitchen ticket: verified in staging.
+- dedupe late cart line on checkout: verified in staging.
+- handle oversized bowl: decided.
+- tighten partial promo: open.
+- add partial guest on checkout: deferred to the next release.
+- expose regional tax line: verified in staging.
+- sort regional topping on reorder: open.
+- dedupe late tax line: deferred to the next release.
+
+- sort duplicate delivery window on checkout: open.
+- guard oversized kitchen ticket for pickup: deferred to the next release.
+- guard cancelled topping on reorder: blocked on store systems.
