@@ -510,4 +510,10 @@ export const AddRegionalTaxLineForFranchiseesRows = [
     label: 'relax stale order on reorder',
     quantity: 9,
   },
+  {
+    id: 'infra-2803',
+    store: '198',
+    label: 'sort expired receipt at close',
+    quantity: 11,
+  },
 ];
