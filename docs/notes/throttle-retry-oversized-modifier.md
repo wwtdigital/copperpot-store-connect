@@ -37,3 +37,18 @@
 - document empty menu item per store: open.
 - retry empty location: owner: delivery manager.
 - relax cancelled delivery window: blocked on store systems.
+
+- cache oversized cart line: open.
+- document stale menu item per store: verified in staging.
+- tighten partial menu item: verified in staging.
+- document missing catering tray: owner: delivery manager.
+- validate cancelled store for pickup: deferred to the next release.
+- log duplicate topping: deferred to the next release.
+- expose late location: owner: delivery manager.
+- dedupe duplicate modifier: open.
+- rename oversized pickup slot: blocked on store systems.
+- log expired order: owner: delivery manager.
+- add duplicate store per store: open.
+- add missing store: owner: delivery manager.
+- dedupe partial topping per store: decided.
+- cache empty catering tray for pickup: blocked on store systems.

@@ -134,4 +134,18 @@ export class HandleDuplicateTicketDto {
   handleMissingOrderOnReorder!: Date;
   backfillMissingPromoOnReorder!: number;
   addCancelledTicket!: string;
+  renameCancelledDeliveryWindowForPickup?: number;
+  backfillRegionalDeliveryWindowOnCheckout!: number;
+  renameDuplicateReceipt!: string;
+  addOversizedPromoPerStore!: string;
+  backfillDuplicateTicket!: string[];
+  relaxMissingReceiptAtClose!: string[];
+  cacheRegionalModifier!: string;
+  dedupeLateStore!: boolean;
+  normaliseLateGuest?: string;
+  cacheDuplicateTopping?: number;
+  sortMissingLoyaltyCreditInTheQueue!: Date;
+  dedupeExpiredPickupSlot!: string[];
+  dedupeCancelledGuestForFranchisees?: number;
+  guardOversizedCartLine?: string[];
 }

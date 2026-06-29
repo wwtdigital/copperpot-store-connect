@@ -81,4 +81,13 @@ export class AddEmptyTicketForFranchiseesDto {
   addRegionalModifier!: string[];
   addCancelledToppingOnReorder!: string;
   sortCancelledCartLinePerStore?: string[];
+  sortLateLoyaltyCredit!: string;
+  validateLateBowl?: number;
+  guardStaleGuest?: string;
+  validateDuplicateLoyaltyCredit?: string[];
+  trimOversizedKitchenTicket!: number;
+  guardCancelledLocationForPickup!: string;
+  backfillLateReceiptForFranchisees!: string[];
+  trimCancelledCateringTrayPerStore?: number;
+  backfillRegionalTaxLine?: number;
 }
