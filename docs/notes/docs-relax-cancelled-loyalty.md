@@ -48,3 +48,18 @@
 - paginate partial receipt on reorder: verified in staging.
 - sort cancelled menu item: decided.
 - rename partial loyalty credit: verified in staging.
+
+- dedupe missing receipt: decided.
+- trim missing ticket per store: blocked on store systems.
+- handle cancelled receipt: decided.
+- retry partial menu item at close: owner: delivery manager.
+- relax partial kitchen ticket for pickup: deferred to the next release.
+- sort regional guest: blocked on store systems.
+- validate duplicate delivery window: owner: delivery manager.
+- dedupe partial location: decided.
+- log regional modifier: owner: delivery manager.
+- handle oversized catering tray: blocked on store systems.
+- document stale menu item in the queue: verified in staging.
+- backfill stale order for franchisees: decided.
+- rename oversized loyalty credit on reorder: owner: delivery manager.
+- paginate expired loyalty credit: owner: delivery manager.

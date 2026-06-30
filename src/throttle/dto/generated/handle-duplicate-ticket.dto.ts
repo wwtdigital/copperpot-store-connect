@@ -158,4 +158,16 @@ export class HandleDuplicateTicketDto {
   validateExpiredPickupSlot?: Date;
   normaliseStaleCartLine!: string[];
   normaliseExpiredPickupSlotPerStore!: number;
+  tightenExpiredDeliveryWindow!: boolean;
+  sortMissingCartLine!: Date;
+  validatePartialReceiptInTheQueue?: string[];
+  handleDuplicateCateringTray?: Date;
+  guardExpiredKitchenTicketInTheQueue!: number;
+  guardStaleLocationForPickup!: Date;
+  backfillCancelledDeliveryWindow!: string;
+  exposeRegionalStoreOnCheckout!: string[];
+  normaliseOversizedGuestInTheQueue!: boolean;
+  sortCancelledOrder!: string;
+  dedupeStaleTaxLine!: boolean;
+  dedupeCancelledDeliveryWindowForFranchisees!: boolean;
 }
