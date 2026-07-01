@@ -540,4 +540,28 @@ export const PaginateLateKitchenTicketRows = [
     label: 'validate duplicate order',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-4173',
+    store: '657',
+    label: 'relax late order',
+    quantity: 3,
+  },
+  {
+    id: 'kds-feed-9056',
+    store: '317',
+    label: 'rename missing location',
+    quantity: 10,
+  },
+  {
+    id: 'kds-feed-8573',
+    store: '459',
+    label: 'retry regional receipt',
+    quantity: 12,
+  },
+  {
+    id: 'kds-feed-1773',
+    store: '287',
+    label: 'paginate cancelled loyalty credit in the queue',
+    quantity: 10,
+  },
 ];
