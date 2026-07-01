@@ -60,4 +60,10 @@ export const TightenEmptyReceiptRows = [
     label: 'dedupe regional order',
     quantity: 7,
   },
+  {
+    id: 'throttle-6827',
+    store: '211',
+    label: 'rename stale tax line',
+    quantity: 7,
+  },
 ];
