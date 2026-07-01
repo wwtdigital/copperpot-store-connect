@@ -63,3 +63,18 @@
 - backfill stale order for franchisees: decided.
 - rename oversized loyalty credit on reorder: owner: delivery manager.
 - paginate expired loyalty credit: owner: delivery manager.
+
+- backfill stale modifier for franchisees: owner: delivery manager.
+- paginate missing kitchen ticket: deferred to the next release.
+- expose cancelled topping: decided.
+- relax duplicate tax line: decided.
+- backfill regional catering tray on reorder: deferred to the next release.
+- sort regional store on reorder: blocked on store systems.
+- dedupe late menu item at close: decided.
+- rename expired delivery window at close: open.
+- dedupe partial loyalty credit: blocked on store systems.
+- dedupe partial kitchen ticket: owner: delivery manager.
+- trim expired promo: open.
+- expose stale loyalty credit: decided.
+- guard stale promo on reorder: decided.
+- sort oversized promo: deferred to the next release.

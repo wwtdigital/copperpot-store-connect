@@ -170,4 +170,19 @@ export class HandleDuplicateTicketDto {
   sortCancelledOrder!: string;
   dedupeStaleTaxLine!: boolean;
   dedupeCancelledDeliveryWindowForFranchisees!: boolean;
+  addEmptyStoreInTheQueue!: string[];
+  relaxPartialStore!: boolean;
+  cacheOversizedLoyaltyCredit?: boolean;
+  documentCancelledCartLine!: string;
+  backfillCancelledReceiptOnCheckout!: string;
+  logOversizedCartLine!: string;
+  validateExpiredPickupSlotAtClose?: string[];
+  handleOversizedPickupSlotInTheQueue!: Date;
+  guardCancelledToppingPerStore!: number;
+  tightenRegionalCateringTray!: Date;
+  renameRegionalReceiptOnCheckout!: Date;
+  relaxCancelledModifier?: string[];
+  cacheCancelledStoreForPickup?: number;
+  validateCancelledTaxLineForPickup!: number;
+  relaxCancelledOrder!: number;
 }
