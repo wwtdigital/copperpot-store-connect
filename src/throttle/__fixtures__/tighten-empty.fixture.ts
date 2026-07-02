@@ -66,4 +66,52 @@ export const TightenEmptyReceiptRows = [
     label: 'rename stale tax line',
     quantity: 7,
   },
+  {
+    id: 'throttle-9173',
+    store: '434',
+    label: 'cache cancelled ticket for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-5168',
+    store: '434',
+    label: 'document regional tax line',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-5471',
+    store: '147',
+    label: 'backfill stale menu item',
+    quantity: 1,
+  },
+  {
+    id: 'throttle-5946',
+    store: '695',
+    label: 'normalise expired location',
+    quantity: 12,
+  },
+  {
+    id: 'throttle-3837',
+    store: '665',
+    label: 'normalise stale guest',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-3208',
+    store: '483',
+    label: 'paginate stale loyalty credit on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'throttle-2757',
+    store: '467',
+    label: 'expose empty promo on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'throttle-8004',
+    store: '399',
+    label: 'validate empty loyalty credit',
+    quantity: 8,
+  },
 ];
