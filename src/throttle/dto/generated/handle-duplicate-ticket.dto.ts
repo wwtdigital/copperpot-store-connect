@@ -148,4 +148,14 @@ export class HandleDuplicateTicketDto {
   dedupeExpiredPickupSlot!: string[];
   dedupeCancelledGuestForFranchisees?: number;
   guardOversizedCartLine?: string[];
+  dedupeCancelledGuest!: boolean;
+  tightenOversizedTicket!: Date;
+  sortCancelledDeliveryWindowOnReorder!: string[];
+  dedupeExpiredStore!: Date;
+  exposePartialLoyaltyCredit?: number;
+  addMissingReceiptPerStore!: string;
+  renameStalePromo?: string[];
+  validateExpiredPickupSlot?: Date;
+  normaliseStaleCartLine!: string[];
+  normaliseExpiredPickupSlotPerStore!: number;
 }
