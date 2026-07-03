@@ -42,4 +42,22 @@ export const RetryRegionalModifierRows = [
     label: 'handle late bowl for franchisees',
     quantity: 3,
   },
+  {
+    id: 'docs-4918',
+    store: '679',
+    label: 'expose cancelled kitchen ticket in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'docs-5435',
+    store: '543',
+    label: 'log regional delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'docs-5995',
+    store: '320',
+    label: 'sort stale order',
+    quantity: 2,
+  },
 ];
