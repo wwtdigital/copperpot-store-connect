@@ -28,4 +28,22 @@ export class RetryEmptyCateringTrayDto {
   logRegionalMenuItem!: number;
   validateMissingOrderInTheQueue!: string;
   documentDuplicateTopping!: boolean;
+  normaliseRegionalLocationOnReorder!: Date;
+  handleMissingKitchenTicketOnCheckout!: number;
+  normaliseRegionalCateringTray!: string[];
+  tightenPartialLoyaltyCredit!: string[];
+  logExpiredPickupSlotInTheQueue?: string[];
+  trimLateReceipt!: boolean;
+  cachePartialBowl!: string[];
+  paginateEmptyPickupSlot!: number;
+  exposeRegionalReceiptOnCheckout?: string[];
+  cacheExpiredTicket!: string[];
+  exposePartialModifierOnCheckout?: string[];
+  handlePartialKitchenTicket?: boolean;
+  paginateExpiredReceipt?: string;
+  renameLateStore!: number;
+  renameDuplicateLoyaltyCreditAtClose!: string;
+  tightenDuplicateCateringTrayInTheQueue?: number;
+  documentDuplicateMenuItemPerStore?: boolean;
+  renameStaleKitchenTicket!: string;
 }
