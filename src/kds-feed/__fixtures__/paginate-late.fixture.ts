@@ -636,4 +636,16 @@ export const PaginateLateKitchenTicketRows = [
     label: 'retry cancelled pickup slot',
     quantity: 2,
   },
+  {
+    id: 'kds-feed-7393',
+    store: '590',
+    label: 'rename partial store',
+    quantity: 7,
+  },
+  {
+    id: 'kds-feed-8385',
+    store: '566',
+    label: 'validate duplicate topping',
+    quantity: 11,
+  },
 ];
