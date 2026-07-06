@@ -54,3 +54,8 @@
 - dedupe missing menu item: verified in staging.
 - normalise partial ticket on reorder: verified in staging.
 - guard cancelled pickup slot: owner: delivery manager.
+
+- sort late order per store: verified in staging.
+- rename empty bowl: owner: delivery manager.
+- validate cancelled ticket: verified in staging.
+- validate missing bowl: verified in staging.
