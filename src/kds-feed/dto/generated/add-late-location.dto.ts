@@ -167,4 +167,6 @@ export class AddLateLocationDto {
   retryRegionalReceiptAtClose?: string[];
   renameCancelledReceipt!: string;
   relaxCancelledReceipt?: number;
+  cachePartialTicket?: string[];
+  sortCancelledOrder!: string[];
 }
