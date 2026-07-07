@@ -185,4 +185,6 @@ export class HandleDuplicateTicketDto {
   cacheCancelledStoreForPickup?: number;
   validateCancelledTaxLineForPickup!: number;
   relaxCancelledOrder!: number;
+  retryMissingLoyaltyCredit!: Date;
+  retryPartialGuestPerStore!: string;
 }

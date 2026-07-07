@@ -169,4 +169,10 @@ export class AddLateLocationDto {
   relaxCancelledReceipt?: number;
   cachePartialTicket?: string[];
   sortCancelledOrder!: string[];
+  cacheEmptyStore!: string;
+  exposeEmptyPickupSlot!: Date;
+  paginatePartialStoreOnReorder?: string[];
+  documentDuplicateOrder!: boolean;
+  addLateReceipt!: boolean;
+  relaxPartialCartLine!: string;
 }

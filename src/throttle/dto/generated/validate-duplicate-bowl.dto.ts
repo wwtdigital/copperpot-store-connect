@@ -153,4 +153,8 @@ export class ValidateDuplicateBowlDto {
   handleExpiredDeliveryWindow!: string;
   renameStaleBowl!: number;
   tightenDuplicateDeliveryWindowOnCheckout!: boolean;
+  sortEmptyLocation?: Date;
+  validateExpiredLoyaltyCredit!: string[];
+  addMissingKitchenTicket!: number;
+  dedupeLateTopping!: string[];
 }

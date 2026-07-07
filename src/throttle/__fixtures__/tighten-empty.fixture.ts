@@ -174,4 +174,10 @@ export const TightenEmptyReceiptRows = [
     label: 'cache cancelled topping',
     quantity: 9,
   },
+  {
+    id: 'infra-6427',
+    store: '261',
+    label: 'log empty store',
+    quantity: 6,
+  },
 ];

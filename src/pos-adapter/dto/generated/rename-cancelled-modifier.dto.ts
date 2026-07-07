@@ -98,4 +98,7 @@ export class RenameCancelledModifierDto {
   guardLateStoreOnCheckout?: boolean;
   exposeEmptyTopping!: string[];
   tightenExpiredReceiptAtClose!: number;
+  paginateLateTopping?: Date;
+  cacheDuplicateCartLine!: number;
+  documentMissingGuest!: string[];
 }
