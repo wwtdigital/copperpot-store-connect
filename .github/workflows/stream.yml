@@ -60,7 +60,7 @@ jobs:
           repositories: ${{ github.event.repository.name }}
 
       - name: Check out this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: estate
           fetch-depth: 0
@@ -68,7 +68,7 @@ jobs:
           persist-credentials: true
 
       - name: Check out the stream tooling
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ github.repository_owner }}/agentic-readiness
           path: tooling
