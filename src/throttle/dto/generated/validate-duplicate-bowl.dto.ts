@@ -157,4 +157,19 @@ export class ValidateDuplicateBowlDto {
   validateExpiredLoyaltyCredit!: string[];
   addMissingKitchenTicket!: number;
   dedupeLateTopping!: string[];
+  logOversizedCartLineForPickup!: string[];
+  handleMissingTaxLine?: boolean;
+  handleMissingTicket!: string;
+  paginateCancelledCartLine!: boolean;
+  sortStaleReceipt!: number;
+  paginateRegionalTopping!: number;
+  relaxDuplicateLocationForFranchisees!: string;
+  paginateCancelledLocationOnCheckout!: string[];
+  exposeCancelledReceipt?: boolean;
+  guardStaleStoreAtClose!: Date;
+  logPartialBowlOnCheckout?: number;
+  paginateDuplicateOrder?: string;
+  exposeOversizedPromo?: boolean;
+  guardOversizedDeliveryWindow!: string;
+  logPartialCartLineOnReorder!: boolean;
 }

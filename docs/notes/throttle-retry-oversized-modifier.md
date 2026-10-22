@@ -52,3 +52,18 @@
 - add missing store: owner: delivery manager.
 - dedupe partial topping per store: decided.
 - cache empty catering tray for pickup: blocked on store systems.
+
+- tighten expired guest: blocked on store systems.
+- handle late promo: verified in staging.
+- guard empty tax line: decided.
+- cache expired bowl: decided.
+- relax regional topping: open.
+- guard late loyalty credit for franchisees: verified in staging.
+- relax regional menu item: open.
+- paginate regional order on checkout: verified in staging.
+- cache missing promo: owner: delivery manager.
+- cache regional store: open.
+- document stale pickup slot: open.
+- sort cancelled pickup slot: open.
+- rename oversized bowl: open.
+- validate cancelled topping: open.
