@@ -41,7 +41,7 @@ jobs:
     steps:
       - name: Mint the dev-bot token
         id: dev-bot
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.STREAM_DEV_BOT_APP_ID }}
           private-key: ${{ secrets.STREAM_DEV_BOT_PRIVATE_KEY }}
@@ -52,7 +52,7 @@ jobs:
 
       - name: Mint the reviewer token
         id: reviewer
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.STREAM_REVIEWER_APP_ID }}
           private-key: ${{ secrets.STREAM_REVIEWER_PRIVATE_KEY }}
