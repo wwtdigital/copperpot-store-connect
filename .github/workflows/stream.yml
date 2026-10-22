@@ -19,11 +19,11 @@ name: stream
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: '0 */2 * * *'
   workflow_dispatch:
     inputs:
       half:
-        description: "open, close, or both"
+        description: 'open, close, or both'
         default: both
         required: false
 
