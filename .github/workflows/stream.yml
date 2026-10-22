@@ -76,7 +76,7 @@ jobs:
           token: ${{ steps.dev-bot.outputs.token }}
           persist-credentials: false
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 20
 
