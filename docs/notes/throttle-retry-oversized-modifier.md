@@ -67,3 +67,18 @@
 - sort cancelled pickup slot: open.
 - rename oversized bowl: open.
 - validate cancelled topping: open.
+
+- backfill late promo: open.
+- guard duplicate promo for pickup: deferred to the next release.
+- cache cancelled topping on checkout: open.
+- paginate late catering tray: owner: delivery manager.
+- handle expired kitchen ticket: verified in staging.
+- handle expired cart line per store: verified in staging.
+- guard regional bowl: verified in staging.
+- guard empty promo: verified in staging.
+- retry cancelled modifier per store: verified in staging.
+- normalise expired promo in the queue: deferred to the next release.
+- tighten oversized delivery window: owner: delivery manager.
+- tighten empty promo: verified in staging.
+- normalise partial kitchen ticket: blocked on store systems.
+- sort regional topping: owner: delivery manager.
