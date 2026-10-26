@@ -180,4 +180,52 @@ export const TightenEmptyReceiptRows = [
     label: 'log empty store',
     quantity: 6,
   },
+  {
+    id: 'throttle-7362',
+    store: '346',
+    label: 'validate duplicate location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-8936',
+    store: '172',
+    label: 'backfill stale topping',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-4403',
+    store: '123',
+    label: 'expose cancelled loyalty credit for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'throttle-7076',
+    store: '368',
+    label: 'expose regional loyalty credit in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-5336',
+    store: '603',
+    label: 'sort missing ticket on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'throttle-2653',
+    store: '507',
+    label: 'sort partial catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'throttle-1990',
+    store: '173',
+    label: 'handle duplicate delivery window per store',
+    quantity: 6,
+  },
+  {
+    id: 'throttle-1881',
+    store: '157',
+    label: 'validate late location at close',
+    quantity: 7,
+  },
 ];
