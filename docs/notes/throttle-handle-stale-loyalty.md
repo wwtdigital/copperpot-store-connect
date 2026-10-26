@@ -231,3 +231,18 @@
 - sort duplicate delivery window on checkout: open.
 - guard oversized kitchen ticket for pickup: deferred to the next release.
 - guard cancelled topping on reorder: blocked on store systems.
+
+- rename missing store: blocked on store systems.
+- tighten missing pickup slot: deferred to the next release.
+- guard oversized bowl: decided.
+- handle late menu item: owner: delivery manager.
+- dedupe late receipt: blocked on store systems.
+- backfill stale promo: blocked on store systems.
+- rename duplicate location on checkout: verified in staging.
+- dedupe missing location: decided.
+- guard regional modifier: verified in staging.
+- paginate stale location: verified in staging.
+- sort partial catering tray: verified in staging.
+- paginate empty store per store: verified in staging.
+- expose duplicate order: open.
+- paginate partial menu item on reorder: owner: delivery manager.
