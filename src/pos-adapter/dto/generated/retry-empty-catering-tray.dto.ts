@@ -46,4 +46,14 @@ export class RetryEmptyCateringTrayDto {
   tightenDuplicateCateringTrayInTheQueue?: number;
   documentDuplicateMenuItemPerStore?: boolean;
   renameStaleKitchenTicket!: string;
+  dedupeEmptyOrderOnReorder?: string;
+  tightenDuplicateModifierForPickup!: string;
+  normaliseOversizedMenuItemOnReorder?: boolean;
+  handleCancelledTaxLine?: number;
+  sortPartialPickupSlot!: boolean;
+  relaxDuplicateModifierPerStore!: number;
+  documentMissingMenuItem!: number;
+  paginateLateDeliveryWindow!: string;
+  trimOversizedMenuItemForFranchisees!: Date;
+  documentExpiredTaxLine?: boolean;
 }
