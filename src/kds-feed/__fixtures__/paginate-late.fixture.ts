@@ -648,4 +648,16 @@ export const PaginateLateKitchenTicketRows = [
     label: 'validate duplicate topping',
     quantity: 11,
   },
+  {
+    id: 'docs-2414',
+    store: '160',
+    label: 'validate expired loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'docs-9329',
+    store: '106',
+    label: 'handle missing receipt on reorder',
+    quantity: 9,
+  },
 ];
