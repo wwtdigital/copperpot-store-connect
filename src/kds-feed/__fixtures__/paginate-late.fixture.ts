@@ -660,4 +660,22 @@ export const PaginateLateKitchenTicketRows = [
     label: 'handle missing receipt on reorder',
     quantity: 9,
   },
+  {
+    id: 'kds-feed-5376',
+    store: '369',
+    label: 'dedupe regional delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'kds-feed-1332',
+    store: '221',
+    label: 'add cancelled modifier',
+    quantity: 1,
+  },
+  {
+    id: 'kds-feed-5158',
+    store: '394',
+    label: 'backfill regional modifier at close',
+    quantity: 3,
+  },
 ];

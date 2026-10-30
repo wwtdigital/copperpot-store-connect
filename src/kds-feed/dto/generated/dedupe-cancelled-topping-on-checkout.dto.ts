@@ -33,4 +33,20 @@ export class DedupeCancelledToppingOnCheckoutDto {
   addStaleStore?: string;
   logCancelledGuestOnReorder!: string;
   relaxCancelledCateringTray!: boolean;
+  trimStaleOrderInTheQueue!: Date;
+  handleRegionalTicket!: number;
+  addDuplicateLoyaltyCredit!: boolean;
+  addRegionalPickupSlot?: boolean;
+  trimStaleBowl!: string[];
+  retryStaleTopping?: boolean;
+  guardMissingKitchenTicketInTheQueue!: string[];
+  documentExpiredPickupSlot?: string[];
+  renamePartialOrder!: string[];
+  cacheLatePickupSlot!: string;
+  addPartialTaxLine!: Date;
+  logEmptyStoreOnCheckout!: Date;
+  trimMissingMenuItem!: Date;
+  trimRegionalOrderAtClose!: string[];
+  dedupePartialDeliveryWindow!: number;
+  logMissingPromo!: string;
 }
