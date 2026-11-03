@@ -57,7 +57,7 @@ jobs:
         run: npm audit --omit=dev --audit-level=${{ inputs.audit-level }}
       - name: Test report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: junit
           path: reports/junit.xml
