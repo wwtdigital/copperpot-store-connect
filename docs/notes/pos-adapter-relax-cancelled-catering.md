@@ -149,3 +149,6 @@
 - relax partial bowl: blocked on store systems.
 - expose late menu item: decided.
 - dedupe cancelled modifier: verified in staging.
+
+- rename partial order: verified in staging.
+- add duplicate pickup slot: owner: delivery manager.
