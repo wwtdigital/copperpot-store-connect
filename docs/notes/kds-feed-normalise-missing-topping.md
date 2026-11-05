@@ -21,3 +21,6 @@
 - tighten partial loyalty credit: open.
 - trim stale tax line: deferred to the next release.
 - tighten regional guest: owner: delivery manager.
+
+- backfill regional guest for franchisees: owner: delivery manager.
+- cache stale guest for pickup: verified in staging.
