@@ -41,3 +41,18 @@
 - log cancelled guest: deferred to the next release.
 
 - document empty promo on checkout: deferred to the next release.
+
+- backfill regional location: verified in staging.
+- paginate duplicate pickup slot for franchisees: blocked on store systems.
+- trim regional catering tray: owner: delivery manager.
+- log stale location in the queue: deferred to the next release.
+- paginate late kitchen ticket at close: owner: delivery manager.
+- handle expired delivery window: deferred to the next release.
+- expose late promo at close: decided.
+- expose empty location: owner: delivery manager.
+- normalise late menu item: deferred to the next release.
+- relax stale bowl: blocked on store systems.
+- add cancelled modifier for franchisees: open.
+- rename late delivery window: open.
+- backfill duplicate delivery window: decided.
+- expose cancelled guest at close: verified in staging.
