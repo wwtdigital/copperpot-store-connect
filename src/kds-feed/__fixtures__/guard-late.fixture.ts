@@ -42,4 +42,52 @@ export const GuardLateMenuItemRows = [
     label: 'handle missing menu item',
     quantity: 2,
   },
+  {
+    id: 'docs-7921',
+    store: '514',
+    label: 'document late store on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'docs-6505',
+    store: '112',
+    label: 'document oversized kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'docs-4709',
+    store: '383',
+    label: 'expose cancelled guest for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'docs-7024',
+    store: '416',
+    label: 'validate cancelled modifier for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'docs-9884',
+    store: '322',
+    label: 'retry cancelled order',
+    quantity: 8,
+  },
+  {
+    id: 'docs-2000',
+    store: '415',
+    label: 'validate late modifier',
+    quantity: 7,
+  },
+  {
+    id: 'docs-9911',
+    store: '138',
+    label: 'backfill stale location at close',
+    quantity: 4,
+  },
+  {
+    id: 'docs-8861',
+    store: '408',
+    label: 'rename late pickup slot on checkout',
+    quantity: 7,
+  },
 ];
