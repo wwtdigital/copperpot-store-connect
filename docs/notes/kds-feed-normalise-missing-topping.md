@@ -24,3 +24,18 @@
 
 - backfill regional guest for franchisees: owner: delivery manager.
 - cache stale guest for pickup: verified in staging.
+
+- log partial bowl at close: owner: delivery manager.
+- document expired store on checkout: open.
+- dedupe duplicate ticket: blocked on store systems.
+- add missing store: blocked on store systems.
+- retry late bowl: deferred to the next release.
+- cache cancelled catering tray: blocked on store systems.
+- tighten cancelled location on checkout: open.
+- relax duplicate store: deferred to the next release.
+- trim missing ticket: blocked on store systems.
+- sort stale promo: owner: delivery manager.
+- document missing catering tray: decided.
+- paginate stale guest on reorder: blocked on store systems.
+- sort regional kitchen ticket per store: open.
+- relax oversized receipt at close: decided.
