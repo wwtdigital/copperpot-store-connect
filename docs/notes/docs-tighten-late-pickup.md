@@ -29,3 +29,7 @@
 - add regional receipt per store: owner: delivery manager.
 - dedupe partial order: open.
 - relax stale catering tray for franchisees: deferred to the next release.
+
+- retry partial bowl per store: owner: delivery manager.
+- backfill stale pickup slot on checkout: owner: delivery manager.
+- validate oversized topping: blocked on store systems.

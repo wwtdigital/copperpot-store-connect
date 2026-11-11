@@ -78,3 +78,18 @@
 - expose stale loyalty credit: decided.
 - guard stale promo on reorder: decided.
 - sort oversized promo: deferred to the next release.
+
+- expose oversized store: verified in staging.
+- guard empty order: blocked on store systems.
+- handle partial order: blocked on store systems.
+- sort expired bowl on checkout: verified in staging.
+- expose expired tax line: decided.
+- backfill missing loyalty credit for pickup: open.
+- sort empty promo: blocked on store systems.
+- normalise late order: deferred to the next release.
+- handle regional order: decided.
+- handle stale pickup slot: owner: delivery manager.
+- cache expired promo: deferred to the next release.
+- retry oversized order at close: blocked on store systems.
+- document oversized location: blocked on store systems.
+- log oversized store: open.

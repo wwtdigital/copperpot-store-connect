@@ -9,4 +9,12 @@ export class RenameLateCateringTrayDto {
   documentRegionalKitchenTicket?: number;
   handleLateStore!: boolean;
   retryPartialModifier?: string[];
+  cacheRegionalTaxLine!: Date;
+  cacheStaleModifierForPickup?: string;
+  retryDuplicateReceiptOnCheckout!: Date;
+  validateMissingLocation?: number;
+  tightenPartialKitchenTicketPerStore!: boolean;
+  trimStaleKitchenTicketInTheQueue?: boolean;
+  dedupePartialPromoInTheQueue!: string;
+  dedupeExpiredToppingAtClose!: string;
 }
