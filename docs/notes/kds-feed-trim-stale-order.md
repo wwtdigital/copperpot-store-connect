@@ -59,3 +59,18 @@
 - rename empty bowl: owner: delivery manager.
 - validate cancelled ticket: verified in staging.
 - validate missing bowl: verified in staging.
+
+- validate duplicate cart line: verified in staging.
+- trim missing topping: verified in staging.
+- backfill cancelled modifier on checkout: blocked on store systems.
+- backfill cancelled modifier: blocked on store systems.
+- document expired delivery window: open.
+- rename cancelled kitchen ticket for pickup: owner: delivery manager.
+- document missing topping: open.
+- log expired store on checkout: open.
+- add stale delivery window on checkout: decided.
+- normalise late menu item: owner: delivery manager.
+- normalise missing menu item: decided.
+- trim regional ticket: owner: delivery manager.
+- trim expired kitchen ticket: verified in staging.
+- document regional bowl for franchisees: owner: delivery manager.
