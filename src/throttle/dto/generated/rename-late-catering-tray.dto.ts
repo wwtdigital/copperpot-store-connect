@@ -17,4 +17,24 @@ export class RenameLateCateringTrayDto {
   trimStaleKitchenTicketInTheQueue?: boolean;
   dedupePartialPromoInTheQueue!: string;
   dedupeExpiredToppingAtClose!: string;
+  handleRegionalPickupSlotForFranchisees!: Date;
+  cacheCancelledStoreOnReorder?: string[];
+  guardCancelledPickupSlotOnReorder!: boolean;
+  backfillMissingGuest!: string;
+  normaliseLateCartLine!: number;
+  paginateLateDeliveryWindowInTheQueue!: boolean;
+  cacheEmptyModifier!: string;
+  addStaleBowl!: number;
+  retryEmptyPickupSlot!: number;
+  normaliseMissingPromoForFranchisees!: string[];
+  logExpiredMenuItemAtClose?: string;
+  renameStaleDeliveryWindowForFranchisees?: string[];
+  tightenPartialLocationPerStore!: Date;
+  tightenOversizedModifierOnCheckout!: string;
+  trimStaleGuest!: string[];
+  trimOversizedTicket!: Date;
+  relaxDuplicateCateringTray?: string[];
+  renamePartialToppingOnCheckout?: number;
+  backfillCancelledLocation!: number;
+  renameExpiredTaxLine!: Date;
 }
