@@ -196,4 +196,27 @@ export class ValidateDuplicateBowlDto {
   paginatePartialPickupSlot!: string;
   dedupeMissingTicket?: boolean;
   tightenOversizedStore!: string[];
+  dedupeLateTaxLine?: Date;
+  relaxLateLoyaltyCreditForPickup!: string;
+  exposeDuplicateTaxLine?: Date;
+  dedupeStaleBowl!: string[];
+  sortStaleBowlOnReorder!: string;
+  exposeRegionalTicketInTheQueue!: boolean;
+  validatePartialReceipt!: string;
+  guardEmptyCartLineOnReorder?: string[];
+  renameCancelledLoyaltyCredit!: boolean;
+  relaxStaleMenuItem!: string;
+  addStalePickupSlot?: string[];
+  documentRegionalBowl?: boolean;
+  addStaleToppingOnCheckout?: string;
+  handleEmptyOrderPerStore?: number;
+  dedupeOversizedTicket!: number;
+  paginateLateCartLine!: boolean;
+  relaxMissingCartLineInTheQueue!: Date;
+  logPartialCartLine!: string[];
+  backfillPartialTaxLineOnCheckout!: string;
+  addDuplicateLocation!: Date;
+  dedupeMissingPickupSlot?: number;
+  sortDuplicateLoyaltyCreditForPickup?: string;
+  trimOversizedStorePerStore!: string[];
 }
