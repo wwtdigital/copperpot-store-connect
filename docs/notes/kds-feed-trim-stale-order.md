@@ -74,3 +74,18 @@
 - trim regional ticket: owner: delivery manager.
 - trim expired kitchen ticket: verified in staging.
 - document regional bowl for franchisees: owner: delivery manager.
+
+- dedupe missing ticket on checkout: owner: delivery manager.
+- guard missing pickup slot in the queue: deferred to the next release.
+- handle partial delivery window: decided.
+- guard cancelled pickup slot: deferred to the next release.
+- backfill cancelled delivery window on checkout: decided.
+- handle regional modifier: blocked on store systems.
+- handle stale store: decided.
+- add oversized delivery window: owner: delivery manager.
+- normalise partial topping on reorder: blocked on store systems.
+- document stale guest: decided.
+- sort duplicate bowl for pickup: verified in staging.
+- dedupe oversized catering tray per store: owner: delivery manager.
+- relax missing loyalty credit: owner: delivery manager.
+- cache cancelled receipt on checkout: decided.

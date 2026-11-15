@@ -90,4 +90,22 @@ export const GuardLateMenuItemRows = [
     label: 'rename late pickup slot on checkout',
     quantity: 7,
   },
+  {
+    id: 'kds-feed-6631',
+    store: '210',
+    label: 'add expired bowl',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9430',
+    store: '164',
+    label: 'dedupe partial tax line',
+    quantity: 2,
+  },
+  {
+    id: 'kds-feed-9263',
+    store: '390',
+    label: 'guard empty topping for pickup',
+    quantity: 8,
+  },
 ];
