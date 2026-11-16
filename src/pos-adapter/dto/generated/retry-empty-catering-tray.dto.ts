@@ -56,4 +56,26 @@ export class RetryEmptyCateringTrayDto {
   paginateLateDeliveryWindow!: string;
   trimOversizedMenuItemForFranchisees!: Date;
   documentExpiredTaxLine?: boolean;
+  exposePartialStore!: Date;
+  documentEmptyTaxLineForFranchisees!: string;
+  exposeEmptyDeliveryWindowOnReorder!: number;
+  exposeExpiredBowlForFranchisees!: string[];
+  tightenLateGuest!: boolean;
+  exposeMissingMenuItem!: string;
+  retryDuplicatePromoForPickup!: boolean;
+  tightenPartialMenuItemPerStore!: Date;
+  validateCancelledLocation!: string[];
+  backfillStalePromo!: number;
+  documentCancelledTopping?: number;
+  guardExpiredStoreOnCheckout!: boolean;
+  documentEmptyPickupSlotAtClose!: string;
+  sortDuplicatePickupSlot?: Date;
+  dedupeOversizedLocation?: boolean;
+  renameExpiredCateringTray!: Date;
+  cachePartialOrder!: Date;
+  handleLateCateringTray!: Date;
+  renameExpiredPickupSlot!: boolean;
+  cacheOversizedToppingOnCheckout!: number;
+  backfillStaleStore!: number;
+  retryPartialTopping?: string[];
 }

@@ -37,4 +37,6 @@ export class RenameLateCateringTrayDto {
   renamePartialToppingOnCheckout?: number;
   backfillCancelledLocation!: number;
   renameExpiredTaxLine!: Date;
+  addEmptyStoreInTheQueue?: Date;
+  exposeOversizedTopping!: Date;
 }

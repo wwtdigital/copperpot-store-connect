@@ -174,4 +174,22 @@ export const DedupeStaleTaxLineRows = [
     label: 'cache oversized modifier at close',
     quantity: 10,
   },
+  {
+    id: 'infra-5404',
+    store: '301',
+    label: 'handle empty topping',
+    quantity: 5,
+  },
+  {
+    id: 'infra-5717',
+    store: '649',
+    label: 'handle regional tax line',
+    quantity: 11,
+  },
+  {
+    id: 'infra-2974',
+    store: '164',
+    label: 'trim missing menu item',
+    quantity: 1,
+  },
 ];
