@@ -49,4 +49,6 @@ export class DedupeCancelledToppingOnCheckoutDto {
   trimRegionalOrderAtClose!: string[];
   dedupePartialDeliveryWindow!: number;
   logMissingPromo!: string;
+  backfillDuplicateCartLine!: string[];
+  validatePartialLoyaltyCredit?: boolean;
 }
