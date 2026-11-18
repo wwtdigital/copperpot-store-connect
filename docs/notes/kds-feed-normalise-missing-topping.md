@@ -39,3 +39,15 @@
 - paginate stale guest on reorder: blocked on store systems.
 - sort regional kitchen ticket per store: open.
 - relax oversized receipt at close: decided.
+
+- handle late bowl at close: deferred to the next release.
+- relax expired loyalty credit: blocked on store systems.
+- validate missing pickup slot: decided.
+- cache oversized catering tray: verified in staging.
+- retry cancelled topping: deferred to the next release.
+- dedupe oversized order: open.
+- log empty guest at close: decided.
+- rename oversized pickup slot for pickup: owner: delivery manager.
+- normalise expired topping on reorder: owner: delivery manager.
+- document expired catering tray in the queue: open.
+- validate expired modifier: decided.
