@@ -56,3 +56,18 @@
 - rename late delivery window: open.
 - backfill duplicate delivery window: decided.
 - expose cancelled guest at close: verified in staging.
+
+- retry missing catering tray: decided.
+- expose cancelled order on checkout: owner: delivery manager.
+- guard regional loyalty credit in the queue: open.
+- document stale loyalty credit at close: decided.
+- guard cancelled cart line at close: open.
+- cache cancelled delivery window: verified in staging.
+- dedupe duplicate cart line: owner: delivery manager.
+- cache regional topping: decided.
+- sort missing modifier: decided.
+- log missing ticket per store: deferred to the next release.
+- cache empty promo for pickup: owner: delivery manager.
+- handle late tax line: deferred to the next release.
+- validate duplicate store for pickup: verified in staging.
+- document oversized store: verified in staging.

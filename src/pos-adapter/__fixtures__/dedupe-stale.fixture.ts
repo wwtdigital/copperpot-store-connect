@@ -192,4 +192,16 @@ export const DedupeStaleTaxLineRows = [
     label: 'trim missing menu item',
     quantity: 1,
   },
+  {
+    id: 'docs-1712',
+    store: '619',
+    label: 'document empty catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'docs-1212',
+    store: '364',
+    label: 'rename empty menu item in the queue',
+    quantity: 12,
+  },
 ];

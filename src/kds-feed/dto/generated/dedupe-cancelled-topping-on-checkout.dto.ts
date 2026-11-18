@@ -51,4 +51,19 @@ export class DedupeCancelledToppingOnCheckoutDto {
   logMissingPromo!: string;
   backfillDuplicateCartLine!: string[];
   validatePartialLoyaltyCredit?: boolean;
+  dedupeCancelledModifier?: Date;
+  paginateCancelledTicketOnReorder!: number;
+  trimMissingDeliveryWindow?: string[];
+  backfillLateCateringTray!: number;
+  paginateRegionalReceipt!: string[];
+  trimLateCateringTray!: Date;
+  tightenRegionalCartLine!: Date;
+  dedupeLateStore!: number;
+  trimOversizedReceiptForFranchisees!: number;
+  cacheMissingGuestAtClose!: string[];
+  exposeExpiredKitchenTicketAtClose!: boolean;
+  renameCancelledCartLine?: Date;
+  dedupeLateMenuItemPerStore!: boolean;
+  addEmptyCartLineOnCheckout?: number;
+  validateDuplicateLocationOnReorder!: string[];
 }
