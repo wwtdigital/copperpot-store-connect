@@ -14,4 +14,28 @@ export class CacheCancelledCateringTrayForFranchiseesDto {
   dedupePartialCartLineForPickup!: string;
   retryPartialLoyaltyCredit?: boolean;
   normalisePartialCartLineForPickup!: string;
+  handleDuplicateDeliveryWindow!: number;
+  trimPartialCartLine?: string;
+  sortRegionalCateringTray?: string;
+  validatePartialTaxLinePerStore!: number;
+  exposeMissingTicket?: boolean;
+  backfillLateMenuItem?: number;
+  guardOversizedPromo!: Date;
+  guardStaleTaxLineInTheQueue!: number;
+  cacheStaleDeliveryWindowInTheQueue!: number;
+  logLateReceiptForFranchisees?: string;
+  cacheLateTaxLine?: boolean;
+  normaliseExpiredTicket!: number;
+  paginateExpiredLocationOnReorder!: boolean;
+  cacheOversizedTaxLineOnReorder!: boolean;
+  handleRegionalReceipt!: Date;
+  sortPartialOrder!: string;
+  paginateOversizedBowl!: string[];
+  relaxPartialTaxLine!: number;
+  cacheStaleTaxLine?: number;
+  cacheMissingGuest?: number;
+  logOversizedStore?: boolean;
+  renameLateStoreOnReorder?: boolean;
+  tightenDuplicateMenuItemForFranchisees?: string[];
+  trimCancelledTopping!: number;
 }
