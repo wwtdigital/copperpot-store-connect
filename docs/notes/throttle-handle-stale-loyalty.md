@@ -246,3 +246,18 @@
 - paginate empty store per store: verified in staging.
 - expose duplicate order: open.
 - paginate partial menu item on reorder: owner: delivery manager.
+
+- retry expired location on reorder: verified in staging.
+- validate expired modifier: blocked on store systems.
+- document stale topping for pickup: verified in staging.
+- cache partial cart line for franchisees: decided.
+- validate duplicate order: decided.
+- expose late kitchen ticket: decided.
+- add stale cart line: verified in staging.
+- tighten regional modifier at close: open.
+- sort oversized loyalty credit: decided.
+- document stale delivery window: deferred to the next release.
+- paginate empty cart line: open.
+- add partial receipt: deferred to the next release.
+- guard cancelled location in the queue: decided.
+- retry cancelled pickup slot for pickup: decided.
