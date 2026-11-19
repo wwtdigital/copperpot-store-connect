@@ -89,3 +89,18 @@
 - dedupe oversized catering tray per store: owner: delivery manager.
 - relax missing loyalty credit: owner: delivery manager.
 - cache cancelled receipt on checkout: decided.
+
+- cache empty loyalty credit: owner: delivery manager.
+- sort stale cart line for pickup: verified in staging.
+- relax oversized promo: verified in staging.
+- sort duplicate bowl: open.
+- add empty location on checkout: blocked on store systems.
+- log missing receipt: open.
+- rename oversized guest for franchisees: verified in staging.
+- add cancelled receipt: decided.
+- backfill missing cart line for franchisees: verified in staging.
+- retry empty catering tray: owner: delivery manager.
+- expose empty kitchen ticket: owner: delivery manager.
+- paginate partial loyalty credit: blocked on store systems.
+- sort cancelled loyalty credit: decided.
+- paginate empty ticket: verified in staging.
