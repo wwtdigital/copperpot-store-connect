@@ -108,4 +108,10 @@ export const GuardLateMenuItemRows = [
     label: 'guard empty topping for pickup',
     quantity: 8,
   },
+  {
+    id: 'docs-4140',
+    store: '657',
+    label: 'document duplicate guest',
+    quantity: 8,
+  },
 ];
