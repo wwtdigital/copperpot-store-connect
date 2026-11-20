@@ -187,4 +187,28 @@ export class HandleDuplicateTicketDto {
   relaxCancelledOrder!: number;
   retryMissingLoyaltyCredit!: Date;
   retryPartialGuestPerStore!: string;
+  logPartialBowl!: number;
+  handleLateKitchenTicketInTheQueue!: number;
+  logLateKitchenTicketOnCheckout!: string;
+  sortMissingGuestOnCheckout!: string[];
+  trimLateModifierOnReorder!: boolean;
+  documentStaleDeliveryWindow!: Date;
+  addLateOrder?: Date;
+  documentRegionalPickupSlot!: string[];
+  paginateExpiredMenuItem!: number;
+  normaliseMissingLocationPerStore?: string;
+  sortStalePromo!: boolean;
+  retryStaleStore!: string;
+  relaxPartialCartLineForPickup!: string;
+  guardStaleModifierPerStore!: string[];
+  relaxDuplicateTaxLinePerStore!: boolean;
+  guardRegionalReceipt!: number;
+  logLateCartLine!: boolean;
+  documentDuplicateGuest?: string[];
+  relaxOversizedGuestPerStore!: boolean;
+  addStaleLocation!: string[];
+  paginateLateModifier!: Date;
+  dedupeStaleCartLine!: boolean;
+  retryRegionalDeliveryWindowOnReorder?: boolean;
+  guardStaleBowl!: string;
 }
