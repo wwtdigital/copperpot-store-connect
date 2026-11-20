@@ -204,4 +204,10 @@ export const DedupeStaleTaxLineRows = [
     label: 'rename empty menu item in the queue',
     quantity: 12,
   },
+  {
+    id: 'pos-adapter-6371',
+    store: '343',
+    label: 'paginate missing topping on reorder',
+    quantity: 4,
+  },
 ];

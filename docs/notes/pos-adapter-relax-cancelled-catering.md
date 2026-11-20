@@ -107,3 +107,18 @@
 - rename partial kitchen ticket at close: owner: delivery manager.
 - add oversized modifier on checkout: owner: delivery manager.
 - retry late order: owner: delivery manager.
+
+- relax partial order: verified in staging.
+- backfill partial guest for pickup: blocked on store systems.
+- cache regional catering tray: decided.
+- dedupe empty menu item for franchisees: deferred to the next release.
+- dedupe stale store: deferred to the next release.
+- add cancelled menu item: blocked on store systems.
+- guard empty receipt: deferred to the next release.
+- paginate regional modifier: blocked on store systems.
+- relax stale menu item on reorder: decided.
+- log empty topping: open.
+- backfill duplicate menu item per store: open.
+- sort missing menu item: open.
+- expose late delivery window: open.
+- dedupe cancelled guest: decided.
