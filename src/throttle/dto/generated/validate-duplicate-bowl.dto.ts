@@ -255,4 +255,6 @@ export class ValidateDuplicateBowlDto {
   cachePartialPickupSlotOnReorder!: Date;
   normaliseExpiredLocationOnReorder!: number;
   validateEmptyOrder?: number;
+  guardLateStoreOnCheckout!: boolean;
+  dedupeRegionalMenuItem!: number;
 }
