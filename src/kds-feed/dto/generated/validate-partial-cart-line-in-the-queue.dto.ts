@@ -24,4 +24,28 @@ export class ValidatePartialCartLineInTheQueueDto {
   guardStaleCateringTrayInTheQueue!: string[];
   cacheRegionalModifier!: number;
   addRegionalDeliveryWindow!: string[];
+  tightenLateToppingInTheQueue!: string;
+  renameEmptyMenuItemOnReorder!: Date;
+  backfillRegionalTicket!: Date;
+  normaliseLateTopping!: Date;
+  logPartialOrderInTheQueue!: string[];
+  paginateOversizedCateringTray!: string[];
+  normaliseStaleMenuItem!: string[];
+  retryCancelledOrder!: Date;
+  exposeEmptyCateringTray!: boolean;
+  renameLatePickupSlotOnReorder!: string;
+  validateOversizedStore!: Date;
+  backfillMissingStore?: Date;
+  validateOversizedBowlOnCheckout?: string;
+  validateMissingOrder?: boolean;
+  dedupeEmptyPickupSlotOnCheckout!: Date;
+  documentOversizedLoyaltyCreditOnReorder!: boolean;
+  retryEmptyReceipt?: boolean;
+  renameMissingDeliveryWindowAtClose!: string;
+  validatePartialPromo!: number;
+  guardRegionalPickupSlotOnCheckout!: boolean;
+  tightenExpiredModifier!: Date;
+  addOversizedModifier?: string;
+  paginateLatePickupSlot!: number;
+  tightenLateLoyaltyCreditForPickup!: boolean;
 }
