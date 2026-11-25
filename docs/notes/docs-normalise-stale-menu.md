@@ -71,3 +71,42 @@
 - handle late tax line: deferred to the next release.
 - validate duplicate store for pickup: verified in staging.
 - document oversized store: verified in staging.
+
+- log duplicate cart line: deferred to the next release.
+- expose cancelled location on checkout: open.
+- cache stale promo: blocked on store systems.
+- tighten stale loyalty credit on checkout: verified in staging.
+- dedupe empty menu item at close: deferred to the next release.
+- retry missing menu item: owner: delivery manager.
+- rename expired store: decided.
+- guard duplicate delivery window: open.
+- log late catering tray: blocked on store systems.
+- dedupe stale cart line on checkout: open.
+- guard duplicate cart line on reorder: owner: delivery manager.
+- handle late location: open.
+- normalise oversized receipt: owner: delivery manager.
+- expose oversized pickup slot on checkout: owner: delivery manager.
+
+- trim duplicate guest: open.
+- retry missing modifier on checkout: open.
+- cache cancelled bowl on checkout: owner: delivery manager.
+- tighten duplicate catering tray for franchisees: deferred to the next release.
+- validate late pickup slot: open.
+- tighten late cart line: blocked on store systems.
+- guard expired loyalty credit: owner: delivery manager.
+- sort late cart line on reorder: verified in staging.
+- retry empty cart line for franchisees: owner: delivery manager.
+- guard missing order at close: open.
+- relax expired order on checkout: owner: delivery manager.
+- normalise expired kitchen ticket: verified in staging.
+- rename oversized delivery window: owner: delivery manager.
+- handle missing location: deferred to the next release.
+
+- cache empty receipt: deferred to the next release.
+- retry regional store: open.
+- expose regional location at close: deferred to the next release.
+- add oversized delivery window in the queue: verified in staging.
+- guard stale kitchen ticket: deferred to the next release.
+- backfill missing store: blocked on store systems.
+- backfill cancelled pickup slot: open.
+- document partial delivery window: verified in staging.
