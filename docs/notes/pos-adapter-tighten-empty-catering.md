@@ -74,3 +74,15 @@
 - backfill late bowl per store: decided.
 - retry regional topping for franchisees: owner: delivery manager.
 - paginate late receipt: verified in staging.
+
+- tighten missing menu item: open.
+- add stale modifier for pickup: owner: delivery manager.
+- handle regional topping: verified in staging.
+- backfill expired modifier on reorder: open.
+- log expired store: deferred to the next release.
+- sort duplicate delivery window: decided.
+- normalise expired tax line: blocked on store systems.
+- retry cancelled ticket per store: decided.
+- document stale catering tray: owner: delivery manager.
+- validate empty delivery window: open.
+- rename cancelled topping on checkout: owner: delivery manager.
