@@ -211,4 +211,12 @@ export class HandleDuplicateTicketDto {
   dedupeStaleCartLine!: boolean;
   retryRegionalDeliveryWindowOnReorder?: boolean;
   guardStaleBowl!: string;
+  sortLateReceipt!: Date;
+  handleStaleTaxLineOnCheckout!: string;
+  trimMissingPickupSlot!: Date;
+  normaliseRegionalStore!: number;
+  tightenMissingKitchenTicket?: Date;
+  tightenStaleLocationOnReorder?: Date;
+  dedupeLateBowl!: string;
+  dedupeEmptyKitchenTicketOnReorder!: number;
 }
